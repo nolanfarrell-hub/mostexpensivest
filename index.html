@@ -20,38 +20,39 @@ a{color:inherit}
 .top-rule{height:3px;background:var(--ink)}
 
 /* ============ MASTHEAD ============ */
-.masthead{text-align:center;padding:46px 24px 24px;border-bottom:1px solid var(--line)}
+.masthead{text-align:center;padding:52px 24px 26px;border-bottom:1px solid var(--line)}
 .masthead .me{font-family:'Space Grotesk',sans-serif;font-weight:700;font-size:clamp(56px,14vw,170px);letter-spacing:-2px;line-height:.88;display:flex;align-items:center;justify-content:center;color:var(--ink)}
 .masthead .me .dot{font-weight:500;color:var(--brass);font-size:.45em;margin:0 .04em;line-height:1}
 .masthead h1{font-size:0;height:0;margin:0;overflow:hidden}
+.masthead .sub{margin-top:18px;font-size:12px;letter-spacing:4px;text-transform:uppercase;color:var(--muted)}
 
 /* ============ SEARCH ============ */
-.search{max-width:640px;margin:0 auto;padding:26px 20px 8px}
+.search{max-width:640px;margin:0 auto;padding:24px 20px 6px}
 .searchbox{display:flex;align-items:center;gap:10px;border:1px solid var(--ink);background:var(--paper);padding:14px 18px}
 .searchbox input{flex:1;border:none;outline:none;background:transparent;font-family:'Inter',sans-serif;font-size:14px;color:var(--ink)}
 .searchbox input::placeholder{color:var(--faint)}
 .searchbox .go{font-family:'Space Grotesk',sans-serif;font-size:12px;letter-spacing:2px;text-transform:uppercase;color:var(--verde-soft);border:none;background:none;cursor:pointer;font-weight:700}
 .searchbox .go:hover{color:var(--brass-dark)}
 
-/* ============ GALLERY ============ */
-.gallery{max-width:1320px;margin:0 auto;padding:30px 20px 6px}
+/* ============ CATEGORIES ============ */
+.cats{max-width:1320px;margin:0 auto;padding:40px 20px 10px}
+.catgrid{display:grid;grid-template-columns:repeat(4,1fr);gap:0}
+.cat{border:1px solid var(--line);margin-top:-1px;margin-left:-1px;padding:34px 28px;background:var(--paper);text-decoration:none;display:block;transition:background .16s}
+.cat .no{font-family:'Space Grotesk',sans-serif;font-size:11px;letter-spacing:2px;color:var(--brass);display:block;margin-bottom:14px}
+.cat h4{font-family:'Space Grotesk',sans-serif;font-weight:700;font-size:23px;letter-spacing:.5px;margin-bottom:8px;transition:color .14s}
+.cat .meta{font-size:11px;letter-spacing:2px;text-transform:uppercase;color:var(--muted);line-height:1.7}
+.cat .meta b{color:var(--brass-dark);font-weight:600}
+.cat:hover{background:var(--cream)}
+.cat:hover h4{color:var(--verde-soft)}
+.cat.sell{background:var(--ink);color:var(--paper);border-top:3px solid var(--brass);display:flex;flex-direction:column;justify-content:center}
+.cat.sell h4{color:var(--paper)}
+.cat.sell .meta{color:#c9bfa8}
+.cat.sell .meta b{color:var(--brass);font-weight:700}
 
-.feat{position:relative;margin:0 0 18px;border:1px solid var(--line);overflow:hidden;text-decoration:none;display:block}
-.feat img{width:100%;height:clamp(280px,42vw,520px);object-fit:cover;display:block}
-.feat .cap{position:absolute;left:0;right:0;bottom:0;padding:52px 30px 26px;background:linear-gradient(to top,rgba(14,12,7,.9),rgba(14,12,7,0));color:var(--paper)}
-.feat .cap .tag{font-size:10px;letter-spacing:4px;text-transform:uppercase;color:var(--brass);margin-bottom:10px}
-.feat .cap h2{font-family:'Space Grotesk',sans-serif;font-weight:700;font-size:clamp(26px,4vw,44px);letter-spacing:.5px;line-height:1.05;margin-bottom:6px}
-.feat .cap .meta{font-size:12px;letter-spacing:1px;color:#d9cfae}
-
-.catgrid{display:grid;grid-template-columns:repeat(4,1fr);gap:16px}
-.tile{position:relative;border:1px solid var(--line);overflow:hidden;background:var(--paper);text-decoration:none;display:block}
-.tile img{width:100%;height:210px;object-fit:cover;display:block;transition:transform .6s ease}
-.tile:hover img{transform:scale(1.06)}
-.tile .tcap{padding:16px 18px 18px;background:var(--paper)}
-.tile .tcap h4{font-family:'Space Grotesk',sans-serif;font-weight:700;font-size:19px;letter-spacing:.5px;margin-bottom:4px;transition:color .15s}
-.tile .tcap .meta{font-size:11px;letter-spacing:2px;text-transform:uppercase;color:var(--muted)}
-.tile .tcap .meta b{color:var(--brass-dark);font-weight:600}
-.tile:hover .tcap h4{color:var(--verde-soft)}
+/* ============ STATEMENT ============ */
+.statement{max-width:1320px;margin:0 auto;padding:64px 24px 34px;text-align:center}
+.statement .rule{width:64px;height:1px;background:var(--brass);margin:0 auto 26px}
+.statement p{font-family:'Cormorant Garamond',serif;font-style:italic;font-size:clamp(19px,2.6vw,26px);color:var(--ink2);line-height:1.5;max-width:820px;margin:0 auto}
 
 /* ============ FOOTER ============ */
 footer{max-width:1320px;margin:60px auto 0;padding:44px 30px 28px;display:grid;grid-template-columns:repeat(3,1fr);gap:30px;border-top:1px solid var(--line)}
@@ -61,7 +62,7 @@ footer{max-width:1320px;margin:60px auto 0;padding:44px 30px 28px;display:grid;g
 .copyright{max-width:1320px;margin:0 auto;padding:0 30px 36px;text-align:center;font-size:11px;color:var(--faint);letter-spacing:1px}
 
 @media(max-width:1000px){.catgrid{grid-template-columns:1fr 1fr}}
-@media(max-width:560px){.catgrid{grid-template-columns:1fr}.tile img{height:190px}}
+@media(max-width:560px){.catgrid{grid-template-columns:1fr}}
 </style>
 </head>
 <body>
@@ -71,6 +72,7 @@ footer{max-width:1320px;margin:60px auto 0;padding:44px 30px 28px;display:grid;g
 <header class="masthead">
   <div class="me">M<span class="dot">·</span>E</div>
   <h1>The Most Expensivest</h1>
+  <div class="sub">Luxury · Without Borders</div>
 </header>
 
 <!-- SEARCH -->
@@ -81,57 +83,32 @@ footer{max-width:1320px;margin:60px auto 0;padding:44px 30px 28px;display:grid;g
   </div>
 </div>
 
-<!-- GALLERY -->
-<div class="gallery">
-
-  <a class="feat" href="sea.html">
-    <img src="media/img/sea.png" alt="Yacht at mooring, Mediterranean"/>
-    <div class="cap">
-      <div class="tag">The Sea</div>
-      <h2>Yachts, for sale and for charter</h2>
-      <div class="meta">From sixty metres to a classic wooden line — by the mooring, not the marina.</div>
-    </div>
-  </a>
-
+<!-- CATEGORIES -->
+<div class="cats">
   <div class="catgrid">
-    <a class="tile" href="time.html">
-      <img src="media/img/time.png" alt="A rare dress watch"/>
-      <div class="tcap"><h4>Time</h4><div class="meta">Rare watches · <b>for sale</b></div></div>
-    </a>
-    <a class="tile" href="table.html">
-      <img src="media/img/table.png" alt="Whisky and a cigar"/>
-      <div class="tcap"><h4>The Table</h4><div class="meta">Cigars · spirits · <b>cellars</b></div></div>
-    </a>
-    <a class="tile" href="road.html">
-      <img src="media/img/road.png" alt="A classic grand tourer"/>
-      <div class="tcap"><h4>The Road</h4><div class="meta">Motorcars · <b>new &amp; classic</b></div></div>
-    </a>
-    <a class="tile" href="estate.html">
-      <img src="media/img/estate.png" alt="A country manor at morning"/>
-      <div class="tcap"><h4>Home &amp; Grounds</h4><div class="meta">Estates · <b>worldwide</b></div></div>
-    </a>
-    <a class="tile" href="field.html">
-      <img src="media/img/field.png" alt="Shotguns on the moor at dawn"/>
-      <div class="tcap"><h4>The Field</h4><div class="meta">Sporting life · <b>by invitation</b></div></div>
-    </a>
-    <a class="tile" href="style.html">
-      <img src="media/img/style.png" alt="A tailor's atelier"/>
-      <div class="tcap"><h4>Style</h4><div class="meta">Tailoring · jewelry · <b>for him &amp; her</b></div></div>
-    </a>
-    <a class="tile" href="library.html">
-      <img src="media/img/library.png" alt="A private library study"/>
-      <div class="tcap"><h4>The Library</h4><div class="meta">Collections · <b>private</b></div></div>
-    </a>
-    <a class="tile" href="mailto:me@mostexpensivest.com" style="display:flex;flex-direction:column;justify-content:center;align-items:flex-start;min-height:262px">
-      <div class="tcap" style="background:var(--ink);color:var(--paper);flex:1;display:flex;flex-direction:column;justify-content:center;border-top:3px solid var(--brass)"><h4 style="color:var(--paper)">Sell With Us</h4><div class="meta" style="color:#c9bfa8">Place a piece · <b style="color:var(--brass)">by appointment</b></div></div>
-    </a>
+    <a class="cat" href="time.html"><span class="no">01</span><h4>Time</h4><div class="meta">Rare watches · <b>for sale</b></div></a>
+    <a class="cat" href="table.html"><span class="no">02</span><h4>The Table</h4><div class="meta">Cigars · spirits · <b>cellars</b></div></a>
+    <a class="cat" href="sea.html"><span class="no">03</span><h4>The Sea</h4><div class="meta">Yachts · <b>sale &amp; charter</b></div></a>
+    <a class="cat" href="road.html"><span class="no">04</span><h4>The Road</h4><div class="meta">Motorcars · <b>new &amp; classic</b></div></a>
+    <a class="cat" href="estate.html"><span class="no">05</span><h4>Home &amp; Grounds</h4><div class="meta">Estates · <b>worldwide</b></div></a>
+    <a class="cat" href="field.html"><span class="no">06</span><h4>The Field</h4><div class="meta">Sporting life · <b>by invitation</b></div></a>
+    <a class="cat" href="style.html"><span class="no">07</span><h4>Style</h4><div class="meta">Tailoring · jewelry · <b>for him &amp; her</b></div></a>
+    <a class="cat" href="library.html"><span class="no">08</span><h4>The Library</h4><div class="meta">The concierge · <b>by appointment</b></div></a>
+    <a class="cat sell" href="mailto:me@mostexpensivest.com"><span class="no">—</span><h4>Sell With Us</h4><div class="meta">Place a piece · <b>by appointment</b></div></a>
+    <a class="cat" href="library.html"><span class="no">09</span><h4>Acquire</h4><div class="meta">Buyers · <b>matched privately</b></div></a>
   </div>
+</div>
+
+<!-- STATEMENT -->
+<div class="statement">
+  <div class="rule"></div>
+  <p>Every piece is real, held privately, and placed by introduction. The object is the proof; the material carries the exclusivity.</p>
 </div>
 
 <!-- FOOTER -->
 <footer>
   <div class="foot-col"><h5>Categories</h5><a href="time.html">Time</a><a href="table.html">The Table</a><a href="sea.html">The Sea</a><a href="road.html">The Road</a><a href="estate.html">Home &amp; Grounds</a><a href="field.html">The Field</a><a href="style.html">Style</a><a href="library.html">The Library</a></div>
-  <div class="foot-col"><h5>The House</h5><a href="#">About</a><a href="#">How It Works</a><a href="#">Buyers</a><a href="#">Sellers</a><a href="#">Press</a></div>
+  <div class="foot-col"><h5>The House</h5><a href="#">About</a><a href="library.html">How It Works</a><a href="#">Buyers</a><a href="#">Sellers</a><a href="#">Press</a></div>
   <div class="foot-col"><h5>Correspondence</h5><p>The West of Ireland<br/>and wherever you are</p><a href="mailto:me@mostexpensivest.com">me@mostexpensivest.com</a></div>
 </footer>
 <div class="copyright">© ME, MMXXVI</div>
