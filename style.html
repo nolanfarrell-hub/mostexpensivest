@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8"/>
+<meta name="viewport" content="width=device-width,initial-scale=1"/>
+<title>The Most Expensivest · Style</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;700&family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;1,400;1,500&family=Inter:wght@300;400;500&display=swap" rel="stylesheet">
+<style>
+:root{--cream:#f4efe6;--paper:#fcf7ef;--ink:#1b1812;--ink2:#413a2e;--muted:#8d846f;--brass:#a58a4b;--brass-dark:#896f3f;--line:#e2d9c6;--faint:#c9bea2;--verde:#394a3a;--verde-soft:#54685a}
+*{margin:0;padding:0;box-sizing:border-box}html{scroll-behavior:smooth}
+body{background:var(--cream);color:var(--ink);font-family:'Inter',sans-serif;-webkit-font-smoothing:antialiased;line-height:1.65}
+a{color:inherit}.top-rule{height:3px;background:var(--ink)}
+.dep-head{text-align:center;padding:50px 24px 30px;border-bottom:1px solid var(--line)}
+.dep-head .back{font-size:11px;letter-spacing:3px;text-transform:uppercase;color:var(--muted);text-decoration:none;display:block;margin-bottom:22px}
+.dep-head .back:hover{color:var(--verde-soft)}
+.dep-head .kat{font-size:11px;letter-spacing:4px;text-transform:uppercase;color:var(--verde-soft);margin-bottom:14px;font-weight:500}
+.dep-head h1{font-family:'Cormorant Garamond',serif;font-weight:500;font-size:clamp(40px,7vw,74px);letter-spacing:-1px}
+.dep-head .deck{max-width:640px;margin:24px auto 0;font-style:italic;font-family:'Cormorant Garamond',serif;font-size:clamp(17px,2.2vw,21px);color:var(--ink2);line-height:1.5}
+.dept{max-width:1100px;margin:0 auto;padding:40px 26px}
+.grid{display:grid;grid-template-columns:repeat(3,1fr);gap:0}
+.card{padding:26px 24px;border-right:1px solid var(--line);border-top:1px solid var(--line)}
+.grid .card:nth-child(3n+3){border-right:none}
+.card h4{font-family:'Cormorant Garamond',serif;font-weight:600;font-size:22px;line-height:1.2;margin-bottom:8px}
+.card .who{font-size:11px;letter-spacing:2px;text-transform:uppercase;color:var(--muted);margin-bottom:14px}
+.card .what{font-size:13px;color:var(--ink2);line-height:1.55}
+.card .price{display:block;margin-top:16px;font-family:'Cormorant Garamond',serif;font-size:18px;font-weight:500;color:var(--brass-dark)}
+.card:hover{background:var(--paper)}
+.consult{max-width:1100px;margin:0 auto;padding:44px 30px 8px;display:flex;align-items:center;justify-content:space-between;gap:26px;flex-wrap:wrap;border-top:1px solid var(--line)}.consult h4{font-family:'Cormorant Garamond',serif;font-weight:600;font-size:24px;margin-bottom:6px}.consult p{font-size:13px;color:var(--ink2);max-width:640px}.consult .cta a{font-size:11px;letter-spacing:3px;text-transform:uppercase;text-decoration:none;color:var(--verde-soft);font-weight:600;border-bottom:1px solid var(--verde-soft);padding-bottom:4px;white-space:nowrap}
+.bme{font-family:'Space Grotesk',sans-serif;font-weight:700;font-size:22px;letter-spacing:1px;color:var(--ink);display:inline-flex;align-items:baseline;vertical-align:middle}.bme .bd{color:var(--brass);font-weight:500;font-size:.55em;margin:0 2px}
+.backlink{max-width:1100px;margin:0 auto;padding:10px 30px 0}
+.backlink a{font-size:11px;letter-spacing:3px;text-transform:uppercase;text-decoration:none;color:var(--verde-soft)}
+.copyright{max-width:1100px;margin:0 auto;padding:40px 30px;text-align:center;font-size:11px;color:var(--faint);letter-spacing:1px;border-top:1px solid var(--line)}
+@media(max-width:900px){.grid{grid-template-columns:1fr 1fr}.grid .card:nth-child(odd){border-right:none}.grid .card{border-top:1px solid var(--line)}.grid .card:first-child,.grid .card:nth-child(2){border-top:none}}
+@media(max-width:560px){.grid{grid-template-columns:1fr}.grid .card{border-right:none;border-top:1px solid var(--line)}.grid .card:first-child{border-top:none}}
+</style>
+</head>
+<body>
+<div class="top-rule"></div>
+<div class="dep-head">
+  <a class="back" href="index.html"><span class="bme">M<span class="bd">·</span>E</span></a>
+  <div class="kat">Department VII · Tailoring, Jewelry &amp; Leather</div>
+  <h1>Style</h1>
+</div>
+<div class="dept">
+  <div class="grid">
+    <div class="card"><h4>The Bespoke Suit, Her Fit</h4><div class="who">Savile Row &amp; Paris · measured twice</div><p class="what">Three fittings spread over eleven weeks, cut to drape like a rumour. Tailoring that knows the wearer's body better than the wearer does — and never shouts about it.</p><span class="price">bespoke · on request</span></div>
+    <div class="card"><h4>The Atelier Jewel</h4><div class="who">Parisian courtyard · one stone</div><p class="what">A single stone chosen for the person, set by hand in a workshop that accepts one commission at a time. The quietiest way to say it, and the most permanent.</p><span class="price">by commission</span></div>
+    <div class="card"><h4>The Leather Portage</h4><div class="who">one hide, one bag</div><p class="what">A bag cut from a single hide of bridle leather, hand-stitched, no linings to fail. It does not soften with age; it hardens into the shape of your life.</p><span class="price">indicated on request</span></div>
+    <div class="card"><h4>Perfume, Composed</h4><div class="who">Grasse &amp; everywhere · your note</div><p class="what">A scent composed for one person, in a limited run that is essentially a secret. Worn so quietly that only the people closest notice, and they always do.</p><span class="price">by arrangement</span></div>
+    <div class="card"><h4>The Everyday, Raised</h4><div class="who">a wardrobe that outlives trends</div><p class="what">Not one statement piece but a hundred quiet correct ones — the oxford, the polo, the well-worn shoe. The point is that none of it announces itself.</p><span class="price">included</span></div>
+    <div class="card"><h4>The Atelier Inside</h4><div class="who">somewhere private · the made-to-measure secret</div><p class="what">The atelier behind the showroom that makes one commission at a time, for the clients who are never mentioned. The quiet core of the house.</p><span class="price">by arrangement</span></div>
+  </div>
+</div>
+
+<div class="consult">
+  <div><h4>Private Consultation</h4><p>Write to us and be placed with the right maker, in the right city, at the right hour. By appointment, in strictest confidence.</p></div>
+  <div class="cta"><a href="mailto:me@mostexpensivest.com">Begin the Conversation</a></div>
+</div>
+<div class="backlink"><a href="index.html#departments">← All Departments</a></div>
+<div class="copyright">© The Most Expensivest, MMXXVI</div>
+</body>
+</html>

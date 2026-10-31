@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8"/>
+<meta name="viewport" content="width=device-width,initial-scale=1"/>
+<title>ME · The Library</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;700&family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;1,400;1,500&family=Inter:wght@300;400;500&display=swap" rel="stylesheet">
+<style>
+:root{--cream:#f4efe6;--paper:#faf6ec;--ink:#1a1814;--ink2:#3e3a30;--muted:#8a8172;--brass:#a58a4b;--brass-dark:#89703f;--line:#e0d6bf;--faint:#c8be9f;--verde:#33503a;--verde-soft:#4a6a52}
+*{margin:0;padding:0;box-sizing:border-box}html{scroll-behavior:smooth}
+body{background:var(--cream);color:var(--ink);font-family:'Inter',sans-serif;-webkit-font-smoothing:antialiased;line-height:1.65}
+a{color:inherit}.top-rule{height:3px;background:var(--ink)}
+.dep-head{text-align:center;padding:50px 24px 30px;border-bottom:1px solid var(--line)}
+.dep-head .back{font-size:11px;letter-spacing:3px;text-transform:uppercase;color:var(--muted);text-decoration:none;display:block;margin-bottom:22px}
+.dep-head .back:hover{color:var(--verde-soft)}
+.dep-head .kat{font-size:11px;letter-spacing:4px;text-transform:uppercase;color:var(--verde-soft);margin-bottom:14px;font-weight:500}
+.dep-head h1{font-family:'Space Grotesk',sans-serif;font-weight:700;font-size:clamp(40px,7vw,74px);letter-spacing:-1px}
+.dept{max-width:1100px;margin:0 auto;padding:40px 26px}
+.lead{max-width:680px;margin:0 auto 36px;text-align:center}
+.lead p{font-family:'Cormorant Garamond',serif;font-style:italic;font-size:clamp(18px,2.2vw,22px);color:var(--ink2);line-height:1.5}
+.grid{display:grid;grid-template-columns:repeat(3,1fr);gap:0}
+.card{padding:28px 26px;border-right:1px solid var(--line);border-top:1px solid var(--line)}
+.grid .card:nth-child(3n+3){border-right:none}
+.card h4{font-family:'Space Grotesk',sans-serif;font-weight:700;font-size:19px;letter-spacing:.5px;margin-bottom:8px}
+.card .what{font-size:13px;color:var(--ink2);line-height:1.55}
+.card:hover{background:var(--paper)}
+.contact{max-width:1100px;margin:0 auto;padding:52px 30px;text-align:center;border-top:1px solid var(--line)}
+.contact h3{font-family:'Space Grotesk',sans-serif;font-weight:700;font-size:clamp(24px,3vw,34px);margin-bottom:14px}
+.contact .addr{display:inline-block;font-family:'Space Grotesk',sans-serif;font-weight:700;font-size:clamp(20px,3vw,30px);color:var(--verde-soft);text-decoration:none;border-bottom:2px solid var(--brass);padding-bottom:6px}
+.contact .addr:hover{color:var(--brass-dark)}
+.contact p{color:var(--muted);font-size:13px;margin-top:16px}
+.backlink{max-width:1100px;margin:0 auto;padding:10px 30px 0}
+.backlink a{font-size:11px;letter-spacing:3px;text-transform:uppercase;text-decoration:none;color:var(--verde-soft)}
+.copyright{max-width:1100px;margin:0 auto;padding:40px 30px;text-align:center;font-size:11px;color:var(--faint);letter-spacing:1px;border-top:1px solid var(--line)}
+@media(max-width:900px){.grid{grid-template-columns:1fr 1fr}.grid .card:nth-child(odd){border-right:none}.grid .card{border-top:1px solid var(--line)}.grid .card:first-child,.grid .card:nth-child(2){border-top:none}}
+@media(max-width:560px){.grid{grid-template-columns:1fr}.grid .card{border-right:none;border-top:1px solid var(--line)}.grid .card:first-child{border-top:none}}
+</style>
+</head>
+<body>
+<div class="top-rule"></div>
+<div class="dep-head">
+  <a class="back" href="index.html"><span class="bme" style="font-family:'Space Grotesk',sans-serif;font-weight:700;font-size:22px;letter-spacing:1px;color:var(--ink);display:inline-flex;align-items:baseline;vertical-align:middle">M<span style="color:var(--brass);font-weight:500;font-size:.55em;margin:0 2px">·</span>E</span></a>
+  <div class="kat">The Concierge Desk</div>
+  <h1>The Library</h1>
+</div>
+<div class="dept">
+  <div class="lead"><p>One address for everything on ME. Tell us what you want to acquire, sell, charter, arrange, or simply find — we do the rest, anywhere in the world, in confidence.</p></div>
+  <div class="grid">
+    <div class="card"><h4>Source</h4><div class="what">A rare watch, a classic motorcar, a private estate, a season on the moor — obtained for you, or sold on your behalf.</div></div>
+    <div class="card"><h4>Arrange</h4><div class="what">Charters, viewings, fittings, tastings, invitations. Placed with the right people at the right hour.</div></div>
+    <div class="card"><h4>Advise</h4><div class="what">Plain counsel on what to buy and what to let pass — no agenda, no commission pressure, just the honest answer.</div></div>
+    <div class="card"><h4>Sell</h4><div class="what">A piece you own and wish to place, matched with a serious buyer and handled end to end, discretely.</div></div>
+    <div class="card"><h4>Open a Door</h4><div class="what">A maker, a gallery, a house, a club that keeps its door unmarked — we get you through it, by introduction.</div></div>
+    <div class="card"><h4>Find Anything</h4><div class="what">If it exists and can be owned or experienced, we will locate it or tell you honestly why it cannot.</div></div>
+  </div>
+</div>
+<div class="contact">
+  <h3>Write to the Librarian</h3>
+  <a class="addr" href="mailto:me@mostexpensivest.com">me@mostexpensivest.com</a>
+  <p>All enquiries are read personally, answered without delay, and kept in confidence.</p>
+</div>
+<div class="backlink"><a href="index.html#departments">← All Departments</a></div>
+<div class="copyright">© ME, MMXXVI</div>
+</body>
+</html>
