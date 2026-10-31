@@ -36,10 +36,47 @@ a{color:inherit}.top-rule{height:3px;background:var(--ink)}
 .copyright{max-width:1100px;margin:0 auto;padding:40px 30px;text-align:center;font-size:11px;color:var(--faint);letter-spacing:1px;border-top:1px solid var(--line)}
 @media(max-width:900px){.grid{grid-template-columns:1fr 1fr}.grid .card:nth-child(odd){border-right:none}.grid .card{border-top:1px solid var(--line)}.grid .card:first-child,.grid .card:nth-child(2){border-top:none}}
 @media(max-width:560px){.grid{grid-template-columns:1fr}.grid .card{border-right:none;border-top:1px solid var(--line)}.grid .card:first-child{border-top:none}}
+
+/* ============ PRIVATE GATE ============ */
+.gate{max-width:560px;margin:8vh auto 0;padding:40px 30px;text-align:center;border:1px solid var(--line);background:var(--paper)}
+.gate .mk{font-size:11px;letter-spacing:4px;text-transform:uppercase;color:var(--brass);margin-bottom:14px;font-weight:600}
+.gate h2{font-family:'Cormorant Garamond',serif;font-weight:600;font-size:clamp(24px,3vw,32px);margin-bottom:12px}
+.gate p{color:var(--ink2);font-size:14px;margin:0 auto 22px;max-width:420px;line-height:1.6}
+.gate .key{display:flex;justify-content:center;border-bottom:2px solid var(--ink);max-width:360px;margin:0 auto 12px}
+.gate .key input{flex:1;background:transparent;border:none;outline:none;font-family:'Inter',sans-serif;font-size:15px;color:var(--ink);padding:8px 0;text-align:center;letter-spacing:2px}
+.gate .key input::placeholder{color:var(--faint);letter-spacing:1px}
+.gate .enter{background:transparent;border:none;cursor:pointer;font-family:'Space Grotesk',sans-serif;font-size:12px;letter-spacing:3px;text-transform:uppercase;color:var(--verde-soft);font-weight:700;padding:8px 0 8px 14px}
+.gate .enter:hover{color:var(--brass-dark)}
+.gate .err{margin-top:10px;font-size:12px;color:var(--oxblood,#8a2f24);letter-spacing:1px;min-height:16px}
+.gate .alt{margin-top:20px;font-size:12px;color:var(--muted)}
+.gate .alt a{color:var(--verde-soft);text-decoration:none;border-bottom:1px solid var(--verde-soft)}
+.gate .alt a:hover{color:var(--brass-dark)}
+.gate-note{margin-top:18px;text-align:center;font-size:11px;color:var(--faint);letter-spacing:1px}
+.shell{display:none}
+.shell.open{display:block}
+.library{display:none}
+.library.open{display:block}
 </style>
 </head>
 <body>
 <div class="top-rule"></div>
+
+<!-- PRIVATE GATE -->
+<div class="shell open" id="gateScreen">
+  <div class="gate">
+    <div class="mk">ME · The Library</div>
+    <h2>By Invitation</h2>
+    <p>The concierge desk is private. If you have been given the key, enter it below. Otherwise, write to the Librarian and an introduction will be arranged.</p>
+    <div class="key"><input type="password" id="gateKey" placeholder="The key" aria-label="Library key"/><button class="enter" id="gateBtn">Enter</button></div>
+    <div class="err" id="gateErr"></div>
+    <div class="alt">Prefer a person? <a href="mailto:me@mostexpensivest.com">Write to the Librarian</a></div>
+  </div>
+  <div class="gate-note">Private surface · by introduction</div>
+</div>
+
+<!-- LIBRARY CONTENT -->
+<div class="library" id="libraryBody">
+
 <div class="dep-head">
   <a class="back" href="index.html"><span class="bme" style="font-family:'Space Grotesk',sans-serif;font-weight:700;font-size:22px;letter-spacing:1px;color:var(--ink);display:inline-flex;align-items:baseline;vertical-align:middle">M<span style="color:var(--brass);font-weight:500;font-size:.55em;margin:0 2px">·</span>E</span></a>
   <div class="kat">The Concierge Desk</div>
@@ -61,7 +98,26 @@ a{color:inherit}.top-rule{height:3px;background:var(--ink)}
   <a class="addr" href="mailto:me@mostexpensivest.com">me@mostexpensivest.com</a>
   <p>All enquiries are read personally, answered without delay, and kept in confidence.</p>
 </div>
+
+</div>
 <div class="backlink"><a href="index.html#departments">← All Departments</a></div>
 <div class="copyright">© ME, MMXXVI</div>
+
+<script>
+(function(){
+  var KEY = "quietmoney"; // set by owner — replace with the real key before go-live
+  var gate = document.getElementById("gateScreen");
+  var body = document.getElementById("libraryBody");
+  var err = document.getElementById("gateErr");
+  function unlock(){ gate.classList.remove("open"); body.classList.add("open"); }
+  function tryUnlock(){
+    var v = document.getElementById("gateKey").value.trim();
+    if(v === KEY){ unlock(); }
+    else { err.textContent = "That is not the key."; }
+  }
+  document.getElementById("gateBtn").addEventListener("click", tryUnlock);
+  document.getElementById("gateKey").addEventListener("keydown", function(e){ if(e.key==="Enter") tryUnlock(); });
+})();
+</script>
 </body>
 </html>
