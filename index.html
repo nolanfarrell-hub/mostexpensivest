@@ -53,6 +53,27 @@ a{color:inherit}
 .tile .tcap .meta b{color:var(--brass-dark);font-weight:600}
 .tile:hover .tcap h4{color:var(--verde-soft)}
 
+/* ============ LIVE VAULT ============ */
+.vault{max-width:1320px;margin:0 auto;padding:44px 20px 6px}
+.vault .vh{display:flex;align-items:baseline;justify-content:space-between;border-top:1px solid var(--line);padding-top:24px;margin-bottom:20px}
+.vault .vh h3{font-family:'Space Grotesk',sans-serif;font-weight:700;font-size:clamp(24px,3.2vw,34px);letter-spacing:.5px}
+.vault .vh .count{font-size:11px;letter-spacing:3px;text-transform:uppercase;color:var(--muted)}
+.vault .vh .count b{color:var(--brass-dark);font-weight:600}
+.vgrid{display:grid;grid-template-columns:repeat(3,1fr);gap:16px}
+.vcard{border:1px solid var(--line);background:var(--paper);overflow:hidden;text-decoration:none;display:block}
+.vcard .vimg{height:200px;width:100%;background:var(--cream);position:relative;overflow:hidden}
+.vcard .vimg img{width:100%;height:100%;object-fit:cover;display:block}
+.vcard .vinfo{padding:16px 18px}
+.vcard .vname{font-family:'Space Grotesk',sans-serif;font-weight:700;font-size:16px;letter-spacing:.3px;line-height:1.2;margin-bottom:4px;display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical;overflow:hidden}
+.vcard .vref{font-size:11px;letter-spacing:1px;color:var(--muted);margin-bottom:10px}
+.vcard .vprice{font-family:'Space Grotesk',sans-serif;font-weight:700;font-size:19px;color:var(--brass-dark)}
+.vcard:hover{border-color:var(--brass)}
+.vload{text-align:center;padding:16px}
+.vload .sp{color:var(--muted);font-size:12px;letter-spacing:2px}
+
+@media(max-width:900px){.vgrid{grid-template-columns:1fr 1fr}}
+@media(max-width:560px){.vgrid{grid-template-columns:1fr}}
+
 /* ============ FOOTER ============ */
 footer{max-width:1320px;margin:60px auto 0;padding:44px 30px 28px;display:grid;grid-template-columns:repeat(3,1fr);gap:30px;border-top:1px solid var(--line)}
 .foot-col h5{font-size:11px;letter-spacing:2.5px;text-transform:uppercase;color:var(--brass-dark);margin-bottom:14px;font-weight:500}
@@ -128,6 +149,18 @@ footer{max-width:1320px;margin:60px auto 0;padding:44px 30px 28px;display:grid;g
   </div>
 </div>
 
+<!-- THE VAULT (LIVE) -->
+<div class="vault">
+  <div class="vh"><h3>The Vault</h3><div class="count"><span id="vaultCount">Loading the market…</span></div></div>
+  <div id="vaultGrid" class="vgrid"><div class="vload" style="grid-column:1/-1"><span class="sp">The finest on the market, highest value first</span></div></div>
+</div>
+
+<!-- SEARCH RESULTS (LIVE) -->
+<div class="vault" id="searchResults" style="display:none">
+  <div class="vh"><h3>Results</h3><div class="count" id="searchCount"></div></div>
+  <div id="searchGrid" class="vgrid"></div>
+</div>
+
 <!-- FOOTER -->
 <footer>
   <div class="foot-col"><h5>Categories</h5><a href="time.html">Time</a><a href="table.html">The Table</a><a href="sea.html">The Sea</a><a href="road.html">The Road</a><a href="estate.html">Home &amp; Grounds</a><a href="field.html">The Field</a><a href="style.html">Style</a><a href="library.html">The Library</a></div>
@@ -135,5 +168,73 @@ footer{max-width:1320px;margin:60px auto 0;padding:44px 30px 28px;display:grid;g
   <div class="foot-col"><h5>Correspondence</h5><p>The West of Ireland<br/>and wherever you are</p><a href="mailto:me@mostexpensivest.com">me@mostexpensivest.com</a></div>
 </footer>
 <div class="copyright">© ME, MMXXVI</div>
+<script>
+(function(){
+  var API_TOP  = "https://mostexpensivewatches.net/api/listings/search?min_price=0&limit=24&sort=price-desc";
+  var API_TOP2 = "https://mostexpensivewatches.net/api/listings/search?min_price=0&limit=24";
+  var API_SEARCH = "https://mostexpensivewatches.net/api/listings/search?q=%QUERY%&limit=18";
+
+  function money(n){
+    if(n===null||isNaN(n))return "on request";
+    var c = Math.round(n);
+    return "$"+c.toLocaleString("en-US");
+  }
+  function esc(s){
+    var d=document.createElement("div");d.textContent=s==null?"":String(s);return d.innerHTML;
+  }
+  function card(it){
+    var name = it.title || it.model || "Piece";
+    var url  = it.url || "#";
+    var img  = it.image_url || "";
+    var ref  = [it.brand, it.reference].filter(Boolean).join(" · ");
+    var imgHtml = img ? '<div class="vimg"><img src="'+esc(img)+'" loading="lazy" alt=""/></div>'
+                      : '<div class="vimg" style="display:flex;align-items:center;justify-content:center"><span class="sp">'+esc((it.brand||""))+'</span></div>';
+    return '<a class="vcard" href="'+esc(url)+'" target="_blank" rel="noopener">'+
+      imgHtml+
+      '<div class="vinfo"><div class="vname">'+esc(name)+'</div>'+
+      (ref?'<div class="vref">'+esc(ref)+'</div>':'')+
+      '<div class="vprice">'+money(it.price_usd||it.price)+'</div></div></a>';
+  }
+  function byValue(arr){ return arr.slice().sort(function(a,b){ return (b.price_usd||0)-(a.price_usd||0); }); }
+
+  function loadTop(){
+    var grid=document.getElementById("vaultGrid"), cnt=document.getElementById("vaultCount");
+    fetch(API_TOP).then(function(r){ return r.json(); })
+      .then(function(d){
+        var items = byValue(d.items || d.result || []);
+        grid.innerHTML = items.slice(0,12).map(card).join("") || '<div class="vload"><span class="sp">The market is quiet at this hour.</span></div>';
+        if(cnt) cnt.innerHTML = "<b>"+items.length+"</b> live · finest first";
+      })
+      .catch(function(e){
+        grid.innerHTML = '<div class="vload"><span class="sp">Live feed is momentarily unavailable.</span></div>';
+        if(cnt) cnt.innerHTML = "checking the market…";
+      });
+  }
+
+  function doSearch(q){
+    var res=document.getElementById("searchResults"), grid=document.getElementById("searchGrid"), cnt=document.getElementById("searchCount");
+    q=(q||"").trim();
+    if(!q){ res.style.display="none"; return; }
+    res.style.display="block";
+    var url=API_SEARCH.replace("%QUERY%", encodeURIComponent(q));
+    fetch(url).then(function(r){ return r.json(); })
+      .then(function(d){
+        var items = byValue(d.items || d.result || []);
+        grid.innerHTML = items.map(card).join("") || '<div class="vload"><span class="sp">Nothing in the market matches that, quietly.</span></div>';
+        if(cnt) cnt.innerHTML = "<b>"+items.length+"</b> live results · highest value first";
+        res.scrollIntoView({behavior:"smooth", block:"start"});
+      })
+      .catch(function(){ grid.innerHTML='<div class="vload"><span class="sp">Search is momentarily unavailable.</span></div>'; });
+  }
+
+  loadTop();
+
+  var inp=document.querySelector(".searchbox input");
+  var go=document.querySelector(".searchbox .go");
+  function fire(){ doSearch(inp.value); }
+  go.addEventListener("click", fire);
+  inp.addEventListener("keydown", function(e){ if(e.key==="Enter") fire(); });
+})();
+</script>
 </body>
 </html>
