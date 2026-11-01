@@ -158,11 +158,11 @@ a.rrow:hover{background:var(--paper2)}
     var t=it.title||it.model||"Piece";
     // de-duplicate a brand prefix that the API sometimes repeats (e.g. "Rolex Rolex Daytona")
     if(it.brand){var b=it.brand.toLowerCase();var low=t.toLowerCase();if(low.startsWith(b+" "+b)){t=t.substring(it.brand.length+1);}}
-    return '<a class="mcard" href="'+esc(it.url||"#")+'" target="_blank" rel="noopener">'+imgHtml+
+    return '<a class="mcard" href="'+esc(it.buy_url||it.detail_url||it.url||"#")+'" target="_blank" rel="noopener">'+imgHtml+
       '<div class="minfo"><div class="mname">'+esc(t)+'</div>'+
       (ref?'<div class="mref">'+esc(ref)+'</div>':'')+
       '<div class="mprice">'+money(it.price_usd)+'</div>'+
-      '<div class="msrc">lifted from the market · '+esc(it.in_stock!=false?"now":"enquiry")+'</div></div></a>';
+      '<div class="msrc">listed at '+esc(it.merchant_name||"the market")+' · '+esc(it.in_stock!=false?"buy":"enquire")+'</div></div></a>';
   }
   fetch(API).then(function(r){return r.json();}).then(function(d){
     var items=(d.items||d.result||[]).slice(0,9);
