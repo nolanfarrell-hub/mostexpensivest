@@ -56,6 +56,17 @@ a{color:inherit}.top-rule{height:3px;background:var(--ink)}
 .shell.open{display:block}
 .library{display:none}
 .library.open{display:block}
+
+/* ===== DEPARTMENT HERO ===== */
+.dep-hero{position:relative;height:clamp(240px,34vw,380px);overflow:hidden;border-bottom:1px solid var(--line)}
+.dep-hero img{width:100%;height:100%;object-fit:cover;display:block}
+.dep-hero::after{content:"";position:absolute;left:0;right:0;bottom:0;height:100%;background:linear-gradient(to right,rgba(12,12,14,.9) 0%,rgba(12,12,14,.62) 40%,rgba(12,12,14,0) 65%);z-index:1}
+.dep-hero .dhcap{position:absolute;left:max(24px,calc((100vw - 1100px)/2));bottom:26px;max-width:480px;color:var(--cream);z-index:2}
+.dep-hero .dhcap .dkat{font-size:10px;letter-spacing:3.5px;text-transform:uppercase;color:var(--gold);margin-bottom:6px}
+.dep-hero .dhcap h2{font-family:'Cormorant Garamond',serif;font-weight:500;font-size:clamp(30px,4.4vw,50px);line-height:1.05;color:#fff}
+.dep-hero .dhcap p{font-family:'Cormorant Garamond',serif;font-style:italic;font-size:16px;color:#e9e2cf;margin-top:8px}
+@media(max-width:900px){.dep-hero .dhcap{left:26px;bottom:20px}}
+
 </style>
 </head>
 <body>
@@ -81,6 +92,14 @@ a{color:inherit}.top-rule{height:3px;background:var(--ink)}
   <a class="back" href="index.html"><span class="bme" style="font-family:'Space Grotesk',sans-serif;font-weight:700;font-size:22px;letter-spacing:1px;color:var(--ink);display:inline-flex;align-items:baseline;vertical-align:middle">M<span style="color:var(--brass);font-weight:500;font-size:.55em;margin:0 2px">·</span>E</span></a>
   <div class="kat">The Concierge Desk</div>
   <h1>The Library</h1>
+<div class="dep-hero">
+  <img src="media/img/tile_estate2.jpg" alt="The Library"/>
+  <div class="dhcap">
+    <div class="dkat">Department VIII · The Concierge</div>
+    <h2>The Library</h2>
+    <p>The concierge desk, by appointment.</p>
+  </div>
+</div>
 </div>
 <div class="dept">
   <div class="lead"><p>One address for everything on ME. Tell us what you want to acquire, sell, charter, arrange, or simply find — we do the rest, anywhere in the world, in confidence.</p></div>

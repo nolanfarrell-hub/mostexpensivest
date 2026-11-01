@@ -72,6 +72,17 @@ a{color:inherit}.top-rule{height:3px;background:var(--ink)}
 .copyright{max-width:1100px;margin:0 auto;padding:40px 30px;text-align:center;font-size:11px;color:var(--faint);letter-spacing:1px;border-top:1px solid var(--line)}
 @media(max-width:900px){.wgrid{grid-template-columns:1fr}.wcard .wimg{height:320px}.grid{grid-template-columns:1fr 1fr}.grid .card:nth-child(odd){border-right:none}.grid .card{border-top:1px solid var(--line)}.grid .card:first-child{border-top:none}}
 @media(max-width:560px){.wgrid{grid-template-columns:1fr}.grid{grid-template-columns:1fr}.card{border-right:none}}
+
+/* ===== DEPARTMENT HERO ===== */
+.dep-hero{position:relative;height:clamp(240px,34vw,380px);overflow:hidden;border-bottom:1px solid var(--line)}
+.dep-hero img{width:100%;height:100%;object-fit:cover;display:block}
+.dep-hero::after{content:"";position:absolute;left:0;right:0;bottom:0;height:100%;background:linear-gradient(to right,rgba(12,12,14,.9) 0%,rgba(12,12,14,.62) 40%,rgba(12,12,14,0) 65%);z-index:1}
+.dep-hero .dhcap{position:absolute;left:max(24px,calc((100vw - 1100px)/2));bottom:26px;max-width:480px;color:var(--cream);z-index:2}
+.dep-hero .dhcap .dkat{font-size:10px;letter-spacing:3.5px;text-transform:uppercase;color:var(--gold);margin-bottom:6px}
+.dep-hero .dhcap h2{font-family:'Cormorant Garamond',serif;font-weight:500;font-size:clamp(30px,4.4vw,50px);line-height:1.05;color:#fff}
+.dep-hero .dhcap p{font-family:'Cormorant Garamond',serif;font-style:italic;font-size:16px;color:#e9e2cf;margin-top:8px}
+@media(max-width:900px){.dep-hero .dhcap{left:26px;bottom:20px}}
+
 </style>
 </head>
 <body>
@@ -114,6 +125,14 @@ a{color:inherit}.top-rule{height:3px;background:var(--ink)}
 </div>
 <div class="attrib2">Sale records sourced from <a href="https://en.wikipedia.org/wiki/List_of_most_expensive_paintings" target="_blank" rel="noopener">Wikipedia: List of most expensive paintings</a>. Figures are the original sale price in USD; provenance is the longer story.</div>
 
+<div class="dep-hero">
+  <img src="media/img/art_starrynight.jpg" alt="Art"/>
+  <div class="dhcap">
+    <div class="dkat">Department IX · Fine Art</div>
+    <h2>Art</h2>
+    <p>Masterworks, provenance and the records.</p>
+  </div>
+</div>
 <div class="dept">
   <div class="grid">
     <div class="card"><h4>The Self-Portrait, Again</h4><div class="who">Rembrandt · 1659</div><p class="what">A man who had lost everything painted himself at his most unmoved. The market's favourite proof that the life does not touch the work, and the detail the auction house photographs first.</p><span class="price">national collections only</span></div>
