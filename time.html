@@ -65,6 +65,19 @@ a{color:inherit}.top-rule{height:3px;background:var(--ink)}
 @media(max-width:900px){.vgrid{grid-template-columns:1fr 1fr}}
 @media(max-width:560px){.vgrid{grid-template-columns:1fr}}
 
+/* AUCTION RECORDS */
+.records{max-width:1100px;margin:56px auto 0;padding:0 30px}
+.records .rh{display:flex;align-items:baseline;justify-content:space-between;border-top:3px solid var(--ink);padding-top:22px;margin-bottom:6px}
+.records .rh h3{font-family:'Space Grotesk',sans-serif;font-size:12px;letter-spacing:3px;text-transform:uppercase;font-weight:600;color:var(--ink)}
+.records .rh .rnote{font-size:11px;letter-spacing:2px;text-transform:uppercase;color:var(--muted)}
+.rtable{border-top:1px solid var(--line)}
+.rrow{display:grid;grid-template-columns:1.6fr 1fr .8fr .8fr;gap:16px;padding:16px 0;border-bottom:1px solid var(--line);align-items:baseline}
+.rdesc{font-family:'Cormorant Garamond',serif;font-size:18px;font-weight:500;line-height:1.2}
+.rhouse{font-size:11px;letter-spacing:1.5px;text-transform:uppercase;color:var(--muted)}
+.rdate{font-size:12px;color:var(--muted)}
+.rprice{font-family:'Space Grotesk',sans-serif;font-weight:700;font-size:16px;color:var(--brass-dark);text-align:right}
+@media(max-width:700px){.rrow{grid-template-columns:1fr .8fr}.rhouse{display:none}}
+
 .consult{max-width:1100px;margin:0 auto;padding:60px 30px 8px;display:flex;align-items:center;justify-content:space-between;gap:26px;flex-wrap:wrap;border-top:1px solid var(--line)}
 .consult h4{font-family:'Cormorant Garamond',serif;font-weight:600;font-size:24px;margin-bottom:6px}
 .consult p{font-size:13px;color:var(--ink2);max-width:640px}
@@ -139,8 +152,8 @@ a{color:inherit}.top-rule{height:3px;background:var(--ink)}
     document.getElementById("mcount").innerHTML="please refresh";
   });
 
-  // COLLECTOR'S VERDICT - editorial data (reviews + auction comps)
-  var RV="https://mostexpensivewatches.net/api/reviews?limit=4";
+  // COLLECTOR'S VERDICT - editorial data (reviews)
+  var RV="https://mostexpensivewatches.net/api/reviews?limit=6";
   fetch(RV).then(function(r){return r.json();}).then(function(d){
     var items=(d.reviews||d.items||d.result||[]).slice(0,3);
     if(!items.length)return;
@@ -150,15 +163,34 @@ a{color:inherit}.top-rule{height:3px;background:var(--ink)}
     h+='<div class="vgrid">'+items.map(function(v){
       var s=v.score||{};
       function chip(k,t){var n=s[k];return '<div class="vchip"><span>'+t+'</span><b>'+(n!=null?n+"/10":"-")+'</b></div>';}
+      var care=v.why_collectors_care||"";
       return '<div class="vcard"><div class="vname">'+esc(v.brand)+' '+esc(v.model)+'</div>'+
-        '<div class="vverdict">'+esc((v.verdict||"").replace(/\s+$/,""))+'</div>'+
+        '<div class="vverdict">'+esc(care?care.split(".")[0]+".":(v.verdict||"").replace(/\s+$/,""))+'</div>'+
         '<div class="vchips">'+chip("liquidity","Liquidity")+chip("scarcity","Scarcity")+chip("recognition","Recognition")+'</div></div>';
     }).join('')+'</div>';
     blk.innerHTML=h;
     var live=document.querySelector(".live");
     live.parentNode.insertBefore(blk, live.nextSibling);
-    var at=document.querySelector(".attrib");
-    if(at) document.querySelectorAll("script").length;
+  }).catch(function(){});
+
+  // AUCTION RECORDS - hammer prices (editorial "Records")
+  var AU="https://mostexpensivewatches.net/api/auctions?limit=8";
+  fetch(AU).then(function(r){return r.json();}).then(function(d){
+    var lots=(d.auction_lots||d.items||[]).slice(0,4);
+    if(!lots.length)return;
+    var blk=document.createElement("div");
+    blk.className="records";
+    var h='<div class="rh"><h3>Sold at Auction</h3><div class="rnote">recent records</div></div>';
+    h+='<div class="rtable">'+lots.map(function(L){
+      var t=esc(L.title||(L.brand||""));
+      return '<div class="rrow"><div class="rdesc">'+t+'</div>'+
+        '<div class="rhouse">'+esc(L.auction_house||"")+'</div>'+
+        '<div class="rdate">'+esc(L.sale_date||"")+'</div>'+
+        '<div class="rprice">'+money(L.hammer_usd)+'</div></div>';
+    }).join('')+'</div>';
+    blk.innerHTML=h;
+    var live=document.querySelector(".live");
+    live.parentNode.insertBefore(blk, live.nextSibling);
   }).catch(function(){});
 })();
 </script>
