@@ -1,0 +1,1690 @@
+[
+ {
+  "name": "Azzam",
+  "meters": 180.0,
+  "feet": 591,
+  "built": "2013",
+  "owner": "Estate of  Mohammed bin Zayed Al N",
+  "builder": "L\u00fcrssen"
+ },
+ {
+  "name": "Fulk Al Salamah",
+  "meters": 164.0,
+  "feet": 538,
+  "built": "2016",
+  "owner": "Sultan Haitham bin Tariq",
+  "builder": "T. Mariotti"
+ },
+ {
+  "name": "Eclipse",
+  "meters": 162.5,
+  "feet": 533,
+  "built": "2009",
+  "owner": "Roman Abramovich",
+  "builder": "Blohm + Voss"
+ },
+ {
+  "name": "Dubai",
+  "meters": 162.0,
+  "feet": 531,
+  "built": "2006",
+  "owner": "Mohammed bin Rashid Al Maktoum",
+  "builder": "Blohm + Voss"
+ },
+ {
+  "name": "Blue",
+  "meters": 160.0,
+  "feet": 525,
+  "built": "2022",
+  "owner": "Mansour bin Zayed Al Nahyan",
+  "builder": "L\u00fcrssen"
+ },
+ {
+  "name": "Dilbar",
+  "meters": 156.0,
+  "feet": 512,
+  "built": "2016",
+  "owner": "Alisher Usmanov     [ a ]",
+  "builder": "L\u00fcrssen"
+ },
+ {
+  "name": "Al Said",
+  "meters": 155.0,
+  "feet": 509,
+  "built": "2007",
+  "owner": "Sultan Haitham bin Tariq",
+  "builder": "L\u00fcrssen"
+ },
+ {
+  "name": "Prince Abdulaziz",
+  "meters": 147.0,
+  "feet": 482,
+  "built": "1984",
+  "owner": "Abdulaziz bin Fahd Al Saud",
+  "builder": "Helsing\u00f8r V\u00e6rft  (Danish Wiki)"
+ },
+ {
+  "name": "A+",
+  "meters": 147.0,
+  "feet": 482,
+  "built": "2012",
+  "owner": "Mansour bin Zayed Al Nahyan",
+  "builder": "L\u00fcrssen"
+ },
+ {
+  "name": "Opera",
+  "meters": 146.4,
+  "feet": 480,
+  "built": "2023",
+  "owner": "Abdullah bin Zayed Al Nahyan",
+  "builder": "L\u00fcrssen"
+ },
+ {
+  "name": "El Mahrousa",
+  "meters": 145.7,
+  "feet": 478,
+  "built": "1865",
+  "owner": "Arab Republic of Egypt",
+  "builder": "Samuda Brothers"
+ },
+ {
+  "name": "Nord",
+  "meters": 142.0,
+  "feet": 466,
+  "built": "2019",
+  "owner": "Alexei Mordashov",
+  "builder": "L\u00fcrssen"
+ },
+ {
+  "name": "Dragonfly",
+  "meters": 142.0,
+  "feet": 466,
+  "built": "2024",
+  "owner": "Sergey Brin",
+  "builder": "L\u00fcrssen"
+ },
+ {
+  "name": "Yas",
+  "meters": 141.0,
+  "feet": 463,
+  "built": "2015",
+  "owner": "Hamdan bin Zayed bin Sultan Al Nah",
+  "builder": "ADM Shipyards"
+ },
+ {
+  "name": "Ocean Victory",
+  "meters": 140.0,
+  "feet": 459,
+  "built": "2014",
+  "owner": "Viktor Rashnikov",
+  "builder": "Fincantieri"
+ },
+ {
+  "name": "Scheherazade",
+  "meters": 140.0,
+  "feet": 459,
+  "built": "2020",
+  "owner": "Eduard Khudaynatov     [ b ]",
+  "builder": "L\u00fcrssen"
+ },
+ {
+  "name": "Al Salamah",
+  "meters": 139.0,
+  "feet": 456,
+  "built": "1999",
+  "owner": "Salman bin Hamad Al Khalifa",
+  "builder": "L\u00fcrssen"
+ },
+ {
+  "name": "Solaris",
+  "meters": 139.0,
+  "feet": 456,
+  "built": "2021",
+  "owner": "Roman Abramovich",
+  "builder": "Lloyd Werft"
+ },
+ {
+  "name": "Luminance",
+  "meters": 138.8,
+  "feet": 455,
+  "built": "2024",
+  "owner": "Rinat Akhmetov",
+  "builder": "L\u00fcrssen"
+ },
+ {
+  "name": "Rising Sun",
+  "meters": 138.0,
+  "feet": 453,
+  "built": "2004",
+  "owner": "David Geffen",
+  "builder": "L\u00fcrssen"
+ },
+ {
+  "name": "Savarona",
+  "meters": 136.0,
+  "feet": 446,
+  "built": "1931",
+  "owner": "Republic of Turkey",
+  "builder": "Blohm + Voss"
+ },
+ {
+  "name": "Flying Fox",
+  "meters": 136.0,
+  "feet": 446,
+  "built": "2018",
+  "owner": "Dmitry Kamenshchik",
+  "builder": "L\u00fcrssen"
+ },
+ {
+  "name": "Crescent",
+  "meters": 135.5,
+  "feet": 445,
+  "built": "2018",
+  "owner": "Igor Sechin     [ c ]",
+  "builder": "L\u00fcrssen"
+ },
+ {
+  "name": "Deep Blue",
+  "meters": 134.2,
+  "feet": 440,
+  "built": "2025",
+  "owner": "Liu Qiangdong",
+  "builder": "L\u00fcrssen"
+ },
+ {
+  "name": "Serene",
+  "meters": 134.0,
+  "feet": 440,
+  "built": "2010",
+  "owner": "Mohammed bin Salman Al Saud",
+  "builder": "Fincantieri"
+ },
+ {
+  "name": "Al Mirqab",
+  "meters": 133.0,
+  "feet": 436,
+  "built": "2008",
+  "owner": "Hamad bin Jassim bin Jaber Al Than",
+  "builder": "Kusch Yachts"
+ },
+ {
+  "name": "Octopus",
+  "meters": 126.0,
+  "feet": 413,
+  "built": "2003",
+  "owner": "Roger Samuelsson",
+  "builder": "L\u00fcrssen"
+ },
+ {
+  "name": "Koru",
+  "meters": 125.8,
+  "feet": 413,
+  "built": "2023",
+  "owner": "Jeff Bezos",
+  "builder": "Oceanco"
+ },
+ {
+  "name": "Maryah",
+  "meters": 125.0,
+  "feet": 410,
+  "built": "1990",
+  "owner": "Tahnoun bin Zayed Al Nahyan",
+  "builder": "Elefsis Shipyard"
+ },
+ {
+  "name": "Katara",
+  "meters": 124.4,
+  "feet": 408,
+  "built": "2010",
+  "owner": "Hamad bin Khalifa Al Thani",
+  "builder": "L\u00fcrssen"
+ },
+ {
+  "name": "Golden Odyssey",
+  "meters": 123.2,
+  "feet": 404,
+  "built": "2015",
+  "owner": "Liu Qiangdong",
+  "builder": "L\u00fcrssen"
+ },
+ {
+  "name": "Al Lusail",
+  "meters": 123.0,
+  "feet": 404,
+  "built": "2017",
+  "owner": "Tamim bin Hamad Al Thani",
+  "builder": "L\u00fcrssen"
+ },
+ {
+  "name": "Kismet",
+  "meters": 122.0,
+  "feet": 400,
+  "built": "2024",
+  "owner": "Shahid Khan",
+  "builder": "L\u00fcrssen"
+ },
+ {
+  "name": "Alexander",
+  "meters": 122.0,
+  "feet": 400,
+  "built": "1965",
+  "owner": "Saudi royal family",
+  "builder": "Flender Werke"
+ },
+ {
+  "name": "J7 Explorer",
+  "meters": 120.0,
+  "feet": 394,
+  "built": "2022",
+  "owner": "Jhonlin Marine Transport",
+  "builder": "PT Bahtera Bahari shipyard"
+ },
+ {
+  "name": "A",
+  "meters": 119.0,
+  "feet": 390,
+  "built": "2008",
+  "owner": "Andrey Melnichenko",
+  "builder": "Blohm + Voss"
+ },
+ {
+  "name": "Breakthrough",
+  "meters": 118.8,
+  "feet": 390,
+  "built": "2025",
+  "owner": "Patrick Dovigi",
+  "builder": "Feadship"
+ },
+ {
+  "name": "Liva O",
+  "meters": 118.2,
+  "feet": 388,
+  "built": "2023",
+  "owner": "Stephen Orenstein",
+  "builder": "Abeking & Rasmussen"
+ },
+ {
+  "name": "Launchpad",
+  "meters": 118.0,
+  "feet": 387,
+  "built": "2024",
+  "owner": "Mark Zuckerberg",
+  "builder": "Feadship"
+ },
+ {
+  "name": "Infinity",
+  "meters": 117.0,
+  "feet": 384,
+  "built": "2022",
+  "owner": "Eric Smidt",
+  "builder": "Oceanco"
+ },
+ {
+  "name": "Boardwalk",
+  "meters": 117.0,
+  "feet": 384,
+  "built": "2026",
+  "owner": "Tilman Fertitta",
+  "builder": "L\u00fcrssen"
+ },
+ {
+  "name": "Turama",
+  "meters": 116.4,
+  "feet": 382,
+  "built": "1990",
+  "owner": "Saudi royal family",
+  "builder": "Rauma Shipyard"
+ },
+ {
+  "name": "Multiverse",
+  "meters": 116.0,
+  "feet": 381,
+  "built": "2017",
+  "owner": "Graeme Hart",
+  "builder": "Kleven Maritime AS"
+ },
+ {
+  "name": "Atlantis II     [Note 1]",
+  "meters": 115.8,
+  "feet": 380,
+  "built": "1981",
+  "owner": "Philip Niarchos",
+  "builder": "Hellenic Shipyards S.A."
+ },
+ {
+  "name": "Navtilvs     [Note 1]",
+  "meters": 115.8,
+  "feet": 380,
+  "built": "1973",
+  "owner": "Yiannis D. Procopiou",
+  "builder": "Hellenic Shipyards S.A."
+ },
+ {
+  "name": "Lady Jorgia",
+  "meters": 115.1,
+  "feet": 378,
+  "built": "2021",
+  "owner": "Patrick Dovigi",
+  "builder": "L\u00fcrssen"
+ },
+ {
+  "name": "Pelorus",
+  "meters": 115.0,
+  "feet": 377,
+  "built": "2003",
+  "owner": "Samuel Tak Lee",
+  "builder": "L\u00fcrssen"
+ },
+ {
+  "name": "Luna",
+  "meters": 115.0,
+  "feet": 377,
+  "built": "2010",
+  "owner": "Farkhad Akhmedov",
+  "builder": "Lloyd Werft"
+ },
+ {
+  "name": "Le Grand Bleu",
+  "meters": 113.0,
+  "feet": 371,
+  "built": "2000",
+  "owner": "Eugene Shvidler",
+  "builder": "Bremer Vulkan"
+ },
+ {
+  "name": "Renaissance",
+  "meters": 111.8,
+  "feet": 367,
+  "built": "2023",
+  "owner": "Gary Klesch",
+  "builder": "Freire Shipyard"
+ },
+ {
+  "name": "Alaiya",
+  "meters": 111.5,
+  "feet": 366,
+  "built": "2019",
+  "owner": "Lakshmi Mittal",
+  "builder": "L\u00fcrssen"
+ },
+ {
+  "name": "Leviathan",
+  "meters": 111.0,
+  "feet": 364,
+  "built": "2025",
+  "owner": "Gabe Newell",
+  "builder": "Oceanco"
+ },
+ {
+  "name": "Al Raya",
+  "meters": 110.0,
+  "feet": 361,
+  "built": "2008",
+  "owner": "Bahraini royal family",
+  "builder": "L\u00fcrssen"
+ },
+ {
+  "name": "Radiant",
+  "meters": 110.0,
+  "feet": 361,
+  "built": "2010",
+  "owner": "Abdulla Al Futtaim",
+  "builder": "L\u00fcrssen"
+ },
+ {
+  "name": "Kaos",
+  "meters": 110.0,
+  "feet": 361,
+  "built": "2017",
+  "owner": "Nancy Walton Laurie",
+  "builder": "Oceanco"
+ },
+ {
+  "name": "Anna",
+  "meters": 110.0,
+  "feet": 361,
+  "built": "2018",
+  "owner": "Dmitry Rybolovlev",
+  "builder": "Feadship"
+ },
+ {
+  "name": "Bravo Eugenia",
+  "meters": 109.0,
+  "feet": 358,
+  "built": "2019",
+  "owner": "Jerry Jones",
+  "builder": "Oceanco"
+ },
+ {
+  "name": "Seven Seas",
+  "meters": 109.0,
+  "feet": 358,
+  "built": "2022",
+  "owner": "Steven Spielberg",
+  "builder": "Oceanco"
+ },
+ {
+  "name": "Shackleton",
+  "meters": 109.0,
+  "feet": 358,
+  "built": "2023",
+  "owner": "Leonard Blavatnik",
+  "builder": "L\u00fcrssen"
+ },
+ {
+  "name": "IJE",
+  "meters": 108.0,
+  "feet": 354,
+  "built": "2019",
+  "owner": "James Packer",
+  "builder": "Benetti"
+ },
+ {
+  "name": "Luminosity",
+  "meters": 107.6,
+  "feet": 353,
+  "built": "2020",
+  "owner": "Andrey Guryev",
+  "builder": "Benetti"
+ },
+ {
+  "name": "Andromeda",
+  "meters": 107.0,
+  "feet": 351,
+  "built": "2016",
+  "owner": "Yuri Milner",
+  "builder": "Kleven Maritime AS"
+ },
+ {
+  "name": "Mar",
+  "meters": 107.0,
+  "feet": 351,
+  "built": "2019",
+  "owner": "Abu Dhabi royal family",
+  "builder": "Benetti"
+ },
+ {
+  "name": "Amadea",
+  "meters": 106.0,
+  "feet": 348,
+  "built": "2016",
+  "owner": "Abbas Sajwani     [ 101 ]",
+  "builder": "L\u00fcrssen"
+ },
+ {
+  "name": "Dream",
+  "meters": 106.0,
+  "feet": 348,
+  "built": "2018",
+  "owner": "George Prokopiou",
+  "builder": "Halkitis Shipyards S.A."
+ },
+ {
+  "name": "Lady Moura",
+  "meters": 105.0,
+  "feet": 344,
+  "built": "1990",
+  "owner": "Ricardo Salinas Pliego",
+  "builder": "Blohm + Voss"
+ },
+ {
+  "name": "Quantum Blue",
+  "meters": 104.0,
+  "feet": 341,
+  "built": "2014",
+  "owner": "Sergey Galitsky",
+  "builder": "L\u00fcrssen"
+ },
+ {
+  "name": "Loaloat Al Behar",
+  "meters": 103.8,
+  "feet": 341,
+  "built": "1982",
+  "owner": "Sultan Qaboos",
+  "builder": "Perini Navi"
+ },
+ {
+  "name": "Ulysses",
+  "meters": 102.6,
+  "feet": 337,
+  "built": "2024",
+  "owner": "Graeme Hart",
+  "builder": "Feadship"
+ },
+ {
+  "name": "Symphony",
+  "meters": 101.5,
+  "feet": 333,
+  "built": "2015",
+  "owner": "Bernard Arnault",
+  "builder": "Feadship"
+ },
+ {
+  "name": "I Dynasty",
+  "meters": 100.8,
+  "feet": 331,
+  "built": "2015",
+  "owner": "Alijan Ibragimov",
+  "builder": "Kusch Yachts"
+ },
+ {
+  "name": "Attessa IV",
+  "meters": 100.0,
+  "feet": 328,
+  "built": "1999",
+  "owner": "Dennis Washington",
+  "builder": "Hayashikane"
+ },
+ {
+  "name": "Moonrise",
+  "meters": 100.0,
+  "feet": 328,
+  "built": "2020",
+  "owner": "Jan Koum",
+  "builder": "Feadship"
+ },
+ {
+  "name": "Christina O",
+  "meters": 99.2,
+  "feet": 325,
+  "built": "1943",
+  "owner": "Ivor Fitzpatrick",
+  "builder": "Canadian Vickers"
+ },
+ {
+  "name": "Madame Gu",
+  "meters": 99.0,
+  "feet": 325,
+  "built": "2013",
+  "owner": "Andrei Skoch",
+  "builder": "Feadship"
+ },
+ {
+  "name": "Carinthia VII",
+  "meters": 98.0,
+  "feet": 322,
+  "built": "2002",
+  "owner": "Rub\u00e9n Cher\u00f1ajovsky",
+  "builder": "L\u00fcrssen"
+ },
+ {
+  "name": "Aviva",
+  "meters": 98.0,
+  "feet": 322,
+  "built": "2017",
+  "owner": "Joe Lewis",
+  "builder": "Abeking & Rasmussen"
+ },
+ {
+  "name": "Sophia",
+  "meters": 96.6,
+  "feet": 317,
+  "built": "2017",
+  "owner": "Michael Latifi",
+  "builder": "Feadship"
+ },
+ {
+  "name": "Limitless",
+  "meters": 96.0,
+  "feet": 315,
+  "built": "1997",
+  "owner": "Les Wexner",
+  "builder": "L\u00fcrssen"
+ },
+ {
+  "name": "AV",
+  "meters": 96.0,
+  "feet": 315,
+  "built": "2010",
+  "owner": "Dennis Washington",
+  "builder": "Blohm + Voss"
+ },
+ {
+  "name": "Vava II",
+  "meters": 96.0,
+  "feet": 315,
+  "built": "2011",
+  "owner": "Ernesto Bertarelli",
+  "builder": "Devonport Yachts"
+ },
+ {
+  "name": "Whisper",
+  "meters": 95.2,
+  "feet": 312,
+  "built": "2014",
+  "owner": "Eric Schmidt",
+  "builder": "L\u00fcrssen"
+ },
+ {
+  "name": "H3",
+  "meters": 95.0,
+  "feet": 312,
+  "built": "2000",
+  "owner": "Waleed bin Ibrahim Al Ibrahim",
+  "builder": "Oceanco"
+ },
+ {
+  "name": "CC Summer",
+  "meters": 95.0,
+  "feet": 312,
+  "built": "2019",
+  "owner": "Terry Taylor",
+  "builder": "L\u00fcrssen"
+ },
+ {
+  "name": "O'Pari",
+  "meters": 95.0,
+  "feet": 312,
+  "built": "2020",
+  "owner": "Paris Dragnis",
+  "builder": "Golden Yachts Ltd."
+ },
+ {
+  "name": "Bliss",
+  "meters": 94.8,
+  "feet": 311,
+  "built": "2021",
+  "owner": "Evan Spiegel",
+  "builder": "Feadship"
+ },
+ {
+  "name": "Viva",
+  "meters": 94.0,
+  "feet": 308,
+  "built": "2021",
+  "owner": "Frank Fertitta III",
+  "builder": "Feadship"
+ },
+ {
+  "name": "Mayan Queen IV",
+  "meters": 93.2,
+  "feet": 306,
+  "built": "2008",
+  "owner": "Alejandro Baill\u00e8res",
+  "builder": "Blohm + Voss"
+ },
+ {
+  "name": "Lady S",
+  "meters": 93.0,
+  "feet": 305,
+  "built": "2019",
+  "owner": "Daniel Snyder",
+  "builder": "Feadship"
+ },
+ {
+  "name": "Royal Romance",
+  "meters": 92.5,
+  "feet": 303,
+  "built": "2015",
+  "owner": "Viktor Medvedchuk     [ d ]",
+  "builder": "Feadship"
+ },
+ {
+  "name": "Tatoosh",
+  "meters": 92.4,
+  "feet": 303,
+  "built": "2000",
+  "owner": "Estate of  Paul\u00a0Allen",
+  "builder": "Nobiskrug"
+ },
+ {
+  "name": "Lionheart",
+  "meters": 92.4,
+  "feet": 303,
+  "built": "2016",
+  "owner": "Philip Green",
+  "builder": "Benetti"
+ },
+ {
+  "name": "Aquarius",
+  "meters": 92.0,
+  "feet": 302,
+  "built": "2016",
+  "owner": "Steve Wynn",
+  "builder": "Feadship"
+ },
+ {
+  "name": "Drizzle",
+  "meters": 91.8,
+  "feet": 301,
+  "built": "2024",
+  "owner": "Amancio Ortega",
+  "builder": "Feadship"
+ },
+ {
+  "name": "Queen Miri",
+  "meters": 91.5,
+  "feet": 300,
+  "built": "2004",
+  "owner": "Estate of  Sheldon Adelson",
+  "builder": "Neorion"
+ },
+ {
+  "name": "Draak",
+  "meters": 91.5,
+  "feet": 300,
+  "built": "2014",
+  "owner": "Gabe Newell",
+  "builder": "Oceanco"
+ },
+ {
+  "name": "Nahlin",
+  "meters": 91.4,
+  "feet": 300,
+  "built": "1930",
+  "owner": "Sir James Dyson",
+  "builder": "John Brown & Company"
+ },
+ {
+  "name": "Ice",
+  "meters": 91.1,
+  "feet": 299,
+  "built": "2005",
+  "owner": "Teodoro Obiang Nguema Mbasogo",
+  "builder": "L\u00fcrssen"
+ },
+ {
+  "name": "Lady Lara",
+  "meters": 91.0,
+  "feet": 299,
+  "built": "2015",
+  "owner": "Alexander Mashkevitch",
+  "builder": "L\u00fcrssen"
+ },
+ {
+  "name": "Dubawi",
+  "meters": 90.6,
+  "feet": 297,
+  "built": "1989",
+  "owner": "Dubai royal family",
+  "builder": "Cantiere Navale Ferrari S.p.a."
+ },
+ {
+  "name": "Dar",
+  "meters": 90.1,
+  "feet": 296,
+  "built": "2018",
+  "owner": "Ziyad Manasir",
+  "builder": "Oceanco"
+ },
+ {
+  "name": "Nero",
+  "meters": 90.1,
+  "feet": 296,
+  "built": "2007",
+  "owner": "Neil Taylor",
+  "builder": "Corsair Yachts"
+ },
+ {
+  "name": "DreAMBoat",
+  "meters": 90.0,
+  "feet": 295,
+  "built": "2019",
+  "owner": "Arthur Blank",
+  "builder": "Oceanco"
+ },
+ {
+  "name": "Lauren L",
+  "meters": 90.0,
+  "feet": 295,
+  "built": "2002",
+  "owner": "Igor Kolomoisky",
+  "builder": "Cassens Werft"
+ },
+ {
+  "name": "Phoenix 2",
+  "meters": 90.0,
+  "feet": 295,
+  "built": "2010",
+  "owner": "Sebastian Kulczyk",
+  "builder": "L\u00fcrssen"
+ },
+ {
+  "name": "Norn",
+  "meters": 90.0,
+  "feet": 295,
+  "built": "2023",
+  "owner": "Charles Simonyi",
+  "builder": "L\u00fcrssen"
+ },
+ {
+  "name": "Milky Way",
+  "meters": 89.6,
+  "feet": 294,
+  "built": "2026",
+  "owner": "unknown",
+  "builder": "Feadship"
+ },
+ {
+  "name": "Here Comes The Sun",
+  "meters": 89.0,
+  "feet": 292,
+  "built": "2016",
+  "owner": "Graeme Hart",
+  "builder": "Amels Holland B.V."
+ },
+ {
+  "name": "Olivia O",
+  "meters": 88.5,
+  "feet": 290,
+  "built": "2020",
+  "owner": "Eyal Ofer",
+  "builder": "Ulstein Group"
+ },
+ {
+  "name": "Nirvana",
+  "meters": 88.5,
+  "feet": 290,
+  "built": "2012",
+  "owner": "Vladimir Potanin",
+  "builder": "Oceanco"
+ },
+ {
+  "name": "Samsara",
+  "meters": 88.5,
+  "feet": 290,
+  "built": "2015",
+  "owner": "J.K. Rowling",
+  "builder": "Oceanco"
+ },
+ {
+  "name": "Barbara",
+  "meters": 88.5,
+  "feet": 290,
+  "built": "2017",
+  "owner": "Vladimir Potanin",
+  "builder": "Oceanco"
+ },
+ {
+  "name": "Eternal Tsingshan",
+  "meters": 88.5,
+  "feet": 290,
+  "built": "2018",
+  "owner": "",
+  "builder": "Pride Mega Yachts"
+ },
+ {
+  "name": "Zen",
+  "meters": 88.4,
+  "feet": 290,
+  "built": "2021",
+  "owner": "Wu Guangming",
+  "builder": "Feadship"
+ },
+ {
+  "name": "Asean Lady",
+  "meters": 88.2,
+  "feet": 289,
+  "built": "2004",
+  "owner": "Brian Chang",
+  "builder": "Yantai Raffles"
+ },
+ {
+  "name": "Fountainhead",
+  "meters": 87.8,
+  "feet": 288,
+  "built": "2011",
+  "owner": "Eddie Lampert",
+  "builder": "Feadship"
+ },
+ {
+  "name": "Musashi",
+  "meters": 87.8,
+  "feet": 288,
+  "built": "2011",
+  "owner": "Larry Ellison",
+  "builder": "Feadship"
+ },
+ {
+  "name": "Arctic P",
+  "meters": 87.6,
+  "feet": 287,
+  "built": "1989",
+  "owner": "James Packer",
+  "builder": "Schichau Unterweser AG"
+ },
+ {
+  "name": "Amore Vero",
+  "meters": 87.4,
+  "feet": 287,
+  "built": "2013",
+  "owner": "Igor Sechin     [ e ]",
+  "builder": "Oceanco"
+ },
+ {
+  "name": "OceanXplorer",
+  "meters": 87.0,
+  "feet": 285,
+  "built": "2010",
+  "owner": "Ray Dalio",
+  "builder": "Freire Shipyard"
+ },
+ {
+  "name": "Eye",
+  "meters": 87.0,
+  "feet": 285,
+  "built": "2012",
+  "owner": "Samvel Karapetyan",
+  "builder": "L\u00fcrssen"
+ },
+ {
+  "name": "Lonian",
+  "meters": 87.0,
+  "feet": 285,
+  "built": "2018",
+  "owner": "Lorenzo Fertitta",
+  "builder": "Feadship"
+ },
+ {
+  "name": "Avantage",
+  "meters": 87.0,
+  "feet": 285,
+  "built": "2020",
+  "owner": "Bulat Utemuratov",
+  "builder": "L\u00fcrssen"
+ },
+ {
+  "name": "Quattroelle",
+  "meters": 86.1,
+  "feet": 282,
+  "built": "2013",
+  "owner": "Majid Al Futtaim",
+  "builder": "L\u00fcrssen"
+ },
+ {
+  "name": "Man of Steel",
+  "meters": 86.0,
+  "feet": 282,
+  "built": "2011",
+  "owner": "Barry Zekelman",
+  "builder": "Oceanco"
+ },
+ {
+  "name": "Kingdom 5KR",
+  "meters": 86.0,
+  "feet": 282,
+  "built": "1980",
+  "owner": "Al-Waleed bin Talal Al Saud",
+  "builder": "Benetti"
+ },
+ {
+  "name": "Chakra",
+  "meters": 86.0,
+  "feet": 282,
+  "built": "1963",
+  "owner": "",
+  "builder": "Scheepswerf Gebr. van der Werf"
+ },
+ {
+  "name": "Ecstasea",
+  "meters": 86.0,
+  "feet": 282,
+  "built": "2004",
+  "owner": "Alshair Fiyaz",
+  "builder": "Feadship"
+ },
+ {
+  "name": "HBC",
+  "meters": 85.6,
+  "feet": 281,
+  "built": "2008",
+  "owner": "",
+  "builder": "Abeking & Rasmussen"
+ },
+ {
+  "name": "Aquila",
+  "meters": 85.6,
+  "feet": 281,
+  "built": "2010",
+  "owner": "Ann Walton Kroenke",
+  "builder": "Derecktor Shipyards"
+ },
+ {
+  "name": "Vibrant Curiosity",
+  "meters": 85.5,
+  "feet": 281,
+  "built": "2009",
+  "owner": "Reinhold Wuerth",
+  "builder": "Oceanco"
+ },
+ {
+  "name": "Sunrays",
+  "meters": 85.5,
+  "feet": 281,
+  "built": "2010",
+  "owner": "Ravi Ruia",
+  "builder": "Oceanco"
+ },
+ {
+  "name": "Moonlight II",
+  "meters": 85.3,
+  "feet": 280,
+  "built": "2005",
+  "owner": "Sultan bin Khalifa Al Nahyan",
+  "builder": "Neorion"
+ },
+ {
+  "name": "Pacific X",
+  "meters": 85.2,
+  "feet": 280,
+  "built": "2010",
+  "owner": "Leonid Mikhelson",
+  "builder": "L\u00fcrssen"
+ },
+ {
+  "name": "Meridian A",
+  "meters": 85.1,
+  "feet": 279,
+  "built": "2011",
+  "owner": "Sergey Chemezov     [ f ]",
+  "builder": "L\u00fcrssen"
+ },
+ {
+  "name": "Solandge",
+  "meters": 85.1,
+  "feet": 279,
+  "built": "2013",
+  "owner": "Muqrin bin Abdulaziz Al Saud",
+  "builder": "L\u00fcrssen"
+ },
+ {
+  "name": "Gigia",
+  "meters": 85.0,
+  "feet": 279,
+  "built": "2017",
+  "owner": "Igor Makarov",
+  "builder": "L\u00fcrssen"
+ },
+ {
+  "name": "O'Ptasia",
+  "meters": 85.0,
+  "feet": 279,
+  "built": "2018",
+  "owner": "Paris Dragnis",
+  "builder": "Golden Yachts Ltd."
+ },
+ {
+  "name": "Bold",
+  "meters": 85.0,
+  "feet": 279,
+  "built": "2019",
+  "owner": "Guido Krass",
+  "builder": "Silver Yachts"
+ },
+ {
+  "name": "Victorious",
+  "meters": 85.0,
+  "feet": 279,
+  "built": "2021",
+  "owner": "Vural Ak",
+  "builder": "Akyacht"
+ },
+ {
+  "name": "Wanderlust",
+  "meters": 85.0,
+  "feet": 279,
+  "built": "2022",
+  "owner": "Yim Leak",
+  "builder": "Silver Yachts"
+ },
+ {
+  "name": "Obsidian",
+  "meters": 84.2,
+  "feet": 276,
+  "built": "2023",
+  "owner": "",
+  "builder": "Feadship"
+ },
+ {
+  "name": "White Rabbit",
+  "meters": 84.0,
+  "feet": 276,
+  "built": "2018",
+  "owner": "Goh Cheng Liang",
+  "builder": "Echo Yachts"
+ },
+ {
+  "name": "Savannah",
+  "meters": 83.5,
+  "feet": 274,
+  "built": "2015",
+  "owner": "Lukas H. Lundin",
+  "builder": "Feadship"
+ },
+ {
+  "name": "Genesis",
+  "meters": 82.9,
+  "feet": 272,
+  "built": "2024",
+  "owner": "",
+  "builder": "Heesen Yachts"
+ },
+ {
+  "name": "Sakura",
+  "meters": 82.9,
+  "feet": 272,
+  "built": "2024",
+  "owner": "",
+  "builder": "Feadship"
+ },
+ {
+  "name": "Talitha",
+  "meters": 82.6,
+  "feet": 271,
+  "built": "1929",
+  "owner": "Mark Getty",
+  "builder": "Germaniawerft"
+ },
+ {
+  "name": "Emir",
+  "meters": 82.5,
+  "feet": 271,
+  "built": "1987",
+  "owner": "",
+  "builder": "Mitsubishi Heavy Industries"
+ },
+ {
+  "name": "Sea Pearl",
+  "meters": 82.5,
+  "feet": 271,
+  "built": "2013",
+  "owner": "Sri Prakash Lohia",
+  "builder": "Abeking & Rasmussen"
+ },
+ {
+  "name": "Basrah Breeze",
+  "meters": 82.0,
+  "feet": 269,
+  "built": "1981",
+  "owner": "Government of Iraq",
+  "builder": "Helsing\u00f8r V\u00e6rft  (Dutch Wiki)"
+ },
+ {
+  "name": "Ilona",
+  "meters": 82.0,
+  "feet": 269,
+  "built": "2004",
+  "owner": "Frank Lowy",
+  "builder": "Amels Holland B.V."
+ },
+ {
+  "name": "Alfa Nero",
+  "meters": 82.0,
+  "feet": 269,
+  "built": "2007",
+  "owner": "",
+  "builder": "Oceanco"
+ },
+ {
+  "name": "Pure",
+  "meters": 82.0,
+  "feet": 269,
+  "built": "2008",
+  "owner": "Olivier Leclercq",
+  "builder": "Devonport Yachts"
+ },
+ {
+  "name": "Kosatka",
+  "meters": 82.0,
+  "feet": 269,
+  "built": "2014",
+  "owner": "Vladimir Putin",
+  "builder": "Blohm + Voss"
+ },
+ {
+  "name": "Haven",
+  "meters": 82.0,
+  "feet": 269,
+  "built": "2024",
+  "owner": "",
+  "builder": "L\u00fcrssen"
+ },
+ {
+  "name": "Romea",
+  "meters": 81.8,
+  "feet": 268,
+  "built": "2015",
+  "owner": "Alexander Nesis",
+  "builder": "Abeking & Rasmussen"
+ },
+ {
+  "name": "Air",
+  "meters": 81.0,
+  "feet": 266,
+  "built": "2011",
+  "owner": "Augusto Perfetti",
+  "builder": "Feadship"
+ },
+ {
+  "name": "Grace",
+  "meters": 81.0,
+  "feet": 266,
+  "built": "2014",
+  "owner": "John Reece",
+  "builder": "Abeking & Rasmussen"
+ },
+ {
+  "name": "HNoMY  Norge",
+  "meters": 80.2,
+  "feet": 263,
+  "built": "1937",
+  "owner": "Harald V  of Norway",
+  "builder": "Camper and Nicholsons"
+ },
+ {
+  "name": "Grand Ocean",
+  "meters": 80.2,
+  "feet": 263,
+  "built": "1990",
+  "owner": "Nidal Karameh",
+  "builder": "Blohm + Voss"
+ },
+ {
+  "name": "Constellation",
+  "meters": 80.0,
+  "feet": 262,
+  "built": "1999",
+  "owner": "Hamad bin Khalifa Al Thani",
+  "builder": "Oceanco"
+ },
+ {
+  "name": "Yasmine of The Sea",
+  "meters": 80.0,
+  "feet": 262,
+  "built": "2001",
+  "owner": "Abdullah Al Thani",
+  "builder": "Oceanco"
+ },
+ {
+  "name": "Batello",
+  "meters": 80.0,
+  "feet": 262,
+  "built": "2006",
+  "owner": "",
+  "builder": "Oceanco"
+ },
+ {
+  "name": "Titan",
+  "meters": 80.0,
+  "feet": 262,
+  "built": "2010",
+  "owner": "Alexander Abramov",
+  "builder": "Abeking & Rasmussen"
+ },
+ {
+  "name": "Chopi Chopi",
+  "meters": 80.0,
+  "feet": 262,
+  "built": "2013",
+  "owner": "Taha Mikati",
+  "builder": "CRN Spa"
+ },
+ {
+  "name": "Elements",
+  "meters": 80.0,
+  "feet": 262,
+  "built": "2019",
+  "owner": "Fahad al-Athel",
+  "builder": "Yachtley"
+ },
+ {
+  "name": "Excellence",
+  "meters": 80.0,
+  "feet": 262,
+  "built": "2019",
+  "owner": "Herb Chambers",
+  "builder": "Abeking & Rasmussen"
+ },
+ {
+  "name": "Artefact",
+  "meters": 80.0,
+  "feet": 262,
+  "built": "2020",
+  "owner": "Mike Lazaridis",
+  "builder": "Nobiskrug"
+ },
+ {
+  "name": "Tatiana",
+  "meters": 80.0,
+  "feet": 262,
+  "built": "2020",
+  "owner": "Cyrus Pallonji Mistry",
+  "builder": "Bilgin Yachts"
+ },
+ {
+  "name": "Leona",
+  "meters": 80.0,
+  "feet": 262,
+  "built": "2023",
+  "owner": "Saudi royal family",
+  "builder": "Bilgin Yachts"
+ },
+ {
+  "name": "Faith",
+  "meters": 80.0,
+  "feet": 262,
+  "built": "2025",
+  "owner": "Lawrence Stroll",
+  "builder": "Feadship"
+ },
+ {
+  "name": "Wingman",
+  "meters": 80.0,
+  "feet": 262,
+  "built": "2022",
+  "owner": "Mark Zuckerberg",
+  "builder": "Damen Yachts"
+ },
+ {
+  "name": "Dragon",
+  "meters": 79.9,
+  "feet": 262,
+  "built": "2019",
+  "owner": "",
+  "builder": "Palumbo Superyachts"
+ },
+ {
+  "name": "Mimtee",
+  "meters": 79.4,
+  "feet": 260,
+  "built": "2019",
+  "owner": "Najib Mikati",
+  "builder": "CRN Spa"
+ },
+ {
+  "name": "SS  Delphine",
+  "meters": 78.6,
+  "feet": 258,
+  "built": "1921",
+  "owner": "Jacques Bruynooghe",
+  "builder": "Great Lakes Engineering Works"
+ },
+ {
+  "name": "Pegasus VIII",
+  "meters": 78.6,
+  "feet": 258,
+  "built": "2003",
+  "owner": "Mohammed bin Salman Al Saud",
+  "builder": "Royal Denship"
+ },
+ {
+  "name": "Rocinante",
+  "meters": 78.5,
+  "feet": 258,
+  "built": "2008",
+  "owner": "Gabe Newell",
+  "builder": "L\u00fcrssen"
+ },
+ {
+  "name": "Hampshire II",
+  "meters": 78.5,
+  "feet": 258,
+  "built": "2012",
+  "owner": "Jim Ratcliffe",
+  "builder": "Feadship"
+ },
+ {
+  "name": "Tueq",
+  "meters": 78.5,
+  "feet": 258,
+  "built": "2002",
+  "owner": "Salman of Saudi Arabia",
+  "builder": "Van der Giessen de Noord"
+ },
+ {
+  "name": "HDMY  Dannebrog",
+  "meters": 78.4,
+  "feet": 257,
+  "built": "1932",
+  "owner": "Frederik X  of Denmark",
+  "builder": "Orlogsv\u00e6rftet"
+ },
+ {
+  "name": "Eminence",
+  "meters": 78.4,
+  "feet": 257,
+  "built": "2008",
+  "owner": "Alexander Khloponin",
+  "builder": "Abeking & Rasmussen"
+ },
+ {
+  "name": "Amaryllis",
+  "meters": 78.4,
+  "feet": 257,
+  "built": "2011",
+  "owner": "Andrey Borodin",
+  "builder": "Abeking & Rasmussen"
+ },
+ {
+  "name": "Platinum",
+  "meters": 78.3,
+  "feet": 257,
+  "built": "2024",
+  "owner": "",
+  "builder": "Admiral Yachts"
+ },
+ {
+  "name": "Venus",
+  "meters": 78.2,
+  "feet": 257,
+  "built": "2012",
+  "owner": "Laurene Powell Jobs",
+  "builder": "Feadship"
+ },
+ {
+  "name": "Montkaj",
+  "meters": 78.0,
+  "feet": 256,
+  "built": "1995",
+  "owner": "Muhammad bin Fahd Al Saud",
+  "builder": "Amels Holland B.V."
+ },
+ {
+  "name": "Energy",
+  "meters": 77.8,
+  "feet": 255,
+  "built": "2022",
+  "owner": "Valeriy Khoroshkovskyi",
+  "builder": "Amels Holland B.V."
+ },
+ {
+  "name": "Tango",
+  "meters": 77.7,
+  "feet": 255,
+  "built": "2011",
+  "owner": "Viktor Vekselberg     [ g ]",
+  "builder": "Feadship"
+ },
+ {
+  "name": "Malia",
+  "meters": 77.7,
+  "feet": 255,
+  "built": "2023",
+  "owner": "",
+  "builder": "Golden Yachts Ltd."
+ },
+ {
+  "name": "Sea Ranger",
+  "meters": 77.4,
+  "feet": 254,
+  "built": "1973",
+  "owner": "Peter Lewis",
+  "builder": "Schichau Unterweser AG"
+ },
+ {
+  "name": "Pi",
+  "meters": 77.2,
+  "feet": 253,
+  "built": "2019",
+  "owner": "Howard Schultz",
+  "builder": "Feadship"
+ },
+ {
+  "name": "BRP  Ang Pangulo",
+  "meters": 77.0,
+  "feet": 253,
+  "built": "1959",
+  "owner": "President of the Republic of the P",
+  "builder": "IHI Corporation"
+ },
+ {
+  "name": "Sea Stallion",
+  "meters": 77.0,
+  "feet": 253,
+  "built": "2012",
+  "owner": "Dubai royal family",
+  "builder": "Silver Yachts"
+ },
+ {
+  "name": "Silver Fast",
+  "meters": 77.0,
+  "feet": 253,
+  "built": "2015",
+  "owner": "Guido Krass",
+  "builder": "Silver Yachts"
+ },
+ {
+  "name": "Legend",
+  "meters": 77.0,
+  "feet": 253,
+  "built": "1974",
+  "owner": "Jan Verkerk",
+  "builder": "IHC Verschure"
+ },
+ {
+  "name": "GO",
+  "meters": 77.0,
+  "feet": 253,
+  "built": "2018",
+  "owner": "Hans-Peter Wild",
+  "builder": "Turquoise Yachts"
+ },
+ {
+  "name": "La Datcha",
+  "meters": 76.9,
+  "feet": 252,
+  "built": "2020",
+  "owner": "Oleg Tinkov",
+  "builder": "Damen Yachts"
+ },
+ {
+  "name": "Samar",
+  "meters": 76.9,
+  "feet": 252,
+  "built": "2006",
+  "owner": "Kutayba Alghanim",
+  "builder": "Devonport Yachts"
+ },
+ {
+  "name": "Yersin",
+  "meters": 76.6,
+  "feet": 251,
+  "built": "2015",
+  "owner": "Francois Fiat",
+  "builder": "Piriou"
+ },
+ {
+  "name": "Boardwalk",
+  "meters": 76.5,
+  "feet": 251,
+  "built": "2021",
+  "owner": "Tilman Fertitta",
+  "builder": "Feadship"
+ },
+ {
+  "name": "Lady Sarya",
+  "meters": 76.3,
+  "feet": 250,
+  "built": "1972",
+  "owner": "Ahmed Zaki Yamani",
+  "builder": "Nuovi Cantieri Apuania S.p.A."
+ },
+ {
+  "name": "Alvia",
+  "meters": 76.0,
+  "feet": 250,
+  "built": "2024",
+  "owner": "Philippe Casanovas",
+  "builder": "Feadship"
+ },
+ {
+  "name": "Ebony Shine",
+  "meters": 76.0,
+  "feet": 249,
+  "built": "2009",
+  "owner": "Teodoro Nguema Obiang Mangue",
+  "builder": "Feadship"
+ },
+ {
+  "name": "Huntress",
+  "meters": 75.6,
+  "feet": 248,
+  "built": "2009",
+  "owner": "George Argyros",
+  "builder": "L\u00fcrssen"
+ },
+ {
+  "name": "Reborn",
+  "meters": 75.5,
+  "feet": 248,
+  "built": "1999",
+  "owner": "Gabriele Volpi",
+  "builder": "Amels Holland B.V."
+ },
+ {
+  "name": "Wheels",
+  "meters": 75.5,
+  "feet": 248,
+  "built": "2008",
+  "owner": "Ralf Schmid",
+  "builder": "Oceanco"
+ },
+ {
+  "name": "Kensh\u014d",
+  "meters": 75.2,
+  "feet": 247,
+  "built": "2022",
+  "owner": "Udo Mueller",
+  "builder": "Admiral Yachts"
+ },
+ {
+  "name": "Meserret III",
+  "meters": 75.0,
+  "feet": 246,
+  "built": "1992",
+  "owner": "Mehmet \u00d6mer Ko\u00e7",
+  "builder": "Peene-Werft"
+ },
+ {
+  "name": "Planet Nine",
+  "meters": 75.0,
+  "feet": 246,
+  "built": "2018",
+  "owner": "Nathaniel Rothschild",
+  "builder": "Admiral Yachts"
+ },
+ {
+  "name": "Arrow",
+  "meters": 75.0,
+  "feet": 246,
+  "built": "2020",
+  "owner": "Michael Platt",
+  "builder": "Feadship"
+ },
+ {
+  "name": "Abeona",
+  "meters": 75.0,
+  "feet": 246,
+  "built": "2023",
+  "owner": "Jeff Bezos",
+  "builder": "Damen Yachts"
+ },
+ {
+  "name": "Infinite Jest",
+  "meters": 75.0,
+  "feet": 246,
+  "built": "2023",
+  "owner": "",
+  "builder": "Turquoise Yachts"
+ }
+]
