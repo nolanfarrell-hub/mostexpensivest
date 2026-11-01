@@ -158,50 +158,53 @@ a{color:inherit}.top-rule{height:3px;background:var(--ink)}
 <div class="backlink"><a href="index.html">← All Departments</a></div>
 <div class="copyright">© The Most Expensivest, MMXXVI</div>
 <script>
-/* ROTATING ART HERO — the season's top lots, with live links to the record */
+/* ROTATING ART HERO - data-driven; reads media/art_season.json, falls back to embedded */
+function __fi(el){el.style.display='none';el.parentNode.style.background='linear-gradient(135deg,#1a1814,#2c251a)';}
 (function(){
-  var LOTS=[
+  var EMBED=[
     {art:"Jackson Pollock · Number 7A, 1948",price:181185000,house:"Christie's New York",date:"May 2026",provenance:"From the collection of S.I. Newhouse. Nearly three times the artist's prior record.",img:"https://artsy-media-uploads.s3.amazonaws.com/Pg2v6xbfHtcG5aaU8XRUTA/LOT+8A_JACKSON+POLLOCK%2C+Number+7A%2C+1948.jpg",link:"https://www.christies.com/en/lot/lot-6585089"},
     {art:"Mark Rothko · No. 15 (Two Greens and Red Stripe), 1964",price:98385000,house:"Christie's New York",date:"May 2026",provenance:"Set a new auction record for the artist, from the collection of Agnes Gund.",img:"https://artsy-media-uploads.s3.amazonaws.com/GVrzr-wGsLYRtdi-IimCUQ/LOT+21A_MARK+ROTHKO%2C+No.+15+%28Two+Greens+and+Red+Stripe%29.jpg",link:"https://www.christies.com/lot/mark-rothko-1903-1970--6585784"},
     {art:"Joan Miró · Portrait de Madame K., 1924",price:53535000,house:"Christie's New York",date:"May 2026",provenance:"More than doubled its low estimate; a new record for the artist at auction.",img:"https://artsy-media-uploads.s3.amazonaws.com/5ZrT3SegFcYeITdmG35nyA/LOT+6A_JOAN+MIRO%2C+Portrait+de+Madame+K..jpg",link:"https://www.christies.com/en/lot/lot-6585087"},
-    {art:"Alice Neel · Mother and Child (Nancy and Olivia), 1967",price:5687000,house:"Christie's New York",date:"May 2026",provenance:"More than tripled its $1.2–1.8M estimate; a new record for the artist.",img:"https://artsy-media-uploads.s3.amazonaws.com/rHaRX23MFt4nqdRyoJHlXg/LOT+50A_ALICE+NEEL%2C+Mother+and+Child+%28Nancy+and+Olivia%29.jpg",link:"https://www.christies.com/en/lot/lot-6585813"}
+    {art:"Alice Neel · Mother and Child (Nancy and Olivia), 1967",price:5687000,house:"Christie's New York",date:"May 2026",provenance:"More than tripled its $1.2-1.8M estimate; a new record for the artist.",img:"https://artsy-media-uploads.s3.amazonaws.com/rHaRX23MFt4nqdRyoJHlXg/LOT+50A_ALICE+NEEL%2C+Mother+and+Child+%28Nancy+and+Olivia%29.jpg",link:"https://www.christies.com/en/lot/lot-6585813"}
   ];
+  var NF=' · ',NL='\n';
   function money(n){if(n==null||isNaN(n))return "on request";return "$"+Math.round(n).toLocaleString("en-US");}
   function esc(s){var d=document.createElement("div");d.textContent=s==null?"":String(s);return d.innerHTML;}
-  var rot=document.getElementById("artRot"); if(!rot)return;
-  /* build slides from the LOTS array; each slide links out to the live lot page */
-  var slidesHTML=LOTS.map(function(it,i){
-    return '<div class="slide'+(i===0?' on':'')+'" data-i="'+i+'">'+
-      '<a href="'+esc(it.link)+'" target="_blank" rel="noopener">'+
-        '<img src="'+esc(it.img)+'" onerror="this.style.display=\'none\';this.parentNode.style.background=\'linear-gradient(135deg,#1a1814,#2c251a)\'" alt="'+esc(it.art)+'"/>'+
-        '<div class="copy">'+
-          '<div class="rack">Top Lot · Sold This Season</div>'+
-          '<div class="cname">'+esc(it.art)+'</div>'+
-          '<div class="cart">'+esc(it.house)+' · '+esc(it.date)+'</div>'+
-          '<div class="clot">'+esc(it.provenance)+'</div>'+
-          '<div class="cprice">'+money(it.price)+'</div>'+
-          '<div class="cgo">View the Record</div>'+
-        '</div>'+
-      '</a>'+
-    '</div>';
-  }).join("");
-  var dotsHTML=LOTS.map(function(it,i){return '<i class="'+(i===0?'on':'')+'" data-go="'+i+'"></i>';}).join("");
-  rot.innerHTML=slidesHTML+'<div class="dots inner">'+dotsHTML+'</div>';
-  /* rotate */
-  var idx=0, TOTAL=LOTS.length, timer;
-  function show(n){
-    idx=(n+TOTAL)%TOTAL;
-    var s=rot.querySelectorAll(".slide");Array.prototype.forEach.call(s,function(el){el.classList.toggle("on",+el.getAttribute("data-i")===idx);});
-    var d=rot.querySelectorAll(".dots i");Array.prototype.forEach.call(d,function(el){el.classList.toggle("on",+el.getAttribute("data-go")===idx);});
+  function render(LOTS,asof){
+    var rot=document.getElementById("artRot"); if(!rot)return;
+    var slides=LOTS.map(function(it,i){
+      return '<div class="slide'+(i===0?' on':'')+'" data-i="'+i+'">'+
+        '<a href="'+esc(it.link)+'" target="_blank" rel="noopener">'+
+          '<img src="'+esc(it.img)+'" onerror="__fi(this)" alt="'+esc(it.art)+'"/>'+
+          '<div class="copy">'+
+            '<div class="rack">Top Lot'+(asof?' · '+esc(asof):'')+'</div>'+
+            '<div class="cname">'+esc(it.art)+'</div>'+
+            '<div class="cart">'+esc(it.house)+' · '+esc(it.date)+'</div>'+
+            '<div class="clot">'+esc(it.provenance)+'</div>'+
+            '<div class="cprice">'+money(it.price)+'</div>'+
+            '<div class="cgo">View the Record</div>'+
+          '</div>'+
+        '</a>'+
+      '</div>';
+    }).join("");
+    var dots=LOTS.map(function(it,i){return '<i class="'+(i===0?'on':'')+'" data-go="'+i+'"></i>';}).join("");
+    rot.innerHTML=slides+'<div class="dots inner">'+dots+'</div>';
+    var idx=0,TOTAL=LOTS.length,timer;
+    function show(n){idx=(n+TOTAL)%TOTAL;var s=rot.querySelectorAll(".slide");Array.prototype.forEach.call(s,function(el){el.classList.toggle("on",+el.getAttribute("data-i")===idx);});var d=rot.querySelectorAll(".dots i");Array.prototype.forEach.call(d,function(el){el.classList.toggle("on",+el.getAttribute("data-go")===idx);});}
+    function next(){show(idx+1);}
+    function start(){clearInterval(timer);timer=setInterval(next,6000);}
+    rot.removeEventListener("click",start);rot.addEventListener("click",function(e){var g=e.target.getAttribute&&e.target.getAttribute("data-go");if(g!=null){show(+g);start();}});
+    start();
   }
-  function next(){show(idx+1);}
-  function start(){clearInterval(timer);timer=setInterval(next,6000);}
-  rot.addEventListener("click",function(e){
-    var g=e.target.getAttribute&&e.target.getAttribute("data-go");
-    if(g!=null){show(+g);start();}
-  });
-  start();
-  /* RECORDS OF THE MARKET — the all-time ledger */
+  function valid(L){return Array.isArray(L)&&L.length>0&&L.every(function(x){return x&&x.art&&x.price&&(x.img||x.link);});}
+  fetch("media/art_season.json",{cache:"no-store"}).then(function(r){
+    try{return r.ok?r.json():null;}catch(e){return null;}
+  }).then(function(d){
+    var L=d&&d.lots;
+    if(valid(L)){render(L,L.length?d.asof||null:null);}
+    else{render(EMBED,null);}
+  }).catch(function(){render(EMBED,null);});
+  /* RECORDS OF THE MARKET - the all-time ledger */
   fetch("media/art_records.json").then(function(r){return r.json();}).then(function(recs){
     var tb=document.getElementById("artTable"); if(!tb)return;
     recs.sort(function(a,b){return (b.price||0)-(a.price||0);});
