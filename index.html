@@ -55,7 +55,7 @@ a{color:inherit;text-decoration:none}
 .dept .dh{display:flex;align-items:baseline;justify-content:space-between;border-bottom:1px solid var(--ink);padding-bottom:16px;margin-bottom:28px}
 .dept .dh h2{font-family:'Space Grotesk',sans-serif;font-size:12px;letter-spacing:3px;text-transform:uppercase;font-weight:500;color:var(--ink)}
 .dept .dh .note{font-size:11px;letter-spacing:2px;text-transform:uppercase;color:var(--muted)}
-.dgrid{display:grid;grid-template-columns:repeat(4,1fr);gap:1px;background:var(--line)}
+.dgrid{display:grid;grid-template-columns:repeat(3,1fr);gap:1px;background:var(--line)}
 .cell{background:var(--paper);padding:44px 28px 46px;min-height:280px;display:flex;flex-direction:column;justify-content:space-between;position:relative;overflow:hidden;transition:background .25s}
 .cell::before{content:"";position:absolute;inset:0;background:var(--ink);transform:translateY(101%);transition:transform .45s cubic-bezier(.22,.61,.36,1);z-index:0}
 .cell:hover::before{transform:translateY(0)}
@@ -90,7 +90,7 @@ footer{background:var(--ink);color:var(--paper2);margin-top:64px;padding:70px 30
 .copyright{border-top:1px solid #2b2821;max-width:1240px;margin:0 auto;padding:22px 0 30px;display:flex;justify-content:space-between;font-size:10.5px;color:var(--muted);letter-spacing:1px}
 
 @media(max-width:960px){.dgrid{grid-template-columns:1fr 1fr}.cell{min-height:220px;padding:36px 26px 84px}.feature .fcap{left:26px;bottom:20px}}
-@media(max-width:560px){.dgrid{grid-template-columns:1fr}.cell{min-height:180px;padding:30px 24px 80px}.footer-in{grid-template-columns:1fr}.utop .ut-r{gap:14px}.utop{flex-direction:column;gap:8px}}
+@media(max-width:560px){.dgrid{grid-template-columns:1fr}.cell{min-height:180px;padding:30px 24px 80px}.footer-in{grid-template-columns:1fr}.utop .ut-r{gap:14px}.utop{flex-direction:column;gap:8px}.lgrid{grid-template-columns:1fr 1fr}}
 </style>
 </head>
 <body>
@@ -125,6 +125,54 @@ footer{background:var(--ink);color:var(--paper2);margin-top:64px;padding:70px 30
     <div class="cta">Read the Feature</div>
   </div>
 </a>
+
+<a class="feature" href="art.html">
+  <div class="fimgwrap">
+    <img class="fimg" src="media/img/art_starrynight.jpg" alt="Vincent van Gogh, The Starry Night"/>
+  </div>
+  <div class="fcap">
+    <div class="tag">Art · Masterwork</div>
+    <h2>The Starry Night</h2>
+    <div class="lede">The painting that made van Gogh the best-selling name in the market's history.</div>
+    <div class="meta">held at the Museum of Modern Art · New York</div>
+    <div class="cta">Enter the Department</div>
+  </div>
+</a>
+
+<!-- THE LEDGER : live records across departments -->
+<div class="records" style="max-width:1240px;margin:56px auto 0;padding:0 24px">
+  <div class="rh" style="display:flex;align-items:baseline;justify-content:space-between;border-top:3px solid var(--ink);padding-top:22px;margin-bottom:24px">
+    <h3 style="font-family:'Space Grotesk',sans-serif;font-size:12px;letter-spacing:3px;text-transform:uppercase;font-weight:600">The Ledger</h3>
+    <div style="font-size:11px;letter-spacing:2px;text-transform:uppercase;color:var(--muted)">what the market has done</div>
+  </div>
+  <div class="lgrid" id="ledgerGrid" style="display:grid;grid-template-columns:repeat(4,1fr);gap:16px">
+    <div class="lcell" style="display:block;border:1px solid var(--line);background:var(--paper);padding:22px 24px">
+      <div style="font-size:10px;letter-spacing:2.5px;text-transform:uppercase;color:var(--brass);margin-bottom:10px">Time · On the Market</div>
+      <div style="font-family:'Cormorant Garamond',serif;font-size:20px;font-weight:600;line-height:1.15;color:var(--ink)" id="lTimeName">reading…</div>
+      <div style="font-family:'Space Grotesk',sans-serif;font-weight:700;font-size:20px;color:var(--brass-dark);margin-top:10px" id="lTimePrice"></div>
+      <div style="font-size:10px;letter-spacing:1.5px;text-transform:uppercase;color:var(--muted);margin-top:14px">the finest listed now</div>
+    </div>
+    <a class="lcell" href="art.html" style="display:block;border:1px solid var(--line);background:var(--paper);padding:22px 24px;text-decoration:none;transition:border-color .2s">
+      <div style="font-size:10px;letter-spacing:2.5px;text-transform:uppercase;color:var(--brass);margin-bottom:10px">Art · Sale Record</div>
+      <div style="font-family:'Cormorant Garamond',serif;font-size:20px;font-weight:600;line-height:1.15;color:var(--ink)">Salvator Mundi</div>
+      <div style="font-family:'Space Grotesk',sans-serif;font-weight:700;font-size:20px;color:var(--brass-dark);margin-top:10px">$450,300,000</div>
+      <div style="font-size:10px;letter-spacing:1.5px;text-transform:uppercase;color:var(--muted);margin-top:14px">the highest price ever paid</div>
+    </a>
+    <a class="lcell" href="road.html" style="display:block;border:1px solid var(--line);background:var(--paper);padding:22px 24px;text-decoration:none;transition:border-color .2s">
+      <div style="font-size:10px;letter-spacing:2.5px;text-transform:uppercase;color:var(--brass);margin-bottom:10px">The Road · Hammer</div>
+      <div style="font-family:'Cormorant Garamond',serif;font-size:20px;font-weight:600;line-height:1.15;color:var(--ink)" id="lRoadName">Ferrari Luce "Tailor Made"</div>
+      <div style="font-family:'Space Grotesk',sans-serif;font-weight:700;font-size:20px;color:var(--brass-dark);margin-top:10px" id="lRoadPrice">$40,000,000</div>
+      <div style="font-size:10px;letter-spacing:1.5px;text-transform:uppercase;color:var(--muted);margin-top:14px">highest at auction, 2026</div>
+    </a>
+    <a class="lcell" href="sea.html" style="display:block;border:1px solid var(--line);background:var(--paper);padding:22px 24px;text-decoration:none;transition:border-color .2s">
+      <div style="font-size:10px;letter-spacing:2.5px;text-transform:uppercase;color:var(--brass);margin-bottom:10px">The Sea · The Longest</div>
+      <div style="font-family:'Cormorant Garamond',serif;font-size:20px;font-weight:600;line-height:1.15;color:var(--ink)">Azzam</div>
+      <div style="font-family:'Space Grotesk',sans-serif;font-weight:700;font-size:20px;color:var(--brass-dark);margin-top:10px">591 ft</div>
+      <div style="font-size:10px;letter-spacing:1.5px;text-transform:uppercase;color:var(--muted);margin-top:14px">the longest private yacht afloat</div>
+    </a>
+  </div>
+</div>
+<div style="max-width:1240px;margin:12px auto 0;padding:0 24px;font-size:10.5px;color:var(--faint);letter-spacing:.5px">Figures compiled live from sources including <b>MostExpensiveWatches</b> and <b>Wikipedia</b>; every department carries its full source line.</div>
 
 <!-- DEPARTMENTS -->
 <div class="dept">
@@ -194,5 +242,29 @@ footer{background:var(--ink);color:var(--paper2);margin-top:64px;padding:70px 30
     <span>The Most Expensivest</span>
   </div>
 </footer>
+<script>
+(function(){
+  function esc(s){var d=document.createElement("div");d.textContent=s==null?"":String(s);return d.innerHTML;}
+  function money(n){if(n==null||isNaN(n))return "";return "$"+Math.round(n).toLocaleString("en-US");}
+  // Time cell: highest-value live listing
+  fetch("https://mostexpensivewatches.net/api/listings/search?limit=1&sort=price-desc").then(function(r){return r.json();}).then(function(d){
+    var it=(d.items||[])[0];
+    if(it){
+      var t=it.title||it.model||"";
+      if(it.brand){var b=it.brand.toLowerCase();var low=t.toLowerCase();if(low.startsWith(b+" "+b))t=t.substring(it.brand.length+1);}
+      var n=document.getElementById("lTimeName"); if(n)n.textContent=esc(t);
+      var p=document.getElementById("lTimePrice"); if(p)p.textContent=money(it.price_usd);
+    }
+  }).catch(function(){});
+  // Road cell: highest hammer from records json
+  fetch("media/road_records.json").then(function(r){return r.json();}).then(function(recs){
+    recs.sort(function(a,b){return (b.price||0)-(a.price||0);});
+    if(recs[0]){
+      var n=document.getElementById("lRoadName"); if(n)n.textContent=esc(recs[0].name);
+      var p=document.getElementById("lRoadPrice"); if(p)p.textContent=money(recs[0].price);
+    }
+  }).catch(function(){});
+})();
+</script>
 </body>
 </html>
