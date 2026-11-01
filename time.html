@@ -3,10 +3,11 @@
 <head>
 <meta charset="UTF-8"/>
 <meta name="viewport" content="width=device-width,initial-scale=1"/>
-<title>The Most Expensivest · Time</title>
+<title>ME · Time</title>
+<meta name="description" content="ME on Time — rare watches, placed by provenance. Live market, collector notes and auction records."/>
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;700&family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;1,400;1,500&family=Inter:wght@300;400;500&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;700&family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;1,400;1,500&family=Inter:wght@300;400;500&display=swap" rel="stylesheet">
 <style>
 :root{--cream:#f4efe4;--paper:#faf6ec;--ink:#1a1814;--ink2:#3e3a30;--muted:#8a8172;--brass:#a58a4b;--brass-dark:#89703f;--line:#e0d6bf;--faint:#c8be9f;--verde:#33503a;--verde-soft:#4a6a52}
 *{margin:0;padding:0;box-sizing:border-box}html{scroll-behavior:smooth}
@@ -17,7 +18,7 @@ a{color:inherit}.top-rule{height:3px;background:var(--ink)}
 .dep-head .back:hover{color:var(--verde-soft)}
 .dep-head .kat{font-size:11px;letter-spacing:4px;text-transform:uppercase;color:var(--verde-soft);margin-bottom:14px;font-weight:500}
 .dep-head h1{font-family:'Cormorant Garamond',serif;font-weight:500;font-size:clamp(40px,7vw,74px);letter-spacing:-1px}
-.dep-head .deck{max-width:640px;margin:24px auto 0;font-style:italic;font-family:'Cormorant Garamond',serif;font-size:clamp(17px,2.2vw,21px);color:var(--ink2);line-height:1.5}
+.dep-head .deck{max-width:680px;margin:24px auto 0;font-style:italic;font-family:'Cormorant Garamond',serif;font-size:clamp(17px,2.2vw,21px);color:var(--ink2);line-height:1.5}
 .dept{max-width:1100px;margin:0 auto;padding:40px 26px}
 .grid{display:grid;grid-template-columns:repeat(3,1fr);gap:0}
 .card{padding:26px 24px;border-right:1px solid var(--line);border-top:1px solid var(--line)}
@@ -27,13 +28,53 @@ a{color:inherit}.top-rule{height:3px;background:var(--ink)}
 .card .what{font-size:13px;color:var(--ink2);line-height:1.55}
 .card .price{display:block;margin-top:16px;font-family:'Cormorant Garamond',serif;font-size:18px;font-weight:500;color:var(--brass-dark)}
 .card:hover{background:var(--paper)}
-.consult{max-width:1100px;margin:0 auto;padding:44px 30px 8px;display:flex;align-items:center;justify-content:space-between;gap:26px;flex-wrap:wrap;border-top:1px solid var(--line)}.consult h4{font-family:'Cormorant Garamond',serif;font-weight:600;font-size:24px;margin-bottom:6px}.consult p{font-size:13px;color:var(--ink2);max-width:640px}.consult .cta a{font-size:11px;letter-spacing:3px;text-transform:uppercase;text-decoration:none;color:var(--verde-soft);font-weight:600;border-bottom:1px solid var(--verde-soft);padding-bottom:4px;white-space:nowrap}
+
+/* LIVE MARKET */
+.live{max-width:1100px;margin:64px auto 0;padding:0 30px}
+.live .lh{display:flex;align-items:baseline;justify-content:space-between;border-top:3px solid var(--ink);padding-top:22px;margin-bottom:26px}
+.live .lh h2{font-family:'Space Grotesk',sans-serif;font-size:12px;letter-spacing:3px;text-transform:uppercase;font-weight:600;color:var(--ink)}
+.live .lh .count{font-size:11px;letter-spacing:2px;text-transform:uppercase;color:var(--muted)}
+.live .lh .count b{color:var(--brass-dark);font-weight:600}
+.mgrid{display:grid;grid-template-columns:repeat(3,1fr);gap:16px}
+.mcard{border:1px solid var(--line);background:var(--paper);overflow:hidden;display:block;text-decoration:none;transition:border-color .2s}
+.mcard:hover{border-color:var(--brass)}
+.mcard .mimg{height:200px;width:100%;background:#eae3d2;position:relative;overflow:hidden}
+.mcard .mimg img{width:100%;height:100%;object-fit:cover;display:block}
+.mcard .minfo{padding:16px 18px}
+.mcard .mname{font-family:'Cormorant Garamond',serif;font-weight:600;font-size:19px;line-height:1.15;margin-bottom:6px;color:var(--ink);display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical;overflow:hidden}
+.mcard .mref{font-size:10.5px;letter-spacing:1.5px;text-transform:uppercase;color:var(--muted);margin-bottom:12px}
+.mcard .mprice{font-family:'Space Grotesk',sans-serif;font-weight:700;font-size:18px;color:var(--brass-dark)}
+.mcard .msrc{font-size:10px;color:var(--faint);margin-top:8px;letter-spacing:.5px}
+.mload{padding:30px;text-align:center;color:var(--muted);font-size:12px;letter-spacing:2px}
+
+.attrib{max-width:1100px;margin:18px auto 0;padding:0 30px;font-size:10.5px;color:var(--faint);letter-spacing:.5px;line-height:1.6}
+.attrib a{color:var(--brass-dark);text-decoration:none}
+
+/* COLLECTOR'S VERDICT */
+.verdict{max-width:1100px;margin:56px auto 0;padding:0 30px}
+.verdict .vh{display:flex;align-items:baseline;justify-content:space-between;border-top:3px solid var(--ink);padding-top:22px;margin-bottom:24px}
+.verdict .vh h3{font-family:'Space Grotesk',sans-serif;font-size:12px;letter-spacing:3px;text-transform:uppercase;font-weight:600;color:var(--ink)}
+.verdict .vh .vnote{font-size:11px;letter-spacing:2px;text-transform:uppercase;color:var(--muted)}
+.vgrid{display:grid;grid-template-columns:repeat(3,1fr);gap:16px}
+.vcard{border:1px solid var(--line);background:var(--paper);padding:24px 26px}
+.vcard .vname{font-family:'Cormorant Garamond',serif;font-weight:600;font-size:20px;margin-bottom:12px;line-height:1.2}
+.vcard .vverdict{font-family:'Cormorant Garamond',serif;font-style:italic;font-size:15px;color:var(--ink2);line-height:1.45;min-height:66px}
+.vcard .vchips{display:flex;gap:8px;margin-top:16px;flex-wrap:wrap}
+.vcard .vchip{border:1px solid var(--line);background:var(--cream);padding:6px 10px;font-size:10px;letter-spacing:1px;text-transform:uppercase;color:var(--muted);display:flex;align-items:baseline;gap:6px}
+.vcard .vchip b{font-family:'Space Grotesk',sans-serif;font-size:12px;color:var(--brass-dark)}
+@media(max-width:900px){.vgrid{grid-template-columns:1fr 1fr}}
+@media(max-width:560px){.vgrid{grid-template-columns:1fr}}
+
+.consult{max-width:1100px;margin:0 auto;padding:60px 30px 8px;display:flex;align-items:center;justify-content:space-between;gap:26px;flex-wrap:wrap;border-top:1px solid var(--line)}
+.consult h4{font-family:'Cormorant Garamond',serif;font-weight:600;font-size:24px;margin-bottom:6px}
+.consult p{font-size:13px;color:var(--ink2);max-width:640px}
+.consult .cta a{font-size:11px;letter-spacing:3px;text-transform:uppercase;text-decoration:none;color:var(--verde-soft);font-weight:600;border-bottom:1px solid var(--verde-soft);padding-bottom:4px;white-space:nowrap}
 .bme{font-family:'Space Grotesk',sans-serif;font-weight:700;font-size:22px;letter-spacing:1px;color:var(--ink);display:inline-flex;align-items:baseline;vertical-align:middle}.bme .bd{color:var(--brass);font-weight:500;font-size:.55em;margin:0 2px}
 .backlink{max-width:1100px;margin:0 auto;padding:10px 30px 0}
 .backlink a{font-size:11px;letter-spacing:3px;text-transform:uppercase;text-decoration:none;color:var(--verde-soft)}
 .copyright{max-width:1100px;margin:0 auto;padding:40px 30px;text-align:center;font-size:11px;color:var(--faint);letter-spacing:1px;border-top:1px solid var(--line)}
-@media(max-width:900px){.grid{grid-template-columns:1fr 1fr}.grid .card:nth-child(odd){border-right:none}.grid .card{border-top:1px solid var(--line)}.grid .card:first-child,.grid .card:nth-child(2){border-top:none}}
-@media(max-width:560px){.grid{grid-template-columns:1fr}.grid .card{border-right:none;border-top:1px solid var(--line)}.grid .card:first-child{border-top:none}}
+@media(max-width:900px){.grid{grid-template-columns:1fr 1fr}.grid .card:nth-child(3n+3){border-right:1px solid var(--line)}.grid .card:nth-child(odd){border-right:none}.grid{grid-template-columns:1fr 1fr}.mgrid{grid-template-columns:1fr 1fr}}
+@media(max-width:560px){.grid{grid-template-columns:1fr}.grid .card,.grid .card:nth-child(3n+3){border-right:none}.mgrid{grid-template-columns:1fr}}
 </style>
 </head>
 <body>
@@ -42,7 +83,9 @@ a{color:inherit}.top-rule{height:3px;background:var(--ink)}
   <a class="back" href="index.html"><span class="bme">M<span class="bd">·</span>E</span></a>
   <div class="kat">Department I · Horology</div>
   <h1>Time</h1>
+  <div class="deck">The rarest watches on earth, placed by provenance. Live from the market, edited for the collector.</div>
 </div>
+
 <div class="dept">
   <div class="grid">
     <div class="card"><h4>The Dressed-Only Dial</h4><div class="who">Geneva · the quiet complication</div><p class="what">A hand-wound dress watch with no numerals, no seconds, and a dial that only shows its true colour in direct light. Worn once a year, remembered the other 364.</p><span class="price">indicated on request</span></div>
@@ -54,11 +97,70 @@ a{color:inherit}.top-rule{height:3px;background:var(--ink)}
   </div>
 </div>
 
+<!-- LIVE MARKET -->
+<div class="live">
+  <div class="lh"><h2>On the Market</h2><div class="count">The finest listed now · <span id="mcount">reading the market…</span></div></div>
+  <div id="mgrid" class="mgrid"><div class="mload">…</div></div>
+</div>
+<div class="attrib">Market data and imagery supplied live by <a href="https://mostexpensivewatches.net" target="_blank" rel="noopener">MostExpensiveWatches</a> · subject to their data license. Prices shown are the listing asking price; ME arranges placement by introduction and confirms provenance before any meeting.</div>
+
 <div class="consult">
   <div><h4>Private Consultation</h4><p>Write to us and be placed with the right maker, in the right city, at the right hour. By appointment, in strictest confidence.</p></div>
   <div class="cta"><a href="mailto:me@mostexpensivest.com">Begin the Conversation</a></div>
 </div>
-<div class="backlink"><a href="index.html#departments">← All Departments</a></div>
+<div class="backlink"><a href="index.html">← All Departments</a></div>
 <div class="copyright">© The Most Expensivest, MMXXVI</div>
+
+<script>
+(function(){
+  var API="https://mostexpensivewatches.net/api/listings/search?limit=12&sort=price-desc";
+  function esc(s){var d=document.createElement("div");d.textContent=s==null?"":String(s);return d.innerHTML;}
+  function money(n){if(n==null||isNaN(n))return "on request";return "$"+Math.round(n).toLocaleString("en-US");}
+  function card(it){
+    var img=it.image_url||"";
+    var imgHtml=img?'<div class="mimg"><img src="'+esc(img)+'" alt=""/></div>':'<div class="mimg"></div>';
+    var ref=[it.brand,it.reference].filter(Boolean).join(" · ");
+    var t=it.title||it.model||"Piece";
+    // de-duplicate a brand prefix that the API sometimes repeats (e.g. "Rolex Rolex Daytona")
+    if(it.brand){var b=it.brand.toLowerCase();var low=t.toLowerCase();if(low.startsWith(b+" "+b)){t=t.substring(it.brand.length+1);}}
+    return '<a class="mcard" href="'+esc(it.url||"#")+'" target="_blank" rel="noopener">'+imgHtml+
+      '<div class="minfo"><div class="mname">'+esc(t)+'</div>'+
+      (ref?'<div class="mref">'+esc(ref)+'</div>':'')+
+      '<div class="mprice">'+money(it.price_usd)+'</div>'+
+      '<div class="msrc">lifted from the market · '+esc(it.in_stock!=false?"now":"enquiry")+'</div></div></a>';
+  }
+  fetch(API).then(function(r){return r.json();}).then(function(d){
+    var items=(d.items||d.result||[]).slice(0,9);
+    var g=document.getElementById("mgrid");
+    g.innerHTML=items.map(card).join("")||'<div class="mload">The market is quiet at this hour.</div>';
+    document.getElementById("mcount").innerHTML="<b>"+items.length+"</b> pieces";
+  }).catch(function(){
+    document.getElementById("mgrid").innerHTML='<div class="mload">The live market is momentarily unavailable.</div>';
+    document.getElementById("mcount").innerHTML="please refresh";
+  });
+
+  // COLLECTOR'S VERDICT - editorial data (reviews + auction comps)
+  var RV="https://mostexpensivewatches.net/api/reviews?limit=4";
+  fetch(RV).then(function(r){return r.json();}).then(function(d){
+    var items=(d.reviews||d.items||d.result||[]).slice(0,3);
+    if(!items.length)return;
+    var blk=document.createElement("div");
+    blk.className="verdict";
+    var h='<div class="vh"><h3>Collector&rsquo;s Verdict</h3><div class="vnote">scored by the market</div></div>';
+    h+='<div class="vgrid">'+items.map(function(v){
+      var s=v.score||{};
+      function chip(k,t){var n=s[k];return '<div class="vchip"><span>'+t+'</span><b>'+(n!=null?n+"/10":"-")+'</b></div>';}
+      return '<div class="vcard"><div class="vname">'+esc(v.brand)+' '+esc(v.model)+'</div>'+
+        '<div class="vverdict">'+esc((v.verdict||"").replace(/\s+$/,""))+'</div>'+
+        '<div class="vchips">'+chip("liquidity","Liquidity")+chip("scarcity","Scarcity")+chip("recognition","Recognition")+'</div></div>';
+    }).join('')+'</div>';
+    blk.innerHTML=h;
+    var live=document.querySelector(".live");
+    live.parentNode.insertBefore(blk, live.nextSibling);
+    var at=document.querySelector(".attrib");
+    if(at) document.querySelectorAll("script").length;
+  }).catch(function(){});
+})();
+</script>
 </body>
 </html>
