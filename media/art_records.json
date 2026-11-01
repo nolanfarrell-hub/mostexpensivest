@@ -1,0 +1,128 @@
+[
+ {
+  "name": "Salvator Mundi",
+  "price": 450300000,
+  "artist": "Leonardo Da Vinci   ",
+  "year": "c.  \u20091500",
+  "house": "Christie's , New York"
+ },
+ {
+  "name": "Interchange",
+  "price": 300000000,
+  "artist": "Willem De Kooning",
+  "year": "1955",
+  "house": "Private sale"
+ },
+ {
+  "name": "The Card Players",
+  "price": 250000000,
+  "artist": "Paul C\u00e9zanne",
+  "year": "1892/93",
+  "house": "Private sale"
+ },
+ {
+  "name": "Nafea Faa Ipoipo",
+  "price": 210000000,
+  "artist": "Paul Gauguin",
+  "year": "1892",
+  "house": "Private sale"
+ },
+ {
+  "name": "Number 17A",
+  "price": 200000000,
+  "artist": "Jackson Pollock",
+  "year": "1948",
+  "house": "Private sale"
+ },
+ {
+  "name": "Wasserschlangen II",
+  "price": 183800000,
+  "artist": "Gustav Klimt",
+  "year": "1904\u20131907",
+  "house": "Private sale"
+ },
+ {
+  "name": "No. 6",
+  "price": 186000000,
+  "artist": "Mark Rothko",
+  "year": "1951",
+  "house": "Private sale via  Yves Bouvier"
+ },
+ {
+  "name": "Pendant portraits of Maerten Soolmans and Oopjen Coppit",
+  "price": 180000000,
+  "artist": "Rembrandt",
+  "year": "1634",
+  "house": "Private sale"
+ },
+ {
+  "name": "Les Femmes d'Alger",
+  "price": 179400000,
+  "artist": "Pablo Picasso",
+  "year": "1955",
+  "house": "Christie's, New York"
+ },
+ {
+  "name": "Portrait of Elisabeth Lederer",
+  "price": 236400000,
+  "artist": "Gustav Klimt",
+  "year": "1914-1916",
+  "house": "Sotheby's, New York"
+ },
+ {
+  "name": "The Standard Bearer",
+  "price": 198000000,
+  "artist": "Rembrandt",
+  "year": "1636",
+  "house": "Private sale"
+ },
+ {
+  "name": "Nu couch\u00e9",
+  "price": 170400000,
+  "artist": "Amedeo Modigliani",
+  "year": "1917/18",
+  "house": "Christie's, New York"
+ },
+ {
+  "name": "Masterpiece",
+  "price": 165000000,
+  "artist": "Roy Lichtenstein",
+  "year": "1962",
+  "house": "Private sale"
+ },
+ {
+  "name": "Shot Sage Blue Marilyn",
+  "price": 195000000,
+  "artist": "Andy Warhol",
+  "year": "1964",
+  "house": "Christie's, New York"
+ },
+ {
+  "name": "Le R\u00eave",
+  "price": 155000000,
+  "artist": "Pablo Picasso",
+  "year": "1932",
+  "house": "Private sale"
+ },
+ {
+  "name": "Nu couch\u00e9",
+  "price": 157200000,
+  "artist": "Amedeo Modigliani",
+  "year": "1917",
+  "house": "Sotheby's, New York"
+ },
+ {
+  "name": "Portrait of Adele Bloch-Bauer II",
+  "price": 150000000,
+  "artist": "Gustav Klimt",
+  "year": "1912",
+  "house": "Private sale via  Larry Gagosian"
+ },
+ {
+  "name": "Number 7A",
+  "price": 181200000,
+  "artist": "Jackson Pollock",
+  "year": "1948",
+  "house": "Christie\u2019s, New York"
+ }
+]
