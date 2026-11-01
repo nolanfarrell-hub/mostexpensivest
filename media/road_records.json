@@ -1,0 +1,1367 @@
+[
+ {
+  "name": "Ferrari Luce \"Tailor Made\"",
+  "price": 40000000,
+  "year": "2026",
+  "auctioneer": "RM Sotheby's",
+  "locale": "Monterey"
+ },
+ {
+  "name": "Ferrari 250 GTO",
+  "price": 38500000,
+  "year": "2026",
+  "auctioneer": "Mecum",
+  "locale": "Kissimmee"
+ },
+ {
+  "name": "Ferrari 250 LM",
+  "price": 36344960,
+  "year": "2025",
+  "auctioneer": "RM Sotheby's",
+  "locale": "Paris "
+ },
+ {
+  "name": "Ferrari 412P",
+  "price": 30255000,
+  "year": "2023",
+  "auctioneer": "Bonhams",
+  "locale": "Carmel"
+ },
+ {
+  "name": "Ferrari 275 GTB/4*S NART Spider",
+  "price": 27500000,
+  "year": "2013",
+  "auctioneer": "RM Auctions",
+  "locale": "Monterey"
+ },
+ {
+  "name": "Ferrari 275 GTB/C Speciale",
+  "price": 26400000,
+  "year": "2014",
+  "auctioneer": "RM Auctions",
+  "locale": "Monterey"
+ },
+ {
+  "name": "Ferrari Daytona SP3 \"Tailor Made\"",
+  "price": 26000000,
+  "year": "2025",
+  "auctioneer": "RM Sotheby's",
+  "locale": "Monterey"
+ },
+ {
+  "name": "Ferrari 250 GT SWB California Spider Competizione",
+  "price": 25305000,
+  "year": "2025",
+  "auctioneer": "Gooding Christie's",
+  "locale": "Pebble Beach "
+ },
+ {
+  "name": "Ferrari 410 Sport",
+  "price": 23000000,
+  "year": "2014",
+  "auctioneer": "Rick Cole Auctions",
+  "locale": "Monterey"
+ },
+ {
+  "name": "Ferrari 410 Sport Spider",
+  "price": 22005000,
+  "year": "2022",
+  "auctioneer": "RM Sotheby's",
+  "locale": "Monterey"
+ },
+ {
+  "name": "Ferrari 290 MM",
+  "price": 22005000,
+  "year": "2018",
+  "auctioneer": "RM Sotheby's",
+  "locale": "Los Angeles "
+ },
+ {
+  "name": "Duesenberg SSJ",
+  "price": 22000000,
+  "year": "2018",
+  "auctioneer": "Gooding & Company",
+  "locale": "Pebble Beach"
+ },
+ {
+  "name": "Jaguar D-Type",
+  "price": 21780000,
+  "year": "2016",
+  "auctioneer": "RM Sotheby's",
+  "locale": "Monterey"
+ },
+ {
+  "name": "Aston Martin DP215",
+  "price": 21455000,
+  "year": "2018",
+  "auctioneer": "RM Sotheby's",
+  "locale": "Monterey"
+ },
+ {
+  "name": "Gordon Murray Automotive S1 LM",
+  "price": 20630000,
+  "year": "2025",
+  "auctioneer": "RM Sotheby's",
+  "locale": "Las Vegas"
+ },
+ {
+  "name": "McLaren F1",
+  "price": 20465000,
+  "year": "2021",
+  "auctioneer": "Gooding & Company",
+  "locale": "Pebble Beach"
+ },
+ {
+  "name": "McLaren F1 'LM-Specification'",
+  "price": 19805000,
+  "year": "2019",
+  "auctioneer": "RM Sotheby's",
+  "locale": "Monterey"
+ },
+ {
+  "name": "Alfa Romeo 8C 2900B Lungo Spider",
+  "price": 19800000,
+  "year": "2016",
+  "auctioneer": "RM Sotheby's",
+  "locale": "Monterey"
+ },
+ {
+  "name": "Alfa Romeo 8C 2900B Touring Berlinetta",
+  "price": 18997883,
+  "year": "2019",
+  "auctioneer": "Artcurial",
+  "locale": "Paris "
+ },
+ {
+  "name": "Mercedes F1 W04",
+  "price": 18815000,
+  "year": "2023",
+  "auctioneer": "RM Sotheby's",
+  "locale": "Las Vegas "
+ },
+ {
+  "name": "Ferrari 250 GT SWB California Spyder",
+  "price": 18454304,
+  "year": "2015",
+  "auctioneer": "Artcurial",
+  "locale": "Paris "
+ },
+ {
+  "name": "Ferrari 375 Plus Spider",
+  "price": 18400177,
+  "year": "2014",
+  "auctioneer": "Bonhams",
+  "locale": "Goodwood"
+ },
+ {
+  "name": "Ferrari 250  GT LWB California Spyder Competizione",
+  "price": 18150000,
+  "year": "2016",
+  "auctioneer": "Gooding & Company",
+  "locale": "Pebble Beach"
+ },
+ {
+  "name": "Ferrari Enzo",
+  "price": 17875000,
+  "year": "2026",
+  "auctioneer": "Mecum",
+  "locale": "Kissimmee"
+ },
+ {
+  "name": "Ferrari 250 GT SWB Berlinetta Speciale Bertone",
+  "price": 16500000,
+  "year": "2015",
+  "auctioneer": "Gooding & Company",
+  "locale": "Pebble Beach"
+ },
+ {
+  "name": "Ferrari F2003-GA",
+  "price": 14865442,
+  "year": "2022",
+  "auctioneer": "RM Sotheby's",
+  "locale": "Geneva "
+ },
+ {
+  "name": "Ferrari 275  GTB/C",
+  "price": 14520000,
+  "year": "2017",
+  "auctioneer": "Gooding & Company",
+  "locale": "Pebble Beach"
+ },
+ {
+  "name": "Aston Martin DB4 GT Zagato",
+  "price": 14300000,
+  "year": "2015",
+  "auctioneer": "RM Auctions",
+  "locale": "New York City "
+ },
+ {
+  "name": "Porsche 917K",
+  "price": 14080000,
+  "year": "2017",
+  "auctioneer": "Gooding & Company",
+  "locale": "Pebble Beach"
+ },
+ {
+  "name": "Shelby 260 Cobra",
+  "price": 13750000,
+  "year": "2016",
+  "auctioneer": "RM Sotheby's",
+  "locale": "Monterey"
+ },
+ {
+  "name": "Ferrari 250  GT SWB Berlinetta Competizione",
+  "price": 13500000,
+  "year": "2016",
+  "auctioneer": "Gooding & Company",
+  "locale": "Pebble Beach"
+ },
+ {
+  "name": "Talbot-Lago T150-C SS",
+  "price": 13425000,
+  "year": "2022",
+  "auctioneer": "Gooding & Company",
+  "locale": "Amelia Island "
+ },
+ {
+  "name": "Jaguar XKSS",
+  "price": 13205000,
+  "year": "2023",
+  "auctioneer": "RM Sotheby's",
+  "locale": "Monterey"
+ },
+ {
+  "name": "Ferrari 250  GT Berlinetta 'Tour de France'",
+  "price": 13200000,
+  "year": "2015",
+  "auctioneer": "RM Auctions",
+  "locale": "Monterey"
+ },
+ {
+  "name": "Jaguar C-Type  Works Lightweight",
+  "price": 13200000,
+  "year": "2015",
+  "auctioneer": "RM Auctions",
+  "locale": "Monterey"
+ },
+ {
+  "name": "Ferrari 312 PB",
+  "price": 13027576,
+  "year": "2023",
+  "auctioneer": "RM Sotheby's",
+  "locale": "Cernobbio"
+ },
+ {
+  "name": "Aston Martin DB4 GT Zagato  MP209",
+  "price": 12978264,
+  "year": "2018",
+  "auctioneer": "Bonhams",
+  "locale": "Goodwood"
+ },
+ {
+  "name": "Ferrari 340/375 MM Berlinetta 'Competizione'",
+  "price": 12812800,
+  "year": "2013",
+  "auctioneer": "RM Auctions",
+  "locale": "Cernobbio "
+ },
+ {
+  "name": "Alfa Romeo 8C  2300 Monza",
+  "price": 11990000,
+  "year": "2016",
+  "auctioneer": "Gooding & Company",
+  "locale": "Pebble Beach"
+ },
+ {
+  "name": "Ferrari 250 GT SWB Berlinetta",
+  "price": 11440968,
+  "year": "2015",
+  "auctioneer": "H&H Classics",
+  "locale": "Duxford "
+ },
+ {
+  "name": "Ferrari 250 GT LWB California Spyder Competizione",
+  "price": 11275000,
+  "year": "2012",
+  "auctioneer": "Gooding & Company",
+  "locale": "Pebble Beach"
+ },
+ {
+  "name": "Ferrari F40 LM",
+  "price": 11005000,
+  "year": "2025",
+  "auctioneer": "RM Sotheby's",
+  "locale": "Monterey"
+ },
+ {
+  "name": "Ford GT40",
+  "price": 11000000,
+  "year": "2012",
+  "auctioneer": "RM Auctions",
+  "locale": "Monterey"
+ },
+ {
+  "name": "Bugatti Chiron Profil\u00e9e",
+  "price": 10608215,
+  "year": "2023",
+  "auctioneer": "RM Sotheby's",
+  "locale": "Paris "
+ },
+ {
+  "name": "Bugatti Type 55",
+  "price": 10400000,
+  "year": "2016",
+  "auctioneer": "Gooding & Company",
+  "locale": "Pebble Beach"
+ },
+ {
+  "name": "Bugatti Type 57SC Atalante",
+  "price": 10345000,
+  "year": "2022",
+  "auctioneer": "Gooding & Company",
+  "locale": "Pebble Beach"
+ },
+ {
+  "name": "Duesenberg Model J Long-Wheelbase Coupe",
+  "price": 10340000,
+  "year": "2011",
+  "auctioneer": "Gooding & Company",
+  "locale": "Pebble Beach"
+ },
+ {
+  "name": "Mercedes-Benz CLK GTR Roadster",
+  "price": 10235000,
+  "year": "2023",
+  "auctioneer": "RM Sotheby's",
+  "locale": "Las Vegas "
+ },
+ {
+  "name": "Ferrari 275 GTB/4",
+  "price": 10175000,
+  "year": "2014",
+  "auctioneer": "RM Auctions",
+  "locale": "Monterey"
+ },
+ {
+  "name": "Porsche 956",
+  "price": 10120000,
+  "year": "2015",
+  "auctioneer": "Gooding & Company",
+  "locale": "Pebble Beach"
+ },
+ {
+  "name": "LaFerrari Aperta",
+  "price": 9982000,
+  "year": "2017",
+  "auctioneer": "RM Sotheby's",
+  "locale": "Maranello "
+ },
+ {
+  "name": "Mercedes-Benz 540 K Special Roadster",
+  "price": 9905000,
+  "year": "2022",
+  "auctioneer": "RM Sotheby's",
+  "locale": "Monterey"
+ },
+ {
+  "name": "Bugatti Type 57 SC Sports Tourer",
+  "price": 9735000,
+  "year": "2016",
+  "auctioneer": "Bonhams",
+  "locale": "Amelia Island "
+ },
+ {
+  "name": "Mercedes-Benz 540K Spezial Roadster",
+  "price": 9680000,
+  "year": "2011",
+  "auctioneer": "RM Auctions",
+  "locale": "Monterey"
+ },
+ {
+  "name": "Ferrari 250 GT Berlinetta 'Tour de France'",
+  "price": 9460000,
+  "year": "2014",
+  "auctioneer": "Gooding & Company",
+  "locale": "Scottsdale"
+ },
+ {
+  "name": "Ferrari 250 GT LWB California Spyder",
+  "price": 9447000,
+  "year": "2017",
+  "auctioneer": "RM Sotheby's",
+  "locale": "Maranello "
+ },
+ {
+  "name": "Ferrari 275 GTB Competizione",
+  "price": 9405000,
+  "year": "2015",
+  "auctioneer": "Bonhams",
+  "locale": "Scottsdale"
+ },
+ {
+  "name": "Mercedes-Benz 300 SL 'Alloy' Gullwing",
+  "price": 9355000,
+  "year": "2024",
+  "auctioneer": "RM Sotheby's",
+  "locale": "Los Angeles"
+ },
+ {
+  "name": "Hispano-Suiza H6C \"Tulipwood\" Torpedo",
+  "price": 9245000,
+  "year": "2022",
+  "auctioneer": "RM Sotheby's",
+  "locale": "Monterey"
+ },
+ {
+  "name": "Ferrari F50",
+  "price": 9245000,
+  "year": "2025",
+  "auctioneer": "RM Sotheby's",
+  "locale": "Monterey"
+ },
+ {
+  "name": "Ferrari 375 MM Spyder",
+  "price": 9075000,
+  "year": "2013",
+  "auctioneer": "RM Auctions",
+  "locale": "Monterey"
+ },
+ {
+  "name": "Ferrari 250 GT SWB Berlinetta Competizione",
+  "price": 8969988,
+  "year": "2022",
+  "auctioneer": "Gooding & Company",
+  "locale": "London "
+ },
+ {
+  "name": "Bugatti Divo",
+  "price": 8557500,
+  "year": "2025",
+  "auctioneer": "Bonhams",
+  "locale": "Carmel "
+ },
+ {
+  "name": "Ferrari 250 GT Berlinetta 'Interim' Competizione",
+  "price": 8525000,
+  "year": "2015",
+  "auctioneer": "Bonhams",
+  "locale": "Carmel"
+ },
+ {
+  "name": "Ferrari 250 GT SWB  Berlinetta",
+  "price": 8305000,
+  "year": "2017",
+  "auctioneer": "RM Sotheby's",
+  "locale": "Monterey"
+ },
+ {
+  "name": "Mercedes-Benz 540K Special Roadster",
+  "price": 8252201,
+  "year": "2007",
+  "auctioneer": "RM Auctions   Sotheby's",
+  "locale": "London "
+ },
+ {
+  "name": "Ferrari 410 S  Berlinetta Speciale",
+  "price": 8250000,
+  "year": "2012",
+  "auctioneer": "RM Auctions",
+  "locale": "Monterey"
+ },
+ {
+  "name": "Ferrari 340 America Barchetta",
+  "price": 8250000,
+  "year": "2016",
+  "auctioneer": "RM Sotheby's",
+  "locale": "Monte Carlo "
+ },
+ {
+  "name": "Mercedes-Benz 680S Torpedo Roadster",
+  "price": 8226400,
+  "year": "2013",
+  "auctioneer": "RM Auctions",
+  "locale": "Monterey"
+ },
+ {
+  "name": "Ferrari 365 GTB/4 Daytona Competizione Series III",
+  "price": 8145000,
+  "year": "2025",
+  "auctioneer": "Gooding Christie's",
+  "locale": "Pebble Beach "
+ },
+ {
+  "name": "Ferrari 275 GTB Speciale",
+  "price": 8085000,
+  "year": "2018",
+  "auctioneer": "Gooding & Company",
+  "locale": "Scottsdale"
+ },
+ {
+  "name": "Jaguar E-Type  Lightweight",
+  "price": 8000000,
+  "year": "2017",
+  "auctioneer": "Bonhams",
+  "locale": "Carmel"
+ },
+ {
+  "name": "Ferrari 275 S /340 America Barchetta",
+  "price": 7975000,
+  "year": "2015",
+  "auctioneer": "RM Auctions",
+  "locale": "Monterey"
+ },
+ {
+  "name": "Bugatti Type 57SC Atalante Coupe",
+  "price": 7920000,
+  "year": "2008",
+  "auctioneer": "Gooding & Company",
+  "locale": "Pebble Beach"
+ },
+ {
+  "name": "4\u00bd-Litre Supercharged 'Blower' Bentley",
+  "price": 7906745,
+  "year": "2012",
+  "auctioneer": "Bonhams",
+  "locale": "Goodwood"
+ },
+ {
+  "name": "Ferrari 275 GTB/C",
+  "price": 7860283,
+  "year": "2014",
+  "auctioneer": "RM Auctions",
+  "locale": "Monte Carlo "
+ },
+ {
+  "name": "Ferrari  500 TRC Spider",
+  "price": 7815000,
+  "year": "2022",
+  "auctioneer": "RM Sotheby's",
+  "locale": "Monterey"
+ },
+ {
+  "name": "Bugatti Type 57S  Cabriolet by Vanvooren",
+  "price": 7700000,
+  "year": "2017",
+  "auctioneer": "RM Sotheby's",
+  "locale": "Amelia Island "
+ },
+ {
+  "name": "Shelby Daytona Cobra Coupe",
+  "price": 7685000,
+  "year": "2009",
+  "auctioneer": "Mecum",
+  "locale": "Monterey"
+ },
+ {
+  "name": "Ferrari 400 Superamerica SWB Cabriolet",
+  "price": 7645000,
+  "year": "2015",
+  "auctioneer": "RM Auctions",
+  "locale": "Fort Worth"
+ },
+ {
+  "name": "Ferrari 375 America Cabriolet",
+  "price": 7595000,
+  "year": "2022",
+  "auctioneer": "RM Sotheby's",
+  "locale": "Monterey"
+ },
+ {
+  "name": "Ford GT40 Prototype",
+  "price": 7560000,
+  "year": "2014",
+  "auctioneer": "Mecum",
+  "locale": "Houston "
+ },
+ {
+  "name": "Ferrari 250 GT SWB California Spider",
+  "price": 7550000,
+  "year": "2025",
+  "auctioneer": "Gooding Christie's",
+  "locale": "Pebble Beach "
+ },
+ {
+  "name": "Ferrari F2001",
+  "price": 7504000,
+  "year": "2017",
+  "auctioneer": "Sotheby's",
+  "locale": "New York City "
+ },
+ {
+  "name": "Ferrari 375 MM",
+  "price": 7485000,
+  "year": "2022",
+  "auctioneer": "RM Sotheby's",
+  "locale": "Monterey"
+ },
+ {
+  "name": "Ferrari 212 Export  Touring Barchetta",
+  "price": 7398640,
+  "year": "2015",
+  "auctioneer": "RM Auctions",
+  "locale": "Cernobbio "
+ },
+ {
+  "name": "Ferrari 250 GT LWB California Spider Prototipo",
+  "price": 7265000,
+  "year": "2025",
+  "auctioneer": "Gooding Christie's",
+  "locale": "Pebble Beach "
+ },
+ {
+  "name": "Ferrari 250 MM  Berlinetta",
+  "price": 7260000,
+  "year": "2014",
+  "auctioneer": "Bonhams",
+  "locale": "Carmel"
+ },
+ {
+  "name": "Rolls-Royce 10 hp Two-Seater",
+  "price": 7254290,
+  "year": "2007",
+  "auctioneer": "Bonhams",
+  "locale": "London "
+ },
+ {
+  "name": "Ferrari 250 Europa GT Berlinetta Competizione",
+  "price": 7150000,
+  "year": "2013",
+  "auctioneer": "Gooding & Company",
+  "locale": "Pebble Beach"
+ },
+ {
+  "name": "Ferrari 250 GT SWB Berlinetta Speciale  Bertone",
+  "price": 7040000,
+  "year": "2013",
+  "auctioneer": "RM Auctions   Sotheby's",
+  "locale": "New York City "
+ },
+ {
+  "name": "LaFerrari",
+  "price": 7000000,
+  "year": "2016",
+  "auctioneer": "RM Sotheby's",
+  "locale": "Daytona Beach"
+ },
+ {
+  "name": "Ford GT40 Roadster",
+  "price": 6930000,
+  "year": "2014",
+  "auctioneer": "RM Auctions",
+  "locale": "Monterey"
+ },
+ {
+  "name": "Ferrari 250 GT SWB Speciale Aerodinamica",
+  "price": 6875000,
+  "year": "2014",
+  "auctioneer": "Bonhams",
+  "locale": "Carmel"
+ },
+ {
+  "name": "Ferrari 250 GT Cabriolet Pinin Farina Series I",
+  "price": 6825000,
+  "year": "2022",
+  "auctioneer": "RM Sotheby's",
+  "locale": "Monterey"
+ },
+ {
+  "name": "Ferrari 250 GT Cabriolet Pinin Farina  Series I",
+  "price": 6820000,
+  "year": "2014",
+  "auctioneer": "Bonhams",
+  "locale": "Carmel"
+ },
+ {
+  "name": "Aston Martin DB4 GT Prototype",
+  "price": 6765000,
+  "year": "2017",
+  "auctioneer": "RM Sotheby's",
+  "locale": "Monterey"
+ },
+ {
+  "name": "Ferrari LaFerrari Aperta",
+  "price": 6715000,
+  "year": "2025",
+  "auctioneer": "RM Sotheby's",
+  "locale": "Monterey"
+ },
+ {
+  "name": "Alfa Romeo 8C 2300 Monza",
+  "price": 6710000,
+  "year": "2010",
+  "auctioneer": "Gooding & Company",
+  "locale": "Pebble Beach"
+ },
+ {
+  "name": "Ferrari 410 Superamerica Coupe Series III",
+  "price": 6605000,
+  "year": "2023",
+  "auctioneer": "RM Sotheby's",
+  "locale": "Monterey"
+ },
+ {
+  "name": "Mercedes-Benz 540K  Special Roadster by Sindelfingen",
+  "price": 6600000,
+  "year": "2017",
+  "auctioneer": "RM Sotheby's",
+  "locale": "Phoenix"
+ },
+ {
+  "name": "Delahaye 135 Competition Court Torpedo Roadster",
+  "price": 6600000,
+  "year": "2014",
+  "auctioneer": "RM Auctions",
+  "locale": "Amelia Island "
+ },
+ {
+  "name": "Ferrari 250 GT LWB California Spyder Prototype",
+  "price": 6600000,
+  "year": "2012",
+  "auctioneer": "Gooding & Company",
+  "locale": "Pebble Beach"
+ },
+ {
+  "name": "Ferrari 625 TRC Spider",
+  "price": 6526800,
+  "year": "2012",
+  "auctioneer": "RM Auctions",
+  "locale": "Monte Carlo "
+ },
+ {
+  "name": "Ferrari 166 MM/195 S  Berlinetta Le Mans",
+  "price": 6490000,
+  "year": "2016",
+  "auctioneer": "Gooding & Company",
+  "locale": "Scottsdale"
+ },
+ {
+  "name": "Aston Martin DB5",
+  "price": 6385000,
+  "year": "2019",
+  "auctioneer": "RM Sotheby's",
+  "locale": "Monterey"
+ },
+ {
+  "name": "Ferrari 857 S",
+  "price": 6270000,
+  "year": "2012",
+  "auctioneer": "Gooding & Company",
+  "locale": "Pebble Beach"
+ },
+ {
+  "name": "Ferrari F300",
+  "price": 6220000,
+  "year": "2022",
+  "auctioneer": "RM Sotheby's",
+  "locale": "Monterey"
+ },
+ {
+  "name": "Ferrari 250 GT SWB Berlinetta Competizione \"SEFAC Hot Rod\"",
+  "price": 6105000,
+  "year": "2010",
+  "auctioneer": "Gooding & Company",
+  "locale": "Pebble Beach"
+ },
+ {
+  "name": "Bentley 4\u00bd Litre Le Mans Sports 'Bobtail'",
+  "price": 6050000,
+  "year": "2012",
+  "auctioneer": "Gooding & Company",
+  "locale": "Pebble Beach"
+ },
+ {
+  "name": "Enzo Ferrari",
+  "price": 6050000,
+  "year": "2015",
+  "auctioneer": "RM Auctions",
+  "locale": "Monterey"
+ },
+ {
+  "name": "Ferrari 400 Superamerica Series I Coup\u00e9 Aerodinamico",
+  "price": 6000000,
+  "year": "2022",
+  "auctioneer": "Gooding & Company",
+  "locale": "Pebble Beach"
+ },
+ {
+  "name": "Porsche 917/10",
+  "price": 5830000,
+  "year": "2012",
+  "auctioneer": "Mecum",
+  "locale": "Monterey"
+ },
+ {
+  "name": "Ferrari 250  GT Berlinetta Competizione 'Tour de France'",
+  "price": 5720000,
+  "year": "2016",
+  "auctioneer": "RM Sotheby's",
+  "locale": "Monterey"
+ },
+ {
+  "name": "Ferrari 735 LM",
+  "price": 5720000,
+  "year": "2017",
+  "auctioneer": "RM Sotheby's",
+  "locale": "Monterey"
+ },
+ {
+  "name": "Ferrari 340/375 MM Berlinetta Competizione",
+  "price": 5692000,
+  "year": "2007",
+  "auctioneer": "RM Auctions   Sotheby's",
+  "locale": "Maranello "
+ },
+ {
+  "name": "Porsche 911 GT1  Strassenversion",
+  "price": 5665000,
+  "year": "2017",
+  "auctioneer": "Gooding & Company",
+  "locale": "Amelia Island "
+ },
+ {
+  "name": "Porsche RS Spyder Evo",
+  "price": 5615000,
+  "year": "2022",
+  "auctioneer": "Gooding & Company",
+  "locale": "Pebble Beach"
+ },
+ {
+  "name": "Bugatti Type 35B Grand Prix",
+  "price": 5615000,
+  "year": "2021",
+  "auctioneer": "Gooding & Company",
+  "locale": "Pebble Beach"
+ },
+ {
+  "name": "Aston Martin DB3S",
+  "price": 5500000,
+  "year": "2014",
+  "auctioneer": "Gooding & Company",
+  "locale": "Pebble Beach"
+ },
+ {
+  "name": "Shelby Cobra 427 Super Snake",
+  "price": 5500000,
+  "year": "2007",
+  "auctioneer": "Barrett-Jackson",
+  "locale": "Scottsdale"
+ },
+ {
+  "name": "Ferrari 166 MM  Berlinetta",
+  "price": 5445000,
+  "year": "2016",
+  "auctioneer": "Gooding & Company",
+  "locale": "Pebble Beach"
+ },
+ {
+  "name": "Porsche RS60",
+  "price": 5400000,
+  "year": "2015",
+  "auctioneer": "Gooding & Company",
+  "locale": "Pebble Beach"
+ },
+ {
+  "name": "Bugatti Type 57 SC Tourer",
+  "price": 5395000,
+  "year": "2023",
+  "auctioneer": "RM Sotheby's",
+  "locale": "Monterey"
+ },
+ {
+  "name": "Mercedes-Benz 26/120/180-S-Type Supercharged Sports Tourer",
+  "price": 5395000,
+  "year": "2021",
+  "auctioneer": "Bonhams",
+  "locale": "Los Angeles"
+ },
+ {
+  "name": "Pagani Zonda R Revoluci\u00f3n",
+  "price": 5340000,
+  "year": "2023",
+  "auctioneer": "RM Sotheby's",
+  "locale": "Amelia Island "
+ },
+ {
+  "name": "Ferrari 250 GT LWB Berlinetta 'Tour de France'",
+  "price": 5340000,
+  "year": "2022",
+  "auctioneer": "RM Sotheby's",
+  "locale": "Monterey"
+ },
+ {
+  "name": "Mercedes-Benz 500 K Special Roadster",
+  "price": 5340000,
+  "year": "2025",
+  "auctioneer": "RM Sotheby's",
+  "locale": "Monterey"
+ },
+ {
+  "name": "Ferrari 410 Superamerica  Series III Coupe",
+  "price": 5335000,
+  "year": "2017",
+  "auctioneer": "RM Sotheby's",
+  "locale": "Monterey"
+ },
+ {
+  "name": "Porsche 550",
+  "price": 5335000,
+  "year": "2016",
+  "auctioneer": "Gooding & Company",
+  "locale": "Amelia Island "
+ },
+ {
+  "name": "McLaren F1 GTR Longtail",
+  "price": 5280000,
+  "year": "2014",
+  "auctioneer": "Gooding & Company",
+  "locale": "Scottsdale"
+ },
+ {
+  "name": "Ferrari LaFerrari",
+  "price": 5230000,
+  "year": "2025",
+  "auctioneer": "RM Sotheby's",
+  "locale": "Monterey"
+ },
+ {
+  "name": "Ferrari 750 Monza",
+  "price": 5225000,
+  "year": "2016",
+  "auctioneer": "RM Sotheby's",
+  "locale": "Monterey"
+ },
+ {
+  "name": "Maserati MC12 Stradale",
+  "price": 5202500,
+  "year": "2025",
+  "auctioneer": "Broad Arrow",
+  "locale": "Monterey"
+ },
+ {
+  "name": "Horch 853A Special Roadster",
+  "price": 5170000,
+  "year": "2012",
+  "auctioneer": "RM Auctions",
+  "locale": "Monterey"
+ },
+ {
+  "name": "Porsche 550A Spyder",
+  "price": 5170000,
+  "year": "2018",
+  "auctioneer": "Bonhams",
+  "locale": "Scottsdale"
+ },
+ {
+  "name": "Bentley Speed Six Tourer",
+  "price": 5109665,
+  "year": "2004",
+  "auctioneer": "Christie's",
+  "locale": "Le Mans "
+ },
+ {
+  "name": "Ferrari 250 GT  Berlinetta 'Tour de France'",
+  "price": 5101929,
+  "year": "2023",
+  "auctioneer": "Bonhams",
+  "locale": "Knokke-Heist "
+ },
+ {
+  "name": "Ferrari 410 Superamerica Series II Coupe",
+  "price": 5087500,
+  "year": "2015",
+  "auctioneer": "Gooding & Company",
+  "locale": "Pebble Beach"
+ },
+ {
+  "name": "Mercedes-Benz 300 SL Alloy Gullwing",
+  "price": 5010000,
+  "year": "2022",
+  "auctioneer": "RM Sotheby's",
+  "locale": "Monterey"
+ },
+ {
+  "name": "BMW 507",
+  "price": 5000000,
+  "year": "2018",
+  "auctioneer": "Bonhams",
+  "locale": "London "
+ },
+ {
+  "name": "Jaguar E2A",
+  "price": 4957000,
+  "year": "2008",
+  "auctioneer": "Bonhams",
+  "locale": "Carmel"
+ },
+ {
+  "name": "McLaren MP4/8 A",
+  "price": 4948432,
+  "year": "2018",
+  "auctioneer": "Bonhams",
+  "locale": "Monte Carlo "
+ },
+ {
+  "name": "Porsche 907",
+  "price": 4872971,
+  "year": "2022",
+  "auctioneer": "Artcurial",
+  "locale": "Paris "
+ },
+ {
+  "name": "Ferrari 250 GT Tour de France Berlinetta",
+  "price": 4850000,
+  "year": "2025",
+  "auctioneer": "Gooding Christie's",
+  "locale": "Pebble Beach "
+ },
+ {
+  "name": "Talbot-Lago T150C SS Teardrop coupe",
+  "price": 4847000,
+  "year": "2008",
+  "auctioneer": "Bonhams",
+  "locale": "Carmel"
+ },
+ {
+  "name": "Alfa Romeo 6C 2500 Competizione",
+  "price": 4840000,
+  "year": "2013",
+  "auctioneer": "Gooding & Company",
+  "locale": "Pebble Beach"
+ },
+ {
+  "name": "Ford GT40  Mk 1",
+  "price": 4840000,
+  "year": "2016",
+  "auctioneer": "Mecum",
+  "locale": "Monterey"
+ },
+ {
+  "name": "Porsche 935",
+  "price": 4840000,
+  "year": "2016",
+  "auctioneer": "Gooding & Company",
+  "locale": "Pebble Beach"
+ },
+ {
+  "name": "Maserati 450S Prototype",
+  "price": 4816350,
+  "year": "2014",
+  "auctioneer": "RM Auctions",
+  "locale": "Monte Carlo "
+ },
+ {
+  "name": "Ferrari 375 MM Berlinetta",
+  "price": 4794720,
+  "year": "2011",
+  "auctioneer": "RM Auctions",
+  "locale": "Tivoli"
+ },
+ {
+  "name": "Jaguar C-Type",
+  "price": 4794407,
+  "year": "2013",
+  "auctioneer": "Bonhams",
+  "locale": "London "
+ },
+ {
+  "name": "Mercer Type 35-J Raceabout",
+  "price": 4790000,
+  "year": "2023",
+  "auctioneer": "Gooding & Company",
+  "locale": "Pebble Beach"
+ },
+ {
+  "name": "Ferrari 340 MM Spider",
+  "price": 4730000,
+  "year": "2012",
+  "auctioneer": "Gooding & Company",
+  "locale": "Pebble Beach"
+ },
+ {
+  "name": "Duesenberg Model J Convertible Coupe",
+  "price": 4680000,
+  "year": "2022",
+  "auctioneer": "RM Sotheby's",
+  "locale": "Monterey"
+ },
+ {
+  "name": "Dino Berlinetta Speciale",
+  "price": 4675776,
+  "year": "2017",
+  "auctioneer": "Artcurial",
+  "locale": "Paris "
+ },
+ {
+  "name": "Bentley 4\u00bd Litre Supercharged Le Mans",
+  "price": 4647500,
+  "year": "2013",
+  "auctioneer": "Bonhams",
+  "locale": "Carmel"
+ },
+ {
+  "name": "Ferrari 275 GTB Long Nose Alloy",
+  "price": 4620000,
+  "year": "2014",
+  "auctioneer": "Gooding & Company",
+  "locale": "Pebble Beach"
+ },
+ {
+  "name": "Mercedes-Benz 300SL",
+  "price": 4620000,
+  "year": "2012",
+  "auctioneer": "Gooding & Company",
+  "locale": "Scottsdale"
+ },
+ {
+  "name": "Batmobile",
+  "price": 4620000,
+  "year": "2013",
+  "auctioneer": "Barrett-Jackson",
+  "locale": "Scottsdale"
+ },
+ {
+  "name": "De Dion, Bouton et Tr\u00e9pardoux Dos-\u00e0-Dos Steam Runabout \"La Marqu",
+  "price": 4620000,
+  "year": "2011",
+  "auctioneer": "RM Auctions",
+  "locale": "Hershey"
+ },
+ {
+  "name": "Talbot-Lago T150C Lago Speciale Teardrop Coupe",
+  "price": 4620000,
+  "year": "2010",
+  "auctioneer": "RM Auctions",
+  "locale": "Monterey"
+ },
+ {
+  "name": "Alfa Romeo 8C 2300 Cabriolet",
+  "price": 4515000,
+  "year": "2023",
+  "auctioneer": "Gooding & Company",
+  "locale": "Pebble Beach"
+ },
+ {
+  "name": "Mercedes-Benz CLK GTR",
+  "price": 4515000,
+  "year": "2018",
+  "auctioneer": "RM Sotheby's",
+  "locale": "Monterey"
+ },
+ {
+  "name": "Bentley 4 Litre \"The Green Hornet\"",
+  "price": 4510000,
+  "year": "2007",
+  "auctioneer": "Gooding & Company",
+  "locale": "Pebble Beach"
+ },
+ {
+  "name": "Ferrari 500 TRC",
+  "price": 4510000,
+  "year": "2012",
+  "auctioneer": "Gooding & Company",
+  "locale": "Pebble Beach"
+ },
+ {
+  "name": "Duesenberg Model SJ Convertible Coupe",
+  "price": 4510000,
+  "year": "2013",
+  "auctioneer": "RM Auctions   Sotheby's",
+  "locale": "Amelia Island "
+ },
+ {
+  "name": "Talbot-Lago T150C SS Teardrop Coup\u00e9",
+  "price": 4475072,
+  "year": "2011",
+  "auctioneer": "RM Auctions",
+  "locale": "Tivoli"
+ },
+ {
+  "name": "Bugatti Chiron Super Sport",
+  "price": 4460000,
+  "year": "2025",
+  "auctioneer": "Bonhams",
+  "locale": "Carmel "
+ },
+ {
+  "name": "Maserati A6G/2000 Spyder",
+  "price": 4455000,
+  "year": "2013",
+  "auctioneer": "RM Auctions   Sotheby's",
+  "locale": "New York City "
+ },
+ {
+  "name": "Ferrari 500 Mondial  Series I",
+  "price": 4455000,
+  "year": "2018",
+  "auctioneer": "Gooding & Company",
+  "locale": "Scottsdale"
+ },
+ {
+  "name": "Duesenberg SJ Speedster \"Mormon Meteor\"",
+  "price": 4455000,
+  "year": "2004",
+  "auctioneer": "Gooding & Company",
+  "locale": "Pebble Beach"
+ },
+ {
+  "name": "Bugatti Type 57S Atalante",
+  "price": 4408575,
+  "year": "2009",
+  "auctioneer": "Bonhams",
+  "locale": "Paris "
+ },
+ {
+  "name": "Aston Martin Ulster",
+  "price": 4406693,
+  "year": "2015",
+  "auctioneer": "Bonhams",
+  "locale": "Goodwood"
+ },
+ {
+  "name": "Ferrari 288 GTO",
+  "price": 4405000,
+  "year": "2022",
+  "auctioneer": "RM Sotheby's",
+  "locale": "Monterey"
+ },
+ {
+  "name": "Ferrari 250 GT Series I Cabriolet",
+  "price": 4405000,
+  "year": "2021",
+  "auctioneer": "Gooding & Company",
+  "locale": "Pebble Beach"
+ },
+ {
+  "name": "Duesenberg Model J Torpedo Phaeton",
+  "price": 4405000,
+  "year": "2025",
+  "auctioneer": "RM Sotheby's",
+  "locale": "Monterey"
+ },
+ {
+  "name": "Porsche 917/30",
+  "price": 4400000,
+  "year": "2012",
+  "auctioneer": "Gooding & Co.",
+  "locale": "Amelia Island "
+ },
+ {
+  "name": "Ferrari 400 Superamerica LWB Coup\u00e9 Aerodinamico",
+  "price": 4400000,
+  "year": "2016",
+  "auctioneer": "RM Sotheby's",
+  "locale": "Amelia Island "
+ },
+ {
+  "name": "GM Futurliner",
+  "price": 4320000,
+  "year": "2006",
+  "auctioneer": "Barrett-Jackson",
+  "locale": "Scottsdale"
+ },
+ {
+  "name": "Porsche 718 RSK Werks Spyder",
+  "price": 4300000,
+  "year": "2022",
+  "auctioneer": "RM Sotheby's",
+  "locale": "Monterey"
+ },
+ {
+  "name": "Duesenberg Model J  'Disappearing Top' Convertible Coupe",
+  "price": 4295000,
+  "year": "2023",
+  "auctioneer": "RM Sotheby's",
+  "locale": "Amelia Island "
+ },
+ {
+  "name": "RUF CTR1 'Yellowbird' Lightweight",
+  "price": 4295000,
+  "year": "2025",
+  "auctioneer": "RM Sotheby's",
+  "locale": "Monterey"
+ },
+ {
+  "name": "Ferrari 340 Mexico",
+  "price": 4290000,
+  "year": "2011",
+  "auctioneer": "RM Auctions",
+  "locale": "Amelia Island "
+ },
+ {
+  "name": "Alfa Romeo 8C 2300 Torp\u00e9do",
+  "price": 4250000,
+  "year": "2025",
+  "auctioneer": "Gooding Christie's",
+  "locale": "Pebble Beach "
+ },
+ {
+  "name": "Jaguar D-Type  'Shortnose'",
+  "price": 4241491,
+  "year": "2013",
+  "auctioneer": "Bonhams",
+  "locale": "London "
+ },
+ {
+  "name": "Porsche 908/02",
+  "price": 4185000,
+  "year": "2022",
+  "auctioneer": "Gooding & Company",
+  "locale": "Pebble Beach"
+ },
+ {
+  "name": "Alfa Romeo P3",
+  "price": 4180680,
+  "year": "2017",
+  "auctioneer": "RM Sotheby's",
+  "locale": "Paris "
+ },
+ {
+  "name": "Alfa Romeo 8C 2300 Castagna Drop Head Coupe",
+  "price": 4180000,
+  "year": "2009",
+  "auctioneer": "Gooding & Company",
+  "locale": "Pebble Beach"
+ },
+ {
+  "name": "Packard Twelve Individual Custom Stationary Coupe",
+  "price": 4180000,
+  "year": "2015",
+  "auctioneer": "RM Auctions",
+  "locale": "Fort Worth"
+ },
+ {
+  "name": "Bugatti Chiron",
+  "price": 4088212,
+  "year": "2018",
+  "auctioneer": "RM Sotheby's",
+  "locale": "Paris "
+ },
+ {
+  "name": "Bugatti Type 55  Roadster",
+  "price": 4070000,
+  "year": "2018",
+  "auctioneer": "Gooding & Company",
+  "locale": "Scottsdale"
+ },
+ {
+  "name": "Bentley 4\u00bd-Litre Supercharged Torpedo",
+  "price": 4015000,
+  "year": "2015",
+  "auctioneer": "RM Auctions",
+  "locale": "Monterey"
+ },
+ {
+  "name": "Alfa Romeo Tipo 256 Cabriolet Sportivo",
+  "price": 4000000,
+  "year": "2014",
+  "auctioneer": "Gooding & Company",
+  "locale": "Pebble Beach"
+ },
+ {
+  "name": "Bugatti Type 51",
+  "price": 4000000,
+  "year": "2016",
+  "auctioneer": "Bonhams",
+  "locale": "Carmel"
+ }
+]

@@ -26,8 +26,23 @@ a{color:inherit}.top-rule{height:3px;background:var(--ink)}
 .card .who{font-size:11px;letter-spacing:2px;text-transform:uppercase;color:var(--muted);margin-bottom:14px}
 .card .what{font-size:13px;color:var(--ink2);line-height:1.55}
 .card .price{display:block;margin-top:16px;font-family:'Cormorant Garamond',serif;font-size:18px;font-weight:500;color:var(--brass-dark)}
+.card{display:block}.card .what{display:block}
 .card:hover{background:var(--paper)}
-.consult{max-width:1100px;margin:0 auto;padding:44px 30px 8px;display:flex;align-items:center;justify-content:space-between;gap:26px;flex-wrap:wrap;border-top:1px solid var(--line)}.consult h4{font-family:'Cormorant Garamond',serif;font-weight:600;font-size:24px;margin-bottom:6px}.consult p{font-size:13px;color:var(--ink2);max-width:640px}.consult .cta a{font-size:11px;letter-spacing:3px;text-transform:uppercase;text-decoration:none;color:var(--verde-soft);font-weight:600;border-bottom:1px solid var(--verde-soft);padding-bottom:4px;white-space:nowrap}
+.attrib{max-width:1100px;margin:18px auto 0;padding:0 30px;font-size:10.5px;color:var(--faint);letter-spacing:.5px;line-height:1.6}
+.attrib a{color:var(--brass-dark);text-decoration:none}
+.records{max-width:1100px;margin:60px auto 0;padding:0 30px}
+.records .rh{display:flex;align-items:baseline;justify-content:space-between;border-top:3px solid var(--ink);padding-top:22px;margin-bottom:6px}
+.records .rh h3{font-family:'Space Grotesk',sans-serif;font-size:12px;letter-spacing:3px;text-transform:uppercase;font-weight:600;color:var(--ink)}
+.records .rh .rnote{font-size:11px;letter-spacing:2px;text-transform:uppercase;color:var(--muted)}
+.rtable{border-top:1px solid var(--line)}
+.rrow{display:grid;grid-template-columns:1.5fr .9fr .6fr .6fr .8fr;gap:14px;padding:15px 0;border-bottom:1px solid var(--line);align-items:baseline}
+.rdesc{font-family:'Cormorant Garamond',serif;font-size:18px;font-weight:500;color:var(--ink);line-height:1.25}
+.rhouse{font-size:11px;letter-spacing:1px;text-transform:uppercase;color:var(--muted)}
+.rloc{font-size:12px;color:var(--muted)}
+.ryear{font-size:12px;color:var(--muted);text-align:right}
+.rprice{font-family:'Space Grotesk',sans-serif;font-weight:700;font-size:17px;color:var(--brass-dark);text-align:right}
+@media(max-width:760px){.rrow{grid-template-columns:1fr .8fr}.rhouse,.rloc{display:none}}
+.consult{max-width:1100px;margin:0 auto;padding:60px 30px 8px;display:flex;align-items:center;justify-content:space-between;gap:26px;flex-wrap:wrap;border-top:1px solid var(--line)}.consult h4{font-family:'Cormorant Garamond',serif;font-weight:600;font-size:24px;margin-bottom:6px}.consult p{font-size:13px;color:var(--ink2);max-width:640px}.consult .cta a{font-size:11px;letter-spacing:3px;text-transform:uppercase;text-decoration:none;color:var(--verde-soft);font-weight:600;border-bottom:1px solid var(--verde-soft);padding-bottom:4px;white-space:nowrap}
 .bme{font-family:'Space Grotesk',sans-serif;font-weight:700;font-size:22px;letter-spacing:1px;color:var(--ink);display:inline-flex;align-items:baseline;vertical-align:middle}.bme .bd{color:var(--brass);font-weight:500;font-size:.55em;margin:0 2px}
 .backlink{max-width:1100px;margin:0 auto;padding:10px 30px 0}
 .backlink a{font-size:11px;letter-spacing:3px;text-transform:uppercase;text-decoration:none;color:var(--verde-soft)}
@@ -54,11 +69,36 @@ a{color:inherit}.top-rule{height:3px;background:var(--ink)}
   </div>
 </div>
 
+<!-- ON THE ROAD : records -->
+<div class="records">
+  <div class="rh"><h3>Sold at Auction</h3><div class="rnote">the motorcars that set records</div></div>
+  <div class="rtable" id="roadTable"><div class="mload" style="padding:20px;color:var(--muted)">reading the market…</div></div>
+</div>
+<div class="attrib">Auction records sourced from <a href="https://en.wikipedia.org/wiki/List_of_most_expensive_cars_sold_at_auction" target="_blank" rel="noopener">Wikipedia: List of most expensive cars sold at auction</a>. Prices are the original hammer figure in USD.</div>
+
 <div class="consult">
   <div><h4>Private Consultation</h4><p>Write to us and be placed with the right maker, in the right city, at the right hour. By appointment, in strictest confidence.</p></div>
   <div class="cta"><a href="mailto:me@mostexpensivest.com">Begin the Conversation</a></div>
 </div>
 <div class="backlink"><a href="index.html#departments">← All Departments</a></div>
 <div class="copyright">© The Most Expensivest, MMXXVI</div>
+<script>
+(function(){
+  function money(n){if(n==null||isNaN(n))return "on request";return "$"+Math.round(n).toLocaleString("en-US");}
+  function esc(s){var d=document.createElement("div");d.textContent=s==null?"":String(s);return d.innerHTML;}
+  fetch("media/road_records.json").then(function(r){return r.json();}).then(function(recs){
+    var tb=document.getElementById("roadTable");
+    recs.sort(function(a,b){return (b.price||0)-(a.price||0);});
+    tb.innerHTML=recs.slice(0,10).map(function(r){
+      return '<div class="rrow">'+
+        '<div class="rdesc">'+esc(r.name)+'</div>'+
+        '<div class="rhouse">'+esc(r.auctioneer)+'</div>'+
+        '<div class="rloc">'+esc(r.locale)+'</div>'+
+        '<div class="ryear">'+esc(r.year)+'</div>'+
+        '<div class="rprice">'+money(r.price)+'</div></div>';
+    }).join("");
+  }).catch(function(){document.getElementById("roadTable").innerHTML='<div class="mload" style="padding:20px">The records are momentarily unavailable.</div>';});
+})();
+</script>
 </body>
 </html>
