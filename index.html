@@ -154,8 +154,8 @@ footer{background:var(--ink);color:var(--paper2);margin-top:64px;padding:70px 30
     </div>
     <a class="lcell" href="art.html" style="display:block;border:1px solid var(--line);background:var(--paper);padding:22px 24px;text-decoration:none;transition:border-color .2s">
       <div style="font-size:10px;letter-spacing:2.5px;text-transform:uppercase;color:var(--brass);margin-bottom:10px">Art · Sale Record</div>
-      <div style="font-family:'Cormorant Garamond',serif;font-size:20px;font-weight:600;line-height:1.15;color:var(--ink)">Salvator Mundi</div>
-      <div style="font-family:'Space Grotesk',sans-serif;font-weight:700;font-size:20px;color:var(--brass-dark);margin-top:10px">$450,300,000</div>
+      <div style="font-family:'Cormorant Garamond',serif;font-size:20px;font-weight:600;line-height:1.15;color:var(--ink)" id="lArtName">Salvator Mundi</div>
+      <div style="font-family:'Space Grotesk',sans-serif;font-weight:700;font-size:20px;color:var(--brass-dark);margin-top:10px" id="lArtPrice">$450,300,000</div>
       <div style="font-size:10px;letter-spacing:1.5px;text-transform:uppercase;color:var(--muted);margin-top:14px">the highest price ever paid</div>
     </a>
     <a class="lcell" href="road.html" style="display:block;border:1px solid var(--line);background:var(--paper);padding:22px 24px;text-decoration:none;transition:border-color .2s">
@@ -166,8 +166,8 @@ footer{background:var(--ink);color:var(--paper2);margin-top:64px;padding:70px 30
     </a>
     <a class="lcell" href="sea.html" style="display:block;border:1px solid var(--line);background:var(--paper);padding:22px 24px;text-decoration:none;transition:border-color .2s">
       <div style="font-size:10px;letter-spacing:2.5px;text-transform:uppercase;color:var(--brass);margin-bottom:10px">The Sea · The Longest</div>
-      <div style="font-family:'Cormorant Garamond',serif;font-size:20px;font-weight:600;line-height:1.15;color:var(--ink)">Azzam</div>
-      <div style="font-family:'Space Grotesk',sans-serif;font-weight:700;font-size:20px;color:var(--brass-dark);margin-top:10px">591 ft</div>
+      <div style="font-family:'Cormorant Garamond',serif;font-size:20px;font-weight:600;line-height:1.15;color:var(--ink)" id="lSeaName">Azzam</div>
+      <div style="font-family:'Space Grotesk',sans-serif;font-weight:700;font-size:20px;color:var(--brass-dark);margin-top:10px" id="lSeaLength">591 ft</div>
       <div style="font-size:10px;letter-spacing:1.5px;text-transform:uppercase;color:var(--muted);margin-top:14px">the longest private yacht afloat</div>
     </a>
   </div>
@@ -262,6 +262,22 @@ footer{background:var(--ink);color:var(--paper2);margin-top:64px;padding:70px 30
     if(recs[0]){
       var n=document.getElementById("lRoadName"); if(n)n.textContent=esc(recs[0].name);
       var p=document.getElementById("lRoadPrice"); if(p)p.textContent=money(recs[0].price);
+    }
+  }).catch(function(){});
+  // Art cell: top sale record
+  fetch("media/art_records.json").then(function(r){return r.json();}).then(function(recs){
+    recs.sort(function(a,b){return (b.price||0)-(a.price||0);});
+    if(recs[0]){
+      var n=document.getElementById("lArtName"); if(n)n.textContent=esc(recs[0].name);
+      var p=document.getElementById("lArtPrice"); if(p)p.textContent=money(recs[0].price);
+    }
+  }).catch(function(){});
+  // Sea cell: longest yacht
+  fetch("media/sea_records.json").then(function(r){return r.json();}).then(function(recs){
+    recs.sort(function(a,b){return (b.meters||0)-(a.meters||0);});
+    if(recs[0]){
+      var n=document.getElementById("lSeaName"); if(n)n.textContent=esc(recs[0].name);
+      var p=document.getElementById("lSeaLength"); if(p)p.textContent=Math.round(recs[0].feet).toLocaleString("en-US")+" ft";
     }
   }).catch(function(){});
 })();
