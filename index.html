@@ -40,35 +40,39 @@ a{color:inherit;text-decoration:none}
 /* ============ FEATURED OBJECT ============ */
 .feature{max-width:1240px;margin:40px auto 0;padding:0 24px;position:relative}
 .feature .fimg{width:100%;height:clamp(300px,52vw,560px);object-fit:cover;display:block}
-.feature .fcap{position:absolute;left:calc(24px + 28px);bottom:28px;max-width:620px;color:var(--cream);z-index:2}
-.feature .fcap .tag{font-size:10px;letter-spacing:3.5px;text-transform:uppercase;color:var(--gold);margin-bottom:10px}
-.feature .fcap h2{font-family:'Cormorant Garamond',serif;font-weight:500;font-size:clamp(28px,4.4vw,52px);line-height:1.05;text-shadow:0 2px 24px rgba(0,0,0,.55)}
-.feature .fcap .lede{font-family:'Cormorant Garamond',serif;font-style:italic;font-size:18px;color:#e9e2cf;margin-top:10px;max-width:540px;text-shadow:0 1px 12px rgba(0,0,0,.5)}
-.feature .fcap .meta{display:block;margin-top:12px;font-size:9.5px;letter-spacing:2.5px;text-transform:uppercase;color:var(--gold)}
-.feature .fcap .cta{display:inline-block;margin-top:18px;font-size:11px;letter-spacing:2.5px;text-transform:uppercase;color:var(--gold);border-bottom:1px solid var(--gold);padding-bottom:4px}
 .feature .fimgwrap{position:relative}
-.feature .fimgwrap::after{content:"";position:absolute;left:0;right:0;bottom:0;height:45%;background:linear-gradient(to top,rgba(10,9,6,.78),transparent)}
+.feature .fimgwrap::after{content:"";position:absolute;left:0;right:0;bottom:0;height:100%;background:linear-gradient(to right, rgba(12,12,14,.88) 0%, rgba(12,12,14,.7) 38%, rgba(12,12,14,0) 62%)}
+/* solid text panel - always legible regardless of image */
+.feature .fcap{position:absolute;left:max(24px,calc((100vw - 1192px)/2));bottom:34px;max-width:520px;color:var(--cream);z-index:3;background:rgba(14,14,16,.82);backdrop-filter:blur(6px);border-left:3px solid var(--brass);padding:22px 26px 24px}
+.feature .fcap .tag{font-size:10px;letter-spacing:3.5px;text-transform:uppercase;color:var(--gold);margin-bottom:10px}
+.feature .fcap h2{font-family:'Cormorant Garamond',serif;font-weight:500;font-size:clamp(26px,3.8vw,46px);line-height:1.05;color:#fff;-webkit-font-smoothing:antialiased}
+.feature .fcap .lede{font-family:'Cormorant Garamond',serif;font-style:italic;font-size:17px;color:#e9e2cf;margin-top:10px;max-width:460px;line-height:1.4}
+.feature .fcap .meta{display:block;margin-top:12px;font-size:9.5px;letter-spacing:2.5px;text-transform:uppercase;color:var(--gold)}
+.feature .fcap .cta{display:inline-block;margin-top:16px;font-size:11px;letter-spacing:2.5px;text-transform:uppercase;color:var(--gold);border-bottom:1px solid var(--gold);padding-bottom:4px}
 .feature:hover .fcap .cta{color:#fff;border-color:#fff}
+@media(max-width:960px){.feature .fcap{left:26px;bottom:20px;max-width:78%;padding:18px 20px}}
 
 /* ============ DEPARTMENTS (editorial roster) ============ */
 .dept{max-width:1240px;margin:0 auto;padding:56px 24px 10px}
 .dept .dh{display:flex;align-items:baseline;justify-content:space-between;border-bottom:1px solid var(--ink);padding-bottom:16px;margin-bottom:28px}
 .dept .dh h2{font-family:'Space Grotesk',sans-serif;font-size:12px;letter-spacing:3px;text-transform:uppercase;font-weight:500;color:var(--ink)}
 .dept .dh .note{font-size:11px;letter-spacing:2px;text-transform:uppercase;color:var(--muted)}
-.dgrid{display:grid;grid-template-columns:repeat(3,1fr);gap:1px;background:var(--line)}
-.cell{background:var(--paper);padding:44px 28px 46px;min-height:280px;display:flex;flex-direction:column;justify-content:space-between;position:relative;overflow:hidden;transition:background .25s}
-.cell::before{content:"";position:absolute;inset:0;background:var(--ink);transform:translateY(101%);transition:transform .45s cubic-bezier(.22,.61,.36,1);z-index:0}
-.cell:hover::before{transform:translateY(0)}
-.cell .inner{position:relative;z-index:1}
-.cell .num{font-family:'Cormorant Garamond',serif;font-size:15px;color:var(--brass);letter-spacing:2px;display:flex;align-items:center;gap:14px}
-.cell .num::after{content:"";flex:1;height:1px;background:var(--line);max-width:60px}
-.cell h3{font-family:'Cormorant Garamond',serif;font-size:clamp(28px,2.8vw,38px);font-weight:500;letter-spacing:.5px;margin:24px 0 6px;line-height:1.05;transition:color .25s}
-.cell .type{font-size:10.5px;letter-spacing:2.2px;text-transform:uppercase;color:var(--muted);line-height:1.7;transition:color .25s}
-.cell .stat{position:absolute;left:28px;bottom:40px;z-index:1;font-size:10.5px;letter-spacing:2px;text-transform:uppercase;color:var(--brass);display:flex;align-items:center;gap:8px;opacity:0;transform:translateY(8px);transition:opacity .3s,transform .3s;font-weight:500}
-.cell .stat::before{content:"→"}
+.dgrid{display:grid;grid-template-columns:repeat(3,1fr);gap:14px}
+.cell{position:relative;height:280px;overflow:hidden;border:1px solid var(--line);background:var(--paper);display:block;text-decoration:none}
+.cell img{width:100%;height:100%;object-fit:cover;display:block;transition:transform .6s ease}
+.cell .tint{position:absolute;inset:0;background:linear-gradient(to top,rgba(10,10,12,.9) 0%,rgba(10,10,12,.35) 55%,rgba(10,10,12,0) 100%);z-index:1}
+.cell .inner{position:absolute;left:0;right:0;bottom:0;padding:20px 22px 22px;z-index:2;color:var(--cream)}
+.cell .wm{position:absolute;right:14px;top:8px;font-family:'Cormorant Garamond',serif;font-size:clamp(64px,6vw,92px);font-weight:600;color:rgba(255,255,255,.10);line-height:1;z-index:1;pointer-events:none}
+.cell .num{font-family:'Cormorant Garamond',serif;font-size:13px;color:var(--gold);letter-spacing:2px;display:block;margin-bottom:8px}
+.cell h3{font-family:'Cormorant Garamond',serif;font-size:clamp(22px,2.4vw,30px);font-weight:500;letter-spacing:.5px;line-height:1.05;color:#fff;transition:color .25s}
+.cell .type{font-size:10px;letter-spacing:2px;text-transform:uppercase;color:#d8d2c0;margin-top:8px;opacity:.9}
+.cell .stat{display:inline-block;margin-top:14px;font-size:10px;letter-spacing:2px;text-transform:uppercase;color:var(--gold);opacity:0;transform:translateY(6px);transition:opacity .3s,transform .3s;font-weight:600}
+.cell .stat::before{content:"→  "}
+.cell:hover img{transform:scale(1.06)}
 .cell:hover .stat{opacity:1;transform:translateY(0)}
-.cell:hover .type{color:var(--faint)}
 .cell:hover h3{color:var(--gold)}
+@media(max-width:960px){.dgrid{grid-template-columns:1fr 1fr}}
+@media(max-width:560px){.dgrid{grid-template-columns:1fr}}
 
 /* ============ QUOTE ============ */
 .quote{background:var(--ink);color:var(--paper2);margin:64px 0 0;padding:84px 30px}
@@ -137,11 +141,11 @@ footer{background:var(--ink);color:var(--paper2);margin-top:64px;padding:70px 30
     <img class="fimg" src="media/img/sea.jpg" alt="A superyacht at anchor"/>
   </div>
   <div class="fcap">
-    <div class="tag">The Sea · A Field Note</div>
-    <h2>The Forty-Metre Line</h2>
-    <div class="lede">A superyacht built to spend its life at anchor where the water is clearest. Ed. note on construction, mooring and the quiet economics of owning the anchor you never drop.</div>
-    <div class="meta">Field Note No. 7 · Autumn MMXXVI</div>
-    <div class="cta">Read the Feature</div>
+    <div class="tag">The Sea · The Record</div>
+    <h2>Azzam — 591 ft</h2>
+    <div class="lede">The longest private yacht ever built, and the figure that sets the bar for every other line afloat. The sea's answer to who can float the most.</div>
+    <div class="meta">Lürssen · built 2013 · the record that cost more than most fleets</div>
+    <div class="cta">Read the Record</div>
   </div>
 </a>
 
@@ -150,11 +154,11 @@ footer{background:var(--ink);color:var(--paper2);margin-top:64px;padding:70px 30
     <img class="fimg" src="media/img/art_starrynight.jpg" alt="Vincent van Gogh, The Starry Night"/>
   </div>
   <div class="fcap">
-    <div class="tag">Art · Masterwork</div>
-    <h2>The Starry Night</h2>
-    <div class="lede">The painting that made van Gogh the best-selling name in the market's history.</div>
-    <div class="meta">held at the Museum of Modern Art · New York</div>
-    <div class="cta">Enter the Department</div>
+    <div class="tag">Art · The Record</div>
+    <h2>Salvator Mundi — $450.3M</h2>
+    <div class="lede">The most expensive painting ever sold. Not the one in the frame before you, but the one that set the number every other canvas is now measured against.</div>
+    <div class="meta">Leonardo da Vinci · Christie's New York · the high-water mark</div>
+    <div class="cta">Read the Record</div>
   </div>
 </a>
 
@@ -198,39 +202,57 @@ footer{background:var(--ink);color:var(--paper2);margin-top:64px;padding:70px 30
   <div class="dh"><h2>The Departments</h2><div class="note">Curated by the editors of ME</div></div>
   <div class="dgrid">
     <a class="cell" href="time.html">
-      <div class="inner"><div class="num">I</div><h3>Time</h3><div class="type">The rare watch, placed<br/>by provenance.</div></div>
+      <img src="media/img/dep_time.jpg" alt=""/>
+      <div class="tint"></div>
+      <div class="inner"><div class="num">I</div><h3>Time</h3><div class="type">Rare watches, placed by provenance.</div></div>
       <div class="stat">Enter</div>
     </a>
     <a class="cell" href="table.html">
-      <div class="inner"><div class="num">II</div><h3>The Table</h3><div class="type">Cigars, spirits<br/>&amp; cellars.</div></div>
+      <div class="tint" style="background:linear-gradient(to top,rgba(12,9,8,.96) 0%,rgba(60,28,20,.55) 60%,rgba(30,14,10,.3))"></div>
+      <div class="wm">II</div>
+      <div class="inner"><div class="num">II</div><h3>The Table</h3><div class="type">Cigars, spirits &amp; cellars.</div></div>
       <div class="stat">Enter</div>
     </a>
     <a class="cell" href="sea.html">
-      <div class="inner"><div class="num">III</div><h3>The Sea</h3><div class="type">Yachts, for sale<br/>&amp; charter.</div></div>
+      <img src="media/img/sea.jpg" alt=""/>
+      <div class="tint"></div>
+      <div class="inner"><div class="num">III</div><h3>The Sea</h3><div class="type">Yachts, for sale &amp; charter.</div></div>
       <div class="stat">Enter</div>
     </a>
     <a class="cell" href="road.html">
-      <div class="inner"><div class="num">IV</div><h3>The Road</h3><div class="type">Motorcars, new<br/>&amp; classic.</div></div>
+      <img src="media/img/road.jpg" alt=""/>
+      <div class="tint"></div>
+      <div class="inner"><div class="num">IV</div><h3>The Road</h3><div class="type">Motorcars, new &amp; classic.</div></div>
       <div class="stat">Enter</div>
     </a>
     <a class="cell" href="estate.html">
-      <div class="inner"><div class="num">V</div><h3>Home &amp; Grounds</h3><div class="type">Estates,<br/>worldwide.</div></div>
+      <img src="media/img/dep_estate.jpg" alt=""/>
+      <div class="tint"></div>
+      <div class="inner"><div class="num">V</div><h3>Home &amp; Grounds</h3><div class="type">Estates, worldwide.</div></div>
       <div class="stat">Enter</div>
     </a>
     <a class="cell" href="field.html">
-      <div class="inner"><div class="num">VI</div><h3>The Field</h3><div class="type">The<br/>sporting life.</div></div>
+      <div class="tint" style="background:linear-gradient(to top,rgba(9,12,10,.96) 0%,rgba(22,42,30,.6) 60%,rgba(12,22,16,.32))"></div>
+      <div class="wm">VI</div>
+      <div class="inner"><div class="num">VI</div><h3>The Field</h3><div class="type">The sporting life.</div></div>
       <div class="stat">Enter</div>
     </a>
     <a class="cell" href="style.html">
-      <div class="inner"><div class="num">VII</div><h3>Style</h3><div class="type">Tailoring, jewelry,<br/>for him &amp; her.</div></div>
+      <img src="media/img/suit.jpg" alt=""/>
+      <div class="tint"></div>
+      <div class="inner"><div class="num">VII</div><h3>Style</h3><div class="type">Tailoring, jewelry, for him &amp; her.</div></div>
       <div class="stat">Enter</div>
     </a>
     <a class="cell" href="library.html">
-      <div class="inner"><div class="num">VIII</div><h3>The Library</h3><div class="type">The concierge,<br/>by appointment.</div></div>
+      <div class="tint" style="background:linear-gradient(to top,rgba(12,11,9,.96) 0%,rgba(46,30,10,.6) 60%,rgba(24,16,8,.32))"></div>
+      <div class="wm">VIII</div>
+      <div class="inner"><div class="num">VIII</div><h3>The Library</h3><div class="type">The concierge, by appointment.</div></div>
       <div class="stat">Enter</div>
     </a>
     <a class="cell" href="art.html">
-      <div class="inner"><div class="num">IX</div><h3>Art</h3><div class="type">Masterworks, provenance<br/>&amp; the records.</div></div>
+      <img src="media/img/art_starrynight.jpg" alt=""/>
+      <div class="tint"></div>
+      <div class="inner"><div class="num">IX</div><h3>Art</h3><div class="type">Masterworks, provenance &amp; the records.</div></div>
       <div class="stat">Enter</div>
     </a>
   </div>
