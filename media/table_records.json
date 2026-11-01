@@ -1,0 +1,66 @@
+[
+ {
+  "name": "The Macallan Valerio Adami 1926 · 60-Year-Old",
+  "price": 2734254,
+  "year": "2023",
+  "kind": "Single Malt",
+  "locale": "Sotheby's, London",
+  "src": "https://www.guinnessworldrecords.com/world-records/most-expensive-whisky-whiskey-sold-at-auction"
+ },
+ {
+  "name": "Domaine de la Romanée-Conti 1945",
+  "price": 812500,
+  "year": "2026",
+  "kind": "Burgundy",
+  "locale": "Acker, New York",
+  "src": "https://www.bkwine.com/news/record-price-romanee-conti/"
+ },
+ {
+  "name": "Gran Habano No. 5 'El Gigante' Cigar",
+  "price": 185000,
+  "year": "2026",
+  "kind": "Cigar",
+  "locale": "Private sale",
+  "src": "https://www.luxhabitat.ae/the-journal/top-10-most-expensive-cigars-in-the-world/"
+ },
+ {
+  "name": "Cohiba Majestuosos 1966 · Humidor",
+  "price": 36831,
+  "year": "2016",
+  "kind": "Cigar · humidor",
+  "locale": "Havana, 500 sticks",
+  "src": "https://cubancigaronline.com/most-expensive-cuban-cigars/"
+ },
+ {
+  "name": "The Strange Cohiba Humidor",
+  "price": 411000,
+  "year": "2017",
+  "kind": "Humidor",
+  "locale": "Charity auction · Monaco",
+  "src": "https://www.cigaraficionado.com/article/the-world-s-most-expensive-humidors"
+ },
+ {
+  "name": "Romanée-Conti 1990 · Magnum, by the 12",
+  "price": 449890,
+  "year": "2025",
+  "kind": "Burgundy · lot",
+  "locale": "Christie's, Hong Kong",
+  "src": "https://robbreport.com/food-drink/spirits/1945-domaine-de-la-romanee-conti-auction-record-1237729845/"
+ },
+ {
+  "name": "Macallan 1926 · Fine and Rare",
+  "price": 1900000,
+  "year": "2019",
+  "kind": "Single Malt",
+  "locale": "Sotheby's, London",
+  "src": "https://whiskyadvocate.com/Blockbuster-Macallan-Bottle-Sells-for-S2-7-million-Smashing-Previous-Record"
+ },
+ {
+  "name": "Cohiba Behike · 56",
+  "price": 128,
+  "year": "2026",
+  "kind": "Cigar · per stick",
+  "locale": "Limited release",
+  "src": "https://cubancigaronline.com/most-expensive-cuban-cigars/"
+ }
+]
