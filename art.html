@@ -73,15 +73,24 @@ a{color:inherit}.top-rule{height:3px;background:var(--ink)}
 @media(max-width:900px){.wgrid{grid-template-columns:1fr}.wcard .wimg{height:320px}.grid{grid-template-columns:1fr 1fr}.grid .card:nth-child(odd){border-right:none}.grid .card{border-top:1px solid var(--line)}.grid .card:first-child{border-top:none}}
 @media(max-width:560px){.wgrid{grid-template-columns:1fr}.grid{grid-template-columns:1fr}.card{border-right:none}}
 
-/* ===== DEPARTMENT HERO ===== */
-.dep-hero{position:relative;height:clamp(240px,34vw,380px);overflow:hidden;border-bottom:1px solid var(--line)}
-.dep-hero img{width:100%;height:100%;object-fit:cover;display:block}
-.dep-hero::after{content:"";position:absolute;left:0;right:0;bottom:0;height:100%;background:linear-gradient(to right,rgba(12,12,14,.9) 0%,rgba(12,12,14,.62) 40%,rgba(12,12,14,0) 65%);z-index:1}
-.dep-hero .dhcap{position:absolute;left:max(24px,calc((100vw - 1100px)/2));bottom:26px;max-width:480px;color:var(--cream);z-index:2}
-.dep-hero .dhcap .dkat{font-size:10px;letter-spacing:3.5px;text-transform:uppercase;color:var(--gold);margin-bottom:6px}
-.dep-hero .dhcap h2{font-family:'Cormorant Garamond',serif;font-weight:500;font-size:clamp(30px,4.4vw,50px);line-height:1.05;color:#fff}
-.dep-hero .dhcap p{font-family:'Cormorant Garamond',serif;font-style:italic;font-size:16px;color:#e9e2cf;margin-top:8px}
-@media(max-width:900px){.dep-hero .dhcap{left:26px;bottom:20px}}
+/* ===== ART ROTATING HERO (the season's top lots) ===== */
+.rot{position:relative;height:clamp(300px,44vw,520px);overflow:hidden;border-bottom:1px solid var(--line);background:#14120e}
+.rot .slide{position:absolute;inset:0;opacity:0;transition:opacity 1s ease}
+.rot .slide.on{opacity:1;z-index:2}
+.rot .slide a{display:block;height:100%}
+.rot .slide img{width:100%;height:100%;object-fit:cover;display:block}
+.rot .slide::after{content:"";position:absolute;inset:0;background:linear-gradient(to right,rgba(10,9,7,.94) 0%,rgba(10,9,7,.68) 42%,rgba(10,9,7,.05) 72%)}
+.rot .copy{position:absolute;left:max(24px,calc((100vw - 1100px)/2));right:24px;bottom:32px;z-index:3;max-width:560px}
+.rot .copy .rack{font-size:10px;letter-spacing:4px;text-transform:uppercase;color:#c8a95c;font-weight:600;margin-bottom:8px}
+.rot .copy .cname{font-family:'Cormorant Garamond',serif;font-weight:600;font-size:clamp(28px,4vw,46px);line-height:1.05;color:#fff}
+.rot .copy .cart{font-size:11px;letter-spacing:3px;text-transform:uppercase;color:#e2cd9d;margin:8px 0 4px}
+.rot .copy .clot{font-family:'Cormorant Garamond',serif;font-style:italic;font-size:16px;color:#d9d2c0;line-height:1.5}
+.rot .copy .cprice{font-family:'Cormorant Garamond',serif;font-weight:500;color:#e3c063;font-size:clamp(20px,2.6vw,28px);margin-top:14px}
+.rot .copy .cgo{display:inline-block;margin-top:10px;font-size:10.5px;letter-spacing:2.5px;text-transform:uppercase;color:#fff;border-bottom:1px solid #c8a95c;padding-bottom:3px}
+.rot .dots{position:absolute;right:max(24px,calc((100vw - 1100px)/2));bottom:36px;z-index:4;display:flex;gap:9px}
+.rot .dots i{display:block;width:30px;height:2px;background:rgba(255,255,255,.28);cursor:pointer;transition:background .3s}
+.rot .dots i.on{background:#c8a95c}
+@media(max-width:900px){.rot{height:60vw}.rot .copy{left:22px;right:22px;bottom:24px}.rot .dots{left:22px;right:auto;bottom:12px}}
 
 </style>
 </head>
@@ -93,6 +102,8 @@ a{color:inherit}.top-rule{height:3px;background:var(--ink)}
   <h1>Art</h1>
   <div class="deck">The masterworks that set the market's terms, and the provenance that made them impossible to part with.</div>
 </div>
+
+<div class="rot" id="artRot"></div>
 
 <div class="works">
   <div class="wh"><h2>Masterworks</h2><div class="wnote">three that changed everything</div></div>
@@ -125,14 +136,6 @@ a{color:inherit}.top-rule{height:3px;background:var(--ink)}
 </div>
 <div class="attrib2">Sale records sourced from <a href="https://en.wikipedia.org/wiki/List_of_most_expensive_paintings" target="_blank" rel="noopener">Wikipedia: List of most expensive paintings</a>. Figures are the original sale price in USD; provenance is the longer story.</div>
 
-<div class="dep-hero">
-  <img src="media/img/art_starrynight.jpg" alt="Art"/>
-  <div class="dhcap">
-    <div class="dkat">Department IX · Fine Art</div>
-    <h2>Art</h2>
-    <p>Masterworks, provenance and the records.</p>
-  </div>
-</div>
 <div class="dept">
   <div class="grid">
     <div class="card"><h4>The Self-Portrait, Again</h4><div class="who">Rembrandt · 1659</div><p class="what">A man who had lost everything painted himself at his most unmoved. The market's favourite proof that the life does not touch the work, and the detail the auction house photographs first.</p><span class="price">national collections only</span></div>
@@ -153,21 +156,63 @@ a{color:inherit}.top-rule{height:3px;background:var(--ink)}
 <div class="backlink"><a href="index.html">← All Departments</a></div>
 <div class="copyright">© The Most Expensivest, MMXXVI</div>
 <script>
+/* ROTATING ART HERO — the season's top lots, with live links to the record */
 (function(){
+  var LOTS=[
+    {art:"Jackson Pollock · Number 7A, 1948",price:181185000,house:"Christie's New York",date:"May 2026",provenance:"From the collection of S.I. Newhouse. Nearly three times the artist's prior record.",img:"https://artsy-media-uploads.s3.amazonaws.com/Pg2v6xbfHtcG5aaU8XRUTA/LOT+8A_JACKSON+POLLOCK%2C+Number+7A%2C+1948.jpg",link:"https://www.christies.com/en/lot/lot-6585089"},
+    {art:"Mark Rothko · No. 15 (Two Greens and Red Stripe), 1964",price:98385000,house:"Christie's New York",date:"May 2026",provenance:"Set a new auction record for the artist, from the collection of Agnes Gund.",img:"https://artsy-media-uploads.s3.amazonaws.com/GVrzr-wGsLYRtdi-IimCUQ/LOT+21A_MARK+ROTHKO%2C+No.+15+%2528Two+Greens+and+Red+Stripe%2529.jpg",link:"https://www.christies.com/lot/mark-rothko-1903-1970--6585784"},
+    {art:"Joan Miró · Portrait de Madame K., 1924",price:53535000,house:"Christie's New York",date:"May 2026",provenance:"More than doubled its low estimate; a new record for the artist at auction.",img:"https://artsy-media-uploads.s3.amazonaws.com/5ZrT3SegFcYeITdmG35nyA/LOT+6A_JOAN+MIRO%2C+Portrait+de+Madame+K..jpg",link:"https://www.christies.com/en/lot/lot-6585087"},
+    {art:"Alice Neel · Mother and Child (Nancy and Olivia), 1967",price:5687000,house:"Christie's New York",date:"May 2026",provenance:"More than tripled its $1.2–1.8M estimate; a new record for the artist.",img:"https://artsy-media-uploads.s3.amazonaws.com/rHaRX23MFt4nqdRyoJHlXg/LOT+50A_ALICE+NEEL%2C+Mother+and+Child+%2528Nancy+and+Olivia%2529.jpg",link:"https://www.christies.com/en/lot/lot-6585813"}
+  ];
   function money(n){if(n==null||isNaN(n))return "on request";return "$"+Math.round(n).toLocaleString("en-US");}
   function esc(s){var d=document.createElement("div");d.textContent=s==null?"":String(s);return d.innerHTML;}
+  var rot=document.getElementById("artRot"); if(!rot)return;
+  /* build slides from the LOTS array; each slide links out to the live lot page */
+  var slidesHTML=LOTS.map(function(it,i){
+    return '<div class="slide'+(i===0?' on':'')+'" data-i="'+i+'">'+
+      '<a href="'+esc(it.link)+'" target="_blank" rel="noopener">'+
+        '<img src="'+esc(it.img)+'" onerror="this.style.display=\'none\';this.parentNode.style.background=\'linear-gradient(135deg,#1a1814,#2c251a)\'" alt="'+esc(it.art)+'"/>'+
+        '<div class="copy">'+
+          '<div class="rack">Top Lot · Sold This Season</div>'+
+          '<div class="cname">'+esc(it.art)+'</div>'+
+          '<div class="cart">'+esc(it.house)+' · '+esc(it.date)+'</div>'+
+          '<div class="clot">'+esc(it.provenance)+'</div>'+
+          '<div class="cprice">'+money(it.price)+'</div>'+
+          '<div class="cgo">View the Record ↗</div>'+
+        '</div>'+
+      '</a>'+
+    '</div>';
+  }).join("");
+  var dotsHTML=LOTS.map(function(it,i){return '<i class="'+(i===0?'on':'')+'" data-go="'+i+'"></i>';}).join("");
+  rot.innerHTML=slidesHTML+'<div class="dots inner">'+dotsHTML+'</div>';
+  /* rotate */
+  var idx=0, TOTAL=LOTS.length, timer;
+  function show(n){
+    idx=(n+TOTAL)%TOTAL;
+    var s=rot.querySelectorAll(".slide");Array.prototype.forEach.call(s,function(el){el.classList.toggle("on",+el.getAttribute("data-i")===idx);});
+    var d=rot.querySelectorAll(".dots i");Array.prototype.forEach.call(d,function(el){el.classList.toggle("on",+el.getAttribute("data-go")===idx);});
+  }
+  function next(){show(idx+1);}
+  function start(){clearInterval(timer);timer=setInterval(next,6000);}
+  rot.addEventListener("click",function(e){
+    var g=e.target.getAttribute&&e.target.getAttribute("data-go");
+    if(g!=null){show(+g);start();}
+  });
+  start();
+  /* RECORDS OF THE MARKET — the all-time ledger */
   fetch("media/art_records.json").then(function(r){return r.json();}).then(function(recs){
-    var tb=document.getElementById("artTable");
+    var tb=document.getElementById("artTable"); if(!tb)return;
     recs.sort(function(a,b){return (b.price||0)-(a.price||0);});
-    tb.innerHTML=recs.slice(0,10).map(function(r,idx){
+    tb.innerHTML=recs.slice(0,10).map(function(r){
       return '<div class="rrow">'+
         '<div class="rdesc"><span class="rname">'+esc(r.name)+'</span></div>'+
         '<div class="rartist">'+esc(r.artist)+'</div>'+
         '<div class="ryear">'+esc(r.year)+'</div>'+
         '<div class="rprice">'+money(r.price)+'</div></div>';
     }).join("");
-  }).catch(function(){document.getElementById("artTable").innerHTML='<div class="mload" style="padding:20px">The records are momentarily unavailable.</div>';});
+  }).catch(function(){var tb=document.getElementById("artTable");if(tb)tb.innerHTML='<div class="mload" style="padding:20px">The records are momentarily unavailable.</div>';});
 })();
 </script>
+
 </body>
 </html>
