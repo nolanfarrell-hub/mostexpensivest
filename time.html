@@ -35,15 +35,16 @@ a{color:inherit}.top-rule{height:3px;background:var(--ink)}
 .live .lh h2{font-family:'Space Grotesk',sans-serif;font-size:12px;letter-spacing:3px;text-transform:uppercase;font-weight:600;color:var(--ink)}
 .live .lh .count{font-size:11px;letter-spacing:2px;text-transform:uppercase;color:var(--muted)}
 .live .lh .count b{color:var(--brass-dark);font-weight:600}
+.murl{display:block;margin-top:10px;font-size:10px;letter-spacing:1px;color:var(--brass-dark);text-transform:uppercase}
+.mcard .mprice{font-family:'Space Grotesk',sans-serif;font-weight:700;font-size:19px;color:var(--brass-dark)}
 .mgrid{display:grid;grid-template-columns:repeat(3,1fr);gap:16px}
 .mcard{border:1px solid var(--line);background:var(--paper);overflow:hidden;display:block;text-decoration:none;transition:border-color .2s}
 .mcard:hover{border-color:var(--brass)}
-.mcard .mimg{height:200px;width:100%;background:#eae3d2;position:relative;overflow:hidden}
-.mcard .mimg img{width:100%;height:100%;object-fit:cover;display:block}
+.mcard .mimg{height:220px;width:100%;background:#eae3d2;position:relative;overflow:hidden}
+.mcard .mimg img{width:100%;height:100%;object-fit:cover;object-position:center;display:block}
 .mcard .minfo{padding:16px 18px}
 .mcard .mname{font-family:'Cormorant Garamond',serif;font-weight:600;font-size:19px;line-height:1.15;margin-bottom:6px;color:var(--ink);display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical;overflow:hidden}
 .mcard .mref{font-size:10.5px;letter-spacing:1.5px;text-transform:uppercase;color:var(--muted);margin-bottom:12px}
-.mcard .mprice{font-family:'Space Grotesk',sans-serif;font-weight:700;font-size:18px;color:var(--brass-dark)}
 .mcard .msrc{font-size:10px;color:var(--faint);margin-top:8px;letter-spacing:.5px}
 .mload{padding:30px;text-align:center;color:var(--muted);font-size:12px;letter-spacing:2px}
 
@@ -59,24 +60,26 @@ a{color:inherit}.top-rule{height:3px;background:var(--ink)}
 .vcard{border:1px solid var(--line);background:var(--paper);padding:24px 26px}
 .vcard .vname{font-family:'Cormorant Garamond',serif;font-weight:600;font-size:20px;margin-bottom:12px;line-height:1.2}
 .vcard .vverdict{font-family:'Cormorant Garamond',serif;font-style:italic;font-size:15px;color:var(--ink2);line-height:1.45;min-height:66px}
-.vcard .vchips{display:flex;gap:8px;margin-top:16px;flex-wrap:wrap}
-.vcard .vchip{border:1px solid var(--line);background:var(--cream);padding:6px 10px;font-size:10px;letter-spacing:1px;text-transform:uppercase;color:var(--muted);display:flex;align-items:baseline;gap:6px}
-.vcard .vchip b{font-family:'Space Grotesk',sans-serif;font-size:12px;color:var(--brass-dark)}
+.vcard .vchips{display:flex;gap:6px;margin-top:18px}
+.vcard .vchip{flex:1;border:1px solid var(--line);background:var(--cream);padding:8px 6px;text-align:center;font-size:9px;letter-spacing:1px;text-transform:uppercase;color:var(--muted);line-height:1.4}
+.vcard .vchip b{display:block;font-family:'Space Grotesk',sans-serif;font-size:15px;color:var(--brass-dark);margin-top:2px}
 @media(max-width:900px){.vgrid{grid-template-columns:1fr 1fr}}
 @media(max-width:560px){.vgrid{grid-template-columns:1fr}}
 
 /* AUCTION RECORDS */
 .records{max-width:1100px;margin:56px auto 0;padding:0 30px}
-.records .rh{display:flex;align-items:baseline;justify-content:space-between;border-top:3px solid var(--ink);padding-top:22px;margin-bottom:6px}
+.records .rh{display:flex;align-items:baseline;justify-content:space-between;border-top:3px solid var(--ink);padding-top:22px;margin-bottom:4px}
 .records .rh h3{font-family:'Space Grotesk',sans-serif;font-size:12px;letter-spacing:3px;text-transform:uppercase;font-weight:600;color:var(--ink)}
 .records .rh .rnote{font-size:11px;letter-spacing:2px;text-transform:uppercase;color:var(--muted)}
 .rtable{border-top:1px solid var(--line)}
-.rrow{display:grid;grid-template-columns:1.6fr 1fr .8fr .8fr;gap:16px;padding:16px 0;border-bottom:1px solid var(--line);align-items:baseline}
-.rdesc{font-family:'Cormorant Garamond',serif;font-size:18px;font-weight:500;line-height:1.2}
-.rhouse{font-size:11px;letter-spacing:1.5px;text-transform:uppercase;color:var(--muted)}
+a.rrow{text-decoration:none;display:grid;grid-template-columns:1fr .7fr .8fr;gap:16px;padding:15px 0;border-bottom:1px solid var(--line);align-items:baseline;transition:background .15s}
+a.rrow:hover{background:var(--paper2)}
+.rdesc{font-family:'Cormorant Garamond',serif;font-size:18px;font-weight:500;line-height:1.3;color:var(--ink)}
+.rdesc .rmodel{color:var(--ink2)}
+.rdesc .rref{font-size:11px;letter-spacing:1.5px;color:var(--muted);text-transform:uppercase;margin-left:6px}
 .rdate{font-size:12px;color:var(--muted)}
-.rprice{font-family:'Space Grotesk',sans-serif;font-weight:700;font-size:16px;color:var(--brass-dark);text-align:right}
-@media(max-width:700px){.rrow{grid-template-columns:1fr .8fr}.rhouse{display:none}}
+.rprice{font-family:'Space Grotesk',sans-serif;font-weight:700;font-size:17px;color:var(--brass-dark);text-align:right}
+@media(max-width:640px){a.rrow{grid-template-columns:1fr .8fr}.rdate{display:none}}
 
 .consult{max-width:1100px;margin:0 auto;padding:60px 30px 8px;display:flex;align-items:center;justify-content:space-between;gap:26px;flex-wrap:wrap;border-top:1px solid var(--line)}
 .consult h4{font-family:'Cormorant Garamond',serif;font-weight:600;font-size:24px;margin-bottom:6px}
@@ -180,13 +183,15 @@ a{color:inherit}.top-rule{height:3px;background:var(--ink)}
     if(!lots.length)return;
     var blk=document.createElement("div");
     blk.className="records";
-    var h='<div class="rh"><h3>Sold at Auction</h3><div class="rnote">recent records</div></div>';
+    var h='<div class="rh"><h3>Records of the Trade</h3><div class="rnote">highest hammer prices on record</div></div>';
     h+='<div class="rtable">'+lots.map(function(L){
-      var t=esc(L.title||(L.brand||""));
-      return '<div class="rrow"><div class="rdesc">'+t+'</div>'+
-        '<div class="rhouse">'+esc(L.auction_house||"")+'</div>'+
-        '<div class="rdate">'+esc(L.sale_date||"")+'</div>'+
-        '<div class="rprice">'+money(L.hammer_usd)+'</div></div>';
+      var name=esc(L.model||L.title||L.brand||"");
+      var ref=L.reference?"<span class='rref'>"+esc(L.reference)+"</span>":"";
+      var href=L.url||"#";
+      return '<a class="rrow" href="'+esc(href)+'" target="_blank" rel="noopener">'+
+        '<div class="rdesc">'+esc(L.brand||"")+' <span class="rmodel">'+name+'</span> '+ref+'</div>'+
+        '<div class="rdate">'+esc(L.sale_date||"record")+'</div>'+
+        '<div class="rprice">'+money(L.hammer_usd)+'</div></a>';
     }).join('')+'</div>';
     blk.innerHTML=h;
     var live=document.querySelector(".live");
