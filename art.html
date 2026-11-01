@@ -139,7 +139,8 @@ a{color:inherit}.top-rule{height:3px;background:var(--ink)}
   function esc(s){var d=document.createElement("div");d.textContent=s==null?"":String(s);return d.innerHTML;}
   fetch("media/art_records.json").then(function(r){return r.json();}).then(function(recs){
     var tb=document.getElementById("artTable");
-    tb.innerHTML=recs.slice(0,10).map(function(r){
+    recs.sort(function(a,b){return (b.price||0)-(a.price||0);});
+    tb.innerHTML=recs.slice(0,10).map(function(r,idx){
       return '<div class="rrow">'+
         '<div class="rdesc"><span class="rname">'+esc(r.name)+'</span></div>'+
         '<div class="rartist">'+esc(r.artist)+'</div>'+
