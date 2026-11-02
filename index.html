@@ -136,7 +136,7 @@ footer{background:var(--ink);color:var(--paper2);margin-top:64px;padding:70px 30
 </header>
 
 <!-- FEATURED OBJECT -->
-<a class="feature" href="sea.html">
+<a class="feature" href="https://www.fraseryachts.com/en/yachts-for-sale" target="_blank" rel="noopener" data-feature="sea" id="fh-sea">
   <div class="fimgwrap">
     <img class="fimg" src="media/img/dep_sea.jpg" alt="Port Hercule, Monaco"/>
   </div>
@@ -145,11 +145,11 @@ footer{background:var(--ink);color:var(--paper2);margin-top:64px;padding:70px 30
     <h2>Monaco, at Anchor</h2>
     <div class="lede">Where the world's longest and most expensive lines moor side by side — Port Hercule, the harbour that holds more per square metre than most private collections. Among them, the 591-ft Azzam, the record that reset the bar.</div>
     <div class="meta">Port Hercule · Monaco · the anchorage of record</div>
-    <div class="cta">Read the Record</div>
+    <div class="cta" data-hero-cta="sea">View superyachts for sale</div>
   </div>
 </a>
 
-<a class="feature" href="art.html">
+<a class="feature" href="https://www.1stdibs.com/buy/art/" target="_blank" rel="noopener" data-feature="art" id="fh-art">
   <div class="fimgwrap">
     <img class="fimg" src="media/img/hero_salvator.jpg" alt="Leonardo da Vinci, Salvator Mundi"/>
   </div>
@@ -158,7 +158,7 @@ footer{background:var(--ink);color:var(--paper2);margin-top:64px;padding:70px 30
     <h2>Salvator Mundi — $450.3M</h2>
     <div class="lede">The most expensive painting ever sold. The blessing hand, the crystal orb, and the number every other canvas is now measured against.</div>
     <div class="meta">Leonardo da Vinci · Christie's New York · the high-water mark</div>
-    <div class="cta">Read the Record</div>
+    <div class="cta" data-hero-cta="art">Find the market · live listings</div>
   </div>
 </a>
 
@@ -320,6 +320,18 @@ footer{background:var(--ink);color:var(--paper2);margin-top:64px;padding:70px 30
       var n=document.getElementById("lSeaName"); if(n)n.textContent=esc(recs[0].name);
       var p=document.getElementById("lSeaLength"); if(p)p.textContent=Math.round(recs[0].feet).toLocaleString("en-US");
     }
+  }).catch(function(){});
+  // HERO PLACEMENTS: resolve to current best live listing from the manifest
+  fetch("media/live_listings.json",{cache:"no-store"}).then(function(r){return r.json();}).then(function(d){
+    var heroes=(d&&d.heroes)||{};
+    Object.keys(heroes).forEach(function(key){
+      var list=heroes[key]; if(!list||!list.length)return;
+      var best=list[0]; if(!best||!best.url)return;
+      var a=document.getElementById("fh-"+key);
+      if(a){ a.setAttribute("href",best.url); a.setAttribute("target","_blank"); a.setAttribute("rel","noopener"); }
+      var cta=document.querySelector('[data-hero-cta="'+key+'"]');
+      if(cta&&best.cta){cta.textContent=best.cta;}
+    });
   }).catch(function(){});
 })();
 </script>

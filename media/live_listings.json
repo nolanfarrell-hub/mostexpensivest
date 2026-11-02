@@ -307,5 +307,36 @@
         "status": "LIVE"
       }
     ]
+  },
+  "heroes": {
+    "sea": [
+      {
+        "name": "Superyachts for sale",
+        "url": "https://www.fraseryachts.com/en/yachts-for-sale",
+        "marketplace": "Fraser Yachts",
+        "verified": "2026-11-01",
+        "cta": "View superyachts for sale",
+        "alt": [
+          "https://www.burgessyachts.com/",
+          "https://www.denisonyachtsales.com/"
+        ],
+        "last_check": "2026-11-01",
+        "status": "LIVE"
+      }
+    ],
+    "art": [
+      {
+        "name": "Art for sale today",
+        "url": "https://www.1stdibs.com/buy/art/",
+        "marketplace": "1stDibs",
+        "verified": "2026-11-01",
+        "cta": "Find the market \u00b7 live listings",
+        "alt": [
+          "https://www.invaluable.com/"
+        ],
+        "last_check": "2026-11-01",
+        "status": "LIVE"
+      }
+    ]
   }
 }
