@@ -87,24 +87,6 @@
     "sea": [
       {
         "name": "Superyachts for sale",
-        "url": "https://www.burgessyachts.com/",
-        "marketplace": "Burgess",
-        "verified": "2026-11-01",
-        "probe": "researcher",
-        "last_check": "2026-11-01",
-        "status": "LIVE"
-      },
-      {
-        "name": "Yachts for sale",
-        "url": "https://www.denisonyachtsales.com/",
-        "marketplace": "Denison Yachts",
-        "verified": "2026-11-01",
-        "probe": "researcher",
-        "last_check": "2026-11-01",
-        "status": "LIVE"
-      },
-      {
-        "name": "Superyachts for sale",
         "url": "https://www.fraseryachts.com/en/yachts-for-sale",
         "marketplace": "Fraser Yachts",
         "verified": "2026-11-01",
@@ -112,29 +94,43 @@
         "status": "LIVE"
       },
       {
-        "name": "Yacht market (bot-walled from automation)",
-        "url": "https://www.yachtworld.com/yachts-for-sale/",
-        "marketplace": "YachtWorld",
-        "verified": null,
-        "note": "Cloudflare wall; leave for manual confirmation",
-        "last_check": "2026-11-01",
-        "status": "WALL"
-      }
-    ],
-    "road": [
-      {
-        "name": "Classic cars for sale",
-        "url": "https://www.classiccar.com/",
-        "marketplace": "Classic Car",
+        "name": "The most expensive afloat",
+        "url": "https://www.burgessyachts.com/",
+        "marketplace": "Burgess",
         "verified": "2026-11-01",
-        "probe": "researcher",
         "last_check": "2026-11-01",
         "status": "LIVE"
       },
       {
+        "name": "Classic line brokers",
+        "url": "https://www.denisonyachtsales.com/",
+        "marketplace": "Denison Yacht Sales",
+        "verified": "2026-11-01",
+        "last_check": "2026-11-01",
+        "status": "LIVE"
+      },
+      {
+        "name": "Volume & support yachts",
+        "url": "https://www.northropandjohnson.com/",
+        "marketplace": "Northrop & Johnson",
+        "verified": "2026-11-01",
+        "last_check": "2026-11-01",
+        "status": "LIVE"
+      }
+    ],
+    "road": [
+      {
         "name": "Ferraris at auction",
         "url": "https://bringatrailer.com/ferrari/",
         "marketplace": "Bring a Trailer",
+        "verified": "2026-11-01",
+        "last_check": "2026-11-01",
+        "status": "LIVE"
+      },
+      {
+        "name": "Modern classics for sale",
+        "url": "https://www.classiccar.com/",
+        "marketplace": "Classic Car",
         "verified": "2026-11-01",
         "last_check": "2026-11-01",
         "status": "LIVE"
@@ -146,6 +142,14 @@
         "verified": "2026-11-01",
         "last_check": "2026-11-01",
         "status": "LIVE"
+      },
+      {
+        "name": "Road cars listed",
+        "url": "https://www.carandclassic.com/",
+        "marketplace": "Car and Classic",
+        "verified": "2026-11-01",
+        "last_check": "2026-11-01",
+        "status": "WALL"
       }
     ],
     "estate": [
