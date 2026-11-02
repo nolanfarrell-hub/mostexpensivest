@@ -103,7 +103,7 @@ a{color:inherit}.top-rule{height:3px;background:var(--ink)}
 <script>
 (function(){
   function esc(s){var d=document.createElement("div");d.textContent=s==null?"":String(s);return d.innerHTML;}
-  fetch("media/sea_records.json").then(function(r){return r.json();}).then(function(recs){
+  fetch("media/sea_records.json",{cache:"no-store"}).then(function(r){return r.json();}).then(function(recs){
     var tb=document.getElementById("seaTable");
     recs.sort(function(a,b){return (b.feet||0)-(a.feet||0);});
     tb.innerHTML=recs.slice(0,10).map(function(r){
