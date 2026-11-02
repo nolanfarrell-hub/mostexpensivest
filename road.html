@@ -62,6 +62,26 @@ a{color:inherit}.top-rule{height:3px;background:var(--ink)}
 .dep-hero .dhcap p{font-family:'Cormorant Garamond',serif;font-style:italic;font-size:16px;color:#e9e2cf;margin-top:8px}
 @media(max-width:900px){.dep-hero .dhcap{left:26px;bottom:20px}}
 
+
+
+/* designed tile plates */
+.card{padding:0;border-right:1px solid var(--line);border-top:1px solid var(--line);display:block;background:var(--cream)}
+.card .mark{position:relative;height:186px;overflow:hidden;border-bottom:1px solid var(--line);background:radial-gradient(130% 150% at 18% 8%, #23261d 0%, #141910 48%, #233726 100%)}
+.card .mark svg{position:absolute;inset:0;margin:auto;width:74%;max-height:80%;height:auto}
+.card .plate{display:flex;align-items:baseline;gap:9px;padding:16px 20px 0;font-size:10px;letter-spacing:3px;text-transform:uppercase;color:var(--faint)}
+.card .plate .pnum{color:var(--verde-soft);font-weight:500}
+.card .txt{padding:12px 20px 22px}
+.card .txt h4{font-family:'Cormorant Garamond',serif;font-weight:600;font-size:22px;line-height:1.2;margin-bottom:6px}
+.card .txt .who{font-size:11px;letter-spacing:2px;text-transform:uppercase;color:var(--muted);margin-bottom:11px}
+.card .txt .what{font-size:13px;color:var(--ink2);line-height:1.55}
+.card .price{display:inline-block;margin-top:15px;font-family:'Cormorant Garamond',serif;font-size:18px;font-weight:500;color:var(--brass-dark);border-bottom:1px solid var(--brass-dark);padding-bottom:2px}
+.card:hover{background:var(--paper)}
+.card:hover .mark{filter:brightness(1.08)}
+.grid .card:nth-child(3n+3){border-right:none}
+.mark .mline{stroke:var(--brass);stroke-width:2;fill:none;stroke-linecap:round;stroke-linejoin:round}
+.mark .mgold{stroke:var(--gold);stroke-width:1.5;fill:none;stroke-linecap:round}
+.mark .mfill{stroke:var(--brass);stroke-width:2;fill:rgba(200,169,92,.07);stroke-linecap:round}
+
 </style>
 </head>
 <body>
@@ -80,15 +100,38 @@ a{color:inherit}.top-rule{height:3px;background:var(--ink)}
 </div>
 </div>
 <div class="dept">
-  <div class="grid">
-    <a class="card" href="https://bringatrailer.com/ferrari/" target="_blank" rel="noopener"><div class="txt"><h4>The New Grand Tourer</h4><div class="who">current · listed now</div><p class="what">Ferrari's first electric grand tourer set the record at $40 million — but the market you can walk into is Bring a Trailer, where Ferraris are listed and auctioned online all year.</p></div><span class="price">Ferraris listed now ↗</span></a>
-    <a class="card" href="https://www.classiccar.com/" target="_blank" rel="noopener"><div class="txt"><h4>The One-of-One</h4><div class="who">modern · the loud Italian art</div><p class="what">Contemporary art with a drivetrain — unique carbon, a single commission. Classic Car holds the classified listings for the great modern and historic Italian art, live.</p></div><span class="price">modern classics ↗</span></a>
-    <a class="card" href="https://www.dupontregistry.com/" target="_blank" rel="noopener"><div class="txt"><h4>The Ledger That Moves</h4><div class="who">1962 · the rarest of its kind</div><p class="what">The 250 GTO, 36 built, the value that keeps climbing. duPont Registry carries the classic and exotic market — the cars that appreciate every year you do not drive them.</p></div><span class="price">duPont · the classics ↗</span></a>
-    <a class="card" href="https://bringatrailer.com/" target="_blank" rel="noopener"><div class="txt"><h4>The Classic That Must Not Be Touched</h4><div class="who">1967 · the doors said enough</div><p class="what">The doors open upward so the paddock can applaud you without being asked. Bring a Trailer's full auction roll — the great survivors, watched, bid, proven.</p></div><span class="price">the live auction roll ↗</span></a>
-    <a class="card" href="https://www.carandclassic.com/" target="_blank" rel="noopener"><div class="txt"><h4>The Private Garage</h4><div class="who">the collection keeper · anywhere</div><p class="what">The room the collection deserves — and the market that sells the cars to fill it. Car and Classic lists the great road cars, auctioned and stalled, live.</p></div><span class="price">Car & Classic ↗</span></a>
-    <a class="card" href="mailto:me@mostexpensivest.com"><div class="txt"><h4>The Silent Convertible</h4><div class="who">modern · the argument in the back</div><p class="what">The motorcar whose engine is quiet enough that the conversation can continue uninterrupted, roof down at eighty. Whisper first; thunder never.</p></div><span class="price">placed on request</span></a>
+    <div class="grid">
+    <a class="card" href="https://bringatrailer.com/ferrari/" target="_blank" rel="noopener">
+      <div class="mark"><svg viewBox="0 0 180 120" aria-hidden="true"><g><path class="mfill" d="M28 58 C32 46 46 42 60 42 L76 42 C84 42 90 46 96 52 L122 52 C131 52 136 56 136 62 L136 66 L108 66 C104 72 94 72 90 66 L64 66 C60 72 50 72 46 66 L30 66 C28 66 27 63 28 58 Z"/><circle class="mline" cx="64" cy="70" r="6"/><circle class="mline" cx="102" cy="70" r="6"/><path class="mgold" d="M34 48 C40 44 48 42 56 42"/></g></svg></div>
+      <div class="plate"><span class="pnum">I</span><span>the grand tourer</span></div>
+      <div class="txt"><h4>The New Grand Tourer</h4><div class="who">current · listed now</div><p class="what">Ferrari’s first grand tourer set the record at $40 million; the market you can walk into is Bring a Trailer, where Ferraris are listed and auctioned all year.</p><span class="price">Ferraris listed now ↗</span></div>
+    </a>
+    <a class="card" href="https://www.classiccar.com/" target="_blank" rel="noopener">
+      <div class="mark"><svg viewBox="0 0 180 120" aria-hidden="true"><g><path class="mfill" d="M30 60 C34 48 46 44 58 44 L68 44 C76 44 82 48 88 54 L126 56 L126 60 L102 62 C104 70 92 72 86 66 L60 66 C56 72 46 72 42 66 L30 66 Z"/><circle class="mline" cx="62" cy="72" r="6"/><circle class="mline" cx="100" cy="72" r="6"/><path class="mline" d="M88 52 L104 52"/></g></svg></div>
+      <div class="plate"><span class="pnum">II</span><span>the one-of-one</span></div>
+      <div class="txt"><h4>The One-of-One</h4><div class="who">modern · the loud art</div><p class="what">Contemporary art with a drivetrain — a single commission, unique carbon. Classic Car holds the classifieds for the modern and historic Italian cars, live.</p><span class="price">modern classics ↗</span></div>
+    </a>
+    <a class="card" href="https://www.dupontregistry.com/" target="_blank" rel="noopener">
+      <div class="mark"><svg viewBox="0 0 180 120" aria-hidden="true"><g><path class="mfill" d="M26 60 C30 48 44 44 58 44 L84 44 L108 56 L128 56 C134 56 136 58 136 62 L136 64 L100 64 C100 72 90 74 86 66 L56 66 C52 72 42 72 38 66 L26 66 C24 66 25 62 26 60 Z"/><circle class="mline" cx="60" cy="72" r="6"/><circle class="mline" cx="100" cy="72" r="6"/><circle class="mfill" cx="46" cy="56" r="5"/></g></svg></div>
+      <div class="plate"><span class="pnum">III</span><span>the ledger that moves</span></div>
+      <div class="txt"><h4>The Ledger That Moves</h4><div class="who">1962 · the rarest</div><p class="what">The 250 GTO, 36 built, the value that keeps climbing. duPont Registry carries the classic and exotic market — the cars that appreciate every year you do not drive them.</p><span class="price">duPont · the classics ↗</span></div>
+    </a>
+    <a class="card" href="https://bringatrailer.com/" target="_blank" rel="noopener">
+      <div class="mark"><svg viewBox="0 0 180 120" aria-hidden="true"><g><path class="mfill" d="M30 62 C34 50 48 46 60 46 L78 46 L104 46 C112 46 118 50 122 56 L124 56 L124 64 L56 64 C52 70 44 70 40 66 L30 66 Z"/><path class="mgold" d="M78 46 L86 34 L104 40 L104 46"/><circle class="mline" cx="58" cy="70" r="6"/><circle class="mline" cx="100" cy="70" r="6"/></g></svg></div>
+      <div class="plate"><span class="pnum">IV</span><span>the classic untouched</span></div>
+      <div class="txt"><h4>The Classic That Must Not Be Touched</h4><div class="who">1967 · the doors said enough</div><p class="what">The doors open upward so the paddock can applaud you unasked. Bring a Trailer’s full auction roll — the great survivors, watched and bid.</p><span class="price">the live auction roll ↗</span></div>
+    </a>
+    <a class="card" href="https://www.carandclassic.com/" target="_blank" rel="noopener">
+      <div class="mark"><svg viewBox="0 0 180 120" aria-hidden="true"><g><rect class="mline" x="40" y="40" width="34" height="40" rx="2"/><rect class="mline" x="36" y="80" width="108" height="6" rx="1.5"/><path class="mline" d="M26 46 H40 M26 50 H40 M26 54 H40 M26 58 H40 M26 62 H40 M26 66 H40 M26 70 H40 M26 74 H40 M26 78 H40"/><rect class="mfill" x="46" y="48" width="14" height="10"/></g></svg></div>
+      <div class="plate"><span class="pnum">V</span><span>the private garage</span></div>
+      <div class="txt"><h4>The Private Garage</h4><div class="who">the collection keeper</div><p class="what">The room the collection deserves — and the market that sells the cars to fill it. Car and Classic lists the great road cars, live.</p><span class="price">Car & Classic ↗</span></div>
+    </a>
+    <a class="card" href="mailto:me@mostexpensivest.com" target="_blank" rel="noopener">
+      <div class="mark"><svg viewBox="0 0 180 120" aria-hidden="true"><g><path class="mfill" d="M28 58 C32 46 48 42 62 42 C74 42 80 46 86 52 C92 46 98 42 110 42 C124 42 130 46 132 54 L132 62 L100 62 C96 68 86 68 82 62 L54 62 C50 68 40 68 36 62 L28 62 Z"/><path class="mgold" d="M34 40 C44 34 56 32 66 32"/></g></svg></div>
+      <div class="plate"><span class="pnum">VI</span><span>the silent convertible</span></div>
+      <div class="txt"><h4>The Silent Convertible</h4><div class="who">modern · the argument in the back</div><p class="what">The motorcar whose engine is quiet enough that the conversation can carry on, roof down at eighty. Whisper first; thunder never.</p><span class="price">placed on request</span></div>
+    </a>
   </div>
-</div>
 
 <!-- ON THE ROAD : records -->
 <div class="records">

@@ -94,6 +94,26 @@ a{color:inherit}.top-rule{height:3px;background:var(--ink)}
 .rot .dots i.on{background:#c8a95c}
 @media(max-width:900px){.rot{height:60vw}.rot .copy{left:22px;right:22px;bottom:24px}.rot .dots{left:22px;right:auto;bottom:12px}}
 
+
+
+/* designed tile plates */
+.card{padding:0;border-right:1px solid var(--line);border-top:1px solid var(--line);display:block;background:var(--cream)}
+.card .mark{position:relative;height:186px;overflow:hidden;border-bottom:1px solid var(--line);background:radial-gradient(130% 150% at 18% 8%, #23261d 0%, #141910 48%, #233726 100%)}
+.card .mark svg{position:absolute;inset:0;margin:auto;width:74%;max-height:80%;height:auto}
+.card .plate{display:flex;align-items:baseline;gap:9px;padding:16px 20px 0;font-size:10px;letter-spacing:3px;text-transform:uppercase;color:var(--faint)}
+.card .plate .pnum{color:var(--verde-soft);font-weight:500}
+.card .txt{padding:12px 20px 22px}
+.card .txt h4{font-family:'Cormorant Garamond',serif;font-weight:600;font-size:22px;line-height:1.2;margin-bottom:6px}
+.card .txt .who{font-size:11px;letter-spacing:2px;text-transform:uppercase;color:var(--muted);margin-bottom:11px}
+.card .txt .what{font-size:13px;color:var(--ink2);line-height:1.55}
+.card .price{display:inline-block;margin-top:15px;font-family:'Cormorant Garamond',serif;font-size:18px;font-weight:500;color:var(--brass-dark);border-bottom:1px solid var(--brass-dark);padding-bottom:2px}
+.card:hover{background:var(--paper)}
+.card:hover .mark{filter:brightness(1.08)}
+.grid .card:nth-child(3n+3){border-right:none}
+.mark .mline{stroke:var(--brass);stroke-width:2;fill:none;stroke-linecap:round;stroke-linejoin:round}
+.mark .mgold{stroke:var(--gold);stroke-width:1.5;fill:none;stroke-linecap:round}
+.mark .mfill{stroke:var(--brass);stroke-width:2;fill:rgba(200,169,92,.07);stroke-linecap:round}
+
 </style>
 </head>
 <body>
@@ -139,13 +159,37 @@ a{color:inherit}.top-rule{height:3px;background:var(--ink)}
 <div class="attrib2">Sale records sourced from <a href="https://en.wikipedia.org/wiki/List_of_most_expensive_paintings" target="_blank" rel="noopener">Wikipedia: List of most expensive paintings</a>. Figures are the original sale price in USD; provenance is the longer story.</div>
 
 <div class="dept">
-  <div class="grid">
-    <div class="card"><h4>The Self-Portrait, Again</h4><div class="who">Rembrandt · 1659</div><p class="what">A man who had lost everything painted himself at his most unmoved. The market's favourite proof that the life does not touch the work, and the detail the auction house photographs first.</p><span class="price">national collections only</span></div>
-    <div class="card"><h4>The Eight-Figure Canvas</h4><div class="who">modern records · the ceiling moves</div><p class="what">Once a nine-figure modern painting was the story; now the records sit with blue-chip impressionism and the twentieth century's quietest names. The ceiling keeps moving; the works do not.</p><span class="price">world market</span></div>
-    <div class="card"><h4>Provenance Is the Painting</h4><div class="who">the chain that cannot be broken</div><p class="what">The same canvas is worth a tenth as much if the chain of ownership has a gap. Provenance is the riskless part of price, and the reason the quiet collections compound.</p><span class="price">by provenance</span></div>
-    <div class="card"><h4>The Dealer's Room</h4><div class="who">private treaty · by appointment</div><p class="what">The best works never reach an auction. They move between three or four people who know each other's names, over a bottle that settles it, and the market reads about them years later.</p><span class="price">by introduction</span></div>
-    <div class="card"><h4>New Blood, Old Money</h4><div class="who">blue-chip &amp; the emerging door</div><p class="what">Twenty years of blue-chip is not a fashion; it is a discipline. The emerging names supply the excitement; the blue-chip supplies the floor. A balance the careful collections keep.</p><span class="price">curated</span></div>
-    <div class="card"><h4>Hanging by Invitation</h4><div class="who">the private view, never advertised</div><p class="what">The shows worth attending hold forty people and sell out before the invitation is printed. ME can place you at two or three of them a season, in whatever city you land.</p><span class="price">by appointment</span></div>
+    <div class="grid">
+    <div class="card">
+      <div class="mark"><svg viewBox="0 0 180 120" aria-hidden="true"><g><rect class="mline" x="52" y="28" width="76" height="64" rx="2"/><path class="mfill" d="M62 92 V58 C62 44 98 44 98 58 V92 Z"/><path class="mgold" d="M56 22 H124 M56 22 L52 28 M124 22 L128 28"/></g></svg></div>
+      <div class="plate"><span class="pnum">I</span><span>the self-portrait</span></div>
+      <div class="txt"><h4>The Self-Portrait, Again</h4><div class="who">Rembrandt · 1659</div><p class="what">A man who had lost everything painted himself at his most unmoved. The market’s favourite proof that the life does not touch the work.</p><span class="price">national collections only</span></div>
+    </div>
+    <div class="card">
+      <div class="mark"><svg viewBox="0 0 180 120" aria-hidden="true"><g><path class="mfill" d="M60 90 L74 46 L84 46 L76 90 Z"/><path class="mfill" d="M94 90 L108 42 L118 42 L110 90 Z"/><path class="mline" d="M54 90 L126 90"/><path class="mgold" d="M64 52 L112 48 M70 56 L112 52 M76 60 L112 56"/></g></svg></div>
+      <div class="plate"><span class="pnum">II</span><span>the canvas</span></div>
+      <div class="txt"><h4>The Eight-Figure Canvas</h4><div class="who">modern records · the ceiling moves</div><p class="what">Once a nine-figure modern painting was the story; now the records sit with blue-chip impressionism and the twentieth century’s quietest names. The ceiling keeps moving; the works do not.</p><span class="price">world market</span></div>
+    </div>
+    <div class="card">
+      <div class="mark"><svg viewBox="0 0 180 120" aria-hidden="true"><g><path class="mline" d="M50 46 H52 M52 40 L60 40 M52 46 L52 40 M60 40 L88 40 M78 46 L88 46 M88 46 L88 40 M94 40 L122 40 M110 46 L122 46 M122 46 L122 40"/><circle class="mline" cx="52" cy="40" r="5"/><circle class="mgold" cx="88" cy="40" r="5"/><circle class="mline" cx="122" cy="40" r="5"/><path class="mfill" d="M52 40 L88 40 L88 46 L52 46 Z"/><path class="mfill" d="M88 40 L122 40 L122 46 L88 46 Z"/><path class="mline" d="M50 92 H90 M60 60 H90"/></g></svg></div>
+      <div class="plate"><span class="pnum">III</span><span>the chain</span></div>
+      <div class="txt"><h4>Provenance Is the Painting</h4><div class="who">the chain that cannot be broken</div><p class="what">The same canvas is worth a tenth as much if the chain of ownership has a gap. Provenance is the riskless part of price, and why the quiet collections compound.</p><span class="price">by provenance</span></div>
+    </div>
+    <div class="card">
+      <div class="mark"><svg viewBox="0 0 180 120" aria-hidden="true"><g><rect class="mline" x="56" y="34" width="88" height="58" rx="2"/><rect class="mline" x="62" y="40" width="40" height="52" rx="1.5" transform="rotate(-8 82 66)"/><circle class="mline" cx="84" cy="66" r="3"/><path class="mgold" d="M112 40 V92 M110 40 H116 M110 60 H116"/></g></svg></div>
+      <div class="plate"><span class="pnum">IV</span><span>the dealer’s room</span></div>
+      <div class="txt"><h4>The Dealer’s Room</h4><div class="who">private treaty · by appointment</div><p class="what">The best works never reach an auction. They move between three or four people who know each other’s names, over a bottle that settles it.</p><span class="price">by introduction</span></div>
+    </div>
+    <div class="card">
+      <div class="mark"><svg viewBox="0 0 180 120" aria-hidden="true"><g><path class="mline" d="M50 40 L74 40 L74 92 L50 92 Z M50 40 L84 30 L88 40 M84 30 V92 M74 92 H84 M74 40 H84"/><path class="mfill" d="M62 56 H66 M62 70 H66"/></g></svg></div>
+      <div class="plate"><span class="pnum">V</span><span>new blood</span></div>
+      <div class="txt"><h4>New Blood, Old Money</h4><div class="who">blue-chip & the emerging door</div><p class="what">Twenty years of blue-chip is not a fashion; it is a discipline. The emerging names supply the excitement; the blue-chip supplies the floor.</p><span class="price">curated</span></div>
+    </div>
+    <div class="card">
+      <div class="mark"><svg viewBox="0 0 180 120" aria-hidden="true"><g><rect class="mline" x="44" y="44" width="92" height="52" rx="3"/><path class="mline" d="M44 56 H136 M50 50 L86 64"/><path class="mgold" d="M56 78 H100 M56 72 V78 M100 72 V78"/></g></svg></div>
+      <div class="plate"><span class="pnum">VI</span><span>by invitation</span></div>
+      <div class="txt"><h4>Hanging by Invitation</h4><div class="who">the private view, never advertised</div><p class="what">The shows worth attending hold forty people and sell out before the invitation is printed. ME can place you at two or three a season, in any city you land.</p><span class="price">by appointment</span></div>
+    </div>
   </div>
 </div>
 

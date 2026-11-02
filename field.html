@@ -60,6 +60,26 @@ a{color:inherit}.top-rule{height:3px;background:var(--ink)}
 .dep-hero .dhcap h2{font-family:'Cormorant Garamond',serif;font-weight:500;font-size:clamp(30px,4.4vw,50px);line-height:1.05;color:#fff}
 .dep-hero .dhcap p{font-family:'Cormorant Garamond',serif;font-style:italic;font-size:16px;color:#e6ead9;margin-top:8px}
 @media(max-width:900px){.dep-hero .dhcap{left:26px;bottom:20px}}
+
+
+/* designed tile plates */
+.card{padding:0;border-right:1px solid var(--line);border-top:1px solid var(--line);display:block;background:var(--cream)}
+.card .mark{position:relative;height:186px;overflow:hidden;border-bottom:1px solid var(--line);background:radial-gradient(130% 150% at 18% 8%, #23261d 0%, #141910 48%, #233726 100%)}
+.card .mark svg{position:absolute;inset:0;margin:auto;width:74%;max-height:80%;height:auto}
+.card .plate{display:flex;align-items:baseline;gap:9px;padding:16px 20px 0;font-size:10px;letter-spacing:3px;text-transform:uppercase;color:var(--faint)}
+.card .plate .pnum{color:var(--verde-soft);font-weight:500}
+.card .txt{padding:12px 20px 22px}
+.card .txt h4{font-family:'Cormorant Garamond',serif;font-weight:600;font-size:22px;line-height:1.2;margin-bottom:6px}
+.card .txt .who{font-size:11px;letter-spacing:2px;text-transform:uppercase;color:var(--muted);margin-bottom:11px}
+.card .txt .what{font-size:13px;color:var(--ink2);line-height:1.55}
+.card .price{display:inline-block;margin-top:15px;font-family:'Cormorant Garamond',serif;font-size:18px;font-weight:500;color:var(--brass-dark);border-bottom:1px solid var(--brass-dark);padding-bottom:2px}
+.card:hover{background:var(--paper)}
+.card:hover .mark{filter:brightness(1.08)}
+.grid .card:nth-child(3n+3){border-right:none}
+.mark .mline{stroke:var(--brass);stroke-width:2;fill:none;stroke-linecap:round;stroke-linejoin:round}
+.mark .mgold{stroke:var(--gold);stroke-width:1.5;fill:none;stroke-linecap:round}
+.mark .mfill{stroke:var(--brass);stroke-width:2;fill:rgba(200,169,92,.07);stroke-linecap:round}
+
 </style>
 </head>
 <body>
@@ -78,15 +98,38 @@ a{color:inherit}.top-rule{height:3px;background:var(--ink)}
 </div>
 </div>
 <div class="dept">
-  <div class="grid">
-    <a class="card" href="https://www.gunsinternational.com/guns-for-sale-online/shotguns.cfm" target="_blank" rel="noopener"><div class="txt"><h4>The Side-by-Side, Fitted</h4><div class="who">bespoke · listed now</div><p class="what">The hand-built gun is the quietest argument ever made in steel. Whatever you're after — a Purdey, a Holland, a best-drilled gun — it is being listed somewhere today. Start from the live market.</p></div><span class="price">shotguns listed now ↗</span></a>
-    <a class="card" href="https://www.hollandandholland.com/" target="_blank" rel="noopener"><div class="txt"><h4>The Sporting Gun, Commissioned</h4><div class="who">London · the house on Bruton Street</div><p class="what">Holland &amp; Holland has perfected the art of shooting since 1835 — guns, ground, and tuition from the house itself. For a best gun built to your name, go to the maker, not the middleman.</p></div><span class="price">Holland &amp; Holland ↗</span></a>
-    <a class="card" href="https://www.purdey.com/" target="_blank" rel="noopener"><div class="txt"><h4>The Maker's Own Door</h4><div class="who">London · commission direct</div><p class="what">The house that has fitted royalty for 200 years will build to your measure — and its own stock and seasons open off the shop. Buy from the maker, not the middleman.</p></div><span class="price">Purdey · buy direct ↗</span></a>
-    <a class="card" href="https://williampowellsporting.co.uk/driven-grouse-shooting/" target="_blank" rel="noopener"><div class="txt"><h4>The Driven Grouse, Highlands</h4><div class="who">Scotland · the moors, by the day</div><p class="what">A line of guns on the moor at dawn, dogs holding the line, and a hundred-brace day that is arranged, not walked into. William Powell — the leading grouse-shooting agents — hold the moors and the days, bookable now.</p></div><span class="price">book a grouse day ↗</span></a>
-    <a class="card" href="https://www.thebespokeguncabinetcompany.co.uk/" target="_blank" rel="noopener"><div class="txt"><h4>The Estate's Gun Room</h4><div class="who">custom-built · the lodge fit-out</div><p class="what">A proper gun room — climate-perfect, alarmed, vault-doored — is built to order, not bought. The Bespoke Gun Cabinet Company creates the rooms that hold a collection properly.</p></div><span class="price">commission the room ↗</span></a>
-    <a class="card" href="https://www.orvis.com/sandanona-shooting-grounds.html" target="_blank" rel="noopener"><div class="txt"><h4>The American Grounds</h4><div class="who">Millbrook, New York · bookable</div><p class="what">Orvis's own Sandanona Shooting Grounds — wingshooting schools, two sporting-clays courses, five-stand and wobble trap, all on the flagship American ground. Tuition by reservation, run by the house itself.</p></div><span class="price">book the American school ↗</span></a>
+    <div class="grid">
+    <a class="card" href="https://www.gunsinternational.com/guns-for-sale-online/shotguns.cfm" target="_blank" rel="noopener">
+      <div class="mark"><svg viewBox="0 0 180 120" aria-hidden="true"><g><path class="mline" d="M40 62 C56 54 108 50 116 40 L138 38 M44 70 C62 62 110 60 122 46 L138 44"/><path class="mline" d="M52 66 L90 66"/><path class="mfill" d="M96 58 L116 58 L120 84 L92 84 Z"/><path class="mgold" d="M100 58 V62 M108 58 V62 M116 58 V62"/></g></svg></div>
+      <div class="plate"><span class="pnum">I</span><span>the side-by-side</span></div>
+      <div class="txt"><h4>The Side-by-Side, Fitted</h4><div class="who">bespoke · listed now</div><p class="what">The hand-built gun is the quietest argument in steel. Whatever you’re after — a Purdey, a Holland, a best gun — it is listed somewhere today. Start from the live market.</p><span class="price">shotguns listed now ↗</span></div>
+    </a>
+    <a class="card" href="https://www.hollandandholland.com/" target="_blank" rel="noopener">
+      <div class="mark"><svg viewBox="0 0 180 120" aria-hidden="true"><g><path class="mline" d="M52 44 L82 44 L82 76 M46 44 H122"/><path class="mline" d="M108 44 L108 76 L120 62 L132 52"/><rect class="mline" x="56" y="48" width="18" height="10"/></g></svg></div>
+      <div class="plate"><span class="pnum">II</span><span>the sporting gun</span></div>
+      <div class="txt"><h4>The Sporting Gun, Commissioned</h4><div class="who">London · the house on Bruton Street</div><p class="what">Holland & Holland has perfected the art of shooting since 1835 — guns, ground and tuition from the house itself. For a best gun built to your name, go to the maker.</p><span class="price">Holland & Holland ↗</span></div>
+    </a>
+    <a class="card" href="https://www.purdey.com/" target="_blank" rel="noopener">
+      <div class="mark"><svg viewBox="0 0 180 120" aria-hidden="true"><g><rect class="mline" x="52" y="34" width="76" height="58" rx="2"/><path class="mline" d="M52 46 H128"/><path class="mfill" d="M60 54 H120 V84 H60 Z"/><path class="mline" d="M72 34 V26 M108 34 V26 M64 26 H116"/></g></svg></div>
+      <div class="plate"><span class="pnum">III</span><span>the maker’s door</span></div>
+      <div class="txt"><h4>The Maker’s Own Door</h4><div class="who">London · commission direct</div><p class="what">The house that has fitted royalty for 200 years will build to your measure — its own stock and seasons open off the shop. Buy from the maker, not the middleman.</p><span class="price">Purdey · buy direct ↗</span></div>
+    </a>
+    <a class="card" href="https://williampowellsporting.co.uk/driven-grouse-shooting/" target="_blank" rel="noopener">
+      <div class="mark"><svg viewBox="0 0 180 120" aria-hidden="true"><g><path class="mline" d="M40 34 C70 24 96 34 120 26"/><path class="mline" d="M56 40 L86 40 L80 70 L62 70 Z"/><path class="mgold" d="M140 40 L136 32 M146 46 L142 40"/><path class="mline" d="M40 78 H140 M48 74 L42 78 M132 74 L138 78"/></g></svg></div>
+      <div class="plate"><span class="pnum">IV</span><span>the grouse moor</span></div>
+      <div class="txt"><h4>The Driven Grouse, Highlands</h4><div class="who">Scotland · the moors, by the day</div><p class="what">A line of guns on the moor at dawn, dogs holding the line, a hundred-brace day arranged not walked into. William Powell holds the moors and the days, bookable now.</p><span class="price">book a grouse day ↗</span></div>
+    </a>
+    <a class="card" href="https://www.thebespokeguncabinetcompany.co.uk/" target="_blank" rel="noopener">
+      <div class="mark"><svg viewBox="0 0 180 120" aria-hidden="true"><g><rect class="mline" x="48" y="36" width="84" height="20" rx="2"/><rect class="mline" x="52" y="56" width="76" height="36" rx="2"/><path class="mline" d="M60 56 V92 M76 56 V92 M92 56 V92 M108 56 V92"/><path class="mgold" d="M62 30 H118 M62 28 L62 36 M118 28 L118 36"/></g></svg></div>
+      <div class="plate"><span class="pnum">V</span><span>the gun room</span></div>
+      <div class="txt"><h4>The Estate’s Gun Room</h4><div class="who">custom-built · the lodge fit-out</div><p class="what">A proper gun room — climate-perfect, alarmed, vault-doored — is built to order, not bought. The Bespoke Gun Cabinet Company creates the rooms that hold a collection properly.</p><span class="price">commission the room ↗</span></div>
+    </a>
+    <a class="card" href="https://www.orvis.com/sandanona-shooting-grounds.html" target="_blank" rel="noopener">
+      <div class="mark"><svg viewBox="0 0 180 120" aria-hidden="true"><g><circle class="mline" cx="70" cy="62" r="22"/><path class="mline" d="M70 40 V34 M70 84 V90 M48 62 H42 M92 62 H98 M54 46 L50 42 M86 78 L90 82"/><circle class="mline" cx="122" cy="62" r="14"/><path class="mgold" d="M122 52 V48 M122 72 V76"/></g></svg></div>
+      <div class="plate"><span class="pnum">VI</span><span>the american grounds</span></div>
+      <div class="txt"><h4>The American Grounds</h4><div class="who">Millbrook, New York · bookable</div><p class="what">Orvis’s own Sandanona grounds — wingshooting schools, two sporting-clays courses, five-stand and wobble trap. Tuition by reservation, run by the house itself.</p><span class="price">book the American school ↗</span></div>
+    </a>
   </div>
-</div>
 
 <!-- THE FIELD AT ITS PRICES -->
 <div class="records">

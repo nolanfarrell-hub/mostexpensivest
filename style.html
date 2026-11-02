@@ -61,6 +61,26 @@ a{color:inherit}.top-rule{height:3px;background:var(--ink)}
 .dep-hero .dhcap p{font-family:'Cormorant Garamond',serif;font-style:italic;font-size:16px;color:#e9e2cf;margin-top:8px}
 @media(max-width:900px){.dep-hero .dhcap{left:26px;bottom:20px}}
 
+
+
+/* designed tile plates */
+.card{padding:0;border-right:1px solid var(--line);border-top:1px solid var(--line);display:block;background:var(--cream)}
+.card .mark{position:relative;height:186px;overflow:hidden;border-bottom:1px solid var(--line);background:radial-gradient(130% 150% at 18% 8%, #23261d 0%, #141910 48%, #233726 100%)}
+.card .mark svg{position:absolute;inset:0;margin:auto;width:74%;max-height:80%;height:auto}
+.card .plate{display:flex;align-items:baseline;gap:9px;padding:16px 20px 0;font-size:10px;letter-spacing:3px;text-transform:uppercase;color:var(--faint)}
+.card .plate .pnum{color:var(--verde-soft);font-weight:500}
+.card .txt{padding:12px 20px 22px}
+.card .txt h4{font-family:'Cormorant Garamond',serif;font-weight:600;font-size:22px;line-height:1.2;margin-bottom:6px}
+.card .txt .who{font-size:11px;letter-spacing:2px;text-transform:uppercase;color:var(--muted);margin-bottom:11px}
+.card .txt .what{font-size:13px;color:var(--ink2);line-height:1.55}
+.card .price{display:inline-block;margin-top:15px;font-family:'Cormorant Garamond',serif;font-size:18px;font-weight:500;color:var(--brass-dark);border-bottom:1px solid var(--brass-dark);padding-bottom:2px}
+.card:hover{background:var(--paper)}
+.card:hover .mark{filter:brightness(1.08)}
+.grid .card:nth-child(3n+3){border-right:none}
+.mark .mline{stroke:var(--brass);stroke-width:2;fill:none;stroke-linecap:round;stroke-linejoin:round}
+.mark .mgold{stroke:var(--gold);stroke-width:1.5;fill:none;stroke-linecap:round}
+.mark .mfill{stroke:var(--brass);stroke-width:2;fill:rgba(200,169,92,.07);stroke-linecap:round}
+
 </style>
 </head>
 <body>
@@ -79,20 +99,38 @@ a{color:inherit}.top-rule{height:3px;background:var(--ink)}
 </div>
 </div>
 <div class="dept">
-  <div class="grid">
-    <a class="card" href="https://www.graff.com/" target="_blank" rel="noopener"><div class="txt"><h4>The Atelier Jewel</h4><div class="who">one stone · set by hand</div><p class="what">A single stone chosen for the person, set by hand — and for the rare stones, Graff is where they are cut and finished, with the finest diamonds in the world passing through the atelier.</p></div><span class="price">Graff · the rarest stones ↗</span></a>
-    <a class="card" href="https://madisonavenuecouture.com/collections/hermes" target="_blank" rel="noopener"><div class="txt"><h4>The Leather Portage</h4><div class="who">one hide, one bag · by specialist</div><p class="what">Jane Birkin's original sold for $10.1 million — but the Birkin you can actually buy today is held by specialists. Madison Avenue Couture carries in-stock Hermès, from the classic Birkin to the rarest Himalaya, authenticated.</p></div><span class="price">Birkin specialists ↗</span></a>
-    <a class="card" href="https://www.creedfragrance.com/" target="_blank" rel="noopener"><div class="txt"><h4>Perfume & the Composed</h4><div class="who">a scent that outlives the trend</div><p class="what">A fragrance composed for one person is a private commission — but the great niche houses bottle the equivalent. Creed has blended for kings and presidents since 1760, and their bottles are bought today.</p></div><span class="price">Creed · since 1760 ↗</span></a>
-    <a class="card" href="https://www.huntsmansavilerow.com/pages/bespoke-tailoring" target="_blank" rel="noopener"><div class="txt"><h4>The Bespoke Suit, Her Fit</h4><div class="who">Savile Row · measured twice</div><p class="what">Three fittings spread over eleven weeks, cut to drape like a rumour. Huntsman has cut on Savile Row since 1849 — and you book the appointment directly.</p></div><span class="price">book a fitting ↗</span></a>
-    <a class="card" href="https://us.loropiana.com/en/c/man" target="_blank" rel="noopener"><div class="txt"><h4>The Everyday, Raised</h4><div class="who">a wardrobe that outlives trends</div><p class="what">Not one statement piece but a hundred quiet correct ones — cashmere, the pole, the coat that ages well. Loro Piana makes the wardrobe that never announces itself.</p></div><span class="price">Loro Piana ↗</span></a>
-    <a class="card" href="https://kiton.com/collections/men" target="_blank" rel="noopener"><div class="txt"><h4>The Atelier Inside</h4><div class="who">Naples · made-to-measure</div><p class="what">The atelier behind the showroom that makes one commission at a time. Kiton hand-cuts its tailoring in Naples from the world's finest fabrics — the quiet core of Neapolitan craft.</p></div><span class="price">Kiton · Naples atelier ↗</span></a>
+    <div class="grid">
+    <a class="card" href="https://www.graff.com/" target="_blank" rel="noopener">
+      <div class="mark"><svg viewBox="0 0 180 120" aria-hidden="true"><g><path class="mline" d="M86 38 L96 22 L74 42 L72 40 L64 24 L58 30 L66 44 L60 56 L84 52 Z" transform="rotate(-18 80 42)"/><path class="mgold" d="M96 22 L104 14 M108 20 L116 12"/></g></svg></div>
+      <div class="plate"><span class="pnum">I</span><span>the atelier jewel</span></div>
+      <div class="txt"><h4>The Atelier Jewel</h4><div class="who">one stone · set by hand</div><p class="what">A single stone chosen for the person, set by hand — and for the rare stones, Graff is where they are cut and finished, the finest diamonds passing through the atelier.</p><span class="price">Graff · the rarest stones ↗</span></div>
+    </a>
+    <a class="card" href="https://madisonavenuecouture.com/collections/hermes" target="_blank" rel="noopener">
+      <div class="mark"><svg viewBox="0 0 180 120" aria-hidden="true"><g><path class="mfill" d="M56 46 H106 L110 78 C110 82 100 86 81 86 C62 86 52 82 52 78 Z"/><path class="mline" d="M56 46 H106 M62 30 H100 C104 30 106 32 106 36 L106 46 H56 Z"/><path class="mgold" d="M66 50 V74 M74 50 V74 M82 50 V74 M90 50 V74 M98 50 V74"/></g></svg></div>
+      <div class="plate"><span class="pnum">II</span><span>the leather portage</span></div>
+      <div class="txt"><h4>The Leather Portage</h4><div class="who">one hide, one bag · by specialist</div><p class="what">Birkin’s original sold for $10.1 million — but the Birkin you can buy today is held by specialists. Madison Avenue Couture carries in-stock Hermès, from classic to the rarest Himalaya.</p><span class="price">Birkin specialists ↗</span></div>
+    </a>
+    <a class="card" href="https://www.creedfragrance.com/" target="_blank" rel="noopener">
+      <div class="mark"><svg viewBox="0 0 180 120" aria-hidden="true"><g><path class="mfill" d="M72 40 L108 40 L96 96 L84 96 Z"/><path class="mline" d="M72 40 H108 M104 40 L104 30 C104 27 108 27 108 30 L108 40 M74 30 L74 40"/><path class="mline" d="M88 56 V82"/><rect class="mline" x="46" y="56" width="18" height="34" rx="8"/><path class="mgold" d="M55 62 C52 68 58 68 55 74"/></g></svg></div>
+      <div class="plate"><span class="pnum">III</span><span>perfume & composition</span></div>
+      <div class="txt"><h4>Perfume & the Composed</h4><div class="who">a scent that outlives the trend</div><p class="what">A fragrance composed for one person is a private commission — but the great niche houses bottle the equivalent. Creed has blended for kings and presidents since 1760.</p><span class="price">Creed · since 1760 ↗</span></div>
+    </a>
+    <a class="card" href="https://www.huntsmansavilerow.com/pages/bespoke-tailoring" target="_blank" rel="noopener">
+      <div class="mark"><svg viewBox="0 0 180 120" aria-hidden="true"><g><path class="mline" d="M54 34 L122 34 L116 62 L122 92 L56 92 L62 62 C60 52 58 42 54 34 Z"/><path class="mline" d="M58 40 H120 M60 46 L94 46 M60 52 L94 52"/><path class="mline" d="M40 34 L54 34 M48 28 L54 34"/></g></svg></div>
+      <div class="plate"><span class="pnum">IV</span><span>the bespoke suit</span></div>
+      <div class="txt"><h4>The Bespoke Suit, Her Fit</h4><div class="who">Savile Row · measured twice</div><p class="what">Three fittings across eleven weeks, cut to drape like a rumour. Huntsman has cut on Savile Row since 1849 — and you book the appointment directly.</p><span class="price">book a fitting ↗</span></div>
+    </a>
+    <a class="card" href="https://us.loropiana.com/en/c/man" target="_blank" rel="noopener">
+      <div class="mark"><svg viewBox="0 0 180 120" aria-hidden="true"><g><path class="mline" d="M44 40 H136 M44 48 L136 48 M44 56 L136 56 M44 64 L136 64"/><path class="mline" d="M56 40 V26 M120 40 V26 M56 26 H120 M88 40 V66 M56 66 H120 M88 66 V74 M64 74 H112"/></g></svg></div>
+      <div class="plate"><span class="pnum">V</span><span>the everyday, raised</span></div>
+      <div class="txt"><h4>The Everyday, Raised</h4><div class="who">a wardrobe that outlives trends</div><p class="what">Not one statement piece but a hundred quiet correct ones — cashmere, the polo, the coat that ages well. Loro Piana makes the wardrobe that never announces itself.</p><span class="price">Loro Piana ↗</span></div>
+    </a>
+    <a class="card" href="https://kiton.com/collections/men" target="_blank" rel="noopener">
+      <div class="mark"><svg viewBox="0 0 180 120" aria-hidden="true"><g><rect class="mline" x="52" y="34" width="76" height="58" rx="2"/><path class="mline" d="M52 46 H128"/><path class="mline" d="M96 46 L96 62 L78 62 L78 46"/><path class="mgold" d="M90 58 V46 M84 54 L96 54"/></g></svg></div>
+      <div class="plate"><span class="pnum">VI</span><span>the atelier inside</span></div>
+      <div class="txt"><h4>The Atelier Inside</h4><div class="who">Naples · made-to-measure</div><p class="what">The atelier behind the showroom makes one commission at a time. Kiton hand-cuts its tailoring in Naples from the world’s finest fabrics — the quiet core of the craft.</p><span class="price">Kiton · Naples atelier ↗</span></div>
+    </a>
   </div>
-  <div class="craft" style="margin-top:36px;border:1px solid var(--line)">
-    <img src="media/img/suit.jpg" alt="A suit in basted fitting at the atelier" style="width:100%;height:400px;object-fit:cover;display:block"/>
-    <div class="craft-caption" style="padding:24px 28px;background:var(--paper)">
-      <div style="font-size:10.5px;letter-spacing:2.5px;text-transform:uppercase;color:var(--brass-dark);margin-bottom:8px">The Process</div>
-      <div style="font-family:'Cormorant Garamond',serif;font-style:italic;font-size:20px;color:var(--ink2);max-width:800px">The basted fitting — cut for one client, held together in white tacking thread until the drape is right, then sewn in silk. This is what bespoke actually is.</div>
-    </div>
   </div>
 </div>
 

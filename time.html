@@ -102,6 +102,26 @@ a.rrow:hover{background:var(--paper2)}
 .dep-hero .dhcap p{font-family:'Cormorant Garamond',serif;font-style:italic;font-size:16px;color:#e9e2cf;margin-top:8px}
 @media(max-width:900px){.dep-hero .dhcap{left:26px;bottom:20px}}
 
+
+
+/* designed tile plates */
+.card{padding:0;border-right:1px solid var(--line);border-top:1px solid var(--line);display:block;background:var(--cream)}
+.card .mark{position:relative;height:186px;overflow:hidden;border-bottom:1px solid var(--line);background:radial-gradient(130% 150% at 18% 8%, #23261d 0%, #141910 48%, #233726 100%)}
+.card .mark svg{position:absolute;inset:0;margin:auto;width:74%;max-height:80%;height:auto}
+.card .plate{display:flex;align-items:baseline;gap:9px;padding:16px 20px 0;font-size:10px;letter-spacing:3px;text-transform:uppercase;color:var(--faint)}
+.card .plate .pnum{color:var(--verde-soft);font-weight:500}
+.card .txt{padding:12px 20px 22px}
+.card .txt h4{font-family:'Cormorant Garamond',serif;font-weight:600;font-size:22px;line-height:1.2;margin-bottom:6px}
+.card .txt .who{font-size:11px;letter-spacing:2px;text-transform:uppercase;color:var(--muted);margin-bottom:11px}
+.card .txt .what{font-size:13px;color:var(--ink2);line-height:1.55}
+.card .price{display:inline-block;margin-top:15px;font-family:'Cormorant Garamond',serif;font-size:18px;font-weight:500;color:var(--brass-dark);border-bottom:1px solid var(--brass-dark);padding-bottom:2px}
+.card:hover{background:var(--paper)}
+.card:hover .mark{filter:brightness(1.08)}
+.grid .card:nth-child(3n+3){border-right:none}
+.mark .mline{stroke:var(--brass);stroke-width:2;fill:none;stroke-linecap:round;stroke-linejoin:round}
+.mark .mgold{stroke:var(--gold);stroke-width:1.5;fill:none;stroke-linecap:round}
+.mark .mfill{stroke:var(--brass);stroke-width:2;fill:rgba(200,169,92,.07);stroke-linecap:round}
+
 </style>
 </head>
 <body>
@@ -122,13 +142,37 @@ a.rrow:hover{background:var(--paper2)}
   </div>
 </div>
 <div class="dept">
-  <div class="grid">
-    <div class="card"><h4>The Dressed-Only Dial</h4><div class="who">Geneva · the quiet complication</div><p class="what">A hand-wound dress watch with no numerals, no seconds, and a dial that only shows its true colour in direct light. Worn once a year, remembered the other 364.</p><span class="price">indicated on request</span></div>
-    <div class="card"><h4>The Steel That Isn't</h4><div class="who">Geneva · an icon of understatement</div><p class="what">Sports steel that reads as a dress piece, trusted not for what it says but for whose wrist it has been on. The room checks itself.</p><span class="price">waitlist, quietly</span></div>
-    <div class="card"><h4>The German Vault</h4><div class="who">Glashütte · the mechanical cathedral</div><p class="what">Perpetual calendar, chronograph, moon phase — finished only in the morning light of a Saxon town. Time, rebuilt the slow way.</p><span class="price">on request</span></div>
-    <div class="card"><h4>The Original Pilot</h4><div class="who">Paris · since 1904</div><p class="what">The first watch built to be worn in the air, square and gold, worn by the man who taught the world to fly. The founding dial of modern horology.</p><span class="price">indicated on request</span></div>
-    <div class="card"><h4>The Polite Denial</h4><div class="who">Vallée de Joux · the flip</div><p class="what">Built to survive a polo mallet, flipped to hide a second face. The only watch that doubles as a courteous, mechanical refusal.</p><span class="price">indicated on request</span></div>
-    <div class="card"><h4>The Bench, One Man</h4><div class="who">Tokyo · independent horology</div><p class="what">A watch assembled entirely by a single maker on a single bench, no two alike. The most expensivest thing in the room is the patience.</p><span class="price">truly on request</span></div>
+    <div class="grid">
+    <div class="card">
+      <div class="mark"><svg viewBox="0 0 180 120" aria-hidden="true"><g><circle class="mline" cx="90" cy="60" r="34"/><path class="mline" d="M90 60 V40 M90 60 L106 70"/></g></svg></div>
+      <div class="plate"><span class="pnum">I</span><span>the dressed dial</span></div>
+      <div class="txt"><h4>The Dressed-Only Dial</h4><div class="who">Geneva · the quiet complication</div><p class="what">A hand-wound dress watch with no numerals, no seconds, a dial that only shows its true colour in direct light. Worn once a year; remembered the other 364.</p><span class="price">indicated on request</span></div>
+    </div>
+    <div class="card">
+      <div class="mark"><svg viewBox="0 0 180 120" aria-hidden="true"><g><circle class="mline" cx="78" cy="60" r="30"/><path class="mline" d="M48 58 H36 M48 62 H36 M96 62 H108 M96 58 H108 M48 52 H36 M108 52 H120 M48 68 H36 M108 68 H120"/><path class="mline" d="M78 60 V40 M78 60 L92 72"/></g></svg></div>
+      <div class="plate"><span class="pnum">II</span><span>the steel that isn’t</span></div>
+      <div class="txt"><h4>The Steel That Isn’t</h4><div class="who">Geneva · an icon of understatement</div><p class="what">Sports steel that reads as a dress piece, trusted not for what it says but for whose wrist it has been on. The room checks itself.</p><span class="price">waitlist, quietly</span></div>
+    </div>
+    <div class="card">
+      <div class="mark"><svg viewBox="0 0 180 120" aria-hidden="true"><g><path class="mline" d="M52 92 V42 C52 24 88 24 88 42 V92 M88 42 H126 V92"/><circle class="mline" cx="80" cy="52" r="9"/><path class="mline" d="M80 52 L84 56 M70 92 H104 M74 98 H100"/></g></svg></div>
+      <div class="plate"><span class="pnum">III</span><span>the german vault</span></div>
+      <div class="txt"><h4>The German Vault</h4><div class="who">Glashütte · the mechanical cathedral</div><p class="what">Perpetual calendar, chronograph, moon phase — finished only in the morning light of a Saxon town. Time, rebuilt the slow way.</p><span class="price">on request</span></div>
+    </div>
+    <div class="card">
+      <div class="mark"><svg viewBox="0 0 180 120" aria-hidden="true"><g><circle class="mline" cx="82" cy="64" r="30"/><path class="mline" d="M82 64 V46 M82 64 L96 76"/><path class="mgold" d="M64 30 L82 22 L100 30 M72 26 L72 18 M92 26 L92 18"/><path class="mline" d="M114 64 H138 M122 57 L118 64 L122 71"/></g></svg></div>
+      <div class="plate"><span class="pnum">IV</span><span>the original pilot</span></div>
+      <div class="txt"><h4>The Original Pilot</h4><div class="who">Paris · since 1904</div><p class="what">The first watch built to be worn in the air — square and gold, worn by the man who taught the world to fly. The founding dial of modern horology.</p><span class="price">indicated on request</span></div>
+    </div>
+    <div class="card">
+      <div class="mark"><svg viewBox="0 0 180 120" aria-hidden="true"><g><rect class="mline" x="50" y="38" width="34" height="54" rx="9"/><rect class="mline" x="86" y="38" width="44" height="54" rx="9"/><path class="mline" d="M84 56 H88 M84 88 H88"/><path class="mline" d="M58 52 V38 M58 56 L66 46 M100 52 V38 M100 56 L108 46"/></g></svg></div>
+      <div class="plate"><span class="pnum">V</span><span>the polite denial</span></div>
+      <div class="txt"><h4>The Polite Denial</h4><div class="who">Vallée de Joux · the flip</div><p class="what">Built to survive a polo mallet, flipped to hide a second face. The only watch that doubles as a courteous, mechanical refusal.</p><span class="price">indicated on request</span></div>
+    </div>
+    <div class="card">
+      <div class="mark"><svg viewBox="0 0 180 120" aria-hidden="true"><g><path class="mline" d="M46 84 C58 76 56 62 66 52 M132 84 C120 76 120 62 112 52"/><circle class="mline" cx="90" cy="58" r="24"/><path class="mline" d="M90 58 V44 M90 58 L102 66"/><path class="mline" d="M66 60 L112 60 M58 66 L122 66 M66 72 L112 72"/></g></svg></div>
+      <div class="plate"><span class="pnum">VI</span><span>the bench, one man</span></div>
+      <div class="txt"><h4>The Bench, One Man</h4><div class="who">Tokyo · independent horology</div><p class="what">A watch assembled entirely by a single maker on a single bench, no two alike. The most expensivest thing in the room is the patience.</p><span class="price">truly on request</span></div>
+    </div>
   </div>
 </div>
 
