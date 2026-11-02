@@ -248,36 +248,52 @@
     ],
     "style": [
       {
-        "name": "Watches & more at price",
-        "url": "https://www.jomashop.com/",
-        "marketplace": "Jomashop",
-        "verified": "2026-11-01",
+        "name": "Rare stones & haute joaillerie",
+        "url": "https://www.graff.com/",
+        "marketplace": "Graff",
+        "verified": "2026-11-02",
         "probe": "researcher",
         "last_check": "2026-11-02",
         "status": "LIVE"
       },
       {
-        "name": "Herm\u00e8s Birkins for sale",
-        "url": "https://www.1stdibs.com/buy/hermes-birkin/",
-        "marketplace": "1stDibs",
-        "verified": "2026-11-01",
-        "note": "468 listed at last check",
+        "name": "Hermès Birkins by specialist",
+        "url": "https://madisonavenuecouture.com/collections/hermes",
+        "marketplace": "Madison Avenue Couture",
+        "verified": "2026-11-02",
+        "probe": "researcher",
         "last_check": "2026-11-02",
         "status": "LIVE"
       },
       {
-        "name": "Diamond rings & stones",
-        "url": "https://www.1stdibs.com/buy/diamond-rings/",
-        "marketplace": "1stDibs",
-        "verified": "2026-11-01",
+        "name": "Niche fragrance",
+        "url": "https://www.creedfragrance.com/",
+        "marketplace": "Creed",
+        "verified": "2026-11-02",
         "last_check": "2026-11-02",
         "status": "LIVE"
       },
       {
-        "name": "Jewelry market",
-        "url": "https://www.1stdibs.com/buy/jewelry/",
-        "marketplace": "1stDibs",
-        "verified": "2026-11-01",
+        "name": "Bespoke tailoring on Savile Row",
+        "url": "https://www.huntsmansavilerow.com/pages/bespoke-tailoring",
+        "marketplace": "Huntsman Savile Row",
+        "verified": "2026-11-02",
+        "last_check": "2026-11-02",
+        "status": "LIVE"
+      },
+      {
+        "name": "Quiet-luxury wardrobe",
+        "url": "https://us.loropiana.com/en/c/man",
+        "marketplace": "Loro Piana",
+        "verified": "2026-11-02",
+        "last_check": "2026-11-02",
+        "status": "LIVE"
+      },
+      {
+        "name": "Neapolitan made-to-measure",
+        "url": "https://kiton.com/collections/men",
+        "marketplace": "Kiton",
+        "verified": "2026-11-02",
         "last_check": "2026-11-02",
         "status": "LIVE"
       }
