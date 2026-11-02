@@ -8,7 +8,7 @@
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;700&family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;1,400;1,500&family=Inter:wght@300;400;500&display=swap" rel="stylesheet">
 <style>
-:root{--cream:#f3efe4;--paper:#faf7ee;--ink:#1a1914;--ink2:#3d3a2e;--muted:#88806b;--brass:#a58a4b;--brass-dark:#89703f;--line:#e0d9c4;--faint:#c5bda0;--verde:#2c4a35;--verde-soft:#45704f}
+:root{--cream:#f3efe4;--paper:#faf7ee;--ink:#1a1914;--ink2:#3d3a2e;--muted:#88806b;--brass:#a58a4b;--brass-dark:#89703f;--line:#e0d9c4;--faint:#c5bda0;--verde:#2c4a35;--verde-soft:#45704f;--gold:#c8a95c}
 *{margin:0;padding:0;box-sizing:border-box}html{scroll-behavior:smooth}
 body{background:var(--cream);color:var(--ink);font-family:'Inter',sans-serif;-webkit-font-smoothing:antialiased;line-height:1.65}
 a{color:inherit}.top-rule{height:3px;background:var(--ink)}
@@ -20,14 +20,29 @@ a{color:inherit}.top-rule{height:3px;background:var(--ink)}
 .dep-head .deck{max-width:640px;margin:24px auto 0;font-style:italic;font-family:'Cormorant Garamond',serif;font-size:clamp(17px,2.2vw,21px);color:var(--ink2);line-height:1.5}
 .dept{max-width:1100px;margin:0 auto;padding:40px 26px}
 .grid{display:grid;grid-template-columns:repeat(3,1fr);gap:0}
-.card{padding:26px 24px;border-right:1px solid var(--line);border-top:1px solid var(--line)}
-.grid .card:nth-child(3n+3){border-right:none}
-.card h4{font-family:'Cormorant Garamond',serif;font-weight:600;font-size:22px;line-height:1.2;margin-bottom:8px}
-.card .who{font-size:11px;letter-spacing:2px;text-transform:uppercase;color:var(--muted);margin-bottom:14px}
-.card .what{font-size:13px;color:var(--ink2);line-height:1.55}
-.card .price{display:block;margin-top:16px;font-family:'Cormorant Garamond',serif;font-size:18px;font-weight:500;color:var(--brass-dark)}
+.card{padding:26px 24px;border-right:1px solid var(--line);border-top:1px solid var(--line);text-decoration:none;display:block}
+.card .txt h4{font-family:'Cormorant Garamond',serif;font-weight:600;font-size:22px;line-height:1.2;margin-bottom:8px}
+.card .txt .who{font-size:11px;letter-spacing:2px;text-transform:uppercase;color:var(--muted);margin-bottom:14px}
+.card .txt .what{font-size:13px;color:var(--ink2);line-height:1.55}
+.card .price{display:inline-block;margin-top:16px;font-family:'Cormorant Garamond',serif;font-size:18px;font-weight:500;color:var(--brass-dark);border-bottom:1px solid var(--brass-dark);padding-bottom:2px}
 .card:hover{background:var(--paper)}
-.consult{max-width:1100px;margin:0 auto;padding:44px 30px 8px;display:flex;align-items:center;justify-content:space-between;gap:26px;flex-wrap:wrap;border-top:1px solid var(--line)}.consult h4{font-family:'Cormorant Garamond',serif;font-weight:600;font-size:24px;margin-bottom:6px}.consult p{font-size:13px;color:var(--ink2);max-width:640px}.consult .cta a{font-size:11px;letter-spacing:3px;text-transform:uppercase;text-decoration:none;color:var(--verde-soft);font-weight:600;border-bottom:1px solid var(--verde-soft);padding-bottom:4px;white-space:nowrap}
+.grid .card:nth-child(3n+3){border-right:none}
+.attrib{max-width:1100px;margin:18px auto 0;padding:0 30px;font-size:10.5px;color:var(--faint);letter-spacing:.5px;line-height:1.6}
+.attrib a{color:var(--brass-dark);text-decoration:none}
+.records{max-width:1100px;margin:60px auto 0;padding:0 30px}
+.records .rh{display:flex;align-items:baseline;justify-content:space-between;border-top:3px solid var(--ink);padding-top:22px;margin-bottom:6px}
+.records .rh h3{font-family:'Space Grotesk',sans-serif;font-size:12px;letter-spacing:3px;text-transform:uppercase;font-weight:600;color:var(--ink)}
+.records .rh .rnote{font-size:11px;letter-spacing:2px;text-transform:uppercase;color:var(--muted)}
+.rtable{border-top:1px solid var(--line)}
+.rrow{display:grid;grid-template-columns:1.5fr .9fr .7fr .6fr .8fr;gap:14px;padding:15px 0;border-bottom:1px solid var(--line);align-items:baseline;text-decoration:none;color:inherit}
+.rrow:hover{background:var(--paper)}
+.rdesc{font-family:'Cormorant Garamond',serif;font-size:18px;font-weight:500;color:var(--ink);line-height:1.25}
+.rtype{font-size:11px;letter-spacing:1px;text-transform:uppercase;color:var(--muted)}
+.rloc{font-size:12px;color:var(--muted)}
+.rnote{font-size:12px;color:var(--faint);font-style:italic}
+.rprice{font-family:'Space Grotesk',sans-serif;font-weight:700;font-size:16px;color:var(--brass-dark);text-align:right}
+@media(max-width:760px){.rrow{grid-template-columns:1.3fr .8fr}.rtype,.rloc,.rnote{display:none}}
+.consult{max-width:1100px;margin:0 auto;padding:60px 30px 8px;display:flex;align-items:center;justify-content:space-between;gap:26px;flex-wrap:wrap;border-top:1px solid var(--line)}.consult h4{font-family:'Cormorant Garamond',serif;font-weight:600;font-size:24px;margin-bottom:6px}.consult p{font-size:13px;color:var(--ink2);max-width:640px}.consult .cta a{font-size:11px;letter-spacing:3px;text-transform:uppercase;text-decoration:none;color:var(--verde-soft);font-weight:600;border-bottom:1px solid var(--verde-soft);padding-bottom:4px;white-space:nowrap}
 .bme{font-family:'Space Grotesk',sans-serif;font-weight:700;font-size:22px;letter-spacing:1px;color:var(--ink);display:inline-flex;align-items:baseline;vertical-align:middle}.bme .bd{color:var(--brass);font-weight:500;font-size:.55em;margin:0 2px}
 .backlink{max-width:1100px;margin:0 auto;padding:10px 30px 0}
 .backlink a{font-size:11px;letter-spacing:3px;text-transform:uppercase;text-decoration:none;color:var(--verde-soft)}
@@ -39,12 +54,11 @@ a{color:inherit}.top-rule{height:3px;background:var(--ink)}
 .dep-hero{position:relative;height:clamp(240px,34vw,380px);overflow:hidden;border-bottom:1px solid var(--line)}
 .dep-hero img{width:100%;height:100%;object-fit:cover;display:block}
 .dep-hero::after{content:"";position:absolute;left:0;right:0;bottom:0;height:100%;background:linear-gradient(to right,rgba(12,12,14,.9) 0%,rgba(12,12,14,.62) 40%,rgba(12,12,14,0) 65%);z-index:1}
-.dep-hero .dhcap{position:absolute;left:max(24px,calc((100vw - 1100px)/2));bottom:26px;max-width:480px;color:var(--cream);z-index:2}
+.dep-hero .dhcap{position:absolute;left:max(24px,calc((100vw - 1100px)/2));bottom:26px;max-width:500px;color:var(--cream);z-index:2}
 .dep-hero .dhcap .dkat{font-size:10px;letter-spacing:3.5px;text-transform:uppercase;color:var(--gold);margin-bottom:6px}
 .dep-hero .dhcap h2{font-family:'Cormorant Garamond',serif;font-weight:500;font-size:clamp(30px,4.4vw,50px);line-height:1.05;color:#fff}
-.dep-hero .dhcap p{font-family:'Cormorant Garamond',serif;font-style:italic;font-size:16px;color:#e9e2cf;margin-top:8px}
+.dep-hero .dhcap p{font-family:'Cormorant Garamond',serif;font-style:italic;font-size:16px;color:#eee7d6;margin-top:8px}
 @media(max-width:900px){.dep-hero .dhcap{left:26px;bottom:20px}}
-
 </style>
 </head>
 <body>
@@ -57,27 +71,52 @@ a{color:inherit}.top-rule{height:3px;background:var(--ink)}
   <img src="media/img/dep_estate.jpg" alt="Home & Grounds"/>
   <div class="dhcap">
     <div class="dkat">Department V · Estates</div>
-    <h2>Home & Grounds</h2>
-    <p>Estates worldwide, rooted and unshakable.</p>
+    <h2>Home &amp; Grounds</h2>
+    <p>Estates and the records they set — the houses that outlive every market.</p>
   </div>
 </div>
 </div>
 <div class="dept">
   <div class="grid">
-    <div class="card"><h4>A Manor in the Cotswolds</h4><div class="who">Oxfordshire · the silence is load-bearing</div><p class="what">Twelve bedrooms, a walled garden never harvested in a hurry, and a hush three generations built then kept. Viewings by introduction only — the house does not want to be shown.</p><span class="price">offers in the mid-eighths</span></div>
-    <div class="card"><h4>A Finca in Andalusia</h4><div class="who">Spain · the working one</div><p class="what">Olive terraces, a cortijo that predates the village, and three generations of the same family arguing at table about the harvest. You buy the argument.</p><span class="price">indicated on request</span></div>
-    <div class="card"><h4>A Highland Keep</h4><div class="who">Scotland · the keeper's castle</div><p class="what">A tower and a lodge, a moat that no longer needs to, and eight thousand acres of heather where the family name already appears in the old stone.</p><span class="price">offers on request</span></div>
-    <div class="card"><h4>A Tuscan Villa</h4><div class="who">Chianti · the one with a vineyard</div><p class="what">A long low stone house overlooking its own vineyard, a cellar that pays the staff, and an address the whole district agrees on.</p><span class="price">indicated on request</span></div>
-    <div class="card"><h4>A Private Island</h4><div class="who">somewhere warm · the last redoubt</div><p class="what">The definitive old-money address: a place no road, marina, or creditor can reach. The helipad is the driveway.</p><span class="price">for discreet conversation only</span></div>
-    <div class="card"><h4>The Grounds, Kept</h4><div class="who">the estate manager · always</div><p class="what">A good estate has a gardener who has outlived two owners and a manager who logs every frost. You are not buying the house; you are buying the people who never leave.</p><span class="price">included</span></div>
+    <a class="card" href="https://en.wikipedia.org/wiki/Villa_La_L%C3%A9opolda" target="_blank" rel="noopener"><div class="txt"><h4>A Riviera Manor</h4><div class="who">Côte d'Azur · the silence is load-bearing</div><p class="what">Villa Leopolda, eleven acres above the sea at Villefranche, sold privately around €370 million in 2008 and has been valued near $750 million since. The house that proved a garden can hold a fortune.</p></div><span class="price">the $750M Riviera record ↗</span></a>
+    <a class="card" href="https://en.wikipedia.org/wiki/Antilia_(building)" target="_blank" rel="noopener"><div class="txt"><h4>The Vertical Estate</h4><div class="who">Mumbai · the mansion upward</div><p class="what">Antilia, twenty-seven storeys for one family, is among the most expensive homes ever built — a private skyline and the clearest answer yet to the question of how high a residence can go.</p></div><span class="price">the $1B+ sky-mansion ↗</span></a>
+    <a class="card" href="https://en.wikipedia.org/wiki/Odeon_Tower" target="_blank" rel="noopener"><div class="txt"><h4>A Sky Penthouse</h4><div class="who">Monte Carlo · the address above it all</div><p class="what">The penthouse of the Odeon Tower in Monaco, marketed around $440 million — the tallest residential building in Europe, with a private sky garage and a terrace where the whole Côte d'Azur is one hedge.</p></div><span class="price">the $440M penthouse ↗</span></a>
+    <a class="card" href="https://www.privateislandsonline.com/" target="_blank" rel="noopener"><div class="txt"><h4>A Private Island</h4><div class="who">somewhere warm · the last redoubt</div><p class="what">The definitive old-money address: a place no road, marina, or creditor can reach. The helipad is the driveway — surveyed live, island by island, on the market's deepest list.</p></div><span class="price">the island market ↗</span></a>
+    <a class="card" href="mailto:me@mostexpensivest.com"><div class="txt"><h4>A Tuscan Villa</h4><div class="who">Chianti · the one with a vineyard</div><p class="what">A long low stone house overlooking its own vineyard, a cellar that pays the staff, and an address the whole district agrees on. Placed privately, on request.</p></div><span class="price">by arrangement</span></a>
+    <a class="card" href="mailto:me@mostexpensivest.com"><div class="txt"><h4>The Grounds, Kept</h4><div class="who">the estate manager · always</div><p class="what">A good estate has a gardener who has outlived two owners and a manager who logs every frost. You are not buying the house; you are buying the people who never leave.</p></div><span class="price">included</span></a>
   </div>
 </div>
 
+<!-- RECORDS OF THE ESTATE -->
+<div class="records">
+  <div class="rh"><h3>Records of the Estate</h3><div class="rnote">the residences that set the bar · each links to its record</div></div>
+  <div class="rtable" id="estateTable"><div class="mload" style="padding:20px;color:var(--muted)">reading the ledger…</div></div>
+</div>
+<div class="attrib">Figures are widely reported valuations and recorded sale sums, linked to each property's own record. Villa Leopolda sold for €370M in 2008 (recorded); Antilia, the Odeon penthouse and Buckingham Palace carry commonly cited estimates. Private islands link out to the live <a href="https://www.privateislandsonline.com/" target="_blank" rel="noopener">Private Islands Online</a> market.</div>
+
 <div class="consult">
-  <div><h4>Private Consultation</h4><p>Write to us and be placed with the right maker, in the right city, at the right hour. By appointment, in strictest confidence.</p></div>
+  <div><h4>Private Consultation</h4><p>Write to us and be placed with the right broker, in the right valley, at the right hour. By appointment, in strictest confidence.</p></div>
   <div class="cta"><a href="mailto:me@mostexpensivest.com">Begin the Conversation</a></div>
 </div>
 <div class="backlink"><a href="index.html#departments">← All Departments</a></div>
 <div class="copyright">© The Most Expensivest, MMXXVI</div>
+<script>
+(function(){
+  function money(n){if(n==null||isNaN(n))return "on request";return "$"+Math.round(n).toLocaleString("en-US");}
+  function esc(s){var d=document.createElement("div");d.textContent=s==null?"":String(s);return d.innerHTML;}
+  fetch("media/estate_records.json",{cache:"no-store"}).then(function(r){return r.json();}).then(function(recs){
+    var tb=document.getElementById("estateTable");
+    recs.sort(function(a,b){return (b.price||0)-(a.price||0);});
+    tb.innerHTML=recs.slice(0,8).map(function(r){
+      return '<a class="rrow" href="'+esc(r.src)+'" target="_blank" rel="noopener">'+
+        '<div class="rdesc">'+esc(r.name)+'</div>'+
+        '<div class="rtype">'+esc(r.type)+'</div>'+
+        '<div class="rloc">'+esc(r.locale)+'</div>'+
+        '<div class="rnote">'+esc(r.note||'')+'</div>'+
+        '<div class="rprice">'+money(r.price)+'</div></a>';
+    }).join("");
+  }).catch(function(){document.getElementById("estateTable").innerHTML='<div class="mload" style="padding:20px">The ledger is momentarily unavailable.</div>';});
+})();
+</script>
 </body>
 </html>

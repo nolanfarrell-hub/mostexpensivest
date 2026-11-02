@@ -1,0 +1,38 @@
+[
+ {
+  "name": "Villa Leopolda",
+  "price": 750000000,
+  "year": "2008",
+  "type": "Riviera villa",
+  "locale": "C\u00f4te d'Azur \u00b7 France",
+  "note": "sold privately \u00b7 recorded \u20ac370M (2008)",
+  "src": "https://en.wikipedia.org/wiki/Villa_La_L%C3%A9opolda"
+ },
+ {
+  "name": "Antilia",
+  "price": 1000000000,
+  "year": "2010",
+  "type": "Private mansion",
+  "locale": "Mumbai \u00b7 India",
+  "note": "one of the most expensive residences ever built",
+  "src": "https://en.wikipedia.org/wiki/Antilia_(building)"
+ },
+ {
+  "name": "Odeon Tower \u00b7 Sky Penthouse",
+  "price": 440000000,
+  "year": "2014",
+  "type": "Sky penthouse",
+  "locale": "Monte Carlo \u00b7 Monaco",
+  "note": "reported $440M asking when marketed",
+  "src": "https://en.wikipedia.org/wiki/Odeon_Tower"
+ },
+ {
+  "name": "Buckingham Palace",
+  "price": 4900000000,
+  "year": "est.",
+  "type": "Royal residence",
+  "locale": "London \u00b7 United Kingdom",
+  "note": "widely cited ~$4.9B estimated; not on the market",
+  "src": "https://en.wikipedia.org/wiki/Buckingham_Palace"
+ }
+]
