@@ -27,6 +27,22 @@ a{color:inherit}.top-rule{height:3px;background:var(--ink)}
 .card .what{font-size:13px;color:var(--ink2);line-height:1.55}
 .card .price{display:block;margin-top:16px;font-family:'Cormorant Garamond',serif;font-size:18px;font-weight:500;color:var(--brass-dark)}
 .card:hover{background:var(--paper)}
+.attrib{max-width:1100px;margin:18px auto 0;padding:0 30px;font-size:10.5px;color:var(--faint);letter-spacing:.5px;line-height:1.6}
+.attrib a{color:var(--brass-dark);text-decoration:none}
+.records{max-width:1100px;margin:60px auto 0;padding:0 30px}
+.records .rh{display:flex;align-items:baseline;justify-content:space-between;border-top:3px solid var(--ink);padding-top:22px;margin-bottom:6px}
+.records .rh h3{font-family:'Space Grotesk',sans-serif;font-size:12px;letter-spacing:3px;text-transform:uppercase;font-weight:600;color:var(--ink)}
+.records .rh .rnote{font-size:11px;letter-spacing:2px;text-transform:uppercase;color:var(--muted)}
+.rtable{border-top:1px solid var(--line)}
+.rrow{display:grid;grid-template-columns:1.5fr .8fr .7fr .6fr .8fr;gap:14px;padding:15px 0;border-bottom:1px solid var(--line);align-items:baseline;text-decoration:none;color:inherit}
+.rrow:hover{background:var(--paper)}
+.rdesc{font-family:'Cormorant Garamond',serif;font-size:18px;font-weight:500;color:var(--ink);line-height:1.25}
+.rtype{font-size:11px;letter-spacing:1px;text-transform:uppercase;color:var(--muted)}
+.rloc{font-size:12px;color:var(--muted)}
+.rnote2{font-size:12px;color:var(--faint);font-style:italic}
+.rprice{font-family:'Space Grotesk',sans-serif;font-weight:700;font-size:16px;color:var(--brass-dark);text-align:right}
+.rgo{font-size:10px;color:var(--verde-soft);letter-spacing:1px}
+@media(max-width:760px){.rrow{grid-template-columns:1.3fr .8fr}.rtype,.rloc,.rnote2{display:none}}
 .consult{max-width:1100px;margin:0 auto;padding:44px 30px 8px;display:flex;align-items:center;justify-content:space-between;gap:26px;flex-wrap:wrap;border-top:1px solid var(--line)}.consult h4{font-family:'Cormorant Garamond',serif;font-weight:600;font-size:24px;margin-bottom:6px}.consult p{font-size:13px;color:var(--ink2);max-width:640px}.consult .cta a{font-size:11px;letter-spacing:3px;text-transform:uppercase;text-decoration:none;color:var(--verde-soft);font-weight:600;border-bottom:1px solid var(--verde-soft);padding-bottom:4px;white-space:nowrap}
 .bme{font-family:'Space Grotesk',sans-serif;font-weight:700;font-size:22px;letter-spacing:1px;color:var(--ink);display:inline-flex;align-items:baseline;vertical-align:middle}.bme .bd{color:var(--brass);font-weight:500;font-size:.55em;margin:0 2px}
 .backlink{max-width:1100px;margin:0 auto;padding:10px 30px 0}
@@ -64,12 +80,12 @@ a{color:inherit}.top-rule{height:3px;background:var(--ink)}
 </div>
 <div class="dept">
   <div class="grid">
-    <div class="card"><h4>The Bespoke Suit, Her Fit</h4><div class="who">Savile Row &amp; Paris · measured twice</div><p class="what">Three fittings spread over eleven weeks, cut to drape like a rumour. Tailoring that knows the wearer's body better than the wearer does — and never shouts about it.</p><span class="price">bespoke · on request</span></div>
-    <div class="card"><h4>The Atelier Jewel</h4><div class="who">Parisian courtyard · one stone</div><p class="what">A single stone chosen for the person, set by hand in a workshop that accepts one commission at a time. The quietiest way to say it, and the most permanent.</p><span class="price">by commission</span></div>
-    <div class="card"><h4>The Leather Portage</h4><div class="who">one hide, one bag</div><p class="what">A bag cut from a single hide of bridle leather, hand-stitched, no linings to fail. It does not soften with age; it hardens into the shape of your life.</p><span class="price">indicated on request</span></div>
-    <div class="card"><h4>Perfume, Composed</h4><div class="who">Grasse &amp; everywhere · your note</div><p class="what">A scent composed for one person, in a limited run that is essentially a secret. Worn so quietly that only the people closest notice, and they always do.</p><span class="price">by arrangement</span></div>
-    <div class="card"><h4>The Everyday, Raised</h4><div class="who">a wardrobe that outlives trends</div><p class="what">Not one statement piece but a hundred quiet correct ones — the oxford, the polo, the well-worn shoe. The point is that none of it announces itself.</p><span class="price">included</span></div>
-    <div class="card"><h4>The Atelier Inside</h4><div class="who">somewhere private · the made-to-measure secret</div><p class="what">The atelier behind the showroom that makes one commission at a time, for the clients who are never mentioned. The quiet core of the house.</p><span class="price">by arrangement</span></div>
+    <a class="card" href="https://www.sothebys.com/en/articles/the-five-most-expensive-pink-diamonds" target="_blank" rel="noopener"><div class="txt"><h4>The Atelier Jewel</h4><div class="who">one stone · set by hand</div><p class="what">A single stone chosen for the person, set by hand in a workshop that accepts one commission at a time. The quietest way to say it, and the most permanent — and the record is the CTF Pink Star at $71.2 million.</p></div><span class="price">the $71.2M stone ↗</span></a>
+    <a class="card" href="https://www.sothebys.com/en/articles/the-top-6-most-expensive-hermes-birkin-bags" target="_blank" rel="noopener"><div class="txt"><h4>The Leather Portage</h4><div class="who">one hide, one bag</div><p class="what">Cut from a single hide, hand-stitched, no linings to fail. Jane Birkin's Original Birkin — the prototype that made the name — sold for $10.1 million at Sotheby's in 2025, the most expensive handbag ever.</p></div><span class="price">the $10.1M Birkin ↗</span></a>
+    <a class="card" href="https://www.guinnessworldrecords.com/world-records/most-expensive-perfume" target="_blank" rel="noopener"><div class="txt"><h4>Perfume, Composed</h4><div class="who">your note · a run of ten</div><p class="what">A scent composed for one person, worn so quietly that only the people closest notice — and they always do. The Guinness record is held by Clive Christian's No. 1 Imperial Majesty at $205,000 a bottle.</p></div><span class="price">the $205K bottle ↗</span></a>
+    <a class="card" href="mailto:me@mostexpensivest.com"><div class="txt"><h4>The Bespoke Suit, Her Fit</h4><div class="who">Savile Row &amp; Paris · measured twice</div><p class="what">Three fittings spread over eleven weeks, cut to drape like a rumour. Tailoring that knows the wearer's body better than the wearer does — and never shouts about it.</p></div><span class="price">bespoke · by appointment</span></a>
+    <a class="card" href="mailto:me@mostexpensivest.com"><div class="txt"><h4>The Everyday, Raised</h4><div class="who">a wardrobe that outlives trends</div><p class="what">Not one statement piece but a hundred quiet correct ones — the oxford, the polo, the well-worn shoe. The point is that none of it announces itself.</p></div><span class="price">included</span></a>
+    <a class="card" href="mailto:me@mostexpensivest.com"><div class="txt"><h4>The Atelier Inside</h4><div class="who">somewhere private · the made-to-measure secret</div><p class="what">The atelier behind the showroom that makes one commission at a time, for the clients who are never mentioned. The quiet core of the house.</p></div><span class="price">by arrangement</span></a>
   </div>
   <div class="craft" style="margin-top:36px;border:1px solid var(--line)">
     <img src="media/img/suit.jpg" alt="A suit in basted fitting at the atelier" style="width:100%;height:400px;object-fit:cover;display:block"/>
@@ -80,11 +96,36 @@ a{color:inherit}.top-rule{height:3px;background:var(--ink)}
   </div>
 </div>
 
+<!-- RECORDS OF STYLE -->
+<div class="records">
+  <div class="rh"><h3>Records of Style</h3><div class="rnote">the pieces that set the price · each links to its record</div></div>
+  <div class="rtable" id="styleTable"><div class="mload" style="padding:20px;color:var(--muted)">reading the ledger…</div></div>
+</div>
+<div class="attrib">Sourced from the <a href="https://www.sothebys.com/en/articles/the-five-most-expensive-pink-diamonds" target="_blank" rel="noopener">Sotheby's records</a>, <a href="https://www.sothebys.com/en/articles/the-top-6-most-expensive-hermes-birkin-bags" target="_blank" rel="noopener">Sotheby's Birkin records</a>, and <a href="https://www.guinnessworldrecords.com/world-records/most-expensive-perfume" target="_blank" rel="noopener">Guinness World Records</a>. Rows link to the full entry; figures are the recorded sale or retail price.</div>
+
 <div class="consult">
   <div><h4>Private Consultation</h4><p>Write to us and be placed with the right maker, in the right city, at the right hour. By appointment, in strictest confidence.</p></div>
   <div class="cta"><a href="mailto:me@mostexpensivest.com">Begin the Conversation</a></div>
 </div>
 <div class="backlink"><a href="index.html#departments">← All Departments</a></div>
 <div class="copyright">© The Most Expensivest, MMXXVI</div>
+<script>
+(function(){
+  function money(n){if(n==null||isNaN(n))return "on request";return "$"+Math.round(n).toLocaleString("en-US");}
+  function esc(s){var d=document.createElement("div");d.textContent=s==null?"":String(s);return d.innerHTML;}
+  fetch("media/style_records.json",{cache:"no-store"}).then(function(r){return r.json();}).then(function(recs){
+    var tb=document.getElementById("styleTable"); if(!tb)return;
+    recs.sort(function(a,b){return (b.price||0)-(a.price||0);});
+    tb.innerHTML=recs.slice(0,8).map(function(r){
+      return '<a class="rrow" href="'+esc(r.src)+'" target="_blank" rel="noopener">'+
+        '<div class="rdesc">'+esc(r.name)+'</div>'+
+        '<div class="rtype">'+esc(r.type)+'</div>'+
+        '<div class="rloc">'+esc(r.locale)+'</div>'+
+        '<div class="rnote2">'+esc(r.note||'')+'</div>'+
+        '<div class="rprice">'+money(r.price)+' · <span class="rgo">record ↗</span></div></a>';
+    }).join("");
+  }).catch(function(){var tb=document.getElementById("styleTable");if(tb)tb.innerHTML='<div class="mload" style="padding:20px">The ledger is momentarily unavailable.</div>';});
+})();
+</script>
 </body>
 </html>

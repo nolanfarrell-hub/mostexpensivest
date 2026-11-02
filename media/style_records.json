@@ -1,0 +1,56 @@
+[
+ {
+  "name": "CTF Pink Star · 59.60 ct",
+  "price": 71200000,
+  "year": "2017",
+  "type": "Fancy Vivid Pink diamond",
+  "locale": "Sotheby's Hong Kong",
+  "note": "most expensive jewel ever sold at auction",
+  "src": "https://www.sothebys.com/en/articles/the-five-most-expensive-pink-diamonds"
+ },
+ {
+  "name": "Williamson Pink Star · 11.15 ct",
+  "price": 57500000,
+  "year": "2022",
+  "type": "Fancy Vivid Pink ring",
+  "locale": "Sotheby's Hong Kong",
+  "note": "world-record price per carat",
+  "src": "https://www.sothebys.com/en/articles/the-five-most-expensive-pink-diamonds"
+ },
+ {
+  "name": "Jane Birkin's Original Birkin",
+  "price": 10100000,
+  "year": "2025",
+  "type": "Hermès handbag",
+  "locale": "Sotheby's Paris",
+  "note": "most expensive handbag ever sold at auction",
+  "src": "https://www.sothebys.com/en/articles/the-top-6-most-expensive-hermes-birkin-bags"
+ },
+ {
+  "name": "Diamond Himalaya Birkin 30",
+  "price": 450000,
+  "year": "2022",
+  "type": "Hermès handbag",
+  "locale": "Sotheby's",
+  "note": "record for a production Birkin at auction",
+  "src": "https://www.sothebys.com/en/articles/the-top-6-most-expensive-hermes-birkin-bags"
+ },
+ {
+  "name": "Clive Christian No. 1 Imperial Majesty",
+  "price": 205000,
+  "year": "2005",
+  "type": "Perfume · 500 ml",
+  "locale": "Ten bottles only",
+  "note": "Guinness world record, most expensive commercially-available perfume",
+  "src": "https://www.guinnessworldrecords.com/world-records/most-expensive-perfume"
+ },
+ {
+  "name": "Graff Pink · 23.88 ct",
+  "price": 46000000,
+  "year": "2010",
+  "type": "Fancy Intense Pink diamond",
+  "locale": "Sotheby's Geneva",
+  "note": "then highest price ever bid for a jewel at auction",
+  "src": "https://www.sothebys.com/en/articles/the-five-most-expensive-pink-diamonds"
+ }
+]
