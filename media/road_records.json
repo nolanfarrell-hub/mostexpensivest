@@ -4,49 +4,56 @@
   "price": 40000000,
   "year": "2026",
   "auctioneer": "RM Sotheby's",
-  "locale": "Monterey"
+  "locale": "Monterey",
+  "src": "https://rmsothebys.com/auctions/mo26/lots/r0150-2026-ferrari-luce-tailor-made/"
  },
  {
   "name": "Ferrari 250 GTO",
   "price": 38500000,
   "year": "2026",
   "auctioneer": "Mecum",
-  "locale": "Kissimmee"
+  "locale": "Kissimmee",
+  "src": "https://en.wikipedia.org/wiki/Ferrari_250_GTO"
  },
  {
   "name": "Ferrari 250 LM",
   "price": 36344960,
   "year": "2025",
   "auctioneer": "RM Sotheby's",
-  "locale": "Paris "
+  "locale": "Paris ",
+  "src": "https://en.wikipedia.org/wiki/Ferrari_250_LM"
  },
  {
   "name": "Ferrari 412P",
   "price": 30255000,
   "year": "2023",
   "auctioneer": "Bonhams",
-  "locale": "Carmel"
+  "locale": "Carmel",
+  "src": "https://en.wikipedia.org/wiki/Ferrari_P"
  },
  {
   "name": "Ferrari 275 GTB/4*S NART Spider",
   "price": 27500000,
   "year": "2013",
   "auctioneer": "RM Auctions",
-  "locale": "Monterey"
+  "locale": "Monterey",
+  "src": "https://en.wikipedia.org/wiki/Ferrari_275"
  },
  {
   "name": "Ferrari 275 GTB/C Speciale",
   "price": 26400000,
   "year": "2014",
   "auctioneer": "RM Auctions",
-  "locale": "Monterey"
+  "locale": "Monterey",
+  "src": "https://en.wikipedia.org/wiki/Ferrari_275"
  },
  {
   "name": "Ferrari Daytona SP3 \"Tailor Made\"",
   "price": 26000000,
   "year": "2025",
   "auctioneer": "RM Sotheby's",
-  "locale": "Monterey"
+  "locale": "Monterey",
+  "src": "https://en.wikipedia.org/wiki/Ferrari_Daytona_SP3"
  },
  {
   "name": "Ferrari 250 GT SWB California Spider Competizione",
@@ -74,14 +81,16 @@
   "price": 22005000,
   "year": "2018",
   "auctioneer": "RM Sotheby's",
-  "locale": "Los Angeles "
+  "locale": "Los Angeles ",
+  "src": "https://en.wikipedia.org/wiki/Ferrari_290_MM"
  },
  {
   "name": "Duesenberg SSJ",
   "price": 22000000,
   "year": "2018",
   "auctioneer": "Gooding & Company",
-  "locale": "Pebble Beach"
+  "locale": "Pebble Beach",
+  "src": "https://en.wikipedia.org/wiki/Duesenberg_Model_J"
  },
  {
   "name": "Jaguar D-Type",
@@ -109,7 +118,8 @@
   "price": 20465000,
   "year": "2021",
   "auctioneer": "Gooding & Company",
-  "locale": "Pebble Beach"
+  "locale": "Pebble Beach",
+  "src": "https://en.wikipedia.org/wiki/McLaren_F1"
  },
  {
   "name": "McLaren F1 'LM-Specification'",
@@ -529,7 +539,8 @@
   "price": 7860283,
   "year": "2014",
   "auctioneer": "RM Auctions",
-  "locale": "Monte Carlo "
+  "locale": "Monte Carlo ",
+  "src": "https://en.wikipedia.org/wiki/Ferrari_275"
  },
  {
   "name": "Ferrari  500 TRC Spider",
@@ -578,7 +589,8 @@
   "price": 7550000,
   "year": "2025",
   "auctioneer": "Gooding Christie's",
-  "locale": "Pebble Beach "
+  "locale": "Pebble Beach ",
+  "src": "https://en.wikipedia.org/wiki/Ferrari_250"
  },
  {
   "name": "Ferrari F2001",
