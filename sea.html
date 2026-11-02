@@ -8,7 +8,7 @@
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;700&family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;1,400;1,500&family=Inter:wght@300;400;500&display=swap" rel="stylesheet">
 <style>
-:root{--cream:#eef2ee;--paper:#f6faf5;--ink:#16201b;--ink2:#3a4a41;--muted:#7c8f82;--brass:#a58a4b;--brass-dark:#89703f;--line:#d3ded4;--faint:#b9c8bc;--verde:#1f4a3c;--verde-soft:#2f6650}
+:root{--cream:#eef2ee;--paper:#f6faf5;--ink:#16201b;--ink2:#3a4a41;--muted:#7c8f82;--brass:#a58a4b;--brass-dark:#89703f;--line:#d3ded4;--faint:#b9c8bc;--verde:#1f4a3c;--verde-soft:#2f6650;--gold:#c8a95c}
 *{margin:0;padding:0;box-sizing:border-box}html{scroll-behavior:smooth}
 body{background:var(--cream);color:var(--ink);font-family:'Inter',sans-serif;-webkit-font-smoothing:antialiased;line-height:1.65}
 a{color:inherit}.top-rule{height:3px;background:var(--ink)}
@@ -20,13 +20,13 @@ a{color:inherit}.top-rule{height:3px;background:var(--ink)}
 .dep-head .deck{max-width:640px;margin:24px auto 0;font-style:italic;font-family:'Cormorant Garamond',serif;font-size:clamp(17px,2.2vw,21px);color:var(--ink2);line-height:1.5}
 .dept{max-width:1100px;margin:0 auto;padding:40px 26px}
 .grid{display:grid;grid-template-columns:repeat(3,1fr);gap:0}
-.card{padding:26px 24px;border-right:1px solid var(--line);border-top:1px solid var(--line)}
-.grid .card:nth-child(3n+3){border-right:none}
-.card h4{font-family:'Cormorant Garamond',serif;font-weight:600;font-size:22px;line-height:1.2;margin-bottom:8px}
-.card .who{font-size:11px;letter-spacing:2px;text-transform:uppercase;color:var(--muted);margin-bottom:14px}
-.card .what{font-size:13px;color:var(--ink2);line-height:1.55}
-.card .price{display:block;margin-top:16px;font-family:'Cormorant Garamond',serif;font-size:18px;font-weight:500;color:var(--brass-dark)}
+.card{padding:26px 24px;border-right:1px solid var(--line);border-top:1px solid var(--line);text-decoration:none;display:block}
+.card .txt h4{font-family:'Cormorant Garamond',serif;font-weight:600;font-size:22px;line-height:1.2;margin-bottom:8px}
+.card .txt .who{font-size:11px;letter-spacing:2px;text-transform:uppercase;color:var(--muted);margin-bottom:14px}
+.card .txt .what{font-size:13px;color:var(--ink2);line-height:1.55}
+.card .price{display:inline-block;margin-top:16px;font-family:'Cormorant Garamond',serif;font-size:18px;font-weight:500;color:var(--brass-dark);border-bottom:1px solid var(--brass-dark);padding-bottom:2px}
 .card:hover{background:var(--paper)}
+.grid .card:nth-child(3n+3){border-right:none}
 .attrib{max-width:1100px;margin:18px auto 0;padding:0 30px;font-size:10.5px;color:var(--faint);letter-spacing:.5px;line-height:1.6}
 .attrib a{color:var(--brass-dark);text-decoration:none}
 .records{max-width:1100px;margin:60px auto 0;padding:0 30px}
@@ -34,13 +34,14 @@ a{color:inherit}.top-rule{height:3px;background:var(--ink)}
 .records .rh h3{font-family:'Space Grotesk',sans-serif;font-size:12px;letter-spacing:3px;text-transform:uppercase;font-weight:600;color:var(--ink)}
 .records .rh .rnote{font-size:11px;letter-spacing:2px;text-transform:uppercase;color:var(--muted)}
 .rtable{border-top:1px solid var(--line)}
-.rrow{display:grid;grid-template-columns:1.5fr .8fr .7fr .9fr .7fr;gap:14px;padding:15px 0;border-bottom:1px solid var(--line);align-items:baseline}
+.rrow{display:grid;grid-template-columns:1.5fr .9fr .8fr .7fr .8fr;gap:14px;padding:15px 0;border-bottom:1px solid var(--line);align-items:baseline;text-decoration:none;color:inherit}
+.rrow:hover{background:var(--paper)}
 .rdesc{font-family:'Cormorant Garamond',serif;font-size:18px;font-weight:500;color:var(--ink);line-height:1.25}
 .rbuilder{font-size:11px;letter-spacing:1px;text-transform:uppercase;color:var(--muted)}
 .rown{font-size:12px;color:var(--muted)}
 .rbuilt{font-size:12px;color:var(--muted);text-align:right}
 .rlength{font-family:'Space Grotesk',sans-serif;font-weight:700;font-size:17px;color:var(--brass-dark);text-align:right}
-@media(max-width:760px){.rrow{grid-template-columns:1fr .8fr}.rbuilder,.rown{display:none}}
+@media(max-width:760px){.rrow{grid-template-columns:1fr .8fr}.rbuilder,.rown,.rbuilt{display:none}}
 .consult{max-width:1100px;margin:0 auto;padding:60px 30px 8px;display:flex;align-items:center;justify-content:space-between;gap:26px;flex-wrap:wrap;border-top:1px solid var(--line)}.consult h4{font-family:'Cormorant Garamond',serif;font-weight:600;font-size:24px;margin-bottom:6px}.consult p{font-size:13px;color:var(--ink2);max-width:640px}.consult .cta a{font-size:11px;letter-spacing:3px;text-transform:uppercase;text-decoration:none;color:var(--verde-soft);font-weight:600;border-bottom:1px solid var(--verde-soft);padding-bottom:4px;white-space:nowrap}
 .bme{font-family:'Space Grotesk',sans-serif;font-weight:700;font-size:22px;letter-spacing:1px;color:var(--ink);display:inline-flex;align-items:baseline;vertical-align:middle}.bme .bd{color:var(--brass);font-weight:500;font-size:.55em;margin:0 2px}
 .backlink{max-width:1100px;margin:0 auto;padding:10px 30px 0}
@@ -52,13 +53,12 @@ a{color:inherit}.top-rule{height:3px;background:var(--ink)}
 /* ===== DEPARTMENT HERO ===== */
 .dep-hero{position:relative;height:clamp(240px,34vw,380px);overflow:hidden;border-bottom:1px solid var(--line)}
 .dep-hero img{width:100%;height:100%;object-fit:cover;display:block}
-.dep-hero::after{content:"";position:absolute;left:0;right:0;bottom:0;height:100%;background:linear-gradient(to right,rgba(12,12,14,.9) 0%,rgba(12,12,14,.62) 40%,rgba(12,12,14,0) 65%);z-index:1}
-.dep-hero .dhcap{position:absolute;left:max(24px,calc((100vw - 1100px)/2));bottom:26px;max-width:480px;color:var(--cream);z-index:2}
+.dep-hero::after{content:"";position:absolute;left:0;right:0;bottom:0;height:100%;background:linear-gradient(to right,rgba(8,14,11,.9) 0%,rgba(8,14,11,.6) 42%,rgba(8,14,11,.05) 70%);z-index:1}
+.dep-hero .dhcap{position:absolute;left:max(24px,calc((100vw - 1100px)/2));bottom:26px;max-width:500px;color:var(--cream);z-index:2}
 .dep-hero .dhcap .dkat{font-size:10px;letter-spacing:3.5px;text-transform:uppercase;color:var(--gold);margin-bottom:6px}
 .dep-hero .dhcap h2{font-family:'Cormorant Garamond',serif;font-weight:500;font-size:clamp(30px,4.4vw,50px);line-height:1.05;color:#fff}
-.dep-hero .dhcap p{font-family:'Cormorant Garamond',serif;font-style:italic;font-size:16px;color:#e9e2cf;margin-top:8px}
+.dep-hero .dhcap p{font-family:'Cormorant Garamond',serif;font-style:italic;font-size:16px;color:#dce8df;margin-top:8px}
 @media(max-width:900px){.dep-hero .dhcap{left:26px;bottom:20px}}
-
 </style>
 </head>
 <body>
@@ -72,27 +72,27 @@ a{color:inherit}.top-rule{height:3px;background:var(--ink)}
   <div class="dhcap">
     <div class="dkat">Department III · Yachts</div>
     <h2>The Sea</h2>
-    <p>Yachts for sale and charter — where the longest lines moor.</p>
+    <p>Yachts, the longest lines, and the money it takes to float them.</p>
   </div>
 </div>
 </div>
 <div class="dept">
   <div class="grid">
-    <div class="card"><h4>The Sixty-Metre Explorer</h4><div class="who">custom build · for purchase</div><p class="what">From St. Tropez to the Arctic without a refuel. A beach club that unfolds at the stern, a bridge that thinks, and a hull built to be seen only from a distance.</p><span class="price">for purchase · on request</span></div>
-    <div class="card"><h4>The Charter, A Season</h4><div class="who">Mediterranean · the week you keep</div><p class="what">A fortnight in the Aegean, crew of twelve, tenders and toys and the itinerary left deliberately blank. One of the few luxuries that is cheaper to rent than own.</p><span class="price">for charter · indicated</span></div>
-    <div class="card"><h4>The Classic Wooden Line</h4><div class="who">Italy · mahogany, gleaming</div><p class="what">The vintage speedboat of kings and film stars, kept perfect by a keeper who is himself a family heirloom. It is not driven; it is presented.</p><span class="price">indicated on request</span></div>
-    <div class="card"><h4>The Shadow</h4><div class="who">support yacht · for charter or sale</div><p class="what">The quiet workhorse that carries the helicopters, the toys, and the staff, so the main yacht stays pristine and empty of logistics. Money, offshore.</p><span class="price">for purchase · on request</span></div>
-    <div class="card"><h4>The Day on the Mooring</h4><div class="who">Amalfi · the unlogged hour</div><p class="what">The true luxury of the sea is not the vessel but the hour that goes entirely unphotographed — nobody on the aft deck with a phone lit.</p><span class="price">priceless</span></div>
-    <div class="card"><h4>The Bridge Course</h4><div class="who">Captain's licence · the education</div><p class="what">Twelve weeks to earn your own command, because a man of a certain net worth ought to be able to take the wheel himself. The most expensivest course anywhere.</p><span class="price">included · by arrangement</span></div>
+    <a class="card" href="https://en.wikipedia.org/wiki/Azzam_(2013_yacht)" target="_blank" rel="noopener"><div class="txt"><h4>The Record Line</h4><div class="who">180 m · the longest afloat</div><p class="what">At 591 feet she is the longest private yacht ever built — a line that reset what the sea permits. The figure every other hull is now measured against.</p></div><span class="price">Azzam · the record ↗</span></a>
+    <a class="card" href="https://www.viravira.co/yachting/the-worlds-most-expensive-super-yachts/" target="_blank" rel="noopener"><div class="txt"><h4>The Most Expensivest Afloat</h4><div class="who">the money that floats · live list</div><p class="what">Azzam at roughly $600 million, Eclipse pushing higher still. The true cost is not the build but the keeping — crew, fuel, the tender full of toys.</p></div><span class="price">the list, by value ↗</span></a>
+    <a class="card" href="https://en.wikipedia.org/wiki/El_Mahrousa" target="_blank" rel="noopener"><div class="txt"><h4>The Classic Wooden Line</h4><div class="who">1865 · a royal, still afloat</div><p class="what">The line before steel — mahogany, brass and the monarchy that wore it. El Mahrousa carried three rulers and is still in commission, the oldest large yacht in the world.</p></div><span class="price">the oldest afloat ↗</span></a>
+    <a class="card" href="https://en.wikipedia.org/wiki/Dilbar_(yacht)" target="_blank" rel="noopener"><div class="txt"><h4>The Shadow</h4><div class="who">support &amp; the largest by volume</div><p class="what">Dilbar is the largest yacht in the world by volume — over 15,000 gross tonnes of living space, a 5,224-square-metre interior, and a diesel-electric plant that barely hums. The quiet flex of the house.</p></div><span class="price">500 ft + of it ↗</span></a>
+    <a class="card" href="mailto:me@mostexpensivest.com"><div class="txt"><h4>The Charter, A Season</h4><div class="who">Mediterranean · the week you keep</div><p class="what">A fortnight in the Aegean, crew of twelve, tenders and toys and the itinerary left deliberately blank. Placed for you, for the right week.</p></div><span class="price">by arrangement</span></a>
+    <a class="card" href="mailto:me@mostexpensivest.com"><div class="txt"><h4>The Day on the Mooring</h4><div class="who">Amalfi · the unlogged hour</div><p class="what">The true luxury of the sea is not the vessel but the hour that goes entirely unphotographed — nobody on the aft deck with a phone lit.</p></div><span class="price">priceless</span></a>
   </div>
 </div>
 
 <!-- ON THE WATER : the largest -->
 <div class="records">
-  <div class="rh"><h3>The Longest of the Line</h3><div class="rnote">the largest private yachts afloat</div></div>
+  <div class="rh"><h3>The Longest of the Line</h3><div class="rnote">the largest private yachts afloat · each links to its record</div></div>
   <div class="rtable" id="seaTable"><div class="mload" style="padding:20px;color:var(--muted)">reading the seas…</div></div>
 </div>
-<div class="attrib">Yacht specifications sourced from <a href="https://en.wikipedia.org/wiki/List_of_motor_yachts_by_length" target="_blank" rel="noopener">Wikipedia: List of motor yachts by length</a>. Lengths are overall; the true measure is what a man is prepared to float on.</div>
+<div class="attrib">Yacht specifications sourced from <a href="https://en.wikipedia.org/wiki/List_of_motor_yachts_by_length" target="_blank" rel="noopener">Wikipedia: List of motor yachts by length</a>. Rows link to each yacht's full record. Value estimates from <a href="https://www.viravira.co/yachting/the-worlds-most-expensive-super-yachts/" target="_blank" rel="noopener">viravira</a>. Lengths are overall; the true measure is what a man is prepared to float on.</div>
 
 <div class="consult">
   <div><h4>Private Consultation</h4><p>Write to us and be placed with the right maker, in the right city, at the right hour. By appointment, in strictest confidence.</p></div>
@@ -105,15 +105,16 @@ a{color:inherit}.top-rule{height:3px;background:var(--ink)}
   function esc(s){var d=document.createElement("div");d.textContent=s==null?"":String(s);return d.innerHTML;}
   fetch("media/sea_records.json").then(function(r){return r.json();}).then(function(recs){
     var tb=document.getElementById("seaTable");
-    recs.sort(function(a,b){return (b.meters||0)-(a.meters||0);});
+    recs.sort(function(a,b){return (b.feet||0)-(a.feet||0);});
     tb.innerHTML=recs.slice(0,10).map(function(r){
       function m(v){return v!=null?Math.round(v).toLocaleString("en-US"):"";}
-      return '<div class="rrow">'+
-        '<div class="rdesc">'+esc(r.name)+'</div>'+
+      var inner='<div class="rdesc">'+esc(r.name)+'</div>'+
         '<div class="rbuilder">'+esc(r.builder)+'</div>'+
         '<div class="rown">'+esc(r.owner)+'</div>'+
         '<div class="rbuilt">'+esc(r.built)+'</div>'+
-        '<div class="rlength">'+m(r.feet)+' ft</div></div>';
+        '<div class="rlength">'+m(r.feet)+' ft</div>';
+      return r.src ? '<a class="rrow" href="'+esc(r.src)+'" target="_blank" rel="noopener">'+inner+'</a>'
+                   : '<div class="rrow">'+inner+'</div>';
     }).join("");
   }).catch(function(){document.getElementById("seaTable").innerHTML='<div class="mload" style="padding:20px">The seas are momentarily misread.</div>';});
 })();

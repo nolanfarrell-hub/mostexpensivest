@@ -5,7 +5,8 @@
   "feet": 591,
   "built": "2013",
   "owner": "Estate of  Mohammed bin Zayed Al N",
-  "builder": "L\u00fcrssen"
+  "builder": "L\u00fcrssen",
+  "src": "https://en.wikipedia.org/wiki/Azzam_(2013_yacht)"
  },
  {
   "name": "Fulk Al Salamah",
@@ -13,7 +14,8 @@
   "feet": 538,
   "built": "2016",
   "owner": "Sultan Haitham bin Tariq",
-  "builder": "T. Mariotti"
+  "builder": "T. Mariotti",
+  "src": "https://en.wikipedia.org/wiki/Fulk_Al_Salamah_(2016_yacht)"
  },
  {
   "name": "Eclipse",
@@ -21,7 +23,8 @@
   "feet": 533,
   "built": "2009",
   "owner": "Roman Abramovich",
-  "builder": "Blohm + Voss"
+  "builder": "Blohm + Voss",
+  "src": "https://en.wikipedia.org/wiki/Eclipse_(yacht)"
  },
  {
   "name": "Dubai",
@@ -29,7 +32,8 @@
   "feet": 531,
   "built": "2006",
   "owner": "Mohammed bin Rashid Al Maktoum",
-  "builder": "Blohm + Voss"
+  "builder": "Blohm + Voss",
+  "src": "https://en.wikipedia.org/wiki/Dubai_(yacht)"
  },
  {
   "name": "Blue",
@@ -37,7 +41,8 @@
   "feet": 525,
   "built": "2022",
   "owner": "Mansour bin Zayed Al Nahyan",
-  "builder": "L\u00fcrssen"
+  "builder": "L\u00fcrssen",
+  "src": "https://en.wikipedia.org/wiki/Blue_(yacht)"
  },
  {
   "name": "Dilbar",
@@ -45,7 +50,8 @@
   "feet": 512,
   "built": "2016",
   "owner": "Alisher Usmanov     [ a ]",
-  "builder": "L\u00fcrssen"
+  "builder": "L\u00fcrssen",
+  "src": "https://en.wikipedia.org/wiki/Dilbar_(yacht)"
  },
  {
   "name": "Al Said",
@@ -53,7 +59,8 @@
   "feet": 509,
   "built": "2007",
   "owner": "Sultan Haitham bin Tariq",
-  "builder": "L\u00fcrssen"
+  "builder": "L\u00fcrssen",
+  "src": "https://en.wikipedia.org/wiki/Al_Said_(yacht)"
  },
  {
   "name": "Prince Abdulaziz",
@@ -61,7 +68,8 @@
   "feet": 482,
   "built": "1984",
   "owner": "Abdulaziz bin Fahd Al Saud",
-  "builder": "Helsing\u00f8r V\u00e6rft  (Danish Wiki)"
+  "builder": "Helsing\u00f8r V\u00e6rft  (Danish Wiki)",
+  "src": "https://en.wikipedia.org/wiki/Prince_Abdulaziz_(yacht)"
  },
  {
   "name": "A+",
@@ -69,7 +77,8 @@
   "feet": 482,
   "built": "2012",
   "owner": "Mansour bin Zayed Al Nahyan",
-  "builder": "L\u00fcrssen"
+  "builder": "L\u00fcrssen",
+  "src": "https://en.wikipedia.org/wiki/A%2B_(yacht)"
  },
  {
   "name": "Opera",
@@ -77,7 +86,8 @@
   "feet": 480,
   "built": "2023",
   "owner": "Abdullah bin Zayed Al Nahyan",
-  "builder": "L\u00fcrssen"
+  "builder": "L\u00fcrssen",
+  "src": "https://en.wikipedia.org/wiki/Opera_(yacht)"
  },
  {
   "name": "El Mahrousa",
@@ -85,7 +95,8 @@
   "feet": 478,
   "built": "1865",
   "owner": "Arab Republic of Egypt",
-  "builder": "Samuda Brothers"
+  "builder": "Samuda Brothers",
+  "src": "https://en.wikipedia.org/wiki/El_Mahrousa"
  },
  {
   "name": "Nord",
@@ -93,7 +104,8 @@
   "feet": 466,
   "built": "2019",
   "owner": "Alexei Mordashov",
-  "builder": "L\u00fcrssen"
+  "builder": "L\u00fcrssen",
+  "src": "https://en.wikipedia.org/wiki/Nord_(yacht)"
  },
  {
   "name": "Dragonfly",
