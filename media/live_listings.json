@@ -10,7 +10,7 @@
         "verified": "2026-11-01",
         "probe": "researcher",
         "last_check": "2026-11-02",
-        "status": "LIVE"
+        "status": "DEAD"
       },
       {
         "name": "Pre-owned watches (US)",
@@ -254,10 +254,10 @@
         "verified": "2026-11-02",
         "probe": "researcher",
         "last_check": "2026-11-02",
-        "status": "LIVE"
+        "status": "DEAD"
       },
       {
-        "name": "Hermès Birkins by specialist",
+        "name": "Herm\u00e8s Birkins by specialist",
         "url": "https://madisonavenuecouture.com/collections/hermes",
         "marketplace": "Madison Avenue Couture",
         "verified": "2026-11-02",
@@ -287,7 +287,7 @@
         "marketplace": "Loro Piana",
         "verified": "2026-11-02",
         "last_check": "2026-11-02",
-        "status": "LIVE"
+        "status": "WALL"
       },
       {
         "name": "Neapolitan made-to-measure",
@@ -354,13 +354,41 @@
     "sea": [
       {
         "name": "Superyachts for sale",
-        "url": "https://www.fraseryachts.com/en/yachts-for-sale",
+        "url": "https://www.fraseryachts.com/en/buy-a-yacht/",
         "marketplace": "Fraser Yachts",
-        "verified": "2026-11-01",
+        "verified": "2026-11-02",
         "cta": "View superyachts for sale",
         "alt": [
-          "https://www.burgessyachts.com/",
-          "https://www.denisonyachtsales.com/"
+          "https://www.boatinternational.com/yacht-market-intelligence/brokerage-sales-news/most-expensive-yachts-for-sale",
+          "https://www.northropandjohnson.com/"
+        ],
+        "last_check": "2026-11-02",
+        "status": "LIVE"
+      }
+    ],
+    "road": [
+      {
+        "name": "Road cars · live market",
+        "url": "https://bringatrailer.com/ferrari/",
+        "marketplace": "Bring a Trailer",
+        "verified": "2026-11-01",
+        "cta": "Find the market \u00b7 live listings",
+        "alt": [
+          "https://www.dupontregistry.com/"
+        ],
+        "last_check": "2026-11-02",
+        "status": "LIVE"
+      }
+    ],
+    "estate": [
+      {
+        "name": "Estates for sale worldwide",
+        "url": "https://www.christiesrealestate.com/",
+        "marketplace": "Christie's International Real Estate",
+        "verified": "2026-11-01",
+        "cta": "See estates for sale",
+        "alt": [
+          "https://www.compass.com/"
         ],
         "last_check": "2026-11-02",
         "status": "LIVE"

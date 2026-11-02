@@ -52,6 +52,28 @@ a{color:inherit;text-decoration:none}
 .feature:hover .fcap .cta{color:#fff;border-color:#fff}
 @media(max-width:960px){.feature .fcap{left:26px;bottom:20px;max-width:78%;padding:18px 20px}}
 
+/* ============ ROTATING HERO CAROUSEL ============ */
+.hcar{max-width:1240px;margin:40px auto 0;padding:0 24px;position:relative}
+.htrack{position:relative;overflow:hidden;height:clamp(340px,52vw,560px);border:1px solid var(--line);background:var(--ink)}
+.hslide{position:absolute;inset:0;display:block;text-decoration:none;opacity:0;visibility:hidden;transition:opacity .8s ease;z-index:1}
+.hslide.is-active{opacity:1;visibility:visible;z-index:2}
+.himgg{position:absolute;inset:0}
+.himg{width:100%;height:100%;object-fit:cover;display:block}
+.hslide .himgg::before{content:"";position:absolute;left:0;top:0;bottom:0;width:min(620px,78%);z-index:1;background:linear-gradient(90deg,rgba(10,12,18,.8) 0%,rgba(10,12,18,.45) 55%,rgba(10,12,18,0) 100%)}
+.hslide .fcap{position:absolute;left:max(24px,calc((100vw - 1176px)/2));bottom:76px;max-width:540px;z-index:3;color:var(--cream);padding:0}
+.hslide .fcap h2{text-shadow:0 2px 22px rgba(0,0,0,.6)}
+.hslide .fcap .lede{color:#ece5d2}
+.hctl{position:absolute;left:0;right:0;bottom:16px;display:flex;align-items:center;justify-content:center;gap:18px;z-index:5}
+.hdars{display:flex;align-items:center;gap:18px}
+.harrow{background:rgba(20,20,24,.55);border:1px solid rgba(255,255,255,.28);color:var(--cream);width:38px;height:38px;font-size:22px;line-height:1;cursor:pointer;transition:background .2s,border-color .2s;backdrop-filter:blur(4px)}
+.harrow:hover{background:var(--brass);border-color:var(--brass);color:#fff}
+.hdots{display:flex;gap:9px;align-items:center}
+.hdot{width:28px;height:2px;background:rgba(255,255,255,.32);cursor:pointer;transition:background .25s;border:0;padding:0}
+.hdot.is-active{background:var(--gold)}
+@media(max-width:960px){.hslide .fcap{left:26px;bottom:78px;max-width:80%}.hslide .fcap h2{font-size:clamp(24px,5vw,36px)}}
+@media(max-width:560px){.hslide .fcap .lede{max-height:64px;overflow:hidden}.hslide .fcap{bottom:80px}.harrow{width:32px;height:32px}}
+
+
 /* ============ DEPARTMENTS (editorial roster) ============ */
 .dept{max-width:1240px;margin:0 auto;padding:56px 24px 10px}
 .dept .dh{display:flex;align-items:baseline;justify-content:space-between;border-bottom:1px solid var(--ink);padding-bottom:16px;margin-bottom:28px}
@@ -135,32 +157,56 @@ footer{background:var(--ink);color:var(--paper2);margin-top:64px;padding:70px 30
   <div class="claim">For those of a certain means, the world should present itself properly <span class="accent">one object at a time</span>.</div>
 </header>
 
-<!-- FEATURED OBJECT -->
-<a class="feature" href="https://www.fraseryachts.com/en/yachts-for-sale" target="_blank" rel="noopener" data-feature="sea" id="fh-sea">
-  <div class="fimgwrap">
-    <img class="fimg" src="media/img/dep_sea.jpg" alt="Port Hercule, Monaco"/>
+<!-- FEATURED OBJECT : rotating hero carousel -->
+<div class="hcar" id="heroCar">
+  <div class="htrack" id="heroTrack">
+    <a class="hslide is-active" href="https://www.fraseryachts.com/en/buy-a-yacht/" target="_blank" rel="noopener" data-feature="sea" id="fh-sea">
+      <div class="himgg"><img class="himg" src="media/img/dep_sea.jpg" alt="Port Hercule, Monaco"/></div>
+      <div class="fcap">
+        <div class="tag">The Sea · The Mooring</div>
+        <h2>Monaco, at Anchor</h2>
+        <div class="lede">Where the world's longest and most expensive lines moor side by side — Port Hercule, the harbour that holds more per square metre than most private collections. Among them, the 591-ft Azzam, the record that reset the bar.</div>
+        <div class="meta">Port Hercule · Monaco · the anchorage of record</div>
+        <div class="cta" data-hero-cta="sea">View superyachts for sale</div>
+      </div>
+    </a>
+    <a class="hslide" href="https://bringatrailer.com/ferrari/" target="_blank" rel="noopener" data-feature="road" id="fh-road">
+      <div class="himgg"><img class="himg" src="media/img/road.jpg" alt="A concours-level motorcar"/></div>
+      <div class="fcap">
+        <div class="tag">The Road · The Machine</div>
+        <h2>The Spirit of Ecstasy</h2>
+        <div class="lede">A body coachbuilt by hand, a grille of polished chrome, and the long shadow of history. The road's finest are offered at the top of the market, where provenance is the price.</div>
+        <div class="meta">Rolls-Royce · concours condition · the paved record</div>
+        <div class="cta" data-hero-cta="road">Find the market · live listings</div>
+      </div>
+    </a>
+    <a class="hslide" href="https://www.christiesrealestate.com/" target="_blank" rel="noopener" data-feature="estate" id="fh-estate">
+      <div class="himgg"><img class="himg" src="media/img/dep_estate.jpg" alt="A grand English estate"/></div>
+      <div class="fcap">
+        <div class="tag">Home &amp; Grounds · The Estate</div>
+        <h2>Blenheim, at Full Scale</h2>
+        <div class="lede">A palace built as a promise, with grounds measured in hundreds of acres and a history counted in centuries. The world's great estates change hands through the houses that know them.</div>
+        <div class="meta">England · baroque in stone · the family seat</div>
+        <div class="cta" data-hero-cta="estate">See estates for sale</div>
+      </div>
+    </a>
+    <a class="hslide" href="https://www.1stdibs.com/buy/art/" target="_blank" rel="noopener" data-feature="art" id="fh-art">
+      <div class="himgg"><img class="himg" src="media/img/hero_salvator.jpg" alt="Leonardo da Vinci, Salvator Mundi"/></div>
+      <div class="fcap">
+        <div class="tag">Art · The Record</div>
+        <h2>Salvator Mundi — $450.3M</h2>
+        <div class="lede">The most expensive painting ever sold. The blessing hand, the crystal orb, and the number every other canvas is now measured against.</div>
+        <div class="meta">Leonardo da Vinci · Christie's New York · the high-water mark</div>
+        <div class="cta" data-hero-cta="art">Find the market · live listings</div>
+      </div>
+    </a>
   </div>
-  <div class="fcap">
-    <div class="tag">The Sea · The Mooring</div>
-    <h2>Monaco, at Anchor</h2>
-    <div class="lede">Where the world's longest and most expensive lines moor side by side — Port Hercule, the harbour that holds more per square metre than most private collections. Among them, the 591-ft Azzam, the record that reset the bar.</div>
-    <div class="meta">Port Hercule · Monaco · the anchorage of record</div>
-    <div class="cta" data-hero-cta="sea">View superyachts for sale</div>
+  <div class="hctl">
+    <button class="harrow har-prev" aria-label="Previous">‹</button>
+    <div class="hdots" id="heroDots"></div>
+    <button class="harrow har-next" aria-label="Next">›</button>
   </div>
-</a>
-
-<a class="feature" href="https://www.1stdibs.com/buy/art/" target="_blank" rel="noopener" data-feature="art" id="fh-art">
-  <div class="fimgwrap">
-    <img class="fimg" src="media/img/hero_salvator.jpg" alt="Leonardo da Vinci, Salvator Mundi"/>
-  </div>
-  <div class="fcap">
-    <div class="tag">Art · The Record</div>
-    <h2>Salvator Mundi — $450.3M</h2>
-    <div class="lede">The most expensive painting ever sold. The blessing hand, the crystal orb, and the number every other canvas is now measured against.</div>
-    <div class="meta">Leonardo da Vinci · Christie's New York · the high-water mark</div>
-    <div class="cta" data-hero-cta="art">Find the market · live listings</div>
-  </div>
-</a>
+</div>
 
 <!-- THE LEDGER : live records across departments -->
 <div class="records" style="max-width:1240px;margin:56px auto 0;padding:0 24px">
@@ -333,6 +379,33 @@ footer{background:var(--ink);color:var(--paper2);margin-top:64px;padding:70px 30
       if(cta&&best.cta){cta.textContent=best.cta;}
     });
   }).catch(function(){});
+  // ROTATING HERO CAROUSEL
+  try{
+    var car=document.getElementById("heroCar");
+    var track=document.getElementById("heroTrack");
+    var slides=[].slice.call(track.querySelectorAll(".hslide"));
+    var dotsBox=document.getElementById("heroDots");
+    var idx=0,timer=null,IV=6500;
+    if(slides.length>1){
+      slides.forEach(function(s,i){
+        var d=document.createElement("button");d.className="hdot"+(i===0?" is-active":"");d.setAttribute("aria-label","Slide "+(i+1));
+        d.addEventListener("click",function(){go(i,true);});dotsBox.appendChild(d);
+      });
+      function show(){
+        slides.forEach(function(s,i){s.classList.toggle("is-active",i===idx);});
+        var ds=dotsBox.querySelectorAll(".hdot");
+        ds.forEach(function(d,i){d.classList.toggle("is-active",i===idx);});
+      }
+      function go(n,manual){idx=(n+slides.length)%slides.length;show();if(manual)restart();}
+      function restart(){if(timer)clearInterval(timer);timer=setInterval(function(){go(idx+1,false);},IV);}
+      function next(){go(idx+1,true);}function prev(){go(idx-1,true);}
+      var bP=car.querySelector(".har-prev"),bN=car.querySelector(".har-next");
+      if(bP)bP.addEventListener("click",prev); if(bN)bN.addEventListener("click",next);
+      car.addEventListener("mouseenter",function(){if(timer)clearInterval(timer);});
+      car.addEventListener("mouseleave",restart);
+      restart();show();
+    } else { if(dotsBox)dotsBox.style.display="none"; }
+  }catch(e){}
 })();
 </script>
 </body>
