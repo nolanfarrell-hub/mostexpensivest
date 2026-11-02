@@ -194,20 +194,18 @@
     ],
     "field": [
       {
-        "name": "Gunsmiths & makers",
-        "url": "https://www.bossandco.com/",
-        "marketplace": "Boss & Co",
-        "verified": "2026-11-01",
-        "probe": "researcher",
-        "last_check": "2026-11-01",
-        "status": "LIVE"
-      },
-      {
         "name": "Shotguns for sale",
         "url": "https://www.gunsinternational.com/guns-for-sale-online/shotguns.cfm",
         "marketplace": "Guns International",
         "verified": "2026-11-01",
-        "note": "confirmed by Nolan",
+        "status": "WALL",
+        "last_check": "2026-11-01"
+      },
+      {
+        "name": "Holland & Holland \u00b7 buy/commission",
+        "url": "https://www.hollandandholland.com/",
+        "marketplace": "Holland & Holland",
+        "verified": "2026-11-01",
         "last_check": "2026-11-01",
         "status": "WALL"
       },
@@ -215,6 +213,30 @@
         "name": "Purdey \u00b7 buy direct",
         "url": "https://www.purdey.com/",
         "marketplace": "James Purdey & Sons",
+        "verified": "2026-11-01",
+        "last_check": "2026-11-01",
+        "status": "LIVE"
+      },
+      {
+        "name": "Driven grouse days (Scotland)",
+        "url": "https://williampowellsporting.co.uk/driven-grouse-shooting/",
+        "marketplace": "William Powell Sporting",
+        "verified": "2026-11-01",
+        "last_check": "2026-11-01",
+        "status": "LIVE"
+      },
+      {
+        "name": "Custom gun rooms",
+        "url": "https://www.thebespokeguncabinetcompany.co.uk/",
+        "marketplace": "The Bespoke Gun Cabinet Company",
+        "verified": "2026-11-01",
+        "last_check": "2026-11-01",
+        "status": "LIVE"
+      },
+      {
+        "name": "Purdey Shooting School \u00b7 tuition",
+        "url": "https://jamespurdey.simplybook.me/",
+        "marketplace": "Purdey at Royal Berkshire",
         "verified": "2026-11-01",
         "last_check": "2026-11-01",
         "status": "LIVE"
