@@ -8,7 +8,7 @@
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;700&family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;1,400;1,500&family=Inter:wght@300;400;500&display=swap" rel="stylesheet">
 <style>
-:root{--cream:#eff0e6;--paper:#f7f7f0;--ink:#1a1c15;--ink2:#3e4234;--muted:#828469;--brass:#a58a4b;--brass-dark:#89703f;--line:#dcdfc8;--faint:#b9bda0;--verde:#3f4a2a;--verde-soft:#5c6a3a}
+:root{--cream:#eff0e6;--paper:#f7f7f0;--ink:#1a1c15;--ink2:#3e4234;--muted:#828469;--brass:#a58a4b;--brass-dark:#89703f;--line:#dcdfc8;--faint:#b9bda0;--verde:#3f4a2a;--verde-soft:#5c6a3a;--gold:#c8a95c}
 *{margin:0;padding:0;box-sizing:border-box}html{scroll-behavior:smooth}
 body{background:var(--cream);color:var(--ink);font-family:'Inter',sans-serif;-webkit-font-smoothing:antialiased;line-height:1.65}
 a{color:inherit}.top-rule{height:3px;background:var(--ink)}
@@ -20,14 +20,30 @@ a{color:inherit}.top-rule{height:3px;background:var(--ink)}
 .dep-head .deck{max-width:640px;margin:24px auto 0;font-style:italic;font-family:'Cormorant Garamond',serif;font-size:clamp(17px,2.2vw,21px);color:var(--ink2);line-height:1.5}
 .dept{max-width:1100px;margin:0 auto;padding:40px 26px}
 .grid{display:grid;grid-template-columns:repeat(3,1fr);gap:0}
-.card{padding:26px 24px;border-right:1px solid var(--line);border-top:1px solid var(--line)}
-.grid .card:nth-child(3n+3){border-right:none}
-.card h4{font-family:'Cormorant Garamond',serif;font-weight:600;font-size:22px;line-height:1.2;margin-bottom:8px}
-.card .who{font-size:11px;letter-spacing:2px;text-transform:uppercase;color:var(--muted);margin-bottom:14px}
-.card .what{font-size:13px;color:var(--ink2);line-height:1.55}
-.card .price{display:block;margin-top:16px;font-family:'Cormorant Garamond',serif;font-size:18px;font-weight:500;color:var(--brass-dark)}
+.card{padding:26px 24px;border-right:1px solid var(--line);border-top:1px solid var(--line);text-decoration:none;display:block}
+.card .txt h4{font-family:'Cormorant Garamond',serif;font-weight:600;font-size:22px;line-height:1.2;margin-bottom:8px}
+.card .txt .who{font-size:11px;letter-spacing:2px;text-transform:uppercase;color:var(--muted);margin-bottom:14px}
+.card .txt .what{font-size:13px;color:var(--ink2);line-height:1.55}
+.card .price{display:inline-block;margin-top:16px;font-family:'Cormorant Garamond',serif;font-size:18px;font-weight:500;color:var(--brass-dark);border-bottom:1px solid var(--brass-dark);padding-bottom:2px}
 .card:hover{background:var(--paper)}
-.consult{max-width:1100px;margin:0 auto;padding:44px 30px 8px;display:flex;align-items:center;justify-content:space-between;gap:26px;flex-wrap:wrap;border-top:1px solid var(--line)}.consult h4{font-family:'Cormorant Garamond',serif;font-weight:600;font-size:24px;margin-bottom:6px}.consult p{font-size:13px;color:var(--ink2);max-width:640px}.consult .cta a{font-size:11px;letter-spacing:3px;text-transform:uppercase;text-decoration:none;color:var(--verde-soft);font-weight:600;border-bottom:1px solid var(--verde-soft);padding-bottom:4px;white-space:nowrap}
+.grid .card:nth-child(3n+3){border-right:none}
+.attrib{max-width:1100px;margin:18px auto 0;padding:0 30px;font-size:10.5px;color:var(--faint);letter-spacing:.5px;line-height:1.6}
+.attrib a{color:var(--brass-dark);text-decoration:none}
+.records{max-width:1100px;margin:60px auto 0;padding:0 30px}
+.records .rh{display:flex;align-items:baseline;justify-content:space-between;border-top:3px solid var(--ink);padding-top:22px;margin-bottom:6px}
+.records .rh h3{font-family:'Space Grotesk',sans-serif;font-size:12px;letter-spacing:3px;text-transform:uppercase;font-weight:600;color:var(--ink)}
+.records .rh .rnote{font-size:11px;letter-spacing:2px;text-transform:uppercase;color:var(--muted)}
+.rtable{border-top:1px solid var(--line)}
+.rrow{display:grid;grid-template-columns:1.5fr .8fr .9fr .7fr .8fr;gap:14px;padding:15px 0;border-bottom:1px solid var(--line);align-items:baseline;text-decoration:none;color:inherit}
+.rrow:hover{background:var(--paper)}
+.rdesc{font-family:'Cormorant Garamond',serif;font-size:18px;font-weight:500;color:var(--ink);line-height:1.25}
+.rkind{font-size:11px;letter-spacing:1px;text-transform:uppercase;color:var(--muted)}
+.rloc{font-size:12px;color:var(--muted)}
+.ryear{font-size:12px;color:var(--muted);text-align:right}
+.rprice{font-family:'Space Grotesk',sans-serif;font-weight:700;font-size:17px;color:var(--brass-dark);text-align:right}
+.rgo{font-size:10px;color:var(--verde-soft);letter-spacing:1px}
+@media(max-width:760px){.rrow{grid-template-columns:1fr .8fr}.rkind,.rloc,.rgo{display:none}}
+.consult{max-width:1100px;margin:0 auto;padding:60px 30px 8px;display:flex;align-items:center;justify-content:space-between;gap:26px;flex-wrap:wrap;border-top:1px solid var(--line)}.consult h4{font-family:'Cormorant Garamond',serif;font-weight:600;font-size:24px;margin-bottom:6px}.consult p{font-size:13px;color:var(--ink2);max-width:640px}.consult .cta a{font-size:11px;letter-spacing:3px;text-transform:uppercase;text-decoration:none;color:var(--verde-soft);font-weight:600;border-bottom:1px solid var(--verde-soft);padding-bottom:4px;white-space:nowrap}
 .bme{font-family:'Space Grotesk',sans-serif;font-weight:700;font-size:22px;letter-spacing:1px;color:var(--ink);display:inline-flex;align-items:baseline;vertical-align:middle}.bme .bd{color:var(--brass);font-weight:500;font-size:.55em;margin:0 2px}
 .backlink{max-width:1100px;margin:0 auto;padding:10px 30px 0}
 .backlink a{font-size:11px;letter-spacing:3px;text-transform:uppercase;text-decoration:none;color:var(--verde-soft)}
@@ -38,13 +54,12 @@ a{color:inherit}.top-rule{height:3px;background:var(--ink)}
 /* ===== DEPARTMENT HERO ===== */
 .dep-hero{position:relative;height:clamp(240px,34vw,380px);overflow:hidden;border-bottom:1px solid var(--line)}
 .dep-hero img{width:100%;height:100%;object-fit:cover;display:block}
-.dep-hero::after{content:"";position:absolute;left:0;right:0;bottom:0;height:100%;background:linear-gradient(to right,rgba(12,12,14,.9) 0%,rgba(12,12,14,.62) 40%,rgba(12,12,14,0) 65%);z-index:1}
-.dep-hero .dhcap{position:absolute;left:max(24px,calc((100vw - 1100px)/2));bottom:26px;max-width:480px;color:var(--cream);z-index:2}
+.dep-hero::after{content:"";position:absolute;left:0;right:0;bottom:0;height:100%;background:linear-gradient(to right,rgba(10,12,8,.9) 0%,rgba(10,12,8,.6) 44%,rgba(10,12,8,.05) 70%);z-index:1}
+.dep-hero .dhcap{position:absolute;left:max(24px,calc((100vw - 1100px)/2));bottom:26px;max-width:500px;color:var(--cream);z-index:2}
 .dep-hero .dhcap .dkat{font-size:10px;letter-spacing:3.5px;text-transform:uppercase;color:var(--gold);margin-bottom:6px}
 .dep-hero .dhcap h2{font-family:'Cormorant Garamond',serif;font-weight:500;font-size:clamp(30px,4.4vw,50px);line-height:1.05;color:#fff}
-.dep-hero .dhcap p{font-family:'Cormorant Garamond',serif;font-style:italic;font-size:16px;color:#e9e2cf;margin-top:8px}
+.dep-hero .dhcap p{font-family:'Cormorant Garamond',serif;font-style:italic;font-size:16px;color:#e6ead9;margin-top:8px}
 @media(max-width:900px){.dep-hero .dhcap{left:26px;bottom:20px}}
-
 </style>
 </head>
 <body>
@@ -64,14 +79,21 @@ a{color:inherit}.top-rule{height:3px;background:var(--ink)}
 </div>
 <div class="dept">
   <div class="grid">
-    <div class="card"><h4>The Driven Grouse, Highlands</h4><div class="who">Scotland · August, sharp</div><p class="what">A line of eleven guns on the moor at dawn, two handlers, and the kind of silence you only get where the dogs outrank the guests. The ritual of a season.</p><span class="price">by invitation · season</span></div>
-    <div class="card"><h4>Sporting Clays, Abroad</h4><div class="who">Argentina · the autumn fair</div><p class="what">A week of high-volume shooting on a pampas estancia where the birds are many and the etiquette is old-world. The most expensivest cause ever invented.</p><span class="price">by arrangement</span></div>
-    <div class="card"><h4>The Side-by-Side, Fitted</h4><div class="who">bespoke · eleven months</div><p class="what">A hand-built gun fitted over the better part of a year, the stock a ghost of your hands by the time it is done. The quietest argument ever made in steel.</p><span class="price">bespoke · on request</span></div>
-    <div class="card"><h4>The High Seat at Dawn</h4><div class="who">wherever the field is · solitary</div><p class="what">One gun, one keeper, the light coming up over a cold field. The least expensive thing in this department, and the one that most often matters.</p><span class="price">included</span></div>
-    <div class="card"><h4>The Estate's Gun Room</h4><div class="who">the lodge · climate-perfect</div><p class="what">A humidor, a safe, two dogs asleep on the lacquered floor. The room is not showing off; it is simply the address of the field's next chapter.</p><span class="price">included</span></div>
-    <div class="card"><h4>The Masterclass</h4><div class="who">oldest shooting school · by arrangement</div><p class="what">A mornings-only tutelage from a man whose surname is already on the wall, so your form is beyond a single question. Elegance, taught.</p><span class="price">by arrangement</span></div>
+    <a class="card" href="https://fieldsports-journal.com/game-shooting/driven-grouse-shooting-explained/" target="_blank" rel="noopener"><div class="txt"><h4>The Driven Grouse, Highlands</h4><div class="who">Scotland · August, sharp</div><p class="what">A line of guns on the moor at dawn, dogs holding the line. The rarest sport in British shooting — a wild bird, nothing released — and the hundred-brace day that starts at £20,000.</p></div><span class="price">the grouse day, priced ↗</span></a>
+    <a class="card" href="https://finance.yahoo.com/markets/commodities/articles/bonnie-clyde-shotgun-sells-1-142100229.html" target="_blank" rel="noopener"><div class="txt"><h4>The Side-by-Side, Fitted</h4><div class="who">bespoke · the record of the field</div><p class="what">A hand-built gun is the quietest argument ever made in steel. The record now sits with Clyde Barrow's 'Whippet' Browning — the most expensive shotgun ever sold at auction.</p></div><span class="price">the $1M 'Whippet' ↗</span></a>
+    <a class="card" href="https://www.thefield.co.uk/shooting/most-expensive-guns-26087" target="_blank" rel="noopener"><div class="txt"><h4>Sporting Clays, Abroad</h4><div class="who">bespoke makers · the old world</div><p class="what">Purdey, Fabbri, Holland &amp; Holland — the guns that start at six figures and climb with the engraver's name. The Field's own list of the most expensive guns in the world.</p></div><span class="price">the £100K+ list ↗</span></a>
+    <a class="card" href="https://fieldsports-journal.com/game-shooting/driven-grouse-shooting-explained/" target="_blank" rel="noopener"><div class="txt"><h4>The High Seat at Dawn</h4><div class="who">the moor · what it really costs</div><p class="what">The ground funds keepering, predator control and heather for a full year before a single bird is shot — Moorland Association members spend £52 million a year on the moors.</p></div><span class="price">the £52M moor ↗</span></a>
+    <a class="card" href="mailto:me@mostexpensivest.com"><div class="txt"><h4>The Estate's Gun Room</h4><div class="who">the lodge · climate-perfect</div><p class="what">A humidor, a safe, two dogs asleep on the lacquered floor. The address of the field's next chapter — kept for you.</p></div><span class="price">by appointment</span></a>
+    <a class="card" href="mailto:me@mostexpensivest.com"><div class="txt"><h4>The Masterclass</h4><div class="who">oldest shooting school · by arrangement</div><p class="what">Tutelage from a man whose surname is already on the wall, so your form is beyond a single question. Placed for the right season.</p></div><span class="price">by arrangement</span></a>
   </div>
 </div>
+
+<!-- THE FIELD AT ITS PRICES -->
+<div class="records">
+  <div class="rh"><h3>Records of the Field</h3><div class="rnote">the sporting life, and what it costs</div></div>
+  <div class="rtable" id="fieldTable"><div class="mload" style="padding:20px;color:var(--muted)">reading the field…</div></div>
+</div>
+<div class="attrib">Figures sourced from live references including <a href="https://finance.yahoo.com/markets/commodities/articles/bonnie-clyde-shotgun-sells-1-142100229.html" target="_blank" rel="noopener">Rock Island Auction</a>, <a href="https://fieldsports-journal.com/game-shooting/driven-grouse-shooting-explained/" target="_blank" rel="noopener">Fieldsports Journal</a>, <a href="https://www.thefield.co.uk/shooting/most-expensive-guns-26087" target="_blank" rel="noopener">The Field</a> and <a href="https://en.wikipedia.org/wiki/Driven_grouse_shooting" target="_blank" rel="noopener">Wikipedia</a>. Prices shown in their original currency.</div>
 
 <div class="consult">
   <div><h4>Private Consultation</h4><p>Write to us and be placed with the right maker, in the right city, at the right hour. By appointment, in strictest confidence.</p></div>
@@ -79,5 +101,29 @@ a{color:inherit}.top-rule{height:3px;background:var(--ink)}
 </div>
 <div class="backlink"><a href="index.html#departments">← All Departments</a></div>
 <div class="copyright">© The Most Expensivest, MMXXVI</div>
+<script>
+(function(){
+  function esc(s){var d=document.createElement("div");d.textContent=s==null?"":String(s);return d.innerHTML;}
+  function money(r){
+    var n=r.price;
+    if(n==null||isNaN(n)||n<=0)return "by invitation";
+    var sym=r.ccy==="GBP"?"£":"$";
+    var m=n>=1000000?(n/1000000).toFixed(n%1000000===0?0:1)+"m":Math.round(n).toLocaleString("en-US");
+    return sym+m;
+  }
+  fetch("media/field_records.json",{cache:"no-store"}).then(function(r){return r.json();}).then(function(recs){
+    var tb=document.getElementById("fieldTable");
+    recs.sort(function(a,b){return (b.price||0)-(a.price||0);});
+    tb.innerHTML=recs.slice(0,10).map(function(r){
+      var inner='<div class="rdesc">'+esc(r.name)+'</div>'+
+        '<div class="rkind">'+esc(r.kind)+'</div>'+
+        '<div class="rloc">'+esc(r.locale)+'</div>'+
+        '<div class="ryear">'+esc(r.year)+'</div>'+
+        '<div class="rprice">'+money(r)+' · <span class="rgo">record ↗</span></div>';
+      return '<a class="rrow" href="'+esc(r.src)+'" target="_blank" rel="noopener">'+inner+'</a>';
+    }).join("");
+  }).catch(function(){document.getElementById("fieldTable").innerHTML='<div class="mload" style="padding:20px">The field is momentarily misread.</div>';});
+})();
+</script>
 </body>
 </html>

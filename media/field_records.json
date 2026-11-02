@@ -1,0 +1,56 @@
+[
+ {
+  "name": "The 'Whippet' \u00b7 Clyde Barrow's Browning Auto-5",
+  "price": 1000000,
+  "ccy": "USD",
+  "year": "2026",
+  "kind": "Shotgun",
+  "locale": "Rock Island, Bedford TX",
+  "src": "https://finance.yahoo.com/markets/commodities/articles/bonnie-clyde-shotgun-sells-1-142100229.html"
+ },
+ {
+  "name": "The 100-Brace Driven Grouse Day",
+  "price": 20000,
+  "ccy": "GBP",
+  "year": "2026",
+  "kind": "The moor \u00b7 per day",
+  "locale": "Highlands moorland, Scotland",
+  "src": "https://fieldsports-journal.com/game-shooting/driven-grouse-shooting-explained/"
+ },
+ {
+  "name": "Purdey Over-and-Under \u00b7 new commission",
+  "price": 108720,
+  "ccy": "GBP",
+  "year": "2025",
+  "kind": "Side-by-side \u00b7 bespoke",
+  "locale": "James Purdey & Sons, London",
+  "src": "https://www.thefield.co.uk/shooting/most-expensive-guns-26087"
+ },
+ {
+  "name": "Moorland Management \u00b7 the annual bill",
+  "price": 52500000,
+  "ccy": "GBP",
+  "year": "2026",
+  "kind": "The moor \u00b7 keepering a year",
+  "locale": "Moorland Association, England & Wales",
+  "src": "https://fieldsports-journal.com/game-shooting/driven-grouse-shooting-explained/"
+ },
+ {
+  "name": "Holland & Holland Punt Gun",
+  "price": 117500,
+  "ccy": "USD",
+  "year": "2021",
+  "kind": "Shotgun \u00b7 2-bore",
+  "locale": "Rock Island Auction",
+  "src": "https://www.thefield.co.uk/shooting/most-expensive-guns-26087"
+ },
+ {
+  "name": "The Driven Grouse Season \u00b7 12 Aug\u201310 Dec",
+  "price": 0,
+  "ccy": "",
+  "year": "2026",
+  "kind": "The season \u00b7 by invitation",
+  "locale": "England, Scotland, Wales",
+  "src": "https://en.wikipedia.org/wiki/Driven_grouse_shooting"
+ }
+]
