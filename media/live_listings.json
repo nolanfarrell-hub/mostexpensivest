@@ -87,7 +87,7 @@
     "sea": [
       {
         "name": "Superyachts for sale",
-        "url": "https://www.fraseryachts.com/en/yachts-for-sale",
+        "url": "https://www.fraseryachts.com/en/buy-a-yacht/",
         "marketplace": "Fraser Yachts",
         "verified": "2026-11-01",
         "last_check": "2026-11-01",
@@ -95,8 +95,8 @@
       },
       {
         "name": "The most expensive afloat",
-        "url": "https://www.burgessyachts.com/",
-        "marketplace": "Burgess",
+        "url": "https://www.boatinternational.com/yacht-market-intelligence/brokerage-sales-news/most-expensive-yachts-for-sale",
+        "marketplace": "BOAT International",
         "verified": "2026-11-01",
         "last_check": "2026-11-01",
         "status": "LIVE"
