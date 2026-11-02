@@ -1,0 +1,5 @@
+# Python virtualenv -- never commit to GitHub Pages repo
+.venv-me/
+
+# OS cruft
+.DS_Store
