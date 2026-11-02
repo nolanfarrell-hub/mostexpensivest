@@ -60,21 +60,24 @@
   "price": 25305000,
   "year": "2025",
   "auctioneer": "Gooding Christie's",
-  "locale": "Pebble Beach "
+  "locale": "Pebble Beach ",
+  "src": "https://en.wikipedia.org/wiki/Ferrari_250"
  },
  {
   "name": "Ferrari 410 Sport",
   "price": 23000000,
   "year": "2014",
   "auctioneer": "Rick Cole Auctions",
-  "locale": "Monterey"
+  "locale": "Monterey",
+  "src": "https://en.wikipedia.org/wiki/Ferrari_410_S"
  },
  {
   "name": "Ferrari 410 Sport Spider",
   "price": 22005000,
   "year": "2022",
   "auctioneer": "RM Sotheby's",
-  "locale": "Monterey"
+  "locale": "Monterey",
+  "src": "https://rmsothebys.com/auctions/mo22/lots/r0036-1955-ferrari-410-sport-spider-by-scaglietti/"
  },
  {
   "name": "Ferrari 290 MM",
