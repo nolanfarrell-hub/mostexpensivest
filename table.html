@@ -20,12 +20,18 @@ a{color:inherit}.top-rule{height:3px;background:var(--ink)}
 .dep-head .deck{max-width:640px;margin:24px auto 0;font-style:italic;font-family:'Cormorant Garamond',serif;font-size:clamp(17px,2.2vw,21px);color:var(--ink2);line-height:1.5}
 .dept{max-width:1100px;margin:0 auto;padding:40px 26px}
 .grid{display:grid;grid-template-columns:repeat(3,1fr);gap:0}
-.card{padding:26px 24px;border-right:1px solid var(--line);border-top:1px solid var(--line);text-decoration:none;display:block}
-.card .txt h4{font-family:'Cormorant Garamond',serif;font-weight:600;font-size:22px;line-height:1.2;margin-bottom:8px}
-.card .txt .who{font-size:11px;letter-spacing:2px;text-transform:uppercase;color:var(--muted);margin-bottom:14px}
+.card{padding:0;border-right:1px solid var(--line);border-top:1px solid var(--line);text-decoration:none;display:block;background:var(--cream)}
+.card .mark{position:relative;height:186px;overflow:hidden;border-bottom:1px solid var(--line);background:radial-gradient(130% 150% at 18% 8%, #23261d 0%, #141910 48%, #233726 100%)}
+.card .mark svg{position:absolute;inset:0;margin:auto;width:74%;max-height:80%;height:auto}
+.card .plate{display:flex;align-items:baseline;gap:9px;padding:16px 20px 0;font-size:10px;letter-spacing:3px;text-transform:uppercase;color:var(--faint)}
+.card .plate .pnum{color:var(--verde-soft);font-weight:500}
+.card .txt{padding:12px 20px 22px}
+.card .txt h4{font-family:'Cormorant Garamond',serif;font-weight:600;font-size:22px;line-height:1.2;margin-bottom:6px}
+.card .txt .who{font-size:11px;letter-spacing:2px;text-transform:uppercase;color:var(--muted);margin-bottom:11px}
 .card .txt .what{font-size:13px;color:var(--ink2);line-height:1.55}
-.card .price{display:inline-block;margin-top:16px;font-family:'Cormorant Garamond',serif;font-size:18px;font-weight:500;color:var(--brass-dark);border-bottom:1px solid var(--brass-dark);padding-bottom:2px}
+.card .price{display:inline-block;margin-top:15px;font-family:'Cormorant Garamond',serif;font-size:18px;font-weight:500;color:var(--brass-dark);border-bottom:1px solid var(--brass-dark);padding-bottom:2px}
 .card:hover{background:var(--paper)}
+.card:hover .mark{filter:brightness(1.08)}
 .grid .card:nth-child(3n+3){border-right:none}
 .attrib{max-width:1100px;margin:18px auto 0;padding:0 30px;font-size:10.5px;color:var(--faint);letter-spacing:.5px;line-height:1.6}
 .attrib a{color:var(--brass-dark);text-decoration:none}
@@ -60,6 +66,11 @@ a{color:inherit}.top-rule{height:3px;background:var(--ink)}
 .dep-hero .dhcap h2{font-family:'Cormorant Garamond',serif;font-weight:500;font-size:clamp(30px,4.4vw,50px);line-height:1.05;color:#fff}
 .dep-hero .dhcap p{font-family:'Cormorant Garamond',serif;font-style:italic;font-size:16px;color:#e9e2cf;margin-top:8px}
 @media(max-width:900px){.dep-hero .dhcap{left:26px;bottom:20px}}
+
+/* emblem marks */
+.mark .mline{stroke:var(--brass);stroke-width:2;fill:none;stroke-linecap:round;stroke-linejoin:round}
+.mark .mgold{stroke:var(--gold);stroke-width:1.5;fill:none;stroke-linecap:round}
+.mark .mfill{stroke:var(--brass);stroke-width:2;fill:rgba(200,169,92,.07);stroke-linecap:round}
 </style>
 </head>
 <body>
@@ -79,12 +90,95 @@ a{color:inherit}.top-rule{height:3px;background:var(--ink)}
 </div>
 <div class="dept">
   <div class="grid">
-    <a class="card" href="https://cubancigaronline.com/" target="_blank" rel="noopener"><div class="txt"><h4>The Handmade from the Vega</h4><div class="who">Cuba · long-filler, in stock</div><p class="what">Cohiba, Montecristo, the rolled-by-hand long-fillers — in volume and in single boxes, listed now. The price of a good smoke is whatever a good smoke is today; buy it from the house that moves the most.</p></div><span class="price">the cigar, in stock ↗</span></a>
-    <a class="card" href="https://www.whiskyauctioneer.com/" target="_blank" rel="noopener"><div class="txt"><h4>The Single Malt from the Still</h4><div class="who">Speyside & Islay · on the block</div><p class="what">A private cask rather than a release — but if you want to buy whisky at the top, the auctioneer's live rooms list rare single malts as they come up, bottle by bottle, week by week.</p></div><span class="price">the live whisky auction ↗</span></a>
-    <a class="card" href="https://cubancigaronline.com/humidors/" target="_blank" rel="noopener"><div class="txt"><h4>Humidors & the Vaulted Cellar</h4><div class="who">Bordeaux & Burgundy · a place to keep it</div><p class="what">The vaulted cellar starts with somewhere to keep the good bottles — a climate-perfect humidor room or cabinet, listed now. The right storage is the quiet half of owning anything collectible.</p></div><span class="price">the live humidor market ↗</span></a>
-    <a class="card" href="https://www.cigarmonster.com/" target="_blank" rel="noopener"><div class="txt"><h4>The Humidor Room</h4><div class="who">climate-perfect · daily deals</div><p class="what">Walk-in cedar, desktop boxes, and the sixty-eight-degree room that keeps a decade of slow decisions. Cigar Monster lists humidors and the cigars to fill them, live.</p></div><span class="price">the humidor, listed now ↗</span></a>
-    <a class="card" href="mailto:me@mostexpensivest.com"><div class="txt"><h4>The Settled Table</h4><div class="who">Wherever the fire is · the room</div><p class="what">The real luxury of the table is not what is poured, but who may sit at it. A room set for those who know how to arrive.</p></div><span class="price">by introduction</span></a>
-    <a class="card" href="mailto:me@mostexpensivest.com"><div class="txt"><h4>The Right Glass</h4><div class="who">crystalline · hand-blown · the instrument</div><p class="what">The glass that changes the pour — weighted, made for one spirit, and invisible while doing its work. Placed for you on request.</p></div><span class="price">placed on request</span></a>
+
+    <a class="card" href="https://cubancigaronline.com/" target="_blank" rel="noopener">
+      <div class="mark">
+        <svg viewBox="0 0 180 120" aria-hidden="true"><g>
+          <path class="mfill" d="M44 62 C56 55 120 55 132 62 C135 66 135 73 132 77 C120 84 56 84 44 77 C41 73 41 66 44 62 Z"/>
+          <rect class="mline" x="54" y="57" width="22" height="25" rx="2"/>
+          <ellipse class="mline" cx="132" cy="69" rx="2.6" ry="9"/>
+          <path class="mgold" d="M58 50 C55 44 64 39 60 32 C58 28 62 25 66 22"/>
+          <path class="mgold" d="M74 52 C72 47 78 43 75 37"/>
+        </g></svg>
+      </div>
+      <div class="plate"><span class="pnum">I</span><span>the handmade</span></div>
+      <div class="txt"><h4>The Handmade Cigar</h4><div class="who">Cuba · long-filler, listed now</div><p class="what">Rolled by hand, boxed, and sitting in stock today — Cohiba, Montecristo and the long-fillers, in volume and by the box.</p><span class="price">the cigar, in stock ↗</span></div>
+    </a>
+
+    <a class="card" href="https://www.whiskyauctioneer.com/" target="_blank" rel="noopener">
+      <div class="mark">
+        <svg viewBox="0 0 180 120" aria-hidden="true"><g>
+          <path class="mfill" d="M64 30 L118 30 L111 78 C110 82 72 82 71 78 Z"/>
+          <ellipse class="mline" cx="91" cy="30" rx="27" ry="6"/>
+          <path class="mline" d="M74 60 L109 60"/>
+          <path class="mline" d="M66 84 H117 M63 92 H120"/>
+          <path class="mgold" d="M72 42 L110 42"/>
+          <path class="mline" d="M73 36 L109 36"/>
+        </g></svg>
+      </div>
+      <div class="plate"><span class="pnum">II</span><span>the single malt</span></div>
+      <div class="txt"><h4>The Single Malt, on the Block</h4><div class="who">Speyside &amp; Islay · the live auction</div><p class="what">Rare single malts cross the block bottle by bottle, week by week — a private cask rather than a release.</p><span class="price">the live auction ↗</span></div>
+    </a>
+
+    <a class="card" href="https://cubancigaronline.com/humidors/" target="_blank" rel="noopener">
+      <div class="mark">
+        <svg viewBox="0 0 180 120" aria-hidden="true"><g>
+          <rect class="mline" x="38" y="46" width="92" height="16" rx="2"/>
+          <rect class="mline" x="34" y="62" width="100" height="40" rx="3"/>
+          <path class="mfill" d="M42 62 H126 V92 H42 Z"/>
+          <path class="mline" d="M50 74 H120 M50 84 H120"/>
+          <path class="mgold" d="M68 40 V46 M74 44 L80 50"/>
+        </g></svg>
+      </div>
+      <div class="plate"><span class="pnum">III</span><span>the vault &amp; the cedar</span></div>
+      <div class="txt"><h4>The Humidor &amp; the Vault</h4><div class="who">cedar-lined · the keeping</div><p class="what">Where a decade of slow decisions is kept — Spanish cedar, climate-sealed, listed now by the houses that move them.</p><span class="price">the humidor market ↗</span></div>
+    </a>
+
+    <a class="card" href="https://wine.sothebys.com/" target="_blank" rel="noopener">
+      <div class="mark">
+        <svg viewBox="0 0 180 120" aria-hidden="true"><g>
+          <path class="mfill" d="M64 34 C90 34 98 40 98 56 C98 88 90 100 76 100 C62 100 52 88 52 56 C52 40 58 34 64 34 Z"/>
+          <rect class="mfill" x="72" y="16" width="10" height="20"/>
+          <rect class="mline" x="71" y="10" width="12" height="6" rx="1"/>
+          <rect class="mline" x="70" y="64" width="16" height="26" rx="2"/>
+          <path class="mgold" d="M36 100 L144 92"/>
+        </g></svg>
+      </div>
+      <div class="plate"><span class="pnum">IV</span><span>the cellar that ages</span></div>
+      <div class="txt"><h4>The Cellar That Ages</h4><div class="who">Bordeaux &amp; Burgundy · buy the case</div><p class="what">Lay down a case from the house that moves the serious lots — the auction-room cellar, open to the buyer directly.</p><span class="price">Sotheby's Wine ↗</span></div>
+    </a>
+
+    <a class="card" href="https://www.riedel.com/en-int/collections" target="_blank" rel="noopener">
+      <div class="mark">
+        <svg viewBox="0 0 180 120" aria-hidden="true"><g>
+          <path class="mfill" d="M70 34 L112 34 L104 76 C103 80 78 80 77 76 Z"/>
+          <path class="mline" d="M66 36 H116 M66 34 L114 34"/>
+          <path class="mline" d="M82 34 L87 98 M90 90 H114"/>
+          <path class="mline" d="M62 98 H124"/>
+          <path class="mgold" d="M140 62 L144 56 M148 68 L152 62"/>
+        </g></svg>
+      </div>
+      <div class="plate"><span class="pnum">V</span><span>the right glass</span></div>
+      <div class="txt"><h4>The Right Glass</h4><div class="who">hand-finished crystal · the maker</div><p class="what">The glass that changes the pour — grape-specific, hand-finished, and built for the hour it serves. Go to the maker.</p><span class="price">Riedel ↗</span></div>
+    </a>
+
+    <a class="card" href="mailto:me@mostexpensivest.com">
+      <div class="mark">
+        <svg viewBox="0 0 180 120" aria-hidden="true"><g>
+          <path class="mline" d="M44 90 H136"/>
+          <path class="mline" d="M62 90 L62 48 M117 90 L117 48"/>
+          <path class="mline" d="M57 48 H67 M112 48 H122"/>
+          <path class="mgold" d="M62 48 C59 42 62 35 62 30 C62 35 65 42 62 48 Z"/>
+          <path class="mgold" d="M117 48 C114 42 117 35 117 30 C117 35 120 42 117 48 Z"/>
+          <path class="mline" d="M90 90 L90 68"/>
+          <path class="mline" d="M84 68 H96"/>
+          <path class="mgold" d="M90 68 C87 62 90 55 90 50 C90 55 93 62 90 68 Z"/>
+        </g></svg>
+      </div>
+      <div class="plate"><span class="pnum">VI</span><span>the settled table</span></div>
+      <div class="txt"><h4>The Settled Table</h4><div class="who">where the fire is · the room</div><p class="what">A room set for those who know how to arrive — placed for you, in strictest confidence.</p><span class="price">by introduction</span></div>
+    </a>
+
   </div>
 </div>
 
