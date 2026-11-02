@@ -1,0 +1,311 @@
+{
+  "_note": "ME live-listing manifest. Each entry is a real marketplace/listing page where the department's offerings are available for purchase now. 'verified' = last date a human or agent confirmed the URL resolves and serves listing content. Researchers add entries via the refresh workflow; the daily manager re-verifies and flags rot. Bot-walled sites are excluded unless a real load was confirmed.",
+  "generated": "2026-11-01",
+  "departments": {
+    "time": [
+      {
+        "name": "Luxury watches",
+        "url": "https://www.thewatchbox.com/watches",
+        "marketplace": "The Watch Box",
+        "verified": "2026-11-01",
+        "probe": "researcher",
+        "last_check": "2026-11-01",
+        "status": "LIVE"
+      },
+      {
+        "name": "Pre-owned watches (US)",
+        "url": "https://www.watchbox.com/",
+        "marketplace": "WatchBox",
+        "verified": "2026-11-01",
+        "probe": "researcher",
+        "last_check": "2026-11-01",
+        "status": "LIVE"
+      },
+      {
+        "name": "Pre-owned watches (UK)",
+        "url": "https://www.watchfinder.co.uk/",
+        "marketplace": "Watchfinder",
+        "verified": "2026-11-01",
+        "probe": "researcher",
+        "last_check": "2026-11-01",
+        "status": "LIVE"
+      },
+      {
+        "name": "The watch market",
+        "url": "https://mostexpensivewatches.net",
+        "marketplace": "MostExpensiveWatches",
+        "verified": "2026-11-01",
+        "note": "live watch feed; per-item dealer buy pages via API",
+        "last_check": "2026-11-01",
+        "status": "LIVE"
+      },
+      {
+        "name": "Watches on the secondary market",
+        "url": "https://www.chrono24.com/watches/index.htm",
+        "marketplace": "Chrono24",
+        "verified": null,
+        "note": "bot-walled from automation, loads for a real user; per-item listings not fetchable free",
+        "last_check": "2026-11-01",
+        "status": "WALL"
+      }
+    ],
+    "table": [
+      {
+        "name": "Cigars & accessories (UK)",
+        "url": "https://www.cigars.co.uk/",
+        "marketplace": "Cigars.co.uk",
+        "verified": "2026-11-01",
+        "probe": "researcher",
+        "last_check": "2026-11-01",
+        "status": "LIVE"
+      },
+      {
+        "name": "Cuban cigars & humidors",
+        "url": "https://cubancigaronline.com/",
+        "marketplace": "Cuban Cigar Online",
+        "verified": "2026-11-01",
+        "last_check": "2026-11-01",
+        "status": "LIVE"
+      },
+      {
+        "name": "Rare single malt at auction",
+        "url": "https://www.whiskyauctioneer.com/",
+        "marketplace": "Whisky Auctioneer",
+        "verified": "2026-11-01",
+        "last_check": "2026-11-01",
+        "status": "LIVE"
+      },
+      {
+        "name": "Humidors & deals",
+        "url": "https://www.cigarmonster.com/",
+        "marketplace": "Cigar Monster",
+        "verified": "2026-11-01",
+        "last_check": "2026-11-01",
+        "status": "LIVE"
+      }
+    ],
+    "sea": [
+      {
+        "name": "Superyachts for sale",
+        "url": "https://www.burgessyachts.com/",
+        "marketplace": "Burgess",
+        "verified": "2026-11-01",
+        "probe": "researcher",
+        "last_check": "2026-11-01",
+        "status": "LIVE"
+      },
+      {
+        "name": "Yachts for sale",
+        "url": "https://www.denisonyachtsales.com/",
+        "marketplace": "Denison Yachts",
+        "verified": "2026-11-01",
+        "probe": "researcher",
+        "last_check": "2026-11-01",
+        "status": "LIVE"
+      },
+      {
+        "name": "Superyachts for sale",
+        "url": "https://www.fraseryachts.com/en/yachts-for-sale",
+        "marketplace": "Fraser Yachts",
+        "verified": "2026-11-01",
+        "last_check": "2026-11-01",
+        "status": "LIVE"
+      },
+      {
+        "name": "Yacht market (bot-walled from automation)",
+        "url": "https://www.yachtworld.com/yachts-for-sale/",
+        "marketplace": "YachtWorld",
+        "verified": null,
+        "note": "Cloudflare wall; leave for manual confirmation",
+        "last_check": "2026-11-01",
+        "status": "WALL"
+      }
+    ],
+    "road": [
+      {
+        "name": "Classic cars for sale",
+        "url": "https://www.classiccar.com/",
+        "marketplace": "Classic Car",
+        "verified": "2026-11-01",
+        "probe": "researcher",
+        "last_check": "2026-11-01",
+        "status": "LIVE"
+      },
+      {
+        "name": "Ferraris at auction",
+        "url": "https://bringatrailer.com/ferrari/",
+        "marketplace": "Bring a Trailer",
+        "verified": "2026-11-01",
+        "last_check": "2026-11-01",
+        "status": "LIVE"
+      },
+      {
+        "name": "Classic & exotic registry",
+        "url": "https://www.dupontregistry.com/",
+        "marketplace": "duPont Registry",
+        "verified": "2026-11-01",
+        "last_check": "2026-11-01",
+        "status": "LIVE"
+      }
+    ],
+    "estate": [
+      {
+        "name": "Luxury property",
+        "url": "https://www.chestertons.com/",
+        "marketplace": "Chestertons",
+        "verified": "2026-11-01",
+        "probe": "researcher",
+        "last_check": "2026-11-01",
+        "status": "LIVE"
+      },
+      {
+        "name": "Homes for sale",
+        "url": "https://www.compass.com/",
+        "marketplace": "Compass",
+        "verified": "2026-11-01",
+        "probe": "researcher",
+        "last_check": "2026-11-01",
+        "status": "LIVE"
+      },
+      {
+        "name": "France luxury homes",
+        "url": "https://www.christiesrealestate.com/homes-for-sale/france/",
+        "marketplace": "Christie's International Real Estate",
+        "verified": "2026-11-01",
+        "last_check": "2026-11-01",
+        "status": "LIVE"
+      },
+      {
+        "name": "Castles & palaces",
+        "url": "https://www.christiesrealestate.com/lifestyles/castles-palaces/",
+        "marketplace": "Christie's International Real Estate",
+        "verified": "2026-11-01",
+        "last_check": "2026-11-01",
+        "status": "LIVE"
+      },
+      {
+        "name": "Islands & estates worldwide",
+        "url": "https://www.christiesrealestate.com/",
+        "marketplace": "Christie's International Real Estate",
+        "verified": "2026-11-01",
+        "last_check": "2026-11-01",
+        "status": "LIVE"
+      }
+    ],
+    "field": [
+      {
+        "name": "Gunsmiths & makers",
+        "url": "https://www.bossandco.com/",
+        "marketplace": "Boss & Co",
+        "verified": "2026-11-01",
+        "probe": "researcher",
+        "last_check": "2026-11-01",
+        "status": "LIVE"
+      },
+      {
+        "name": "Shotguns for sale",
+        "url": "https://www.gunsinternational.com/guns-for-sale-online/shotguns.cfm",
+        "marketplace": "Guns International",
+        "verified": "2026-11-01",
+        "note": "confirmed by Nolan",
+        "last_check": "2026-11-01",
+        "status": "WALL"
+      },
+      {
+        "name": "Purdey \u00b7 buy direct",
+        "url": "https://www.purdey.com/",
+        "marketplace": "James Purdey & Sons",
+        "verified": "2026-11-01",
+        "last_check": "2026-11-01",
+        "status": "LIVE"
+      }
+    ],
+    "style": [
+      {
+        "name": "Watches & more at price",
+        "url": "https://www.jomashop.com/",
+        "marketplace": "Jomashop",
+        "verified": "2026-11-01",
+        "probe": "researcher",
+        "last_check": "2026-11-01",
+        "status": "LIVE"
+      },
+      {
+        "name": "Herm\u00e8s Birkins for sale",
+        "url": "https://www.1stdibs.com/buy/hermes-birkin/",
+        "marketplace": "1stDibs",
+        "verified": "2026-11-01",
+        "note": "468 listed at last check",
+        "last_check": "2026-11-01",
+        "status": "LIVE"
+      },
+      {
+        "name": "Diamond rings & stones",
+        "url": "https://www.1stdibs.com/buy/diamond-rings/",
+        "marketplace": "1stDibs",
+        "verified": "2026-11-01",
+        "last_check": "2026-11-01",
+        "status": "LIVE"
+      },
+      {
+        "name": "Jewelry market",
+        "url": "https://www.1stdibs.com/buy/jewelry/",
+        "marketplace": "1stDibs",
+        "verified": "2026-11-01",
+        "last_check": "2026-11-01",
+        "status": "LIVE"
+      }
+    ],
+    "art": [
+      {
+        "name": "Live auctions",
+        "url": "https://www.invaluable.com/",
+        "marketplace": "Invaluable",
+        "verified": "2026-11-01",
+        "probe": "researcher",
+        "last_check": "2026-11-01",
+        "status": "LIVE"
+      },
+      {
+        "name": "Art for sale \u2014 Jackson Pollock",
+        "url": "https://www.1stdibs.com/search/?q=Jackson%20Pollock",
+        "marketplace": "1stDibs",
+        "verified": "2026-11-01",
+        "last_check": "2026-11-01",
+        "status": "LIVE"
+      },
+      {
+        "name": "Art for sale \u2014 Mark Rothko",
+        "url": "https://www.1stdibs.com/search/?q=Mark%20Rothko",
+        "marketplace": "1stDibs",
+        "verified": "2026-11-01",
+        "last_check": "2026-11-01",
+        "status": "LIVE"
+      },
+      {
+        "name": "Art for sale \u2014 Joan Mir\u00f3",
+        "url": "https://www.1stdibs.com/search/?q=Joan%20Miro",
+        "marketplace": "1stDibs",
+        "verified": "2026-11-01",
+        "last_check": "2026-11-01",
+        "status": "LIVE"
+      },
+      {
+        "name": "Art for sale \u2014 Alice Neel",
+        "url": "https://www.1stdibs.com/search/?q=Alice%20Neel",
+        "marketplace": "1stDibs",
+        "verified": "2026-11-01",
+        "last_check": "2026-11-01",
+        "status": "LIVE"
+      },
+      {
+        "name": "Art market",
+        "url": "https://www.1stdibs.com/buy/art/",
+        "marketplace": "1stDibs",
+        "verified": "2026-11-01",
+        "last_check": "2026-11-01",
+        "status": "LIVE"
+      }
+    ]
+  }
+}
