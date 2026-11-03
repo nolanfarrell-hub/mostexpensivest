@@ -3,154 +3,56 @@
 <head>
 <meta charset="UTF-8"/>
 <meta name="viewport" content="width=device-width,initial-scale=1"/>
-<title>The Most Expensivest · The Table</title>
-<link rel="preconnect" href="https://fonts.googleapis.com">
+<title>ME · The Table — Cigars, Spirits &amp; Cellars</title>
+<meta name="description" content="ME on The Table — cigars, spirits and cellars, and the records they set."/>
+<link rel="preconnect" href="https://fonts.googleapis">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;700&family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;1,400;1,500&family=Inter:wght@300;400;500&display=swap" rel="stylesheet">
-<style>
-:root{--cream:#f4efe4;--paper:#faf6ec;--ink:#1a1814;--ink2:#3e3a30;--muted:#8a8172;--brass:#a58a4b;--brass-dark:#89703f;--line:#e0d6bf;--faint:#c8be9f;--verde:#33503a;--verde-soft:#4a6a52;--gold:#c8a95c}
-*{margin:0;padding:0;box-sizing:border-box}html{scroll-behavior:smooth}
-body{background:var(--cream);color:var(--ink);font-family:'Inter',sans-serif;-webkit-font-smoothing:antialiased;line-height:1.65}
-a{color:inherit}.top-rule{height:3px;background:var(--ink)}
-.dep-head{text-align:center;padding:50px 24px 30px;border-bottom:1px solid var(--line)}
-.dep-head .back{font-size:11px;letter-spacing:3px;text-transform:uppercase;color:var(--muted);text-decoration:none;display:block;margin-bottom:22px}
-.dep-head .back:hover{color:var(--verde-soft)}
-.dep-head .kat{font-size:11px;letter-spacing:4px;text-transform:uppercase;color:var(--verde-soft);margin-bottom:14px;font-weight:500}
-.dep-head h1{font-family:'Cormorant Garamond',serif;font-weight:500;font-size:clamp(40px,7vw,74px);letter-spacing:-1px}
-.dep-head .deck{max-width:640px;margin:24px auto 0;font-style:italic;font-family:'Cormorant Garamond',serif;font-size:clamp(17px,2.2vw,21px);color:var(--ink2);line-height:1.5}
-.dept{max-width:1100px;margin:0 auto;padding:40px 26px}
-.grid{display:grid;grid-template-columns:repeat(3,1fr);gap:0}
-.card{padding:0;border-right:1px solid var(--line);border-top:1px solid var(--line);text-decoration:none;display:block;background:var(--paper)}
-.card .photo{position:relative;aspect-ratio:3/2;overflow:hidden;border-bottom:1px solid var(--line);background:#141910}
-.card .photo img{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;display:block}
-.card .photo .shade{position:absolute;inset:auto 0 0 0;height:52%;background:linear-gradient(transparent,rgba(12,11,8,.72))}
-.card .photo .kicker{position:absolute;left:20px;bottom:16px;font-size:9px;letter-spacing:3.5px;text-transform:uppercase;color:var(--gold);font-weight:500}
-.card:hover{background:var(--cream)}
-.card:hover .photo img{transform:scale(1.02)}
-.card .cardbody{padding:20px 22px 22px}
-.card .kicker{display:block;font-size:9px;letter-spacing:3.5px;text-transform:uppercase;color:var(--verde-soft);font-weight:500;margin-bottom:10px}
-.card .phcard .kicker{color:var(--gold)}
-.card h4{font-family:'Cormorant Garamond',serif;font-weight:600;font-size:23px;line-height:1.18;margin-bottom:8px}
-.card .dek{font-size:13px;color:var(--ink2);line-height:1.55}
-.card .go{margin-top:16px;border-top:1px solid var(--line);padding-top:12px;font-family:'Cormorant Garamond',serif;font-size:16px;font-style:italic;color:var(--brass-dark)}
-.grid .card:nth-child(3n+3){border-right:none}
-.attrib{max-width:1100px;margin:18px auto 0;padding:0 30px;font-size:10.5px;color:var(--faint);letter-spacing:.5px;line-height:1.6}
-.attrib a{color:var(--brass-dark);text-decoration:none}
-.records{max-width:1100px;margin:60px auto 0;padding:0 30px}
-.records .rh{display:flex;align-items:baseline;justify-content:space-between;border-top:3px solid var(--ink);padding-top:22px;margin-bottom:6px}
-.records .rh h3{font-family:'Space Grotesk',sans-serif;font-size:12px;letter-spacing:3px;text-transform:uppercase;font-weight:600;color:var(--ink)}
-.records .rh .rnote{font-size:11px;letter-spacing:2px;text-transform:uppercase;color:var(--muted)}
-.rtable{border-top:1px solid var(--line)}
-.rrow{display:grid;grid-template-columns:1.5fr .9fr .7fr .7fr .8fr;gap:14px;padding:15px 0;border-bottom:1px solid var(--line);align-items:baseline;text-decoration:none;color:inherit}
-.rrow:hover{background:var(--paper)}
-.rdesc{font-family:'Cormorant Garamond',serif;font-size:18px;font-weight:500;color:var(--ink);line-height:1.25}
-.rkind{font-size:11px;letter-spacing:1px;text-transform:uppercase;color:var(--muted)}
-.rloc{font-size:12px;color:var(--muted)}
-.ryear{font-size:12px;color:var(--muted);text-align:right}
-.rprice{font-family:'Space Grotesk',sans-serif;font-weight:700;font-size:17px;color:var(--brass-dark);text-align:right}
-.rgo{font-size:11px;color:var(--verde-soft);letter-spacing:1px}
-@media(max-width:760px){.rrow{grid-template-columns:1.3fr 1fr .7fr}.rkind,.rloc,.rgo{display:none}}
-.consult{max-width:1100px;margin:0 auto;padding:60px 30px 8px;display:flex;align-items:center;justify-content:space-between;gap:26px;flex-wrap:wrap;border-top:1px solid var(--line)}.consult h4{font-family:'Cormorant Garamond',serif;font-weight:600;font-size:24px;margin-bottom:6px}.consult p{font-size:13px;color:var(--ink2);max-width:640px}.consult .cta a{font-size:11px;letter-spacing:3px;text-transform:uppercase;text-decoration:none;color:var(--verde-soft);font-weight:600;border-bottom:1px solid var(--verde-soft);padding-bottom:4px;white-space:nowrap}
-.bme{font-family:'Space Grotesk',sans-serif;font-weight:700;font-size:22px;letter-spacing:1px;color:var(--ink);display:inline-flex;align-items:baseline;vertical-align:middle}.bme .bd{color:var(--brass);font-weight:500;font-size:.55em;margin:0 2px}
-.backlink{max-width:1100px;margin:0 auto;padding:10px 30px 0}
-.backlink a{font-size:11px;letter-spacing:3px;text-transform:uppercase;text-decoration:none;color:var(--verde-soft)}
-.copyright{max-width:1100px;margin:0 auto;padding:40px 30px;text-align:center;font-size:11px;color:var(--faint);letter-spacing:1px;border-top:1px solid var(--line)}
-@media(max-width:900px){.grid{grid-template-columns:1fr 1fr}.grid .card:nth-child(odd){border-right:none}.grid .card{border-top:1px solid var(--line)}.grid .card:first-child,.grid .card:nth-child(2){border-top:none}}
-@media(max-width:560px){.grid{grid-template-columns:1fr}.grid .card{border-right:none;border-top:1px solid var(--line)}.grid .card:first-child{border-top:none}}
-
-/* ===== DEPARTMENT HERO ===== */
-.dep-hero{position:relative;height:clamp(240px,34vw,380px);overflow:hidden;border-bottom:1px solid var(--line)}
-.dep-hero img{width:100%;height:100%;object-fit:cover;display:block}
-.dep-hero::after{content:"";position:absolute;left:0;right:0;bottom:0;height:100%;background:linear-gradient(to right,rgba(12,12,14,.9) 0%,rgba(12,12,14,.62) 40%,rgba(12,12,14,0) 65%);z-index:1}
-.dep-hero .dhcap{position:absolute;left:max(24px,calc((100vw - 1100px)/2));bottom:26px;max-width:480px;color:var(--cream);z-index:2}
-.dep-hero .dhcap .dkat{font-size:10px;letter-spacing:3.5px;text-transform:uppercase;color:var(--gold);margin-bottom:6px}
-.dep-hero .dhcap h2{font-family:'Cormorant Garamond',serif;font-weight:500;font-size:clamp(30px,4.4vw,50px);line-height:1.05;color:#fff}
-.dep-hero .dhcap p{font-family:'Cormorant Garamond',serif;font-style:italic;font-size:16px;color:#e9e2cf;margin-top:8px}
-@media(max-width:900px){.dep-hero .dhcap{left:26px;bottom:20px}}
-
-/* emblem marks */
-.mark .mline{stroke:var(--brass);stroke-width:2;fill:none;stroke-linecap:round;stroke-linejoin:round}
-.mark .mgold{stroke:var(--gold);stroke-width:1.5;fill:none;stroke-linecap:round}
-.mark .mfill{stroke:var(--brass);stroke-width:2;fill:rgba(200,169,92,.07);stroke-linecap:round}
-</style>
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;1,400;1,500&family=Space+Grotesk:wght@400;500;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/me.css">
 </head>
 <body>
-<div class="top-rule"></div>
-<div class="dep-head">
-  <a class="back" href="index.html"><span class="bme">M<span class="bd">·</span>E</span></a>
-  <div class="kat">Department II · Cigars, Spirits &amp; Table</div>
-  <h1>The Table</h1>
-<div class="dep-hero">
-  <img src="media/img/table_lounge.jpg" alt="The Table"/>
-  <div class="dhcap">
-    <div class="dkat">Department II · Cigars, Spirits &amp; Table</div>
-    <h2>The Table</h2>
-    <p>Cigars, spirits and cellars — the objects that keep the hours.</p>
+<header class="hd"><div class="hd-in">
+  <a class="mast" href="index.html">M<span class="dot">·</span>E<span class="ed">Journal of the World's Finest</span></a>
+  <nav class="hd-nav">
+    <a href="time.html">Time</a><a href="table.html">The Table</a><a href="sea.html">The Sea</a><a href="road.html">The Road</a>
+    <a href="estate.html">Estates</a><a href="field.html">The Field</a><a href="style.html">Style</a><a href="art.html">Art</a>
+  </nav>
+  <div class="hd-util">
+    <a href="library.html">The Library</a>
+    <a href="mailto:me@mostexpensivest.com">Correspondence</a>
+    <span class="om"><i></i><i></i><i></i></span>
   </div>
-</div>
-</div>
-<div class="dept">
-  <div class="grid">
+</div></header><div class="masthead"><div class="row">
+  <div class="mh-l">Issue No. 001 · The Table</div>
+  <div class="mh-c"><div class="claim">The finest objects keep the hours, not the other way round.</div></div><section class="dhero"><img src="media/img/table_cigar.jpg" alt="Department II · Cigars, Spirits &amp; Table"/><div class="cap"><div class="kicker"><span class="r"></span>Department II · Cigars, Spirits &amp; Table</div><h1>The Table</h1><div class="lede">Cigars, spirits and cellars — the objects that keep the hours.</div></div></section>
 
-    <a class="card phcard" href="https://cubancigaronline.com/" target="_blank" rel="noopener">
-      <div class="photo"><img src="media/img/table_cigar.jpg" alt="Cohiba cigar box"/><div class="shade"></div><span class="kicker">The Handmade Cigar</span></div>
-      <div class="cardbody"><span class="kicker">I &middot; The Handmade</span><p class="dek">The long-filler, rolled by hand and boxed &mdash; Cohiba and Montecristo, sitting in stock today.</p><div class="go">In stock now <span style="font-style:normal">&nearr;</span></div></div>
-    </a>
-
-    <a class="card" href="https://www.whiskyauctioneer.com/" target="_blank" rel="noopener">
-      <div class="cardbody"><span class="kicker">II &middot; The Single Malt</span><h4>The Single Malt, on the Block</h4><p class="dek">Rare malts cross the block bottle by bottle, week by week &mdash; a private cask rather than a release.</p><div class="go">The live auction <span style="font-style:normal">&nearr;</span></div></div>
-    </a>
-
-    <a class="card" href="https://cubancigaronline.com/humidors/" target="_blank" rel="noopener">
-      <div class="cardbody"><span class="kicker">III &middot; The Vault &amp; the Cedar</span><h4>The Humidor &amp; the Vault</h4><p class="dek">Spanish cedar, climate-sealed &mdash; where a decade of slow decisions is kept, listed by the houses that move them.</p><div class="go">The humidor market <span style="font-style:normal">&nearr;</span></div></div>
-    </a>
-
-    <a class="card" href="https://wine.sothebys.com/" target="_blank" rel="noopener">
-      <div class="cardbody"><span class="kicker">IV &middot; The Cellar</span><h4>The Cellar That Ages</h4><p class="dek">Lay down a case from the house that moves the serious lots &mdash; Bordeaux &amp; Burgundy, bought direct.</p><div class="go">Sotheby's Wine <span style="font-style:normal">&nearr;</span></div></div>
-    </a>
-
-    <a class="card" href="https://www.riedel.com/en-int/collections" target="_blank" rel="noopener">
-      <div class="cardbody"><span class="kicker">V &middot; The Right Glass</span><h4>The Right Glass</h4><p class="dek">The glass that changes the pour &mdash; grape-specific, hand-finished, and built for the hour it serves.</p><div class="go">Riedel <span style="font-style:normal">&nearr;</span></div></div>
-    </a>
-
-    <a class="card phcard" href="mailto:me@mostexpensivest.com">
-      <div class="photo"><img src="media/img/table_lounge.jpg" alt="The settled table"/><div class="shade"></div><span class="kicker">The Settled Table</span></div>
-      <div class="cardbody"><span class="kicker">VI &middot; On Introduction</span><p class="dek">A room set for those who know how to arrive &mdash; placed for you, in strictest confidence.</p><div class="go">By introduction</div></div>
-    </a>
-
+<div class="dwrap"><div class="dsec">
+  <div class="dsh"><h2><span class="no">I.</span>At the Table</h2><div class="note">cigars, spirits &amp; cellars</div></div>
+  <div class="dcards">
+    <a class="dcard" href="https://cubancigaronline.com/" target="_blank" rel="noopener"><div class="k">I · The Handmade</div><h3>The Handmade Cigar</h3><p>The long-filler, rolled by hand and boxed — Cohiba and Montecristo, sitting in stock today.</p><div class="go">In stock now ↗</div></a>
+    <a class="dcard" href="https://www.whiskyauctioneer.com/" target="_blank" rel="noopener"><div class="k">II · The Single Malt</div><h3>The Single Malt, on the Block</h3><p>Rare malts cross the block bottle by bottle, week by week — a private cask rather than a release.</p><div class="go">The live auction ↗</div></a>
+    <a class="dcard" href="https://cubancigaronline.com/humidors/" target="_blank" rel="noopener"><div class="k">III · The Vault &amp; the Cedar</div><h3>The Humidor &amp; the Vault</h3><p>Spanish cedar, climate-sealed — where a decade of slow decisions is kept, listed by the houses that move them.</p><div class="go">The humidor market ↗</div></a>
+    <a class="dcard" href="https://wine.sothebys.com/" target="_blank" rel="noopener"><div class="k">IV · The Cellar</div><h3>The Cellar That Ages</h3><p>Lay down a case from the house that moves the serious lots — Bordeaux &amp; Burgundy, bought direct.</p><div class="go">Sotheby's Wine ↗</div></a>
+    <a class="dcard" href="https://www.riedel.com/en-int/collections" target="_blank" rel="noopener"><div class="k">V · The Right Glass</div><h3>The Right Glass</h3><p>The glass that changes the pour — grape-specific, hand-finished, and built for the hour it serves.</p><div class="go">Riedel ↗</div></a>
+    <div class="dcard"><div class="k">VI · On Introduction</div><h3>The Settled Table</h3><p>A room set for those who know how to arrive — placed for you, in strictest confidence.</p><div class="go">By introduction</div></div>
   </div>
+</div></div>
+<div class="dwrap"><div class="records dsec">
+  <div class="dsh"><h2><span class="no">II.</span>Records of the Table</h2><div class="note">the finest objects, and what they fetched</div></div>
+  <div id="tableTable" class="rtable"><div class="mload" style="padding:20px">reading the market…</div></div>
 </div>
-
-<!-- RECORDS OF THE TABLE -->
-<div class="records">
-  <div class="rh"><h3>Records of the Table</h3><div class="rnote">the finest objects, and what they fetched</div></div>
-  <div class="rtable" id="tableTable"><div class="mload" style="padding:20px;color:var(--muted)">reading the market…</div></div>
-</div>
-<div class="attrib">Records and figures sourced from live references including <a href="https://www.guinnessworldrecords.com/world-records/most-expensive-whisky-whiskey-sold-at-auction" target="_blank" rel="noopener">Guinness World Records</a>, <a href="https://www.bkwine.com/news/record-price-romanee-conti/" target="_blank" rel="noopener">BKWine</a>, <a href="https://robbreport.com/food-drink/spirits/1945-domaine-de-la-romanee-conti-auction-record-1237729845/" target="_blank" rel="noopener">Robb Report</a>, <a href="https://www.cigaraficionado.com/article/the-world-s-most-expensive-humidors" target="_blank" rel="noopener">Cigar Aficionado</a> and <a href="https://cubancigaronline.com/most-expensive-cuban-cigars/" target="_blank" rel="noopener">Cuban Cigar Online</a>. Each row links to its full record.</div>
-
-<div class="consult">
-  <div><h4>Private Consultation</h4><p>Write to us and be placed with the right maker, in the right city, at the right hour. By appointment, in strictest confidence.</p></div>
-  <div class="cta"><a href="mailto:me@mostexpensivest.com">Begin the Conversation</a></div>
-</div>
-<div class="backlink"><a href="index.html#departments">← All Departments</a></div>
-<div class="copyright">© The Most Expensivest, MMXXVI</div>
+<div class="attrib" style="margin-top:12px"><a href="https://www.guinnessworldrecords.com/world-records/most-expensive-whisky-whiskey-sold-at-auction" target="_blank" rel="noopener">Guinness World Records</a>, <a href="https://robbreport.com/food-drink/spirits/1945-domaine-de-la-romanee-conti-auction-record-1237729845/" target="_blank" rel="noopener">Robb Report</a>, <a href="https://www.cigaraficionado.com/article/the-world-s-most-expensive-humidors" target="_blank" rel="noopener">Cigar Aficionado</a>. Each row links to its full record.</div></div>
+<div class="dwrap"><div class="consult"><div><h3>Private Consultation</h3><p>Write to us and be placed with the right maker, in the right city, at the right hour. By appointment, in strictest confidence.</p></div><div class="cta"><a href="mailto:me@mostexpensivest.com">Begin the Conversation</a></div></div><div class="backlink"><a href="index.html">← All Departments</a></div></div>
 <script>
-(function(){
-  function money(n){if(n==null||isNaN(n))return "on request";return "$"+Math.round(n).toLocaleString("en-US");}
-  function esc(s){var d=document.createElement("div");d.textContent=s==null?"":String(s);return d.innerHTML;}
-  fetch("media/table_records.json").then(function(r){return r.json();}).then(function(recs){
-    var tb=document.getElementById("tableTable");
-    recs.sort(function(a,b){return (b.price||0)-(a.price||0);});
-    tb.innerHTML=recs.slice(0,10).map(function(r){
-      return '<a class="rrow" href="'+esc(r.src)+'" target="_blank" rel="noopener">'+
-        '<div class="rdesc">'+esc(r.name)+'</div>'+
-        '<div class="rkind">'+esc(r.kind)+'</div>'+
-        '<div class="rloc">'+esc(r.locale)+'</div>'+
-        '<div class="ryear">'+esc(r.year)+'</div>'+
-        '<div class="rprice">'+money(r.price)+' · <span class="rgo">record ↗</span></div></a>';
-    }).join("");
-  }).catch(function(){document.getElementById("tableTable").innerHTML='<div class="mload" style="padding:20px">The records are momentarily unavailable.</div>';});
-})();
-</script>
-</body>
-</html>
+(function(){function money(n){if(n==null||isNaN(n))return "on request";return "$"+Math.round(n).toLocaleString("en-US");}function esc(s){var d=document.createElement("div");d.textContent=s==null?"":String(s);return d.innerHTML;}
+fetch("media/table_records.json").then(function(r){return r.json();}).then(function(recs){var tb=document.getElementById("tableTable");recs.sort(function(a,b){return (b.price||0)-(a.price||0);});tb.innerHTML=recs.slice(0,10).map(function(r){return '<a class="rrow" href="'+esc(r.src)+'" target="_blank" rel="noopener"><div class="rdesc">'+esc(r.name)+'</div><div class="rkind">'+esc(r.kind)+'</div><div class="rloc">'+esc(r.locale)+'</div><div class="ryear">'+esc(r.year)+'</div><div class="rprice">'+money(r.price)+' · <span class="rgo">record ↗</span></div></a>';}).join("");}).catch(function(){document.getElementById("tableTable").innerHTML='<div class="mload" style="padding:20px">The records are momentarily unavailable.</div>';});
+})();</script>
+<footer>
+  <div class="f-in">
+    <div class="fm"><div class="me2">M<span class="dot">·</span>E</div><p>The journal of the world's finest, curated, priced and placed in confidence.</p></div>
+    <div class="fcol"><h5>Departments</h5><a href="time.html">Time</a><a href="table.html">The Table</a><a href="sea.html">The Sea</a><a href="road.html">The Road</a><a href="estate.html">Estates</a><a href="field.html">The Field</a><a href="style.html">Style</a><a href="art.html">Art</a></div>
+    <div class="fcol"><h5>The House</h5><a href="library.html">The Library</a><a href="library.html">How It Works</a><a href="library.html">Press</a><a href="mailto:me@mostexpensivest.com">Correspondence</a></div>
+    <div class="fcol"><h5>Content</h5><a href="index.html">Editorial</a><a href="time.html">Live Market</a><a href="road.html">Records</a><a href="library.html">The Desk</a></div>
+  </div>
+  <div class="foot-last"><span>© ME · MMXXVI</span><span>The Most Expensivest</span><span>Department II · The Table</span></div>
+</footer>

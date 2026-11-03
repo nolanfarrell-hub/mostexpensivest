@@ -277,3 +277,6 @@ footer{background:var(--ink);color:var(--cream);padding:60px 0 0;border-top:3px 
 .rgo{font-size:10px;letter-spacing:1px;color:var(--bronze);text-transform:uppercase}
 
 .rtype{font-size:10px;letter-spacing:1px;color:var(--muted);text-transform:uppercase}
+
+/* table/field record variants */
+.rkind{font-size:10px;letter-spacing:1px;color:var(--muted);text-transform:uppercase}

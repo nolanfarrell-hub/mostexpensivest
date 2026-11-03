@@ -3,172 +3,56 @@
 <head>
 <meta charset="UTF-8"/>
 <meta name="viewport" content="width=device-width,initial-scale=1"/>
-<title>The Most Expensivest · Style</title>
-<link rel="preconnect" href="https://fonts.googleapis.com">
+<title>ME · Style — Tailoring &amp; Jewelry</title>
+<meta name="description" content="ME on Style — tailoring, jewelry and the made-to-measure secret."/>
+<link rel="preconnect" href="https://fonts.googleapis">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;700&family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;1,400;1,500&family=Inter:wght@300;400;500&display=swap" rel="stylesheet">
-<style>
-:root{--cream:#f4efe6;--paper:#fcf7ef;--ink:#1b1812;--ink2:#413a2e;--muted:#8d846f;--brass:#a58a4b;--brass-dark:#896f3f;--line:#e2d9c6;--faint:#c9bea2;--verde:#394a3a;--verde-soft:#54685a}
-*{margin:0;padding:0;box-sizing:border-box}html{scroll-behavior:smooth}
-body{background:var(--cream);color:var(--ink);font-family:'Inter',sans-serif;-webkit-font-smoothing:antialiased;line-height:1.65}
-a{color:inherit}.top-rule{height:3px;background:var(--ink)}
-.dep-head{text-align:center;padding:50px 24px 30px;border-bottom:1px solid var(--line)}
-.dep-head .back{font-size:11px;letter-spacing:3px;text-transform:uppercase;color:var(--muted);text-decoration:none;display:block;margin-bottom:22px}
-.dep-head .back:hover{color:var(--verde-soft)}
-.dep-head .kat{font-size:11px;letter-spacing:4px;text-transform:uppercase;color:var(--verde-soft);margin-bottom:14px;font-weight:500}
-.dep-head h1{font-family:'Cormorant Garamond',serif;font-weight:500;font-size:clamp(40px,7vw,74px);letter-spacing:-1px}
-.dep-head .deck{max-width:640px;margin:24px auto 0;font-style:italic;font-family:'Cormorant Garamond',serif;font-size:clamp(17px,2.2vw,21px);color:var(--ink2);line-height:1.5}
-.dept{max-width:1100px;margin:0 auto;padding:40px 26px}
-.grid{display:grid;grid-template-columns:repeat(3,1fr);gap:0}
-.card{padding:0;border-right:1px solid var(--line);border-top:1px solid var(--line);text-decoration:none;display:block;background:var(--paper)}
-.card .photo{position:relative;aspect-ratio:3/2;overflow:hidden;border-bottom:1px solid var(--line);background:#141910}
-.card .photo img{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;display:block}
-.card .photo .shade{position:absolute;inset:auto 0 0 0;height:52%;background:linear-gradient(transparent,rgba(12,11,8,.72))}
-.card .photo .kicker{position:absolute;left:20px;bottom:16px;font-size:9px;letter-spacing:3.5px;text-transform:uppercase;color:var(--gold);font-weight:500}
-.card:hover{background:var(--cream)}
-.card:hover .photo img{transform:scale(1.02)}
-.card .cardbody{padding:20px 22px 22px}
-.card .kicker{display:block;font-size:9px;letter-spacing:3.5px;text-transform:uppercase;color:var(--verde-soft);font-weight:500;margin-bottom:10px}
-.card h4{font-family:'Cormorant Garamond',serif;font-weight:600;font-size:23px;line-height:1.18;margin-bottom:8px}
-.card .dek{font-size:13px;color:var(--ink2);line-height:1.55}
-.card .go{margin-top:16px;border-top:1px solid var(--line);padding-top:12px;font-family:'Cormorant Garamond',serif;font-size:16px;font-style:italic;color:var(--brass-dark)}
-.grid .card:nth-child(3n+3){border-right:none}
-.card h4{font-family:'Cormorant Garamond',serif;font-weight:600;font-size:22px;line-height:1.2;margin-bottom:8px}
-.card .who{font-size:11px;letter-spacing:2px;text-transform:uppercase;color:var(--muted);margin-bottom:14px}
-.card .what{font-size:13px;color:var(--ink2);line-height:1.55}
-.card .price{display:block;margin-top:16px;font-family:'Cormorant Garamond',serif;font-size:18px;font-weight:500;color:var(--brass-dark)}
-.card:hover{background:var(--paper)}
-.attrib{max-width:1100px;margin:18px auto 0;padding:0 30px;font-size:10.5px;color:var(--faint);letter-spacing:.5px;line-height:1.6}
-.attrib a{color:var(--brass-dark);text-decoration:none}
-.records{max-width:1100px;margin:60px auto 0;padding:0 30px}
-.records .rh{display:flex;align-items:baseline;justify-content:space-between;border-top:3px solid var(--ink);padding-top:22px;margin-bottom:6px}
-.records .rh h3{font-family:'Space Grotesk',sans-serif;font-size:12px;letter-spacing:3px;text-transform:uppercase;font-weight:600;color:var(--ink)}
-.records .rh .rnote{font-size:11px;letter-spacing:2px;text-transform:uppercase;color:var(--muted)}
-.rtable{border-top:1px solid var(--line)}
-.rrow{display:grid;grid-template-columns:1.5fr .8fr .7fr .6fr .8fr;gap:14px;padding:15px 0;border-bottom:1px solid var(--line);align-items:baseline;text-decoration:none;color:inherit}
-.rrow:hover{background:var(--paper)}
-.rdesc{font-family:'Cormorant Garamond',serif;font-size:18px;font-weight:500;color:var(--ink);line-height:1.25}
-.rtype{font-size:11px;letter-spacing:1px;text-transform:uppercase;color:var(--muted)}
-.rloc{font-size:12px;color:var(--muted)}
-.rnote2{font-size:12px;color:var(--faint);font-style:italic}
-.rprice{font-family:'Space Grotesk',sans-serif;font-weight:700;font-size:16px;color:var(--brass-dark);text-align:right}
-.rgo{font-size:10px;color:var(--verde-soft);letter-spacing:1px}
-@media(max-width:760px){.rrow{grid-template-columns:1.3fr .8fr}.rtype,.rloc,.rnote2{display:none}}
-.consult{max-width:1100px;margin:0 auto;padding:44px 30px 8px;display:flex;align-items:center;justify-content:space-between;gap:26px;flex-wrap:wrap;border-top:1px solid var(--line)}.consult h4{font-family:'Cormorant Garamond',serif;font-weight:600;font-size:24px;margin-bottom:6px}.consult p{font-size:13px;color:var(--ink2);max-width:640px}.consult .cta a{font-size:11px;letter-spacing:3px;text-transform:uppercase;text-decoration:none;color:var(--verde-soft);font-weight:600;border-bottom:1px solid var(--verde-soft);padding-bottom:4px;white-space:nowrap}
-.bme{font-family:'Space Grotesk',sans-serif;font-weight:700;font-size:22px;letter-spacing:1px;color:var(--ink);display:inline-flex;align-items:baseline;vertical-align:middle}.bme .bd{color:var(--brass);font-weight:500;font-size:.55em;margin:0 2px}
-.backlink{max-width:1100px;margin:0 auto;padding:10px 30px 0}
-.backlink a{font-size:11px;letter-spacing:3px;text-transform:uppercase;text-decoration:none;color:var(--verde-soft)}
-.copyright{max-width:1100px;margin:0 auto;padding:40px 30px;text-align:center;font-size:11px;color:var(--faint);letter-spacing:1px;border-top:1px solid var(--line)}
-@media(max-width:900px){.grid{grid-template-columns:1fr 1fr}.grid .card:nth-child(odd){border-right:none}.grid .card{border-top:1px solid var(--line)}.grid .card:first-child,.grid .card:nth-child(2){border-top:none}}
-@media(max-width:560px){.grid{grid-template-columns:1fr}.grid .card{border-right:none;border-top:1px solid var(--line)}.grid .card:first-child{border-top:none}}
-
-/* ===== DEPARTMENT HERO ===== */
-.dep-hero{position:relative;height:clamp(240px,34vw,380px);overflow:hidden;border-bottom:1px solid var(--line)}
-.dep-hero img{width:100%;height:100%;object-fit:cover;display:block}
-.dep-hero::after{content:"";position:absolute;left:0;right:0;bottom:0;height:100%;background:linear-gradient(to right,rgba(12,12,14,.9) 0%,rgba(12,12,14,.62) 40%,rgba(12,12,14,0) 65%);z-index:1}
-.dep-hero .dhcap{position:absolute;left:max(24px,calc((100vw - 1100px)/2));bottom:26px;max-width:480px;color:var(--cream);z-index:2}
-.dep-hero .dhcap .dkat{font-size:10px;letter-spacing:3.5px;text-transform:uppercase;color:var(--gold);margin-bottom:6px}
-.dep-hero .dhcap h2{font-family:'Cormorant Garamond',serif;font-weight:500;font-size:clamp(30px,4.4vw,50px);line-height:1.05;color:#fff}
-.dep-hero .dhcap p{font-family:'Cormorant Garamond',serif;font-style:italic;font-size:16px;color:#e9e2cf;margin-top:8px}
-@media(max-width:900px){.dep-hero .dhcap{left:26px;bottom:20px}}
-
-
-
-/* designed tile plates */
-.card{padding:0;border-right:1px solid var(--line);border-top:1px solid var(--line);display:block;background:var(--cream)}
-.card .mark{position:relative;height:186px;overflow:hidden;border-bottom:1px solid var(--line);background:radial-gradient(130% 150% at 18% 8%, #23261d 0%, #141910 48%, #233726 100%)}
-.card .mark svg{position:absolute;inset:0;margin:auto;width:74%;max-height:80%;height:auto}
-.card .plate{display:flex;align-items:baseline;gap:9px;padding:16px 20px 0;font-size:10px;letter-spacing:3px;text-transform:uppercase;color:var(--faint)}
-.card .plate .pnum{color:var(--verde-soft);font-weight:500}
-.card .txt{padding:12px 20px 22px}
-.card .txt h4{font-family:'Cormorant Garamond',serif;font-weight:600;font-size:22px;line-height:1.2;margin-bottom:6px}
-.card .txt .who{font-size:11px;letter-spacing:2px;text-transform:uppercase;color:var(--muted);margin-bottom:11px}
-.card .txt .what{font-size:13px;color:var(--ink2);line-height:1.55}
-.card .price{display:inline-block;margin-top:15px;font-family:'Cormorant Garamond',serif;font-size:18px;font-weight:500;color:var(--brass-dark);border-bottom:1px solid var(--brass-dark);padding-bottom:2px}
-.card:hover{background:var(--paper)}
-.card:hover .mark{filter:brightness(1.08)}
-.grid .card:nth-child(3n+3){border-right:none}
-.mark .mline{stroke:var(--brass);stroke-width:2;fill:none;stroke-linecap:round;stroke-linejoin:round}
-.mark .mgold{stroke:var(--gold);stroke-width:1.5;fill:none;stroke-linecap:round}
-.mark .mfill{stroke:var(--brass);stroke-width:2;fill:rgba(200,169,92,.07);stroke-linecap:round}
-
-</style>
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;1,400;1,500&family=Space+Grotesk:wght@400;500;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/me.css">
 </head>
 <body>
-<div class="top-rule"></div>
-<div class="dep-head">
-  <a class="back" href="index.html"><span class="bme">M<span class="bd">·</span>E</span></a>
-  <div class="kat">Department VII · Tailoring, Jewelry &amp; Leather</div>
-  <h1>Style</h1>
-<div class="dep-hero">
-  <img src="media/img/suit.jpg" alt="Style"/>
-  <div class="dhcap">
-    <div class="dkat">Department VII · Tailoring</div>
-    <h2>Style</h2>
-    <p>Tailoring, jewelry and the made-to-measure secret.</p>
+<header class="hd"><div class="hd-in">
+  <a class="mast" href="index.html">M<span class="dot">·</span>E<span class="ed">Journal of the World's Finest</span></a>
+  <nav class="hd-nav">
+    <a href="time.html">Time</a><a href="table.html">The Table</a><a href="sea.html">The Sea</a><a href="road.html">The Road</a>
+    <a href="estate.html">Estates</a><a href="field.html">The Field</a><a href="style.html">Style</a><a href="art.html">Art</a>
+  </nav>
+  <div class="hd-util">
+    <a href="library.html">The Library</a>
+    <a href="mailto:me@mostexpensivest.com">Correspondence</a>
+    <span class="om"><i></i><i></i><i></i></span>
   </div>
-</div>
-</div>
-<div class="dept">
-  <div class="grid">
-    <a class="card" href="https://www.graff.com/" target="_blank" rel="noopener">
-      <div class="cardbody"><span class="kicker">I &middot; 1</span><h4>The Atelier Jewel</h4><p class="dek">A single stone chosen for the person, set by hand — and for the rare stones, Graff is where they are cut.</p><div class="go">Graff · the rarest stones ↗</div></div>
-    </a>
+</div></header><div class="masthead"><div class="row">
+  <div class="mh-l">Issue No. 001 · Style</div>
+  <div class="mh-c"><div class="claim">A wardrobe should never announce itself.</div></div><section class="dhero"><img src="media/img/suit.jpg" alt="Department VII · Tailoring, Jewelry &amp; Leather"/><div class="cap"><div class="kicker"><span class="r"></span>Department VII · Tailoring, Jewelry &amp; Leather</div><h1>Style</h1><div class="lede">Tailoring, jewelry and the made-to-measure secret.</div></div></section>
 
-    <a class="card" href="https://madisonavenuecouture.com/collections/hermes" target="_blank" rel="noopener">
-      <div class="cardbody"><span class="kicker">II &middot; 2</span><h4>The Leather Portage</h4><p class="dek">Birkin's original sold for $10.1 million — today, everything from classic to the rarest Himalaya.</p><div class="go">Birkin specialists ↗</div></div>
-    </a>
-
-    <a class="card" href="https://www.creedfragrance.com/" target="_blank" rel="noopener">
-      <div class="cardbody"><span class="kicker">III &middot; 3</span><h4>Perfume & the Composed</h4><p class="dek">A scent that outlives the trend — Creed has blended for kings and presidents since 1760.</p><div class="go">Creed · since 1760 ↗</div></div>
-    </a>
-
-    <a class="card" href="https://www.huntsmansavilerow.com/pages/bespoke-tailoring" target="_blank" rel="noopener">
-      <div class="photo"><img src="media/img/suit.jpg" alt="The Bespoke Suit, Her Fit"/><div class="shade"></div><span class="kicker">The Bespoke Suit, Her Fit</span></div>
-      <div class="cardbody"><span class="kicker">IV &middot; 4</span><p class="dek">Three fittings across eleven weeks, cut to drape like a rumour — you book the appointment directly.</p><div class="go">Book a fitting ↗</div></div>
-    </a>
-
-    <a class="card" href="https://us.loropiana.com/en/c/man" target="_blank" rel="noopener">
-      <div class="cardbody"><span class="kicker">V &middot; 5</span><h4>The Everyday, Raised</h4><p class="dek">Not one statement piece but a hundred quiet correct ones — the wardrobe that never announces itself.</p><div class="go">Loro Piana ↗</div></div>
-    </a>
-
-    <a class="card" href="https://kiton.com/collections/men" target="_blank" rel="noopener">
-      <div class="cardbody"><span class="kicker">VI &middot; 6</span><h4>The Atelier Inside</h4><p class="dek">The atelier behind the showroom makes one commission at a time — Kiton, hand-cut in Naples.</p><div class="go">Kiton · Naples atelier ↗</div></div>
-    </a>
-
+<div class="dwrap"><div class="dsec">
+  <div class="dsh"><h2><span class="no">I.</span>Tailoring</h2><div class="note">tailoring, jewelry &amp; the made-to-measure secret</div></div>
+  <div class="dcards">
+    <a class="dcard" href="https://www.graff.com/" target="_blank" rel="noopener"><div class="k">I · The Atelier Jewel</div><h3>The Atelier Jewel</h3><p>A single stone chosen for the person, set by hand — and for the rare stones, Graff is where they are cut.</p><div class="go">Graff · the rarest stones ↗</div></a>
+    <a class="dcard" href="https://madisonavenuecouture.com/collections/hermes" target="_blank" rel="noopener"><div class="k">II · The Leather Portage</div><h3>The Leather Portage</h3><p>Birkin's original sold for $10.1 million — today, everything from classic to the rarest Himalaya.</p><div class="go">Birkin specialists ↗</div></a>
+    <a class="dcard" href="https://www.creedfragrance.com/" target="_blank" rel="noopener"><div class="k">III · Perfume &amp; the Composed</div><h3>Perfume &amp; the Composed</h3><p>A scent that outlives the trend — Creed has blended for kings and presidents since 1760.</p><div class="go">Creed · since 1760 ↗</div></a>
+    <a class="dcard" href="https://www.huntsmansavilerow.com/pages/bespoke-tailoring" target="_blank" rel="noopener"><div class="k">IV · The Bespoke Suit, Her Fit</div><h3>The Bespoke Suit, Her Fit</h3><p>Three fittings across eleven weeks, cut to drape like a rumour — you book the appointment directly.</p><div class="go">Book a fitting ↗</div></a>
+    <a class="dcard" href="https://us.loropiana.com/en/c/man" target="_blank" rel="noopener"><div class="k">V · The Everyday, Raised</div><h3>The Everyday, Raised</h3><p>Not one statement piece but a hundred quiet correct ones — the wardrobe that never announces itself.</p><div class="go">Loro Piana ↗</div></a>
+    <a class="dcard" href="https://kiton.com/collections/men" target="_blank" rel="noopener"><div class="k">VI · The Atelier Inside</div><h3>The Atelier Inside</h3><p>The atelier behind the showroom makes one commission at a time — Kiton, hand-cut in Naples.</p><div class="go">Kiton · Naples atelier ↗</div></a>
   </div>
+</div></div>
+<div class="dwrap"><div class="records dsec">
+  <div class="dsh"><h2><span class="no">II.</span>Records of Style</h2><div class="note">the pieces that set the price</div></div>
+  <div id="styleTable" class="rtable"><div class="mload" style="padding:20px">reading the ledger…</div></div>
 </div>
-
-<!-- RECORDS OF STYLE -->
-<div class="records">
-  <div class="rh"><h3>Records of Style</h3><div class="rnote">the pieces that set the price · each links to its record</div></div>
-  <div class="rtable" id="styleTable"><div class="mload" style="padding:20px;color:var(--muted)">reading the ledger…</div></div>
-</div>
-<div class="attrib">Sourced from the <a href="https://www.sothebys.com/en/articles/the-five-most-expensive-pink-diamonds" target="_blank" rel="noopener">Sotheby's records</a>, <a href="https://www.sothebys.com/en/articles/the-top-6-most-expensive-hermes-birkin-bags" target="_blank" rel="noopener">Sotheby's Birkin records</a>, and <a href="https://www.guinnessworldrecords.com/world-records/most-expensive-perfume" target="_blank" rel="noopener">Guinness World Records</a>. Rows link to the full entry; figures are the recorded sale or retail price.</div>
-
-<div class="consult">
-  <div><h4>Private Consultation</h4><p>Write to us and be placed with the right maker, in the right city, at the right hour. By appointment, in strictest confidence.</p></div>
-  <div class="cta"><a href="mailto:me@mostexpensivest.com">Begin the Conversation</a></div>
-</div>
-<div class="backlink"><a href="index.html#departments">← All Departments</a></div>
-<div class="copyright">© The Most Expensivest, MMXXVI</div>
+<div class="attrib" style="margin-top:12px"><a href="https://www.sothebys.com/en/articles/the-five-most-expensive-pink-diamonds" target="_blank" rel="noopener">Sotheby's records</a>, <a href="https://www.sothebys.com/en/articles/the-top-6-most-expensive-hermes-birkin-bags" target="_blank" rel="noopener">Sotheby's Birkin records</a>, <a href="https://www.guinnessworldrecords.com/world-records/most-expensive-perfume" target="_blank" rel="noopener">Guinness World Records</a>. Rows link to the full entry.</div></div>
+<div class="dwrap"><div class="consult"><div><h3>Private Consultation</h3><p>Write to us and be placed with the right maker, in the right city, at the right hour. By appointment, in strictest confidence.</p></div><div class="cta"><a href="mailto:me@mostexpensivest.com">Begin the Conversation</a></div></div><div class="backlink"><a href="index.html">← All Departments</a></div></div>
 <script>
-(function(){
-  function money(n){if(n==null||isNaN(n))return "on request";return "$"+Math.round(n).toLocaleString("en-US");}
-  function esc(s){var d=document.createElement("div");d.textContent=s==null?"":String(s);return d.innerHTML;}
-  fetch("media/style_records.json",{cache:"no-store"}).then(function(r){return r.json();}).then(function(recs){
-    var tb=document.getElementById("styleTable"); if(!tb)return;
-    recs.sort(function(a,b){return (b.price||0)-(a.price||0);});
-    tb.innerHTML=recs.slice(0,8).map(function(r){
-      return '<a class="rrow" href="'+esc(r.src)+'" target="_blank" rel="noopener">'+
-        '<div class="rdesc">'+esc(r.name)+'</div>'+
-        '<div class="rtype">'+esc(r.type)+'</div>'+
-        '<div class="rloc">'+esc(r.locale)+'</div>'+
-        '<div class="rnote2">'+esc(r.note||'')+'</div>'+
-        '<div class="rprice">'+money(r.price)+' · <span class="rgo">record ↗</span></div></a>';
-    }).join("");
-  }).catch(function(){var tb=document.getElementById("styleTable");if(tb)tb.innerHTML='<div class="mload" style="padding:20px">The ledger is momentarily unavailable.</div>';});
-})();
-</script>
-</body>
-</html>
+(function(){function money(n){if(n==null||isNaN(n))return "on request";return "$"+Math.round(n).toLocaleString("en-US");}function esc(s){var d=document.createElement("div");d.textContent=s==null?"":String(s);return d.innerHTML;}
+fetch("media/style_records.json",{cache:"no-store"}).then(function(r){return r.json();}).then(function(recs){var tb=document.getElementById("styleTable");if(!tb)return;recs.sort(function(a,b){return (b.price||0)-(a.price||0);});tb.innerHTML=recs.slice(0,8).map(function(r){return '<a class="rrow" href="'+esc(r.src)+'" target="_blank" rel="noopener"><div class="rdesc">'+esc(r.name)+'</div><div class="rtype">'+esc(r.type)+'</div><div class="rloc">'+esc(r.locale)+'</div><div class="rnote2">'+esc(r.note||'')+'</div><div class="rprice">'+money(r.price)+' · <span class="rgo">record ↗</span></div></a>';}).join("");}).catch(function(){var tb=document.getElementById("styleTable");if(tb)tb.innerHTML='<div class="mload" style="padding:20px">The ledger is momentarily unavailable.</div>';});
+})();</script>
+<footer>
+  <div class="f-in">
+    <div class="fm"><div class="me2">M<span class="dot">·</span>E</div><p>The journal of the world's finest, curated, priced and placed in confidence.</p></div>
+    <div class="fcol"><h5>Departments</h5><a href="time.html">Time</a><a href="table.html">The Table</a><a href="sea.html">The Sea</a><a href="road.html">The Road</a><a href="estate.html">Estates</a><a href="field.html">The Field</a><a href="style.html">Style</a><a href="art.html">Art</a></div>
+    <div class="fcol"><h5>The House</h5><a href="library.html">The Library</a><a href="library.html">How It Works</a><a href="library.html">Press</a><a href="mailto:me@mostexpensivest.com">Correspondence</a></div>
+    <div class="fcol"><h5>Content</h5><a href="index.html">Editorial</a><a href="time.html">Live Market</a><a href="road.html">Records</a><a href="library.html">The Desk</a></div>
+  </div>
+  <div class="foot-last"><span>© ME · MMXXVI</span><span>The Most Expensivest</span><span>Department VII · Style</span></div>
+</footer>
