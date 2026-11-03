@@ -311,3 +311,12 @@ footer{background:var(--ink);color:var(--cream);padding:60px 0 0;border-top:3px 
 .frow a{text-decoration:none;color:inherit}
 .frow a.fimg{display:block}
 @media(max-width:860px){.frow{grid-template-columns:1fr;gap:16px}.frow .fimg{aspect-ratio:16/9}}
+
+/* taxonomy/filter rail (market frame, above grid) */
+.market-rail{display:flex;flex-wrap:wrap;gap:8px;align-items:center;margin:0 0 18px;padding:0;border-top:1px solid var(--line);border-bottom:1px solid var(--line);padding:12px 0}
+.market-rail .rail-label{font-size:9px;letter-spacing:2px;text-transform:uppercase;color:var(--muted);margin-right:8px}
+.rail-chip{font-size:10px;letter-spacing:1px;text-transform:uppercase;color:var(--ink);border:1px solid var(--line);padding:5px 10px;background:var(--card);cursor:pointer;transition:all .15s}
+.rail-chip:hover{border-color:var(--gold);color:var(--bronze)}
+.rail-chip.on{background:var(--ink);border-color:var(--ink);color:var(--cream)}
+.rail-chip .cnt{color:var(--faint);margin-left:4px}
+.rail-clear{font-size:9px;letter-spacing:1.5px;text-transform:uppercase;color:var(--bronze);cursor:pointer;border-bottom:1px solid var(--bronze);margin-left:auto}

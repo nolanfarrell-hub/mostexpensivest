@@ -52,7 +52,9 @@
 <div class="dwrap">
   <div class="market dsec">
     <div class="mh"><h2><span class="no">II.</span>On the Market — Live</h2><div class="count">the finest listed now · <span id="mcount">reading the market…</span></div></div>
-    <div id="mgrid" class="mgrid"><div class="mload">…</div></div>
+    <!-- taxonomy filter rail (market frame: sits above the grid) -->
+<div class="market-rail" id="timeRail"><span class="rail-label">Ways to buy ·</span><span class="rail-chip all on">All</span></div>
+<div id="mgrid" class="mgrid"><div class="mload">…</div></div>
   </div>
   <div class="attrib" style="margin-top:12px">Market data and imagery supplied live by <a href="https://mostexpensivewatches.net" target="_blank" rel="noopener">MostExpensiveWatches</a>. Prices shown are the listing asking price; ME arranges placement by introduction and confirms provenance before any meeting.</div>
 </div>
@@ -92,8 +94,29 @@
   fetch(API).then(function(r){return r.json();}).then(function(d){
     var items=(d.items||d.result||[]).slice(0,9);
     var g=document.getElementById("mgrid");
-    g.innerHTML=items.map(card).join("")||'<div class="mload">The market is quiet at this hour.</div>';
     document.getElementById("mcount").innerHTML="<b>"+items.length+"</b> pieces";
+    // build brand filter rail from the live items
+    var rail=document.getElementById("timeRail");
+    if(rail){
+      var brands={}; items.forEach(function(it){if(it.brand)brands[it.brand]=(brands[it.brand]||0)+1;});
+      var keys=Object.keys(brands).sort();
+      keys.forEach(function(b){
+        if(!document.querySelector("#timeRail .rail-chip.b-"+b.replace(/\W+/g,"_").toLowerCase()))
+          rail.insertAdjacentHTML("beforeend",'<span class="rail-chip b-'+b.replace(/\W+/g,"_").toLowerCase()+'" data-b="'+esc(b)+'">'+esc(b)+'<span class="cnt">'+brands[b]+'</span></span>');
+      });
+    }
+    function render(filter){
+      var list=filter ? items.filter(function(it){return (it.brand||"").toLowerCase()===(filter).toLowerCase();}) : items;
+      g.innerHTML=list.map(card).join("")||'<div class="mload">Nothing in that make right now.</div>';
+    }
+    render(null);
+    document.getElementById("timeRail").addEventListener("click",function(e){
+      var chip=e.target.closest(".rail-chip"); if(!chip)return;
+      document.querySelectorAll("#timeRail .rail-chip").forEach(function(c){c.classList.remove("on");});
+      chip.classList.add("on");
+      var f=chip.getAttribute("data-b")||null;
+      render(f);
+    });
   }).catch(function(){
     document.getElementById("mgrid").innerHTML='<div class="mload">The live market is momentarily unavailable.</div>';
     document.getElementById("mcount").innerHTML="please refresh";
