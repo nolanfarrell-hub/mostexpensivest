@@ -33,6 +33,21 @@ The walls are on the HTML documents; the JSON/GraphQL backends are open and aliv
   candidates, HTTP-verifies, separates LIVE from WALL from DEAD. Cron `me-listing-research`
   Wed noon. Output: `media/listing_candidates.json`.
 - 31 LIVE listings folded in, 0 DEAD. Heroes data-driven.
+- House-grade card metadata line is BUILT and live (2026-11-03): Time cards render
+  only-populated fields (case material, case size, movement, complications) from the
+  MostExpensiveWatches feed; `condition` and `box_papers` slots sit in the frame and
+  fill in automatically once the feed carries them. Shared loader
+  (`js/market-loader.js`) has the same metadata frame, so other departments adopt the
+  pattern as their feeds gain item data. Site pushed to origin/main (clean).
+
+## Card-frame priority (field survey, 2026-11-03)
+Market leaders (1stDibs, LiveAuctioneers, Phillips, Fashionphile, RealReal, Grailed,
+Watchfinder, et al.) all lead market-first: rail above grid, borderless cards, image-top,
+small-caps house line, bold price — no editorial-hero pattern. The condition, certificate,
+and provenance fields are what make a frame read as a house rather than a classifieds page;
+they are the true prize for Time, The Field, and Art, and they are the fields ME's feed
+still does not carry. When tools reset: 1stDibs and Grailed are researched first, then the
+condition-field sources.
 
 ## WHAT TO DO TO RESUME
 1. Park continues to guard the site daily (no change needed).
