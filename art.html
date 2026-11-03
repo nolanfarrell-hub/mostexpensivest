@@ -3,198 +3,101 @@
 <head>
 <meta charset="UTF-8"/>
 <meta name="viewport" content="width=device-width,initial-scale=1"/>
-<title>ME · Art</title>
+<title>ME · Art — Masterworks &amp; the Records</title>
 <meta name="description" content="ME on Art — the masterworks and market records that matter, edited for the collector."/>
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;700&family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;1,400;1,500&family=Inter:wght@300;400;500&display=swap" rel="stylesheet">
-<style>
-:root{--cream:#f4efe4;--paper:#faf6ec;--ink:#1a1814;--ink2:#3e3a30;--muted:#8a8172;--brass:#a58a4b;--brass-dark:#89703f;--line:#e0d6bf;--faint:#c8be9f;--verde:#33503a;--verde-soft:#4a6a52;--gold:#c8a95c}
-*{margin:0;padding:0;box-sizing:border-box}html{scroll-behavior:smooth}
-body{background:var(--cream);color:var(--ink);font-family:'Inter',sans-serif;-webkit-font-smoothing:antialiased;line-height:1.65}
-a{color:inherit}.top-rule{height:3px;background:var(--ink)}
-.dep-head{text-align:center;padding:50px 24px 30px;border-bottom:1px solid var(--line)}
-.dep-head .back{font-size:11px;letter-spacing:3px;text-transform:uppercase;color:var(--muted);text-decoration:none;display:block;margin-bottom:22px}
-.dep-head .back:hover{color:var(--verde-soft)}
-.dep-head .kat{font-size:11px;letter-spacing:4px;text-transform:uppercase;color:var(--verde-soft);margin-bottom:14px;font-weight:500}
-.dep-head h1{font-family:'Cormorant Garamond',serif;font-weight:500;font-size:clamp(40px,7vw,74px);letter-spacing:-1px}
-.dep-head .deck{max-width:680px;margin:24px auto 0;font-style:italic;font-family:'Cormorant Garamond',serif;font-size:clamp(17px,2.2vw,21px);color:var(--ink2);line-height:1.5}
-
-/* MASTERWORKS */
-.works{max-width:1100px;margin:0 auto;padding:46px 26px 0}
-.works .wh{display:flex;align-items:baseline;justify-content:space-between;border-top:3px solid var(--ink);padding-top:22px;margin-bottom:26px}
-.works .wh h2{font-family:'Space Grotesk',sans-serif;font-size:12px;letter-spacing:3px;text-transform:uppercase;font-weight:600;color:var(--ink)}
-.works .wh .wnote{font-size:11px;letter-spacing:2px;text-transform:uppercase;color:var(--muted)}
-.wgrid{display:grid;grid-template-columns:repeat(3,1fr);gap:16px}
-.wcard{border:1px solid var(--line);background:var(--paper);overflow:hidden}
-.wcard .wimg{width:100%;height:320px;object-fit:cover;display:block;background:#eae3d2}
-.wcard .winfo{padding:22px 26px}
-.wcard .wname{font-family:'Cormorant Garamond',serif;font-weight:600;font-size:24px;line-height:1.15;margin-bottom:4px}
-.wcard .wartist{font-size:11px;letter-spacing:2.5px;text-transform:uppercase;color:var(--brass-dark);margin-bottom:14px}
-.wcard .wnote2{font-size:13px;color:var(--ink2);line-height:1.6}
-.wcard .wrec{display:block;margin-top:14px;font-size:10.5px;letter-spacing:1.5px;text-transform:uppercase;color:var(--muted)}
-
-/* EDITORIAL CARDS */
-.dept{max-width:1100px;margin:0 auto;padding:56px 26px 0}
-.grid{display:grid;grid-template-columns:repeat(3,1fr);gap:0}
-.card{padding:0;border-right:1px solid var(--line);border-top:1px solid var(--line);background:var(--paper)}
-.card .cardbody{padding:20px 22px 22px}
-.card .kicker{display:block;font-size:9px;letter-spacing:3.5px;text-transform:uppercase;color:var(--verde-soft);font-weight:500;margin-bottom:10px}
-.card h4{font-family:'Cormorant Garamond',serif;font-weight:600;font-size:23px;line-height:1.18;margin-bottom:8px}
-.card .dek{font-size:13px;color:var(--ink2);line-height:1.55}
-.card .go{margin-top:16px;border-top:1px solid var(--line);padding-top:12px;font-family:'Cormorant Garamond',serif;font-size:16px;font-style:italic;color:var(--brass-dark)}
-.card:hover{background:var(--cream)}
-.grid .card:nth-child(3n+3){border-right:none}
-
-.attrib{max-width:1100px;margin:22px auto 0;padding:0 30px;font-size:10.5px;color:var(--faint);letter-spacing:.5px;line-height:1.6}
-.attrib a{color:var(--brass-dark);text-decoration:none}
-
-.consult{max-width:1100px;margin:0 auto;padding:60px 30px 8px;display:flex;align-items:center;justify-content:space-between;gap:26px;flex-wrap:wrap;border-top:1px solid var(--line)}
-.consult h4{font-family:'Cormorant Garamond',serif;font-weight:600;font-size:24px;margin-bottom:6px}
-.consult p{font-size:13px;color:var(--ink2);max-width:640px}
-.consult .cta a{font-size:11px;letter-spacing:3px;text-transform:uppercase;text-decoration:none;color:var(--verde-soft);font-weight:600;border-bottom:1px solid var(--verde-soft);padding-bottom:4px;white-space:nowrap}
-.records{max-width:1100px;margin:64px auto 0;padding:0 30px}
-.records .rh{display:flex;align-items:baseline;justify-content:space-between;border-top:3px solid var(--ink);padding-top:22px;margin-bottom:6px}
-.records .rh h3{font-family:'Space Grotesk',sans-serif;font-size:12px;letter-spacing:3px;text-transform:uppercase;font-weight:600;color:var(--ink)}
-.records .rh .rnote{font-size:11px;letter-spacing:2px;text-transform:uppercase;color:var(--muted)}
-.rtable{border-top:1px solid var(--line)}
-.rrow{display:grid;grid-template-columns:1.4fr 1fr .8fr .9fr;gap:14px;padding:15px 0;border-bottom:1px solid var(--line);align-items:baseline}
-.rdesc{font-family:'Cormorant Garamond',serif;font-size:18px;font-weight:500;font-style:italic;color:var(--ink);line-height:1.3}
-.rname{color:var(--ink);font-style:normal}
-.rartist{font-size:11px;letter-spacing:1.5px;text-transform:uppercase;color:var(--muted)}
-.ryear{font-size:12px;color:var(--muted)}
-.rprice{font-family:'Space Grotesk',sans-serif;font-weight:700;font-size:17px;color:var(--brass-dark);text-align:right}
-@media(max-width:640px){.rrow{grid-template-columns:1fr .8fr}.rartist,.ryear{display:none}}
-.attrib2{max-width:1100px;margin:14px auto 0;padding:0 30px;font-size:10.5px;color:var(--faint)}
-.attrib2 a{color:var(--brass-dark);text-decoration:none}
-.bme{font-family:'Space Grotesk',sans-serif;font-weight:700;font-size:22px;letter-spacing:1px;color:var(--ink);display:inline-flex;align-items:baseline;vertical-align:middle}.bme .bd{color:var(--brass);font-weight:500;font-size:.55em;margin:0 2px}
-.backlink{max-width:1100px;margin:0 auto;padding:10px 30px 0}
-.backlink a{font-size:11px;letter-spacing:3px;text-transform:uppercase;text-decoration:none;color:var(--verde-soft)}
-.copyright{max-width:1100px;margin:0 auto;padding:40px 30px;text-align:center;font-size:11px;color:var(--faint);letter-spacing:1px;border-top:1px solid var(--line)}
-@media(max-width:900px){.wgrid{grid-template-columns:1fr}.wcard .wimg{height:320px}.grid{grid-template-columns:1fr 1fr}.grid .card:nth-child(odd){border-right:none}.grid .card{border-top:1px solid var(--line)}.grid .card:first-child{border-top:none}}
-@media(max-width:560px){.wgrid{grid-template-columns:1fr}.grid{grid-template-columns:1fr}.card{border-right:none}}
-
-/* ===== ART ROTATING HERO (the season's top lots) ===== */
-.rot{position:relative;height:clamp(300px,44vw,520px);overflow:hidden;border-bottom:1px solid var(--line);background:#14120e}
-.rot .slide{position:absolute;inset:0;opacity:0;transition:opacity 1s ease}
-.rot .slide.on{opacity:1;z-index:2}
-.rot .slide a{display:block;height:100%}
-.rot .slide img{width:100%;height:100%;object-fit:cover;display:block}
-.rot .slide::after{content:"";position:absolute;inset:0;background:linear-gradient(to right,rgba(10,9,7,.94) 0%,rgba(10,9,7,.68) 42%,rgba(10,9,7,.05) 72%)}
-.rot .copy{position:absolute;left:max(24px,calc((100vw - 1100px)/2));right:24px;bottom:32px;z-index:3;max-width:560px}
-.rot .copy .rack{font-size:10px;letter-spacing:4px;text-transform:uppercase;color:#c8a95c;font-weight:600;margin-bottom:8px}
-.rot .copy .cname{font-family:'Cormorant Garamond',serif;font-weight:600;font-size:clamp(28px,4vw,46px);line-height:1.05;color:#fff}
-.rot .copy .cart{font-size:11px;letter-spacing:3px;text-transform:uppercase;color:#e2cd9d;margin:8px 0 4px}
-.rot .copy .clot{font-family:'Cormorant Garamond',serif;font-style:italic;font-size:16px;color:#d9d2c0;line-height:1.5}
-.rot .copy .cprice{font-family:'Cormorant Garamond',serif;font-weight:500;color:#e3c063;font-size:clamp(20px,2.6vw,28px);margin-top:14px}
-.rot .copy .cgo{display:inline-block;margin-top:12px;font-size:10.5px;letter-spacing:2.5px;text-transform:uppercase;color:var(--gold);font-weight:600;border:1px solid rgba(200,169,92,.55);padding:8px 16px;transition:background .3s,color .3s}
-.rot .copy .cgo:hover{background:#c8a95c;color:#14120e}
-.rot .copy .cgo::after{content:" ↗";}
-.rot .dots{position:absolute;right:max(24px,calc((100vw - 1100px)/2));bottom:36px;z-index:4;display:flex;gap:9px}
-.rot .dots i{display:block;width:30px;height:2px;background:rgba(255,255,255,.28);cursor:pointer;transition:background .3s}
-.rot .dots i.on{background:#c8a95c}
-@media(max-width:900px){.rot{height:60vw}.rot .copy{left:22px;right:22px;bottom:24px}.rot .dots{left:22px;right:auto;bottom:12px}}
-
-
-
-/* designed tile plates */
-.card{padding:0;border-right:1px solid var(--line);border-top:1px solid var(--line);display:block;background:var(--cream)}
-.card .mark{position:relative;height:186px;overflow:hidden;border-bottom:1px solid var(--line);background:radial-gradient(130% 150% at 18% 8%, #23261d 0%, #141910 48%, #233726 100%)}
-.card .mark svg{position:absolute;inset:0;margin:auto;width:74%;max-height:80%;height:auto}
-.card .plate{display:flex;align-items:baseline;gap:9px;padding:16px 20px 0;font-size:10px;letter-spacing:3px;text-transform:uppercase;color:var(--faint)}
-.card .plate .pnum{color:var(--verde-soft);font-weight:500}
-.card .txt{padding:12px 20px 22px}
-.card .txt h4{font-family:'Cormorant Garamond',serif;font-weight:600;font-size:22px;line-height:1.2;margin-bottom:6px}
-.card .txt .who{font-size:11px;letter-spacing:2px;text-transform:uppercase;color:var(--muted);margin-bottom:11px}
-.card .txt .what{font-size:13px;color:var(--ink2);line-height:1.55}
-.card .price{display:inline-block;margin-top:15px;font-family:'Cormorant Garamond',serif;font-size:18px;font-weight:500;color:var(--brass-dark);border-bottom:1px solid var(--brass-dark);padding-bottom:2px}
-.card:hover{background:var(--paper)}
-.card:hover .mark{filter:brightness(1.08)}
-.grid .card:nth-child(3n+3){border-right:none}
-.mark .mline{stroke:var(--brass);stroke-width:2;fill:none;stroke-linecap:round;stroke-linejoin:round}
-.mark .mgold{stroke:var(--gold);stroke-width:1.5;fill:none;stroke-linecap:round}
-.mark .mfill{stroke:var(--brass);stroke-width:2;fill:rgba(200,169,92,.07);stroke-linecap:round}
-
-</style>
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;1,400;1,500&family=Space+Grotesk:wght@400;500;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/me.css">
 </head>
 <body>
-<div class="top-rule"></div>
-<div class="dep-head">
-  <a class="back" href="index.html"><span class="bme">M<span class="bd">·</span>E</span></a>
-  <div class="kat">Department IX · Fine Art</div>
-  <h1>Art</h1>
-  <div class="deck">The masterworks that set the market's terms, and the provenance that made them impossible to part with.</div>
-</div>
+
+<header class="hd"><div class="hd-in">
+  <a class="mast" href="index.html">M<span class="dot">·</span>E<span class="ed">Journal of the World's Finest</span></a>
+  <nav class="hd-nav">
+    <a href="time.html">Time</a><a href="table.html">The Table</a><a href="sea.html">The Sea</a><a href="road.html">The Road</a>
+    <a href="estate.html">Estates</a><a href="field.html">The Field</a><a href="style.html">Style</a><a href="art.html">Art</a>
+  </nav>
+  <div class="hd-util">
+    <a href="library.html">The Library</a>
+    <a href="mailto:me@mostexpensivest.com">Correspondence</a>
+    <span class="om"><i></i><i></i><i></i></span>
+  </div>
+</div></header>
+<div class="masthead"><div class="row">
+  <div class="mh-l">Issue No. 001 · Fine Art</div>
+  <div class="mh-c"><div class="claim">The masterworks that set the market's terms — <b>provenance is the longer story</b>.</div></div>
+  <div class="mh-r">Live at auction</div>
+</div></div>
 
 <div class="rot" id="artRot"></div>
 
-<div class="works">
-  <div class="wh"><h2>Masterworks</h2><div class="wnote">three that changed everything</div></div>
-  <div class="wgrid">
-    <div class="wcard">
-      <img class="wimg" src="media/img/art_wave.jpg" alt="Katsushika Hokusai, The Great Wave off Kanagawa"/>
-      <div class="winfo"><div class="wname">The Great Wave off Kanagawa</div><div class="wartist">Katsushika Hokusai · c. 1830</div>
+<div class="dwrap">
+  <div class="works dsec">
+    <div class="wsh"><h2><span class="no">I.</span>Masterworks</h2><div class="note">three that changed everything</div></div>
+    <div class="wgrid">
+      <div class="wcard">
+        <img class="wimg" src="media/img/art_wave.jpg" alt="Katsushika Hokusai, The Great Wave off Kanagawa"/>
+        <div class="winfo"><div class="wname">The Great Wave off Kanagawa</div><div class="wartist">Katsushika Hokusai · c. 1830</div>
         <div class="wnote2">The most reproduced image in all of art history — a print that crossed the world from Edo to Paris and never looked like a print. Thirty-six Views of Mount Fuji made a woodblock into the best-known gesture the market has.</div>
         <div class="wrec">from Thirty-six Views of Mount Fuji · the wave that moved the world</div></div>
-    </div>
-    <div class="wcard">
-      <img class="wimg" src="media/img/art_pearl.jpg" alt="Johannes Vermeer, Girl with a Pearl Earring"/>
-      <div class="winfo"><div class="wname">Girl with a Pearl Earring</div><div class="wartist">Johannes Vermeer · c. 1665</div>
+      </div>
+      <div class="wcard">
+        <img class="wimg" src="media/img/art_pearl.jpg" alt="Johannes Vermeer, Girl with a Pearl Earring"/>
+        <div class="winfo"><div class="wname">Girl with a Pearl Earring</div><div class="wartist">Johannes Vermeer · c. 1665</div>
         <div class="wnote2">A girl turning to look at you over her shoulder, the single pearl catching the light — 44 centimetres that became the portrait of the Northern Renaissance. The paucity of Vermeer's surviving œuvre is itself the market's whole argument.</div>
         <div class="wrec">Mauritshuis · The Hague · one of only ~34 Vermeers</div></div>
-    </div>
-    <div class="wcard">
-      <img class="wimg" src="media/img/art_sunflowers.jpg" alt="Vincent van Gogh, Sunflowers"/>
-      <div class="winfo"><div class="wname">Sunflowers</div><div class="wartist">Vincent van Gogh · 1889</div>
+      </div>
+      <div class="wcard">
+        <img class="wimg" src="media/img/art_sunflowers.jpg" alt="Vincent van Gogh, Sunflowers"/>
+        <div class="winfo"><div class="wname">Sunflowers</div><div class="wartist">Vincent van Gogh · 1889</div>
         <div class="wnote2">Painted in the yellow house at Arles as a study in what a colour alone could say. The most expensive still life in history sold for the equivalent of nearly $100 million — and the series never stops setting private records.</div>
         <div class="wrec">the record still-life · van Gogh Museum</div></div>
+      </div>
     </div>
   </div>
 </div>
 
-<!-- RECORDS OF THE ART MARKET -->
-<div class="records">
-  <div class="rh"><h3>Records of the Market</h3><div class="rnote">the highest prices ever paid</div></div>
-  <div class="rtable" id="artTable"><div class="mload" style="padding:20px;color:var(--muted)">reading the market…</div></div>
-</div>
-<div class="attrib2">Sale records sourced from <a href="https://en.wikipedia.org/wiki/List_of_most_expensive_paintings" target="_blank" rel="noopener">Wikipedia: List of most expensive paintings</a>. Figures are the original sale price in USD; provenance is the longer story.</div>
-
-<div class="dept">
-  <div class="grid">
-    <div class="card">
-      <div class="cardbody"><span class="kicker">I &middot; The Self-Portrait</span><h4>The Self-Portrait, Again</h4><p class="dek">A man who had lost everything painted himself at his most unmoved — the market's favourite proof that the life does not touch the work.</p><div class="go">national collections only</div></div>
-    </div>
-
-    <div class="card">
-      <div class="cardbody"><span class="kicker">II &middot; The Canvas</span><h4>The Eight-Figure Canvas</h4><p class="dek">Now the records sit with blue-chip impressionism and the twentieth century's quietest names. The ceiling keeps moving; the works do not.</p><div class="go">world market</div></div>
-    </div>
-
-    <div class="card">
-      <div class="cardbody"><span class="kicker">III &middot; The Chain</span><h4>Provenance Is the Painting</h4><p class="dek">The same canvas is worth a tenth as much if the chain of ownership has a gap — provenance is the riskless part of price.</p><div class="go">by provenance</div></div>
-    </div>
-
-    <div class="card">
-      <div class="cardbody"><span class="kicker">IV &middot; The Dealer's Room</span><h4>The Dealer's Room</h4><p class="dek">The best works never reach an auction; they move between three or four people over a bottle that settles it.</p><div class="go">by introduction</div></div>
-    </div>
-
-    <div class="card">
-      <div class="cardbody"><span class="kicker">V &middot; New Blood</span><h4>New Blood, Old Money</h4><p class="dek">Twenty years of blue-chip is not a fashion but a discipline — the emerging names supply the excitement, the blue-chip the floor.</p><div class="go">curated</div></div>
-    </div>
-
-    <div class="card">
-      <div class="cardbody"><span class="kicker">VI &middot; By Invitation</span><h4>Hanging by Invitation</h4><p class="dek">The shows worth attending hold forty people and sell out before the invitation is printed — ME can place you at two or three a season.</p><div class="go">by appointment</div></div>
+<div class="dwrap">
+  <div class="dsec">
+    <div class="dsh"><h2><span class="no">II.</span>How the Market Thinks</h2><div class="note">collector notes</div></div>
+    <div class="dcards">
+      <div class="dcard"><div class="k">I · The Self-Portrait</div><h3>The Self-Portrait, Again</h3><p>A man who had lost everything painted himself at his most unmoved — the market's favourite proof that the life does not touch the work.</p><div class="go">national collections only</div></div>
+      <div class="dcard"><div class="k">II · The Canvas</div><h3>The Eight-Figure Canvas</h3><p>Now the records sit with blue-chip impressionism and the twentieth century's quietest names. The ceiling keeps moving; the works do not.</p><div class="go">world market</div></div>
+      <div class="dcard"><div class="k">III · The Chain</div><h3>Provenance Is the Painting</h3><p>The same canvas is worth a tenth as much if the chain of ownership has a gap — provenance is the riskless part of price.</p><div class="go">by provenance</div></div>
+      <div class="dcard"><div class="k">IV · The Dealer's Room</div><h3>The Dealer's Room</h3><p>The best works never reach an auction; they move between three or four people over a bottle that settles it.</p><div class="go">by introduction</div></div>
+      <div class="dcard"><div class="k">V · New Blood</div><h3>New Blood, Old Money</h3><p>Twenty years of blue-chip is not a fashion but a discipline — the emerging names supply the excitement, the blue-chip the floor.</p><div class="go">curated</div></div>
+      <div class="dcard"><div class="k">VI · By Invitation</div><h3>Hanging by Invitation</h3><p>The shows worth attending hold forty people and sell out before the invitation is printed — ME can place you at two or three a season.</p><div class="go">by appointment</div></div>
     </div>
   </div>
 </div>
 
-<div class="consult">
-  <div><h4>Private Consultation</h4><p>Write to us and be matched with the right collector, dealer or sale room, in the right city, at the right hour. By appointment, in strictest confidence.</p></div>
-  <div class="cta"><a href="mailto:me@mostexpensivest.com">Begin the Conversation</a></div>
+<div class="dwrap">
+  <div class="records">
+    <div class="dsh"><h2><span class="no">III.</span>Records of the Market</h2><div class="note">the highest prices ever paid</div></div>
+    <div id="artTable" class="rtable"><div class="mload" style="padding:20px">reading the market…</div></div>
+  </div>
+  <div class="attrib" style="margin-top:12px">Sale records sourced from <a href="https://en.wikipedia.org/wiki/List_of_most_expensive_paintings" target="_blank" rel="noopener">Wikipedia: List of most expensive paintings</a>. Figures are the original sale price in USD; provenance is the longer story.</div>
 </div>
-<div class="backlink"><a href="index.html">← All Departments</a></div>
-<div class="copyright">© The Most Expensivest, MMXXVI</div>
+
+<div class="dwrap">
+  <div class="consult">
+    <div><h3>Private Consultation</h3><p>Write to us and be matched with the right collector, dealer or sale room, in the right city, at the right hour. By appointment, in strictest confidence.</p></div>
+    <div class="cta"><a href="mailto:me@mostexpensivest.com">Begin the Conversation</a></div>
+  </div>
+  <div class="backlink"><a href="index.html">← All Departments</a></div>
+</div>
+
+<footer>
+  <div class="f-in">
+    <div class="fm"><div class="me2">M<span class="dot">·</span>E</div><p>The journal of the world's finest, curated, priced and placed in confidence.</p></div>
+    <div class="fcol"><h5>Departments</h5><a href="time.html">Time</a><a href="table.html">The Table</a><a href="sea.html">The Sea</a><a href="road.html">The Road</a><a href="estate.html">Estates</a><a href="field.html">The Field</a><a href="style.html">Style</a><a href="art.html">Art</a></div>
+    <div class="fcol"><h5>The House</h5><a href="library.html">The Library</a><a href="library.html">How It Works</a><a href="library.html">Press</a><a href="mailto:me@mostexpensivest.com">Correspondence</a></div>
+    <div class="fcol"><h5>Content</h5><a href="index.html">Editorial</a><a href="time.html">Live Market</a><a href="road.html">Records</a><a href="library.html">The Desk</a></div>
+  </div>
+  <div class="foot-last"><span>© ME · MMXXVI</span><span>The Most Expensivest</span><span>Department IX · Art</span></div>
+</footer>
 <script>
-/* ROTATING ART HERO - data-driven; reads media/art_season.json, falls back to embedded */
 function __fi(el){el.style.display='none';el.parentNode.style.background='linear-gradient(135deg,#1a1814,#2c251a)';}
 (function(){
   var EMBED=[
@@ -203,7 +106,6 @@ function __fi(el){el.style.display='none';el.parentNode.style.background='linear
     {art:"Joan Miró · Portrait de Madame K., 1924",price:53535000,house:"Christie's New York",date:"May 2026",provenance:"More than doubled its low estimate; a new record for the artist at auction.",img:"https://artsy-media-uploads.s3.amazonaws.com/5ZrT3SegFcYeITdmG35nyA/LOT+6A_JOAN+MIRO%2C+Portrait+de+Madame+K..jpg",link:"https://www.1stdibs.com/search/?q=Joan%20Miro"},
     {art:"Alice Neel · Mother and Child (Nancy and Olivia), 1967",price:5687000,house:"Christie's New York",date:"May 2026",provenance:"More than tripled its $1.2-1.8M estimate; a new record for the artist.",img:"https://artsy-media-uploads.s3.amazonaws.com/rHaRX23MFt4nqdRyoJHlXg/LOT+50A_ALICE+NEEL%2C+Mother+and+Child+%28Nancy+and+Olivia%29.jpg",link:"https://www.1stdibs.com/search/?q=Alice%20Neel"}
   ];
-  var NF=' · ',NL='\n';
   function money(n){if(n==null||isNaN(n))return "on request";return "$"+Math.round(n).toLocaleString("en-US");}
   function esc(s){var d=document.createElement("div");d.textContent=s==null?"":String(s);return d.innerHTML;}
   function render(LOTS,asof){
@@ -229,7 +131,7 @@ function __fi(el){el.style.display='none';el.parentNode.style.background='linear
     function show(n){idx=(n+TOTAL)%TOTAL;var s=rot.querySelectorAll(".slide");Array.prototype.forEach.call(s,function(el){el.classList.toggle("on",+el.getAttribute("data-i")===idx);});var d=rot.querySelectorAll(".dots i");Array.prototype.forEach.call(d,function(el){el.classList.toggle("on",+el.getAttribute("data-go")===idx);});}
     function next(){show(idx+1);}
     function start(){clearInterval(timer);timer=setInterval(next,6000);}
-    rot.removeEventListener("click",start);rot.addEventListener("click",function(e){var g=e.target.getAttribute&&e.target.getAttribute("data-go");if(g!=null){show(+g);start();}});
+    rot.addEventListener("click",function(e){var g=e.target.getAttribute&&e.target.getAttribute("data-go");if(g!=null){show(+g);start();}});
     start();
   }
   function valid(L){return Array.isArray(L)&&L.length>0&&L.every(function(x){return x&&x.art&&x.price&&(x.img||x.link);});}
@@ -237,23 +139,20 @@ function __fi(el){el.style.display='none';el.parentNode.style.background='linear
     try{return r.ok?r.json():null;}catch(e){return null;}
   }).then(function(d){
     var L=d&&d.lots;
-    if(valid(L)){render(L,L.length?d.asof||null:null);}
-    else{render(EMBED,null);}
+    if(valid(L)){render(L,L.length?d.asof||null:null);} else {render(EMBED,null);}
   }).catch(function(){render(EMBED,null);});
-  /* RECORDS OF THE MARKET - the all-time ledger */
   fetch("media/art_records.json").then(function(r){return r.json();}).then(function(recs){
     var tb=document.getElementById("artTable"); if(!tb)return;
     recs.sort(function(a,b){return (b.price||0)-(a.price||0);});
     tb.innerHTML=recs.slice(0,10).map(function(r){
-      return '<div class="rrow">'+
+      return '<a class="rrow" href="https://en.wikipedia.org/wiki/List_of_most_expensive_paintings" target="_blank" rel="noopener">'+
         '<div class="rdesc"><span class="rname">'+esc(r.name)+'</span></div>'+
         '<div class="rartist">'+esc(r.artist)+'</div>'+
         '<div class="ryear">'+esc(r.year)+'</div>'+
-        '<div class="rprice">'+money(r.price)+'</div></div>';
+        '<div class="rprice">'+money(r.price)+'</div></a>';
     }).join("");
   }).catch(function(){var tb=document.getElementById("artTable");if(tb)tb.innerHTML='<div class="mload" style="padding:20px">The records are momentarily unavailable.</div>';});
 })();
 </script>
-
 </body>
 </html>

@@ -225,3 +225,44 @@ footer{background:var(--ink);color:var(--cream);padding:60px 0 0;border-top:3px 
 .backlink{margin-top:10px}
 .backlink a{font-size:10px;letter-spacing:3px;text-transform:uppercase;color:var(--muted)}
 .backlink a:hover{color:var(--gold)}
+
+
+/* ================= ART DEPARTMENT (rotating hero + masterworks) ================= */
+.rot{position:relative;height:clamp(340px,52vh,540px);overflow:hidden;background:var(--ink)}
+.rot .slide{position:absolute;inset:0;opacity:0;transition:opacity 1s ease}
+.rot .slide.on{opacity:1;z-index:2}
+.rot .slide a{display:block;height:100%}
+.rot .slide img{width:100%;height:100%;object-fit:cover;display:block}
+.rot .slide::after{content:"";position:absolute;inset:0;background:linear-gradient(90deg,rgba(10,9,7,.9) 0%,rgba(10,9,7,.6) 45%,rgba(10,9,7,.06) 74%)}
+.rot .copy{position:absolute;left:max(30px,calc((100vw - 1184px)/2));right:30px;bottom:52px;z-index:3;max-width:600px;color:#fff}
+.rot .copy .rack{font-size:10px;letter-spacing:4px;text-transform:uppercase;color:var(--gold);font-weight:600;margin-bottom:10px}
+.rot .copy .cname{font-family:var(--serif);font-weight:500;font-size:clamp(28px,4.2vw,48px);line-height:1.05;color:#fff;text-shadow:0 3px 26px rgba(0,0,0,.5)}
+.rot .copy .cart{font-size:11px;letter-spacing:3px;text-transform:uppercase;color:#e2cd9d;margin:10px 0 6px}
+.rot .copy .clot{font-family:var(--serif);font-style:italic;font-size:16px;color:#dfd6c0;line-height:1.5}
+.rot .copy .cprice{font-family:var(--serif);font-weight:500;color:var(--gold);font-size:clamp(20px,2.6vw,28px);margin-top:14px}
+.rot .copy .cgo{display:inline-block;margin-top:12px;font-size:10px;letter-spacing:2.5px;text-transform:uppercase;color:var(--gold);font-weight:600;border:1px solid rgba(200,169,92,.55);padding:8px 16px;transition:background .3s,color .3s}
+.rot .copy .cgo:hover{background:var(--gold);color:#14120e}
+.rot .copy .cgo::after{content:" ↗"}
+.rot .dots{position:absolute;right:max(30px,calc((100vw - 1184px)/2));bottom:56px;z-index:4;display:flex;gap:9px}
+.rot .dots i{display:block;width:30px;height:2px;background:rgba(255,255,255,.28);cursor:pointer;transition:background .3s}
+.rot .dots i.on{background:var(--gold)}
+@media(max-width:900px){.rot{height:64vw}.rot .copy{left:22px;right:22px;bottom:26px}.rot .dots{left:22px;right:auto;bottom:12px}}
+
+/* masterworks */
+.works .wsh{display:flex;align-items:baseline;justify-content:space-between;border-top:3px solid var(--ink);padding-top:22px;margin-bottom:22px}
+.works .wsh h2{font-size:11px;letter-spacing:3.5px;text-transform:uppercase;font-weight:600}
+.works .wsh h2 .no{font-family:var(--serif);font-style:italic;color:var(--bronze);margin-right:10px}
+.works .wsh .note{font-size:10px;letter-spacing:2px;text-transform:uppercase;color:var(--muted)}
+.wgrid{display:grid;grid-template-columns:repeat(3,1fr);gap:18px}
+.wcard{border:1px solid var(--line);background:var(--card);overflow:hidden;box-shadow:0 8px 24px -14px rgba(13,11,8,.5)}
+.wcard .wimg{width:100%;height:auto;aspect-ratio:4/3;object-fit:cover;display:block;background:var(--paper2)}
+.wcard .winfo{padding:22px 24px}
+.wcard .wname{font-family:var(--serif);font-weight:500;font-size:23px;line-height:1.12;margin-bottom:4px}
+.wcard .wartist{font-size:10px;letter-spacing:2.5px;text-transform:uppercase;color:var(--bronze);margin-bottom:12px}
+.wcard .wnote2{font-size:13px;color:var(--muted);line-height:1.6}
+.wcard .wrec{display:block;margin-top:14px;font-size:9.5px;letter-spacing:1.5px;text-transform:uppercase;color:var(--faint)}
+@media(max-width:900px){.wgrid{grid-template-columns:1fr 1fr}}@media(max-width:560px){.wgrid{grid-template-columns:1fr}}
+
+/* art records: rname/rartist/ryear variants */
+.rartist{font-size:10px;letter-spacing:1px;color:var(--muted);text-transform:uppercase}
+.ryear{font-size:12px;color:var(--muted)}
