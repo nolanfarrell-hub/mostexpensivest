@@ -20,12 +20,18 @@ a{color:inherit}.top-rule{height:3px;background:var(--ink)}
 .dep-head .deck{max-width:640px;margin:24px auto 0;font-style:italic;font-family:'Cormorant Garamond',serif;font-size:clamp(17px,2.2vw,21px);color:var(--ink2);line-height:1.5}
 .dept{max-width:1100px;margin:0 auto;padding:40px 26px}
 .grid{display:grid;grid-template-columns:repeat(3,1fr);gap:0}
-.card{padding:26px 24px;border-right:1px solid var(--line);border-top:1px solid var(--line);text-decoration:none;display:block}
-.card .txt h4{font-family:'Cormorant Garamond',serif;font-weight:600;font-size:22px;line-height:1.2;margin-bottom:8px}
-.card .txt .who{font-size:11px;letter-spacing:2px;text-transform:uppercase;color:var(--muted);margin-bottom:14px}
-.card .txt .what{font-size:13px;color:var(--ink2);line-height:1.55}
-.card .price{display:inline-block;margin-top:16px;font-family:'Cormorant Garamond',serif;font-size:18px;font-weight:500;color:var(--brass-dark);border-bottom:1px solid var(--brass-dark);padding-bottom:2px}
-.card:hover{background:var(--paper)}
+.card{padding:0;border-right:1px solid var(--line);border-top:1px solid var(--line);text-decoration:none;display:block;background:var(--paper)}
+.card .photo{position:relative;aspect-ratio:3/2;overflow:hidden;border-bottom:1px solid var(--line);background:#141910}
+.card .photo img{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;display:block}
+.card .photo .shade{position:absolute;inset:auto 0 0 0;height:52%;background:linear-gradient(transparent,rgba(12,11,8,.72))}
+.card .photo .kicker{position:absolute;left:20px;bottom:16px;font-size:9px;letter-spacing:3.5px;text-transform:uppercase;color:var(--gold);font-weight:500}
+.card:hover{background:var(--cream)}
+.card:hover .photo img{transform:scale(1.02)}
+.card .cardbody{padding:20px 22px 22px}
+.card .kicker{display:block;font-size:9px;letter-spacing:3.5px;text-transform:uppercase;color:var(--verde-soft);font-weight:500;margin-bottom:10px}
+.card h4{font-family:'Cormorant Garamond',serif;font-weight:600;font-size:23px;line-height:1.18;margin-bottom:8px}
+.card .dek{font-size:13px;color:var(--ink2);line-height:1.55}
+.card .go{margin-top:16px;border-top:1px solid var(--line);padding-top:12px;font-family:'Cormorant Garamond',serif;font-size:16px;font-style:italic;color:var(--brass-dark)}
 .grid .card:nth-child(3n+3){border-right:none}
 .attrib{max-width:1100px;margin:18px auto 0;padding:0 30px;font-size:10.5px;color:var(--faint);letter-spacing:.5px;line-height:1.6}
 .attrib a{color:var(--brass-dark);text-decoration:none}
@@ -97,38 +103,34 @@ a{color:inherit}.top-rule{height:3px;background:var(--ink)}
 </div>
 </div>
 <div class="dept">
-    <div class="grid">
-    <a class="card" href="https://www.christiesrealestate.com/homes-for-sale/france/" target="_blank" rel="noopener">
-      <div class="mark"><svg viewBox="0 0 180 120" aria-hidden="true"><g><path class="mline" d="M50 94 L50 44 M126 94 L126 44 M50 44 L126 44"/><path class="mfill" d="M40 44 L90 34 L140 44 M40 44 L48 40 M90 34 L98 40"/><path class="mline" d="M62 94 L62 62 H82 V94"/><rect class="mfill" x="96" y="56" width="18" height="14"/><path class="mline" d="M62 74 H86"/></g></svg></div>
-      <div class="plate"><span class="pnum">I</span><span>the manor</span></div>
-      <div class="txt"><h4>A Riviera Manor</h4><div class="who">France · the Côte d’Azur, listed</div><p class="what">Villa Leopolda sold around €370 million in 2008 and is valued near $750 million since; Christie’s International Real Estate carries the Riviera’s grand villas, live.</p><span class="price">French estates listed ↗</span></div>
+  <div class="grid">
+    <a class="card" href="https://www.christiesrealestate.com/home" target="_blank" rel="noopener">
+      <div class="photo"><img src="media/img/estate.jpg" alt="A Riviera Manor"/><div class="shade"></div><span class="kicker">A Riviera Manor</span></div>
+      <div class="cardbody"><span class="kicker">I &middot; 1</span><p class="dek">Villa Leopolda sold around €370 million — the manor at the top of the Riviera list.</p><div class="go">Estates, listed ↗</div></div>
     </a>
+
     <a class="card" href="https://www.compass.com/" target="_blank" rel="noopener">
-      <div class="mark"><svg viewBox="0 0 180 120" aria-hidden="true"><g><rect class="mfill" x="74" y="20" width="40" height="74" rx="2"/><path class="mline" d="M74 34 H114 M74 48 H114 M74 62 H114 M74 76 H114"/><path class="mline" d="M64 20 H124 M64 94 H124"/><path class="mgold" d="M94 10 V18"/></g></svg></div>
-      <div class="plate"><span class="pnum">II</span><span>the vertical estate</span></div>
-      <div class="txt"><h4>The Vertical Estate</h4><div class="who">a mansion upward · live</div><p class="what">Antilia’s twenty-seven storeys answered how high a residence can go. When an once-in-a-lifetime residence comes to market, Compass carries the modern list.</p><span class="price">Compass · the modern list ↗</span></div>
+      <div class="cardbody"><span class="kicker">II &middot; 2</span><h4>The Vertical Estate</h4><p class="dek">Antilia's twenty-seven storeys answered how high an estate can go — by value, nowhere near done.</p><div class="go">Compass · the modern list ↗</div></div>
     </a>
-    <a class="card" href="https://www.christiesrealestate.com/lifestyles/castles-palaces/" target="_blank" rel="noopener">
-      <div class="mark"><svg viewBox="0 0 180 120" aria-hidden="true"><g><path class="mfill" d="M46 40 L134 40 L122 94 L58 94 Z"/><path class="mline" d="M52 40 L60 88 M56 40 L64 90 M134 40 L124 92 M112 40 L104 90 M98 40 L90 92 M84 40 L76 90 M70 40 L64 88"/><path class="mline" d="M46 40 L134 40"/></g></svg></div>
-      <div class="plate"><span class="pnum">III</span><span>a sky penthouse</span></div>
-      <div class="txt"><h4>A Sky Penthouse</h4><div class="who">Monte Carlo & beyond · listed</div><p class="what">The Odeon Tower penthouse, marketed near $440 million, is the address above it all. The castles, palaces and penthouses of the current market are listed live.</p><span class="price">the castles & palaces ↗</span></div>
+
+    <a class="card" href="https://www.christiesrealestate.com/life" target="_blank" rel="noopener">
+      <div class="cardbody"><span class="kicker">III &middot; 3</span><h4>A Sky Penthouse</h4><p class="dek">The Odeon Tower penthouse, marketed near $440 million — the castles and palaces of the sky.</p><div class="go">The castles & palaces ↗</div></div>
     </a>
+
     <a class="card" href="https://www.chestertons.com/" target="_blank" rel="noopener">
-      <div class="mark"><svg viewBox="0 0 180 120" aria-hidden="true"><g><path class="mfill" d="M50 78 C64 40 116 40 130 78 Z"/><path class="mline" d="M74 50 L106 50 M64 62 L116 62"/><path class="mgold" d="M90 70 L90 88 M84 88 H96"/><path class="mline" d="M40 94 H140 M36 88 H144"/></g></svg></div>
-      <div class="plate"><span class="pnum">IV</span><span>a private island</span></div>
-      <div class="txt"><h4>A Private Island</h4><div class="who">the last redoubt · live market</div><p class="what">The helipad is the driveway, and an island is the definitive old-money address. Chestertons Global carries islands, estates and the world’s listed properties.</p><span class="price">Chestertons · islands & estates ↗</span></div>
+      <div class="cardbody"><span class="kicker">IV &middot; 4</span><h4>A Private Island</h4><p class="dek">The helipad is the driveway — an island is the one address no one can gate.</p><div class="go">Chestertons · islands & estates ↗</div></div>
     </a>
+
     <a class="card" href="mailto:me@mostexpensivest.com" target="_blank" rel="noopener">
-      <div class="mark"><svg viewBox="0 0 180 120" aria-hidden="true"><g><path class="mfill" d="M40 50 L64 24 L140 50 M40 50 L140 50 M40 50 L40 92 M140 50 L140 92 M40 92 H140"/><path class="mline" d="M52 92 V60 M88 92 V60 M120 92 V60"/><path class="mgold" d="M84 60 V92 M76 66 L92 66"/></g></svg></div>
-      <div class="plate"><span class="pnum">V</span><span>a tuscan villa</span></div>
-      <div class="txt"><h4>A Tuscan Villa</h4><div class="who">Chianti · the one with a vineyard</div><p class="what">A long low stone house over its own vineyard, a cellar that pays the staff, an address the whole district agrees on. Placed privately, on request.</p><span class="price">by arrangement</span></div>
+      <div class="cardbody"><span class="kicker">V &middot; 5</span><h4>A Tuscan Villa</h4><p class="dek">A long low stone house over its own vineyard, a century of summers behind it. By arrangement.</p><div class="go">By arrangement</div></div>
     </a>
-    <a class="card"  target="_blank" rel="noopener">
-      <div class="mark"><svg viewBox="0 0 180 120" aria-hidden="true"><g><path class="mline" d="M44 40 C56 30 72 30 80 40 C88 50 88 62 80 68 C76 60 66 56 58 60 M70 34 C78 28 88 28 94 34 C100 44 96 54 88 58 C80 52 70 52 62 56"/><path class="mgold" d="M52 72 H112 M50 78 H118 M54 84 H110"/></g></svg></div>
-      <div class="plate"><span class="pnum">VI</span><span>the grounds, kept</span></div>
-      <div class="txt"><h4>The Grounds, Kept</h4><div class="who">the estate manager · always</div><p class="what">A good estate has a gardener who has outlived two owners and a manager who logs every frost. You are not buying the house; you are buying the people who never leave.</p><span class="price">included</span></div>
+
+    <a class="card" href="mailto:me@mostexpensivest.com" target="_blank" rel="noopener">
+      <div class="cardbody"><span class="kicker">VI &middot; 6</span><h4>The Grounds, Kept</h4><p class="dek">A gardener who has outlived two owners and a manager who logs every frost — the people who never leave.</p><div class="go">Included</div></div>
     </a>
+
   </div>
+</div>
 
 <!-- RECORDS OF THE ESTATE -->
 <div class="records">

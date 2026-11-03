@@ -70,22 +70,16 @@ a{color:inherit}.top-rule{height:3px;background:var(--ink)}
 
 
 /* designed tile plates */
-.card{padding:0;border-right:1px solid var(--line);border-top:1px solid var(--line);display:block;background:var(--cream)}
-.card .mark{position:relative;height:186px;overflow:hidden;border-bottom:1px solid var(--line);background:radial-gradient(130% 150% at 18% 8%, #23261d 0%, #141910 48%, #233726 100%)}
-.card .mark svg{position:absolute;inset:0;margin:auto;width:74%;max-height:80%;height:auto}
-.card .plate{display:flex;align-items:baseline;gap:9px;padding:16px 20px 0;font-size:10px;letter-spacing:3px;text-transform:uppercase;color:var(--faint)}
-.card .plate .pnum{color:var(--verde-soft);font-weight:500}
-.card .txt{padding:12px 20px 22px}
-.card .txt h4{font-family:'Cormorant Garamond',serif;font-weight:600;font-size:22px;line-height:1.2;margin-bottom:6px}
-.card .txt .who{font-size:11px;letter-spacing:2px;text-transform:uppercase;color:var(--muted);margin-bottom:11px}
-.card .txt .what{font-size:13px;color:var(--ink2);line-height:1.55}
-.card .price{display:inline-block;margin-top:15px;font-family:'Cormorant Garamond',serif;font-size:18px;font-weight:500;color:var(--brass-dark);border-bottom:1px solid var(--brass-dark);padding-bottom:2px}
-.card:hover{background:var(--paper)}
-.card:hover .mark{filter:brightness(1.08)}
+.dept{max-width:1100px;margin:0 auto;padding:40px 26px}
+.grid{display:grid;grid-template-columns:repeat(3,1fr);gap:0}
+.card{padding:0;border-right:1px solid var(--line);border-top:1px solid var(--line);text-decoration:none;display:block;background:var(--paper)}
+.card:hover{background:var(--cream)}
+.card .cardbody{padding:20px 22px 22px}
+.card .kicker{display:block;font-size:9px;letter-spacing:3.5px;text-transform:uppercase;color:var(--verde-soft);font-weight:500;margin-bottom:10px}
+.card h4{font-family:'Cormorant Garamond',serif;font-weight:600;font-size:23px;line-height:1.18;margin-bottom:8px}
+.card .dek{font-size:13px;color:var(--ink2);line-height:1.55}
+.card .go{margin-top:16px;border-top:1px solid var(--line);padding-top:12px;font-family:'Cormorant Garamond',serif;font-size:16px;font-style:italic;color:var(--brass-dark)}
 .grid .card:nth-child(3n+3){border-right:none}
-.mark .mline{stroke:var(--brass);stroke-width:2;fill:none;stroke-linecap:round;stroke-linejoin:round}
-.mark .mgold{stroke:var(--gold);stroke-width:1.5;fill:none;stroke-linecap:round}
-.mark .mfill{stroke:var(--brass);stroke-width:2;fill:rgba(200,169,92,.07);stroke-linecap:round}
 
 </style>
 </head>
@@ -123,36 +117,29 @@ a{color:inherit}.top-rule{height:3px;background:var(--ink)}
 </div>
 <div class="dept">
   <div class="lead"><p>One address for everything on ME. Tell us what you want to acquire, sell, charter, arrange, or simply find — we do the rest, anywhere in the world, in confidence.</p></div>
-    <div class="grid">
+  <div class="grid">
     <a class="card" href="mailto:me@mostexpensivest.com?subject=The%20Library%20%E2%80%94%20Source" target="_blank" rel="noopener">
-      <div class="mark"><svg viewBox="0 0 180 120" aria-hidden="true"><g><circle class="mline" cx="78" cy="62" r="30"/><path class="mline" d="M102 84 L126 108"/><path class="mgold" d="M96 44 L78 62 M78 62 L84 84"/></g></svg></div>
-      <div class="plate"><span class="pnum">I</span><span>source</span></div>
-      <div class="txt"><h4>Source</h4><div class="what">A rare watch, a classic motorcar, a private estate, a season on the moor — obtained for you, or sold on your behalf.</div></div>
+      <div class="cardbody"><span class="kicker">I &middot; Source</span><h4>Source</h4><p class="dek">A rare watch, a classic motorcar, a private estate, a season on the moor — obtained for you, or sold on your behalf.</p><div class="go">Write to source <span style="font-style:normal">&nearr;</span></div></div>
     </a>
+
     <a class="card" href="mailto:me@mostexpensivest.com?subject=The%20Library%20%E2%80%94%20Arrange" target="_blank" rel="noopener">
-      <div class="mark"><svg viewBox="0 0 180 120" aria-hidden="true"><g><rect class="mline" x="52" y="38" width="76" height="52" rx="3"/><path class="mline" d="M52 52 H128 M68 30 V46 M112 30 V46"/><path class="mgold" d="M60 64 H88 M60 74 H88"/></g></svg></div>
-      <div class="plate"><span class="pnum">II</span><span>arrange</span></div>
-      <div class="txt"><h4>Arrange</h4><div class="what">Charters, viewings, fittings, tastings, invitations. Placed with the right people at the right hour.</div></div>
+      <div class="cardbody"><span class="kicker">II &middot; Arrange</span><h4>Arrange</h4><p class="dek">Charters, viewings, fittings, tastings, invitations — placed with the right people at the right hour.</p><div class="go">Write to arrange <span style="font-style:normal">&nearr;</span></div></div>
     </a>
+
     <a class="card" href="mailto:me@mostexpensivest.com?subject=The%20Library%20%E2%80%94%20Advise" target="_blank" rel="noopener">
-      <div class="mark"><svg viewBox="0 0 180 120" aria-hidden="true"><g><path class="mline" d="M48 92 L106 34 M122 50 L64 108 M84 62 L96 50 M76 74 L88 62"/><path class="mgold" d="M106 34 L120 22 M122 50 L138 38"/></g></svg></div>
-      <div class="plate"><span class="pnum">III</span><span>advise</span></div>
-      <div class="txt"><h4>Advise</h4><div class="what">Plain counsel on what to buy and what to let pass — no agenda, no commission pressure, just the honest answer.</div></div>
+      <div class="cardbody"><span class="kicker">III &middot; Advise</span><h4>Advise</h4><p class="dek">Plain counsel on what to buy and what to let pass — no agenda, no commission pressure, just the honest answer.</p><div class="go">Write to advise <span style="font-style:normal">&nearr;</span></div></div>
     </a>
+
     <a class="card" href="mailto:me@mostexpensivest.com?subject=The%20Library%20%E2%80%94%20Sell" target="_blank" rel="noopener">
-      <div class="mark"><svg viewBox="0 0 180 120" aria-hidden="true"><g><path class="mline" d="M60 60 L116 60 L122 52 L116 44 L60 44 Z"/><path class="mline" d="M116 60 L116 88 M60 60 L60 88 H116"/><path class="mline" d="M48 88 H128 M44 96 H132"/></g></svg></div>
-      <div class="plate"><span class="pnum">IV</span><span>sell</span></div>
-      <div class="txt"><h4>Sell</h4><div class="what">A piece you own and wish to place, matched with a serious buyer and handled end to end, discretely.</div></div>
+      <div class="cardbody"><span class="kicker">IV &middot; Sell</span><h4>Sell</h4><p class="dek">A piece you own and wish to place, matched with a serious buyer and handled end to end, discreetly.</p><div class="go">Write to sell <span style="font-style:normal">&nearr;</span></div></div>
     </a>
+
     <a class="card" href="mailto:me@mostexpensivest.com?subject=The%20Library%20%E2%80%94%20Introduction" target="_blank" rel="noopener">
-      <div class="mark"><svg viewBox="0 0 180 120" aria-hidden="true"><g><path class="mline" d="M46 40 H92 V92 H46 Z M46 40 L74 24 H118 V92 H92"/><path class="mline" d="M92 56 H118 M92 92 H118"/></g></svg></div>
-      <div class="plate"><span class="pnum">V</span><span>open a door</span></div>
-      <div class="txt"><h4>Open a Door</h4><div class="what">A maker, a gallery, a house, a club that keeps its door unmarked — we get you through it, by introduction.</div></div>
+      <div class="cardbody"><span class="kicker">V &middot; Open a Door</span><h4>Open a Door</h4><p class="dek">A maker, a gallery, a house, a club that keeps its door unmarked — we get you through it, by introduction.</p><div class="go">Write to be introduced <span style="font-style:normal">&nearr;</span></div></div>
     </a>
+
     <a class="card" href="mailto:me@mostexpensivest.com?subject=The%20Library%20%E2%80%94%20Find%20Anything" target="_blank" rel="noopener">
-      <div class="mark"><svg viewBox="0 0 180 120" aria-hidden="true"><g><circle class="mline" cx="90" cy="60" r="36"/><path class="mline" d="M90 60 L104 42 L90 60 L76 42 M90 60 L82 82"/><circle class="mline" cx="90" cy="60" r="3" class="mgold"/></g></svg></div>
-      <div class="plate"><span class="pnum">VI</span><span>find anything</span></div>
-      <div class="txt"><h4>Find Anything</h4><div class="what">If it exists and can be owned or experienced, we will locate it or tell you honestly why it cannot.</div></div>
+      <div class="cardbody"><span class="kicker">VI &middot; Find Anything</span><h4>Find Anything</h4><p class="dek">If it exists and can be owned or experienced, we will locate it — or tell you honestly why it cannot.</p><div class="go">Write to find <span style="font-style:normal">&nearr;</span></div></div>
     </a>
   </div>
 <div class="contact">
@@ -162,6 +149,7 @@ a{color:inherit}.top-rule{height:3px;background:var(--ink)}
 </div>
 
 </div>
+
 <div class="backlink"><a href="index.html#departments">← All Departments</a></div>
 <div class="copyright">© ME, MMXXVI</div>
 

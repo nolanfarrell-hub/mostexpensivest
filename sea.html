@@ -20,12 +20,18 @@ a{color:inherit}.top-rule{height:3px;background:var(--ink)}
 .dep-head .deck{max-width:640px;margin:24px auto 0;font-style:italic;font-family:'Cormorant Garamond',serif;font-size:clamp(17px,2.2vw,21px);color:var(--ink2);line-height:1.5}
 .dept{max-width:1100px;margin:0 auto;padding:40px 26px}
 .grid{display:grid;grid-template-columns:repeat(3,1fr);gap:0}
-.card{padding:26px 24px;border-right:1px solid var(--line);border-top:1px solid var(--line);text-decoration:none;display:block}
-.card .txt h4{font-family:'Cormorant Garamond',serif;font-weight:600;font-size:22px;line-height:1.2;margin-bottom:8px}
-.card .txt .who{font-size:11px;letter-spacing:2px;text-transform:uppercase;color:var(--muted);margin-bottom:14px}
-.card .txt .what{font-size:13px;color:var(--ink2);line-height:1.55}
-.card .price{display:inline-block;margin-top:16px;font-family:'Cormorant Garamond',serif;font-size:18px;font-weight:500;color:var(--brass-dark);border-bottom:1px solid var(--brass-dark);padding-bottom:2px}
-.card:hover{background:var(--paper)}
+.card{padding:0;border-right:1px solid var(--line);border-top:1px solid var(--line);text-decoration:none;display:block;background:var(--paper)}
+.card .photo{position:relative;aspect-ratio:3/2;overflow:hidden;border-bottom:1px solid var(--line);background:#141910}
+.card .photo img{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;display:block}
+.card .photo .shade{position:absolute;inset:auto 0 0 0;height:52%;background:linear-gradient(transparent,rgba(12,11,8,.72))}
+.card .photo .kicker{position:absolute;left:20px;bottom:16px;font-size:9px;letter-spacing:3.5px;text-transform:uppercase;color:var(--gold);font-weight:500}
+.card:hover{background:var(--cream)}
+.card:hover .photo img{transform:scale(1.02)}
+.card .cardbody{padding:20px 22px 22px}
+.card .kicker{display:block;font-size:9px;letter-spacing:3.5px;text-transform:uppercase;color:var(--verde-soft);font-weight:500;margin-bottom:10px}
+.card h4{font-family:'Cormorant Garamond',serif;font-weight:600;font-size:23px;line-height:1.18;margin-bottom:8px}
+.card .dek{font-size:13px;color:var(--ink2);line-height:1.55}
+.card .go{margin-top:16px;border-top:1px solid var(--line);padding-top:12px;font-family:'Cormorant Garamond',serif;font-size:16px;font-style:italic;color:var(--brass-dark)}
 .grid .card:nth-child(3n+3){border-right:none}
 .attrib{max-width:1100px;margin:18px auto 0;padding:0 30px;font-size:10.5px;color:var(--faint);letter-spacing:.5px;line-height:1.6}
 .attrib a{color:var(--brass-dark);text-decoration:none}
@@ -97,38 +103,35 @@ a{color:inherit}.top-rule{height:3px;background:var(--ink)}
 </div>
 </div>
 <div class="dept">
-    <div class="grid">
+  <div class="grid">
     <a class="card" href="https://www.fraseryachts.com/en/buy-a-yacht/" target="_blank" rel="noopener">
-      <div class="mark"><svg viewBox="0 0 180 120" aria-hidden="true"><g><path class="mfill" d="M34 74 L22 74 C18 74 18 66 22 66 C44 54 88 48 122 48 L142 51 C148 52 148 60 142 62 L118 66 C108 74 96 74 84 74 Z"/><rect class="mline" x="58" y="50" width="40" height="14" rx="1"/><rect class="mline" x="102" y="50" width="22" height="9" rx="1"/><path class="mline" d="M30 84 H150 M40 78 L34 84 M140 78 L146 84"/></g></svg></div>
-      <div class="plate"><span class="pnum">I</span><span>the record line</span></div>
-      <div class="txt"><h4>The Record Line</h4><div class="who">the longest lines · listed now</div><p class="what">At 591 feet she is the longest private yacht ever built — but the longest lines change hands through brokers, not records. Fraser Yachts lists the superyachts for sale now, spec by spec.</p><span class="price">superyachts, listed ↗</span></div>
+      <div class="photo"><img src="media/img/dep_sea.jpg" alt="The Record Line"/><div class="shade"></div><span class="kicker">The Record Line</span></div>
+      <div class="cardbody"><span class="kicker">I &middot; 1</span><p class="dek">The superyachts measured in feet and finished by hand — listed by the brokers that move them.</p><div class="go">Superyachts, listed ↗</div></div>
     </a>
+
     <a class="card" href="https://www.boatinternational.com/yacht-market-intelligence/brokerage-sales-news/most-expensive-yachts-for-sale" target="_blank" rel="noopener">
-      <div class="mark"><svg viewBox="0 0 180 120" aria-hidden="true"><g><path class="mfill" d="M36 70 L26 70 C22 70 22 64 26 64 C48 54 84 50 116 50 L134 53 C139 54 139 62 134 64 L114 68 C106 72 94 72 82 70 Z"/><path class="mgold" d="M44 60 C60 56 80 56 96 62 C80 62 60 62 44 64 M40 66 C60 62 84 62 102 66"/><path class="mline" d="M30 78 H150"/></g></svg></div>
-      <div class="plate"><span class="pnum">II</span><span>the most expensivest afloat</span></div>
-      <div class="txt"><h4>The Most Expensivest Afloat</h4><div class="who">the money that floats · live</div><p class="what">The true cost is not the build but the keeping — crew, fuel, the tender full of toys. BOAT International tracks the world’s most expensive superyachts for sale, live.</p><span class="price">BOAT · the money that floats ↗</span></div>
+      <div class="cardbody"><span class="kicker">II &middot; 2</span><h4>The Most Expensivest Afloat</h4><p class="dek">The true cost is not the build but the keeping — crew, fuel, the tender full of toys.</p><div class="go">BOAT · the money that floats ↗</div></div>
     </a>
+
     <a class="card" href="https://www.denisonyachtsales.com/" target="_blank" rel="noopener">
-      <div class="mark"><svg viewBox="0 0 180 120" aria-hidden="true"><g><path class="mfill" d="M34 74 L22 66 C19 63 24 58 28 60 C44 54 84 50 118 50 L138 52 C144 53 144 61 138 63 L116 68 C108 74 96 74 82 74 Z"/><rect class="mline" x="70" y="52" width="34" height="12" rx="1"/><path class="mline" d="M78 52 V40 C78 38 80 36 82 36"/></g></svg></div>
-      <div class="plate"><span class="pnum">III</span><span>the classic line</span></div>
-      <div class="txt"><h4>The Classic Line</h4><div class="who">a board to commission · or buy</div><p class="what">The line before steel, mahogany and brass — and the brokers keep the classics in inventory. Denison Yacht Sales lists the classic and modern lines for sale now.</p><span class="price">Denison · classics listed ↗</span></div>
+      <div class="photo"><img src="media/img/sea.jpg" alt="The Classic Line"/><div class="shade"></div><span class="kicker">The Classic Line</span></div>
+      <div class="cardbody"><span class="kicker">III &middot; 3</span><p class="dek">Mahogany and brass, the line before steel — and the brokers keep the classics in inventory.</p><div class="go">Denison · classics listed ↗</div></div>
     </a>
+
     <a class="card" href="https://www.northropandjohnson.com/" target="_blank" rel="noopener">
-      <div class="mark"><svg viewBox="0 0 180 120" aria-hidden="true"><g><path class="mfill" d="M46 66 L32 78 M54 66 L28 80 C26 82 28 84 30 83 L58 68 Z"/><rect class="mfill" x="60" y="40" width="56" height="20" rx="2"/><rect class="mline" x="60" y="60" L="0" width="56" height="34" rx="2"/><path class="mline" d="M60 46 H116 M60 72 H116 M60 84 H116"/><path class="mline" d="M40 88 H136 M36 94 H140"/></g></svg></div>
-      <div class="plate"><span class="pnum">IV</span><span>the shadow</span></div>
-      <div class="txt"><h4>The Shadow</h4><div class="who">support & the largest by volume</div><p class="what">If volume is the argument, the buyer’s market carries its fill: superyachts and their support sisters, for sale now. Northrop & Johnson brokered the serious figures.</p><span class="price">the buyer’s market ↗</span></div>
+      <div class="cardbody"><span class="kicker">IV &middot; 4</span><h4>The Shadow</h4><p class="dek">Where volume is the argument — superyachts and their support sisters, for sale now.</p><div class="go">The buyer's market ↗</div></div>
     </a>
+
     <a class="card" href="mailto:me@mostexpensivest.com" target="_blank" rel="noopener">
-      <div class="mark"><svg viewBox="0 0 180 120" aria-hidden="true"><g><path class="mfill" d="M30 70 L22 66 C18 64 18 60 22 62 C40 54 80 50 116 50 L136 52 C141 53 141 61 136 63 L116 66 C108 72 94 72 82 72 Z"/><path class="mgold" d="M36 60 C54 54 76 54 96 58 C78 60 58 60 42 62"/><path class="mline" d="M66 50 L74 36 L82 50 M74 36 V30"/><path class="mline" d="M30 80 H150"/></g></svg></div>
-      <div class="plate"><span class="pnum">V</span><span>the charter, a season</span></div>
-      <div class="txt"><h4>The Charter, A Season</h4><div class="who">Mediterranean · the week you keep</div><p class="what">A fortnight in the Aegean, crew of twelve, tenders and toys, and the itinerary left deliberately blank. Placed for you, for the right week.</p><span class="price">by arrangement</span></div>
+      <div class="cardbody"><span class="kicker">V &middot; 5</span><h4>The Charter, A Season</h4><p class="dek">A fortnight in the Aegean, crew of twelve, the itinerary left deliberately blank. By arrangement.</p><div class="go">By arrangement</div></div>
     </a>
-    <a class="card" href="mailto:me@mostexpensivest.com" target="_blank" rel="noopener">
-      <div class="mark"><svg viewBox="0 0 180 120" aria-hidden="true"><g><path class="mline" d="M86 30 L86 92 M74 40 L86 30 L98 40"/><path class="mline" d="M50 92 H122 M58 86 L50 92 M114 86 L122 92"/><path class="mline" d="M62 62 H110"/><path class="mfill" d="M52 70 L108 70 L100 86 L60 86 Z"/><path class="mline" d="M52 70 L56 62 L108 66 L106 72"/></g></svg></div>
-      <div class="plate"><span class="pnum">VI</span><span>the day on the mooring</span></div>
-      <div class="txt"><h4>The Day on the Mooring</h4><div class="who">Amalfi · the unlogged hour</div><p class="what">The true luxury of the sea is not the vessel but the hour that goes entirely unphotographed — nobody on the aft deck with a phone lit.</p><span class="price">priceless</span></div>
+
+    <a class="card" href="https://www.fraseryachts.com/en/destinations/greece-yacht-charter/" target="_blank" rel="noopener">
+      <div class="cardbody"><span class="kicker">VI &middot; 6</span><h4>The Day on the Mooring</h4><p class="dek">Amalfi — the hour at anchor that goes entirely unphotographed. Priceless, not for sale.</p><div class="go">Priceless</div></div>
     </a>
+
   </div>
+</div>
 
 <!-- ON THE WATER : the largest -->
 <div class="records">
