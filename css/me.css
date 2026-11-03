@@ -266,3 +266,14 @@ footer{background:var(--ink);color:var(--cream);padding:60px 0 0;border-top:3px 
 /* art records: rname/rartist/ryear variants */
 .rartist{font-size:10px;letter-spacing:1px;color:var(--muted);text-transform:uppercase}
 .ryear{font-size:12px;color:var(--muted)}
+
+/* sea record-row variants */
+.rbuilder,.rown{font-size:10px;letter-spacing:1px;color:var(--muted);text-transform:uppercase}
+.rbuilt{font-size:12px;color:var(--muted)}
+.rlength{font-family:var(--sans);font-weight:700;font-size:16px;color:var(--bronze);text-align:right}
+
+/* road record-row variants */
+.rhouse{font-size:10px;letter-spacing:1px;color:var(--muted);text-transform:uppercase}
+.rgo{font-size:10px;letter-spacing:1px;color:var(--bronze);text-transform:uppercase}
+
+.rtype{font-size:10px;letter-spacing:1px;color:var(--muted);text-transform:uppercase}

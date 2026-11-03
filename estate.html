@@ -3,148 +3,56 @@
 <head>
 <meta charset="UTF-8"/>
 <meta name="viewport" content="width=device-width,initial-scale=1"/>
-<title>The Most Expensivest · Home &amp; Grounds</title>
-<link rel="preconnect" href="https://fonts.googleapis.com">
+<title>ME · Home &amp; Grounds — Estates, Worldwide</title>
+<meta name="description" content="ME on Home &amp; Grounds — the world's great estates, by introduction and record."/>
+<link rel="preconnect" href="https://fonts.googleapis">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;700&family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;1,400;1,500&family=Inter:wght@300;400;500&display=swap" rel="stylesheet">
-<style>
-:root{--cream:#f3efe4;--paper:#faf7ee;--ink:#1a1914;--ink2:#3d3a2e;--muted:#88806b;--brass:#a58a4b;--brass-dark:#89703f;--line:#e0d9c4;--faint:#c5bda0;--verde:#2c4a35;--verde-soft:#45704f;--gold:#c8a95c}
-*{margin:0;padding:0;box-sizing:border-box}html{scroll-behavior:smooth}
-body{background:var(--cream);color:var(--ink);font-family:'Inter',sans-serif;-webkit-font-smoothing:antialiased;line-height:1.65}
-a{color:inherit}.top-rule{height:3px;background:var(--ink)}
-.dep-head{text-align:center;padding:50px 24px 30px;border-bottom:1px solid var(--line)}
-.dep-head .back{font-size:11px;letter-spacing:3px;text-transform:uppercase;color:var(--muted);text-decoration:none;display:block;margin-bottom:22px}
-.dep-head .back:hover{color:var(--verde-soft)}
-.dep-head .kat{font-size:11px;letter-spacing:4px;text-transform:uppercase;color:var(--verde-soft);margin-bottom:14px;font-weight:500}
-.dep-head h1{font-family:'Cormorant Garamond',serif;font-weight:500;font-size:clamp(40px,7vw,74px);letter-spacing:-1px}
-.dep-head .deck{max-width:640px;margin:24px auto 0;font-style:italic;font-family:'Cormorant Garamond',serif;font-size:clamp(17px,2.2vw,21px);color:var(--ink2);line-height:1.5}
-.dept{max-width:1100px;margin:0 auto;padding:40px 26px}
-.grid{display:grid;grid-template-columns:repeat(3,1fr);gap:0}
-.card{padding:0;border-right:1px solid var(--line);border-top:1px solid var(--line);text-decoration:none;display:block;background:var(--paper)}
-.card .photo{position:relative;aspect-ratio:3/2;overflow:hidden;border-bottom:1px solid var(--line);background:#141910}
-.card .photo img{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;display:block}
-.card .photo .shade{position:absolute;inset:auto 0 0 0;height:52%;background:linear-gradient(transparent,rgba(12,11,8,.72))}
-.card .photo .kicker{position:absolute;left:20px;bottom:16px;font-size:9px;letter-spacing:3.5px;text-transform:uppercase;color:var(--gold);font-weight:500}
-.card:hover{background:var(--cream)}
-.card:hover .photo img{transform:scale(1.02)}
-.card .cardbody{padding:20px 22px 22px}
-.card .kicker{display:block;font-size:9px;letter-spacing:3.5px;text-transform:uppercase;color:var(--verde-soft);font-weight:500;margin-bottom:10px}
-.card h4{font-family:'Cormorant Garamond',serif;font-weight:600;font-size:23px;line-height:1.18;margin-bottom:8px}
-.card .dek{font-size:13px;color:var(--ink2);line-height:1.55}
-.card .go{margin-top:16px;border-top:1px solid var(--line);padding-top:12px;font-family:'Cormorant Garamond',serif;font-size:16px;font-style:italic;color:var(--brass-dark)}
-.grid .card:nth-child(3n+3){border-right:none}
-.attrib{max-width:1100px;margin:18px auto 0;padding:0 30px;font-size:10.5px;color:var(--faint);letter-spacing:.5px;line-height:1.6}
-.attrib a{color:var(--brass-dark);text-decoration:none}
-.records{max-width:1100px;margin:60px auto 0;padding:0 30px}
-.records .rh{display:flex;align-items:baseline;justify-content:space-between;border-top:3px solid var(--ink);padding-top:22px;margin-bottom:6px}
-.records .rh h3{font-family:'Space Grotesk',sans-serif;font-size:12px;letter-spacing:3px;text-transform:uppercase;font-weight:600;color:var(--ink)}
-.records .rh .rnote{font-size:11px;letter-spacing:2px;text-transform:uppercase;color:var(--muted)}
-.rtable{border-top:1px solid var(--line)}
-.rrow{display:grid;grid-template-columns:1.5fr .9fr .7fr .6fr .8fr;gap:14px;padding:15px 0;border-bottom:1px solid var(--line);align-items:baseline;text-decoration:none;color:inherit}
-.rrow:hover{background:var(--paper)}
-.rdesc{font-family:'Cormorant Garamond',serif;font-size:18px;font-weight:500;color:var(--ink);line-height:1.25}
-.rtype{font-size:11px;letter-spacing:1px;text-transform:uppercase;color:var(--muted)}
-.rloc{font-size:12px;color:var(--muted)}
-.rnote{font-size:12px;color:var(--faint);font-style:italic}
-.rprice{font-family:'Space Grotesk',sans-serif;font-weight:700;font-size:16px;color:var(--brass-dark);text-align:right}
-@media(max-width:760px){.rrow{grid-template-columns:1.3fr .8fr}.rtype,.rloc,.rnote{display:none}}
-.consult{max-width:1100px;margin:0 auto;padding:60px 30px 8px;display:flex;align-items:center;justify-content:space-between;gap:26px;flex-wrap:wrap;border-top:1px solid var(--line)}.consult h4{font-family:'Cormorant Garamond',serif;font-weight:600;font-size:24px;margin-bottom:6px}.consult p{font-size:13px;color:var(--ink2);max-width:640px}.consult .cta a{font-size:11px;letter-spacing:3px;text-transform:uppercase;text-decoration:none;color:var(--verde-soft);font-weight:600;border-bottom:1px solid var(--verde-soft);padding-bottom:4px;white-space:nowrap}
-.bme{font-family:'Space Grotesk',sans-serif;font-weight:700;font-size:22px;letter-spacing:1px;color:var(--ink);display:inline-flex;align-items:baseline;vertical-align:middle}.bme .bd{color:var(--brass);font-weight:500;font-size:.55em;margin:0 2px}
-.backlink{max-width:1100px;margin:0 auto;padding:10px 30px 0}
-.backlink a{font-size:11px;letter-spacing:3px;text-transform:uppercase;text-decoration:none;color:var(--verde-soft)}
-.copyright{max-width:1100px;margin:0 auto;padding:40px 30px;text-align:center;font-size:11px;color:var(--faint);letter-spacing:1px;border-top:1px solid var(--line)}
-@media(max-width:900px){.grid{grid-template-columns:1fr 1fr}.grid .card:nth-child(odd){border-right:none}.grid .card{border-top:1px solid var(--line)}.grid .card:first-child,.grid .card:nth-child(2){border-top:none}}
-@media(max-width:560px){.grid{grid-template-columns:1fr}.grid .card{border-right:none;border-top:1px solid var(--line)}.grid .card:first-child{border-top:none}}
-
-/* ===== DEPARTMENT HERO ===== */
-.dep-hero{position:relative;height:clamp(240px,34vw,380px);overflow:hidden;border-bottom:1px solid var(--line)}
-.dep-hero img{width:100%;height:100%;object-fit:cover;display:block}
-.dep-hero::after{content:"";position:absolute;left:0;right:0;bottom:0;height:100%;background:linear-gradient(to right,rgba(12,12,14,.9) 0%,rgba(12,12,14,.62) 40%,rgba(12,12,14,0) 65%);z-index:1}
-.dep-hero .dhcap{position:absolute;left:max(24px,calc((100vw - 1100px)/2));bottom:26px;max-width:500px;color:var(--cream);z-index:2}
-.dep-hero .dhcap .dkat{font-size:10px;letter-spacing:3.5px;text-transform:uppercase;color:var(--gold);margin-bottom:6px}
-.dep-hero .dhcap h2{font-family:'Cormorant Garamond',serif;font-weight:500;font-size:clamp(30px,4.4vw,50px);line-height:1.05;color:#fff}
-.dep-hero .dhcap p{font-family:'Cormorant Garamond',serif;font-style:italic;font-size:16px;color:#eee7d6;margin-top:8px}
-@media(max-width:900px){.dep-hero .dhcap{left:26px;bottom:20px}}
-
-
-/* designed tile plates */
-.card{padding:0;border-right:1px solid var(--line);border-top:1px solid var(--line);display:block;background:var(--cream)}
-.card .mark{position:relative;height:186px;overflow:hidden;border-bottom:1px solid var(--line);background:radial-gradient(130% 150% at 18% 8%, #23261d 0%, #141910 48%, #233726 100%)}
-.card .mark svg{position:absolute;inset:0;margin:auto;width:74%;max-height:80%;height:auto}
-.card .plate{display:flex;align-items:baseline;gap:9px;padding:16px 20px 0;font-size:10px;letter-spacing:3px;text-transform:uppercase;color:var(--faint)}
-.card .plate .pnum{color:var(--verde-soft);font-weight:500}
-.card .txt{padding:12px 20px 22px}
-.card .txt h4{font-family:'Cormorant Garamond',serif;font-weight:600;font-size:22px;line-height:1.2;margin-bottom:6px}
-.card .txt .who{font-size:11px;letter-spacing:2px;text-transform:uppercase;color:var(--muted);margin-bottom:11px}
-.card .txt .what{font-size:13px;color:var(--ink2);line-height:1.55}
-.card .price{display:inline-block;margin-top:15px;font-family:'Cormorant Garamond',serif;font-size:18px;font-weight:500;color:var(--brass-dark);border-bottom:1px solid var(--brass-dark);padding-bottom:2px}
-.card:hover{background:var(--paper)}
-.card:hover .mark{filter:brightness(1.08)}
-.grid .card:nth-child(3n+3){border-right:none}
-.mark .mline{stroke:var(--brass);stroke-width:2;fill:none;stroke-linecap:round;stroke-linejoin:round}
-.mark .mgold{stroke:var(--gold);stroke-width:1.5;fill:none;stroke-linecap:round}
-.mark .mfill{stroke:var(--brass);stroke-width:2;fill:rgba(200,169,92,.07);stroke-linecap:round}
-
-</style>
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;1,400;1,500&family=Space+Grotesk:wght@400;500;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/me.css">
 </head>
 <body>
-<div class="top-rule"></div>
-<div class="dep-head">
-  <a class="back" href="index.html"><span class="bme">M<span class="bd">·</span>E</span></a>
-  <div class="kat">Department V · Estates</div>
-  <h1>Home &amp; Grounds</h1>
-<div class="dep-hero">
-  <img src="media/img/dep_estate.jpg" alt="Home & Grounds"/>
-  <div class="dhcap">
-    <div class="dkat">Department V · Estates</div>
-    <h2>Home &amp; Grounds</h2>
-    <p>Estates and the records they set — the houses that outlive every market.</p>
+<header class="hd"><div class="hd-in">
+  <a class="mast" href="index.html">M<span class="dot">·</span>E<span class="ed">Journal of the World's Finest</span></a>
+  <nav class="hd-nav">
+    <a href="time.html">Time</a><a href="table.html">The Table</a><a href="sea.html">The Sea</a><a href="road.html">The Road</a>
+    <a href="estate.html">Estates</a><a href="field.html">The Field</a><a href="style.html">Style</a><a href="art.html">Art</a>
+  </nav>
+  <div class="hd-util">
+    <a href="library.html">The Library</a>
+    <a href="mailto:me@mostexpensivest.com">Correspondence</a>
+    <span class="om"><i></i><i></i><i></i></span>
+  </div>
+</div></header><div class="masthead"><div class="row">
+  <div class="mh-l">Issue No. 001 · Estates</div>
+  <div class="mh-c"><div class="claim">The great estates are not bought — they are <b>inherited by choice</b>.</div></div><section class="dhero"><img src="media/img/dep_estate.jpg" alt="Department V · Estates"/><div class="cap"><div class="kicker"><span class="r"></span>Department V · Estates</div><h1>Home &amp; Grounds</h1><div class="lede">Estates, worldwide — placed through the houses that know them.</div></div></section>
+
+<div class="dwrap">
+  <div class="dsec">
+    <div class="dsh"><h2><span class="no">I.</span>Home &amp; Grounds</h2><div class="note">estates, worldwide</div></div>
+    <div class="dcards">
+      <a class="dcard" href="https://en.wikipedia.org/wiki/Villa_La_C3%A9opolda" target="_blank" rel="noopener"><div class="k">I · The Riviera Villa</div><h3>Villa La Léopolda</h3><p>Eighty acres on the Côte d'Azur, the most expensive private residence ever sold — a house that has changed hands four times and never lost its legend.</p><div class="go">Read the record ↗</div></a>
+      <a class="dcard" href="https://en.wikipedia.org/wiki/Antilia_(building)" target="_blank" rel="noopener"><div class="k">II · The Tall House</div><h3>Antilia</h3><p>Twenty-seven floors for one family in Mumbai, the world's most expensive home by value — a house that is its own skyline.</p><div class="go">Read the record ↗</div></a>
+      <div class="dcard"><div class="k">III · The Family Seat</div><h3>The Family Seat</h3><p>Grounds measured in hundreds of acres, a history counted in centuries — placed through the houses that know them.</p><div class="go">By introduction</div></div>
+      <div class="dcard"><div class="k">IV · The Estate as Collection</div><h3>The Estate as Collection</h3><p>Art, gardens, a stable of classics — sold whole, or kept whole and passed. The market moves fast; the seat keeps still.</p><div class="go">Curated</div></div>
+      <div class="dcard"><div class="k">V · The Private Viewing</div><h3>The Private Viewing</h3><p>The great houses are not shown on weekends. They are shown once, to the right person, at the right hour. ME arranges that hour.</p><div class="go">By appointment</div></div>
+      <div class="dcard"><div class="k">VI · Off-Market</div><h3>Off-Market, Officially</h3><p>The finest estates move without a listing, between people who already know each other.</p><div class="go">In confidence</div></div>
+    </div>
   </div>
 </div>
-</div>
-<div class="dept">
-  <div class="grid">
-    <a class="card" href="https://www.christiesrealestate.com/home" target="_blank" rel="noopener">
-      <div class="photo"><img src="media/img/estate.jpg" alt="A Riviera Manor"/><div class="shade"></div><span class="kicker">A Riviera Manor</span></div>
-      <div class="cardbody"><span class="kicker">I &middot; 1</span><p class="dek">Villa Leopolda sold around €370 million — the manor at the top of the Riviera list.</p><div class="go">Estates, listed ↗</div></div>
-    </a>
-
-    <a class="card" href="https://www.compass.com/" target="_blank" rel="noopener">
-      <div class="cardbody"><span class="kicker">II &middot; 2</span><h4>The Vertical Estate</h4><p class="dek">Antilia's twenty-seven storeys answered how high an estate can go — by value, nowhere near done.</p><div class="go">Compass · the modern list ↗</div></div>
-    </a>
-
-    <a class="card" href="https://www.christiesrealestate.com/life" target="_blank" rel="noopener">
-      <div class="cardbody"><span class="kicker">III &middot; 3</span><h4>A Sky Penthouse</h4><p class="dek">The Odeon Tower penthouse, marketed near $440 million — the castles and palaces of the sky.</p><div class="go">The castles & palaces ↗</div></div>
-    </a>
-
-    <a class="card" href="https://www.chestertons.com/" target="_blank" rel="noopener">
-      <div class="cardbody"><span class="kicker">IV &middot; 4</span><h4>A Private Island</h4><p class="dek">The helipad is the driveway — an island is the one address no one can gate.</p><div class="go">Chestertons · islands & estates ↗</div></div>
-    </a>
-
-    <a class="card" href="mailto:me@mostexpensivest.com" target="_blank" rel="noopener">
-      <div class="cardbody"><span class="kicker">V &middot; 5</span><h4>A Tuscan Villa</h4><p class="dek">A long low stone house over its own vineyard, a century of summers behind it. By arrangement.</p><div class="go">By arrangement</div></div>
-    </a>
-
-    <a class="card" href="mailto:me@mostexpensivest.com" target="_blank" rel="noopener">
-      <div class="cardbody"><span class="kicker">VI &middot; 6</span><h4>The Grounds, Kept</h4><p class="dek">A gardener who has outlived two owners and a manager who logs every frost — the people who never leave.</p><div class="go">Included</div></div>
-    </a>
-
+<div class="dwrap">
+  <div class="records dsec">
+    <div class="dsh"><h2><span class="no">II.</span>The Priciest Grounds</h2><div class="note">the estates that set the records</div></div>
+    <div id="estateTable" class="rtable"><div class="mload" style="padding:20px">reading the market…</div></div>
   </div>
+  <div class="attrib" style="margin-top:12px">Estate records sourced from <a href="https://en.wikipedia.org/wiki/List_of_most_expensive_houses" target="_blank" rel="noopener">Wikipedia: List of most expensive houses</a>. Rows link to each estate's full record.</div>
 </div>
-
-<!-- RECORDS OF THE ESTATE -->
-<div class="records">
-  <div class="rh"><h3>Records of the Estate</h3><div class="rnote">the residences that set the bar · each links to its record</div></div>
-  <div class="rtable" id="estateTable"><div class="mload" style="padding:20px;color:var(--muted)">reading the ledger…</div></div>
+<div class="dwrap">
+  <div class="consult">
+    <div><h3>Private Consultation</h3><p>Write to us and be placed with the right maker, in the right city, at the right hour. By appointment, in strictest confidence.</p></div>
+    <div class="cta"><a href="mailto:me@mostexpensivest.com">Begin the Conversation</a></div>
+  </div>
+  <div class="backlink"><a href="index.html">← All Departments</a></div>
 </div>
-<div class="attrib">Figures are widely reported valuations and recorded sale sums, linked to each property's own record. Villa Leopolda sold for €370M in 2008 (recorded); Antilia, the Odeon penthouse and Buckingham Palace carry commonly cited estimates. Private islands link out to the live <a href="https://www.privateislandsonline.com/" target="_blank" rel="noopener">Private Islands Online</a> market.</div>
-
-<div class="consult">
-  <div><h4>Private Consultation</h4><p>Write to us and be placed with the right broker, in the right valley, at the right hour. By appointment, in strictest confidence.</p></div>
-  <div class="cta"><a href="mailto:me@mostexpensivest.com">Begin the Conversation</a></div>
-</div>
-<div class="backlink"><a href="index.html#departments">← All Departments</a></div>
-<div class="copyright">© The Most Expensivest, MMXXVI</div>
 <script>
 (function(){
   function money(n){if(n==null||isNaN(n))return "on request";return "$"+Math.round(n).toLocaleString("en-US");}
@@ -152,16 +60,22 @@ a{color:inherit}.top-rule{height:3px;background:var(--ink)}
   fetch("media/estate_records.json",{cache:"no-store"}).then(function(r){return r.json();}).then(function(recs){
     var tb=document.getElementById("estateTable");
     recs.sort(function(a,b){return (b.price||0)-(a.price||0);});
-    tb.innerHTML=recs.slice(0,8).map(function(r){
-      return '<a class="rrow" href="'+esc(r.src)+'" target="_blank" rel="noopener">'+
-        '<div class="rdesc">'+esc(r.name)+'</div>'+
-        '<div class="rtype">'+esc(r.type)+'</div>'+
-        '<div class="rloc">'+esc(r.locale)+'</div>'+
-        '<div class="rnote">'+esc(r.note||'')+'</div>'+
-        '<div class="rprice">'+money(r.price)+'</div></a>';
+    tb.innerHTML=recs.slice(0,10).map(function(rr){
+      var inner='<div class="rdesc">'+esc(rr.name)+'</div>'+
+        '<div class="rtype">'+esc(rr.type)+' · '+esc(rr.locale)+'</div>'+
+        '<div class="ryear">'+esc(rr.year)+'</div>'+
+        '<div class="rprice">'+money(rr.price)+'</div>';
+      return rr.src ? '<a class="rrow" href="'+esc(rr.src)+'" target="_blank" rel="noopener">'+inner+'</a>' : '<div class="rrow">'+inner+'</div>';
     }).join("");
-  }).catch(function(){document.getElementById("estateTable").innerHTML='<div class="mload" style="padding:20px">The ledger is momentarily unavailable.</div>';});
+  }).catch(function(){document.getElementById("estateTable").innerHTML='<div class="mload" style="padding:20px">The estates are momentarily unavailable.</div>';});
 })();
 </script>
-</body>
-</html>
+<footer>
+  <div class="f-in">
+    <div class="fm"><div class="me2">M<span class="dot">·</span>E</div><p>The journal of the world's finest, curated, priced and placed in confidence.</p></div>
+    <div class="fcol"><h5>Departments</h5><a href="time.html">Time</a><a href="table.html">The Table</a><a href="sea.html">The Sea</a><a href="road.html">The Road</a><a href="estate.html">Estates</a><a href="field.html">The Field</a><a href="style.html">Style</a><a href="art.html">Art</a></div>
+    <div class="fcol"><h5>The House</h5><a href="library.html">The Library</a><a href="library.html">How It Works</a><a href="library.html">Press</a><a href="mailto:me@mostexpensivest.com">Correspondence</a></div>
+    <div class="fcol"><h5>Content</h5><a href="index.html">Editorial</a><a href="time.html">Live Market</a><a href="road.html">Records</a><a href="library.html">The Desk</a></div>
+  </div>
+  <div class="foot-last"><span>© ME · MMXXVI</span><span>The Most Expensivest</span><span>Department V · Estates</span></div>
+</footer>

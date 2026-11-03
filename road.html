@@ -3,156 +3,56 @@
 <head>
 <meta charset="UTF-8"/>
 <meta name="viewport" content="width=device-width,initial-scale=1"/>
-<title>The Most Expensivest · The Road</title>
-<link rel="preconnect" href="https://fonts.googleapis.com">
+<title>ME · The Road — Motorcars, New &amp; Classic</title>
+<meta name="description" content="ME on The Road — motorcars new &amp; classic, and the records they set."/>
+<link rel="preconnect" href="https://fonts.googleapis">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;700&family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;1,400;1,500&family=Inter:wght@300;400;500&display=swap" rel="stylesheet">
-<style>
-:root{--cream:#efece6;--paper:#f7f4ee;--ink:#191814;--ink2:#3c3a32;--muted:#79735f;--brass:#a58a4b;--brass-dark:#89703f;--line:#dcd7c8;--faint:#b6b09a;--verde:#3a3326;--verde-soft:#5c5136}
-*{margin:0;padding:0;box-sizing:border-box}html{scroll-behavior:smooth}
-body{background:var(--cream);color:var(--ink);font-family:'Inter',sans-serif;-webkit-font-smoothing:antialiased;line-height:1.65}
-a{color:inherit}.top-rule{height:3px;background:var(--ink)}
-.dep-head{text-align:center;padding:50px 24px 30px;border-bottom:1px solid var(--line)}
-.dep-head .back{font-size:11px;letter-spacing:3px;text-transform:uppercase;color:var(--muted);text-decoration:none;display:block;margin-bottom:22px}
-.dep-head .back:hover{color:var(--verde-soft)}
-.dep-head .kat{font-size:11px;letter-spacing:4px;text-transform:uppercase;color:var(--verde-soft);margin-bottom:14px;font-weight:500}
-.dep-head h1{font-family:'Cormorant Garamond',serif;font-weight:500;font-size:clamp(40px,7vw,74px);letter-spacing:-1px}
-.dep-head .deck{max-width:640px;margin:24px auto 0;font-style:italic;font-family:'Cormorant Garamond',serif;font-size:clamp(17px,2.2vw,21px);color:var(--ink2);line-height:1.5}
-.dept{max-width:1100px;margin:0 auto;padding:40px 26px}
-.grid{display:grid;grid-template-columns:repeat(3,1fr);gap:0}
-.card{padding:0;border-right:1px solid var(--line);border-top:1px solid var(--line);text-decoration:none;display:block;background:var(--paper)}
-.card .photo{position:relative;aspect-ratio:3/2;overflow:hidden;border-bottom:1px solid var(--line);background:#141910}
-.card .photo img{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;display:block}
-.card .photo .shade{position:absolute;inset:auto 0 0 0;height:52%;background:linear-gradient(transparent,rgba(12,11,8,.72))}
-.card .photo .kicker{position:absolute;left:20px;bottom:16px;font-size:9px;letter-spacing:3.5px;text-transform:uppercase;color:var(--gold);font-weight:500}
-.card:hover{background:var(--cream)}
-.card:hover .photo img{transform:scale(1.02)}
-.card .cardbody{padding:20px 22px 22px}
-.card .kicker{display:block;font-size:9px;letter-spacing:3.5px;text-transform:uppercase;color:var(--verde-soft);font-weight:500;margin-bottom:10px}
-.card h4{font-family:'Cormorant Garamond',serif;font-weight:600;font-size:23px;line-height:1.18;margin-bottom:8px}
-.card .dek{font-size:13px;color:var(--ink2);line-height:1.55}
-.card .go{margin-top:16px;border-top:1px solid var(--line);padding-top:12px;font-family:'Cormorant Garamond',serif;font-size:16px;font-style:italic;color:var(--brass-dark)}
-.grid .card:nth-child(3n+3){border-right:none}
-.card h4{font-family:'Cormorant Garamond',serif;font-weight:600;font-size:22px;line-height:1.2;margin-bottom:8px}
-.card .who{font-size:11px;letter-spacing:2px;text-transform:uppercase;color:var(--muted);margin-bottom:14px}
-.card .what{font-size:13px;color:var(--ink2);line-height:1.55}
-.card .price{display:block;margin-top:16px;font-family:'Cormorant Garamond',serif;font-size:18px;font-weight:500;color:var(--brass-dark)}
-.card{display:block}.card .what{display:block}
-.card:hover{background:var(--paper)}
-.attrib{max-width:1100px;margin:18px auto 0;padding:0 30px;font-size:10.5px;color:var(--faint);letter-spacing:.5px;line-height:1.6}
-.attrib a{color:var(--brass-dark);text-decoration:none}
-.records{max-width:1100px;margin:60px auto 0;padding:0 30px}
-.records .rh{display:flex;align-items:baseline;justify-content:space-between;border-top:3px solid var(--ink);padding-top:22px;margin-bottom:6px}
-.records .rh h3{font-family:'Space Grotesk',sans-serif;font-size:12px;letter-spacing:3px;text-transform:uppercase;font-weight:600;color:var(--ink)}
-.records .rh .rnote{font-size:11px;letter-spacing:2px;text-transform:uppercase;color:var(--muted)}
-.rtable{border-top:1px solid var(--line)}
-.rrow{display:grid;grid-template-columns:1.5fr .9fr .6fr .6fr .8fr;gap:14px;padding:15px 0;border-bottom:1px solid var(--line);align-items:baseline;text-decoration:none;color:inherit}
-.rrow:hover{background:var(--paper)}
-.rdesc{font-family:'Cormorant Garamond',serif;font-size:18px;font-weight:500;color:var(--ink);line-height:1.25}
-.rhouse{font-size:11px;letter-spacing:1px;text-transform:uppercase;color:var(--muted)}
-.rloc{font-size:12px;color:var(--muted)}
-.ryear{font-size:12px;color:var(--muted);text-align:right}
-.rprice{font-family:'Space Grotesk',sans-serif;font-weight:700;font-size:17px;color:var(--brass-dark);text-align:right}
-.rgo{font-size:10px;color:var(--verde-soft);letter-spacing:1px}
-@media(max-width:760px){.rrow{grid-template-columns:1fr .8fr}.rhouse,.rloc{display:none}}
-.consult{max-width:1100px;margin:0 auto;padding:60px 30px 8px;display:flex;align-items:center;justify-content:space-between;gap:26px;flex-wrap:wrap;border-top:1px solid var(--line)}.consult h4{font-family:'Cormorant Garamond',serif;font-weight:600;font-size:24px;margin-bottom:6px}.consult p{font-size:13px;color:var(--ink2);max-width:640px}.consult .cta a{font-size:11px;letter-spacing:3px;text-transform:uppercase;text-decoration:none;color:var(--verde-soft);font-weight:600;border-bottom:1px solid var(--verde-soft);padding-bottom:4px;white-space:nowrap}
-.bme{font-family:'Space Grotesk',sans-serif;font-weight:700;font-size:22px;letter-spacing:1px;color:var(--ink);display:inline-flex;align-items:baseline;vertical-align:middle}.bme .bd{color:var(--brass);font-weight:500;font-size:.55em;margin:0 2px}
-.backlink{max-width:1100px;margin:0 auto;padding:10px 30px 0}
-.backlink a{font-size:11px;letter-spacing:3px;text-transform:uppercase;text-decoration:none;color:var(--verde-soft)}
-.copyright{max-width:1100px;margin:0 auto;padding:40px 30px;text-align:center;font-size:11px;color:var(--faint);letter-spacing:1px;border-top:1px solid var(--line)}
-@media(max-width:900px){.grid{grid-template-columns:1fr 1fr}.grid .card:nth-child(odd){border-right:none}.grid .card{border-top:1px solid var(--line)}.grid .card:first-child,.grid .card:nth-child(2){border-top:none}}
-@media(max-width:560px){.grid{grid-template-columns:1fr}.grid .card{border-right:none;border-top:1px solid var(--line)}.grid .card:first-child{border-top:none}}
-
-/* ===== DEPARTMENT HERO ===== */
-.dep-hero{position:relative;height:clamp(240px,34vw,380px);overflow:hidden;border-bottom:1px solid var(--line)}
-.dep-hero img{width:100%;height:100%;object-fit:cover;display:block}
-.dep-hero::after{content:"";position:absolute;left:0;right:0;bottom:0;height:100%;background:linear-gradient(to right,rgba(12,12,14,.9) 0%,rgba(12,12,14,.62) 40%,rgba(12,12,14,0) 65%);z-index:1}
-.dep-hero .dhcap{position:absolute;left:max(24px,calc((100vw - 1100px)/2));bottom:26px;max-width:480px;color:var(--cream);z-index:2}
-.dep-hero .dhcap .dkat{font-size:10px;letter-spacing:3.5px;text-transform:uppercase;color:var(--gold);margin-bottom:6px}
-.dep-hero .dhcap h2{font-family:'Cormorant Garamond',serif;font-weight:500;font-size:clamp(30px,4.4vw,50px);line-height:1.05;color:#fff}
-.dep-hero .dhcap p{font-family:'Cormorant Garamond',serif;font-style:italic;font-size:16px;color:#e9e2cf;margin-top:8px}
-@media(max-width:900px){.dep-hero .dhcap{left:26px;bottom:20px}}
-
-
-
-/* designed tile plates */
-.card{padding:0;border-right:1px solid var(--line);border-top:1px solid var(--line);display:block;background:var(--cream)}
-.card .mark{position:relative;height:186px;overflow:hidden;border-bottom:1px solid var(--line);background:radial-gradient(130% 150% at 18% 8%, #23261d 0%, #141910 48%, #233726 100%)}
-.card .mark svg{position:absolute;inset:0;margin:auto;width:74%;max-height:80%;height:auto}
-.card .plate{display:flex;align-items:baseline;gap:9px;padding:16px 20px 0;font-size:10px;letter-spacing:3px;text-transform:uppercase;color:var(--faint)}
-.card .plate .pnum{color:var(--verde-soft);font-weight:500}
-.card .txt{padding:12px 20px 22px}
-.card .txt h4{font-family:'Cormorant Garamond',serif;font-weight:600;font-size:22px;line-height:1.2;margin-bottom:6px}
-.card .txt .who{font-size:11px;letter-spacing:2px;text-transform:uppercase;color:var(--muted);margin-bottom:11px}
-.card .txt .what{font-size:13px;color:var(--ink2);line-height:1.55}
-.card .price{display:inline-block;margin-top:15px;font-family:'Cormorant Garamond',serif;font-size:18px;font-weight:500;color:var(--brass-dark);border-bottom:1px solid var(--brass-dark);padding-bottom:2px}
-.card:hover{background:var(--paper)}
-.card:hover .mark{filter:brightness(1.08)}
-.grid .card:nth-child(3n+3){border-right:none}
-.mark .mline{stroke:var(--brass);stroke-width:2;fill:none;stroke-linecap:round;stroke-linejoin:round}
-.mark .mgold{stroke:var(--gold);stroke-width:1.5;fill:none;stroke-linecap:round}
-.mark .mfill{stroke:var(--brass);stroke-width:2;fill:rgba(200,169,92,.07);stroke-linecap:round}
-
-</style>
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;1,400;1,500&family=Space+Grotesk:wght@400;500;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/me.css">
 </head>
 <body>
-<div class="top-rule"></div>
-<div class="dep-head">
-  <a class="back" href="index.html"><span class="bme">M<span class="bd">·</span>E</span></a>
-  <div class="kat">The Road · New &amp; Classic</div>
-  <h1>The Road</h1>
-<div class="dep-hero">
-  <img src="media/img/dep_road.jpg" alt="The Road"/>
-  <div class="dhcap">
-    <div class="dkat">Department IV · Motorcars</div>
-    <h2>The Road</h2>
-    <p>Motorcars new and classic, and the records they set.</p>
+<header class="hd"><div class="hd-in">
+  <a class="mast" href="index.html">M<span class="dot">·</span>E<span class="ed">Journal of the World's Finest</span></a>
+  <nav class="hd-nav">
+    <a href="time.html">Time</a><a href="table.html">The Table</a><a href="sea.html">The Sea</a><a href="road.html">The Road</a>
+    <a href="estate.html">Estates</a><a href="field.html">The Field</a><a href="style.html">Style</a><a href="art.html">Art</a>
+  </nav>
+  <div class="hd-util">
+    <a href="library.html">The Library</a>
+    <a href="mailto:me@mostexpensivest.com">Correspondence</a>
+    <span class="om"><i></i><i></i><i></i></span>
+  </div>
+</div></header><div class="masthead"><div class="row">
+  <div class="mh-l">Issue No. 001 · Motorcars</div>
+  <div class="mh-c"><div class="claim">A motorcar's price is provenance with a <b>drivetrain</b>.</div></div><section class="dhero"><img src="media/img/dep_road.jpg" alt="Department IV · Motorcars"/><div class="cap"><div class="kicker"><span class="r"></span>Department IV · Motorcars</div><h1>The Road</h1><div class="lede">Motorcars new and classic, and the records they set.</div></div></section>
+
+<div class="dwrap">
+  <div class="dsec">
+    <div class="dsh"><h2><span class="no">I.</span>Motorcars</h2><div class="note">new &amp; classic, and the records they set</div></div>
+    <div class="dcards">
+      <a class="dcard" href="https://bringatrailer.com/ferrari/" target="_blank" rel="noopener"><div class="k">I · The New Grand Tourer</div><h3>The New Grand Tourer</h3><p>Ferrari's first grand tourer set the record at $40 million — and the long-distance GT still owns the road.</p><div class="go">Ferraris, listed ↗</div></a>
+      <div class="dcard"><div class="k">II · The One-of-One</div><h3>The One-of-One</h3><p>Contemporary art with a drivetrain — a single commission, never repeated.</p><div class="go">Modern classics ↗</div></div>
+      <a class="dcard" href="https://en.wikipedia.org/wiki/Ferrari_250_GTO" target="_blank" rel="noopener"><div class="k">III · The Ledger That Moves</div><h3>The Ledger That Moves</h3><p>The 250 GTO, thirty-six built, the value that keeps climbing — the market's most-traded motorcar.</p><div class="go">duPont · the classics ↗</div></a>
+      <a class="dcard" href="https://bringatrailer.com/" target="_blank" rel="noopener"><div class="k">IV · The Classic That Must Not Be Touched</div><h3>The Classic That Must Not Be Touched</h3><p>The doors open upward so the paddock can applaud — and the winning bid lets it stay perfect.</p><div class="go">The live auction roll ↗</div></a>
+      <div class="dcard"><div class="k">V · The Private Garage</div><h3>The Private Garage</h3><p>The room the collection deserves — the market that houses it, from restorer to barn-find.</p><div class="go">Car &amp; Classic ↗</div></div>
+      <div class="dcard"><div class="k">VI · The Silent Convertible</div><h3>The Silent Convertible</h3><p>The motorcar whose engine is quiet enough that the conversation carries on, roof down at eighty. Whisper first.</p><div class="go">Placed on request</div></div>
+    </div>
   </div>
 </div>
-</div>
-<div class="dept">
-  <div class="grid">
-    <a class="card" href="https://bringatrailer.com/ferrari/" target="_blank" rel="noopener">
-      <div class="photo"><img src="media/img/dep_road.jpg" alt="The New Grand Tourer"/><div class="shade"></div><span class="kicker">The New Grand Tourer</span></div>
-      <div class="cardbody"><span class="kicker">I &middot; 1</span><p class="dek">Ferrari's first grand tourer set the record at $40 million — and the long-distance GT still owns the road.</p><div class="go">Ferraris, listed ↗</div></div>
-    </a>
-
-    <a class="card" href="https://www.classiccar.com/" target="_blank" rel="noopener">
-      <div class="cardbody"><span class="kicker">II &middot; 2</span><h4>The One-of-One</h4><p class="dek">Contemporary art with a drivetrain — a single commission, never repeated.</p><div class="go">Modern classics ↗</div></div>
-    </a>
-
-    <a class="card" href="https://www.dupontregistry.com/" target="_blank" rel="noopener">
-      <div class="cardbody"><span class="kicker">III &middot; 3</span><h4>The Ledger That Moves</h4><p class="dek">The 250 GTO, thirty-six built, the value that keeps climbing — the market's most-traded motorcar.</p><div class="go">duPont · the classics ↗</div></div>
-    </a>
-
-    <a class="card" href="https://bringatrailer.com/" target="_blank" rel="noopener">
-      <div class="cardbody"><span class="kicker">IV &middot; 4</span><h4>The Classic That Must Not Be Touched</h4><p class="dek">The doors open upward so the paddock can applaud — and the winning bid lets it stay perfect.</p><div class="go">The live auction roll ↗</div></div>
-    </a>
-
-    <a class="card" href="https://www.carandclassic.com/" target="_blank" rel="noopener">
-      <div class="cardbody"><span class="kicker">V &middot; 5</span><h4>The Private Garage</h4><p class="dek">The room the collection deserves — the market that houses it, from restorer to barn-find.</p><div class="go">Car & Classic ↗</div></div>
-    </a>
-
-    <a class="card" href="mailto:me@mostexpensivest.com" target="_blank" rel="noopener">
-      <div class="cardbody"><span class="kicker">VI &middot; 6</span><h4>The Silent Convertible</h4><p class="dek">The motorcar whose engine is quiet enough that the conversation carries on, roof down at eighty. Whisper first.</p><div class="go">Placed on request</div></div>
-    </a>
-
+<div class="dwrap">
+  <div class="records dsec">
+    <div class="dsh"><h2><span class="no">II.</span>Sold at Auction</h2><div class="note">the motorcars that set records</div></div>
+    <div id="roadTable" class="rtable"><div class="mload" style="padding:20px">reading the market…</div></div>
   </div>
+  <div class="attrib" style="margin-top:12px">Auction records sourced from <a href="https://en.wikipedia.org/wiki/List_of_most_expensive_cars_sold_at_auction" target="_blank" rel="noopener">Wikipedia: List of most expensive cars sold at auction</a>. Rows link to each car's full entry. Prices are the original hammer figure in USD.</div>
 </div>
-
-<!-- ON THE ROAD : records -->
-<div class="records">
-  <div class="rh"><h3>Sold at Auction</h3><div class="rnote">the motorcars that set records</div></div>
-  <div class="rtable" id="roadTable"><div class="mload" style="padding:20px;color:var(--muted)">reading the market…</div></div>
+<div class="dwrap">
+  <div class="consult">
+    <div><h3>Private Consultation</h3><p>Write to us and be placed with the right maker, in the right city, at the right hour. By appointment, in strictest confidence.</p></div>
+    <div class="cta"><a href="mailto:me@mostexpensivest.com">Begin the Conversation</a></div>
+  </div>
+  <div class="backlink"><a href="index.html">← All Departments</a></div>
 </div>
-<div class="attrib">Auction records sourced from <a href="https://en.wikipedia.org/wiki/List_of_most_expensive_cars_sold_at_auction" target="_blank" rel="noopener">Wikipedia: List of most expensive cars sold at auction</a>, and each car's own record — rows and tiles link to the full entry. Prices are the original hammer figure in USD.</div>
-
-<div class="consult">
-  <div><h4>Private Consultation</h4><p>Write to us and be placed with the right maker, in the right city, at the right hour. By appointment, in strictest confidence.</p></div>
-  <div class="cta"><a href="mailto:me@mostexpensivest.com">Begin the Conversation</a></div>
-</div>
-<div class="backlink"><a href="index.html#departments">← All Departments</a></div>
-<div class="copyright">© The Most Expensivest, MMXXVI</div>
 <script>
 (function(){
   function money(n){if(n==null||isNaN(n))return "on request";return "$"+Math.round(n).toLocaleString("en-US");}
@@ -160,17 +60,23 @@ a{color:inherit}.top-rule{height:3px;background:var(--ink)}
   fetch("media/road_records.json",{cache:"no-store"}).then(function(r){return r.json();}).then(function(recs){
     var tb=document.getElementById("roadTable");
     recs.sort(function(a,b){return (b.price||0)-(a.price||0);});
-    tb.innerHTML=recs.slice(0,10).map(function(r){
-      var inner='<div class="rdesc">'+esc(r.name)+'</div>'+
-        '<div class="rhouse">'+esc(r.auctioneer)+'</div>'+
-        '<div class="rloc">'+esc(r.locale)+'</div>'+
-        '<div class="ryear">'+esc(r.year)+'</div>'+
-        '<div class="rprice">'+money(r.price)+' · <span class="rgo">record ↗</span></div>';
-      return r.src ? '<a class="rrow" href="'+esc(r.src)+'" target="_blank" rel="noopener">'+inner+'</a>'
-                   : '<div class="rrow">'+inner.replace(' · <span class="rgo">record ↗</span>','')+'</div>';
+    tb.innerHTML=recs.slice(0,10).map(function(rr){
+      var inner='<div class="rdesc">'+esc(rr.name)+'</div>'+
+        '<div class="rhouse">'+esc(rr.auctioneer)+'</div>'+
+        '<div class="rloc">'+esc(rr.locale)+'</div>'+
+        '<div class="ryear">'+esc(rr.year)+'</div>'+
+        '<div class="rprice">'+money(rr.price)+' · <span class="rgo">record ↗</span></div>';
+      return rr.src ? '<a class="rrow" href="'+esc(rr.src)+'" target="_blank" rel="noopener">'+inner+'</a>' : '<div class="rrow">'+inner.replace(' · <span class="rgo">record ↗</span>','')+'</div>';
     }).join("");
   }).catch(function(){document.getElementById("roadTable").innerHTML='<div class="mload" style="padding:20px">The records are momentarily unavailable.</div>';});
 })();
 </script>
-</body>
-</html>
+<footer>
+  <div class="f-in">
+    <div class="fm"><div class="me2">M<span class="dot">·</span>E</div><p>The journal of the world's finest, curated, priced and placed in confidence.</p></div>
+    <div class="fcol"><h5>Departments</h5><a href="time.html">Time</a><a href="table.html">The Table</a><a href="sea.html">The Sea</a><a href="road.html">The Road</a><a href="estate.html">Estates</a><a href="field.html">The Field</a><a href="style.html">Style</a><a href="art.html">Art</a></div>
+    <div class="fcol"><h5>The House</h5><a href="library.html">The Library</a><a href="library.html">How It Works</a><a href="library.html">Press</a><a href="mailto:me@mostexpensivest.com">Correspondence</a></div>
+    <div class="fcol"><h5>Content</h5><a href="index.html">Editorial</a><a href="time.html">Live Market</a><a href="road.html">Records</a><a href="library.html">The Desk</a></div>
+  </div>
+  <div class="foot-last"><span>© ME · MMXXVI</span><span>The Most Expensivest</span><span>Department IV · The Road</span></div>
+</footer>
