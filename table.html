@@ -22,6 +22,13 @@ a{color:inherit}.top-rule{height:3px;background:var(--ink)}
 .grid{display:grid;grid-template-columns:repeat(3,1fr);gap:0}
 .card{padding:0;border-right:1px solid var(--line);border-top:1px solid var(--line);text-decoration:none;display:block;background:var(--cream)}
 .card .mark{position:relative;height:186px;overflow:hidden;border-bottom:1px solid var(--line);background:radial-gradient(130% 150% at 18% 8%, #23261d 0%, #141910 48%, #233726 100%)}
+.card .mark img.mt{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;display:block}
+.card .mark .mshade{position:absolute;inset:auto 0 0 0;height:52%;background:linear-gradient(transparent,rgba(12,11,8,.78))}
+.card .mark .mplate{position:absolute;left:18px;bottom:14px;font-size:10px;letter-spacing:3px;text-transform:uppercase;color:var(--cream);display:flex;align-items:baseline;gap:9px}
+.card .mark .mplate .pnum{color:var(--gold);font-weight:500}
+.card .mark .numplate{position:absolute;inset:0;display:flex;flex-direction:column;align-items:center;justify-content:center;gap:9px}
+.card .mark .numplate .big{font-family:'Cormorant Garamond',serif;font-size:52px;font-weight:500;color:var(--cream);line-height:1;border-top:1px solid var(--brass);border-bottom:1px solid var(--brass);padding:2px 18px}
+.card .mark .numplate .tag{font-size:9px;letter-spacing:4px;text-transform:uppercase;color:var(--brass)}
 .card .mark svg{position:absolute;inset:0;margin:auto;width:74%;max-height:80%;height:auto}
 .card .plate{display:flex;align-items:baseline;gap:9px;padding:16px 20px 0;font-size:10px;letter-spacing:3px;text-transform:uppercase;color:var(--faint)}
 .card .plate .pnum{color:var(--verde-soft);font-weight:500}
@@ -92,91 +99,39 @@ a{color:inherit}.top-rule{height:3px;background:var(--ink)}
   <div class="grid">
 
     <a class="card" href="https://cubancigaronline.com/" target="_blank" rel="noopener">
-      <div class="mark">
-        <svg viewBox="0 0 180 120" aria-hidden="true"><g>
-          <path class="mfill" d="M44 62 C56 55 120 55 132 62 C135 66 135 73 132 77 C120 84 56 84 44 77 C41 73 41 66 44 62 Z"/>
-          <rect class="mline" x="54" y="57" width="22" height="25" rx="2"/>
-          <ellipse class="mline" cx="132" cy="69" rx="2.6" ry="9"/>
-          <path class="mgold" d="M58 50 C55 44 64 39 60 32 C58 28 62 25 66 22"/>
-          <path class="mgold" d="M74 52 C72 47 78 43 75 37"/>
-        </g></svg>
-      </div>
+      <div class="mark"><img class="mt" src="media/img/table_cigar.jpg" alt="Cohiba cigar box"/></div>
       <div class="plate"><span class="pnum">I</span><span>the handmade</span></div>
-      <div class="txt"><h4>The Handmade Cigar</h4><div class="who">Cuba · long-filler, listed now</div><p class="what">Rolled by hand, boxed, and sitting in stock today — Cohiba, Montecristo and the long-fillers, in volume and by the box.</p><span class="price">the cigar, in stock ↗</span></div>
+      <div class="txt"><h4>The Handmade Cigar</h4><div class="who">Cuba · long-filler, listed now</div><span class="price">the cigar, in stock ↗</span></div>
     </a>
 
     <a class="card" href="https://www.whiskyauctioneer.com/" target="_blank" rel="noopener">
-      <div class="mark">
-        <svg viewBox="0 0 180 120" aria-hidden="true"><g>
-          <path class="mfill" d="M64 30 L118 30 L111 78 C110 82 72 82 71 78 Z"/>
-          <ellipse class="mline" cx="91" cy="30" rx="27" ry="6"/>
-          <path class="mline" d="M74 60 L109 60"/>
-          <path class="mline" d="M66 84 H117 M63 92 H120"/>
-          <path class="mgold" d="M72 42 L110 42"/>
-          <path class="mline" d="M73 36 L109 36"/>
-        </g></svg>
-      </div>
+      <div class="mark"><div class="numplate"><span class="big">II</span></div></div>
       <div class="plate"><span class="pnum">II</span><span>the single malt</span></div>
-      <div class="txt"><h4>The Single Malt, on the Block</h4><div class="who">Speyside &amp; Islay · the live auction</div><p class="what">Rare single malts cross the block bottle by bottle, week by week — a private cask rather than a release.</p><span class="price">the live auction ↗</span></div>
+      <div class="txt"><h4>The Single Malt, on the Block</h4><div class="who">Speyside &amp; Islay · the live auction</div><span class="price">the live auction ↗</span></div>
     </a>
 
     <a class="card" href="https://cubancigaronline.com/humidors/" target="_blank" rel="noopener">
-      <div class="mark">
-        <svg viewBox="0 0 180 120" aria-hidden="true"><g>
-          <rect class="mline" x="38" y="46" width="92" height="16" rx="2"/>
-          <rect class="mline" x="34" y="62" width="100" height="40" rx="3"/>
-          <path class="mfill" d="M42 62 H126 V92 H42 Z"/>
-          <path class="mline" d="M50 74 H120 M50 84 H120"/>
-          <path class="mgold" d="M68 40 V46 M74 44 L80 50"/>
-        </g></svg>
-      </div>
+      <div class="mark"><div class="numplate"><span class="big">III</span></div></div>
       <div class="plate"><span class="pnum">III</span><span>the vault &amp; the cedar</span></div>
-      <div class="txt"><h4>The Humidor &amp; the Vault</h4><div class="who">cedar-lined · the keeping</div><p class="what">Where a decade of slow decisions is kept — Spanish cedar, climate-sealed, listed now by the houses that move them.</p><span class="price">the humidor market ↗</span></div>
+      <div class="txt"><h4>The Humidor &amp; the Vault</h4><div class="who">cedar-lined · the keeping</div><span class="price">the humidor market ↗</span></div>
     </a>
 
     <a class="card" href="https://wine.sothebys.com/" target="_blank" rel="noopener">
-      <div class="mark">
-        <svg viewBox="0 0 180 120" aria-hidden="true"><g>
-          <path class="mfill" d="M64 34 C90 34 98 40 98 56 C98 88 90 100 76 100 C62 100 52 88 52 56 C52 40 58 34 64 34 Z"/>
-          <rect class="mfill" x="72" y="16" width="10" height="20"/>
-          <rect class="mline" x="71" y="10" width="12" height="6" rx="1"/>
-          <rect class="mline" x="70" y="64" width="16" height="26" rx="2"/>
-          <path class="mgold" d="M36 100 L144 92"/>
-        </g></svg>
-      </div>
+      <div class="mark"><div class="numplate"><span class="big">IV</span></div></div>
       <div class="plate"><span class="pnum">IV</span><span>the cellar that ages</span></div>
-      <div class="txt"><h4>The Cellar That Ages</h4><div class="who">Bordeaux &amp; Burgundy · buy the case</div><p class="what">Lay down a case from the house that moves the serious lots — the auction-room cellar, open to the buyer directly.</p><span class="price">Sotheby's Wine ↗</span></div>
+      <div class="txt"><h4>The Cellar That Ages</h4><div class="who">Bordeaux &amp; Burgundy · buy the case</div><span class="price">Sotheby's Wine ↗</span></div>
     </a>
 
     <a class="card" href="https://www.riedel.com/en-int/collections" target="_blank" rel="noopener">
-      <div class="mark">
-        <svg viewBox="0 0 180 120" aria-hidden="true"><g>
-          <path class="mfill" d="M70 34 L112 34 L104 76 C103 80 78 80 77 76 Z"/>
-          <path class="mline" d="M66 36 H116 M66 34 L114 34"/>
-          <path class="mline" d="M82 34 L87 98 M90 90 H114"/>
-          <path class="mline" d="M62 98 H124"/>
-          <path class="mgold" d="M140 62 L144 56 M148 68 L152 62"/>
-        </g></svg>
-      </div>
+      <div class="mark"><div class="numplate"><span class="big">V</span></div></div>
       <div class="plate"><span class="pnum">V</span><span>the right glass</span></div>
-      <div class="txt"><h4>The Right Glass</h4><div class="who">hand-finished crystal · the maker</div><p class="what">The glass that changes the pour — grape-specific, hand-finished, and built for the hour it serves. Go to the maker.</p><span class="price">Riedel ↗</span></div>
+      <div class="txt"><h4>The Right Glass</h4><div class="who">hand-finished crystal · the maker</div><span class="price">Riedel ↗</span></div>
     </a>
 
     <a class="card" href="mailto:me@mostexpensivest.com">
-      <div class="mark">
-        <svg viewBox="0 0 180 120" aria-hidden="true"><g>
-          <path class="mline" d="M44 90 H136"/>
-          <path class="mline" d="M62 90 L62 48 M117 90 L117 48"/>
-          <path class="mline" d="M57 48 H67 M112 48 H122"/>
-          <path class="mgold" d="M62 48 C59 42 62 35 62 30 C62 35 65 42 62 48 Z"/>
-          <path class="mgold" d="M117 48 C114 42 117 35 117 30 C117 35 120 42 117 48 Z"/>
-          <path class="mline" d="M90 90 L90 68"/>
-          <path class="mline" d="M84 68 H96"/>
-          <path class="mgold" d="M90 68 C87 62 90 55 90 50 C90 55 93 62 90 68 Z"/>
-        </g></svg>
-      </div>
+      <div class="mark"><img class="mt" src="media/img/table_lounge.jpg" alt="The settled table"/></div>
       <div class="plate"><span class="pnum">VI</span><span>the settled table</span></div>
-      <div class="txt"><h4>The Settled Table</h4><div class="who">where the fire is · the room</div><p class="what">A room set for those who know how to arrive — placed for you, in strictest confidence.</p><span class="price">by introduction</span></div>
+      <div class="txt"><h4>The Settled Table</h4><div class="who">where the fire is · the room</div><span class="price">by introduction</span></div>
     </a>
 
   </div>
