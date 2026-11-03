@@ -198,51 +198,75 @@
     ],
     "field": [
       {
-        "name": "Shotguns for sale",
+        "name": "Shotguns for sale \u00b7 the live market",
         "url": "https://www.gunsinternational.com/guns-for-sale-online/shotguns.cfm",
         "marketplace": "Guns International",
-        "verified": "2026-11-01",
-        "status": "WALL",
-        "last_check": "2026-11-02"
+        "verified": null,
+        "last_check": "2026-11-03",
+        "status": "WALL"
       },
       {
-        "name": "Holland & Holland \u00b7 buy/commission",
+        "name": "Holland & Holland \u00b7 buy / commission",
         "url": "https://www.hollandandholland.com/",
         "marketplace": "Holland & Holland",
-        "verified": "2026-11-01",
-        "last_check": "2026-11-02",
+        "verified": null,
+        "last_check": "2026-11-03",
         "status": "WALL"
       },
       {
         "name": "Purdey \u00b7 buy direct",
         "url": "https://www.purdey.com/",
         "marketplace": "James Purdey & Sons",
-        "verified": "2026-11-01",
-        "last_check": "2026-11-02",
+        "verified": "2026-11-03",
+        "last_check": "2026-11-03",
         "status": "LIVE"
       },
       {
-        "name": "Driven grouse days (Scotland)",
+        "name": "Fabbri (Brescia) \u00b7 at auction",
+        "url": "https://www.gunsinternational.com/guns-for-sale-online/shotguns/fabbri-shotguns.c729_p1_o6.cfm",
+        "marketplace": "Guns International \u00b7 Fabbri",
+        "verified": null,
+        "last_check": "2026-11-03",
+        "status": "WALL"
+      },
+      {
+        "name": "Perazzi \u00b7 Italian over-and-under",
+        "url": "https://www.perazzi.it/en/",
+        "marketplace": "Perazzi",
+        "verified": "2026-11-03",
+        "last_check": "2026-11-03",
+        "status": "LIVE"
+      },
+      {
+        "name": "AYA \u00b7 Spanish sidelock",
+        "url": "https://www.aya-fineguns.com/",
+        "marketplace": "AYA (Aguirre y Aranzabal)",
+        "verified": "2026-11-03",
+        "last_check": "2026-11-03",
+        "status": "LIVE"
+      },
+      {
+        "name": "Grulla \u00b7 Spanish sidelock, Eibar",
+        "url": "https://www.grullaarmas.com/en/",
+        "marketplace": "Grulla Armas",
+        "verified": "2026-11-03",
+        "last_check": "2026-11-03",
+        "status": "LIVE"
+      },
+      {
+        "name": "Driven grouse days \u00b7 Scotland",
         "url": "https://williampowellsporting.co.uk/driven-grouse-shooting/",
         "marketplace": "William Powell Sporting",
-        "verified": "2026-11-01",
-        "last_check": "2026-11-02",
+        "verified": "2026-11-03",
+        "last_check": "2026-11-03",
         "status": "LIVE"
       },
       {
-        "name": "Custom gun rooms",
-        "url": "https://www.thebespokeguncabinetcompany.co.uk/",
-        "marketplace": "The Bespoke Gun Cabinet Company",
-        "verified": "2026-11-01",
-        "last_check": "2026-11-02",
-        "status": "LIVE"
-      },
-      {
-        "name": "USA shooting school & grounds",
-        "url": "https://www.orvis.com/sandanona-shooting-grounds.html",
-        "marketplace": "Orvis Sandanona",
-        "verified": "2026-11-01",
-        "last_check": "2026-11-02",
+        "name": "Orvis Shooting Schools \u00b7 USA grounds",
+        "url": "https://www.orvis.com/wingshooting-schools",
+        "marketplace": "Orvis Wingshooting Schools",
+        "verified": "2026-11-03",
+        "last_check": "2026-11-03",
         "status": "LIVE"
       }
     ],
@@ -296,6 +320,30 @@
         "verified": "2026-11-02",
         "last_check": "2026-11-02",
         "status": "LIVE"
+      },
+      {
+        "name": "Ladies haute joaillerie \u00b7 Cartier",
+        "url": "https://www.cartier.com/en-us/jewelry/collections/love.html",
+        "marketplace": "Cartier",
+        "verified": null,
+        "last_check": "2026-11-03",
+        "status": "WALL"
+      },
+      {
+        "name": "Ladies watches \u00b7 pre-owned secondary market",
+        "url": "https://www.thewatchbox.com/watches",
+        "marketplace": "The Watch Box",
+        "verified": "2026-11-03",
+        "last_check": "2026-11-03",
+        "status": "LIVE"
+      },
+      {
+        "name": "Vintage & couture, pre-loved \u00b7 women",
+        "url": "https://www.vestiairecollective.com/women/",
+        "marketplace": "Vestiaire Collective",
+        "verified": null,
+        "last_check": "2026-11-03",
+        "status": "WALL"
       }
     ],
     "art": [
@@ -368,7 +416,7 @@
     ],
     "road": [
       {
-        "name": "Road cars · live market",
+        "name": "Road cars \u00b7 live market",
         "url": "https://bringatrailer.com/ferrari/",
         "marketplace": "Bring a Trailer",
         "verified": "2026-11-01",

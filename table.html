@@ -37,7 +37,14 @@
     <div class="dcard"><div class="k">VI · On Introduction</div><h3>The Settled Table</h3><p>A room set for those who know how to arrive — placed for you, in strictest confidence.</p><div class="go">By introduction</div></div>
   </div>
 </div></div>
-<div class="dwrap"><div class="records dsec">
+<div class="dwrap"><div class="dwrap">
+  <div class="market dsec">
+    <div class="mh"><h2><span class="no">II.</span>On the Market</h2><div class="count">the live market · verified daily</div></div>
+    <div id="meMarket" class="mlinks"><div class="mload">reading the market…</div></div>
+  </div>
+  <div class="attrib" style="margin-top:12px">Link destinations live-verified from the ME market engine; each opens the actual marketplace where the finest cigars, spirits and cellars are listed for sale now.</div>
+</div>
+<div class="records dsec">
   <div class="dsh"><h2><span class="no">II.</span>Records of the Table</h2><div class="note">the finest objects, and what they fetched</div></div>
   <div id="tableTable" class="rtable"><div class="mload" style="padding:20px">reading the market…</div></div>
 </div>
@@ -56,3 +63,8 @@ fetch("media/table_records.json").then(function(r){return r.json();}).then(funct
   </div>
   <div class="foot-last"><span>© ME · MMXXVI</span><span>The Most Expensivest</span><span>Department II · The Table</span></div>
 </footer>
+
+<script src="js/market-loader.js"></script>
+<script>
+(function(){__meMarketLoad('table','meMarket');})();
+</script>

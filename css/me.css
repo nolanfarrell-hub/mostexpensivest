@@ -281,3 +281,15 @@ footer{background:var(--ink);color:var(--cream);padding:60px 0 0;border-top:3px 
 
 /* table/field record variants */
 .rkind{font-size:10px;letter-spacing:1px;color:var(--muted);text-transform:uppercase}
+
+/* live-market destination cards (manifest-driven, real links) */
+.mlinks{display:grid;grid-template-columns:repeat(3,1fr);gap:14px;margin-top:22px}
+.mlink{display:flex;flex-direction:column;background:var(--card);border:1px solid var(--line);padding:18px 18px 16px;text-decoration:none;transition:transform .2s,border-color .2s;box-shadow:0 6px 18px -12px rgba(13,11,8,.4);gap:8px}
+.mlink:hover{transform:translateY(-2px);border-color:var(--gold)}
+.ml-tag{font-size:8px;letter-spacing:2px;text-transform:uppercase;color:var(--gold);font-weight:600}
+.ml-name{font-family:var(--serif);font-size:18px;font-weight:500;line-height:1.15}
+.ml-mp{font-size:9.5px;letter-spacing:1.5px;text-transform:uppercase;color:var(--muted)}
+.ml-go{margin-top:auto;border-top:1px solid var(--line);padding-top:11px;font-size:9px;letter-spacing:1.5px;text-transform:uppercase;color:var(--bronze);display:flex;justify-content:space-between;align-items:baseline}
+.ml-go span{color:var(--faint);font-size:8px;letter-spacing:.5px;text-transform:none}
+@media(max-width:900px){.mlinks{grid-template-columns:1fr 1fr}}
+@media(max-width:560px){.mlinks{grid-template-columns:1fr}}
