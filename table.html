@@ -40,7 +40,7 @@
 <div class="dwrap"><div class="dwrap">
   <div class="market dsec">
     <div class="mh"><h2><span class="no">II.</span>On the Market</h2><div class="count">the live market · verified daily</div></div>
-    <div id="meMarket" class="mlinks"><div class="mload">reading the market…</div></div>
+    <div id="meMarket" class="mgrid"><div class="mload">reading the market…</div></div>
   </div>
   <div class="attrib" style="margin-top:12px">Link destinations live-verified from the ME market engine; each opens the actual marketplace where the finest cigars, spirits and cellars are listed for sale now.</div>
 </div>
@@ -66,5 +66,5 @@ fetch("media/table_records.json").then(function(r){return r.json();}).then(funct
 
 <script src="js/market-loader.js"></script>
 <script>
-(function(){__meMarketLoad('table','meMarket');})();
+(function(){__meMarketLoad('table','meMarket',['media/img/table_cigar.jpg','media/img/table.jpg','media/img/table_lounge.jpg']);})();
 </script>
