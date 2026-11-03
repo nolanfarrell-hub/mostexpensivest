@@ -20,25 +20,19 @@ a{color:inherit}.top-rule{height:3px;background:var(--ink)}
 .dep-head .deck{max-width:640px;margin:24px auto 0;font-style:italic;font-family:'Cormorant Garamond',serif;font-size:clamp(17px,2.2vw,21px);color:var(--ink2);line-height:1.5}
 .dept{max-width:1100px;margin:0 auto;padding:40px 26px}
 .grid{display:grid;grid-template-columns:repeat(3,1fr);gap:0}
-.card{padding:0;border-right:1px solid var(--line);border-top:1px solid var(--line);text-decoration:none;display:block;background:var(--cream)}
-.card .mark{position:relative;height:186px;overflow:hidden;border-bottom:1px solid var(--line);background:radial-gradient(130% 150% at 18% 8%, #23261d 0%, #141910 48%, #233726 100%)}
-.card .mark img.mt{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;display:block}
-.card .mark .mshade{position:absolute;inset:auto 0 0 0;height:52%;background:linear-gradient(transparent,rgba(12,11,8,.78))}
-.card .mark .mplate{position:absolute;left:18px;bottom:14px;font-size:10px;letter-spacing:3px;text-transform:uppercase;color:var(--cream);display:flex;align-items:baseline;gap:9px}
-.card .mark .mplate .pnum{color:var(--gold);font-weight:500}
-.card .mark .numplate{position:absolute;inset:0;display:flex;flex-direction:column;align-items:center;justify-content:center;gap:9px}
-.card .mark .numplate .big{font-family:'Cormorant Garamond',serif;font-size:52px;font-weight:500;color:var(--cream);line-height:1;border-top:1px solid var(--brass);border-bottom:1px solid var(--brass);padding:2px 18px}
-.card .mark .numplate .tag{font-size:9px;letter-spacing:4px;text-transform:uppercase;color:var(--brass)}
-.card .mark svg{position:absolute;inset:0;margin:auto;width:74%;max-height:80%;height:auto}
-.card .plate{display:flex;align-items:baseline;gap:9px;padding:16px 20px 0;font-size:10px;letter-spacing:3px;text-transform:uppercase;color:var(--faint)}
-.card .plate .pnum{color:var(--verde-soft);font-weight:500}
-.card .txt{padding:12px 20px 22px}
-.card .txt h4{font-family:'Cormorant Garamond',serif;font-weight:600;font-size:22px;line-height:1.2;margin-bottom:6px}
-.card .txt .who{font-size:11px;letter-spacing:2px;text-transform:uppercase;color:var(--muted);margin-bottom:11px}
-.card .txt .what{font-size:13px;color:var(--ink2);line-height:1.55}
-.card .price{display:inline-block;margin-top:15px;font-family:'Cormorant Garamond',serif;font-size:18px;font-weight:500;color:var(--brass-dark);border-bottom:1px solid var(--brass-dark);padding-bottom:2px}
-.card:hover{background:var(--paper)}
-.card:hover .mark{filter:brightness(1.08)}
+.card{padding:0;border-right:1px solid var(--line);border-top:1px solid var(--line);text-decoration:none;display:block;background:var(--paper)}
+.card .photo{position:relative;aspect-ratio:3/2;overflow:hidden;border-bottom:1px solid var(--line);background:#141910}
+.card .photo img{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;display:block}
+.card .photo .shade{position:absolute;inset:auto 0 0 0;height:52%;background:linear-gradient(transparent,rgba(12,11,8,.72))}
+.card .photo .kicker{position:absolute;left:20px;bottom:16px;font-size:9px;letter-spacing:3.5px;text-transform:uppercase;color:var(--gold);font-weight:500}
+.card:hover{background:var(--cream)}
+.card:hover .photo img{transform:scale(1.02)}
+.card .cardbody{padding:20px 22px 22px}
+.card .kicker{display:block;font-size:9px;letter-spacing:3.5px;text-transform:uppercase;color:var(--verde-soft);font-weight:500;margin-bottom:10px}
+.card .phcard .kicker{color:var(--gold)}
+.card h4{font-family:'Cormorant Garamond',serif;font-weight:600;font-size:23px;line-height:1.18;margin-bottom:8px}
+.card .dek{font-size:13px;color:var(--ink2);line-height:1.55}
+.card .go{margin-top:16px;border-top:1px solid var(--line);padding-top:12px;font-family:'Cormorant Garamond',serif;font-size:16px;font-style:italic;color:var(--brass-dark)}
 .grid .card:nth-child(3n+3){border-right:none}
 .attrib{max-width:1100px;margin:18px auto 0;padding:0 30px;font-size:10.5px;color:var(--faint);letter-spacing:.5px;line-height:1.6}
 .attrib a{color:var(--brass-dark);text-decoration:none}
@@ -98,40 +92,30 @@ a{color:inherit}.top-rule{height:3px;background:var(--ink)}
 <div class="dept">
   <div class="grid">
 
-    <a class="card" href="https://cubancigaronline.com/" target="_blank" rel="noopener">
-      <div class="mark"><img class="mt" src="media/img/table_cigar.jpg" alt="Cohiba cigar box"/></div>
-      <div class="plate"><span class="pnum">I</span><span>the handmade</span></div>
-      <div class="txt"><h4>The Handmade Cigar</h4><div class="who">Cuba · long-filler, listed now</div><span class="price">the cigar, in stock ↗</span></div>
+    <a class="card phcard" href="https://cubancigaronline.com/" target="_blank" rel="noopener">
+      <div class="photo"><img src="media/img/table_cigar.jpg" alt="Cohiba cigar box"/><div class="shade"></div><span class="kicker">The Handmade Cigar</span></div>
+      <div class="cardbody"><span class="kicker">I &middot; The Handmade</span><p class="dek">The long-filler, rolled by hand and boxed &mdash; Cohiba and Montecristo, sitting in stock today.</p><div class="go">In stock now <span style="font-style:normal">&nearr;</span></div></div>
     </a>
 
     <a class="card" href="https://www.whiskyauctioneer.com/" target="_blank" rel="noopener">
-      <div class="mark"><div class="numplate"><span class="big">II</span></div></div>
-      <div class="plate"><span class="pnum">II</span><span>the single malt</span></div>
-      <div class="txt"><h4>The Single Malt, on the Block</h4><div class="who">Speyside &amp; Islay · the live auction</div><span class="price">the live auction ↗</span></div>
+      <div class="cardbody"><span class="kicker">II &middot; The Single Malt</span><h4>The Single Malt, on the Block</h4><p class="dek">Rare malts cross the block bottle by bottle, week by week &mdash; a private cask rather than a release.</p><div class="go">The live auction <span style="font-style:normal">&nearr;</span></div></div>
     </a>
 
     <a class="card" href="https://cubancigaronline.com/humidors/" target="_blank" rel="noopener">
-      <div class="mark"><div class="numplate"><span class="big">III</span></div></div>
-      <div class="plate"><span class="pnum">III</span><span>the vault &amp; the cedar</span></div>
-      <div class="txt"><h4>The Humidor &amp; the Vault</h4><div class="who">cedar-lined · the keeping</div><span class="price">the humidor market ↗</span></div>
+      <div class="cardbody"><span class="kicker">III &middot; The Vault &amp; the Cedar</span><h4>The Humidor &amp; the Vault</h4><p class="dek">Spanish cedar, climate-sealed &mdash; where a decade of slow decisions is kept, listed by the houses that move them.</p><div class="go">The humidor market <span style="font-style:normal">&nearr;</span></div></div>
     </a>
 
     <a class="card" href="https://wine.sothebys.com/" target="_blank" rel="noopener">
-      <div class="mark"><div class="numplate"><span class="big">IV</span></div></div>
-      <div class="plate"><span class="pnum">IV</span><span>the cellar that ages</span></div>
-      <div class="txt"><h4>The Cellar That Ages</h4><div class="who">Bordeaux &amp; Burgundy · buy the case</div><span class="price">Sotheby's Wine ↗</span></div>
+      <div class="cardbody"><span class="kicker">IV &middot; The Cellar</span><h4>The Cellar That Ages</h4><p class="dek">Lay down a case from the house that moves the serious lots &mdash; Bordeaux &amp; Burgundy, bought direct.</p><div class="go">Sotheby's Wine <span style="font-style:normal">&nearr;</span></div></div>
     </a>
 
     <a class="card" href="https://www.riedel.com/en-int/collections" target="_blank" rel="noopener">
-      <div class="mark"><div class="numplate"><span class="big">V</span></div></div>
-      <div class="plate"><span class="pnum">V</span><span>the right glass</span></div>
-      <div class="txt"><h4>The Right Glass</h4><div class="who">hand-finished crystal · the maker</div><span class="price">Riedel ↗</span></div>
+      <div class="cardbody"><span class="kicker">V &middot; The Right Glass</span><h4>The Right Glass</h4><p class="dek">The glass that changes the pour &mdash; grape-specific, hand-finished, and built for the hour it serves.</p><div class="go">Riedel <span style="font-style:normal">&nearr;</span></div></div>
     </a>
 
-    <a class="card" href="mailto:me@mostexpensivest.com">
-      <div class="mark"><img class="mt" src="media/img/table_lounge.jpg" alt="The settled table"/></div>
-      <div class="plate"><span class="pnum">VI</span><span>the settled table</span></div>
-      <div class="txt"><h4>The Settled Table</h4><div class="who">where the fire is · the room</div><span class="price">by introduction</span></div>
+    <a class="card phcard" href="mailto:me@mostexpensivest.com">
+      <div class="photo"><img src="media/img/table_lounge.jpg" alt="The settled table"/><div class="shade"></div><span class="kicker">The Settled Table</span></div>
+      <div class="cardbody"><span class="kicker">VI &middot; On Introduction</span><p class="dek">A room set for those who know how to arrive &mdash; placed for you, in strictest confidence.</p><div class="go">By introduction</div></div>
     </a>
 
   </div>
