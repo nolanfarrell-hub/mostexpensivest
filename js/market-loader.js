@@ -15,9 +15,17 @@
     var im = img
       ? '<div class="im"><img src="'+esc(img)+'" alt="" loading="lazy"/><span class="live">'+tag+'</span></div>'
       : '<div class="im noph"><span class="live">'+tag+'</span></div>';
+    // House-grade metadata line (renders only what the manifest actually carries).
+    var meta=[];
+    if(it.locale) meta.push(it.locale);
+    if(it.kind) meta.push(it.kind);
+    if(it.year) meta.push(it.year);
+    if(it.condition) meta.push(it.condition);
+    if(it.certificate) meta.push(it.certificate==="full_set"?"box & papers":it.certificate);
+    var metaHtml=meta.length?'<div class="meta">'+esc(meta.join(" · "))+'</div>':"";
     return '<a class="mcard" href="'+esc(dest)+'" target="_blank" rel="noopener">'+im+
       '<div class="bd"><div class="n">'+esc(it.name)+'</div>'+
-      '<div class="ref">'+esc(mp)+'</div>'+
+      '<div class="ref">'+esc(mp)+'</div>'+metaHtml+
       '<div class="sr">View listings \u2197 <span>'+esc(ver)+'</span></div></div></a>';
   }
   function load(dept, targetId, photos){

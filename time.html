@@ -86,9 +86,20 @@
     var t=it.title||it.model||"Piece";
     if(it.brand){var b=it.brand.toLowerCase();var low=t.toLowerCase();if(low.startsWith(b+" "+b)){t=t.substring(it.brand.length+1);}}
     var url=esc(it.buy_url||it.detail_url||it.url||"#");
+    // House-grade metadata line: render only what is actually populated by the feed.
+    // condition / box_papers / provenance slot in here the moment the source fills them.
+    var meta=[];
+    if(it.case_material) meta.push(it.case_material);
+    if(it.case_size_mm) meta.push(it.case_size_mm+"mm");
+    if(it.movement) meta.push(it.movement);
+    if(it.complications && it.complications.length) meta.push(it.complications.join(", "));
+    if(it.box_papers) meta.push(it.box_papers==="full_set"?"box & papers":it.box_papers);
+    if(it.condition && it.condition!=="") meta.push(it.condition);
+    if(it.year) meta.push(it.year);
+    var metaHtml=meta.length?'<div class="meta">'+esc(meta.join(" · "))+'</div>':"";
     return '<a class="mcard" href="'+url+'" target="_blank" rel="noopener">'+imgHtml+
       '<div class="bd"><div class="n">'+esc(t)+'</div>'+(ref?'<div class="ref">'+esc(ref)+'</div>':'')+
-      '<div class="p">'+money(it.price_usd)+'</div>'+
+      '<div class="p">'+money(it.price_usd)+'</div>'+metaHtml+
       '<div class="sr">'+esc(it.merchant_name||"the market")+' · '+esc(it.in_stock!=false?"buy":"enquire")+'</div></div></a>';
   }
   fetch(API).then(function(r){return r.json();}).then(function(d){
