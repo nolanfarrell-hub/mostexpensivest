@@ -3,410 +3,105 @@
 <head>
 <meta charset="UTF-8"/>
 <meta name="viewport" content="width=device-width,initial-scale=1"/>
-<title>ME · The Most Expensivest</title>
-<meta name="description" content="ME is the journal of the world's finest — watches, yachts, motorcars, estates, cigars and the sporting life, curated and placed in confidence."/>
+<title>ME — The Journal of the World's Finest</title>
+<meta name="description" content="ME. The journal of the world's finest — live, placed, and priced by provenance. One object at a time."/>
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;1,400;1,500&family=Space+Grotesk:wght@400;500;700&family=Inter:wght@300;400;500&display=swap" rel="stylesheet">
-<style>
-:root{
-  --ink:#14120e; --coal:#191713; --paper:#f6f1e6; --paper2:#efe8d8;
-  --cream:#fcfaf4; --line:#e3dac4; --muted:#9a907d; --faint:#c4b998;
-  --brass:#a2873f; --brass-soft:#bfa567; --gold:#c9ad63;
-}
-*{margin:0;padding:0;box-sizing:border-box}
-html{scroll-behavior:smooth}
-body{background:var(--paper);color:var(--ink);font-family:'Inter',sans-serif;-webkit-font-smoothing:antialiased;line-height:1.6;font-weight:300}
-a{color:inherit;text-decoration:none}
-::selection{background:var(--brass);color:#fff}
-
-/* ============ UTILITY NAV ============ */
-.utop{background:var(--ink);color:var(--paper2);padding:10px 28px;display:flex;align-items:center;justify-content:space-between;font-size:10px;letter-spacing:2.5px;text-transform:uppercase}
-.utop .tagline{color:var(--faint)}
-.utop .ut-r{display:flex;gap:26px;align-items:center}
-.utop a{color:var(--paper2);transition:color .15s}
-.utop a:hover{color:var(--gold)}
-.utop .ut-r .seal{display:inline-block;width:6px;height:6px;border-radius:50%;background:var(--brass);margin-right:7px;vertical-align:1px}
-
-/* ============ MASTHEAD ============ */
-.masthead{padding:54px 28px 30px;text-align:center;position:relative;background:linear-gradient(180deg,var(--paper2) 0%,var(--paper) 100%)}
-.masthead .me{font-family:'Cormorant Garamond',serif;font-weight:500;font-size:clamp(56px,10vw,120px);letter-spacing:1px;color:var(--ink);display:inline-block;line-height:1}
-.masthead .me .dot{font-family:'Space Grotesk',sans-serif;color:var(--brass);font-size:.32em;vertical-align:.5em;letter-spacing:0}
-.masthead .ed{font-size:10px;letter-spacing:4px;text-transform:uppercase;color:var(--brass);margin-top:16px;font-weight:500}
-.masthead .rule{width:1px;height:30px;background:var(--line);margin:24px auto 16px}
-.masthead .claim{font-family:'Cormorant Garamond',serif;font-style:italic;font-size:clamp(24px,3.2vw,38px);color:var(--ink);max-width:880px;margin:0 auto;line-height:1.25;font-weight:500}
-.masthead .claim .accent{color:var(--brass);font-style:italic}
-
-/* ============ FEATURED OBJECT ============ */
-.feature{max-width:1240px;margin:40px auto 0;padding:0 24px;position:relative}
-.feature .fimg{width:100%;height:clamp(300px,52vw,560px);object-fit:cover;display:block}
-.feature .fimgwrap{position:relative}
-.feature .fimgwrap::after{content:"";position:absolute;left:0;right:0;bottom:0;height:100%;background:linear-gradient(to right, rgba(12,12,14,.88) 0%, rgba(12,12,14,.7) 38%, rgba(12,12,14,0) 62%)}
-/* solid text panel - always legible regardless of image */
-.feature .fcap{position:absolute;left:max(24px,calc((100vw - 1192px)/2));bottom:34px;max-width:520px;color:var(--cream);z-index:3;background:rgba(14,14,16,.82);backdrop-filter:blur(6px);border-left:3px solid var(--brass);padding:22px 26px 24px}
-.feature .fcap .tag{font-size:10px;letter-spacing:3.5px;text-transform:uppercase;color:var(--gold);margin-bottom:10px}
-.feature .fcap h2{font-family:'Cormorant Garamond',serif;font-weight:500;font-size:clamp(26px,3.8vw,46px);line-height:1.05;color:#fff;-webkit-font-smoothing:antialiased}
-.feature .fcap .lede{font-family:'Cormorant Garamond',serif;font-style:italic;font-size:17px;color:#e9e2cf;margin-top:10px;max-width:460px;line-height:1.4}
-.feature .fcap .meta{display:block;margin-top:12px;font-size:9.5px;letter-spacing:2.5px;text-transform:uppercase;color:var(--gold)}
-.feature .fcap .cta{display:inline-block;margin-top:16px;font-size:11px;letter-spacing:2.5px;text-transform:uppercase;color:var(--gold);border-bottom:1px solid var(--gold);padding-bottom:4px}
-.feature:hover .fcap .cta{color:#fff;border-color:#fff}
-@media(max-width:960px){.feature .fcap{left:26px;bottom:20px;max-width:78%;padding:18px 20px}}
-
-/* ============ ROTATING HERO CAROUSEL ============ */
-.hcar{max-width:1240px;margin:40px auto 0;padding:0 24px;position:relative}
-.htrack{position:relative;overflow:hidden;height:clamp(340px,52vw,560px);border:1px solid var(--line);background:var(--ink)}
-.hslide{position:absolute;inset:0;display:block;text-decoration:none;opacity:0;visibility:hidden;transition:opacity .8s ease;z-index:1}
-.hslide.is-active{opacity:1;visibility:visible;z-index:2}
-.himgg{position:absolute;inset:0}
-.himg{width:100%;height:100%;object-fit:cover;display:block}
-.hslide .himgg::before{content:"";position:absolute;left:0;top:0;bottom:0;width:min(620px,78%);z-index:1;background:linear-gradient(90deg,rgba(10,12,18,.8) 0%,rgba(10,12,18,.45) 55%,rgba(10,12,18,0) 100%)}
-.hslide .fcap{position:absolute;left:max(24px,calc((100vw - 1176px)/2));bottom:76px;max-width:540px;z-index:3;color:var(--cream);padding:0}
-.hslide .fcap h2{text-shadow:0 2px 22px rgba(0,0,0,.6)}
-.hslide .fcap .lede{color:#ece5d2}
-.hctl{position:absolute;left:0;right:0;bottom:16px;display:flex;align-items:center;justify-content:center;gap:18px;z-index:5}
-.hdars{display:flex;align-items:center;gap:18px}
-.harrow{background:rgba(20,20,24,.55);border:1px solid rgba(255,255,255,.28);color:var(--cream);width:38px;height:38px;font-size:22px;line-height:1;cursor:pointer;transition:background .2s,border-color .2s;backdrop-filter:blur(4px)}
-.harrow:hover{background:var(--brass);border-color:var(--brass);color:#fff}
-.hdots{display:flex;gap:9px;align-items:center}
-.hdot{width:28px;height:2px;background:rgba(255,255,255,.32);cursor:pointer;transition:background .25s;border:0;padding:0}
-.hdot.is-active{background:var(--gold)}
-@media(max-width:960px){.hslide .fcap{left:26px;bottom:78px;max-width:80%}.hslide .fcap h2{font-size:clamp(24px,5vw,36px)}}
-@media(max-width:560px){.hslide .fcap .lede{max-height:64px;overflow:hidden}.hslide .fcap{bottom:80px}.harrow{width:32px;height:32px}}
-
-
-/* ============ DEPARTMENTS (editorial roster) ============ */
-.dept{max-width:1240px;margin:0 auto;padding:56px 24px 10px}
-.dept .dh{display:flex;align-items:baseline;justify-content:space-between;border-bottom:1px solid var(--ink);padding-bottom:16px;margin-bottom:28px}
-.dept .dh h2{font-family:'Space Grotesk',sans-serif;font-size:12px;letter-spacing:3px;text-transform:uppercase;font-weight:500;color:var(--ink)}
-.dept .dh .note{font-size:11px;letter-spacing:2px;text-transform:uppercase;color:var(--muted)}
-.dgrid{display:grid;grid-template-columns:repeat(3,1fr);gap:14px}
-.cell{position:relative;height:280px;overflow:hidden;border:1px solid var(--line);background:var(--paper);display:block;text-decoration:none}
-.cell img{width:100%;height:100%;object-fit:cover;display:block;transition:transform .6s ease}
-.cell .tint{position:absolute;inset:0;background:linear-gradient(to top,rgba(10,10,12,.9) 0%,rgba(10,10,12,.35) 55%,rgba(10,10,12,0) 100%);z-index:1}
-.cell .inner{position:absolute;left:0;right:0;bottom:0;padding:20px 22px 22px;z-index:2;color:var(--cream)}
-.cell .wm{position:absolute;right:14px;top:8px;font-family:'Cormorant Garamond',serif;font-size:clamp(64px,6vw,92px);font-weight:600;color:rgba(255,255,255,.10);line-height:1;z-index:1;pointer-events:none}
-.cell .num{font-family:'Cormorant Garamond',serif;font-size:13px;color:var(--gold);letter-spacing:2px;display:block;margin-bottom:8px}
-.cell h3{font-family:'Cormorant Garamond',serif;font-size:clamp(22px,2.4vw,30px);font-weight:500;letter-spacing:.5px;line-height:1.05;color:#fff;transition:color .25s}
-.cell .type{font-size:10px;letter-spacing:2px;text-transform:uppercase;color:#d8d2c0;margin-top:8px;opacity:.9}
-.cell .stat{display:inline-block;margin-top:14px;font-size:10px;letter-spacing:2px;text-transform:uppercase;color:var(--gold);opacity:0;transform:translateY(6px);transition:opacity .3s,transform .3s;font-weight:600}
-.cell .stat::before{content:"→  "}
-.cell:hover img{transform:scale(1.06)}
-.cell:hover .stat{opacity:1;transform:translateY(0)}
-.cell:hover h3{color:var(--gold)}
-@media(max-width:960px){.dgrid{grid-template-columns:1fr 1fr}}
-@media(max-width:560px){.dgrid{grid-template-columns:1fr}}
-
-/* ============ QUOTE ============ */
-.quote{background:var(--ink);color:var(--paper2);margin:64px 0 0;padding:84px 30px}
-.quote-inner{max-width:900px;margin:0 auto;text-align:center}
-.quote .qmark{font-family:'Cormorant Garamond',serif;font-size:64px;color:var(--brass);line-height:0;display:block;height:30px}
-.quote p{font-family:'Cormorant Garamond',serif;font-style:italic;font-size:clamp(24px,3.4vw,38px);line-height:1.35;color:#eae3d1;font-weight:400}
-.quote p .accent{color:var(--gold)}
-.quote .sig{font-size:11px;letter-spacing:3px;text-transform:uppercase;color:var(--muted);margin-top:26px}
-
-/* ============ FOOTER ============ */
-footer{background:var(--ink);color:var(--paper2);margin-top:64px;padding:70px 30px 0;border-top:1px solid var(--coal)}
-.footer-in{max-width:1240px;margin:0 auto;display:grid;grid-template-columns:1.4fr 1fr 1fr 1.2fr;gap:40px;padding-bottom:60px}
-.foot-brand .me2{font-family:'Cormorant Garamond',serif;font-size:34px;font-weight:500;color:var(--paper2)}
-.foot-brand .me2 .dot{color:var(--brass);font-family:'Space Grotesk'}
-.foot-brand p{font-family:'Cormorant Garamond',serif;font-style:italic;font-size:15px;color:var(--faint);max-width:260px;margin-top:12px;line-height:1.5}
-.foot-col h5{font-size:10.5px;letter-spacing:2.5px;text-transform:uppercase;color:var(--brass);margin-bottom:18px;font-weight:500}
-.foot-col a,.foot-col p{display:block;color:var(--paper2);font-size:13.5px;line-height:2;font-weight:300;transition:color .15s}
-.foot-col a:hover{color:var(--gold)}
-.copyright{border-top:1px solid #2b2821;max-width:1240px;margin:0 auto;padding:22px 0 30px;display:flex;justify-content:space-between;font-size:10.5px;color:var(--muted);letter-spacing:1px}
-
-/* ======== LEDGER POLISH ======== */
-.lcell{transition:border-color .2s,background .15s}
-.lcell:hover{border-color:var(--brass)!important;background:var(--paper2)!important}
-.lcell .lfig{font-family:'Space Grotesk',sans-serif;font-weight:700;font-size:clamp(24px,2.6vw,32px);line-height:1;color:var(--ink);letter-spacing:-.02em;white-space:nowrap;margin-top:14px;font-variant-numeric:tabular-nums}
-.lcell .lfig.long{font-size:clamp(19px,2vw,24px);letter-spacing:-.04em}
-.lcell .lname{font-family:'Cormorant Garamond',serif;font-size:21px;font-weight:600;line-height:1.18;color:var(--ink);margin-top:6px;text-wrap:balance}
-.lcell .lunit{font-family:'Space Grotesk',sans-serif;font-weight:700;font-size:clamp(24px,2.6vw,32px);color:var(--ink);letter-spacing:-.02em}
-.lcell .lunit .u{font-size:.4em;letter-spacing:0;font-weight:500;color:var(--muted)}
-.lcell .ldesc{font-size:10px;letter-spacing:1.5px;text-transform:uppercase;color:var(--muted);margin-top:14px}
-.lsrc{font-size:11px;line-height:1.4;color:#6b6258!important;margin-top:14px}
-
-/* ======== HERO SCRIM ======== */
-.feature .fcap{position:absolute;left:max(24px,calc((100vw - 1180px)/2));bottom:30px;max-width:560px;z-index:2;padding:26px 34px}
-.feature .fimgwrap::before{content:"";position:absolute;left:0;top:0;bottom:0;width:min(560px,72%);z-index:1;background:linear-gradient(90deg,rgba(10,12,18,.66) 0%,rgba(10,12,18,.30) 55%,rgba(10,12,18,0) 100%)}
-.feature[href="art.html"] .fimgwrap::before{background:linear-gradient(90deg,rgba(12,18,30,.62) 0%,rgba(12,18,30,.26) 60%,rgba(12,18,30,0) 100%)}
-.feature .fcap h2{text-shadow:0 2px 22px rgba(0,0,0,.55)}
-.feature .fcap .lede{text-shadow:0 1px 4px rgba(0,0,0,.6),0 10px 30px rgba(0,0,0,.4);font-size:15px;line-height:1.45;max-width:480px}
-.feature .fcap .tag{text-shadow:0 1px 3px rgba(0,0,0,.6)}
-
-@media(max-width:960px){.dgrid{grid-template-columns:1fr 1fr}.cell{min-height:220px;padding:36px 26px 84px}.feature .fcap{left:26px;bottom:20px}}
-@media(max-width:560px){.dgrid{grid-template-columns:1fr}.cell{min-height:180px;padding:30px 24px 80px}.footer-in{grid-template-columns:1fr}.utop .ut-r{gap:14px}.utop{flex-direction:column;gap:8px}.lgrid{grid-template-columns:1fr 1fr}}
-</style>
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;1,400;1,500&family=Space+Grotesk:wght@400;500;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/me.css">
 </head>
 <body>
 
-<!-- UTILITY NAV -->
-<div class="utop">
-  <div class="tagline">The Most Expensivest · Curated Worldwide</div>
-  <div class="ut-r">
+<!-- STICKY HEADER -->
+<header class="hd"><div class="hd-in">
+  <a class="mast" href="index.html">M<span class="dot">·</span>E<span class="ed">Journal of the World's Finest</span></a>
+  <nav class="hd-nav">
+    <a href="time.html">Time</a><a href="table.html">The Table</a><a href="sea.html">The Sea</a><a href="road.html">The Road</a>
+    <a href="estate.html">Estates</a><a href="field.html">The Field</a><a href="style.html">Style</a><a href="art.html">Art</a>
+  </nav>
+  <div class="hd-util">
     <a href="library.html">The Library</a>
     <a href="mailto:me@mostexpensivest.com">Correspondence</a>
+    <span class="om"><i></i><i></i><i></i></span>
+  </div>
+</div></header>
+
+<!-- MASTHEAD / ISSUE STRIP -->
+<div class="masthead"><div class="row">
+  <div class="mh-l">Issue No. 001</div>
+  <div class="mh-c"><div class="claim">For those of a certain means, the world should present itself properly, <b>one object at a time</b>.</div></div>
+  <div class="mh-r">Curated Worldwide</div>
+</div></div>
+
+<!-- COVER HERO -->
+<section class="hero">
+  <img src="media/img/dep_sea.jpg" alt="A superyacht at anchor in the golden hour"/>
+  <div class="cap">
+    <div class="edition">ME · The Ledger · Autumn 2026</div>
+    <div class="kicker"><span class="r"></span>The Sea · The Longest Line</div>
+    <h1>Golden Hour,<br/>at Anchor</h1>
+    <div class="lede">The longest lines ride at anchor in the last of the day's light. Azzam, 591 feet, is the record that reset the bar — worth more than most collections.</div>
+    <span class="price">Price on request · 591 ft</span>
+    <a class="cta" href="https://en.wikipedia.org/wiki/Azzam_(2013_yacht)" target="_blank" rel="noopener">View the live listing <span class="arr">↗</span></a>
+  </div>
+  <div class="hero-meta"><span>Azzam · Lürssen · 2013</span><i></i><span>at anchor · golden hour</span><i></i><span>by introduction</span></div>
+</section>
+
+<!-- LEADERBOARD: LIVE LEDGER (engine figures, all linked) -->
+<div class="ledger"><div class="row">
+  <div class="lhead"><h3>The Ledger <span>· Live</span></h3><div class="lnow">on the market now — engine-driven</div></div>
+  <div class="lgrid">
+    <a class="lcell" href="https://en.wikipedia.org/wiki/List_of_most_expensive_paintings" target="_blank" rel="noopener"><div class="kt">Art · The Record</div><div class="nm">Salvator Mundi</div><div class="pr">$450.3M</div><div class="how">the high-water mark</div><div class="go">Live listing ↗</div></a>
+    <a class="lcell" href="https://en.wikipedia.org/wiki/Ferrari_250_GTO" target="_blank" rel="noopener"><div class="kt">The Road · The Market</div><div class="nm">Ferrari 250 GTO</div><div class="pr">$48.4M</div><div class="how">thirty-six built · the sold record</div><div class="go">Live listing ↗</div></a>
+    <a class="lcell" href="https://en.wikipedia.org/wiki/Azzam_(2013_yacht)" target="_blank" rel="noopener"><div class="kt">The Sea · The Longest</div><div class="nm">Azzam · Lürssen</div><div class="pr">591 ft</div><div class="how">the record that reset the bar</div><div class="go">Live listing ↗</div></a>
+    <a class="lcell" href="https://www.guinnessworldrecords.com/world-records/most-expensive-whisky-whiskey-sold-at-auction" target="_blank" rel="noopener"><div class="kt">The Table · On the Market</div><div class="nm">Macallan 1926</div><div class="pr">$2.73M</div><div class="how">Valerio Adami · single malt</div><div class="go">Live listing ↗</div></a>
+  </div>
+</div></div>
+
+<!-- JUST FOUND BY THE DESK — the engine's live finds -->
+<div class="sec found wrap">
+  <div class="sh"><h2><span class="no">I.</span>Just Found by the Desk</h2><div class="note">the engine's latest, live now</div><a class="go" href="time.html">See all →</a></div>
+  <div class="frow">
+    <a class="fcard" href="time.html"><div class="im"><img src="media/img/dep_time.jpg" alt=""/></div><div class="bd"><div class="k">Time</div><div class="n">Rolex Daytona, Paul Newman</div><div class="r">· ref 6263</div><div class="p">$865,000 <small>· The Watch Box</small></div></div></a>
+    <a class="fcard" href="road.html"><div class="im"><img src="media/img/road.jpg" alt=""/></div><div class="bd"><div class="k">The Road</div><div class="n">Ferrari Luce, Tailor Made</div><div class="r">· RM Sotheby's</div><div class="p">$40M <small>· Monterey</small></div></div></a>
+    <a class="fcard" href="table.html"><div class="im"><img src="media/img/table_lounge.jpg" alt=""/></div><div class="bd"><div class="k">The Table</div><div class="n">Macallan Valerio Adami 1926</div><div class="r">· 60-year-old</div><div class="p">$2.73M <small>· Sotheby's London</small></div></div></a>
+    <a class="fcard" href="art.html"><div class="im"><img src="media/img/art_wave.jpg" alt=""/></div><div class="bd"><div class="k">Art</div><div class="n">Hokusai, The Great Wave</div><div class="r">· Thirty-six Views</div><div class="p">by provenance <small>· placed on request</small></div></div></a>
   </div>
 </div>
 
-<!-- MASTHEAD -->
-<header class="masthead">
-  <div class="me">M<span class="dot">·</span>E</div>
-  <div class="ed">The Journal of the World's Finest</div>
-  <div class="rule"></div>
-  <div class="claim">For those of a certain means, the world should present itself properly <span class="accent">one object at a time</span>.</div>
-</header>
-
-<!-- FEATURED OBJECT : rotating hero carousel -->
-<div class="hcar" id="heroCar">
-  <div class="htrack" id="heroTrack">
-    <a class="hslide is-active" href="https://www.fraseryachts.com/en/buy-a-yacht/" target="_blank" rel="noopener" data-feature="sea" id="fh-sea">
-      <div class="himgg"><img class="himg" src="media/img/dep_sea.jpg" alt="A superyacht at anchor in the golden hour"/></div>
-      <div class="fcap">
-        <div class="tag">The Sea · The Mooring</div>
-        <h2>Golden Hour, at Anchor</h2>
-        <div class="lede">The longest and most expensive lines ride at anchor in the last of the day's light — the 591-ft Azzam among them, the record that reset the bar. A quiet hour on quiet water, worth more than most collections.</div>
-        <div class="meta">open water · golden hour · the anchorage of record</div>
-        <div class="cta" data-hero-cta="sea">View superyachts for sale</div>
-      </div>
-    </a>
-    <a class="hslide" href="https://bringatrailer.com/ferrari/" target="_blank" rel="noopener" data-feature="road" id="fh-road">
-      <div class="himgg"><img class="himg" src="media/img/road.jpg" alt="A concours-level motorcar"/></div>
-      <div class="fcap">
-        <div class="tag">The Road · The Machine</div>
-        <h2>The Spirit of Ecstasy</h2>
-        <div class="lede">A body coachbuilt by hand, a grille of polished chrome, and the long shadow of history. The road's finest are offered at the top of the market, where provenance is the price.</div>
-        <div class="meta">Rolls-Royce · concours condition · the paved record</div>
-        <div class="cta" data-hero-cta="road">Find the market · live listings</div>
-      </div>
-    </a>
-    <a class="hslide" href="https://www.christiesrealestate.com/" target="_blank" rel="noopener" data-feature="estate" id="fh-estate">
-      <div class="himgg"><img class="himg" src="media/img/dep_estate.jpg" alt="A grand English estate"/></div>
-      <div class="fcap">
-        <div class="tag">Home &amp; Grounds · The Estate</div>
-        <h2>Blenheim, at Full Scale</h2>
-        <div class="lede">A palace built as a promise, with grounds measured in hundreds of acres and a history counted in centuries. The world's great estates change hands through the houses that know them.</div>
-        <div class="meta">England · baroque in stone · the family seat</div>
-        <div class="cta" data-hero-cta="estate">See estates for sale</div>
-      </div>
-    </a>
-    <a class="hslide" href="https://www.1stdibs.com/buy/art/" target="_blank" rel="noopener" data-feature="art" id="fh-art">
-      <div class="himgg"><img class="himg" src="media/img/hero_salvator.jpg" alt="Leonardo da Vinci, Salvator Mundi"/></div>
-      <div class="fcap">
-        <div class="tag">Art · The Record</div>
-        <h2>Salvator Mundi — $450.3M</h2>
-        <div class="lede">The most expensive painting ever sold. The blessing hand, the crystal orb, and the number every other canvas is now measured against.</div>
-        <div class="meta">Leonardo da Vinci · Christie's New York · the high-water mark</div>
-        <div class="cta" data-hero-cta="art">Find the market · live listings</div>
-      </div>
-    </a>
-  </div>
-  <div class="hctl">
-    <button class="harrow har-prev" aria-label="Previous">‹</button>
-    <div class="hdots" id="heroDots"></div>
-    <button class="harrow har-next" aria-label="Next">›</button>
-  </div>
-</div>
-
-<!-- THE LEDGER : live records across departments -->
-<div class="records" style="max-width:1240px;margin:56px auto 0;padding:0 24px">
-  <div class="rh" style="display:flex;align-items:baseline;justify-content:space-between;border-top:3px solid var(--ink);padding-top:22px;margin-bottom:24px">
-    <h3 style="font-family:'Space Grotesk',sans-serif;font-size:12px;letter-spacing:3px;text-transform:uppercase;font-weight:600">The Ledger</h3>
-    <div style="font-size:11px;letter-spacing:2px;text-transform:uppercase;color:var(--muted)">what the market has done</div>
-  </div>
-  <div class="lgrid" id="ledgerGrid" style="display:grid;grid-template-columns:repeat(4,1fr);gap:16px">
-    <div class="lcell" style="display:block;border:1px solid var(--line);background:var(--paper);padding:26px 24px">
-      <div style="font-size:10px;letter-spacing:2.5px;text-transform:uppercase;color:var(--brass);margin-bottom:0">Time · On the Market</div>
-      <div class="lfig" id="lTimePrice" style="margin-top:14px">—</div>
-      <div class="lname" id="lTimeName">reading the market…</div>
-      <div class="ldesc">the finest listed now</div>
-    </div>
-    <a class="lcell" href="https://www.1stdibs.com/buy/art/" target="_blank" rel="noopener" style="display:block;border:1px solid var(--line);background:var(--paper);padding:26px 24px;text-decoration:none">
-      <div style="font-size:10px;letter-spacing:2.5px;text-transform:uppercase;color:var(--brass)">Art · The Record</div>
-      <div class="lfig long" id="lArtPrice">$450,300,000</div>
-      <div class="lname" id="lArtName">Salvator Mundi</div>
-      <div class="ldesc">find the market · live listings ↗</div>
-    </a>
-    <a class="lcell" href="https://bringatrailer.com/ferrari/" target="_blank" rel="noopener" style="display:block;border:1px solid var(--line);background:var(--paper);padding:26px 24px;text-decoration:none">
-      <div style="font-size:10px;letter-spacing:2.5px;text-transform:uppercase;color:var(--brass)">The Road · The Market</div>
-      <div class="lfig" id="lRoadPrice">$40,000,000</div>
-      <div class="lname" id="lRoadName">Ferrari's finest</div>
-      <div class="ldesc">live Ferraris at auction ↗</div>
-    </a>
-    <a class="lcell" href="https://www.fraseryachts.com/en/yachts-for-sale" target="_blank" rel="noopener" style="display:block;border:1px solid var(--line);background:var(--paper);padding:26px 24px;text-decoration:none">
-      <div style="font-size:10px;letter-spacing:2.5px;text-transform:uppercase;color:var(--brass)">The Sea · The Longest</div>
-      <div class="lunit"><span id="lSeaLength">591</span><span class="u"> ft</span></div>
-      <div class="lname" id="lSeaName">Azzam's league</div>
-      <div class="ldesc">superyachts for sale ↗</div>
-    </a>
-  </div>
-</div>
-<div style="max-width:1240px;margin:14px auto 0;padding:0 24px" class="lsrc">Figures compiled live from sources including <b>MostExpensiveWatches</b> and <b>Wikipedia</b>; every department carries its full source line.</div>
-
-<!-- DEPARTMENTS -->
-<div class="dept">
-  <div class="dh"><h2>The Departments</h2><div class="note">Curated by the editors of ME</div></div>
-  <div class="dgrid">
-    <a class="cell" href="time.html">
-      <img src="media/img/dep_time.jpg" alt=""/>
-      <div class="tint"></div>
-      <div class="inner"><div class="num">I</div><h3>Time</h3><div class="type">Rare watches, placed by provenance.</div></div>
-      <div class="stat">Enter</div>
-    </a>
-    <a class="cell" href="table.html">
-      <img src="media/img/table_lounge.jpg" alt=""/>
-      <div class="tint"></div>
-      <div class="inner"><div class="num">II</div><h3>The Table</h3><div class="type">Cigars, spirits &amp; cellars.</div></div>
-      <div class="stat">Enter</div>
-    </a>
-    <a class="cell" href="sea.html">
-      <img src="media/img/sea.jpg" alt=""/>
-      <div class="tint"></div>
-      <div class="inner"><div class="num">III</div><h3>The Sea</h3><div class="type">Yachts, for sale &amp; charter.</div></div>
-      <div class="stat">Enter</div>
-    </a>
-    <a class="cell" href="road.html">
-      <img src="media/img/road.jpg" alt=""/>
-      <div class="tint"></div>
-      <div class="inner"><div class="num">IV</div><h3>The Road</h3><div class="type">Motorcars, new &amp; classic.</div></div>
-      <div class="stat">Enter</div>
-    </a>
-    <a class="cell" href="estate.html">
-      <img src="media/img/dep_estate.jpg" alt=""/>
-      <div class="tint"></div>
-      <div class="inner"><div class="num">V</div><h3>Home &amp; Grounds</h3><div class="type">Estates, worldwide.</div></div>
-      <div class="stat">Enter</div>
-    </a>
-    <a class="cell" href="field.html">
-      <img src="media/img/field.jpg" alt=""/>
-      <div class="tint"></div>
-      <div class="inner"><div class="num">VI</div><h3>The Field</h3><div class="type">The sporting life.</div></div>
-      <div class="stat">Enter</div>
-    </a>
-    <a class="cell" href="style.html">
-      <img src="media/img/suit.jpg" alt=""/>
-      <div class="tint"></div>
-      <div class="inner"><div class="num">VII</div><h3>Style</h3><div class="type">Tailoring, jewelry, for him &amp; her.</div></div>
-      <div class="stat">Enter</div>
-    </a>
-    <a class="cell" href="library.html">
-      <img src="media/img/tile_estate2.jpg" alt=""/>
-      <div class="tint"></div>
-      <div class="inner"><div class="num">VIII</div><h3>The Library</h3><div class="type">The concierge, by appointment.</div></div>
-      <div class="stat">Enter</div>
-    </a>
-    <a class="cell" href="art.html">
-      <img src="media/img/art_wave.jpg" alt=""/>
-      <div class="tint"></div>
-      <div class="inner"><div class="num">IX</div><h3>Art</h3><div class="type">Masterworks, provenance &amp; the records.</div></div>
-      <div class="stat">Enter</div>
-    </a>
+<!-- JOURNAL INDEX — asymmetric department grid -->
+<div class="sec wrap">
+  <div class="sh"><h2><span class="no">II.</span>The Departments</h2><div class="note">a journal index</div></div>
+  <div class="index">
+    <a class="ix ix-lead" href="time.html"><div class="im"><img src="media/img/dep_time.jpg" alt=""/></div><div class="sc"></div><div class="bd"><div class="k">I · Time</div><h3>The Rarest Watches, Placed by Provenance</h3><div class="ty">live market · collector notes · auction records</div><div class="go">Enter →</div></div></a>
+    <a class="ix ix-w" href="art.html"><div class="im"><img src="media/img/art_pearl.jpg" alt=""/></div><div class="sc"></div><div class="bd"><div class="k">IX · Art</div><h3>Masterworks &amp; the Records</h3><div class="ty">provenance · the high-water marks</div><div class="go">Enter →</div></div></a>
+    <a class="ix ix-1" href="sea.html"><div class="im"><img src="media/img/sea.jpg" alt=""/></div><div class="sc"></div><div class="bd"><div class="k">III · The Sea</div><h3>Superyachts, Live</h3><div class="ty">for sale &amp; charter</div><div class="go">Enter →</div></div></a>
+    <a class="ix ix-2" href="road.html"><div class="im"><img src="media/img/road.jpg" alt=""/></div><div class="sc"></div><div class="bd"><div class="k">IV · The Road</div><h3>Motorcars</h3><div class="ty">new &amp; classic</div><div class="go">Enter →</div></div></a>
+    <a class="ix ix-3" href="estate.html"><div class="im"><img src="media/img/dep_estate.jpg" alt=""/></div><div class="sc"></div><div class="bd"><div class="k">V · Home &amp; Grounds</div><h3>Estates</h3><div class="ty">worldwide</div><div class="go">Enter →</div></div></a>
+    <a class="ix ix-4" href="table.html"><div class="im"><img src="media/img/table_cigar.jpg" alt=""/></div><div class="sc"></div><div class="bd"><div class="k">II · The Table</div><h3>Cigars &amp; Cellars</h3><div class="ty">spirits · rare</div><div class="go">Enter →</div></div></a>
+    <a class="ix ix-5" href="field.html"><div class="im"><img src="media/img/field.jpg" alt=""/></div><div class="sc"></div><div class="bd"><div class="k">VI · The Field</div><h3>The Sporting Life</h3><div class="ty">shooting · provenance</div><div class="go">Enter →</div></div></a>
+    <a class="ix ix-6" href="style.html"><div class="im"><img src="media/img/suit.jpg" alt=""/></div><div class="sc"></div><div class="bd"><div class="k">VII · Style</div><h3>Tailoring &amp; Jewelry</h3><div class="ty">for him &amp; her</div><div class="go">Enter →</div></div></a>
+    <a class="ix ix-w" href="library.html" style="grid-column:span 5;grid-row:span 2"><div class="im"><img src="media/img/lib_longroom.jpg" alt=""/></div><div class="sc"></div><div class="bd"><div class="k">VIII · The Library</div><h3>The Concierge, by Appointment</h3><div class="ty">write to the librarian</div><div class="go">By invitation →</div></div></a>
   </div>
 </div>
 
 <!-- QUOTE -->
-<div class="quote">
-  <div class="quote-inner">
-    <span class="qmark">”</span>
-    <p>We do not sell the most expensive things. We keep company with them, and place them among people who understand the difference.</p>
-    <div class="sig">The Editors of ME</div>
-  </div>
-</div>
+<div class="quote"><div class="in">
+  <span class="m">”</span>
+  <p>We do not sell the most expensive things. We keep company with them, and place them among people who understand the difference — <b>live, priced, and by provenance</b>.</p>
+  <div class="sg">The Editors of ME</div>
+</div></div>
 
 <!-- FOOTER -->
 <footer>
-  <div class="footer-in">
-    <div class="foot-brand">
-      <div class="me2">M<span class="dot">·</span>E</div>
-      <p>The journal of the world's finest, curated and placed in confidence.</p>
-    </div>
-    <div class="foot-col"><h5>Departments</h5><a href="time.html">Time</a><a href="table.html">The Table</a><a href="sea.html">The Sea</a><a href="road.html">The Road</a><a href="estate.html">Home &amp; Grounds</a><a href="field.html">The Field</a><a href="style.html">Style</a><a href="art.html">Art</a><a href="library.html">The Library</a></div>
-    <div class="foot-col"><h5>The House</h5><a href="library.html">The Library</a><a href="#">How It Works</a><a href="#">Press</a></div>
-    <div class="foot-col"><h5>Correspondence</h5><a href="mailto:me@mostexpensivest.com" style="color:var(--gold)">me@mostexpensivest.com</a></div>
+  <div class="f-in">
+    <div class="fm"><div class="me2">M<span class="dot">·</span>E</div><p>The journal of the world's finest, curated, priced and placed in confidence.</p></div>
+    <div class="fcol"><h5>Departments</h5><a href="time.html">Time</a><a href="table.html">The Table</a><a href="sea.html">The Sea</a><a href="road.html">The Road</a><a href="estate.html">Estates</a><a href="field.html">The Field</a><a href="style.html">Style</a><a href="art.html">Art</a></div>
+    <div class="fcol"><h5>The House</h5><a href="library.html">The Library</a><a href="library.html">How It Works</a><a href="library.html">Press</a><a href="mailto:me@mostexpensivest.com">Correspondence</a></div>
+    <div class="fcol"><h5>Content</h5><a href="index.html">Editorial</a><a href="time.html">Live Market</a><a href="road.html">Records</a><a href="library.html">The Desk</a></div>
   </div>
-  <div class="copyright">
-    <span>© ME · MMXXVI</span>
-    <span>The Most Expensivest</span>
-  </div>
+  <div class="foot-last"><span>© ME · MMXXVI</span><span>The Most Expensivest</span><span>Editorial cover over a live market</span></div>
 </footer>
-<script>
-(function(){
-  function esc(s){var d=document.createElement("div");d.textContent=s==null?"":String(s);return d.innerHTML;}
-  function money(n){if(n==null||isNaN(n))return "";return "$"+Math.round(n).toLocaleString("en-US");}
-  // Time cell: highest-value live listing
-  fetch("https://mostexpensivewatches.net/api/listings/search?limit=1&sort=price-desc").then(function(r){return r.json();}).then(function(d){
-    var it=(d.items||[])[0];
-    if(it){
-      var t=it.title||it.model||"";
-      if(it.brand){var b=it.brand.toLowerCase();var low=t.toLowerCase();if(low.startsWith(b+" "+b))t=t.substring(it.brand.length+1);}
-      var n=document.getElementById("lTimeName"); if(n)n.textContent=esc(t);
-      var p=document.getElementById("lTimePrice"); if(p)p.textContent=money(it.price_usd);
-    }
-  }).catch(function(){});
-  // Road cell: highest hammer from records json
-  fetch("media/road_records.json").then(function(r){return r.json();}).then(function(recs){
-    recs.sort(function(a,b){return (b.price||0)-(a.price||0);});
-    if(recs[0]){
-      var n=document.getElementById("lRoadName"); if(n)n.textContent=esc(recs[0].name);
-      var p=document.getElementById("lRoadPrice"); if(p)p.textContent=money(recs[0].price);
-    }
-  }).catch(function(){});
-  // Art cell: top sale record
-  fetch("media/art_records.json").then(function(r){return r.json();}).then(function(recs){
-    recs.sort(function(a,b){return (b.price||0)-(a.price||0);});
-    if(recs[0]){
-      var n=document.getElementById("lArtName"); if(n)n.textContent=esc(recs[0].name);
-      var p=document.getElementById("lArtPrice"); if(p)p.textContent=money(recs[0].price);
-    }
-  }).catch(function(){});
-  // Sea cell: longest yacht
-  fetch("media/sea_records.json").then(function(r){return r.json();}).then(function(recs){
-    recs.sort(function(a,b){return (b.meters||0)-(a.meters||0);});
-    if(recs[0]){
-      var n=document.getElementById("lSeaName"); if(n)n.textContent=esc(recs[0].name);
-      var p=document.getElementById("lSeaLength"); if(p)p.textContent=Math.round(recs[0].feet).toLocaleString("en-US");
-    }
-  }).catch(function(){});
-  // HERO PLACEMENTS: resolve to current best live listing from the manifest
-  fetch("media/live_listings.json",{cache:"no-store"}).then(function(r){return r.json();}).then(function(d){
-    var heroes=(d&&d.heroes)||{};
-    Object.keys(heroes).forEach(function(key){
-      var list=heroes[key]; if(!list||!list.length)return;
-      var best=list[0]; if(!best||!best.url)return;
-      var a=document.getElementById("fh-"+key);
-      if(a){ a.setAttribute("href",best.url); a.setAttribute("target","_blank"); a.setAttribute("rel","noopener"); }
-      var cta=document.querySelector('[data-hero-cta="'+key+'"]');
-      if(cta&&best.cta){cta.textContent=best.cta;}
-    });
-  }).catch(function(){});
-  // ROTATING HERO CAROUSEL
-  try{
-    var car=document.getElementById("heroCar");
-    var track=document.getElementById("heroTrack");
-    var slides=[].slice.call(track.querySelectorAll(".hslide"));
-    var dotsBox=document.getElementById("heroDots");
-    var idx=0,timer=null,IV=6500;
-    if(slides.length>1){
-      slides.forEach(function(s,i){
-        var d=document.createElement("button");d.className="hdot"+(i===0?" is-active":"");d.setAttribute("aria-label","Slide "+(i+1));
-        d.addEventListener("click",function(){go(i,true);});dotsBox.appendChild(d);
-      });
-      function show(){
-        slides.forEach(function(s,i){s.classList.toggle("is-active",i===idx);});
-        var ds=dotsBox.querySelectorAll(".hdot");
-        ds.forEach(function(d,i){d.classList.toggle("is-active",i===idx);});
-      }
-      function go(n,manual){idx=(n+slides.length)%slides.length;show();if(manual)restart();}
-      function restart(){if(timer)clearInterval(timer);timer=setInterval(function(){go(idx+1,false);},IV);}
-      function next(){go(idx+1,true);}function prev(){go(idx-1,true);}
-      var bP=car.querySelector(".har-prev"),bN=car.querySelector(".har-next");
-      if(bP)bP.addEventListener("click",prev); if(bN)bN.addEventListener("click",next);
-      car.addEventListener("mouseenter",function(){if(timer)clearInterval(timer);});
-      car.addEventListener("mouseleave",restart);
-      restart();show();
-    } else { if(dotsBox)dotsBox.style.display="none"; }
-  }catch(e){}
-})();
-</script>
+
 </body>
 </html>
