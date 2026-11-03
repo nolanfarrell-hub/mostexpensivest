@@ -3,215 +3,91 @@
 <head>
 <meta charset="UTF-8"/>
 <meta name="viewport" content="width=device-width,initial-scale=1"/>
-<title>ME · Time</title>
+<title>ME · Time — Rare Watches, by Provenance</title>
 <meta name="description" content="ME on Time — rare watches, placed by provenance. Live market, collector notes and auction records."/>
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;700&family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;1,400;1,500&family=Inter:wght@300;400;500&display=swap" rel="stylesheet">
-<style>
-:root{--cream:#f4efe4;--paper:#faf6ec;--ink:#1a1814;--ink2:#3e3a30;--muted:#8a8172;--brass:#a58a4b;--brass-dark:#89703f;--line:#e0d6bf;--faint:#c8be9f;--verde:#33503a;--verde-soft:#4a6a52}
-*{margin:0;padding:0;box-sizing:border-box}html{scroll-behavior:smooth}
-body{background:var(--cream);color:var(--ink);font-family:'Inter',sans-serif;-webkit-font-smoothing:antialiased;line-height:1.65}
-a{color:inherit}.top-rule{height:3px;background:var(--ink)}
-.dep-head{text-align:center;padding:50px 24px 30px;border-bottom:1px solid var(--line)}
-.dep-head .back{font-size:11px;letter-spacing:3px;text-transform:uppercase;color:var(--muted);text-decoration:none;display:block;margin-bottom:22px}
-.dep-head .back:hover{color:var(--verde-soft)}
-.dep-head .kat{font-size:11px;letter-spacing:4px;text-transform:uppercase;color:var(--verde-soft);margin-bottom:14px;font-weight:500}
-.dep-head h1{font-family:'Cormorant Garamond',serif;font-weight:500;font-size:clamp(40px,7vw,74px);letter-spacing:-1px}
-.dep-head .deck{max-width:680px;margin:24px auto 0;font-style:italic;font-family:'Cormorant Garamond',serif;font-size:clamp(17px,2.2vw,21px);color:var(--ink2);line-height:1.5}
-.dept{max-width:1100px;margin:0 auto;padding:40px 26px}
-.grid{display:grid;grid-template-columns:repeat(3,1fr);gap:0}
-.card{padding:0;border-right:1px solid var(--line);border-top:1px solid var(--line);background:var(--paper)}
-.card .photo{position:relative;aspect-ratio:3/2;overflow:hidden;border-bottom:1px solid var(--line);background:#141910}
-.card .photo img{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;display:block}
-.card .photo .shade{position:absolute;inset:auto 0 0 0;height:52%;background:linear-gradient(transparent,rgba(12,11,8,.72))}
-.card .photo .kicker{position:absolute;left:20px;bottom:16px;font-size:9px;letter-spacing:3.5px;text-transform:uppercase;color:var(--gold);font-weight:500}
-.card:hover{background:var(--cream)}
-.card:hover .photo img{transform:scale(1.02)}
-.card .cardbody{padding:20px 22px 22px}
-.card .kicker{display:block;font-size:9px;letter-spacing:3.5px;text-transform:uppercase;color:var(--verde-soft);font-weight:500;margin-bottom:10px}
-.card h4{font-family:'Cormorant Garamond',serif;font-weight:600;font-size:23px;line-height:1.18;margin-bottom:8px}
-.card .dek{font-size:13px;color:var(--ink2);line-height:1.55}
-.card .go{margin-top:16px;border-top:1px solid var(--line);padding-top:12px;font-family:'Cormorant Garamond',serif;font-size:16px;font-style:italic;color:var(--brass-dark)}
-.grid .card:nth-child(3n+3){border-right:none}
-.card h4{font-family:'Cormorant Garamond',serif;font-weight:600;font-size:22px;line-height:1.2;margin-bottom:8px}
-.card .who{font-size:11px;letter-spacing:2px;text-transform:uppercase;color:var(--muted);margin-bottom:14px}
-.card .what{font-size:13px;color:var(--ink2);line-height:1.55}
-.card .price{display:block;margin-top:16px;font-family:'Cormorant Garamond',serif;font-size:18px;font-weight:500;color:var(--brass-dark)}
-.card:hover{background:var(--paper)}
-
-/* LIVE MARKET */
-.live{max-width:1100px;margin:64px auto 0;padding:0 30px}
-.live .lh{display:flex;align-items:baseline;justify-content:space-between;border-top:3px solid var(--ink);padding-top:22px;margin-bottom:26px}
-.live .lh h2{font-family:'Space Grotesk',sans-serif;font-size:12px;letter-spacing:3px;text-transform:uppercase;font-weight:600;color:var(--ink)}
-.live .lh .count{font-size:11px;letter-spacing:2px;text-transform:uppercase;color:var(--muted)}
-.live .lh .count b{color:var(--brass-dark);font-weight:600}
-.murl{display:block;margin-top:10px;font-size:10px;letter-spacing:1px;color:var(--brass-dark);text-transform:uppercase}
-.mcard .mprice{font-family:'Space Grotesk',sans-serif;font-weight:700;font-size:19px;color:var(--brass-dark)}
-.mgrid{display:grid;grid-template-columns:repeat(3,1fr);gap:16px}
-.mcard{border:1px solid var(--line);background:var(--paper);overflow:hidden;display:block;text-decoration:none;transition:border-color .2s}
-.mcard:hover{border-color:var(--brass)}
-.mcard .mimg{height:220px;width:100%;background:#eae3d2;position:relative;overflow:hidden}
-.mcard .mimg img{width:100%;height:100%;object-fit:cover;object-position:center;display:block}
-.mcard .minfo{padding:16px 18px}
-.mcard .mname{font-family:'Cormorant Garamond',serif;font-weight:600;font-size:19px;line-height:1.15;margin-bottom:6px;color:var(--ink);display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical;overflow:hidden}
-.mcard .mref{font-size:10.5px;letter-spacing:1.5px;text-transform:uppercase;color:var(--muted);margin-bottom:12px}
-.mcard .msrc{font-size:10px;color:var(--faint);margin-top:8px;letter-spacing:.5px}
-.mload{padding:30px;text-align:center;color:var(--muted);font-size:12px;letter-spacing:2px}
-
-.attrib{max-width:1100px;margin:18px auto 0;padding:0 30px;font-size:10.5px;color:var(--faint);letter-spacing:.5px;line-height:1.6}
-.attrib a{color:var(--brass-dark);text-decoration:none}
-
-/* COLLECTOR'S VERDICT */
-.verdict{max-width:1100px;margin:56px auto 0;padding:0 30px}
-.verdict .vh{display:flex;align-items:baseline;justify-content:space-between;border-top:3px solid var(--ink);padding-top:22px;margin-bottom:24px}
-.verdict .vh h3{font-family:'Space Grotesk',sans-serif;font-size:12px;letter-spacing:3px;text-transform:uppercase;font-weight:600;color:var(--ink)}
-.verdict .vh .vnote{font-size:11px;letter-spacing:2px;text-transform:uppercase;color:var(--muted)}
-.vgrid{display:grid;grid-template-columns:repeat(3,1fr);gap:16px}
-.vcard{border:1px solid var(--line);background:var(--paper);padding:24px 26px}
-.vcard .vname{font-family:'Cormorant Garamond',serif;font-weight:600;font-size:20px;margin-bottom:12px;line-height:1.2}
-.vcard .vverdict{font-family:'Cormorant Garamond',serif;font-style:italic;font-size:15px;color:var(--ink2);line-height:1.45;min-height:66px}
-.vcard .vchips{display:flex;gap:6px;margin-top:18px}
-.vcard .vchip{flex:1;border:1px solid var(--line);background:var(--cream);padding:8px 6px;text-align:center;font-size:9px;letter-spacing:1px;text-transform:uppercase;color:var(--muted);line-height:1.4}
-.vcard .vchip b{display:block;font-family:'Space Grotesk',sans-serif;font-size:15px;color:var(--brass-dark);margin-top:2px}
-@media(max-width:900px){.vgrid{grid-template-columns:1fr 1fr}}
-@media(max-width:560px){.vgrid{grid-template-columns:1fr}}
-
-/* AUCTION RECORDS */
-.records{max-width:1100px;margin:56px auto 0;padding:0 30px}
-.records .rh{display:flex;align-items:baseline;justify-content:space-between;border-top:3px solid var(--ink);padding-top:22px;margin-bottom:4px}
-.records .rh h3{font-family:'Space Grotesk',sans-serif;font-size:12px;letter-spacing:3px;text-transform:uppercase;font-weight:600;color:var(--ink)}
-.records .rh .rnote{font-size:11px;letter-spacing:2px;text-transform:uppercase;color:var(--muted)}
-.rtable{border-top:1px solid var(--line)}
-a.rrow{text-decoration:none;display:grid;grid-template-columns:1fr .7fr .8fr;gap:16px;padding:15px 0;border-bottom:1px solid var(--line);align-items:baseline;transition:background .15s}
-a.rrow:hover{background:var(--paper2)}
-.rdesc{font-family:'Cormorant Garamond',serif;font-size:18px;font-weight:500;line-height:1.3;color:var(--ink)}
-.rdesc .rmodel{color:var(--ink2)}
-.rdesc .rref{font-size:11px;letter-spacing:1.5px;color:var(--muted);text-transform:uppercase;margin-left:6px}
-.rdate{font-size:12px;color:var(--muted)}
-.rprice{font-family:'Space Grotesk',sans-serif;font-weight:700;font-size:17px;color:var(--brass-dark);text-align:right}
-@media(max-width:640px){a.rrow{grid-template-columns:1fr .8fr}.rdate{display:none}}
-
-.consult{max-width:1100px;margin:0 auto;padding:60px 30px 8px;display:flex;align-items:center;justify-content:space-between;gap:26px;flex-wrap:wrap;border-top:1px solid var(--line)}
-.consult h4{font-family:'Cormorant Garamond',serif;font-weight:600;font-size:24px;margin-bottom:6px}
-.consult p{font-size:13px;color:var(--ink2);max-width:640px}
-.consult .cta a{font-size:11px;letter-spacing:3px;text-transform:uppercase;text-decoration:none;color:var(--verde-soft);font-weight:600;border-bottom:1px solid var(--verde-soft);padding-bottom:4px;white-space:nowrap}
-.bme{font-family:'Space Grotesk',sans-serif;font-weight:700;font-size:22px;letter-spacing:1px;color:var(--ink);display:inline-flex;align-items:baseline;vertical-align:middle}.bme .bd{color:var(--brass);font-weight:500;font-size:.55em;margin:0 2px}
-.backlink{max-width:1100px;margin:0 auto;padding:10px 30px 0}
-.backlink a{font-size:11px;letter-spacing:3px;text-transform:uppercase;text-decoration:none;color:var(--verde-soft)}
-.copyright{max-width:1100px;margin:0 auto;padding:40px 30px;text-align:center;font-size:11px;color:var(--faint);letter-spacing:1px;border-top:1px solid var(--line)}
-@media(max-width:900px){.grid{grid-template-columns:1fr 1fr}.grid .card:nth-child(3n+3){border-right:1px solid var(--line)}.grid .card:nth-child(odd){border-right:none}.grid{grid-template-columns:1fr 1fr}.mgrid{grid-template-columns:1fr 1fr}}
-@media(max-width:560px){.grid{grid-template-columns:1fr}.grid .card,.grid .card:nth-child(3n+3){border-right:none}.mgrid{grid-template-columns:1fr}}
-
-/* ===== DEPARTMENT HERO ===== */
-.dep-hero{position:relative;height:clamp(240px,34vw,380px);overflow:hidden;border-bottom:1px solid var(--line)}
-.dep-hero img{width:100%;height:100%;object-fit:cover;display:block}
-.dep-hero::after{content:"";position:absolute;left:0;right:0;bottom:0;height:100%;background:linear-gradient(to right,rgba(12,12,14,.9) 0%,rgba(12,12,14,.62) 40%,rgba(12,12,14,0) 65%);z-index:1}
-.dep-hero .dhcap{position:absolute;left:max(24px,calc((100vw - 1100px)/2));bottom:26px;max-width:480px;color:var(--cream);z-index:2}
-.dep-hero .dhcap .dkat{font-size:10px;letter-spacing:3.5px;text-transform:uppercase;color:var(--gold);margin-bottom:6px}
-.dep-hero .dhcap h2{font-family:'Cormorant Garamond',serif;font-weight:500;font-size:clamp(30px,4.4vw,50px);line-height:1.05;color:#fff}
-.dep-hero .dhcap p{font-family:'Cormorant Garamond',serif;font-style:italic;font-size:16px;color:#e9e2cf;margin-top:8px}
-@media(max-width:900px){.dep-hero .dhcap{left:26px;bottom:20px}}
-
-
-
-/* designed tile plates */
-.card{padding:0;border-right:1px solid var(--line);border-top:1px solid var(--line);display:block;background:var(--cream)}
-.card .mark{position:relative;height:186px;overflow:hidden;border-bottom:1px solid var(--line);background:radial-gradient(130% 150% at 18% 8%, #23261d 0%, #141910 48%, #233726 100%)}
-.card .mark svg{position:absolute;inset:0;margin:auto;width:74%;max-height:80%;height:auto}
-.card .plate{display:flex;align-items:baseline;gap:9px;padding:16px 20px 0;font-size:10px;letter-spacing:3px;text-transform:uppercase;color:var(--faint)}
-.card .plate .pnum{color:var(--verde-soft);font-weight:500}
-.card .txt{padding:12px 20px 22px}
-.card .txt h4{font-family:'Cormorant Garamond',serif;font-weight:600;font-size:22px;line-height:1.2;margin-bottom:6px}
-.card .txt .who{font-size:11px;letter-spacing:2px;text-transform:uppercase;color:var(--muted);margin-bottom:11px}
-.card .txt .what{font-size:13px;color:var(--ink2);line-height:1.55}
-.card .price{display:inline-block;margin-top:15px;font-family:'Cormorant Garamond',serif;font-size:18px;font-weight:500;color:var(--brass-dark);border-bottom:1px solid var(--brass-dark);padding-bottom:2px}
-.card:hover{background:var(--paper)}
-.card:hover .mark{filter:brightness(1.08)}
-.grid .card:nth-child(3n+3){border-right:none}
-.mark .mline{stroke:var(--brass);stroke-width:2;fill:none;stroke-linecap:round;stroke-linejoin:round}
-.mark .mgold{stroke:var(--gold);stroke-width:1.5;fill:none;stroke-linecap:round}
-.mark .mfill{stroke:var(--brass);stroke-width:2;fill:rgba(200,169,92,.07);stroke-linecap:round}
-
-</style>
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;1,400;1,500&family=Space+Grotesk:wght@400;500;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/me.css">
 </head>
 <body>
-<div class="top-rule"></div>
-<div class="dep-head">
-  <a class="back" href="index.html"><span class="bme">M<span class="bd">·</span>E</span></a>
-  <div class="kat">Department I · Horology</div>
-  <h1>Time</h1>
-  <div class="deck">The rarest watches on earth, placed by provenance. Live from the market, edited for the collector.</div>
-</div>
-
-<div class="dep-hero">
-  <img src="media/img/dep_time.jpg" alt="Time"/>
-  <div class="dhcap">
-    <div class="dkat">Department I · Horology</div>
-    <h2>Time</h2>
-    <p>Rare watches, placed by provenance.</p>
+<header class="hd"><div class="hd-in">
+  <a class="mast" href="index.html">M<span class="dot">·</span>E<span class="ed">Journal of the World's Finest</span></a>
+  <nav class="hd-nav">
+    <a href="time.html">Time</a><a href="table.html">The Table</a><a href="sea.html">The Sea</a><a href="road.html">The Road</a>
+    <a href="estate.html">Estates</a><a href="field.html">The Field</a><a href="style.html">Style</a><a href="art.html">Art</a>
+  </nav>
+  <div class="hd-util">
+    <a href="library.html">The Library</a>
+    <a href="mailto:me@mostexpensivest.com">Correspondence</a>
+    <span class="om"><i></i><i></i><i></i></span>
   </div>
-</div>
-<div class="dept">
-  <div class="grid">
-    <div class="card">
-      <div class="cardbody"><span class="kicker">I &middot; The Dressed Dial</span><h4>The Dressed-Only Dial</h4><p class="dek">A hand-wound dress watch with no numerals, no seconds, a dial that only shows its true colour in direct light. Worn once a year; remembered the other three hundred and sixty-four.</p><div class="go">Indicated on request</div></div>
-    </div>
-
-    <div class="card">
-      <div class="photo"><img src="media/img/dep_time.jpg" alt="The Steel That Isn't"/><div class="shade"></div><span class="kicker">The Steel That Isn't</span></div>
-      <div class="cardbody"><span class="kicker">II &middot; The Steel That Isn't</span><p class="dek">Sports steel that reads as a dress piece, trusted not for what it says but for whose wrist it has been on.</p><div class="go">Waitlist, quietly</div></div>
-    </div>
-
-    <div class="card">
-      <div class="cardbody"><span class="kicker">III &middot; The German Vault</span><h4>The German Vault</h4><p class="dek">Perpetual calendar, chronograph, moon phase, finished only in the morning light of a Saxon town. Time, rebuilt the slow way.</p><div class="go">On request</div></div>
-    </div>
-
-    <div class="card">
-      <div class="cardbody"><span class="kicker">IV &middot; The Original Pilot</span><h4>The Original Pilot</h4><p class="dek">The first watch built to be worn in the air — square and gold, worn by the man who taught the world to fly.</p><div class="go">Indicated on request</div></div>
-    </div>
-
-    <div class="card">
-      <div class="cardbody"><span class="kicker">V &middot; The Polite Denial</span><h4>The Polite Denial</h4><p class="dek">Built to survive a polo mallet, flipped to hide a second face — the only watch that doubles as a courteous, mechanical refusal.</p><div class="go">Indicated on request</div></div>
-    </div>
-
-    <div class="card">
-      <div class="cardbody"><span class="kicker">VI &middot; The Bench, One Man</span><h4>The Bench, One Man</h4><p class="dek">A watch assembled entirely by a single maker on a single bench, no two alike. The most expensivest thing in the room is the patience.</p><div class="go">Truly on request</div></div>
+</div></header>
+<div class="masthead"><div class="row">
+  <div class="mh-l">Issue No. 001 · Horology</div>
+  <div class="mh-c"><div class="claim">The rarest watches on earth are not bought — they are <b>placed</b>.</div></div>
+  <div class="mh-r">Live from the market</div>
+</div></div>
+<section class="dhero">
+  <img src="media/img/dep_time.jpg" alt="A fine dress watch"/>
+  <div class="cap">
+    <div class="kicker"><span class="r"></span>Department I · Horology</div>
+    <h1>Time</h1>
+    <div class="lede">Rare watches, placed by provenance. Live from the market, edited for the collector.</div>
+  </div>
+</section>
+<div class="dwrap">
+  <div class="dsec">
+    <div class="dsh"><h2><span class="no">I.</span>By the Collector</h2><div class="note">the pieces the desk keeps note of</div></div>
+    <div class="dcards">
+      <div class="dcard"><div class="k">I · The Dressed Dial</div><h3>The Dressed-Only Dial</h3><p>A hand-wound dress watch with no numerals, no seconds, a dial that only shows its true colour in direct light. Worn once a year; remembered the other three hundred and sixty-four.</p><div class="go">Indicated on request</div></div>
+      <div class="dcard"><div class="k">II · The Steel That Isn't</div><h3>The Steel That Isn't</h3><p>Sports steel that reads as a dress piece — trusted not for what it says but for whose wrist it has been on.</p><div class="go">Waitlist, quietly</div></div>
+      <div class="dcard"><div class="k">III · The German Vault</div><h3>The German Vault</h3><p>Perpetual calendar, chronograph, moon phase — finished only in the morning light of a Saxon town. Time, rebuilt the slow way.</p><div class="go">On request</div></div>
+      <div class="dcard"><div class="k">IV · The Original Pilot</div><h3>The Original Pilot</h3><p>The first watch built to be worn in the air — square and gold, worn by the man who taught the world to fly.</p><div class="go">Indicated on request</div></div>
+      <div class="dcard"><div class="k">V · The Polite Denial</div><h3>The Polite Denial</h3><p>Built to survive a polo mallet, flipped to hide a second face — the only watch that doubles as a courteous, mechanical refusal.</p><div class="go">Indicated on request</div></div>
+      <div class="dcard"><div class="k">VI · The Bench, One Man</div><h3>The Bench, One Man</h3><p>A watch assembled entirely by a single maker on a single bench, no two alike. The most expensivest thing in the room is the patience.</p><div class="go">Truly on request</div></div>
     </div>
   </div>
 </div>
-
-<!-- LIVE MARKET -->
-<div class="live">
-  <div class="lh"><h2>On the Market</h2><div class="count">The finest listed now · <span id="mcount">reading the market…</span></div></div>
-  <div id="mgrid" class="mgrid"><div class="mload">…</div></div>
+<div class="dwrap">
+  <div class="market dsec">
+    <div class="mh"><h2><span class="no">II.</span>On the Market — Live</h2><div class="count">the finest listed now · <span id="mcount">reading the market…</span></div></div>
+    <div id="mgrid" class="mgrid"><div class="mload">…</div></div>
+  </div>
+  <div class="attrib" style="margin-top:12px">Market data and imagery supplied live by <a href="https://mostexpensivewatches.net" target="_blank" rel="noopener">MostExpensiveWatches</a>. Prices shown are the listing asking price; ME arranges placement by introduction and confirms provenance before any meeting.</div>
 </div>
-<div class="attrib">Market data and imagery supplied live by <a href="https://mostexpensivewatches.net" target="_blank" rel="noopener">MostExpensiveWatches</a> · subject to their data license. Prices shown are the listing asking price; ME arranges placement by introduction and confirms provenance before any meeting.</div>
-
-<div class="consult">
-  <div><h4>Private Consultation</h4><p>Write to us and be placed with the right maker, in the right city, at the right hour. By appointment, in strictest confidence.</p></div>
-  <div class="cta"><a href="mailto:me@mostexpensivest.com">Begin the Conversation</a></div>
+<div class="dwrap">
+  <div class="consult">
+    <div><h3>Private Consultation</h3><p>Write to us and be placed with the right maker, in the right city, at the right hour. By appointment, in strictest confidence.</p></div>
+    <div class="cta"><a href="mailto:me@mostexpensivest.com">Begin the Conversation</a></div>
+  </div>
+  <div class="backlink"><a href="index.html">← All Departments</a></div>
 </div>
-<div class="backlink"><a href="index.html">← All Departments</a></div>
-<div class="copyright">© The Most Expensivest, MMXXVI</div>
-
+<footer>
+  <div class="f-in">
+    <div class="fm"><div class="me2">M<span class="dot">·</span>E</div><p>The journal of the world's finest, curated, priced and placed in confidence.</p></div>
+    <div class="fcol"><h5>Departments</h5><a href="time.html">Time</a><a href="table.html">The Table</a><a href="sea.html">The Sea</a><a href="road.html">The Road</a><a href="estate.html">Estates</a><a href="field.html">The Field</a><a href="style.html">Style</a><a href="art.html">Art</a></div>
+    <div class="fcol"><h5>The House</h5><a href="library.html">The Library</a><a href="library.html">How It Works</a><a href="library.html">Press</a><a href="mailto:me@mostexpensivest.com">Correspondence</a></div>
+    <div class="fcol"><h5>Content</h5><a href="index.html">Editorial</a><a href="time.html">Live Market</a><a href="road.html">Records</a><a href="library.html">The Desk</a></div>
+  </div>
+  <div class="foot-last"><span>© ME · MMXXVI</span><span>The Most Expensivest</span><span>Department I · Time</span></div>
+</footer>
 <script>
 (function(){
-  var API="https://mostexpensivewatches.net/api/listings/search?limit=12&sort=price-desc";
+  var API="https://mostexpensivewatches.net/api/listings/search?limit=9&sort=price-desc";
   function esc(s){var d=document.createElement("div");d.textContent=s==null?"":String(s);return d.innerHTML;}
   function money(n){if(n==null||isNaN(n))return "on request";return "$"+Math.round(n).toLocaleString("en-US");}
   function card(it){
     var img=it.image_url||"";
-    var imgHtml=img?'<div class="mimg"><img src="'+esc(img)+'" alt=""/></div>':'<div class="mimg"></div>';
+    var imgHtml=img?'<div class="im"><img src="'+esc(img)+'" alt=""/></div>':"" ;
     var ref=[it.brand,it.reference].filter(Boolean).join(" · ");
     var t=it.title||it.model||"Piece";
-    // de-duplicate a brand prefix that the API sometimes repeats (e.g. "Rolex Rolex Daytona")
     if(it.brand){var b=it.brand.toLowerCase();var low=t.toLowerCase();if(low.startsWith(b+" "+b)){t=t.substring(it.brand.length+1);}}
-    return '<a class="mcard" href="'+esc(it.buy_url||it.detail_url||it.url||"#")+'" target="_blank" rel="noopener">'+imgHtml+
-      '<div class="minfo"><div class="mname">'+esc(t)+'</div>'+
-      (ref?'<div class="mref">'+esc(ref)+'</div>':'')+
-      '<div class="mprice">'+money(it.price_usd)+'</div>'+
-      '<div class="msrc">listed at '+esc(it.merchant_name||"the market")+' · '+esc(it.in_stock!=false?"buy":"enquire")+'</div></div></a>';
+    var url=esc(it.buy_url||it.detail_url||it.url||"#");
+    return '<a class="mcard" href="'+url+'" target="_blank" rel="noopener">'+imgHtml+
+      '<div class="bd"><div class="n">'+esc(t)+'</div>'+(ref?'<div class="ref">'+esc(ref)+'</div>':'')+
+      '<div class="p">'+money(it.price_usd)+'</div>'+
+      '<div class="sr">'+esc(it.merchant_name||"the market")+' · '+esc(it.in_stock!=false?"buy":"enquire")+'</div></div></a>';
   }
   fetch(API).then(function(r){return r.json();}).then(function(d){
     var items=(d.items||d.result||[]).slice(0,9);
@@ -222,48 +98,42 @@ a.rrow:hover{background:var(--paper2)}
     document.getElementById("mgrid").innerHTML='<div class="mload">The live market is momentarily unavailable.</div>';
     document.getElementById("mcount").innerHTML="please refresh";
   });
-
-  // COLLECTOR'S VERDICT - editorial data (reviews)
-  var RV="https://mostexpensivewatches.net/api/reviews?limit=6";
-  fetch(RV).then(function(r){return r.json();}).then(function(d){
+  fetch("https://mostexpensivewatches.net/api/reviews?limit=6").then(function(r){return r.json();}).then(function(d){
     var items=(d.reviews||d.items||d.result||[]).slice(0,3);
     if(!items.length)return;
-    var blk=document.createElement("div");
-    blk.className="verdict";
-    var h='<div class="vh"><h3>Collector&rsquo;s Verdict</h3><div class="vnote">scored by the market</div></div>';
-    h+='<div class="vgrid">'+items.map(function(v){
+    var wrap=document.querySelector(".market");
+    var blk=document.createElement("div");blk.className="dwrap";
+    var h='<div class="verdict"><div class="dsh"><h2><span class="no">III.</span>Collector&rsquo;s Verdict</h2><div class="note">scored by the market</div></div><div class="vgrid">';
+    h+=items.map(function(v){
       var s=v.score||{};
-      function chip(k,t){var n=s[k];return '<div class="vchip"><span>'+t+'</span><b>'+(n!=null?n+"/10":"-")+'</b></div>';}
+      function chip(k,t){var n=s[k];return '<div><span>'+t+'</span><b>'+(n!=null?n+"/10":"-")+'</b></div>';}
       var care=v.why_collectors_care||"";
-      return '<div class="vcard"><div class="vname">'+esc(v.brand)+' '+esc(v.model)+'</div>'+
-        '<div class="vverdict">'+esc(care?care.split(".")[0]+".":(v.verdict||"").replace(/\s+$/,""))+'</div>'+
-        '<div class="vchips">'+chip("liquidity","Liquidity")+chip("scarcity","Scarcity")+chip("recognition","Recognition")+'</div></div>';
-    }).join('')+'</div>';
+      return '<div class="vcard"><div class="n">'+esc(v.brand)+' '+esc(v.model)+'</div>'+
+        '<div class="v">'+esc(care?care.split(".")[0]+".":(v.verdict||"").replace(/\s+$/,""))+'</div>'+
+        '<div class="chips">'+chip("liquidity","Liq")+chip("scarcity","Scar")+chip("recognition","Rec")+'</div></div>';
+    }).join('');
+    h+='</div></div>';
     blk.innerHTML=h;
-    var live=document.querySelector(".live");
-    live.parentNode.insertBefore(blk, live.nextSibling);
+    wrap.parentNode.insertBefore(blk,wrap.nextSibling);
   }).catch(function(){});
-
-  // AUCTION RECORDS - hammer prices (editorial "Records")
-  var AU="https://mostexpensivewatches.net/api/auctions?limit=8";
-  fetch(AU).then(function(r){return r.json();}).then(function(d){
-    var lots=(d.auction_lots||d.items||[]).slice(0,4);
+  fetch("https://mostexpensivewatches.net/api/auctions?limit=8").then(function(r){return r.json();}).then(function(d){
+    var lots=(d.auction_lots||d.items||[]).slice(0,5);
     if(!lots.length)return;
-    var blk=document.createElement("div");
-    blk.className="records";
-    var h='<div class="rh"><h3>Records of the Trade</h3><div class="rnote">highest hammer prices on record</div></div>';
-    h+='<div class="rtable">'+lots.map(function(L){
+    var blk=document.createElement("div");blk.className="dwrap";
+    var h='<div class="records"><div class="dsh"><h2><span class="no">IV.</span>Records of the Trade</h2><div class="note">highest hammer prices on record</div></div>';
+    h+=lots.map(function(L){
       var name=esc(L.model||L.title||L.brand||"");
       var ref=L.reference?"<span class='rref'>"+esc(L.reference)+"</span>":"";
       var href=L.url||"#";
       return '<a class="rrow" href="'+esc(href)+'" target="_blank" rel="noopener">'+
-        '<div class="rdesc">'+esc(L.brand||"")+' <span class="rmodel">'+name+'</span> '+ref+'</div>'+
+        '<div class="rdesc">'+esc(L.brand||"")+' '+name+' '+ref+'</div>'+
         '<div class="rdate">'+esc(L.sale_date||"record")+'</div>'+
         '<div class="rprice">'+money(L.hammer_usd)+'</div></a>';
-    }).join('')+'</div>';
+    }).join('');
+    h+='</div>';
     blk.innerHTML=h;
-    var live=document.querySelector(".live");
-    live.parentNode.insertBefore(blk, live.nextSibling);
+    var consult=document.querySelector(".consult");
+    consult.parentNode.insertBefore(blk,consult);
   }).catch(function(){});
 })();
 </script>
