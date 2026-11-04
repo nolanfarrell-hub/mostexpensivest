@@ -1,6 +1,6 @@
 {
- "generated": "2026-11-04T05:27:43.592841",
- "count": 553,
+ "generated": "2026-11-04T06:05:01.332112",
+ "count": 660,
  "departments": {
   "field": [
    {
@@ -11814,7 +11814,7 @@
   "style": [
    {
     "dept": "style",
-    "rank": 1,
+    "rank": 108,
     "source": "www.sothebys.com",
     "title": "Hermès · Mushroom Togo Birkin 25 Gold Hardware, 2023",
     "ask": 30800.0,
@@ -11835,7 +11835,7 @@
    },
    {
     "dept": "style",
-    "rank": 19,
+    "rank": 126,
     "source": "www.sothebys.com",
     "title": "Chanel · Vintage Gold Woven Rope and Metallic Raffia Mini Kelly Gold Hardware, 1997-1999",
     "ask": 9800.0,
@@ -11843,7 +11843,7 @@
     "condition": null,
     "scores": {
      "value": 3.0,
-     "rarity": 3.0,
+     "rarity": 2.9,
      "investment": 3.0
     },
     "link": "https://www.sothebys.com/en/buy/handbags#ChanelVintage_Gold_Woven_Rope_and_Metall",
@@ -11856,7 +11856,7 @@
    },
    {
     "dept": "style",
-    "rank": 20,
+    "rank": 127,
     "source": "www.sothebys.com",
     "title": "Chanel · Vintage Black Quilted Lizard Mini Full Flap Bag Gold Hardware, 1989-1991",
     "ask": 7700.0,
@@ -11864,7 +11864,7 @@
     "condition": null,
     "scores": {
      "value": 3.0,
-     "rarity": 3.0,
+     "rarity": 2.9,
      "investment": 3.0
     },
     "link": "https://www.sothebys.com/en/buy/handbags#ChanelVintage_Black_Quilted_Lizard_Mini_",
@@ -11877,7 +11877,7 @@
    },
    {
     "dept": "style",
-    "rank": 2,
+    "rank": 109,
     "source": "www.sothebys.com",
     "title": "Hermès · Gold Togo Birkin 25 Gold Hardware, 2026",
     "ask": 31000.0,
@@ -11885,7 +11885,7 @@
     "condition": null,
     "scores": {
      "value": 3.0,
-     "rarity": 4.9,
+     "rarity": 5.0,
      "investment": 3.0
     },
     "link": "https://www.sothebys.com/en/buy/handbags#HermèsGold_Togo_Birkin_25_Gold_Hardware_",
@@ -11898,7 +11898,7 @@
    },
    {
     "dept": "style",
-    "rank": 27,
+    "rank": 134,
     "source": "www.sothebys.com",
     "title": "Hermès · Black Sombrero Sellier Kelly 28 Gold Hardware, 2020",
     "ask": 22000.0,
@@ -11906,7 +11906,7 @@
     "condition": null,
     "scores": {
      "value": 3.0,
-     "rarity": 2.5,
+     "rarity": 2.6,
      "investment": 3.0
     },
     "link": "https://www.sothebys.com/en/buy/handbags#HermèsBlack_Sombrero_Sellier_Kelly_28_Go",
@@ -11919,7 +11919,7 @@
    },
    {
     "dept": "style",
-    "rank": 21,
+    "rank": 128,
     "source": "www.sothebys.com",
     "title": "Chanel · Black Sequin Plaid Mini Rectangle Classic Single Flap Bag Ruthenium Hardware, 2019",
     "ask": 5800.0,
@@ -11940,7 +11940,7 @@
    },
    {
     "dept": "style",
-    "rank": 23,
+    "rank": 130,
     "source": "www.sothebys.com",
     "title": "Hermès · Mauve Sylvestre Swift Retourne Kelly 25 Palladium Hardware, 2021",
     "ask": 26000.0,
@@ -11948,7 +11948,7 @@
     "condition": null,
     "scores": {
      "value": 3.0,
-     "rarity": 2.7,
+     "rarity": 2.8,
      "investment": 3.0
     },
     "link": "https://www.sothebys.com/en/buy/handbags#HermèsMauve_Sylvestre_Swift_Retourne_Kel",
@@ -11961,7 +11961,7 @@
    },
    {
     "dept": "style",
-    "rank": 3,
+    "rank": 110,
     "source": "www.sothebys.com",
     "title": "Chanel · Rose Embossed Crocodile and Calfskin Vanity Case with Chain Gold Hardware, 2026",
     "ask": 7100.0,
@@ -11969,7 +11969,7 @@
     "condition": null,
     "scores": {
      "value": 3.0,
-     "rarity": 4.8,
+     "rarity": 4.9,
      "investment": 3.0
     },
     "link": "https://www.sothebys.com/en/buy/handbags#ChanelRose_Embossed_Crocodile_and_Calfsk",
@@ -11982,7 +11982,7 @@
    },
    {
     "dept": "style",
-    "rank": 4,
+    "rank": 111,
     "source": "www.sothebys.com",
     "title": "Chanel · Bordeaux Burgundy Quilted Suede Neo Cabas Shopping Tote Gold Hardware, 2026",
     "ask": 13000.0,
@@ -11990,7 +11990,7 @@
     "condition": null,
     "scores": {
      "value": 3.0,
-     "rarity": 4.7,
+     "rarity": 4.9,
      "investment": 3.0
     },
     "link": "https://www.sothebys.com/en/buy/handbags#ChanelBordeaux_Burgundy_Quilted_Suede_Ne",
@@ -12003,7 +12003,7 @@
    },
    {
     "dept": "style",
-    "rank": 5,
+    "rank": 112,
     "source": "www.sothebys.com",
     "title": "Hermès · Alezan Epsom Sellier Kelly 28 Gold Hardware, 2021",
     "ask": 23500.0,
@@ -12011,7 +12011,7 @@
     "condition": null,
     "scores": {
      "value": 3.0,
-     "rarity": 4.5,
+     "rarity": 4.9,
      "investment": 3.0
     },
     "link": "https://www.sothebys.com/en/buy/handbags#HermèsAlezan_Epsom_Sellier_Kelly_28_Gold",
@@ -12024,7 +12024,7 @@
    },
    {
     "dept": "style",
-    "rank": 22,
+    "rank": 129,
     "source": "www.sothebys.com",
     "title": "Chanel · Black Crocodile Embossed Calfskin Chanel Small Cerf Executive Shopper Tote Gold Hardware, 2026",
     "ask": 11840.0,
@@ -12045,7 +12045,7 @@
    },
    {
     "dept": "style",
-    "rank": 6,
+    "rank": 113,
     "source": "www.sothebys.com",
     "title": "Hermès · Beige Marfa Togo Birkin 25 Gold Hardware, 2024",
     "ask": 31500.0,
@@ -12053,7 +12053,7 @@
     "condition": null,
     "scores": {
      "value": 3.0,
-     "rarity": 4.4,
+     "rarity": 4.9,
      "investment": 3.0
     },
     "link": "https://www.sothebys.com/en/buy/handbags#HermèsBeige_Marfa_Togo_Birkin_25_Gold_Ha",
@@ -12066,7 +12066,7 @@
    },
    {
     "dept": "style",
-    "rank": 25,
+    "rank": 131,
     "source": "www.sothebys.com",
     "title": "Chanel · Pink Quilted Tweed Boucle Mini Rectangle Classic Single Flap Bag Gold Hardware, 2019",
     "ask": 6200.0,
@@ -12074,7 +12074,7 @@
     "condition": null,
     "scores": {
      "value": 3.0,
-     "rarity": 2.6,
+     "rarity": 2.8,
      "investment": 3.0
     },
     "link": "https://www.sothebys.com/en/buy/handbags#ChanelPink_Quilted_Tweed_Boucle_Mini_Rec",
@@ -12087,7 +12087,7 @@
    },
    {
     "dept": "style",
-    "rank": 7,
+    "rank": 114,
     "source": "www.sothebys.com",
     "title": "Chanel · Burgundy and Black Quilted Caviar Medium CC Filigree Vanity Case Aged Gold Hardware, 2019",
     "ask": 4000.0,
@@ -12095,7 +12095,7 @@
     "condition": null,
     "scores": {
      "value": 3.0,
-     "rarity": 4.3,
+     "rarity": 4.8,
      "investment": 3.0
     },
     "link": "https://www.sothebys.com/en/buy/handbags#ChanelBurgundy_and_Black_Quilted_Caviar_",
@@ -12108,7 +12108,7 @@
    },
    {
     "dept": "style",
-    "rank": 8,
+    "rank": 115,
     "source": "www.sothebys.com",
     "title": "Hermès · Vintage Black Box Calf and Toile Lakis Kelly 40 Palladium Hardware, 2004",
     "ask": 29500.0,
@@ -12116,7 +12116,7 @@
     "condition": null,
     "scores": {
      "value": 3.0,
-     "rarity": 4.2,
+     "rarity": 4.8,
      "investment": 3.0
     },
     "link": "https://www.sothebys.com/en/buy/handbags#HermèsVintage_Black_Box_Calf_and_Toile_L",
@@ -12129,7 +12129,7 @@
    },
    {
     "dept": "style",
-    "rank": 9,
+    "rank": 116,
     "source": "www.sothebys.com",
     "title": "Hermès · Etoupe Evercolor Shoulder Birkin 29 Gold Hardware, 2025",
     "ask": 32000.0,
@@ -12137,7 +12137,7 @@
     "condition": null,
     "scores": {
      "value": 3.0,
-     "rarity": 4.1,
+     "rarity": 4.8,
      "investment": 3.0
     },
     "link": "https://www.sothebys.com/en/buy/handbags#HermèsEtoupe_Evercolor_Shoulder_Birkin_2",
@@ -12150,7 +12150,7 @@
    },
    {
     "dept": "style",
-    "rank": 10,
+    "rank": 117,
     "source": "www.sothebys.com",
     "title": "Chanel · Ecru Canvas and Black Calfskin Small CC Shopping Tote Gold Hardware, 2026",
     "ask": 6200.0,
@@ -12158,7 +12158,7 @@
     "condition": null,
     "scores": {
      "value": 3.0,
-     "rarity": 4.0,
+     "rarity": 4.8,
      "investment": 3.0
     },
     "link": "https://www.sothebys.com/en/buy/handbags#ChanelEcru_Canvas_and_Black_Calfskin_Sma",
@@ -12171,7 +12171,7 @@
    },
    {
     "dept": "style",
-    "rank": 11,
+    "rank": 118,
     "source": "www.sothebys.com",
     "title": "Chanel · Brown, Black, and White Leopard Tweed Métiers D’Art Souplissimo Maxi 38 Flap Bag Gold Hardware, 2026",
     "ask": 14120.0,
@@ -12179,7 +12179,7 @@
     "condition": null,
     "scores": {
      "value": 3.0,
-     "rarity": 3.9,
+     "rarity": 4.7,
      "investment": 3.0
     },
     "link": "https://www.sothebys.com/en/buy/handbags#ChanelBrown_Black_and_White_Leopard_Twee",
@@ -12192,7 +12192,7 @@
    },
    {
     "dept": "style",
-    "rank": 30,
+    "rank": 137,
     "source": "www.sothebys.com",
     "title": "Hermès · Bleu Brighton Shiny Porosus Crocodile Sellier Kelly 35 Palladium Hardware, 2009",
     "ask": 34000.0,
@@ -12200,7 +12200,7 @@
     "condition": null,
     "scores": {
      "value": 3.0,
-     "rarity": 2.4,
+     "rarity": 2.5,
      "investment": 3.0
     },
     "link": "https://www.sothebys.com/en/buy/handbags#HermèsBleu_Brighton_Shiny_Porosus_Crocod",
@@ -12213,7 +12213,7 @@
    },
    {
     "dept": "style",
-    "rank": 31,
+    "rank": 138,
     "source": "www.sothebys.com",
     "title": "Hermès · Bleu de Prusse Togo and Swift Arcon Palladium Hardware, 2024",
     "ask": 5900.0,
@@ -12221,7 +12221,7 @@
     "condition": null,
     "scores": {
      "value": 3.0,
-     "rarity": 2.4,
+     "rarity": 2.5,
      "investment": 3.0
     },
     "link": "https://www.sothebys.com/en/buy/handbags#HermèsBleu_de_Prusse_Togo_and_Swift_Arco",
@@ -12234,7 +12234,7 @@
    },
    {
     "dept": "style",
-    "rank": 12,
+    "rank": 119,
     "source": "www.sothebys.com",
     "title": "Hermès · Limited Edition Dore Chèvre Chamkilight Metallic Mini Kelly II 20 Permabrass Hardware, 2025",
     "ask": 44500.0,
@@ -12242,7 +12242,7 @@
     "condition": null,
     "scores": {
      "value": 3.0,
-     "rarity": 3.8,
+     "rarity": 4.7,
      "investment": 3.0
     },
     "link": "https://www.sothebys.com/en/buy/handbags#HermèsLimited_Edition_Dore_Chèvre_Chamki",
@@ -12255,7 +12255,7 @@
    },
    {
     "dept": "style",
-    "rank": 13,
+    "rank": 120,
     "source": "www.sothebys.com",
     "title": "Hermès · White Clemence JPG Shoulder Kelly 42 Palladium Hardware, 2009",
     "ask": 14000.0,
@@ -12263,7 +12263,7 @@
     "condition": null,
     "scores": {
      "value": 3.0,
-     "rarity": 3.6,
+     "rarity": 4.7,
      "investment": 3.0
     },
     "link": "https://www.sothebys.com/en/buy/handbags#HermèsWhite_Clemence_JPG_Shoulder_Kelly_",
@@ -12276,7 +12276,7 @@
    },
    {
     "dept": "style",
-    "rank": 28,
+    "rank": 135,
     "source": "www.sothebys.com",
     "title": "Hermès · Black Togo and Varanus Niloticus Lizard Touch Retourne Kelly 25 Gold Hardware, 2021",
     "ask": 32800.0,
@@ -12284,7 +12284,7 @@
     "condition": null,
     "scores": {
      "value": 3.0,
-     "rarity": 2.5,
+     "rarity": 2.6,
      "investment": 3.0
     },
     "link": "https://www.sothebys.com/en/buy/handbags#HermèsBlack_Togo_and_Varanus_Niloticus_L",
@@ -12297,7 +12297,7 @@
    },
    {
     "dept": "style",
-    "rank": 24,
+    "rank": 132,
     "source": "www.sothebys.com",
     "title": "Hermès · Mauve Sylvestre Epsom Kelly-To-Go Wallet Palladium Hardware, 2026",
     "ask": 7500.0,
@@ -12305,7 +12305,7 @@
     "condition": null,
     "scores": {
      "value": 3.0,
-     "rarity": 2.7,
+     "rarity": 2.8,
      "investment": 3.0
     },
     "link": "https://www.sothebys.com/en/buy/handbags#HermèsMauve_Sylvestre_Epsom_Kelly_To_Go_",
@@ -12318,7 +12318,7 @@
    },
    {
     "dept": "style",
-    "rank": 32,
+    "rank": 139,
     "source": "www.sothebys.com",
     "title": "Hermès · Bleu Lin Togo Birkin 30 Palladium Hardware, 2012",
     "ask": 19000.0,
@@ -12326,7 +12326,7 @@
     "condition": null,
     "scores": {
      "value": 3.0,
-     "rarity": 2.4,
+     "rarity": 2.5,
      "investment": 3.0
     },
     "link": "https://www.sothebys.com/en/buy/handbags#HermèsBleu_Lin_Togo_Birkin_30_Palladium_",
@@ -12339,7 +12339,7 @@
    },
    {
     "dept": "style",
-    "rank": 14,
+    "rank": 121,
     "source": "www.sothebys.com",
     "title": "Chanel, Matthieu Blazy · Dark Khaki Calfskin Metiers d'Art Maxi 38 Flap Bag Gold Hardware, 2026",
     "ask": 16390.0,
@@ -12347,7 +12347,7 @@
     "condition": null,
     "scores": {
      "value": 3.0,
-     "rarity": 3.5,
+     "rarity": 4.6,
      "investment": 3.0
     },
     "link": "https://www.sothebys.com/en/buy/handbags#Chanel_Matthieu_BlazyDark_Khaki_Calfskin",
@@ -12360,7 +12360,7 @@
    },
    {
     "dept": "style",
-    "rank": 29,
+    "rank": 136,
     "source": "www.sothebys.com",
     "title": "Hermès · Black Shiny Porosus Crocodile Birkin 35 Gold Hardware, 2013",
     "ask": 44900.0,
@@ -12368,7 +12368,7 @@
     "condition": null,
     "scores": {
      "value": 3.0,
-     "rarity": 2.5,
+     "rarity": 2.6,
      "investment": 3.0
     },
     "link": "https://www.sothebys.com/en/buy/handbags#HermèsBlack_Shiny_Porosus_Crocodile_Birk",
@@ -12381,7 +12381,7 @@
    },
    {
     "dept": "style",
-    "rank": 26,
+    "rank": 133,
     "source": "www.sothebys.com",
     "title": "Chanel · Pink and Black Plexiglass and Leather Boy Brick Flap Bag Silver Hardware, 2014",
     "ask": 4400.0,
@@ -12389,7 +12389,7 @@
     "condition": null,
     "scores": {
      "value": 3.0,
-     "rarity": 2.6,
+     "rarity": 2.8,
      "investment": 3.0
     },
     "link": "https://www.sothebys.com/en/buy/handbags#ChanelPink_and_Black_Plexiglass_and_Leat",
@@ -12402,7 +12402,7 @@
    },
    {
     "dept": "style",
-    "rank": 15,
+    "rank": 122,
     "source": "www.sothebys.com",
     "title": "Goyard · Limited Edition Fuschia Goyardine Canvas and Chevroches Calfskin Vendome Mini Bag Silver Hardware, 2025",
     "ask": 5300.0,
@@ -12410,7 +12410,7 @@
     "condition": null,
     "scores": {
      "value": 3.0,
-     "rarity": 3.4,
+     "rarity": 4.6,
      "investment": 3.0
     },
     "link": "https://www.sothebys.com/en/buy/handbags#GoyardLimited_Edition_Fuschia_Goyardine_",
@@ -12423,7 +12423,7 @@
    },
    {
     "dept": "style",
-    "rank": 16,
+    "rank": 123,
     "source": "www.sothebys.com",
     "title": "Hermès · Amethyst Shiny Crocodile Birkin 35 Gold Hardware, 2011",
     "ask": 36500.0,
@@ -12431,7 +12431,7 @@
     "condition": null,
     "scores": {
      "value": 3.0,
-     "rarity": 3.3,
+     "rarity": 4.6,
      "investment": 3.0
     },
     "link": "https://www.sothebys.com/en/buy/handbags#HermèsAmethyst_Shiny_Crocodile_Birkin_35",
@@ -12444,7 +12444,7 @@
    },
    {
     "dept": "style",
-    "rank": 17,
+    "rank": 124,
     "source": "www.sothebys.com",
     "title": "Hermès · Craie Togo Retourne Kelly 25 Gold Hardware, 2022",
     "ask": 25000.0,
@@ -12452,7 +12452,7 @@
     "condition": null,
     "scores": {
      "value": 3.0,
-     "rarity": 3.2,
+     "rarity": 4.6,
      "investment": 3.0
     },
     "link": "https://www.sothebys.com/en/buy/handbags#HermèsCraie_Togo_Retourne_Kelly_25_Gold_",
@@ -12465,7 +12465,7 @@
    },
    {
     "dept": "style",
-    "rank": 18,
+    "rank": 125,
     "source": "www.sothebys.com",
     "title": "Hermès · Nata Clemence and Swift In-the-Loop 23 Gold Hardware, 2022",
     "ask": 4900.0,
@@ -12473,7 +12473,7 @@
     "condition": null,
     "scores": {
      "value": 3.0,
-     "rarity": 3.1,
+     "rarity": 4.5,
      "investment": 3.0
     },
     "link": "https://www.sothebys.com/en/buy/handbags#HermèsNata_Clemence_and_Swift_In_the_Loo",
@@ -12482,6 +12482,2360 @@
     "spec": {
      "brand": "Hermès",
      "label": "Nata Clemence and Swift In-the-Loop 23 Gold Hardware, 2022"
+    }
+   },
+   {
+    "dept": "style",
+    "rank": 1,
+    "source": "therealreal.com",
+    "title": "Taller Marmo · Sequin One-Shoulder Blouse",
+    "ask": 688.75,
+    "currency": "USD",
+    "condition": "Excellent",
+    "scores": {
+     "value": 3.4,
+     "rarity": 5.0,
+     "investment": 3.0
+    },
+    "link": "https://www.therealreal.com/products/women/clothing/tops/taller-marmo-nylon-midi-length-skirt-wywj6",
+    "link_state": "live",
+    "image": null,
+    "spec": {
+     "brand": "Taller Marmo",
+     "size": "M",
+     "excerpt": "\nSize M | US8, IT44\n\nCondition: Excellent\n\n~~Was: $725~~$688.75\n\nNow 5% off\n\n44\n\n25\n"
+    }
+   },
+   {
+    "dept": "style",
+    "rank": 14,
+    "source": "therealreal.com",
+    "title": "Jenni Kayne · Linen Long Dress",
+    "ask": 142.5,
+    "currency": "USD",
+    "condition": "Good",
+    "scores": {
+     "value": 3.4,
+     "rarity": 4.5,
+     "investment": 3.0
+    },
+    "link": "https://www.therealreal.com/products/women/clothing/dresses/jenni-kayne-linen-long-dress-xfzjx",
+    "link_state": "live",
+    "image": null,
+    "spec": {
+     "brand": "Jenni Kayne",
+     "size": "M",
+     "excerpt": "\nSize M\n\nCondition: Good\n\nEst. Retail $425\n\n~~Was: $150~~$142.50\n\nNow 5% off\n\n13\n"
+    }
+   },
+   {
+    "dept": "style",
+    "rank": 2,
+    "source": "therealreal.com",
+    "title": "Reformation · Halterneck Sleeveless Crop Top",
+    "ask": 65.0,
+    "currency": "USD",
+    "condition": "Excellent",
+    "scores": {
+     "value": 3.4,
+     "rarity": 5.0,
+     "investment": 3.0
+    },
+    "link": "https://www.therealreal.com/products/women/clothing/tops/reformation-halterneck-sleeveless-crop-top-x3kmh",
+    "link_state": "live",
+    "image": null,
+    "spec": {
+     "brand": "Reformation",
+     "size": "XS",
+     "excerpt": "\nSize XS\n\nCondition: Excellent\n\n19% Off Est. Retail $80\n\n$65.00\n\n59\n\n10\n"
+    }
+   },
+   {
+    "dept": "style",
+    "rank": 3,
+    "source": "therealreal.com",
+    "title": "Stella McCartney · Floral Print Strapless Crop Top",
+    "ask": 80.0,
+    "currency": "USD",
+    "condition": "Excellent",
+    "scores": {
+     "value": 3.4,
+     "rarity": 5.0,
+     "investment": 3.0
+    },
+    "link": "https://www.therealreal.com/products/women/clothing/tops/stella-mccartney-floral-print-strapless-crop-top-x2oag",
+    "link_state": "live",
+    "image": null,
+    "spec": {
+     "brand": "Stella McCartney",
+     "size": "XS",
+     "excerpt": "\nSize XS | US0, IT36\n\nCondition: Excellent\n\n$80.00\n\n18\n"
+    }
+   },
+   {
+    "dept": "style",
+    "rank": 4,
+    "source": "therealreal.com",
+    "title": "A.L.C. · Strapless Top",
+    "ask": 105.0,
+    "currency": "USD",
+    "condition": "Excellent",
+    "scores": {
+     "value": 3.4,
+     "rarity": 5.0,
+     "investment": 3.0
+    },
+    "link": "https://www.therealreal.com/products/women/clothing/tops/a-l-c-strapless-top-x242p",
+    "link_state": "live",
+    "image": null,
+    "spec": {
+     "brand": "A.L.C.",
+     "size": "M",
+     "excerpt": "\nSize M | US 6\n\nCondition: Excellent\n\n72% Off Est. Retail $380\n\n$105.00\n\n13\n"
+    }
+   },
+   {
+    "dept": "style",
+    "rank": 5,
+    "source": "therealreal.com",
+    "title": "Likely · Halterneck Long Dress",
+    "ask": 55.0,
+    "currency": "USD",
+    "condition": "Excellent",
+    "scores": {
+     "value": 3.4,
+     "rarity": 5.0,
+     "investment": 3.0
+    },
+    "link": "https://www.therealreal.com/products/women/clothing/dresses/likely-halterneck-long-dress-x6917",
+    "link_state": "live",
+    "image": null,
+    "spec": {
+     "brand": "Likely",
+     "size": "M",
+     "excerpt": "\nSize M\n\nCondition: Excellent\n\n$55.00\n\n25\n\n[![Image 1: Floral Print Long Dress](https://product-images.therealreal.com/WVN433941_1_enlarged.jpg?auto=webp&width=3840)](https://www.therealreal.com/produ"
+    }
+   },
+   {
+    "dept": "style",
+    "rank": 6,
+    "source": "therealreal.com",
+    "title": "Vince · Floral Print Long Dress",
+    "ask": 105.0,
+    "currency": "USD",
+    "condition": "Very Good",
+    "scores": {
+     "value": 3.4,
+     "rarity": 4.8999999999999995,
+     "investment": 3.0
+    },
+    "link": "https://www.therealreal.com/products/women/clothing/dresses/vince-floral-print-long-dress-wqfjk",
+    "link_state": "live",
+    "image": null,
+    "spec": {
+     "brand": "Vince",
+     "size": "M",
+     "excerpt": "\nSize M\n\nCondition: Very Good\n\n$105.00\n\n5\n\n[![Image 2: Blazer](https://product-images.therealreal.com/TOM234107_1_enlarged.jpg?auto=webp&width=3840)](https://www.therealreal.com/products/women/clothin"
+    }
+   },
+   {
+    "dept": "style",
+    "rank": 55,
+    "source": "therealreal.com",
+    "title": "Tom Ford · Blazer",
+    "ask": 535.0,
+    "currency": "USD",
+    "condition": "Very Good",
+    "scores": {
+     "value": 3.4,
+     "rarity": 3.4,
+     "investment": 3.0
+    },
+    "link": "https://www.therealreal.com/products/women/clothing/jackets/tom-ford-blazer-x0jc1",
+    "link_state": "live",
+    "image": null,
+    "spec": {
+     "brand": "Tom Ford",
+     "size": "S",
+     "excerpt": "\nSize S | US4, IT40\n\nCondition: Very Good\n\n$535.00\n\n24\n\n[![Image 3: Blazer](https://product-images.therealreal.com/SON73520_1_enlarged.jpg?auto=webp&width=3840)](https://www.therealreal.com/products/w"
+    }
+   },
+   {
+    "dept": "style",
+    "rank": 22,
+    "source": "therealreal.com",
+    "title": "Sonia Rykiel · Blazer",
+    "ask": 105.0,
+    "currency": "USD",
+    "condition": "Good",
+    "scores": {
+     "value": 3.4,
+     "rarity": 4.3,
+     "investment": 3.0
+    },
+    "link": "https://www.therealreal.com/products/women/clothing/jackets/sonia-rykiel-blazer-wxrxv",
+    "link_state": "live",
+    "image": null,
+    "spec": {
+     "brand": "Sonia Rykiel",
+     "size": "L",
+     "excerpt": "\nSize L | US10, FR42\n\nCondition: Good\n\n34% Off Est. Retail $160\n\n$105.00\n\n27\n\n[![Image 4: Ostrich Bucket Bag Vintage](https://product-images.therealreal.com/GUC2187529_1_enlarged.jpg?auto=webp&width=3"
+    }
+   },
+   {
+    "dept": "style",
+    "rank": 23,
+    "source": "therealreal.com",
+    "title": "Gucci · Ostrich Bucket Bag Vintage",
+    "ask": 525.0,
+    "currency": "USD",
+    "condition": "Good",
+    "scores": {
+     "value": 3.4,
+     "rarity": 4.3,
+     "investment": 3.0
+    },
+    "link": "https://www.therealreal.com/products/women/handbags/bucket-bags/gucci-leather-bucket-bag-vintage-xancr",
+    "link_state": "live",
+    "image": null,
+    "spec": {
+     "brand": "Gucci",
+     "size": null,
+     "excerpt": "\nCondition: Good\n\n$525.00\n\n215\n\n[![Image 5: First Look](https://assets.therealreal.com/prismic/the-realreal/YKZh7qOpe9frgI5L_PLPCard-FL_3x.webp?auto=format,compress)](https://www.therealreal.com/first"
+    }
+   },
+   {
+    "dept": "style",
+    "rank": 7,
+    "source": "therealreal.com",
+    "title": "Vince · Cashmere Open Front Sweater",
+    "ask": 210.0,
+    "currency": "USD",
+    "condition": "Excellent",
+    "scores": {
+     "value": 3.4,
+     "rarity": 4.8999999999999995,
+     "investment": 3.0
+    },
+    "link": "https://www.therealreal.com/products/women/clothing/knitwear/vince-cashmere-open-front-sweater-xcp3i",
+    "link_state": "live",
+    "image": null,
+    "spec": {
+     "brand": "Vince",
+     "size": "L",
+     "excerpt": "\nSize L\n\nCondition: Excellent\n\n76% Off Est. Retail $869\n\n$210.00\n\n15\n\n[![Image 7: Plunge Neckline Mini Dress w/ Tags](https://product-images.therealreal.com/WASLI28947_1_enlarged.jpg?auto=webp&width=3"
+    }
+   },
+   {
+    "dept": "style",
+    "rank": 26,
+    "source": "therealreal.com",
+    "title": "ALÉMAIS · Plunge Neckline Mini Dress w/ Tags",
+    "ask": 284.75,
+    "currency": "USD",
+    "condition": "Pristine",
+    "scores": {
+     "value": 3.4,
+     "rarity": 4.2,
+     "investment": 3.0
+    },
+    "link": "https://www.therealreal.com/products/women/clothing/dresses/alemais-plunge-neckline-mini-dress-w-tags-x090o",
+    "link_state": "live",
+    "image": null,
+    "spec": {
+     "brand": "ALÉMAIS",
+     "size": "XS",
+     "excerpt": "\nSize XS | US 2\n\nCondition: Pristine\n\n~~Was: $335~~$284.75\n\nNow 15% off\n\n8\n\n[![Image 8: Vlogo Leather Slingback Pumps](https://product-images.therealreal.com/VAL613162_1_enlarged.jpg?auto=webp&width=3"
+    }
+   },
+   {
+    "dept": "style",
+    "rank": 68,
+    "source": "therealreal.com",
+    "title": "Valentino · Vlogo Leather Slingback Pumps",
+    "ask": 500.0,
+    "currency": "USD",
+    "condition": "Very Good",
+    "scores": {
+     "value": 3.4,
+     "rarity": 3.1,
+     "investment": 3.0
+    },
+    "link": "https://www.therealreal.com/products/women/shoes/pumps/valentino-vlogo-leather-slingback-pumps-xh65k",
+    "link_state": "live",
+    "image": null,
+    "spec": {
+     "brand": "Valentino",
+     "size": "6",
+     "excerpt": "\nSize 6 | IT 36\n\nCondition: Very Good\n\n$500.00\n\n37\n\n[![Image 9: Leather Studded Accents Boots](https://product-images.therealreal.com/CHT581630_1_enlarged.jpg?auto=webp&width=3840)](https://www.therea"
+    }
+   },
+   {
+    "dept": "style",
+    "rank": 8,
+    "source": "therealreal.com",
+    "title": "Valentino · Satin Bow Accents Mary Jane Flats",
+    "ask": 525.0,
+    "currency": "USD",
+    "condition": "Excellent",
+    "scores": {
+     "value": 3.4,
+     "rarity": 4.8,
+     "investment": 3.0
+    },
+    "link": "https://www.therealreal.com/products/women/shoes/flats/valentino-satin-bow-accents-mary-jane-flats-xh6mj",
+    "link_state": "live",
+    "image": null,
+    "spec": {
+     "brand": "Valentino",
+     "size": "6.5",
+     "excerpt": "\nSize 6.5 | IT 36.5\n\nCondition: Excellent\n\n$525.00\n\n23\n\n[![Image 12: Rockstud Accents Leather Sandals](https://product-images.therealreal.com/VAL613166_1_enlarged.jpg?auto=webp&width=3840)](https://ww"
+    }
+   },
+   {
+    "dept": "style",
+    "rank": 77,
+    "source": "therealreal.com",
+    "title": "Valentino · Rockstud Accents Leather Sandals",
+    "ask": 525.0,
+    "currency": "USD",
+    "condition": "Excellent",
+    "scores": {
+     "value": 3.4,
+     "rarity": 3.0,
+     "investment": 3.0
+    },
+    "link": "https://www.therealreal.com/products/women/shoes/sandals/valentino-rockstud-accents-leather-sandals-xh69v",
+    "link_state": "live",
+    "image": null,
+    "spec": {
+     "brand": "Valentino",
+     "size": "8",
+     "excerpt": "\nSize 8 | IT 38\n\nCondition: Excellent\n\n$525.00\n\n23\n\n[![Image 13: Rockstud Accents Leather Chelsea Boots](https://product-images.therealreal.com/VAL613161_1_enlarged.jpg?auto=webp&width=3840)](https://"
+    }
+   },
+   {
+    "dept": "style",
+    "rank": 78,
+    "source": "therealreal.com",
+    "title": "Valentino · Rockstud Accents Leather Chelsea Boots",
+    "ask": 575.0,
+    "currency": "USD",
+    "condition": "Very Good",
+    "scores": {
+     "value": 3.4,
+     "rarity": 3.0,
+     "investment": 3.0
+    },
+    "link": "https://www.therealreal.com/products/women/shoes/boots/valentino-rockstud-accents-leather-chelsea-boots-xh659",
+    "link_state": "live",
+    "image": null,
+    "spec": {
+     "brand": "Valentino",
+     "size": "8.5",
+     "excerpt": "\nSize 8.5 | IT 38.5\n\nCondition: Very Good\n\n$575.00\n\n20\n\n[![Image 14: Rockstud Accents Leather Ballet Flats](https://product-images.therealreal.com/VAL613143_1_enlarged.jpg?auto=webp&width=3840)](https"
+    }
+   },
+   {
+    "dept": "style",
+    "rank": 79,
+    "source": "therealreal.com",
+    "title": "Valentino · Rockstud Accents Leather Ballet Flats",
+    "ask": 525.0,
+    "currency": "USD",
+    "condition": "Excellent",
+    "scores": {
+     "value": 3.4,
+     "rarity": 3.0,
+     "investment": 3.0
+    },
+    "link": "https://www.therealreal.com/products/women/shoes/flats/valentino-rockstud-accents-leather-ballet-flats-xh5ob",
+    "link_state": "live",
+    "image": null,
+    "spec": {
+     "brand": "Valentino",
+     "size": "6",
+     "excerpt": "\nSize 6 | IT 36\n\nCondition: Excellent\n\n$525.00\n\n18\n\n[![Image 15: Vlogo Nylon Mary Jane Flats w/ Tags](https://product-images.therealreal.com/VAL613133_1_enlarged.jpg?auto=webp&width=3840)](https://www"
+    }
+   },
+   {
+    "dept": "style",
+    "rank": 103,
+    "source": "therealreal.com",
+    "title": "Valentino · Vlogo Nylon Mary Jane Flats w/ Tags",
+    "ask": 545.0,
+    "currency": "USD",
+    "condition": "Pristine",
+    "scores": {
+     "value": 3.4,
+     "rarity": 2.5,
+     "investment": 3.0
+    },
+    "link": "https://www.therealreal.com/products/women/shoes/flats/valentino-vlogo-nylon-mary-jane-flats-w-tags-xh5ec",
+    "link_state": "live",
+    "image": null,
+    "spec": {
+     "brand": "Valentino",
+     "size": "6",
+     "excerpt": "\nSize 6 | IT 36\n\nCondition: Pristine\n\n$545.00\n\n18\n\n[![Image 16: Rockstud Accents Leather T-Strap Sandals w/ Tags](https://product-images.therealreal.com/VAL613123_1_enlarged.jpg?auto=webp&width=3840)]"
+    }
+   },
+   {
+    "dept": "style",
+    "rank": 106,
+    "source": "therealreal.com",
+    "title": "Valentino · Rockstud Accents Leather T-Strap Sandals w/ Tags",
+    "ask": 545.0,
+    "currency": "USD",
+    "condition": "Pristine",
+    "scores": {
+     "value": 3.4,
+     "rarity": 2.4,
+     "investment": 3.0
+    },
+    "link": "https://www.therealreal.com/products/women/shoes/sandals/valentino-rockstud-accents-leather-t-strap-sandals-w-tags-xh51y",
+    "link_state": "live",
+    "image": null,
+    "spec": {
+     "brand": "Valentino",
+     "size": "8",
+     "excerpt": "\nSize 8 | IT 38\n\nCondition: Pristine\n\n$545.00\n\n18\n\n[![Image 17: Leather Patterned Slingback Pumps w/ Tags](https://product-images.therealreal.com/VAL613160_1_enlarged.jpg?auto=webp&width=3840)](https:"
+    }
+   },
+   {
+    "dept": "style",
+    "rank": 97,
+    "source": "therealreal.com",
+    "title": "Valentino · Leather Patterned Slingback Pumps w/ Tags",
+    "ask": 575.0,
+    "currency": "USD",
+    "condition": "Pristine",
+    "scores": {
+     "value": 3.4,
+     "rarity": 2.8,
+     "investment": 3.0
+    },
+    "link": "https://www.therealreal.com/products/women/shoes/pumps/valentino-leather-patterned-slingback-pumps-w-tags-xh650",
+    "link_state": "live",
+    "image": null,
+    "spec": {
+     "brand": "Valentino",
+     "size": "5",
+     "excerpt": "\nSize 5 | IT 35\n\nCondition: Pristine\n\n$575.00\n\n15\n\n[![Image 18: Rockstud Accents Leather Chelsea Boots](https://product-images.therealreal.com/VAL613154_1_enlarged.jpg?auto=webp&width=3840)](https://w"
+    }
+   },
+   {
+    "dept": "style",
+    "rank": 80,
+    "source": "therealreal.com",
+    "title": "Valentino · Rockstud Accents Leather Chelsea Boots",
+    "ask": 635.0,
+    "currency": "USD",
+    "condition": "Excellent",
+    "scores": {
+     "value": 3.4,
+     "rarity": 3.0,
+     "investment": 3.0
+    },
+    "link": "https://www.therealreal.com/products/women/shoes/boots/valentino-rockstud-accents-leather-chelsea-boots-xh5xq",
+    "link_state": "live",
+    "image": null,
+    "spec": {
+     "brand": "Valentino",
+     "size": "7",
+     "excerpt": "\nSize 7 | IT 37\n\nCondition: Excellent\n\n$635.00\n\n15\n\n[![Image 19: Vlogo Leather Sandals w/ Tags](https://product-images.therealreal.com/VAL613141_1_enlarged.jpg?auto=webp&width=3840)](https://www.there"
+    }
+   },
+   {
+    "dept": "style",
+    "rank": 104,
+    "source": "therealreal.com",
+    "title": "Valentino · Vlogo Leather Sandals w/ Tags",
+    "ask": 545.0,
+    "currency": "USD",
+    "condition": "Pristine",
+    "scores": {
+     "value": 3.4,
+     "rarity": 2.5,
+     "investment": 3.0
+    },
+    "link": "https://www.therealreal.com/products/women/shoes/sandals/valentino-vlogo-leather-sandals-w-tags-xh5lw",
+    "link_state": "live",
+    "image": null,
+    "spec": {
+     "brand": "Valentino",
+     "size": "9",
+     "excerpt": "\nSize 9 | IT 39\n\nCondition: Pristine\n\n$545.00\n\n15\n\n[![Image 20: Rockstud Accents Patent Leather Chelsea Boots](https://product-images.therealreal.com/VAL613149_1_enlarged.jpg?auto=webp&width=3840)](ht"
+    }
+   },
+   {
+    "dept": "style",
+    "rank": 81,
+    "source": "therealreal.com",
+    "title": "Valentino · Rockstud Accents Patent Leather Chelsea Boots",
+    "ask": 635.0,
+    "currency": "USD",
+    "condition": "Excellent",
+    "scores": {
+     "value": 3.4,
+     "rarity": 3.0,
+     "investment": 3.0
+    },
+    "link": "https://www.therealreal.com/products/women/shoes/boots/valentino-rockstud-accents-patent-leather-chelsea-boots-xh5tr",
+    "link_state": "live",
+    "image": null,
+    "spec": {
+     "brand": "Valentino",
+     "size": "9.5",
+     "excerpt": "\nSize 9.5 | IT 39.5\n\nCondition: Excellent\n\n$635.00\n\n14\n\n[![Image 21: Rockstud Accents Patent Leather Slingback Flats](https://product-images.therealreal.com/VAL613152_1_enlarged.jpg?auto=webp&width=38"
+    }
+   },
+   {
+    "dept": "style",
+    "rank": 82,
+    "source": "therealreal.com",
+    "title": "Valentino · Rockstud Accents Patent Leather Slingback Flats",
+    "ask": 525.0,
+    "currency": "USD",
+    "condition": "Excellent",
+    "scores": {
+     "value": 3.4,
+     "rarity": 3.0,
+     "investment": 3.0
+    },
+    "link": "https://www.therealreal.com/products/women/shoes/flats/valentino-rockstud-accents-patent-leather-slingback-flats-xh5wn",
+    "link_state": "live",
+    "image": null,
+    "spec": {
+     "brand": "Valentino",
+     "size": "8",
+     "excerpt": "\nSize 8 | IT 38\n\nCondition: Excellent\n\n$525.00\n\n13\n\n[![Image 22: Rockstud Accents Leather Chelsea Boots](https://product-images.therealreal.com/VAL613140_1_enlarged.jpg?auto=webp&width=3840)](https://"
+    }
+   },
+   {
+    "dept": "style",
+    "rank": 83,
+    "source": "therealreal.com",
+    "title": "Valentino · Rockstud Accents Leather Chelsea Boots",
+    "ask": 635.0,
+    "currency": "USD",
+    "condition": "Excellent",
+    "scores": {
+     "value": 3.4,
+     "rarity": 3.0,
+     "investment": 3.0
+    },
+    "link": "https://www.therealreal.com/products/women/shoes/boots/valentino-rockstud-accents-leather-chelsea-boots-xh5ju",
+    "link_state": "live",
+    "image": null,
+    "spec": {
+     "brand": "Valentino",
+     "size": "7.5",
+     "excerpt": "\nSize 7.5 | IT 37.5\n\nCondition: Excellent\n\n$635.00\n\n13\n\n[![Image 23: Nylon Bow Accents Mary Jane Flats w/ Tags](https://product-images.therealreal.com/VAL613172_1_enlarged.jpg?auto=webp&width=3840)](h"
+    }
+   },
+   {
+    "dept": "style",
+    "rank": 27,
+    "source": "therealreal.com",
+    "title": "Valentino · Nylon Bow Accents Mary Jane Flats w/ Tags",
+    "ask": 545.0,
+    "currency": "USD",
+    "condition": "Pristine",
+    "scores": {
+     "value": 3.4,
+     "rarity": 4.2,
+     "investment": 3.0
+    },
+    "link": "https://www.therealreal.com/products/women/shoes/flats/valentino-nylon-bow-accents-mary-jane-flats-w-tags-xh6gx",
+    "link_state": "live",
+    "image": null,
+    "spec": {
+     "brand": "Valentino",
+     "size": "8",
+     "excerpt": "\nSize 8 | IT 38\n\nCondition: Pristine\n\n$545.00\n\n12\n\n[![Image 24: Suede Loafers](https://product-images.therealreal.com/VAL613153_1_enlarged.jpg?auto=webp&width=3840)](https://www.therealreal.com/produc"
+    }
+   },
+   {
+    "dept": "style",
+    "rank": 9,
+    "source": "therealreal.com",
+    "title": "Valentino · Suede Loafers",
+    "ask": 525.0,
+    "currency": "USD",
+    "condition": "Excellent",
+    "scores": {
+     "value": 3.4,
+     "rarity": 4.8,
+     "investment": 3.0
+    },
+    "link": "https://www.therealreal.com/products/women/shoes/flats/valentino-suede-loafers-xh5wp",
+    "link_state": "live",
+    "image": null,
+    "spec": {
+     "brand": "Valentino",
+     "size": "9.5",
+     "excerpt": "\nSize 9.5 | IT 39.5\n\nCondition: Excellent\n\n$525.00\n\n10\n\n[![Image 25: Leather Cutout Accent Slides w/ Tags](https://product-images.therealreal.com/VAL613165_1_enlarged.jpg?auto=webp&width=3840)](https:"
+    }
+   },
+   {
+    "dept": "style",
+    "rank": 98,
+    "source": "therealreal.com",
+    "title": "Valentino · Leather Cutout Accent Slides w/ Tags",
+    "ask": 545.0,
+    "currency": "USD",
+    "condition": "Pristine",
+    "scores": {
+     "value": 3.4,
+     "rarity": 2.8,
+     "investment": 3.0
+    },
+    "link": "https://www.therealreal.com/products/women/shoes/sandals/valentino-leather-cutout-accent-slides-w-tags-xh68u",
+    "link_state": "live",
+    "image": null,
+    "spec": {
+     "brand": "Valentino",
+     "size": "9.5",
+     "excerpt": "\nSize 9.5 | IT 39.5\n\nCondition: Pristine\n\n$545.00\n\n9\n\n[![Image 26: Rockstud Accents Leather Sandals w/ Tags](https://product-images.therealreal.com/VAL613156_1_enlarged.jpg?auto=webp&width=3840)](http"
+    }
+   },
+   {
+    "dept": "style",
+    "rank": 107,
+    "source": "therealreal.com",
+    "title": "Valentino · Rockstud Accents Leather Sandals w/ Tags",
+    "ask": 545.0,
+    "currency": "USD",
+    "condition": "Pristine",
+    "scores": {
+     "value": 3.4,
+     "rarity": 2.4,
+     "investment": 3.0
+    },
+    "link": "https://www.therealreal.com/products/women/shoes/sandals/valentino-rockstud-accents-leather-sandals-w-tags-xh60m",
+    "link_state": "live",
+    "image": null,
+    "spec": {
+     "brand": "Valentino",
+     "size": "7.5",
+     "excerpt": "\nSize 7.5 | IT 37.5\n\nCondition: Pristine\n\n$545.00\n\n7\n\n[![Image 27: PVC Slingback Sandals](https://product-images.therealreal.com/CHT581549_1_enlarged.jpg?auto=webp&width=3840)](https://www.therealreal"
+    }
+   },
+   {
+    "dept": "style",
+    "rank": 84,
+    "source": "therealreal.com",
+    "title": "Valentino · Rockstud Accents Leather Chelsea Boots",
+    "ask": 635.0,
+    "currency": "USD",
+    "condition": "Excellent",
+    "scores": {
+     "value": 3.4,
+     "rarity": 3.0,
+     "investment": 3.0
+    },
+    "link": "https://www.therealreal.com/products/women/shoes/boots/valentino-rockstud-accents-leather-chelsea-boots-xh6do",
+    "link_state": "live",
+    "image": null,
+    "spec": {
+     "brand": "Valentino",
+     "size": "7.5",
+     "excerpt": "\nSize 7.5 | IT 37.5\n\nCondition: Excellent\n\n$635.00\n\n6\n\n[![Image 29: Rockstud Accents Patent Leather Chelsea Boots](https://product-images.therealreal.com/VAL613175_1_enlarged.jpg?auto=webp&width=3840)"
+    }
+   },
+   {
+    "dept": "style",
+    "rank": 85,
+    "source": "therealreal.com",
+    "title": "Valentino · Rockstud Accents Patent Leather Chelsea Boots",
+    "ask": 575.0,
+    "currency": "USD",
+    "condition": "Very Good",
+    "scores": {
+     "value": 3.4,
+     "rarity": 3.0,
+     "investment": 3.0
+    },
+    "link": "https://www.therealreal.com/products/women/shoes/boots/valentino-rockstud-accents-patent-leather-chelsea-boots-xh6l1",
+    "link_state": "live",
+    "image": null,
+    "spec": {
+     "brand": "Valentino",
+     "size": "8",
+     "excerpt": "\nSize 8 | IT 38\n\nCondition: Very Good\n\n$575.00\n\n5\n\n[![Image 30: Roman Stud Leather Chelsea Boots w/ Tags](https://product-images.therealreal.com/VAL613142_1_enlarged.jpg?auto=webp&width=3840)](https:/"
+    }
+   },
+   {
+    "dept": "style",
+    "rank": 30,
+    "source": "therealreal.com",
+    "title": "Valentino · Roman Stud Leather Chelsea Boots w/ Tags",
+    "ask": 660.0,
+    "currency": "USD",
+    "condition": "Pristine",
+    "scores": {
+     "value": 3.4,
+     "rarity": 4.1,
+     "investment": 3.0
+    },
+    "link": "https://www.therealreal.com/products/women/shoes/boots/valentino-roman-stud-leather-chelsea-boots-w-tags-xh5o8",
+    "link_state": "live",
+    "image": null,
+    "spec": {
+     "brand": "Valentino",
+     "size": "5.5",
+     "excerpt": "\nSize 5.5 | IT 35.5\n\nCondition: Pristine\n\n$660.00\n\n5\n\n[![Image 31: Rockstud Accents Leather Chelsea Boots](https://product-images.therealreal.com/VAL613167_1_enlarged.jpg?auto=webp&width=3840)](https:"
+    }
+   },
+   {
+    "dept": "style",
+    "rank": 86,
+    "source": "therealreal.com",
+    "title": "Valentino · Rockstud Accents Leather Chelsea Boots",
+    "ask": 635.0,
+    "currency": "USD",
+    "condition": "Excellent",
+    "scores": {
+     "value": 3.4,
+     "rarity": 3.0,
+     "investment": 3.0
+    },
+    "link": "https://www.therealreal.com/products/women/shoes/boots/valentino-rockstud-accents-leather-chelsea-boots-xh69w",
+    "link_state": "live",
+    "image": null,
+    "spec": {
+     "brand": "Valentino",
+     "size": "8.5",
+     "excerpt": "\nSize 8.5 | IT 38.5\n\nCondition: Excellent\n\n$635.00\n\n4\n\n[![Image 32: PVC Sandals](https://product-images.therealreal.com/CHT581550_1_enlarged.jpg?auto=webp&width=3840)](https://www.therealreal.com/prod"
+    }
+   },
+   {
+    "dept": "style",
+    "rank": 87,
+    "source": "therealreal.com",
+    "title": "Valentino · Rockstud Accents Leather Chelsea Boots",
+    "ask": 100.0,
+    "currency": "USD",
+    "condition": "Excellent",
+    "scores": {
+     "value": 3.4,
+     "rarity": 3.0,
+     "investment": 3.0
+    },
+    "link": "https://www.therealreal.com/products/women/shoes/boots/valentino-rockstud-accents-leather-chelsea-boots-xh5ep",
+    "link_state": "live",
+    "image": null,
+    "spec": {
+     "brand": "Valentino",
+     "size": "8",
+     "excerpt": "\nSize 8 | IT 38\n\nCondition: Excellent\n\n$635.00\n\n4\n\n[![Image 34: PVC Slingback Sandals](https://product-images.therealreal.com/CHT581541_1_enlarged.jpg?auto=webp&width=3840)](https://www.therealreal.co"
+    }
+   },
+   {
+    "dept": "style",
+    "rank": 88,
+    "source": "therealreal.com",
+    "title": "Valentino · Rockstud Accents Leather Chelsea Boots",
+    "ask": 635.0,
+    "currency": "USD",
+    "condition": "Excellent",
+    "scores": {
+     "value": 3.4,
+     "rarity": 3.0,
+     "investment": 3.0
+    },
+    "link": "https://www.therealreal.com/products/women/shoes/boots/valentino-rockstud-accents-leather-chelsea-boots-xh5b1",
+    "link_state": "live",
+    "image": null,
+    "spec": {
+     "brand": "Valentino",
+     "size": "8",
+     "excerpt": "\nSize 8 | IT 38\n\nCondition: Excellent\n\n$635.00\n\n1\n\n[![Image 38: Rockstud Accents Leather Chelsea Boots](https://product-images.therealreal.com/VAL613181_1_enlarged.jpg?auto=webp&width=3840)](https://w"
+    }
+   },
+   {
+    "dept": "style",
+    "rank": 89,
+    "source": "therealreal.com",
+    "title": "Valentino · Rockstud Accents Leather Chelsea Boots",
+    "ask": 575.0,
+    "currency": "USD",
+    "condition": "Very Good",
+    "scores": {
+     "value": 3.4,
+     "rarity": 3.0,
+     "investment": 3.0
+    },
+    "link": "https://www.therealreal.com/products/women/shoes/boots/valentino-rockstud-accents-leather-chelsea-boots-xh6pi",
+    "link_state": "live",
+    "image": null,
+    "spec": {
+     "brand": "Valentino",
+     "size": "8",
+     "excerpt": "\nSize 8 | IT 38\n\nCondition: Very Good\n\n$575.00\n\n[![Image 39: Denim CC Turn Lock Wallet On Chain](https://product-images.therealreal.com/CHA1541627_1_enlarged.jpg?auto=webp&width=3840)](https://www.the"
+    }
+   },
+   {
+    "dept": "style",
+    "rank": 99,
+    "source": "therealreal.com",
+    "title": "Chanel · Denim CC Turn Lock Wallet On Chain",
+    "ask": 2300.0,
+    "currency": "USD",
+    "condition": "Good",
+    "scores": {
+     "value": 3.4,
+     "rarity": 2.7,
+     "investment": 3.0
+    },
+    "link": "https://www.therealreal.com/products/women/handbags/shoulder-bags/chanel-denim-cc-turn-lock-wallet-on-chain-xkppq",
+    "link_state": "live",
+    "image": null,
+    "spec": {
+     "brand": "Chanel",
+     "size": null,
+     "excerpt": "\nCondition: Good\n\n$2,300.00\n\n69\n\n[![Image 40: Cannage Lady Dior Medium](https://product-images.therealreal.com/CHR635704_1_enlarged.jpg?auto=webp&width=3840)](https://www.therealreal.com/products/wome"
+    }
+   },
+   {
+    "dept": "style",
+    "rank": 31,
+    "source": "therealreal.com",
+    "title": "Christian Dior · Cannage Lady Dior Medium",
+    "ask": 1695.0,
+    "currency": "USD",
+    "condition": "Good",
+    "scores": {
+     "value": 3.4,
+     "rarity": 4.1,
+     "investment": 3.0
+    },
+    "link": "https://www.therealreal.com/products/women/handbags/handle-bags/christian-dior-cannage-lady-dior-medium-x8hpr",
+    "link_state": "live",
+    "image": null,
+    "spec": {
+     "brand": "Christian Dior",
+     "size": null,
+     "excerpt": "\nCondition: Good\n\n75% Off Est. Retail $6,700\n\n$1,695.00\n\n184\n\n[![Image 41: Suede Charms Small](https://product-images.therealreal.com/CHL404673_1_enlarged.jpg?auto=webp&width=3840)](https://www.therea"
+    }
+   },
+   {
+    "dept": "style",
+    "rank": 10,
+    "source": "therealreal.com",
+    "title": "Chloé · Suede Charms Small",
+    "ask": 1345.0,
+    "currency": "USD",
+    "condition": "Very Good",
+    "scores": {
+     "value": 3.4,
+     "rarity": 4.699999999999999,
+     "investment": 3.0
+    },
+    "link": "https://www.therealreal.com/products/women/handbags/shoulder-bags/chloe-suede-charms-small-x46fl",
+    "link_state": "live",
+    "image": null,
+    "spec": {
+     "brand": "Chloé",
+     "size": null,
+     "excerpt": "\nCondition: Very Good\n\n$1,345.00\n\n245\n\n[![Image 42: Wide Leg Pants w/ Tags](https://product-images.therealreal.com/WCF26908_1_enlarged.jpg?auto=webp&width=3840)](https://www.therealreal.com/products/w"
+    }
+   },
+   {
+    "dept": "style",
+    "rank": 100,
+    "source": "therealreal.com",
+    "title": "Chan Luu · Wide Leg Pants w/ Tags",
+    "ask": 325.0,
+    "currency": "USD",
+    "condition": "Pristine",
+    "scores": {
+     "value": 3.4,
+     "rarity": 2.7,
+     "investment": 3.0
+    },
+    "link": "https://www.therealreal.com/products/women/clothing/pants/chan-luu-wide-leg-pants-w-tags-xh7bv",
+    "link_state": "live",
+    "image": null,
+    "spec": {
+     "brand": "Chan Luu",
+     "size": "S",
+     "excerpt": "\nSize S\n\nCondition: Pristine\n\n$325.00\n\n225\n\n[![Image 43: Suede Softbit Medium](https://product-images.therealreal.com/GUC2188471_1_enlarged.jpg?auto=webp&width=3840)](https://www.therealreal.com/produ"
+    }
+   },
+   {
+    "dept": "style",
+    "rank": 11,
+    "source": "therealreal.com",
+    "title": "Gucci · Suede Softbit Medium",
+    "ask": 2100.0,
+    "currency": "USD",
+    "condition": "Very Good",
+    "scores": {
+     "value": 3.4,
+     "rarity": 4.699999999999999,
+     "investment": 3.0
+    },
+    "link": "https://www.therealreal.com/products/women/handbags/shoulder-bags/gucci-suede-softbit-medium-xbfat",
+    "link_state": "live",
+    "image": null,
+    "spec": {
+     "brand": "Gucci",
+     "size": null,
+     "excerpt": "\nCondition: Very Good\n\n28% Off Est. Retail $2,900\n\n$2,100.00\n\n206\n\n[![Image 44: Halterneck Long Dress](https://product-images.therealreal.com/TOM234976_1_enlarged.jpg?auto=webp&width=3840)](https://ww"
+    }
+   },
+   {
+    "dept": "style",
+    "rank": 56,
+    "source": "therealreal.com",
+    "title": "Tom Ford · Halterneck Long Dress",
+    "ask": 1325.0,
+    "currency": "USD",
+    "condition": "Very Good",
+    "scores": {
+     "value": 3.4,
+     "rarity": 3.4,
+     "investment": 3.0
+    },
+    "link": "https://www.therealreal.com/products/women/clothing/dresses/tom-ford-halterneck-long-dress-x7msb",
+    "link_state": "live",
+    "image": null,
+    "spec": {
+     "brand": "Tom Ford",
+     "size": "S",
+     "excerpt": "\nSize S | US4, IT40\n\nCondition: Very Good\n\n64% Off Est. Retail $3,690\n\n$1,325.00\n\n204\n\n[![Image 45: Leather Motocross Classic City Small](https://product-images.therealreal.com/BAL408131_1_enlarged.jp"
+    }
+   },
+   {
+    "dept": "style",
+    "rank": 101,
+    "source": "therealreal.com",
+    "title": "Balenciaga · Leather Motocross Classic City Small",
+    "ask": 1525.0,
+    "currency": "USD",
+    "condition": "Good",
+    "scores": {
+     "value": 3.4,
+     "rarity": 2.7,
+     "investment": 3.0
+    },
+    "link": "https://www.therealreal.com/products/women/handbags/handle-bags/balenciaga-leather-motocross-classic-city-small-x2p50",
+    "link_state": "live",
+    "image": null,
+    "spec": {
+     "brand": "Balenciaga",
+     "size": null,
+     "excerpt": "\nCondition: Good\n\n49% Off Est. Retail $2,990\n\n$1,525.00\n\n193\n\n[![Image 46: Veau Doblis Kelly Pochette 20](https://product-images.therealreal.com/HER890952_1_enlarged.jpg?auto=webp&width=3840)](https:/"
+    }
+   },
+   {
+    "dept": "style",
+    "rank": 36,
+    "source": "therealreal.com",
+    "title": "Hermès · Veau Doblis Kelly Pochette 20",
+    "ask": 22000.0,
+    "currency": "USD",
+    "condition": "Fair",
+    "scores": {
+     "value": 3.4,
+     "rarity": 4.0,
+     "investment": 3.0
+    },
+    "link": "https://www.therealreal.com/products/women/handbags/handle-bags/hermes-veau-doblis-kelly-pochette-20-wuh49",
+    "link_state": "live",
+    "image": null,
+    "spec": {
+     "brand": "Hermès",
+     "size": null,
+     "excerpt": "\nCondition: Fair\n\n$22,000.00\n\n161\n\n[![Image 47: Leather Evening Bag](https://product-images.therealreal.com/SNT523140_1_enlarged.jpg?auto=webp&width=3840)](https://www.therealreal.com/products/women/h"
+    }
+   },
+   {
+    "dept": "style",
+    "rank": 12,
+    "source": "therealreal.com",
+    "title": "Saint Laurent · Leather Evening Bag",
+    "ask": 1275.0,
+    "currency": "USD",
+    "condition": "Very Good",
+    "scores": {
+     "value": 3.4,
+     "rarity": 4.6,
+     "investment": 3.0
+    },
+    "link": "https://www.therealreal.com/products/women/handbags/evening-bags/saint-laurent-leather-evening-bag-xcsdg",
+    "link_state": "live",
+    "image": null,
+    "spec": {
+     "brand": "Saint Laurent",
+     "size": null,
+     "excerpt": "\nCondition: Very Good\n\n45% Off Est. Retail $2,300\n\n$1,275.00\n\n150\n\n[![Image 48: Piston Lock Jackie Vintage](https://product-images.therealreal.com/GUC2190108_1_enlarged.jpg?auto=webp&width=3840)](http"
+    }
+   },
+   {
+    "dept": "style",
+    "rank": 13,
+    "source": "therealreal.com",
+    "title": "Gucci · Piston Lock Jackie Vintage",
+    "ask": 895.0,
+    "currency": "USD",
+    "condition": "Very Good",
+    "scores": {
+     "value": 3.4,
+     "rarity": 4.6,
+     "investment": 3.0
+    },
+    "link": "https://www.therealreal.com/products/women/handbags/handle-bags/gucci-piston-lock-jackie-vintage-xcpck",
+    "link_state": "live",
+    "image": null,
+    "spec": {
+     "brand": "Gucci",
+     "size": null,
+     "excerpt": "\nCondition: Very Good\n\n$895.00\n\n147\n\n[![Image 49: Zucca FF Pochette](https://product-images.therealreal.com/FEN460501_1_enlarged.jpg?auto=webp&width=3840)](https://www.therealreal.com/products/women/h"
+    }
+   },
+   {
+    "dept": "style",
+    "rank": 15,
+    "source": "therealreal.com",
+    "title": "Fendi · Zucca FF Pochette",
+    "ask": 3095.0,
+    "currency": "USD",
+    "condition": "Very Good",
+    "scores": {
+     "value": 3.4,
+     "rarity": 4.5,
+     "investment": 3.0
+    },
+    "link": "https://www.therealreal.com/products/women/handbags/mini-bags/fendi-zucca-ff-pochette-x4ytj",
+    "link_state": "live",
+    "image": null,
+    "spec": {
+     "brand": "Fendi",
+     "size": null,
+     "excerpt": "\nCondition: Very Good\n\n$3,095.00\n\n142\n\n[![Image 50: Tiger Head Shoulder Bag](https://product-images.therealreal.com/GUC2194721_1_enlarged.jpg?auto=webp&width=3840)](https://www.therealreal.com/product"
+    }
+   },
+   {
+    "dept": "style",
+    "rank": 16,
+    "source": "therealreal.com",
+    "title": "Gucci · Tiger Head Shoulder Bag",
+    "ask": 925.0,
+    "currency": "USD",
+    "condition": "Very Good",
+    "scores": {
+     "value": 3.4,
+     "rarity": 4.5,
+     "investment": 3.0
+    },
+    "link": "https://www.therealreal.com/products/women/handbags/shoulder-bags/gucci-tiger-head-shoulder-bag-xfxre",
+    "link_state": "live",
+    "image": null,
+    "spec": {
+     "brand": "Gucci",
+     "size": null,
+     "excerpt": "\nCondition: Very Good\n\n$925.00\n\n141\n\n[![Image 51: Horsebit Greenwich Maxi](https://product-images.therealreal.com/GUC2178231_1_enlarged.jpg?auto=webp&width=3840)](https://www.therealreal.com/products/"
+    }
+   },
+   {
+    "dept": "style",
+    "rank": 62,
+    "source": "therealreal.com",
+    "title": "Gucci · Horsebit Greenwich Maxi",
+    "ask": 2900.0,
+    "currency": "USD",
+    "condition": "Excellent",
+    "scores": {
+     "value": 3.4,
+     "rarity": 3.2,
+     "investment": 3.0
+    },
+    "link": "https://www.therealreal.com/products/women/handbags/hobos/gucci-horsebit-greenwich-maxi-x46q8",
+    "link_state": "live",
+    "image": null,
+    "spec": {
+     "brand": "Gucci",
+     "size": null,
+     "excerpt": "\nCondition: Excellent\n\n22% Off Est. Retail $3,700\n\n$2,900.00\n\n141\n\n[![Image 52: Leather Tote](https://product-images.therealreal.com/PRO179217_1_enlarged.jpg?auto=webp&width=3840)](https://www.thereal"
+    }
+   },
+   {
+    "dept": "style",
+    "rank": 17,
+    "source": "therealreal.com",
+    "title": "Proenza Schouler · Leather Tote",
+    "ask": 635.0,
+    "currency": "USD",
+    "condition": "Excellent",
+    "scores": {
+     "value": 3.4,
+     "rarity": 4.5,
+     "investment": 3.0
+    },
+    "link": "https://www.therealreal.com/products/women/handbags/totes/proenza-schouler-leather-tote-xc5qn",
+    "link_state": "live",
+    "image": null,
+    "spec": {
+     "brand": "Proenza Schouler",
+     "size": null,
+     "excerpt": "\nCondition: Excellent\n\n54% Off Est. Retail $1,390\n\n$635.00\n\n136\n\n[![Image 53: Intrecciato Campana Medium](https://product-images.therealreal.com/BOT397410_1_enlarged.jpg?auto=webp&width=3840)](https:/"
+    }
+   },
+   {
+    "dept": "style",
+    "rank": 69,
+    "source": "therealreal.com",
+    "title": "Bottega Veneta · Intrecciato Campana Medium",
+    "ask": 3295.0,
+    "currency": "USD",
+    "condition": "Excellent",
+    "scores": {
+     "value": 3.4,
+     "rarity": 3.1,
+     "investment": 3.0
+    },
+    "link": "https://www.therealreal.com/products/women/handbags/hobos/bottega-veneta-intrecciato-campana-medium-wztq6",
+    "link_state": "live",
+    "image": null,
+    "spec": {
+     "brand": "Bottega Veneta",
+     "size": null,
+     "excerpt": "\nCondition: Excellent\n\n37% Off Est. Retail $5,200\n\n$3,295.00\n\n131\n\n[![Image 54: Python Silverado](https://product-images.therealreal.com/CHL406210_1_enlarged.jpg?auto=webp&width=3840)](https://www.the"
+    }
+   },
+   {
+    "dept": "style",
+    "rank": 38,
+    "source": "therealreal.com",
+    "title": "Chloé · Python Silverado",
+    "ask": 1425.0,
+    "currency": "USD",
+    "condition": "Good",
+    "scores": {
+     "value": 3.4,
+     "rarity": 3.9,
+     "investment": 3.0
+    },
+    "link": "https://www.therealreal.com/products/women/handbags/shoulder-bags/chloe-python-silverado-xac7j",
+    "link_state": "live",
+    "image": null,
+    "spec": {
+     "brand": "Chloé",
+     "size": null,
+     "excerpt": "\nCondition: Good\n\n48% Off Est. Retail $2,750\n\n$1,425.00\n\n121\n\n[![Image 55: 2017 Alpaca Coat](https://product-images.therealreal.com/PRA1303518_1_enlarged.jpg?auto=webp&width=3840)](https://www.thereal"
+    }
+   },
+   {
+    "dept": "style",
+    "rank": 18,
+    "source": "therealreal.com",
+    "title": "Prada · 2017 Alpaca Coat",
+    "ask": 2995.0,
+    "currency": "USD",
+    "condition": "Excellent",
+    "scores": {
+     "value": 3.4,
+     "rarity": 4.3999999999999995,
+     "investment": 3.0
+    },
+    "link": "https://www.therealreal.com/products/women/clothing/coats/prada-2017-alpaca-coat-xdqwj",
+    "link_state": "live",
+    "image": null,
+    "spec": {
+     "brand": "Prada",
+     "size": "S",
+     "excerpt": "\nSize S | US4, IT40\n\nCondition: Excellent\n\n$2,995.00\n\n117\n\n[![Image 56: 10,000+ New Arrivals Just Dropped Shop Now](https://assets.therealreal.com/prismic/the-realreal/sYU5NAz8zjj9XO8G_PLPCard-NA.webp"
+    }
+   },
+   {
+    "dept": "style",
+    "rank": 19,
+    "source": "therealreal.com",
+    "title": "Gucci · Snakeskin Bamboo 1947 Small",
+    "ask": 2245.0,
+    "currency": "USD",
+    "condition": "Excellent",
+    "scores": {
+     "value": 3.4,
+     "rarity": 4.3999999999999995,
+     "investment": 3.0
+    },
+    "link": "https://www.therealreal.com/products/women/handbags/handle-bags/gucci-snakeskin-bamboo-1947-small-x41iq",
+    "link_state": "live",
+    "image": null,
+    "spec": {
+     "brand": "Gucci",
+     "size": null,
+     "excerpt": "\nCondition: Excellent\n\n$2,245.00\n\n103\n\n[![Image 58: Intrecciato Cabat Maxi](https://product-images.therealreal.com/BOT396527_1_enlarged.jpg?auto=webp&width=3840)](https://www.therealreal.com/products/"
+    }
+   },
+   {
+    "dept": "style",
+    "rank": 20,
+    "source": "therealreal.com",
+    "title": "Staud · Leather Boots",
+    "ask": 275.0,
+    "currency": "USD",
+    "condition": "Excellent",
+    "scores": {
+     "value": 3.4,
+     "rarity": 4.3999999999999995,
+     "investment": 3.0
+    },
+    "link": "https://www.therealreal.com/products/women/shoes/boots/staud-leather-boots-xbt1q",
+    "link_state": "live",
+    "image": null,
+    "spec": {
+     "brand": "Staud",
+     "size": "7",
+     "excerpt": "\nSize 7 | IT 37\n\nCondition: Excellent\n\n$275.00\n\n98\n\n[![Image 60: Floral Print Coat](https://product-images.therealreal.com/DRI197509_1_enlarged.jpg?auto=webp&width=3840)](https://www.therealreal.com/p"
+    }
+   },
+   {
+    "dept": "style",
+    "rank": 21,
+    "source": "therealreal.com",
+    "title": "Dries Van Noten · Floral Print Coat",
+    "ask": 1995.0,
+    "currency": "USD",
+    "condition": "Very Good",
+    "scores": {
+     "value": 3.4,
+     "rarity": 4.3999999999999995,
+     "investment": 3.0
+    },
+    "link": "https://www.therealreal.com/products/women/clothing/coats/dries-van-noten-floral-print-coat-xb96v",
+    "link_state": "live",
+    "image": null,
+    "spec": {
+     "brand": "Dries Van Noten",
+     "size": "M",
+     "excerpt": "\nSize M | US8, FR40\n\nCondition: Very Good\n\n56% Off Est. Retail $4,550\n\n$1,995.00\n\n98\n\n[![Image 61: 2026 Interlocking CC Logo Ballet Flats](https://product-images.therealreal.com/CHA1532618_1_enlarged."
+    }
+   },
+   {
+    "dept": "style",
+    "rank": 63,
+    "source": "therealreal.com",
+    "title": "Chanel · 2026 Interlocking CC Logo Ballet Flats",
+    "ask": 2675.0,
+    "currency": "USD",
+    "condition": "Excellent",
+    "scores": {
+     "value": 3.4,
+     "rarity": 3.2,
+     "investment": 3.0
+    },
+    "link": "https://www.therealreal.com/products/women/shoes/flats/chanel-2026-interlocking-cc-logo-ballet-flats-xd98v",
+    "link_state": "live",
+    "image": null,
+    "spec": {
+     "brand": "Chanel",
+     "size": "8.5",
+     "excerpt": "\nSize 8.5 | IT 38.5\n\nCondition: Excellent\n\n$2,675.00\n\n94\n\n[![Image 62: LV Monogram Speedy Soft 30](https://product-images.therealreal.com/LOU1342750_1_enlarged.jpg?auto=webp&width=3840)](https://www.t"
+    }
+   },
+   {
+    "dept": "style",
+    "rank": 70,
+    "source": "therealreal.com",
+    "title": "Louis Vuitton · LV Monogram Speedy Soft 30",
+    "ask": 3000.0,
+    "currency": "USD",
+    "condition": "Very Good",
+    "scores": {
+     "value": 3.4,
+     "rarity": 3.1,
+     "investment": 3.0
+    },
+    "link": "https://www.therealreal.com/products/women/handbags/handle-bags/louis-vuitton-lv-monogram-speedy-soft-30-wuzym",
+    "link_state": "live",
+    "image": null,
+    "spec": {
+     "brand": "Louis Vuitton",
+     "size": null,
+     "excerpt": "\nCondition: Very Good\n\n15% Off Est. Retail $3,550\n\n$3,000.00\n\n93\n\n[![Image 63: Leather Terrasse Large](https://product-images.therealreal.com/THR221902_1_enlarged.jpg?auto=webp&width=3840)](https://ww"
+    }
+   },
+   {
+    "dept": "style",
+    "rank": 90,
+    "source": "therealreal.com",
+    "title": "The Row · Leather Terrasse Large",
+    "ask": 2550.0,
+    "currency": "USD",
+    "condition": "Excellent",
+    "scores": {
+     "value": 3.4,
+     "rarity": 3.0,
+     "investment": 3.0
+    },
+    "link": "https://www.therealreal.com/products/women/handbags/shoulder-bags/the-row-leather-terrasse-large-x2jxj",
+    "link_state": "live",
+    "image": null,
+    "spec": {
+     "brand": "The Row",
+     "size": null,
+     "excerpt": "\nCondition: Excellent\n\n$2,550.00\n\n92\n\n[![Image 64: Leather Amazona Small 2026](https://product-images.therealreal.com/LOW120047_1_enlarged.jpg?auto=webp&width=3840)](https://www.therealreal.com/produc"
+    }
+   },
+   {
+    "dept": "style",
+    "rank": 24,
+    "source": "therealreal.com",
+    "title": "Loewe · Leather Amazona Small 2026",
+    "ask": 3575.0,
+    "currency": "USD",
+    "condition": "Very Good",
+    "scores": {
+     "value": 3.4,
+     "rarity": 4.3,
+     "investment": 3.0
+    },
+    "link": "https://www.therealreal.com/products/women/handbags/shoulder-bags/loewe-leather-amazona-small-2026-x1sqa",
+    "link_state": "live",
+    "image": null,
+    "spec": {
+     "brand": "Loewe",
+     "size": null,
+     "excerpt": "\nCondition: Very Good\n\n21% Off Est. Retail $4,550\n\n$3,575.00\n\n92\n\n[![Image 65: Leather Trio Small 2025](https://product-images.therealreal.com/CEL424951_1_enlarged.jpg?auto=webp&width=3840)](https://w"
+    }
+   },
+   {
+    "dept": "style",
+    "rank": 25,
+    "source": "therealreal.com",
+    "title": "Celine · Leather Trio Small 2025",
+    "ask": 1445.0,
+    "currency": "USD",
+    "condition": "Very Good",
+    "scores": {
+     "value": 3.4,
+     "rarity": 4.3,
+     "investment": 3.0
+    },
+    "link": "https://www.therealreal.com/products/women/handbags/crossbody-bags/celine-leather-trio-small-2025-x5t2a",
+    "link_state": "live",
+    "image": null,
+    "spec": {
+     "brand": "Celine",
+     "size": null,
+     "excerpt": "\nCondition: Very Good\n\n12% Off Est. Retail $1,650\n\n$1,445.00\n\n90\n\n[![Image 66: Canvas Agnes 15](https://product-images.therealreal.com/THR222719_1_enlarged.jpg?auto=webp&width=3840)](https://www.there"
+    }
+   },
+   {
+    "dept": "style",
+    "rank": 91,
+    "source": "therealreal.com",
+    "title": "The Row · Canvas Agnes 15",
+    "ask": 3500.0,
+    "currency": "USD",
+    "condition": "Excellent",
+    "scores": {
+     "value": 3.4,
+     "rarity": 3.0,
+     "investment": 3.0
+    },
+    "link": "https://www.therealreal.com/products/women/handbags/handle-bags/the-row-canvas-agnes-15-x6tiz",
+    "link_state": "live",
+    "image": null,
+    "spec": {
+     "brand": "The Row",
+     "size": null,
+     "excerpt": "\nCondition: Excellent\n\n19% Off Est. Retail $4,300\n\n$3,500.00\n\n88\n\n[![Image 67: Leather Crosby](https://product-images.therealreal.com/KHAIT106336_1_enlarged.jpg?auto=webp&width=3840)](https://www.ther"
+    }
+   },
+   {
+    "dept": "style",
+    "rank": 64,
+    "source": "therealreal.com",
+    "title": "Khaite · Leather Crosby",
+    "ask": 1925.0,
+    "currency": "USD",
+    "condition": "Very Good",
+    "scores": {
+     "value": 3.4,
+     "rarity": 3.2,
+     "investment": 3.0
+    },
+    "link": "https://www.therealreal.com/products/women/handbags/totes/khaite-leather-the-amelia-medium-wy1sa",
+    "link_state": "live",
+    "image": null,
+    "spec": {
+     "brand": "Khaite",
+     "size": null,
+     "excerpt": "\nCondition: Very Good\n\n47% Off Est. Retail $3,600\n\n$1,925.00\n\n86\n\n[![Image 68: Striped Jacket](https://product-images.therealreal.com/BOT396882_1_enlarged.jpg?auto=webp&width=3840)](https://www.therea"
+    }
+   },
+   {
+    "dept": "style",
+    "rank": 71,
+    "source": "therealreal.com",
+    "title": "Bottega Veneta · Striped Jacket",
+    "ask": 510.0,
+    "currency": "USD",
+    "condition": "Excellent",
+    "scores": {
+     "value": 3.4,
+     "rarity": 3.1,
+     "investment": 3.0
+    },
+    "link": "https://www.therealreal.com/products/women/clothing/jackets/bottega-veneta-striped-jacket-wybpg",
+    "link_state": "live",
+    "image": null,
+    "spec": {
+     "brand": "Bottega Veneta",
+     "size": "M",
+     "excerpt": "\nSize M | US8, IT44\n\nCondition: Excellent\n\n86% Off Est. Retail $3,600\n\n$510.00\n\n85\n\n[![Image 69: Leather Motocross City Giant](https://product-images.therealreal.com/BAL410830_1_enlarged.jpg?auto=webp"
+    }
+   },
+   {
+    "dept": "style",
+    "rank": 102,
+    "source": "therealreal.com",
+    "title": "Balenciaga · Leather Motocross City Giant",
+    "ask": 1295.0,
+    "currency": "USD",
+    "condition": "Fair",
+    "scores": {
+     "value": 3.4,
+     "rarity": 2.7,
+     "investment": 3.0
+    },
+    "link": "https://www.therealreal.com/products/women/handbags/handle-bags/balenciaga-leather-motocross-city-giant-xbzq0",
+    "link_state": "live",
+    "image": null,
+    "spec": {
+     "brand": "Balenciaga",
+     "size": null,
+     "excerpt": "\nCondition: Fair\n\n$1,295.00\n\n83\n\n[![Image 70: Horsebit Softbit Maxi](https://product-images.therealreal.com/GUC2189629_1_enlarged.jpg?auto=webp&width=3840)](https://www.therealreal.com/products/women/"
+    }
+   },
+   {
+    "dept": "style",
+    "rank": 65,
+    "source": "therealreal.com",
+    "title": "Gucci · Horsebit Softbit Maxi",
+    "ask": 3095.0,
+    "currency": "USD",
+    "condition": "Very Good",
+    "scores": {
+     "value": 3.4,
+     "rarity": 3.2,
+     "investment": 3.0
+    },
+    "link": "https://www.therealreal.com/products/women/handbags/shoulder-bags/gucci-horsebit-softbit-maxi-xcbhg",
+    "link_state": "live",
+    "image": null,
+    "spec": {
+     "brand": "Gucci",
+     "size": null,
+     "excerpt": "\nCondition: Very Good\n\n16% Off Est. Retail $3,700\n\n$3,095.00\n\n80\n\n[![Image 71: Leather Saint Laurent Mombasa](https://product-images.therealreal.com/YVE280133_1_enlarged.jpg?auto=webp&width=3840)](htt"
+    }
+   },
+   {
+    "dept": "style",
+    "rank": 46,
+    "source": "therealreal.com",
+    "title": "Chanel · 2022 Mini Skirt w/ Tags",
+    "ask": 1315.0,
+    "currency": "USD",
+    "condition": "Pristine",
+    "scores": {
+     "value": 3.4,
+     "rarity": 3.7,
+     "investment": 3.0
+    },
+    "link": "https://www.therealreal.com/products/women/clothing/skirts/chanel-2022-mini-skirt-w-tags-x8md0",
+    "link_state": "live",
+    "image": null,
+    "spec": {
+     "brand": "Chanel",
+     "size": "S",
+     "excerpt": "\nSize S | US4, FR36\n\nCondition: Pristine\n\n$1,315.00\n\n79\n\n[![Image 73: Toile Fourre Tout MM](https://product-images.therealreal.com/HER899004_1_enlarged.jpg?auto=webp&width=3840)](https://www.therealre"
+    }
+   },
+   {
+    "dept": "style",
+    "rank": 49,
+    "source": "therealreal.com",
+    "title": "Hermès · Toile Fourre Tout MM",
+    "ask": 275.0,
+    "currency": "USD",
+    "condition": "Good",
+    "scores": {
+     "value": 3.4,
+     "rarity": 3.6,
+     "investment": 3.0
+    },
+    "link": "https://www.therealreal.com/products/women/handbags/totes/hermes-toile-fourre-tout-mm-x5zcw",
+    "link_state": "live",
+    "image": null,
+    "spec": {
+     "brand": "Hermès",
+     "size": null,
+     "excerpt": "\nCondition: Good\n\n$275.00\n\n79\n\n[![Image 74: Saffiano Leather Card Holder](https://product-images.therealreal.com/PRA1301571_1_enlarged.jpg?auto=webp&width=3840)](https://www.therealreal.com/products/w"
+    }
+   },
+   {
+    "dept": "style",
+    "rank": 28,
+    "source": "therealreal.com",
+    "title": "Prada · Saffiano Leather Card Holder",
+    "ask": 245.0,
+    "currency": "USD",
+    "condition": "Very Good",
+    "scores": {
+     "value": 3.4,
+     "rarity": 4.2,
+     "investment": 3.0
+    },
+    "link": "https://www.therealreal.com/products/women/accessories/wallets/prada-saffiano-leather-card-holder-xb5uo",
+    "link_state": "live",
+    "image": null,
+    "spec": {
+     "brand": "Prada",
+     "size": null,
+     "excerpt": "\nCondition: Very Good\n\n69% Off Est. Retail $795\n\n$245.00\n\n77\n\n[![Image 75: Vintage Leather Sandals](https://product-images.therealreal.com/PRA1304063_1_enlarged.jpg?auto=webp&width=3840)](https://www."
+    }
+   },
+   {
+    "dept": "style",
+    "rank": 50,
+    "source": "therealreal.com",
+    "title": "Prada · Vintage Leather Sandals",
+    "ask": 325.0,
+    "currency": "USD",
+    "condition": "Good",
+    "scores": {
+     "value": 3.4,
+     "rarity": 3.6,
+     "investment": 3.0
+    },
+    "link": "https://www.therealreal.com/products/women/shoes/sandals/prada-leather-sandals-xedi0",
+    "link_state": "live",
+    "image": null,
+    "spec": {
+     "brand": "Prada",
+     "size": "10",
+     "excerpt": "\nSize 10 | IT 40\n\nCondition: Good\n\n$325.00\n\n75\n\n[![Image 76: Satin Minaudière](https://product-images.therealreal.com/ROB175100_1_enlarged.jpg?auto=webp&width=3840)](https://www.therealreal.com/produc"
+    }
+   },
+   {
+    "dept": "style",
+    "rank": 29,
+    "source": "therealreal.com",
+    "title": "Roberto Cavalli · Satin Minaudière",
+    "ask": 575.0,
+    "currency": "USD",
+    "condition": "Very Good",
+    "scores": {
+     "value": 3.4,
+     "rarity": 4.2,
+     "investment": 3.0
+    },
+    "link": "https://www.therealreal.com/products/women/handbags/crossbody-bags/roberto-cavalli-satin-minaudiere-xba1b",
+    "link_state": "live",
+    "image": null,
+    "spec": {
+     "brand": "Roberto Cavalli",
+     "size": null,
+     "excerpt": "\nCondition: Very Good\n\n83% Off Est. Retail $3,300\n\n$575.00\n\n75\n\n[![Image 77: Intrecciato Ebano Large](https://product-images.therealreal.com/BOT394628_1_enlarged.jpg?auto=webp&width=3840)](https://www"
+    }
+   },
+   {
+    "dept": "style",
+    "rank": 59,
+    "source": "therealreal.com",
+    "title": "Chanel · Denim Sweetheart Crush Mini Flap Bag",
+    "ask": 5325.0,
+    "currency": "USD",
+    "condition": "Excellent",
+    "scores": {
+     "value": 3.4,
+     "rarity": 3.3000000000000003,
+     "investment": 3.0
+    },
+    "link": "https://www.therealreal.com/products/women/handbags/crossbody-bags/chanel-denim-sweetheart-crush-mini-flap-bag-x461q",
+    "link_state": "live",
+    "image": null,
+    "spec": {
+     "brand": "Chanel",
+     "size": null,
+     "excerpt": "\nCondition: Excellent\n\n$5,325.00\n\n73\n\n[![Image 79: Calfskin Terrasse To-Go Small](https://product-images.therealreal.com/THR221585_1_enlarged.jpg?auto=webp&width=3840)](https://www.therealreal.com/pro"
+    }
+   },
+   {
+    "dept": "style",
+    "rank": 92,
+    "source": "therealreal.com",
+    "title": "The Row · Calfskin Terrasse To-Go Small",
+    "ask": 2500.0,
+    "currency": "USD",
+    "condition": "Excellent",
+    "scores": {
+     "value": 3.4,
+     "rarity": 3.0,
+     "investment": 3.0
+    },
+    "link": "https://www.therealreal.com/products/women/handbags/shoulder-bags/the-row-calfskin-terrasse-to-go-small-x0x0v",
+    "link_state": "live",
+    "image": null,
+    "spec": {
+     "brand": "The Row",
+     "size": null,
+     "excerpt": "\nCondition: Excellent\n\n$2,500.00\n\n73\n\n[![Image 80: Quilted Satin Airline Medium Double Flap Bag](https://product-images.therealreal.com/CHA1513177_1_enlarged.jpg?auto=webp&width=3840)](https://www.the"
+    }
+   },
+   {
+    "dept": "style",
+    "rank": 32,
+    "source": "therealreal.com",
+    "title": "Chanel · Quilted Satin Airline Medium Double Flap Bag",
+    "ask": 4900.0,
+    "currency": "USD",
+    "condition": "Very Good",
+    "scores": {
+     "value": 3.4,
+     "rarity": 4.1,
+     "investment": 3.0
+    },
+    "link": "https://www.therealreal.com/products/women/handbags/shoulder-bags/chanel-quilted-satin-airline-medium-double-flap-bag-wupki",
+    "link_state": "live",
+    "image": null,
+    "spec": {
+     "brand": "Chanel",
+     "size": null,
+     "excerpt": "\nCondition: Very Good\n\n$4,900.00\n\n73\n\n[![Image 81: Multicolore Monogram Speedy Nano](https://product-images.therealreal.com/LOU1361318_1_enlarged.jpg?auto=webp&width=3840)](https://www.therealreal.com"
+    }
+   },
+   {
+    "dept": "style",
+    "rank": 72,
+    "source": "therealreal.com",
+    "title": "Louis Vuitton · Multicolore Monogram Speedy Nano",
+    "ask": 2975.0,
+    "currency": "USD",
+    "condition": "Very Good",
+    "scores": {
+     "value": 3.4,
+     "rarity": 3.1,
+     "investment": 3.0
+    },
+    "link": "https://www.therealreal.com/products/women/handbags/handle-bags/louis-vuitton-multicolore-monogram-speedy-nano-xdb8m",
+    "link_state": "live",
+    "image": null,
+    "spec": {
+     "brand": "Louis Vuitton",
+     "size": null,
+     "excerpt": "\nCondition: Very Good\n\n$2,975.00\n\n70\n\n[![Image 82: Leather Lounge Medium](https://product-images.therealreal.com/TTM72851_1_enlarged.jpg?auto=webp&width=3840)](https://www.therealreal.com/products/wom"
+    }
+   },
+   {
+    "dept": "style",
+    "rank": 33,
+    "source": "therealreal.com",
+    "title": "TOTEME · Leather Lounge Medium",
+    "ask": 1445.0,
+    "currency": "USD",
+    "condition": "Excellent",
+    "scores": {
+     "value": 3.4,
+     "rarity": 4.1,
+     "investment": 3.0
+    },
+    "link": "https://www.therealreal.com/products/women/handbags/totes/toteme-leather-lounge-medium-x71qd",
+    "link_state": "live",
+    "image": null,
+    "spec": {
+     "brand": "TOTEME",
+     "size": null,
+     "excerpt": "\nCondition: Excellent\n\n17% Off Est. Retail $1,750\n\n$1,445.00\n\n70\n\n[![Image 83: Intrecciato Wallace Mini](https://product-images.therealreal.com/BOT396839_1_enlarged.jpg?auto=webp&width=3840)](https://"
+    }
+   },
+   {
+    "dept": "style",
+    "rank": 73,
+    "source": "therealreal.com",
+    "title": "Bottega Veneta · Intrecciato Wallace Mini",
+    "ask": 2845.0,
+    "currency": "USD",
+    "condition": "Excellent",
+    "scores": {
+     "value": 3.4,
+     "rarity": 3.1,
+     "investment": 3.0
+    },
+    "link": "https://www.therealreal.com/products/women/handbags/handle-bags/bottega-veneta-intrecciato-wallace-mini-wy4go",
+    "link_state": "live",
+    "image": null,
+    "spec": {
+     "brand": "Bottega Veneta",
+     "size": null,
+     "excerpt": "\nCondition: Excellent\n\n14% Off Est. Retail $3,300\n\n$2,845.00\n\n70\n\n[![Image 84: 2019 Leather Jacket](https://product-images.therealreal.com/BAL410994_1_enlarged.jpg?auto=webp&width=3840)](https://www.t"
+    }
+   },
+   {
+    "dept": "style",
+    "rank": 34,
+    "source": "therealreal.com",
+    "title": "Balenciaga · 2019 Leather Jacket",
+    "ask": 1745.0,
+    "currency": "USD",
+    "condition": "Very Good",
+    "scores": {
+     "value": 3.4,
+     "rarity": 4.1,
+     "investment": 3.0
+    },
+    "link": "https://www.therealreal.com/products/women/clothing/jackets/balenciaga-2019-leather-jacket-xcl34",
+    "link_state": "live",
+    "image": null,
+    "spec": {
+     "brand": "Balenciaga",
+     "size": "XS",
+     "excerpt": "\nSize XS | US0, FR32\n\nCondition: Very Good\n\n49% Off Est. Retail $3,400\n\n$1,745.00\n\n69\n\n[![Image 85: Vintage 2000's Jacket](https://product-images.therealreal.com/MOS99231_1_enlarged.jpg?auto=webp&widt"
+    }
+   },
+   {
+    "dept": "style",
+    "rank": 35,
+    "source": "therealreal.com",
+    "title": "Moschino · Vintage 2000's Jacket",
+    "ask": 895.0,
+    "currency": "USD",
+    "condition": "Very Good",
+    "scores": {
+     "value": 3.4,
+     "rarity": 4.1,
+     "investment": 3.0
+    },
+    "link": "https://www.therealreal.com/products/women/clothing/jackets/moschino-vintage-2000-s-jacket-x7yvp",
+    "link_state": "live",
+    "image": null,
+    "spec": {
+     "brand": "Moschino",
+     "size": "M",
+     "excerpt": "\nSize M | US 6\n\nCondition: Very Good\n\n$895.00\n\n67\n\n[![Image 86: Intrecciato Shoulder Bag Vintage](https://product-images.therealreal.com/BOT398608_1_enlarged.jpg?auto=webp&width=3840)](https://www.the"
+    }
+   },
+   {
+    "dept": "style",
+    "rank": 74,
+    "source": "therealreal.com",
+    "title": "Bottega Veneta · Intrecciato Shoulder Bag Vintage",
+    "ask": 1875.0,
+    "currency": "USD",
+    "condition": "Very Good",
+    "scores": {
+     "value": 3.4,
+     "rarity": 3.1,
+     "investment": 3.0
+    },
+    "link": "https://www.therealreal.com/products/women/handbags/shoulder-bags/bottega-veneta-intrecciato-shoulder-bag-vintage-x3t2z",
+    "link_state": "live",
+    "image": null,
+    "spec": {
+     "brand": "Bottega Veneta",
+     "size": null,
+     "excerpt": "\nCondition: Very Good\n\n$1,875.00\n\n67\n\n[![Image 87: 2025 Kelly Jumping Riding Boots w/ Tags](https://product-images.therealreal.com/HER897336_1_enlarged.jpg?auto=webp&width=3840)](https://www.therealre"
+    }
+   },
+   {
+    "dept": "style",
+    "rank": 57,
+    "source": "therealreal.com",
+    "title": "Hermès · 2025 Kelly Jumping Riding Boots w/ Tags",
+    "ask": 2600.0,
+    "currency": "USD",
+    "condition": "Pristine",
+    "scores": {
+     "value": 3.4,
+     "rarity": 3.4,
+     "investment": 3.0
+    },
+    "link": "https://www.therealreal.com/products/women/shoes/boots/hermes-2025-kelly-jumping-riding-boots-w-tags-x3le1",
+    "link_state": "live",
+    "image": null,
+    "spec": {
+     "brand": "Hermès",
+     "size": "7",
+     "excerpt": "\nSize 7 | IT 37\n\nCondition: Pristine\n\n26% Off Est. Retail $3,500\n\n$2,600.00\n\n67\n\n[![Image 88: Dior Fendi SL](https://assets.therealreal.com/prismic/the-realreal/cur2WCWj9iZthtyA_PLPCard-OnSale_3x.webp"
+    }
+   },
+   {
+    "dept": "style",
+    "rank": 37,
+    "source": "therealreal.com",
+    "title": "Celine · Vintage Knee-Length Dress",
+    "ask": 545.0,
+    "currency": "USD",
+    "condition": "Excellent",
+    "scores": {
+     "value": 3.4,
+     "rarity": 4.0,
+     "investment": 3.0
+    },
+    "link": "https://www.therealreal.com/products/women/clothing/dresses/celine-vintage-knee-length-dress-xao53",
+    "link_state": "live",
+    "image": null,
+    "spec": {
+     "brand": "Celine",
+     "size": "M",
+     "excerpt": "\nSize M | US6, FR38\n\nCondition: Excellent\n\n72% Off Est. Retail $1,950\n\n$545.00\n\n65\n\n[![Image 90: Bateau Neckline Sweater](https://product-images.therealreal.com/WCF26887_1_enlarged.jpg?auto=webp&width"
+    }
+   },
+   {
+    "dept": "style",
+    "rank": 60,
+    "source": "therealreal.com",
+    "title": "Chan Luu · Bateau Neckline Sweater",
+    "ask": 165.0,
+    "currency": "USD",
+    "condition": "Excellent",
+    "scores": {
+     "value": 3.4,
+     "rarity": 3.3000000000000003,
+     "investment": 3.0
+    },
+    "link": "https://www.therealreal.com/products/women/clothing/knitwear/chan-luu-bateau-neckline-sweater-xf87m",
+    "link_state": "live",
+    "image": null,
+    "spec": {
+     "brand": "Chan Luu",
+     "size": "S",
+     "excerpt": "\nSize S\n\nCondition: Excellent\n\n$165.00\n\n64\n\n[![Image 91: Patent Leather Slingback Flats](https://product-images.therealreal.com/MAI115191_1_enlarged.jpg?auto=webp&width=3840)](https://www.therealreal."
+    }
+   },
+   {
+    "dept": "style",
+    "rank": 58,
+    "source": "therealreal.com",
+    "title": "Maison Margiela · Patent Leather Slingback Flats",
+    "ask": 685.0,
+    "currency": "USD",
+    "condition": "Good",
+    "scores": {
+     "value": 3.4,
+     "rarity": 3.4,
+     "investment": 3.0
+    },
+    "link": "https://www.therealreal.com/products/women/shoes/flats/maison-margiela-patent-leather-slingback-flats-xbacr",
+    "link_state": "live",
+    "image": null,
+    "spec": {
+     "brand": "Maison Margiela",
+     "size": "10.5",
+     "excerpt": "\nSize 10.5 | IT 40.5\n\nCondition: Good\n\n40% Off Est. Retail $1,150\n\n$685.00\n\n64\n\n[![Image 92: Leather Bow Accents Ballet Flats w/ Tags](https://product-images.therealreal.com/CHT579487_1_enlarged.jpg?a"
+    }
+   },
+   {
+    "dept": "style",
+    "rank": 61,
+    "source": "therealreal.com",
+    "title": "Christian Louboutin · Leather Bow Accents Ballet Flats w/ Tags",
+    "ask": 550.0,
+    "currency": "USD",
+    "condition": "Pristine",
+    "scores": {
+     "value": 3.4,
+     "rarity": 3.3,
+     "investment": 3.0
+    },
+    "link": "https://www.therealreal.com/products/women/shoes/flats/christian-louboutin-leather-bow-accents-ballet-flats-w-tags-xawai",
+    "link_state": "live",
+    "image": null,
+    "spec": {
+     "brand": "Christian Louboutin",
+     "size": "8.5",
+     "excerpt": "\nSize 8.5 | IT 38.5\n\nCondition: Pristine\n\n26% Off Est. Retail $745\n\n$550.00\n\n64\n\n[![Image 93: Canal Leather Flats](https://product-images.therealreal.com/THR223279_1_enlarged.jpg?auto=webp&width=3840)"
+    }
+   },
+   {
+    "dept": "style",
+    "rank": 93,
+    "source": "therealreal.com",
+    "title": "The Row · Canal Leather Flats",
+    "ask": 645.0,
+    "currency": "USD",
+    "condition": "Very Good",
+    "scores": {
+     "value": 3.4,
+     "rarity": 3.0,
+     "investment": 3.0
+    },
+    "link": "https://www.therealreal.com/products/women/shoes/flats/the-row-canal-leather-flats-x9rev",
+    "link_state": "live",
+    "image": null,
+    "spec": {
+     "brand": "The Row",
+     "size": "9",
+     "excerpt": "\nSize 9 | IT 39\n\nCondition: Very Good\n\n$645.00\n\n61\n\n[![Image 94: 2026 Interlocking CC Logo Ballet Flats](https://product-images.therealreal.com/CHA1531469_1_enlarged.jpg?auto=webp&width=3840)](https:/"
+    }
+   },
+   {
+    "dept": "style",
+    "rank": 66,
+    "source": "therealreal.com",
+    "title": "Chanel · 2026 Interlocking CC Logo Ballet Flats",
+    "ask": 2225.0,
+    "currency": "USD",
+    "condition": "Excellent",
+    "scores": {
+     "value": 3.4,
+     "rarity": 3.2,
+     "investment": 3.0
+    },
+    "link": "https://www.therealreal.com/products/women/shoes/flats/chanel-2026-interlocking-cc-logo-ballet-flats-xc56e",
+    "link_state": "live",
+    "image": null,
+    "spec": {
+     "brand": "Chanel",
+     "size": "9.5",
+     "excerpt": "\nSize 9.5 | IT 39.5\n\nCondition: Excellent\n\n$2,225.00\n\n60\n\n[![Image 95: Vintage Knee-Length Dress](https://product-images.therealreal.com/JEA76439_1_enlarged.jpg?auto=webp&width=3840)](https://www.ther"
+    }
+   },
+   {
+    "dept": "style",
+    "rank": 39,
+    "source": "therealreal.com",
+    "title": "Jean Paul Gaultier · Vintage Knee-Length Dress",
+    "ask": 1195.0,
+    "currency": "USD",
+    "condition": "Excellent",
+    "scores": {
+     "value": 3.4,
+     "rarity": 3.9,
+     "investment": 3.0
+    },
+    "link": "https://www.therealreal.com/products/women/clothing/dresses/jean-paul-gaultier-vintage-knee-length-dress-xbnit",
+    "link_state": "live",
+    "image": null,
+    "spec": {
+     "brand": "Jean Paul Gaultier",
+     "size": "M",
+     "excerpt": "\nSize M | US6, IT42\n\nCondition: Excellent\n\n$1,195.00\n\n60\n\n[![Image 96: Floral Print Midi Length Skirt](https://product-images.therealreal.com/WTO879277_1_enlarged.jpg?auto=webp&width=3840)](https://ww"
+    }
+   },
+   {
+    "dept": "style",
+    "rank": 40,
+    "source": "therealreal.com",
+    "title": "Tory Burch · Floral Print Midi Length Skirt",
+    "ask": 195.0,
+    "currency": "USD",
+    "condition": "Excellent",
+    "scores": {
+     "value": 3.4,
+     "rarity": 3.9,
+     "investment": 3.0
+    },
+    "link": "https://www.therealreal.com/products/women/clothing/skirts/tory-burch-floral-print-midi-length-skirt-xhj9a",
+    "link_state": "live",
+    "image": null,
+    "spec": {
+     "brand": "Tory Burch",
+     "size": "M",
+     "excerpt": "\nSize M | US 8\n\nCondition: Excellent\n\n$195.00\n\n59\n\n[![Image 97: Narrow Tinted Sunglasses](https://product-images.therealreal.com/MIU264971_1_enlarged.jpg?auto=webp&width=3840)](https://www.therealreal"
+    }
+   },
+   {
+    "dept": "style",
+    "rank": 41,
+    "source": "therealreal.com",
+    "title": "Miu Miu · Narrow Tinted Sunglasses",
+    "ask": 445.0,
+    "currency": "USD",
+    "condition": "Very Good",
+    "scores": {
+     "value": 3.4,
+     "rarity": 3.9,
+     "investment": 3.0
+    },
+    "link": "https://www.therealreal.com/products/women/accessories/sunglasses/miu-miu-narrow-tinted-sunglasses-xcpix",
+    "link_state": "live",
+    "image": null,
+    "spec": {
+     "brand": "Miu Miu",
+     "size": null,
+     "excerpt": "\nCondition: Very Good\n\n$445.00\n\n59\n\n[![Image 98: Wool Utility Jacket](https://product-images.therealreal.com/IUJKO20311_1_enlarged.jpg?auto=webp&width=3840)](https://www.therealreal.com/products/women"
+    }
+   },
+   {
+    "dept": "style",
+    "rank": 42,
+    "source": "therealreal.com",
+    "title": "Liberowe · Wool Utility Jacket",
+    "ask": 895.0,
+    "currency": "USD",
+    "condition": "Very Good",
+    "scores": {
+     "value": 3.4,
+     "rarity": 3.8000000000000003,
+     "investment": 3.0
+    },
+    "link": "https://www.therealreal.com/products/women/clothing/jackets/liberowe-wool-utility-jacket-xcf53",
+    "link_state": "live",
+    "image": null,
+    "spec": {
+     "brand": "Liberowe",
+     "size": "XS",
+     "excerpt": "\nSize XS\n\nCondition: Very Good\n\n49% Off Est. Retail $1,750\n\n$895.00\n\n59\n\n[![Image 99: Satin Crystal Embellishments Sandals](https://product-images.therealreal.com/AMINM33675_1_enlarged.jpg?auto=webp&w"
+    }
+   },
+   {
+    "dept": "style",
+    "rank": 43,
+    "source": "therealreal.com",
+    "title": "Amina Muaddi · Satin Crystal Embellishments Sandals",
+    "ask": 335.0,
+    "currency": "USD",
+    "condition": "Very Good",
+    "scores": {
+     "value": 3.4,
+     "rarity": 3.8000000000000003,
+     "investment": 3.0
+    },
+    "link": "https://www.therealreal.com/products/women/shoes/sandals/amina-muaddi-satin-crystal-embellishments-sandals-x5t3j",
+    "link_state": "live",
+    "image": null,
+    "spec": {
+     "brand": "Amina Muaddi",
+     "size": "7",
+     "excerpt": "\nSize 7 | IT 37\n\nCondition: Very Good\n\n71% Off Est. Retail $1,175\n\n$335.00\n\n57\n\n[![Image 100: Silk Long Dress](https://product-images.therealreal.com/ROD29632_1_enlarged.jpg?auto=webp&width=3840)](htt"
+    }
+   },
+   {
+    "dept": "style",
+    "rank": 44,
+    "source": "therealreal.com",
+    "title": "Rodarte · Silk Long Dress",
+    "ask": 1125.0,
+    "currency": "USD",
+    "condition": "Excellent",
+    "scores": {
+     "value": 3.4,
+     "rarity": 3.8000000000000003,
+     "investment": 3.0
+    },
+    "link": "https://www.therealreal.com/products/women/clothing/dresses/rodarte-silk-long-dress-xcjbb",
+    "link_state": "live",
+    "image": null,
+    "spec": {
+     "brand": "Rodarte",
+     "size": "XS",
+     "excerpt": "\nSize XS | US 0\n\nCondition: Excellent\n\n32% Off Est. Retail $1,660\n\n$1,125.00\n\n54\n\n[![Image 101: Leather Flared Pants](https://product-images.therealreal.com/EMI157358_1_enlarged.jpg?auto=webp&width=38"
+    }
+   },
+   {
+    "dept": "style",
+    "rank": 45,
+    "source": "therealreal.com",
+    "title": "Emilio Pucci · Leather Flared Pants",
+    "ask": 575.0,
+    "currency": "USD",
+    "condition": "Excellent",
+    "scores": {
+     "value": 3.4,
+     "rarity": 3.8000000000000003,
+     "investment": 3.0
+    },
+    "link": "https://www.therealreal.com/products/women/clothing/pants/emilio-pucci-leather-flared-pants-xd5wi",
+    "link_state": "live",
+    "image": null,
+    "spec": {
+     "brand": "Emilio Pucci",
+     "size": "L",
+     "excerpt": "\nSize L\n\nCondition: Excellent\n\n$575.00\n\n52\n\n[![Image 102: Utility Jacket](https://product-images.therealreal.com/LOW121531_1_enlarged.jpg?auto=webp&width=3840)](https://www.therealreal.com/products/wo"
+    }
+   },
+   {
+    "dept": "style",
+    "rank": 47,
+    "source": "therealreal.com",
+    "title": "Loewe · Utility Jacket",
+    "ask": 1195.0,
+    "currency": "USD",
+    "condition": "Very Good",
+    "scores": {
+     "value": 3.4,
+     "rarity": 3.7,
+     "investment": 3.0
+    },
+    "link": "https://www.therealreal.com/products/women/clothing/jackets/loewe-utility-jacket-xbhnr",
+    "link_state": "live",
+    "image": null,
+    "spec": {
+     "brand": "Loewe",
+     "size": "S",
+     "excerpt": "\nSize S | US4, FR36\n\nCondition: Very Good\n\n68% Off Est. Retail $3,700\n\n$1,195.00\n\n52\n\n[![Image 103: Leather Half Moon](https://product-images.therealreal.com/THR223110_1_enlarged.jpg?auto=webp&width=3"
+    }
+   },
+   {
+    "dept": "style",
+    "rank": 94,
+    "source": "therealreal.com",
+    "title": "The Row · Leather Half Moon",
+    "ask": 1245.0,
+    "currency": "USD",
+    "condition": "Excellent",
+    "scores": {
+     "value": 3.4,
+     "rarity": 3.0,
+     "investment": 3.0
+    },
+    "link": "https://www.therealreal.com/products/women/handbags/shoulder-bags/the-row-leather-half-moon-x8sj1",
+    "link_state": "live",
+    "image": null,
+    "spec": {
+     "brand": "The Row",
+     "size": null,
+     "excerpt": "\nCondition: Excellent\n\n$1,245.00\n\n52\n\n[![Image 104: Leather Beatrix Medium w/ Tags](https://product-images.therealreal.com/GUC2148557_1_enlarged.jpg?auto=webp&width=3840)](https://www.therealreal.com/"
+    }
+   },
+   {
+    "dept": "style",
+    "rank": 75,
+    "source": "therealreal.com",
+    "title": "Gucci · Leather Beatrix Medium w/ Tags",
+    "ask": 2125.0,
+    "currency": "USD",
+    "condition": "Pristine",
+    "scores": {
+     "value": 3.4,
+     "rarity": 3.1,
+     "investment": 3.0
+    },
+    "link": "https://www.therealreal.com/products/women/handbags/totes/gucci-leather-beatrix-medium-w-tags-wiw2r",
+    "link_state": "live",
+    "image": null,
+    "spec": {
+     "brand": "Gucci",
+     "size": null,
+     "excerpt": "\nCondition: Pristine\n\n$2,125.00\n\n52\n\n[![Image 105: Leather Boots](https://product-images.therealreal.com/ISA279788_1_enlarged.jpg?auto=webp&width=3840)](https://www.therealreal.com/products/women/shoe"
+    }
+   },
+   {
+    "dept": "style",
+    "rank": 48,
+    "source": "therealreal.com",
+    "title": "Isabel Marant · Leather Boots",
+    "ask": 410.0,
+    "currency": "USD",
+    "condition": "Very Good",
+    "scores": {
+     "value": 3.4,
+     "rarity": 3.7,
+     "investment": 3.0
+    },
+    "link": "https://www.therealreal.com/products/women/shoes/boots/isabel-marant-leather-boots-xcpq1",
+    "link_state": "live",
+    "image": null,
+    "spec": {
+     "brand": "Isabel Marant",
+     "size": "8",
+     "excerpt": "\nSize 8 | FR 39\n\nCondition: Very Good\n\n77% Off Est. Retail $1,745\n\n$410.00\n\n51\n\n[![Image 106: Dopp Kit Toiletry Pouch w/ Tags](https://product-images.therealreal.com/LOU1359793_1_enlarged.jpg?auto=web"
+    }
+   },
+   {
+    "dept": "style",
+    "rank": 105,
+    "source": "therealreal.com",
+    "title": "Louis Vuitton · Dopp Kit Toiletry Pouch w/ Tags",
+    "ask": 1445.0,
+    "currency": "USD",
+    "condition": "Pristine",
+    "scores": {
+     "value": 3.4,
+     "rarity": 2.5,
+     "investment": 3.0
+    },
+    "link": "https://www.therealreal.com/products/women/accessories/cosmetic-bags/louis-vuitton-dopp-kit-toiletry-pouch-w-tags-xbj5c",
+    "link_state": "live",
+    "image": null,
+    "spec": {
+     "brand": "Louis Vuitton",
+     "size": null,
+     "excerpt": "\nCondition: Pristine\n\n$1,445.00\n\n51\n\n[![Image 107: Nano Kelly Shopper](https://product-images.therealreal.com/CHA1530404_1_enlarged.jpg?auto=webp&width=3840)](https://www.therealreal.com/products/wome"
+    }
+   },
+   {
+    "dept": "style",
+    "rank": 51,
+    "source": "therealreal.com",
+    "title": "Chanel · Nano Kelly Shopper",
+    "ask": 5300.0,
+    "currency": "USD",
+    "condition": "Excellent",
+    "scores": {
+     "value": 3.4,
+     "rarity": 3.6,
+     "investment": 3.0
+    },
+    "link": "https://www.therealreal.com/products/women/handbags/handle-bags/chanel-nano-kelly-shopper-xb64y",
+    "link_state": "live",
+    "image": null,
+    "spec": {
+     "brand": "Chanel",
+     "size": null,
+     "excerpt": "\nCondition: Excellent\n\n$5,300.00\n\n51\n\n[![Image 108: Metal Minaudière](https://product-images.therealreal.com/AL2122276_1_enlarged.jpg?auto=webp&width=3840)](https://www.therealreal.com/products/women/"
+    }
+   },
+   {
+    "dept": "style",
+    "rank": 95,
+    "source": "therealreal.com",
+    "title": "Alaïa · Metal Minaudière",
+    "ask": 945.0,
+    "currency": "USD",
+    "condition": "Good",
+    "scores": {
+     "value": 3.4,
+     "rarity": 3.0,
+     "investment": 3.0
+    },
+    "link": "https://www.therealreal.com/products/women/handbags/clutches/alaia-metal-minaudiere-xam0g",
+    "link_state": "live",
+    "image": null,
+    "spec": {
+     "brand": "Alaïa",
+     "size": null,
+     "excerpt": "\nCondition: Good\n\n75% Off Est. Retail $3,800\n\n$945.00\n\n49\n\n[![Image 109: Epsom Kelly II Sellier 25](https://product-images.therealreal.com/HER900010_1_enlarged.jpg?auto=webp&width=3840)](https://www.t"
+    }
+   },
+   {
+    "dept": "style",
+    "rank": 52,
+    "source": "therealreal.com",
+    "title": "Hermès · Epsom Kelly II Sellier 25",
+    "ask": 22000.0,
+    "currency": "USD",
+    "condition": "Very Good",
+    "scores": {
+     "value": 3.4,
+     "rarity": 3.6,
+     "investment": 3.0
+    },
+    "link": "https://www.therealreal.com/products/women/handbags/handle-bags/hermes-epsom-kelly-ii-sellier-25-x7dhm",
+    "link_state": "live",
+    "image": null,
+    "spec": {
+     "brand": "Hermès",
+     "size": null,
+     "excerpt": "\nCondition: Very Good\n\n$22,000.00\n\n49\n\n[![Image 110: Leather Simona Shoulder Bag](https://product-images.therealreal.com/KHAIT106643_1_enlarged.jpg?auto=webp&width=3840)](https://www.therealreal.com/p"
+    }
+   },
+   {
+    "dept": "style",
+    "rank": 67,
+    "source": "therealreal.com",
+    "title": "Khaite · Leather Simona Shoulder Bag",
+    "ask": 1495.0,
+    "currency": "USD",
+    "condition": "Excellent",
+    "scores": {
+     "value": 3.4,
+     "rarity": 3.2,
+     "investment": 3.0
+    },
+    "link": "https://www.therealreal.com/products/women/handbags/shoulder-bags/khaite-leather-simona-shoulder-bag-x0jkf",
+    "link_state": "live",
+    "image": null,
+    "spec": {
+     "brand": "Khaite",
+     "size": null,
+     "excerpt": "\nCondition: Excellent\n\n29% Off Est. Retail $2,100\n\n$1,495.00\n\n49\n\n[![Image 111: Bateau Neckline Mini Dress](https://product-images.therealreal.com/WMPIA21439_1_enlarged.jpg?auto=webp&width=3840)](http"
+    }
+   },
+   {
+    "dept": "style",
+    "rank": 53,
+    "source": "therealreal.com",
+    "title": "Mirror Palais · Bateau Neckline Mini Dress",
+    "ask": 325.0,
+    "currency": "USD",
+    "condition": "Very Good",
+    "scores": {
+     "value": 3.4,
+     "rarity": 3.6,
+     "investment": 3.0
+    },
+    "link": "https://www.therealreal.com/products/women/clothing/dresses/mirror-palais-bateau-neckline-mini-dress-x1mvz",
+    "link_state": "live",
+    "image": null,
+    "spec": {
+     "brand": "Mirror Palais",
+     "size": "M",
+     "excerpt": "\nSize M\n\nCondition: Very Good\n\n45% Off Est. Retail $595\n\n$325.00\n\n48\n\n[![Image 112: Vintage 1990's Top](https://product-images.therealreal.com/ANN56316_1_enlarged.jpg?auto=webp&width=3840)](https://ww"
+    }
+   },
+   {
+    "dept": "style",
+    "rank": 54,
+    "source": "therealreal.com",
+    "title": "Gucci · GG Canvas Paparazzo Large Vintage",
+    "ask": 3295.0,
+    "currency": "USD",
+    "condition": "Very Good",
+    "scores": {
+     "value": 3.4,
+     "rarity": 3.5,
+     "investment": 3.0
+    },
+    "link": "https://www.therealreal.com/products/women/handbags/shoulder-bags/gucci-gg-canvas-paparazzo-large-vintage-x7jx5",
+    "link_state": "live",
+    "image": null,
+    "spec": {
+     "brand": "Gucci",
+     "size": null,
+     "excerpt": "\nCondition: Very Good\n\n10% Off Est. Retail $3,650\n\n$3,295.00\n\n47\n\n[![Image 114: Lambskin Jacket](https://product-images.therealreal.com/WRLBL109235_1_enlarged.jpg?auto=webp&width=3840)](https://www.th"
+    }
+   },
+   {
+    "dept": "style",
+    "rank": 76,
+    "source": "therealreal.com",
+    "title": "Bottega Veneta · Animal Print Mules",
+    "ask": 210.0,
+    "currency": "USD",
+    "condition": "Very Good",
+    "scores": {
+     "value": 3.4,
+     "rarity": 3.1,
+     "investment": 3.0
+    },
+    "link": "https://www.therealreal.com/products/women/shoes/flats/bottega-veneta-animal-print-mules-xcf3y",
+    "link_state": "live",
+    "image": null,
+    "spec": {
+     "brand": "Bottega Veneta",
+     "size": "7",
+     "excerpt": "\nSize 7 | IT 37\n\nCondition: Very Good\n\n74% Off Est. Retail $820\n\n$210.00\n\n46\n\n[![Image 116: Signature Motocross City Giant Small](https://product-images.therealreal.com/BAL407589_1_enlarged.jpg?auto=w"
+    }
+   },
+   {
+    "dept": "style",
+    "rank": 96,
+    "source": "therealreal.com",
+    "title": "Balenciaga · Signature Motocross City Giant Small",
+    "ask": 1195.0,
+    "currency": "USD",
+    "condition": "Good",
+    "scores": {
+     "value": 3.4,
+     "rarity": 2.9,
+     "investment": 3.0
+    },
+    "link": "https://www.therealreal.com/products/women/handbags/handle-bags/balenciaga-signature-motocross-city-giant-small-x0efp",
+    "link_state": "live",
+    "image": null,
+    "spec": {
+     "brand": "Balenciaga",
+     "size": null,
+     "excerpt": "\nCondition: Good\n\n$1,195.00\n\n46\n\n1[2](https://www.therealreal.com/shop/women?page=2&after=YXJyYXljb25uZWN0aW9uOjExOQ%3D%3D)[](https://www.therealreal.com/shop/women?page=2&after=YXJyYXljb25uZWN0aW9uOj"
     }
    }
   ],
