@@ -8,10 +8,29 @@ and the browser-side filter rail without touching the DB.
 """
 import json, re, sqlite3, os
 
+# Display currency: normalize all asks to USD so every dept card reads in dollars.
+# Live-ish rates (frankfurter.app); refresh occasionally. Only used for display —
+# the DB keeps the native ask_cents/currency untouched.
+USD_RATES = {"GBP": 1.35, "EUR": 1.1267, "USD": 1.0}
+
 def connect(path="data/harvest.db"):
     con = sqlite3.connect(path)
     con.row_factory = sqlite3.Row
     return con
+
+def _to_usd(ask_raw, currency):
+    """ask_raw = cents in `currency`. Return (usd_cents, 'USD') or (None, currency)."""
+    if ask_raw is None or ask_raw <= 0:
+        return None, "USD"
+    cur = (currency or "USD").upper()
+    if cur == "\u00a3" or cur == "GBP":
+        cur = "GBP"
+    elif cur == "\u20ac" or cur == "EUR":
+        cur = "EUR"
+    rate = USD_RATES.get(cur, None)
+    if not rate or rate == 1.0:
+        return ask_raw, "USD"
+    return int(ask_raw * rate), "USD"
 
 def _clean_title(r):
     """Normalize per-source titles so cards read cleanly, not as scraped text.
@@ -54,11 +73,12 @@ def main():
             continue   # mis-extracted dealer/nav block — do not ship a broken card
         if len(title) > 80:
             title = title[:77].rstrip() + "\u2026"
+        usd_ask, usd_cur = _to_usd(r["ask_cents"], r["currency"])
         items.append({
             "dept": r["dept"], "rank": r["rank"], "source": r["source"],
             "title": title,
-            "ask": (r["ask_cents"] or 0) / 100 or None,
-            "currency": r["currency"], "condition": r["condition"],
+            "ask": (usd_ask or 0) / 100 or None,
+            "currency": usd_cur, "condition": r["condition"],
             "scores": {"value": r["s_value"], "rarity": r["s_quality"],
                        "investment": r["s_desirability"]},
             "link": r["url"] if live else (r["fallback_url"] or r["url"]),

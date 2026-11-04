@@ -149,6 +149,28 @@ def main():
                 if wi < len(wom):
                     mixed.append(wom[wi]); wi += 1
             rank_order = mixed
+        # ROAD: interleave marques so the page never reads as one make (BaT floods
+        # with the highest-scored marque otherwise — was all-Ferrari in the top-20).
+        elif d == "road":
+            def _make(i):
+                t = (con.execute("SELECT title FROM items WHERE id=?", (i,))
+                     .fetchone()["title"] or "")
+                tl = t.lower()
+                for mk in ("ferrari", "porsche", "lamborghini", "aston martin",
+                           "mclaren", "bugatti", "rolls", "bentley"):
+                    if mk in tl:
+                        return mk
+                return tl.split(" ")[0][:10]
+            bymake = {}
+            for i in rank_order:
+                bymake.setdefault(_make(i), []).append(i)
+            keys = list(bymake)
+            mixed = []
+            while any(bymake.values()):
+                for mk in keys:
+                    if bymake[mk]:
+                        mixed.append(bymake[mk].pop(0))
+            rank_order = mixed
         for rank, i in enumerate(rank_order, 1):
             con.execute("UPDATE items SET rank=? WHERE id=?", (rank, i))
     con.commit()

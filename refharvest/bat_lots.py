@@ -15,6 +15,9 @@ import db, fetch
 # url -> dept. Add category pages here to widen the feed (free, same shape).
 PAGES = {
     "https://bringatrailer.com/ferrari/": "road",
+    "https://bringatrailer.com/porsche/": "road",
+    "https://bringatrailer.com/lamborghini/": "road",
+    "https://bringatrailer.com/aston-martin/": "road",
 }
 
 def extract_lots(html):
@@ -79,7 +82,7 @@ def main():
                     "excerpt": (o.get("excerpt") or "")[:240],
                     "category": list((o.get("categories") or []) or []),
                 },
-                "fallback_url": ("https://bringatrailer.com/ferrari/"),
+                "fallback_url": ("https://bringatrailer.com/"),
             }
             db.upsert(con, rec)
             n += 1

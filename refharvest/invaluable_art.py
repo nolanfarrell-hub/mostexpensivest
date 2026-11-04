@@ -24,10 +24,13 @@ ART_KW = re.compile(r"(painting|work|oil|watercolour|watercolor|etching|print|"
                     r"art|piece|canvas|board|montage|engraving|gouache|acrylic|"
                     r"aquatint|lithograph|ink|pencil|charcoal|nude|portrait|ink)", re.I)
 # things that are NOT art even if they contain an art keyword
-NOT_ART = re.compile(r"(watch|jewel|ring|diamond|bracelet|necklace|pendant|parure|"
-                     r"sideboard|cabinet|chair|table|rug|carpet|door|sideboard|"
-                     r"furniture|vase|porcelain|bond|currency|coin|postage|car|"
-                     r"autograph|memorabilia|parity|badge|sneaker|jacket)", re.I)
+NOT_ART = re.compile(r"(watch|timepiece|wristwatch|rolex|cosmograph|chronograph|daytona|chrono|"
+                     r"jewel|ring|diamond|bracelet|necklace|pendant|parure|"
+                     r"handbag|bag|sideboard|cabinet|chair|table|rug|carpet|door|sideboard|"
+                     r"furniture|vase|porcelain|bond|currency|coin|postage|poster|advertising|"
+                     r"car|automobile|autograph|memorabilia|parity|badge|sneaker|jacket|"
+                     r"basket|dish|dinner|platter|plate|cabinet|wardrobe|decorative|cuddly|"
+                     r"bench|workbench|tool|vice|vintage timber)", re.I)
 
 def clean(s):
     return re.sub(r"\s+", " ", s or "").strip()
@@ -73,7 +76,7 @@ def main():
         img_url = None
         if title_m.lastindex and title_m.lastindex >= 2:
             img_url = title_m.group(2)
-        url = url_m.group(0)
+        url = url_m.group(0).split("?")[0]   # drop objectID/queryID (queryID changes each run, defeating UNIQUE-dedup)
         # house = a line like 'Lawsons' / 'Santa Fe Art Auction' before 'Est'
         house_m = re.search(r"\]\s*~*\s*([A-Z][A-Za-z0-9 &'.,-]{2,40})\.?\s+Est(?:\.)?:", card)
         house = clean(house_m.group(1)) if house_m else None
