@@ -172,7 +172,11 @@ footer{background:var(--ink);color:var(--cream);padding:60px 0 0;border-top:3px 
 .dsh h2 .no{font-family:var(--serif);font-style:italic;color:var(--bronze);margin-right:10px}
 .dsh .note{font-size:10px;letter-spacing:2px;text-transform:uppercase;color:var(--muted)}
 .dcards{display:grid;grid-template-columns:repeat(3,1fr);gap:0;border-top:1px solid var(--ink)}
-.dcard{padding:28px 26px;border-right:1px solid var(--line);border-bottom:1px solid var(--line);background:var(--card)}
+.dcard{padding:0 0 26px;display:block;border-right:1px solid var(--line);border-bottom:1px solid var(--line);background:var(--card);text-decoration:none;color:inherit}
+.dcard:hover{background:var(--card);box-shadow:inset 0 -3px 0 var(--bronze)}
+.dcard .dcimg{display:block;aspect-ratio:4/3;overflow:hidden;background:#eee;margin-bottom:14px}
+.dcard .dcimg img{width:100%;height:100%;object-fit:cover;display:block}
+.dcard .k,.dcard h3,.dcard p,.dcard .go{margin-left:26px;margin-right:26px}
 .dcard:nth-child(3n){border-right:none}
 .dcard .k{font-size:9px;letter-spacing:2.5px;text-transform:uppercase;color:var(--bronze);font-weight:600}
 .dcard h3{font-family:var(--serif);font-size:24px;font-weight:500;line-height:1.12;margin-top:12px}
