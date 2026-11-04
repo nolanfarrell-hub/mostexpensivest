@@ -1,6 +1,6 @@
 {
- "generated": "2026-11-04T13:41:23.025760",
- "count": 1045,
+ "generated": "2026-11-04T14:16:41.340883",
+ "count": 1068,
  "departments": {
   "field": [
    {
@@ -23283,133 +23283,7 @@
   "estates": [
    {
     "dept": "estates",
-    "rank": 1,
-    "source": "www.jamesedition.com",
-    "title": "Apartment in Libertà - Savonarola, Florence, Italy",
-    "ask": 3602240.0,
-    "currency": "USD",
-    "condition": null,
-    "scores": {
-     "value": 3.0,
-     "rarity": 5.0,
-     "investment": 3.0
-    },
-    "link": "https://www.jamesedition.com/real_estate/firenze-italy/appartamento-firenze-19064300",
-    "link_state": "live",
-    "image": "https://img.jamesedition.com/listing_images/2026/10/08/16/02/28/a48e010c-bc2b-416c-99c4-2e89997ee8bd/je/507x312xc.jpg",
-    "spec": {}
-   },
-   {
-    "dept": "estates",
-    "rank": 2,
-    "source": "www.jamesedition.com",
-    "title": "Apartment in Centro Storico, Como, Lombardy",
-    "ask": 787990.0,
-    "currency": "USD",
-    "condition": null,
-    "scores": {
-     "value": 3.0,
-     "rarity": 4.9,
-     "investment": 3.0
-    },
-    "link": "https://www.jamesedition.com/real_estate/como-italy/bright-apartment-with-panoramic-view-on-como-historic-centre-piazza-duomo-cavour-volta-area-19050571",
-    "link_state": "live",
-    "image": "https://img.jamesedition.com/listing_images/2026/10/07/13/09/51/45bfe590-8cea-4d27-b1f8-f35f1fd1d396/je/507x312xc.jpg",
-    "spec": {}
-   },
-   {
-    "dept": "estates",
-    "rank": 3,
-    "source": "www.jamesedition.com",
-    "title": "Villa in Moltrasio, Lombardy, Italy",
-    "ask": 12157562.0,
-    "currency": "USD",
-    "condition": null,
-    "scores": {
-     "value": 3.0,
-     "rarity": 4.8,
-     "investment": 3.0
-    },
-    "link": "https://www.jamesedition.com/real_estate/moltrasio-italy/exclusive-villa-with-pool-near-the-lake-in-moltrasio-19158969",
-    "link_state": "live",
-    "image": "https://img.jamesedition.com/listing_images/2026/10/22/08/33/30/138a1514-bb74-4378-9243-09207516136c/je/556x342xcxm.jpg",
-    "spec": {}
-   },
-   {
-    "dept": "estates",
-    "rank": 4,
-    "source": "www.jamesedition.com",
-    "title": "Castle in Meinhard, Hessen, Germany",
-    "ask": 5.8,
-    "currency": "USD",
-    "condition": null,
-    "scores": {
-     "value": 3.0,
-     "rarity": 4.6,
-     "investment": 3.0
-    },
-    "link": "https://www.jamesedition.com/real_estate/meinhard-germany/schloss-wolfsbrunnen-an-extraordinary-historic-castle-19078067",
-    "link_state": "live",
-    "image": "https://img.jamesedition.com/listing_images/2026/10/11/10/54/15/1fad0773-8855-4a44-8e96-a67bfdbd0007/je/556x342xcxm.jpg",
-    "spec": {}
-   },
-   {
-    "dept": "estates",
-    "rank": 5,
-    "source": "www.jamesedition.com",
-    "title": "Chateau in Yvrac, Nouvelle-Aquitaine, France",
-    "ask": 8442751.0,
-    "currency": "USD",
-    "condition": null,
-    "scores": {
-     "value": 3.0,
-     "rarity": 4.5,
-     "investment": 3.0
-    },
-    "link": "https://www.jamesedition.com/real_estate/yvrac-france/fully-rebuilt-18th-century-chateau-near-bordeaux-with-designer-interiors-heated-year-round-pool-19093934",
-    "link_state": "live",
-    "image": "https://img.jamesedition.com/listing_images/2026/10/13/11/23/54/39a93ae0-0194-45b5-a8b1-012967cbced6/je/556x342xcxm.jpg",
-    "spec": {}
-   },
-   {
-    "dept": "estates",
-    "rank": 6,
-    "source": "www.jamesedition.com",
-    "title": "Villa in Nesso, Lombardy, Italy",
-    "ask": 2791736.0,
-    "currency": "USD",
-    "condition": null,
-    "scores": {
-     "value": 3.0,
-     "rarity": 4.4,
-     "investment": 3.0
-    },
-    "link": "https://www.jamesedition.com/real_estate/nesso-italy/lake-como-exclusive-villa-with-rare-lake-access-and-garden-in-nesso-19064468",
-    "link_state": "live",
-    "image": "https://img.jamesedition.com/listing_images/2026/10/08/16/02/28/98b6b90e-7bc5-41a8-b537-2d105038526c/je/556x342xcxm.jpg",
-    "spec": {}
-   },
-   {
-    "dept": "estates",
-    "rank": 28,
-    "source": "www.jamesedition.com",
-    "title": "Castle in Roseto Capo Spulico, Calabria, Italy",
-    "ask": null,
-    "currency": null,
-    "condition": null,
-    "scores": {
-     "value": 2.5,
-     "rarity": 4.3,
-     "investment": 3.0
-    },
-    "link": "https://www.jamesedition.com/real_estate/roseto-capo-spulico-italy/templar-castle-overlooking-calabria-s-ionian-sea-19164618",
-    "link_state": "live",
-    "image": "https://img.jamesedition.com/listing_images/2026/10/22/14/52/06/68dfe632-be4f-4ba4-9804-1dff3b2f2743/je/556x342xcxm.jpg",
-    "spec": {}
-   },
-   {
-    "dept": "estates",
-    "rank": 21,
+    "rank": 38,
     "source": "www.luxuryestate.com",
     "title": "Flat in Zaragoza, Spain",
     "ask": 695000.0,
@@ -23427,7 +23301,7 @@
    },
    {
     "dept": "estates",
-    "rank": 7,
+    "rank": 1,
     "source": "www.luxuryestate.com",
     "title": "Apartment in Munich, Bavaria",
     "ask": 1790000.0,
@@ -23435,7 +23309,7 @@
     "condition": null,
     "scores": {
      "value": 3.0,
-     "rarity": 4.1,
+     "rarity": 5.0,
      "investment": 3.0
     },
     "link": "https://www.luxuryestate.com/p133023308-apartment-for-sale-munich",
@@ -23445,7 +23319,7 @@
    },
    {
     "dept": "estates",
-    "rank": 8,
+    "rank": 2,
     "source": "www.luxuryestate.com",
     "title": "Detached House in Mies, Vaud",
     "ask": 7503300.0,
@@ -23453,7 +23327,7 @@
     "condition": null,
     "scores": {
      "value": 3.0,
-     "rarity": 4.0,
+     "rarity": 4.9,
      "investment": 3.0
     },
     "link": "https://www.luxuryestate.com/p133026227-detached-house-for-sale-mies",
@@ -23463,7 +23337,7 @@
    },
    {
     "dept": "estates",
-    "rank": 9,
+    "rank": 3,
     "source": "www.luxuryestate.com",
     "title": "mansion in Oranje Nassaulaan, Amsterdam, North Holland",
     "ask": 20000000.0,
@@ -23471,7 +23345,7 @@
     "condition": null,
     "scores": {
      "value": 3.0,
-     "rarity": 3.9,
+     "rarity": 4.9,
      "investment": 3.0
     },
     "link": "https://www.luxuryestate.com/p133033792-mansion-for-sale-amsterdam",
@@ -23481,7 +23355,7 @@
    },
    {
     "dept": "estates",
-    "rank": 10,
+    "rank": 4,
     "source": "www.luxuryestate.com",
     "title": "Duplex in Tour Eiffel, Invalides – Ecole Militaire, Saint-Thomas d’Aquin, France",
     "ask": 10500000.0,
@@ -23489,7 +23363,7 @@
     "condition": null,
     "scores": {
      "value": 3.0,
-     "rarity": 3.8,
+     "rarity": 4.8,
      "investment": 3.0
     },
     "link": "https://www.luxuryestate.com/p133034025-duplex-for-sale-tour-eiffel-invalides-ecole-militaire-saint-thomas-d-aquin",
@@ -23499,7 +23373,7 @@
    },
    {
     "dept": "estates",
-    "rank": 11,
+    "rank": 5,
     "source": "www.luxuryestate.com",
     "title": "Detached House in La Muette, Auteuil, Porte Dauphine, Paris, Île-de-France",
     "ask": 80000000.0,
@@ -23507,7 +23381,7 @@
     "condition": null,
     "scores": {
      "value": 3.0,
-     "rarity": 3.6,
+     "rarity": 4.8,
      "investment": 3.0
     },
     "link": "https://www.luxuryestate.com/p133037519-detached-house-for-sale-la-muette-auteuil-porte-dauphine",
@@ -23517,7 +23391,7 @@
    },
    {
     "dept": "estates",
-    "rank": 22,
+    "rank": 39,
     "source": "www.luxuryestate.com",
     "title": "Flat in Vigo, Spain",
     "ask": 1015000.0,
@@ -23535,7 +23409,7 @@
    },
    {
     "dept": "estates",
-    "rank": 12,
+    "rank": 6,
     "source": "www.luxuryestate.com",
     "title": "Detached House in Avenida Playa América 68, Nigrán, Galicia",
     "ask": 2200000.0,
@@ -23543,7 +23417,7 @@
     "condition": null,
     "scores": {
      "value": 3.0,
-     "rarity": 3.5,
+     "rarity": 4.7,
      "investment": 3.0
     },
     "link": "https://www.luxuryestate.com/p133053576-detached-house-for-sale-nigran",
@@ -23553,7 +23427,7 @@
    },
    {
     "dept": "estates",
-    "rank": 13,
+    "rank": 7,
     "source": "www.luxuryestate.com",
     "title": "Villa in Via Per la Torre Santa Maria, SNC, San Siro, Provincia di Como, Lomb…",
     "ask": 1850000.0,
@@ -23561,7 +23435,7 @@
     "condition": null,
     "scores": {
      "value": 3.0,
-     "rarity": 3.4,
+     "rarity": 4.6,
      "investment": 3.0
     },
     "link": "https://www.luxuryestate.com/p133067593-villa-for-sale-san-siro",
@@ -23571,7 +23445,7 @@
    },
    {
     "dept": "estates",
-    "rank": 23,
+    "rank": 40,
     "source": "www.luxuryestate.com",
     "title": "Villa in Via Regina, 16, Moltrasio, Lombardy",
     "ask": 10800000.0,
@@ -23589,7 +23463,7 @@
    },
    {
     "dept": "estates",
-    "rank": 14,
+    "rank": 8,
     "source": "www.luxuryestate.com",
     "title": "Apartment in Via Brera, Milan, Lombardy",
     "ask": 6000000.0,
@@ -23597,7 +23471,7 @@
     "condition": null,
     "scores": {
      "value": 3.0,
-     "rarity": 3.3,
+     "rarity": 4.6,
      "investment": 3.0
     },
     "link": "https://www.luxuryestate.com/p133107313-apartment-for-sale-milan",
@@ -23607,7 +23481,7 @@
    },
    {
     "dept": "estates",
-    "rank": 15,
+    "rank": 9,
     "source": "www.luxuryestate.com",
     "title": "Flat in Via George Washington, 9, Milan, Lombardy",
     "ask": 970000.0,
@@ -23615,7 +23489,7 @@
     "condition": null,
     "scores": {
      "value": 3.0,
-     "rarity": 3.1,
+     "rarity": 4.5,
      "investment": 3.0
     },
     "link": "https://www.luxuryestate.com/p133107327-apartment-for-sale-milan",
@@ -23625,7 +23499,7 @@
    },
    {
     "dept": "estates",
-    "rank": 19,
+    "rank": 41,
     "source": "www.luxuryestate.com",
     "title": "Flat in Via Celestino IV, Milan, Lombardy",
     "ask": 5600000.0,
@@ -23633,7 +23507,7 @@
     "condition": null,
     "scores": {
      "value": 3.0,
-     "rarity": 2.6,
+     "rarity": 2.5,
      "investment": 3.0
     },
     "link": "https://www.luxuryestate.com/p133107328-apartment-for-sale-milan",
@@ -23643,7 +23517,7 @@
    },
    {
     "dept": "estates",
-    "rank": 20,
+    "rank": 42,
     "source": "www.luxuryestate.com",
     "title": "Villa in Via del Golf, Carimate, Provincia di Como, Lombardy",
     "ask": 1100000.0,
@@ -23651,7 +23525,7 @@
     "condition": null,
     "scores": {
      "value": 3.0,
-     "rarity": 2.6,
+     "rarity": 2.5,
      "investment": 3.0
     },
     "link": "https://www.luxuryestate.com/p133108304-villa-for-sale-carimate",
@@ -23661,7 +23535,7 @@
    },
    {
     "dept": "estates",
-    "rank": 24,
+    "rank": 43,
     "source": "www.luxuryestate.com",
     "title": "Flat in Via Mario Pagano, Milan, Lombardy",
     "ask": 950.0,
@@ -23679,7 +23553,7 @@
    },
    {
     "dept": "estates",
-    "rank": 25,
+    "rank": 44,
     "source": "www.luxuryestate.com",
     "title": "Flat in Via Ausonio, Milan, Lombardy",
     "ask": 1600000.0,
@@ -23697,7 +23571,7 @@
    },
    {
     "dept": "estates",
-    "rank": 26,
+    "rank": 45,
     "source": "www.luxuryestate.com",
     "title": "Apartment in Largo Quinto Alpini, Milan, Lombardy",
     "ask": 1480000.0,
@@ -23715,7 +23589,7 @@
    },
    {
     "dept": "estates",
-    "rank": 27,
+    "rank": 46,
     "source": "www.luxuryestate.com",
     "title": "Apartment in Via Cavadino, Carate Urio, Provincia di Como, Lombardy",
     "ask": 3850000.0,
@@ -23733,7 +23607,7 @@
    },
    {
     "dept": "estates",
-    "rank": 16,
+    "rank": 10,
     "source": "www.luxuryestate.com",
     "title": "Villa in VIA LA SERRERA, Costa Paradiso, Provincia di Sassari, Sardinia",
     "ask": 1320000.0,
@@ -23741,7 +23615,7 @@
     "condition": null,
     "scores": {
      "value": 3.0,
-     "rarity": 3.0,
+     "rarity": 4.5,
      "investment": 3.0
     },
     "link": "https://www.luxuryestate.com/p133108464-villa-for-sale-costa-paradiso",
@@ -23751,7 +23625,7 @@
    },
    {
     "dept": "estates",
-    "rank": 17,
+    "rank": 11,
     "source": "www.luxuryestate.com",
     "title": "Apartment in Lugano, Switzerland",
     "ask": 2164000.0,
@@ -23759,7 +23633,7 @@
     "condition": null,
     "scores": {
      "value": 3.0,
-     "rarity": 2.9,
+     "rarity": 4.4,
      "investment": 3.0
     },
     "link": "https://www.luxuryestate.com/p133108505-apartment-for-sale-lugano",
@@ -23769,10 +23643,478 @@
    },
    {
     "dept": "estates",
+    "rank": 12,
+    "source": "www.jamesedition.com",
+    "title": "DAMAC Bay 2 by Cavalli | Luxury Apartments and Duplexes | Exclusive Waterfron…",
+    "ask": 2270388.0,
+    "currency": "USD",
+    "condition": null,
+    "scores": {
+     "value": 3.0,
+     "rarity": 4.3,
+     "investment": 3.0
+    },
+    "link": "https://www.jamesedition.com/real_estate/dubai-united-arab-emirates/damac-bay-2-by-cavalli-luxury-apartments-and-duplexes-exclusive-waterfront-living-dubai-harbour-16843384",
+    "link_state": "live",
+    "image": "https://img.jamesedition.com/listing_images/2025/12/23/00/25/24/48485b08-3b66-42aa-a99f-1f7ad342110e/je/507x312xc.jpg",
+    "spec": {}
+   },
+   {
+    "dept": "estates",
+    "rank": 13,
+    "source": "www.jamesedition.com",
+    "title": "BRIGHT APARTMENT WITH PANORAMIC VIEW ON COMO HISTORIC CENTRE – PIAZZA DUOMO,…",
+    "ask": 787990.0,
+    "currency": "USD",
+    "condition": null,
+    "scores": {
+     "value": 3.0,
+     "rarity": 4.3,
+     "investment": 3.0
+    },
+    "link": "https://www.jamesedition.com/real_estate/como-italy/bright-apartment-with-panoramic-view-on-como-historic-centre-piazza-duomo-cavour-volta-area-19050571",
+    "link_state": "live",
+    "image": "https://img.jamesedition.com/listing_images/2026/10/07/13/09/51/45bfe590-8cea-4d27-b1f8-f35f1fd1d396/je/507x312xc.jpg",
+    "spec": {}
+   },
+   {
+    "dept": "estates",
+    "rank": 14,
+    "source": "www.jamesedition.com",
+    "title": "Exclusive villa with pool near the lake in Moltrasio",
+    "ask": 12157562.0,
+    "currency": "USD",
+    "condition": null,
+    "scores": {
+     "value": 3.0,
+     "rarity": 4.2,
+     "investment": 3.0
+    },
+    "link": "https://www.jamesedition.com/real_estate/moltrasio-italy/exclusive-villa-with-pool-near-the-lake-in-moltrasio-19158969",
+    "link_state": "live",
+    "image": "https://img.jamesedition.com/listing_images/2026/10/22/08/33/30/138a1514-bb74-4378-9243-09207516136c/je/1100xxs.jpg",
+    "spec": {}
+   },
+   {
+    "dept": "estates",
+    "rank": 15,
+    "source": "www.jamesedition.com",
+    "title": "SCHLOSS WOLFSBRUNNEN — AN EXTRAORDINARY HISTORIC CASTLE",
+    "ask": 5.8,
+    "currency": "USD",
+    "condition": null,
+    "scores": {
+     "value": 3.0,
+     "rarity": 4.2,
+     "investment": 3.0
+    },
+    "link": "https://www.jamesedition.com/real_estate/meinhard-germany/schloss-wolfsbrunnen-an-extraordinary-historic-castle-19078067",
+    "link_state": "live",
+    "image": "https://img.jamesedition.com/listing_images/2026/10/11/10/54/15/1fad0773-8855-4a44-8e96-a67bfdbd0007/je/1100xxs.jpg",
+    "spec": {}
+   },
+   {
+    "dept": "estates",
+    "rank": 16,
+    "source": "www.jamesedition.com",
+    "title": "Fully Rebuilt 18th-Century Château Near Bordeaux with Designer Interiors & He…",
+    "ask": 8442751.0,
+    "currency": "USD",
+    "condition": null,
+    "scores": {
+     "value": 3.0,
+     "rarity": 4.1,
+     "investment": 3.0
+    },
+    "link": "https://www.jamesedition.com/real_estate/yvrac-france/fully-rebuilt-18th-century-chateau-near-bordeaux-with-designer-interiors-heated-year-round-pool-19093934",
+    "link_state": "live",
+    "image": "https://img.jamesedition.com/listing_images/2026/10/13/11/23/54/39a93ae0-0194-45b5-a8b1-012967cbced6/je/1100xxs.jpg",
+    "spec": {}
+   },
+   {
+    "dept": "estates",
+    "rank": 17,
+    "source": "www.jamesedition.com",
+    "title": "Lake Como - exclusive villa with rare lake access and garden in Nesso",
+    "ask": 2791736.0,
+    "currency": "USD",
+    "condition": null,
+    "scores": {
+     "value": 3.0,
+     "rarity": 4.1,
+     "investment": 3.0
+    },
+    "link": "https://www.jamesedition.com/real_estate/nesso-italy/lake-como-exclusive-villa-with-rare-lake-access-and-garden-in-nesso-19064468",
+    "link_state": "live",
+    "image": "https://img.jamesedition.com/listing_images/2026/10/08/16/02/28/98b6b90e-7bc5-41a8-b537-2d105038526c/je/1100xxs.jpg",
+    "spec": {}
+   },
+   {
+    "dept": "estates",
     "rank": 18,
     "source": "www.jamesedition.com",
-    "title": "Apartment in Eixample, Barcelona, Spain",
-    "ask": 1677293.0,
+    "title": "Restored 14th-Century Historic Castle, Monteriggioni, Siena – Tuscany",
+    "ask": 1046901.0,
+    "currency": "USD",
+    "condition": null,
+    "scores": {
+     "value": 3.0,
+     "rarity": 4.0,
+     "investment": 3.0
+    },
+    "link": "https://www.jamesedition.com/real_estate/monteriggioni-italy/restored-14th-century-historic-castle-monteriggioni-siena-tuscany-19054472",
+    "link_state": "live",
+    "image": "https://img.jamesedition.com/listing_images/2026/10/07/15/57/28/53014346-79b3-4c58-b925-41f67846baf2/je/1100xxs.jpg",
+    "spec": {}
+   },
+   {
+    "dept": "estates",
+    "rank": 47,
+    "source": "www.jamesedition.com",
+    "title": "Templar Castle Overlooking Calabria's Ionian Sea",
+    "ask": null,
+    "currency": null,
+    "condition": null,
+    "scores": {
+     "value": 2.5,
+     "rarity": 3.9,
+     "investment": 3.0
+    },
+    "link": "https://www.jamesedition.com/real_estate/roseto-capo-spulico-italy/templar-castle-overlooking-calabria-s-ionian-sea-19164618",
+    "link_state": "live",
+    "image": "https://img.jamesedition.com/listing_images/2026/10/22/14/52/06/68dfe632-be4f-4ba4-9804-1dff3b2f2743/je/1100xxs.jpg",
+    "spec": {}
+   },
+   {
+    "dept": "estates",
+    "rank": 19,
+    "source": "www.jamesedition.com",
+    "title": "BEACHFRONT VILLA WITH DIRECT ACCESS TO THE SEA IN KAL’E MORU, SARDINIA",
+    "ask": 1069415.0,
+    "currency": "USD",
+    "condition": null,
+    "scores": {
+     "value": 3.0,
+     "rarity": 3.9,
+     "investment": 3.0
+    },
+    "link": "https://www.jamesedition.com/real_estate/geremeas-italy/beachfront-villa-with-direct-access-to-the-sea-in-kal-e-moru-sardinia-18980880",
+    "link_state": "live",
+    "image": "https://img.jamesedition.com/listing_images/2026/09/26/09/53/52/e7dd1451-fecf-4ace-80e7-d5c92cc23304/je/1100xxs.jpg",
+    "spec": {}
+   },
+   {
+    "dept": "estates",
+    "rank": 20,
+    "source": "www.jamesedition.com",
+    "title": "Hummingbird Cay: A Private Island Sanctuary in the Exumas - MLS",
+    "ask": 28500000.0,
+    "currency": "USD",
+    "condition": null,
+    "scores": {
+     "value": 3.0,
+     "rarity": 3.8,
+     "investment": 3.0
+    },
+    "link": "https://www.jamesedition.com/real_estate/hummingbird-cay-bahamas/hummingbird-cay-a-private-island-sanctuary-in-the-exumas-mls-68581-18923684",
+    "link_state": "live",
+    "image": "https://img.jamesedition.com/listing_images/2026/09/21/16/58/09/088d55df-14f0-454f-85ab-73d07c553091/je/1100xxs.jpg",
+    "spec": {}
+   },
+   {
+    "dept": "estates",
+    "rank": 21,
+    "source": "www.jamesedition.com",
+    "title": "Casa Portucale — Where Privacy Is Absolute, Built to Your Chosen Address in P…",
+    "ask": 57410709.0,
+    "currency": "USD",
+    "condition": null,
+    "scores": {
+     "value": 3.0,
+     "rarity": 3.8,
+     "investment": 3.0
+    },
+    "link": "https://www.jamesedition.com/real_estate/albufeira-portugal/casa-portucale-where-privacy-is-absolute-built-to-your-chosen-address-in-portugal-18991444",
+    "link_state": "live",
+    "image": "https://img.jamesedition.com/listing_images/2026/09/29/08/01/57/613207b9-f95b-4571-bb7f-40c78090da2a/je/1100xxs.jpg",
+    "spec": {}
+   },
+   {
+    "dept": "estates",
+    "rank": 22,
+    "source": "www.jamesedition.com",
+    "title": "31931 Peppertree Bnd",
+    "ask": 7500000.0,
+    "currency": "USD",
+    "condition": null,
+    "scores": {
+     "value": 3.0,
+     "rarity": 3.7,
+     "investment": 3.0
+    },
+    "link": "https://www.jamesedition.com/real_estate/san-juan-capistrano-ca-usa/31931-peppertree-bnd-18843253",
+    "link_state": "live",
+    "image": "https://img.jamesedition.com/listing_images/2026/09/11/16/21/14/09b3f3a4-d229-4386-a393-aa540afaa955/je/1100xxs.jpg",
+    "spec": {}
+   },
+   {
+    "dept": "estates",
+    "rank": 23,
+    "source": "www.jamesedition.com",
+    "title": "An Ambassadorial materpiece! Unrivalled spectacular views of Sandton's Skylin…",
+    "ask": 1701518.0,
+    "currency": "USD",
+    "condition": null,
+    "scores": {
+     "value": 3.0,
+     "rarity": 3.6,
+     "investment": 3.0
+    },
+    "link": "https://www.jamesedition.com/real_estate/sandton-south-africa/an-ambassadorial-materpiece-unrivalled-spectacular-views-of-sandton-s-skyline-and-beyond-19088661",
+    "link_state": "live",
+    "image": "https://img.jamesedition.com/listing_images/2026/10/12/12/06/42/ded55cb1-2b2e-4cd8-b589-3dcd6ba7a6c5/je/1100xxs.jpg",
+    "spec": {}
+   },
+   {
+    "dept": "estates",
+    "rank": 24,
+    "source": "www.jamesedition.com",
+    "title": "1919 N Ocean Boulevard",
+    "ask": 79000000.0,
+    "currency": "USD",
+    "condition": null,
+    "scores": {
+     "value": 3.0,
+     "rarity": 3.6,
+     "investment": 3.0
+    },
+    "link": "https://www.jamesedition.com/real_estate/gulf-stream-fl-usa/1919-n-ocean-boulevard-18862589",
+    "link_state": "live",
+    "image": "https://img.jamesedition.com/listing_images/2026/09/14/14/27/36/6dee1cb2-3df6-4693-b7f8-15554b3da720/je/1100xxs.jpg",
+    "spec": {}
+   },
+   {
+    "dept": "estates",
+    "rank": 25,
+    "source": "www.jamesedition.com",
+    "title": "Leatmore, Ballyheerin, Letterkenny, Co Donegal",
+    "ask": 894931.0,
+    "currency": "USD",
+    "condition": null,
+    "scores": {
+     "value": 3.0,
+     "rarity": 3.5,
+     "investment": 3.0
+    },
+    "link": "https://www.jamesedition.com/real_estate/ireland/leatmore-ballyheerin-letterkenny-co-donegal-19070365",
+    "link_state": "live",
+    "image": "https://img.jamesedition.com/listing_images/2026/10/09/16/23/07/de594802-4817-499b-96ea-6e617f71188b/je/1100xxs.jpg",
+    "spec": {}
+   },
+   {
+    "dept": "estates",
+    "rank": 26,
+    "source": "www.jamesedition.com",
+    "title": "MAGNIFICENT 6-BEDROOM RESIDENCE IN BEVERLY HILLS, PUNTA DEL ESTE",
+    "ask": 1350000.0,
+    "currency": "USD",
+    "condition": null,
+    "scores": {
+     "value": 3.0,
+     "rarity": 3.5,
+     "investment": 3.0
+    },
+    "link": "https://www.jamesedition.com/real_estate/punta-del-este-uruguay/magnificent-6-bedroom-residence-in-beverly-hills-punta-del-este-18815834",
+    "link_state": "live",
+    "image": "https://img.jamesedition.com/listing_images/2026/09/08/13/49/09/9c5c9479-067c-45d0-88e4-063b6c69cf7b/je/1100xxs.jpg",
+    "spec": {}
+   },
+   {
+    "dept": "estates",
+    "rank": 27,
+    "source": "www.jamesedition.com",
+    "title": "High-End Modern Villa with Sea Panorama in Sternes",
+    "ask": 1519695.0,
+    "currency": "USD",
+    "condition": null,
+    "scores": {
+     "value": 3.0,
+     "rarity": 3.4,
+     "investment": 3.0
+    },
+    "link": "https://www.jamesedition.com/real_estate/chania-greece/high-end-modern-villa-with-sea-panorama-in-sternes-18810857",
+    "link_state": "live",
+    "image": "https://img.jamesedition.com/listing_images/2026/09/08/11/59/02/d4aaa29e-5137-455f-be73-dbdd98105278/je/1100xxs.jpg",
+    "spec": {}
+   },
+   {
+    "dept": "estates",
+    "rank": 28,
+    "source": "www.jamesedition.com",
+    "title": "Art Deco House Condesa",
+    "ask": 2409224.0,
+    "currency": "USD",
+    "condition": null,
+    "scores": {
+     "value": 3.0,
+     "rarity": 3.3,
+     "investment": 3.0
+    },
+    "link": "https://www.jamesedition.com/real_estate/mexico-city-mexico/art-deco-house-condesa-18863739",
+    "link_state": "live",
+    "image": "https://img.jamesedition.com/listing_images/2026/09/21/16/58/05/3a77459f-f71a-4eeb-9333-a0e951fb1366/je/1100xxs.jpg",
+    "spec": {}
+   },
+   {
+    "dept": "estates",
+    "rank": 48,
+    "source": "www.jamesedition.com",
+    "title": "Architectural Masterpiece in EŌME Residences",
+    "ask": null,
+    "currency": null,
+    "condition": null,
+    "scores": {
+     "value": 2.5,
+     "rarity": 3.3,
+     "investment": 3.0
+    },
+    "link": "https://www.jamesedition.com/real_estate/dubai-united-arab-emirates/architectural-masterpiece-in-eome-residences-19100917",
+    "link_state": "live",
+    "image": "https://img.jamesedition.com/listing_images/2026/10/27/09/38/14/b54cdee4-f9d9-451d-a653-dcae47b8cf08/je/1100xxs.jpg",
+    "spec": {}
+   },
+   {
+    "dept": "estates",
+    "rank": 29,
+    "source": "www.jamesedition.com",
+    "title": "Sardinia Investment Opportunity – New-Build Coastal Villa with Strong Rental…",
+    "ask": 776733.0,
+    "currency": "USD",
+    "condition": null,
+    "scores": {
+     "value": 3.0,
+     "rarity": 3.2,
+     "investment": 3.0
+    },
+    "link": "https://www.jamesedition.com/real_estate/arbatax-italy/sardinia-investment-opportunity-new-build-coastal-villa-with-strong-rental-potential-18768035",
+    "link_state": "live",
+    "image": "https://img.jamesedition.com/listing_images/2026/09/01/13/10/12/d40d9f0c-2631-4f3b-a2da-ea132a0f8ae1/je/1100xxs.jpg",
+    "spec": {}
+   },
+   {
+    "dept": "estates",
+    "rank": 49,
+    "source": "www.jamesedition.com",
+    "title": "15 Cremorne Street",
+    "ask": null,
+    "currency": null,
+    "condition": null,
+    "scores": {
+     "value": 2.5,
+     "rarity": 3.2,
+     "investment": 3.0
+    },
+    "link": "https://www.jamesedition.com/real_estate/auckland-new-zealand/15-cremorne-street-19045374",
+    "link_state": "live",
+    "image": "https://img.jamesedition.com/listing_images/2026/10/06/17/11/53/26b9b60c-74f6-4f45-8482-106205ef52d6/je/1100xxs.jpg",
+    "spec": {}
+   },
+   {
+    "dept": "estates",
+    "rank": 30,
+    "source": "www.jamesedition.com",
+    "title": "Bel Air Style Villa In Medellin’s Most Upscale Area.",
+    "ask": 3302888.0,
+    "currency": "USD",
+    "condition": null,
+    "scores": {
+     "value": 3.0,
+     "rarity": 3.1,
+     "investment": 3.0
+    },
+    "link": "https://www.jamesedition.com/real_estate/el-poblado-colombia/bel-air-style-villa-in-medellin-s-most-upscale-area-18811169",
+    "link_state": "live",
+    "image": "https://img.jamesedition.com/listing_images/2026/09/02/14/49/10/b7159c1f-24d3-4581-87d0-e31b3b0bbb02/je/1100xxs.jpg",
+    "spec": {}
+   },
+   {
+    "dept": "estates",
+    "rank": 50,
+    "source": "www.jamesedition.com",
+    "title": "Biscayne Bay Waterfront Villa | Panoramic Sunset Views on the Venetian Islands",
+    "ask": null,
+    "currency": null,
+    "condition": null,
+    "scores": {
+     "value": 2.5,
+     "rarity": 3.0,
+     "investment": 3.0
+    },
+    "link": "https://www.jamesedition.com/real_estate/miami-beach-fl-usa/biscayne-bay-waterfront-villa-panoramic-sunset-views-on-the-venetian-islands-18870217",
+    "link_state": "live",
+    "image": "https://img.jamesedition.com/listing_images/2026/09/17/12/49/39/cf7c765d-712e-435f-8add-1411dee393bb/je/1100xxs.jpg",
+    "spec": {}
+   },
+   {
+    "dept": "estates",
+    "rank": 51,
+    "source": "www.jamesedition.com",
+    "title": "The private Caribbean paradise of one of the world's most celebrated fashion…",
+    "ask": null,
+    "currency": null,
+    "condition": null,
+    "scores": {
+     "value": 2.5,
+     "rarity": 3.0,
+     "investment": 3.0
+    },
+    "link": "https://www.jamesedition.com/real_estate/long-island-antigua-and-barbuda/the-private-caribbean-paradise-of-one-of-the-world-s-most-celebrated-fashion-designers-18807300",
+    "link_state": "live",
+    "image": "https://img.jamesedition.com/listing_images/2026/10/29/16/06/16/cc39c694-63f5-4f03-bca4-05fcae704d6c/je/1100xxs.jpg",
+    "spec": {}
+   },
+   {
+    "dept": "estates",
+    "rank": 31,
+    "source": "www.jamesedition.com",
+    "title": "Residence Orion Villa B – New-build Two-Level Villa Above Lake Lugano",
+    "ask": 7277975.0,
+    "currency": "USD",
+    "condition": null,
+    "scores": {
+     "value": 3.0,
+     "rarity": 2.9,
+     "investment": 3.0
+    },
+    "link": "https://www.jamesedition.com/real_estate/vernate-switzerland/residence-orion-villa-b-new-build-two-level-villa-above-lake-lugano-18793300",
+    "link_state": "live",
+    "image": null,
+    "spec": {}
+   },
+   {
+    "dept": "estates",
+    "rank": 32,
+    "source": "www.jamesedition.com",
+    "title": "The Old Mill, A beautiful property in Cortona with its medieval bridge.",
+    "ask": 810504.0,
+    "currency": "USD",
+    "condition": null,
+    "scores": {
+     "value": 3.0,
+     "rarity": 2.9,
+     "investment": 3.0
+    },
+    "link": "https://www.jamesedition.com/real_estate/cortona-italy/the-old-mill-a-beautiful-property-in-cortona-with-its-medieval-bridge-18869372",
+    "link_state": "live",
+    "image": "https://img.jamesedition.com/listing_images/2026/09/15/08/58/59/9cab2ebd-c7c4-4edf-82c1-52b2a3c44642/je/1100xxs.jpg",
+    "spec": {}
+   },
+   {
+    "dept": "estates",
+    "rank": 33,
+    "source": "www.jamesedition.com",
+    "title": "Authentic Lakeside Home",
+    "ask": 709191.0,
     "currency": "USD",
     "condition": null,
     "scores": {
@@ -23780,9 +24122,81 @@
      "rarity": 2.8,
      "investment": 3.0
     },
-    "link": "https://www.jamesedition.com/real_estate/barcelona-spain/refined-barcelona-residence-with-timeless-architectural-character-17849359",
+    "link": "https://www.jamesedition.com/real_estate/careno-italy/authentic-lakeside-home-18782535",
     "link_state": "live",
-    "image": "https://img.jamesedition.com/listing_images/2026/05/06/07/31/54/a783c0fd-ecfd-48b8-b1f6-a36b24e2b85a/je/507x312xc.jpg",
+    "image": "https://img.jamesedition.com/listing_images/2026/09/03/09/38/58/727c8cd1-174a-40f1-9d95-bf1e0ae3404c/je/1100xxs.jpg",
+    "spec": {}
+   },
+   {
+    "dept": "estates",
+    "rank": 34,
+    "source": "www.jamesedition.com",
+    "title": "THÉOULE-SUR-MER, PROPRIÉTÉ DE CARACTÈRE AVEC VUE PANORAMIQUE À 300° SUR LA ME…",
+    "ask": 4497172.0,
+    "currency": "USD",
+    "condition": null,
+    "scores": {
+     "value": 3.0,
+     "rarity": 2.8,
+     "investment": 3.0
+    },
+    "link": "https://www.jamesedition.com/real_estate/theoule-sur-mer-france/theoule-sur-mer-propriete-de-caractere-avec-vue-panoramique-a-300-sur-la-mer-et-l-esterel-18932663",
+    "link_state": "live",
+    "image": "https://img.jamesedition.com/listing_images/2026/09/25/10/12/15/b28bc4e2-aad4-4762-9476-98bba9cb6ffb/je/1100xxs.jpg",
+    "spec": {}
+   },
+   {
+    "dept": "estates",
+    "rank": 35,
+    "source": "www.jamesedition.com",
+    "title": "Sophisticated Apartment on Palm Jumeirah",
+    "ask": 5718175.0,
+    "currency": "USD",
+    "condition": null,
+    "scores": {
+     "value": 3.0,
+     "rarity": 2.7,
+     "investment": 3.0
+    },
+    "link": "https://www.jamesedition.com/real_estate/dubai-united-arab-emirates/sophisticated-apartment-on-palm-jumeirah-18769694",
+    "link_state": "live",
+    "image": "https://img.jamesedition.com/listing_images/2026/09/01/13/10/15/72e73b82-f5b8-4cda-b7b5-ae4bc348400d/je/1100xxs.jpg",
+    "spec": {}
+   },
+   {
+    "dept": "estates",
+    "rank": 36,
+    "source": "www.jamesedition.com",
+    "title": "FROND N | CUSTOM VILLA | B+G+2 | PALM JUMEIRAH DUBAI",
+    "ask": 47651463.0,
+    "currency": "USD",
+    "condition": null,
+    "scores": {
+     "value": 3.0,
+     "rarity": 2.6,
+     "investment": 3.0
+    },
+    "link": "https://www.jamesedition.com/real_estate/dubai-united-arab-emirates/frond-n-custom-villa-b-g-2-palm-jumeirah-dubai-18716236",
+    "link_state": "live",
+    "image": "https://img.jamesedition.com/listing_images/2026/08/24/11/21/25/74a4ff52-bd90-47a2-8a5d-3f8c4a6100f0/je/1100xxs.jpg",
+    "spec": {}
+   },
+   {
+    "dept": "estates",
+    "rank": 37,
+    "source": "www.jamesedition.com",
+    "title": "The Crown of Garmisch – A One-of-a-Kind Alpine Penthouse",
+    "ask": 2363970.0,
+    "currency": "USD",
+    "condition": null,
+    "scores": {
+     "value": 3.0,
+     "rarity": 2.6,
+     "investment": 3.0
+    },
+    "link": "https://www.jamesedition.com/real_estate/garmisch-partenkirchen-germany/the-crown-of-garmisch-a-one-of-a-kind-alpine-penthouse-18906741",
+    "link_state": "live",
+    "image": "https://img.jamesedition.com/listing_images/2026/09/18/13/05/31/c8c1dc55-364f-4016-9b34-bd5e2a46ed93/je/1100xxs.jpg",
     "spec": {}
    }
   ]

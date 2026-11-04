@@ -22,9 +22,10 @@ SEARCH_URL = "https://www.jamesedition.com/real_estate/all"
 
 # listing card link: [card text...](real_estate_url "Title")
 # NOTE: agency/agent pages share the real_estate/ path segment (offices/real_estate/...,
-# agents/...); only match actual /real_estate/<slug> listing URLs.
+# agents/...); only match actual /real_estate/<slug> listing URLs. Group 3 = the
+# link-title (the clean property name Jina puts in the quoted attr).
 LINK = re.compile(r"\[(.*?)\]\((https://www\.jamesedition\.com/real_estate/[^)/\s]+/[^)\s]+)"
-                  r"(?:\s+\"[^\"]*\")?\)", re.S)
+                  r"(?:\s+\"([^\"]*)\")?\)", re.S)
 # inline listing-image URL inside card text (skip dealer/agent logos)
 IMG = re.compile(r"!\[[^\]]*\]\((https://img\.jamesedition\.com/listing_images/[^)\s]+)")
 TITLE_ALT = re.compile(r"!\[Image \d+: ([^\]\(]{6,160})\]\s*\(https://img\.jamesedition\.com/listing_images/")
@@ -66,21 +67,32 @@ def main():
         text, url = m.group(1), m.group(2)
         if "page=" in url or url.endswith("#"):
             continue
-        by_url.setdefault(url, []).append(text)
+        by_url.setdefault(url, []).append((text, m.group(3)))
 
     lots = 0
-    for url, blocks in by_url.items():
+    for url, block_list in by_url.items():
+        blocks = [b[0] for b in block_list]
+        link_titles = [b[1] for b in block_list if b[1]]
         joined = "\n".join(blocks)
+        # CARD TEXT without the dealer/agent logo image markdown — that logo block
+        # (e.g. '![Image 7: John Taylor Milan](...)') precedes the listing text and
+        # must NEVER leak into the title (export drops title-as-markdown as junk).
+        card_text = re.sub(r"!\[[^\]]*\]\([^)]*\)", "", joined)
         im = IMG.search(joined)          # inline thumbnail, if the card has one
         img_url = im.group(1) if im else None
+        # title preference: the Jina link-title (clean property name) > image alt
+        # (property name for promoted cards) > trimmed card text.
         ta = TITLE_ALT.search(joined)
-        title = clean(ta.group(1)) if ta else clean(joined)[:120] or url.rsplit("/", 1)[-1]
+        title = (clean(link_titles[0]) if link_titles else "") \
+                or (clean(ta.group(1)) if ta else "") \
+                or clean(card_text)[:120] or url.rsplit("/", 1)[-1]
         # alt titles carry a trailing image-counter ('Villa in X 1'); drop it
         title = re.sub(r"\s+\d+$", "", title).strip() or title
+        title = title.lstrip("#").strip() or title
         # a listing not re-carried inline must not lose its stored image
         cur = con.execute("SELECT image_path FROM items WHERE url=?", (url,)).fetchone()
         have_img = img_url or (cur and cur["image_path"])
-        ask, cur2 = amount(re.sub(r"!\[[^\]]*\]\([^)]*\)", "", joined))
+        ask, cur2 = amount(card_text)
         rec = {
             "dept": "estates", "source": "www.jamesedition.com",
             "url": url, "title": title[:200],
