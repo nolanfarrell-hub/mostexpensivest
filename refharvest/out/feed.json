@@ -1,6 +1,6 @@
 {
- "generated": "2026-11-04T00:06:59.043483",
- "count": 524,
+ "generated": "2026-11-04T05:25:37.817012",
+ "count": 548,
  "departments": {
   "field": [
    {
@@ -11536,7 +11536,7 @@
      "investment": 3.0
     },
     "link": "https://www.luxuryestate.com/p133039619-apartment-for-sale-vigo",
-    "link_state": "live",
+    "link_state": "fallback",
     "image": null,
     "spec": {}
    },
@@ -11608,7 +11608,7 @@
      "investment": 3.0
     },
     "link": "https://www.luxuryestate.com/p133026227-detached-house-for-sale-mies",
-    "link_state": "live",
+    "link_state": "fallback",
     "image": null,
     "spec": {}
    },
@@ -11626,7 +11626,7 @@
      "investment": 3.0
     },
     "link": "https://www.luxuryestate.com/p133078028-villa-for-sale-moltrasio",
-    "link_state": "live",
+    "link_state": "fallback",
     "image": null,
     "spec": {}
    },
@@ -12482,6 +12482,656 @@
     "spec": {
      "brand": "Hermès",
      "label": "Nata Clemence and Swift In-the-Loop 23 Gold Hardware, 2022"
+    }
+   }
+  ],
+  "road": [
+   {
+    "dept": "road",
+    "rank": 1,
+    "source": "bringatrailer.com",
+    "title": "2005 Ferrari F430 Spider 6-Speed Conversion",
+    "ask": 185000.0,
+    "currency": "USD",
+    "condition": "Sold",
+    "scores": {
+     "value": 3.4,
+     "rarity": 5.0,
+     "investment": 3.0
+    },
+    "link": "https://bringatrailer.com/listing/2005-ferrari-f430-109/",
+    "link_state": "live",
+    "image": null,
+    "spec": {
+     "year": null,
+     "noreserve": false,
+     "sold": true,
+     "watchers": "0 Watchers",
+     "views": "0 Views",
+     "active": false,
+     "excerpt": "This 2005 Ferrari F430 Spider is powered by a 4.3-liter V8 linked to a six-speed manual transaxle that has been converted to manual operation and is finished in Grigio Alloy Metallic over Blu Scuro leather. Equipment includes a Blu Scuro so",
+     "category": []
+    }
+   },
+   {
+    "dept": "road",
+    "rank": 2,
+    "source": "bringatrailer.com",
+    "title": "2019 Ferrari Portofino",
+    "ask": 143000.0,
+    "currency": "USD",
+    "condition": "Sold",
+    "scores": {
+     "value": 3.4,
+     "rarity": 4.9,
+     "investment": 3.0
+    },
+    "link": "https://bringatrailer.com/listing/2019-ferrari-portofino-27/",
+    "link_state": "live",
+    "image": null,
+    "spec": {
+     "year": null,
+     "noreserve": false,
+     "sold": true,
+     "watchers": "0 Watchers",
+     "views": "0 Views",
+     "active": false,
+     "excerpt": "This 2019 Ferrari is a white-over-red Portofino that has 11k miles and is powered by a twin-turbocharged 3.9-liter V8 linked to a seven-speed F1 automatic transaxle and an electronically controlled limited-slip differential. The car is equi",
+     "category": []
+    }
+   },
+   {
+    "dept": "road",
+    "rank": 3,
+    "source": "bringatrailer.com",
+    "title": "11k-Mile 2015 Ferrari California T",
+    "ask": 115000.0,
+    "currency": "USD",
+    "condition": "Sold",
+    "scores": {
+     "value": 3.4,
+     "rarity": 4.8,
+     "investment": 3.0
+    },
+    "link": "https://bringatrailer.com/listing/2015-ferrari-california-t-60/",
+    "link_state": "live",
+    "image": null,
+    "spec": {
+     "year": null,
+     "noreserve": false,
+     "sold": true,
+     "watchers": "0 Watchers",
+     "views": "0 Views",
+     "active": false,
+     "excerpt": "This 2015 Ferrari California T remained with its original owner until it was purchased in 2024 by the current owner, who has driven approximately 2,600 of the 11k miles and kept it in their collection. The car was specified with over $12k i",
+     "category": []
+    }
+   },
+   {
+    "dept": "road",
+    "rank": 4,
+    "source": "bringatrailer.com",
+    "title": "19k-Mile 1998 Ferrari F355 Spider 6-Speed",
+    "ask": 247000.0,
+    "currency": "USD",
+    "condition": "Sold",
+    "scores": {
+     "value": 3.4,
+     "rarity": 4.7,
+     "investment": 3.0
+    },
+    "link": "https://bringatrailer.com/listing/1998-ferrari-f355-spider-74/",
+    "link_state": "live",
+    "image": null,
+    "spec": {
+     "year": null,
+     "noreserve": false,
+     "sold": true,
+     "watchers": "0 Watchers",
+     "views": "0 Views",
+     "active": false,
+     "excerpt": "This 1998 Ferrari F355 Spider was purchased by the seller as it received an engine-out belt service at Ferrari of Washington in Sterling, Virginia, in March 2024, and it now shows 19k miles. Finished in Rosso Corsa over Tan Connolly leather",
+     "category": []
+    }
+   },
+   {
+    "dept": "road",
+    "rank": 5,
+    "source": "bringatrailer.com",
+    "title": "462-Mile 2024 Ferrari SF90 Spider Assetto Fiorano",
+    "ask": 681111.0,
+    "currency": "USD",
+    "condition": "Sold",
+    "scores": {
+     "value": 3.4,
+     "rarity": 4.5,
+     "investment": 3.0
+    },
+    "link": "https://bringatrailer.com/listing/2024-ferrari-sf90-spider-10/",
+    "link_state": "live",
+    "image": null,
+    "spec": {
+     "year": null,
+     "noreserve": false,
+     "sold": true,
+     "watchers": "0 Watchers",
+     "views": "0 Views",
+     "active": false,
+     "excerpt": "This 2024 Ferrari SF90 Spider was purchased new by the owner and was ordered through the Atelier Program with Verde Minerale four-layer paintwork in addition to the Assetto Fiorano package, which added motorsport-derived Multimatic shocks, ",
+     "category": []
+    }
+   },
+   {
+    "dept": "road",
+    "rank": 6,
+    "source": "bringatrailer.com",
+    "title": "2004 Ferrari 360 Challenge Stradale",
+    "ask": 605000.0,
+    "currency": "USD",
+    "condition": "Sold",
+    "scores": {
+     "value": 3.4,
+     "rarity": 4.4,
+     "investment": 3.0
+    },
+    "link": "https://bringatrailer.com/listing/2004-ferrari-360-challenge-stradale-52/",
+    "link_state": "live",
+    "image": null,
+    "spec": {
+     "year": null,
+     "noreserve": false,
+     "sold": true,
+     "watchers": "0 Watchers",
+     "views": "0 Views",
+     "active": false,
+     "excerpt": "This Canadian-market 2004 Ferrari 360 Challenge Stradale is one of approximately 1,300 examples produced worldwide, and it was imported to the US in 2026. Powered by a 3.6-liter V8 paired with a six-speed F1 sequential transaxle and a limit",
+     "category": []
+    }
+   },
+   {
+    "dept": "road",
+    "rank": 7,
+    "source": "bringatrailer.com",
+    "title": "Six-Piece Ferrari Testarossa Luggage Set by Schedoni",
+    "ask": 15000.0,
+    "currency": "USD",
+    "condition": "No Reserve",
+    "scores": {
+     "value": 3.4,
+     "rarity": 4.3,
+     "investment": 3.0
+    },
+    "link": "https://bringatrailer.com/listing/schedoni-of-modena-72/",
+    "link_state": "live",
+    "image": null,
+    "spec": {
+     "year": null,
+     "noreserve": true,
+     "sold": true,
+     "watchers": "0 Watchers",
+     "views": "0 Views",
+     "active": false,
+     "excerpt": "This six-piece luggage set was produced by Schedoni of Modena for use in a Ferrari Testarossa. The set comprises a folding garment bag, two large soft-sided suitcases, and a trio of hard-sided bags. The bags are constructed of brown leather",
+     "category": []
+    }
+   },
+   {
+    "dept": "road",
+    "rank": 8,
+    "source": "bringatrailer.com",
+    "title": "Original-Owner 1994 Ferrari 348 Spider",
+    "ask": 106000.0,
+    "currency": "USD",
+    "condition": "Sold",
+    "scores": {
+     "value": 3.4,
+     "rarity": 4.2,
+     "investment": 3.0
+    },
+    "link": "https://bringatrailer.com/listing/1994-ferrari-348-53/",
+    "link_state": "live",
+    "image": null,
+    "spec": {
+     "year": null,
+     "noreserve": false,
+     "sold": true,
+     "watchers": "0 Watchers",
+     "views": "0 Views",
+     "active": false,
+     "excerpt": "This 1994 Ferrari 348 Spider was purchased new by the seller from Steven Kessler Motor Cars in New York, New York, and now shows 31k miles. In 2019, the 3.4-liter DOHC V8 had an engine-out timing belt service, and the dogleg five-speed manu",
+     "category": []
+    }
+   },
+   {
+    "dept": "road",
+    "rank": 9,
+    "source": "bringatrailer.com",
+    "title": "Illuminated Ferrari Sign",
+    "ask": 19000.0,
+    "currency": "USD",
+    "condition": "Sold",
+    "scores": {
+     "value": 3.4,
+     "rarity": 4.1,
+     "investment": 3.0
+    },
+    "link": "https://bringatrailer.com/listing/ferrari-illuminated-sign-21/",
+    "link_state": "live",
+    "image": null,
+    "spec": {
+     "year": null,
+     "noreserve": false,
+     "sold": true,
+     "watchers": "0 Watchers",
+     "views": "0 Views",
+     "active": false,
+     "excerpt": "This illuminated sign features the Ferrari script logo and measures approximately 24″ tall and 130″ wide with a depth of 5″. The sign is mounted to a black metal frame and incorporates pre-drilled mounting holes, interior LED illumination, ",
+     "category": []
+    }
+   },
+   {
+    "dept": "road",
+    "rank": 10,
+    "source": "bringatrailer.com",
+    "title": "24k-Mile 2013 Ferrari 458 Spider",
+    "ask": 300000.0,
+    "currency": "USD",
+    "condition": "Sold",
+    "scores": {
+     "value": 3.4,
+     "rarity": 4.0,
+     "investment": 3.0
+    },
+    "link": "https://bringatrailer.com/listing/2013-ferrari-458-spider-75/",
+    "link_state": "live",
+    "image": null,
+    "spec": {
+     "year": null,
+     "noreserve": false,
+     "sold": true,
+     "watchers": "0 Watchers",
+     "views": "0 Views",
+     "active": false,
+     "excerpt": "This 2013 Ferrari 458 Spider was purchased by the seller in 2025 and now has 24k miles. Finished in Bianco Avus over Rosso leather, it is powered by a 4.5-liter DOHC V8 linked with a seven-speed dual-clutch automatic transaxle and an electr",
+     "category": []
+    }
+   },
+   {
+    "dept": "road",
+    "rank": 11,
+    "source": "bringatrailer.com",
+    "title": "1,200-Mile 2017 Ferrari F12berlinetta",
+    "ask": 931000.0,
+    "currency": "USD",
+    "condition": "Sold",
+    "scores": {
+     "value": 3.4,
+     "rarity": 3.9,
+     "investment": 3.0
+    },
+    "link": "https://bringatrailer.com/listing/2017-ferrari-f12berlinetta-14/",
+    "link_state": "live",
+    "image": null,
+    "spec": {
+     "year": null,
+     "noreserve": false,
+     "sold": true,
+     "watchers": "0 Watchers",
+     "views": "0 Views",
+     "active": false,
+     "excerpt": "This 2017 Ferrari F12berlinetta was ordered through the Atelier Program with approximately $166k in options, some of which include Extra Range Bianco Fuji paintwork, along with Glossy Blu interior and exterior carbon-fiber trim and large-si",
+     "category": []
+    }
+   },
+   {
+    "dept": "road",
+    "rank": 12,
+    "source": "bringatrailer.com",
+    "title": "2000 Ferrari 550 Maranello",
+    "ask": 160000.0,
+    "currency": "USD",
+    "condition": "No Reserve",
+    "scores": {
+     "value": 3.4,
+     "rarity": 3.8,
+     "investment": 3.0
+    },
+    "link": "https://bringatrailer.com/listing/2000-ferrari-550-maranello-69/",
+    "link_state": "live",
+    "image": null,
+    "spec": {
+     "year": null,
+     "noreserve": true,
+     "sold": true,
+     "watchers": "0 Watchers",
+     "views": "0 Views",
+     "active": false,
+     "excerpt": "This 2000 Ferrari 550 Maranello was specified in Azzurro California over a Crema leather interior with power-adjustable Daytona-style seats, and it is powered by a 5.5-liter F133A V12 linked to a six-speed manual transaxle and a limited-sli",
+     "category": []
+    }
+   },
+   {
+    "dept": "road",
+    "rank": 13,
+    "source": "bringatrailer.com",
+    "title": "1970 Ferrari 365 GT 2+2",
+    "ask": 321000.0,
+    "currency": "USD",
+    "condition": "Sold",
+    "scores": {
+     "value": 3.4,
+     "rarity": 3.6,
+     "investment": 3.0
+    },
+    "link": "https://bringatrailer.com/listing/1970-ferrari-365-gt-22-9/",
+    "link_state": "live",
+    "image": null,
+    "spec": {
+     "year": null,
+     "noreserve": false,
+     "sold": true,
+     "watchers": "0 Watchers",
+     "views": "0 Views",
+     "active": false,
+     "excerpt": "This 1970 Ferrari 365 GT 2+2 is one of approximately 800 examples built during just over three years of production. Chassis 13095 was ordered new in Grigio Ortello over Pelle Beige Connolly leather by its original owner—collector Paul Pappa",
+     "category": []
+    }
+   },
+   {
+    "dept": "road",
+    "rank": 14,
+    "source": "bringatrailer.com",
+    "title": "20k-Mile 2003 Ferrari 360 Spider",
+    "ask": 100000.0,
+    "currency": "USD",
+    "condition": "Sold",
+    "scores": {
+     "value": 3.4,
+     "rarity": 3.5,
+     "investment": 3.0
+    },
+    "link": "https://bringatrailer.com/listing/2003-ferrari-360-spider-95/",
+    "link_state": "live",
+    "image": null,
+    "spec": {
+     "year": null,
+     "noreserve": false,
+     "sold": true,
+     "watchers": "0 Watchers",
+     "views": "0 Views",
+     "active": false,
+     "excerpt": "This 2003 Ferrari 360 Spider has 20k miles and has spent most of its time registered in Nevada, California, and Arizona. A blue vinyl wrap covers the gray-finished body, and power is from a 3.6-liter V8 paired with a six-speed F1 sequential",
+     "category": []
+    }
+   },
+   {
+    "dept": "road",
+    "rank": 15,
+    "source": "bringatrailer.com",
+    "title": "Euro 2000 Ferrari 360 Spider 6-Speed",
+    "ask": 130000.0,
+    "currency": "USD",
+    "condition": "Sold",
+    "scores": {
+     "value": 3.4,
+     "rarity": 3.4,
+     "investment": 3.0
+    },
+    "link": "https://bringatrailer.com/listing/2000-ferrari-360-spider-11/",
+    "link_state": "live",
+    "image": null,
+    "spec": {
+     "year": null,
+     "noreserve": false,
+     "sold": true,
+     "watchers": "0 Watchers",
+     "views": "0 Views",
+     "active": false,
+     "excerpt": "This 2000 Ferrari 360 Spider is a European-market car that was imported into the United States in June 2001. The car has 31k miles and appeared on BaT in May 2022. It is finished in Grigio Titanio over Nero leather and is powered by a 3.6-l",
+     "category": []
+    }
+   },
+   {
+    "dept": "road",
+    "rank": 16,
+    "source": "bringatrailer.com",
+    "title": "Five-Piece Ferrari 348 Luggage Set by Schedoni",
+    "ask": 2100.0,
+    "currency": "GBP",
+    "condition": "No Reserve",
+    "scores": {
+     "value": 3.4,
+     "rarity": 3.3,
+     "investment": 3.0
+    },
+    "link": "https://bringatrailer.com/listing/luggage-210/",
+    "link_state": "live",
+    "image": null,
+    "spec": {
+     "year": null,
+     "noreserve": true,
+     "sold": true,
+     "watchers": "0 Watchers",
+     "views": "0 Views",
+     "active": false,
+     "excerpt": "This five-piece luggage set was produced by Schedoni of Modena for use with a Ferrari 348 and consists of a garment bag, a two-piece hard-sided case, and two suitcases. Each piece is constructed of tan leather with a beige interior lining a",
+     "category": []
+    }
+   },
+   {
+    "dept": "road",
+    "rank": 17,
+    "source": "bringatrailer.com",
+    "title": "Turbocharged Quattrovalvole–Powered 1972 Ferrari Dino 246 GT",
+    "ask": 305000.0,
+    "currency": "USD",
+    "condition": "No Reserve",
+    "scores": {
+     "value": 3.4,
+     "rarity": 3.2,
+     "investment": 3.0
+    },
+    "link": "https://bringatrailer.com/listing/1972-ferrari-dino-246-gt-28/",
+    "link_state": "live",
+    "image": null,
+    "spec": {
+     "year": null,
+     "noreserve": true,
+     "sold": true,
+     "watchers": "0 Watchers",
+     "views": "0 Views",
+     "active": false,
+     "excerpt": "This 1972 Ferrari Dino 246 GT is one of approximately 2,900 E-series examples produced through July 1974, and it was acquired in the 1990s by the late owner, who commissioned Norwood Exotics of Rockwall, Texas, to install a turbocharged qua",
+     "category": []
+    }
+   },
+   {
+    "dept": "road",
+    "rank": 18,
+    "source": "bringatrailer.com",
+    "title": "1983 Ferrari 400i",
+    "ask": 40000.0,
+    "currency": "USD",
+    "condition": "Sold",
+    "scores": {
+     "value": 3.4,
+     "rarity": 3.1,
+     "investment": 3.0
+    },
+    "link": "https://bringatrailer.com/listing/1983-ferrari-400i-3/",
+    "link_state": "live",
+    "image": null,
+    "spec": {
+     "year": null,
+     "noreserve": false,
+     "sold": true,
+     "watchers": "0 Watchers",
+     "views": "0 Views",
+     "active": false,
+     "excerpt": "This 1983 Ferrari 400i was imported into the US in August 1983 and was acquired by the current owner on BaT in September 2023. Finished in Nero over beige leather upholstery, it is powered by a 4.8-liter DOHC V12 paired with a three-speed a",
+     "category": []
+    }
+   },
+   {
+    "dept": "road",
+    "rank": 19,
+    "source": "bringatrailer.com",
+    "title": "14k-Mile 2006 Ferrari F430",
+    "ask": 191000.0,
+    "currency": "USD",
+    "condition": "Sold",
+    "scores": {
+     "value": 3.4,
+     "rarity": 3.0,
+     "investment": 3.0
+    },
+    "link": "https://bringatrailer.com/listing/2006-ferrari-f430-78/",
+    "link_state": "live",
+    "image": null,
+    "spec": {
+     "year": null,
+     "noreserve": false,
+     "sold": true,
+     "watchers": "0 Watchers",
+     "views": "0 Views",
+     "active": false,
+     "excerpt": "This 2006 Ferrari F430 has 14k miles and is finished in Giallo Modena over a Nero leather interior with carbon-fiber trim and yellow stitching. The car is equipped with polished 19&quot; split-spoke wheels, Scuderia Ferrari fender shields, ",
+     "category": []
+    }
+   },
+   {
+    "dept": "road",
+    "rank": 20,
+    "source": "bringatrailer.com",
+    "title": "20&#215;8.5&#8243; and 20&#215;10.5&#8243; Ferrari GTC4 Lusso Wheels",
+    "ask": 2222.0,
+    "currency": "USD",
+    "condition": "No Reserve",
+    "scores": {
+     "value": 3.4,
+     "rarity": 2.9,
+     "investment": 3.0
+    },
+    "link": "https://bringatrailer.com/listing/ferrari-gtc4-lusso-speedline/",
+    "link_state": "live",
+    "image": null,
+    "spec": {
+     "year": null,
+     "noreserve": true,
+     "sold": true,
+     "watchers": "0 Watchers",
+     "views": "0 Views",
+     "active": false,
+     "excerpt": "This set of four 20″ Speedline alloy wheels was produced for use on 2016–2020 Ferrari GTC4Lusso models. The wheels measure 20×8.5″ in front and 20×10.5″ in the rear and feature one-piece cast alloy construction, a five-spoke design, a silve",
+     "category": []
+    }
+   },
+   {
+    "dept": "road",
+    "rank": 21,
+    "source": "bringatrailer.com",
+    "title": "Ferrari Passports, Owner&#8217;s Manuals, Service Booklets, &#038; Accessories",
+    "ask": 3888.0,
+    "currency": "USD",
+    "condition": "No Reserve",
+    "scores": {
+     "value": 3.4,
+     "rarity": 2.7,
+     "investment": 3.0
+    },
+    "link": "https://bringatrailer.com/listing/ferrari-passports-owners-manuals-service-booklets-other-ferrari-accessories/",
+    "link_state": "live",
+    "image": null,
+    "spec": {
+     "year": null,
+     "noreserve": true,
+     "sold": true,
+     "watchers": "0 Watchers",
+     "views": "0 Views",
+     "active": false,
+     "excerpt": "This collection of Ferrari literature, tools, and accessories was acquired by the seller approximately three years ago. The lot includes eight Vehicle Identification Passport packets, factory owner&#039;s manuals, hand tools, battery mainta",
+     "category": []
+    }
+   },
+   {
+    "dept": "road",
+    "rank": 22,
+    "source": "bringatrailer.com",
+    "title": "Three-Piece Ferrari 360 Luggage Set by Schedoni",
+    "ask": 2300.0,
+    "currency": "GBP",
+    "condition": "No Reserve",
+    "scores": {
+     "value": 3.4,
+     "rarity": 2.6,
+     "investment": 3.0
+    },
+    "link": "https://bringatrailer.com/listing/luggage-213/",
+    "link_state": "live",
+    "image": null,
+    "spec": {
+     "year": null,
+     "noreserve": true,
+     "sold": true,
+     "watchers": "0 Watchers",
+     "views": "0 Views",
+     "active": false,
+     "excerpt": "This three-piece luggage collection was produced by Schedoni of Modena, Italy, for use with a Ferrari 360. The set consists of a garment bag and two hard-sided suitcases constructed of red leather with matching stitching. The garment bag is",
+     "category": []
+    }
+   },
+   {
+    "dept": "road",
+    "rank": 23,
+    "source": "bringatrailer.com",
+    "title": "2017 Ferrari 488 Spider",
+    "ask": 305000.0,
+    "currency": "USD",
+    "condition": "No Reserve",
+    "scores": {
+     "value": 3.4,
+     "rarity": 2.5,
+     "investment": 3.0
+    },
+    "link": "https://bringatrailer.com/listing/2017-ferrari-488-spider-50-2/",
+    "link_state": "live",
+    "image": null,
+    "spec": {
+     "year": null,
+     "noreserve": true,
+     "sold": true,
+     "watchers": "0 Watchers",
+     "views": "0 Views",
+     "active": false,
+     "excerpt": "This 2017 Ferrari 488 Spider is finished in Rosso Corsa over Nero with Rosso stitching and powered by a twin-turbocharged 3.9-liter V8 paired with a seven-speed F1 dual-clutch automatic transaxle. Equipment includes paint protection film, S",
+     "category": []
+    }
+   },
+   {
+    "dept": "road",
+    "rank": 24,
+    "source": "bringatrailer.com",
+    "title": "Four-Piece Ferrari 550 Maranello Luggage Collection by Schedoni",
+    "ask": 3500.0,
+    "currency": "GBP",
+    "condition": "No Reserve",
+    "scores": {
+     "value": 3.4,
+     "rarity": 2.4,
+     "investment": 3.0
+    },
+    "link": "https://bringatrailer.com/listing/luggage-214/",
+    "link_state": "live",
+    "image": null,
+    "spec": {
+     "year": null,
+     "noreserve": true,
+     "sold": true,
+     "watchers": "0 Watchers",
+     "views": "0 Views",
+     "active": false,
+     "excerpt": "These four pieces of luggage were produced by Schedoni for use with a Ferrari 550 Maranello. The lot consists of two suitcases and two accessory bags constructed of black leather with beige leather interiors. Each piece features a debossed ",
+     "category": []
     }
    }
   ]
