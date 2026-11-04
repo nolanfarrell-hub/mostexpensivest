@@ -65,23 +65,55 @@
       '</div></a>';
   }
 
+  function matchesTax(item, label, key) {
+    // match a taxonomy facet against a keyword: brand/spec label or title
+    var s = item.spec || {};
+    var hay = [String(s[key] || ''), String(s.brand || ''), String(s.label || ''),
+               String(item.title || '')].join(' ').toLowerCase();
+    return hay.indexOf(String(label).toLowerCase()) !== -1;
+  }
+
   function buildRail(railEl, items) {
     if (!railEl) return;
-    // derive facets from source + condition + rarity band — data-driven, no hardcode
+    var cfg = railEl.__meCfg || {};
     var facets = {};
-    items.forEach(function (it) {
-      var key = (it.source || '').toLowerCase();
-      if (!key) return;
-      facets[key] = facets[key] || { count: 0 };
-      facets[key].count++;
-    });
-    var keys = Object.keys(facets).sort();
-    var all = '<span class="rail-chip all on">All<span class="cnt">' + items.length + '</span></span>';
-    var chips = all + keys.map(function (k) {
-      return '<span class="rail-chip" data-f="' + esc(k) + '">' + esc(k.replace(/^www\./, '').split('.')[0]) +
-        '<span class="cnt">' + facets[k].count + '</span></span>';
-    }).join('');
+    var chips = [];
+    var useTaxonomy = cfg.taxonomy && cfg.taxonomy.length;
+    if (useTaxonomy) {
+      // curated designer facets from the recovered market taxonomy; counts are
+      // computed from the actual item set, never the (stale) snapshot counts
+      cfg.taxonomy.forEach(function (label) {
+        var c = items.filter(function (it) { return matchesTax(it, label, 'brand'); }).length;
+        if (c > 0) facets[label] = c;
+      });
+      var all = '<span class="rail-chip all on">All<span class="cnt">' + items.length + '</span></span>';
+      chips = all + Object.keys(facets).map(function (k) {
+        return '<span class="rail-chip" data-f="' + esc(k) + '">' + esc(k) +
+          '<span class="cnt">' + facets[k] + '</span></span>';
+      }).join('');
+    } else {
+      // fall back to source-level facets
+      items.forEach(function (it) {
+        var key = (it.source || '').toLowerCase();
+        if (!key) return;
+        facets[key] = facets[key] || 0;
+        facets[key]++;
+      });
+      var keys = Object.keys(facets).sort();
+      var all2 = '<span class="rail-chip all on">All<span class="cnt">' + items.length + '</span></span>';
+      chips = all2 + keys.map(function (k) {
+        return '<span class="rail-chip" data-f="' + esc(k) + '">' + esc(k.replace(/^www\./, '').split('.')[0]) +
+          '<span class="cnt">' + facets[k] + '</span></span>';
+      }).join('');
+    }
     railEl.innerHTML = '<span class="rail-label">Market ·</span>' + chips;
+    // stash a render callback so the click handler can filter by taxonomy
+    railEl.__meItems = items;
+    railEl.__meCfg = cfg;
+    railEl.__meRenderTax = function (label) {
+      var list = label ? items.filter(function (it) { return matchesTax(it, label, 'brand'); }) : items;
+      renderAll(cfg, list);
+    };
   }
 
   function renderAll(cfg, items) {
@@ -116,15 +148,17 @@
         items = items.filter(function (it) { return it && it.rank != null; })
           .sort(function (a, b) { return (a.rank || 0) - (b.rank || 0); });
         var railEl = document.querySelector(cfg.rail);
+        if (railEl) { railEl.__meCfg = cfg; }
         buildRail(railEl, items);
         if (railEl) {
           railEl.addEventListener('click', function (e) {
             var chip = e.target.closest('.rail-chip');
             if (!chip) return;
             Array.prototype.forEach.call(railEl.querySelectorAll('.rail-chip'), function (c) { c.classList.remove('on'); });
-            if (chip.classList.contains('all')) { chip.classList.add('on'); renderAll(cfg, items); return; }
             chip.classList.add('on');
+            if (chip.classList.contains('all')) { renderAll(cfg, items); return; }
             var f = chip.getAttribute('data-f');
+            if (railEl.__meRenderTax) { railEl.__meRenderTax(f); return; }
             renderAll(cfg, items.filter(function (it) { return (it.source || '').toLowerCase() === f; }));
           });
         }

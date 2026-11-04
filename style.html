@@ -84,6 +84,9 @@ fetch("media/style_records.json",{cache:"no-store"}).then(function(r){return r.j
 ME.market({ feed:'refharvest/out/feed.json', dept:'style',
   grid:'#styleScored', rail:'#styleRail', records:'#styleTable',
   photos:['media/img/suit.jpg','media/img/dep_library.jpg','media/img/suit.jpg'],
+  // curator's rail from the recovered RealRear market taxonomy (10 high houses)
+  taxonomy:['Hermès','Chanel','Loro Piana','Cartier','Bvlgari','Valentino',
+            'Givenchy','Saint Laurent','Balmain','Carolina Herrera'],
   limit:9 });
 </script>
 
