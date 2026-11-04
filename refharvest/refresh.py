@@ -21,6 +21,7 @@ PY = os.path.join(ROOT, ".venv", "bin", "python3")
 # (script, label, needs_jina) — order matters: pullers first, then score/export.
 STEPS = [
     ("holts_lots.py",      "Holt's auction lots (field)", False),
+    ("gunscom_firearms.py","Guns.com shotguns (field, via jina)", True),
     ("sothebys_lots.py",   "Sotheby's handbags (style)", False),
     ("bat_lots.py",        "Bring a Trailer (road)", False),
     ("fraser_yachts.py",   "Fraser Yachts (sea)", False),

@@ -84,8 +84,11 @@
 (function(){function esc(s){var d=document.createElement("div");d.textContent=s==null?"":String(s);return d.innerHTML;}function money(r){var n=r.price;if(n==null||isNaN(n)||n<=0)return "by invitation";var sym=r.ccy==="GBP"?"£":"$";var m=n>=1000000?(n/1000000).toFixed(n%1000000===0?0:1)+"m":Math.round(n).toLocaleString("en-US");return sym+m;}
 fetch("media/field_records.json",{cache:"no-store"}).then(function(r){return r.json();}).then(function(recs){var tb=document.getElementById("fieldTable");recs.sort(function(a,b){return (b.price||0)-(a.price||0);});tb.innerHTML=recs.slice(0,10).map(function(r){var inner='<div class="rdesc">'+esc(r.name)+'</div><div class="rkind">'+esc(r.kind)+'</div><div class="rloc">'+esc(r.locale)+'</div><div class="ryear">'+esc(r.year)+'</div><div class="rprice">'+money(r)+' · <span class="rgo">record ↗</span></div>';return '<a class="rrow" href="'+esc(r.src)+'" target="_blank" rel="noopener">'+inner+'</a>';}).join("");}).catch(function(){var tb=document.getElementById("fieldTable");if(tb)tb.innerHTML='<div class="mload" style="padding:20px">The field is momentarily misread.</div>';});})();
 </script>
-<script src="js/market-loader.js"></script>
-<script>(function(){__meMarketLoad('field','meMarket',['media/img/dep_field.jpg','media/img/dep_field2.jpg','media/img/field.jpg']);})();</script>
+<script src="js/market.js"></script>
+<script>
+ME.market({ feed:'refharvest/out/feed.json', dept:'field',
+  grid:'#meMarket', limit:9 });
+</script>
 
 </body>
 </html>
