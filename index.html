@@ -58,19 +58,14 @@
   </div>
 </div></div>
 
-<!-- JUST FOUND BY THE DESK — the engine's live finds -->
-<div class="sec found wrap">
-  <div class="sh"><h2><span class="no">I.</span>Just Found by the Desk</h2><div class="note">the engine's latest, live now</div><a class="go" href="time.html">See all →</a></div>
-  <div class="frow">
-    <a class="fcard" href="time.html"><div class="im"><img src="media/img/dep_time.jpg" alt="" loading="lazy"/></div><div class="bd"><div class="k">Time</div><div class="n">Rolex Daytona, Paul Newman</div><div class="r">· ref 6263</div><div class="p">$865,000 <small>· The Watch Box</small></div></div></a>
-    <a class="fcard" href="road.html"><div class="im"><img src="media/img/road.jpg" alt="" loading="lazy"/></div><div class="bd"><div class="k">The Road</div><div class="n">Ferrari Luce, Tailor Made</div><div class="r">· RM Sotheby's</div><div class="p">$40M <small>· Monterey</small></div></div></a>
-    <a class="fcard" href="table.html"><div class="im"><img src="media/img/table_lounge.jpg" alt="" loading="lazy"/></div><div class="bd"><div class="k">The Table</div><div class="n">Macallan Valerio Adami 1926</div><div class="r">· 60-year-old</div><div class="p">$2.73M <small>· Sotheby's London</small></div></div></a>
-    <a class="fcard" href="art.html"><div class="im"><img src="media/img/art_wave.jpg" alt="" loading="lazy"/></div><div class="bd"><div class="k">Art</div><div class="n">Hokusai, The Great Wave</div><div class="r">· Thirty-six Views</div><div class="p">by provenance <small>· placed on request</small></div></div></a>
-  </div>
+<!-- LIVE & RANKED — engine strip (data-driven, top-scored across depts) -->
+<div class="sec found wrap" id="liveRanked">
+  <div class="sh"><h2><span class="no">I.</span>Live &amp; Ranked</h2><div class="note">the engine's top-scored, live now · value · rarity · investment</div><a class="go" href="time.html">See all →</a></div>
+  <div class="frow" id="liveRankedGrid"><div class="mload">reading the market…</div></div>
 </div>
 
 <!-- JOURNAL INDEX — asymmetric department grid -->
-<div class="sec wrap">
+<div class="sec wrap" id="deptIndex">
   <div class="sh"><h2><span class="no">II.</span>The Departments</h2><div class="note">a journal index</div></div>
   <div class="index">
     <a class="ix ix-lead" href="time.html"><div class="im"><img src="media/img/dep_time.jpg" loading="lazy" alt=""/></div><div class="sc"></div><div class="bd"><div class="k">I · Time</div><h3>The Rarest Watches, Placed by Provenance</h3><div class="ty">live market · collector notes · auction records</div><div class="go">Enter →</div></div></a>
@@ -102,6 +97,31 @@
   </div>
   <div class="foot-last"><span>© ME · MMXXVI</span><span>The Most Expensivest</span><span>Editorial cover over a live market</span></div>
 </footer>
+<script>
+(function(){
+  function esc(s){var d=document.createElement("div");d.textContent=s==null?"":String(s);return d.innerHTML;}
+  function money(val,cur){if(val==null)return "on request";var n=Math.round(Number(val));try{return new Intl.NumberFormat("en-US",{style:"currency",currency:String(cur||"USD"),maximumFractionDigits:0}).format(n);}catch(e){return "$"+n.toLocaleString("en-US");}}
+  function chip(k,v){if(v==null)return "";V=Math.round(Number(v));return '<span class="schip '+(V>=4?"hi":V<=2?"lo":"md")+'"><i>'+k+'</i><b>'+V+'</b></span>';}
+  var DEPTS=["time","style","table","estates","field","sea","road","art"];
+  var IMG={time:"media/img/dep_time.jpg",style:"media/img/suit.jpg",table:"media/img/table_cigar.jpg",estates:"media/img/dep_estate.jpg",field:"media/img/field.jpg",sea:"media/img/sea.jpg",road:"media/img/road.jpg",art:"media/img/art_pearl.jpg"};
+  fetch("refharvest/out/feed.json",{cache:"no-store"}).then(function(r){return r.json();}).then(function(d){
+    var grid=document.getElementById("liveRankedGrid"); if(!grid)return;
+    var rows=DEPTS.map(function(dp){
+      var items=(d.departments&&d.departments[dp])||[];return items[0]||null;
+    }).filter(Boolean);
+    if(!rows.length){grid.innerHTML='<div class="mload">The market is being updated.</div>';return;}
+    grid.innerHTML=rows.slice(0,4).map(function(it){
+      var s=it.scores||{};
+      return '<a class="fcard" href="'+(it.link||"#")+'" target="_blank" rel="noopener">'+
+        '<div class="im"><img src="'+esc(IMG[it.dept]||"")+'" alt="" loading="lazy"/></div>'+
+        '<div class="bd"><div class="k">'+esc(it.dept[0].toUpperCase()+it.dept.slice(1))+'</div>'+
+        '<div class="n">'+esc(it.title)+'</div>'+
+        '<div class="r">'+esc(it.source||"")+'</div>'+
+        '<div class="p">'+money(it.ask,it.currency)+(s.value!=null?' <small>v'+s.value+' · r'+s.rarity+' · i'+s.investment+'</small>':'')+'</div></div></a>';
+    }).join("");
+  }).catch(function(){var g=document.getElementById("liveRankedGrid");if(g)g.innerHTML='<div class="mload">The market is momentarily unavailable.</div>';});
+})();
+</script>
 
 </body>
 </html>
