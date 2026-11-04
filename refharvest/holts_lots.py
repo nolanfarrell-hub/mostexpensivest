@@ -67,9 +67,25 @@ def main():
                 mid = (num(est_m.group(1)) + num(est_m.group(2))) / 2
                 if mid:
                     ratio = round(num(hit_m.group(2)) / mid, 3)
+            # real thumbnail (server-rendered <img> in each lot card) + real
+            # per-lot page link from the wrapping <a> — not the #lot anchor
+            thumb = ""
+            img_el = c.find("img")
+            if img_el is not None:
+                thumb = img_el.get("src") or img_el.get("data-src") or ""
+                if thumb.startswith("data:") or not thumb.startswith("http"):
+                    thumb = ""
+            lot_href = ""
+            a_el = c.find("a", href=True)
+            if a_el is not None:
+                hh = a_el.get("href", "")
+                if "fullcatalogue.asp" in hh:
+                    lot_href = "https://www.holtsauctioneers.com" + hh \
+                        if hh.startswith("/") else hh
             rec = {
                 "dept": "field", "source": "holtsauctioneers.com",
-                "url": url + f"#lot{m.group(1)}", "title": f"{desc[:150]}",
+                "url": lot_href or (url + f"#lot{m.group(1)}"),
+                "title": f"{desc[:150]}",
                 "ask_cents": ask,
                 "currency": "GBP",
                 "condition": None,
@@ -79,6 +95,7 @@ def main():
                          "est_high": num(est_m.group(2)) if est_m else None},
                 "fallback_url": ("https://www.holtsauctioneers.com/"
                                  "asp/searchresults.asp?st=D&sale_no=" + sale),
+                "image_path": thumb or None,
             }
             db.upsert(con, rec)
             lots += 1

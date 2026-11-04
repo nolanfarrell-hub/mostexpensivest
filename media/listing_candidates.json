@@ -1,229 +1,229 @@
 {
-  "generated": "2026-11-01",
+  "generated": "2026-11-04",
   "candidates": [
     {
       "dept": "time",
       "url": "https://www.watchfinder.co.uk/",
       "status": "LIVE",
       "http": 200,
-      "probe": "2026-11-01"
+      "probe": "2026-11-04"
     },
     {
       "dept": "time",
       "url": "https://www.watchbox.com/",
       "status": "LIVE",
       "http": 200,
-      "probe": "2026-11-01"
+      "probe": "2026-11-04"
     },
     {
       "dept": "time",
       "url": "https://www.thewatchbox.com/watches",
       "status": "LIVE",
       "http": 200,
-      "probe": "2026-11-01"
+      "probe": "2026-11-04"
     },
     {
       "dept": "time",
       "url": "https://www.austernandpaul.com/",
       "status": "DEAD",
       "http": "000",
-      "probe": "2026-11-01"
+      "probe": "2026-11-04"
     },
     {
       "dept": "table",
       "url": "https://www.havanahouse.co.uk/",
       "status": "WALL",
       "http": "403",
-      "probe": "2026-11-01"
+      "probe": "2026-11-04"
     },
     {
       "dept": "table",
       "url": "https://www.cigars.co.uk/",
       "status": "LIVE",
       "http": 200,
-      "probe": "2026-11-01"
+      "probe": "2026-11-04"
     },
     {
       "dept": "table",
       "url": "https://www.masterofmalt.com/",
       "status": "WALL",
       "http": "429",
-      "probe": "2026-11-01"
+      "probe": "2026-11-04"
     },
     {
       "dept": "table",
       "url": "https://www.whiskyauctioneer.com/",
-      "status": "LIVE",
-      "http": 200,
-      "probe": "2026-11-01"
+      "status": "DEAD",
+      "http": "406",
+      "probe": "2026-11-04"
     },
     {
       "dept": "sea",
       "url": "https://www.denisonyachtsales.com/",
       "status": "LIVE",
       "http": 200,
-      "probe": "2026-11-01"
+      "probe": "2026-11-04"
     },
     {
       "dept": "sea",
       "url": "https://www.yachtworld.com/",
       "status": "WALL",
       "http": "403",
-      "probe": "2026-11-01"
+      "probe": "2026-11-04"
     },
     {
       "dept": "sea",
       "url": "https://www.burgessyachts.com/",
       "status": "LIVE",
       "http": 200,
-      "probe": "2026-11-01"
+      "probe": "2026-11-04"
     },
     {
       "dept": "sea",
       "url": "https://www.boats.com/",
       "status": "WALL",
       "http": "403",
-      "probe": "2026-11-01"
+      "probe": "2026-11-04"
     },
     {
       "dept": "road",
       "url": "https://www.hemmings.com/",
       "status": "WALL",
       "http": "403",
-      "probe": "2026-11-01"
+      "probe": "2026-11-04"
     },
     {
       "dept": "road",
       "url": "https://www.classiccar.com/",
       "status": "LIVE",
       "http": 200,
-      "probe": "2026-11-01"
+      "probe": "2026-11-04"
     },
     {
       "dept": "road",
       "url": "https://www.carandclassic.com/",
       "status": "WALL",
       "http": "403",
-      "probe": "2026-11-01"
+      "probe": "2026-11-04"
     },
     {
       "dept": "road",
       "url": "https://www.dupontregistry.com/",
       "status": "LIVE",
       "http": 200,
-      "probe": "2026-11-01"
+      "probe": "2026-11-04"
     },
     {
       "dept": "estate",
       "url": "https://www.sothebysrealty.com/",
       "status": "DEAD",
       "http": "202",
-      "probe": "2026-11-01"
+      "probe": "2026-11-04"
     },
     {
       "dept": "estate",
       "url": "https://www.compass.com/",
       "status": "LIVE",
       "http": 200,
-      "probe": "2026-11-01"
+      "probe": "2026-11-04"
     },
     {
       "dept": "estate",
       "url": "https://www.homes.com/",
       "status": "WALL",
       "http": "403",
-      "probe": "2026-11-01"
+      "probe": "2026-11-04"
     },
     {
       "dept": "estate",
       "url": "https://www.chestertons.com/",
       "status": "LIVE",
       "http": 200,
-      "probe": "2026-11-01"
+      "probe": "2026-11-04"
     },
     {
       "dept": "field",
       "url": "https://www.hollandandholland.com/",
       "status": "WALL",
       "http": "429",
-      "probe": "2026-11-01"
+      "probe": "2026-11-04"
     },
     {
       "dept": "field",
       "url": "https://www.bossandco.com/",
       "status": "LIVE",
       "http": 200,
-      "probe": "2026-11-01"
+      "probe": "2026-11-04"
     },
     {
       "dept": "field",
       "url": "https://www.williampowell.co/",
       "status": "DEAD",
       "http": "000",
-      "probe": "2026-11-01"
+      "probe": "2026-11-04"
     },
     {
       "dept": "field",
       "url": "https://www.gunsinternational.com/",
       "status": "WALL",
       "http": "403",
-      "probe": "2026-11-01"
+      "probe": "2026-11-04"
     },
     {
       "dept": "style",
       "url": "https://www.therealreal.com/",
       "status": "WALL",
       "http": "403",
-      "probe": "2026-11-01"
+      "probe": "2026-11-04"
     },
     {
       "dept": "style",
       "url": "https://www.vestiairecollective.com/",
       "status": "WALL",
       "http": "403",
-      "probe": "2026-11-01"
+      "probe": "2026-11-04"
     },
     {
       "dept": "style",
       "url": "https://www.fashiag.com/",
       "status": "DEAD",
       "http": "000",
-      "probe": "2026-11-01"
+      "probe": "2026-11-04"
     },
     {
       "dept": "style",
       "url": "https://www.jomashop.com/",
       "status": "LIVE",
       "http": 200,
-      "probe": "2026-11-01"
+      "probe": "2026-11-04"
     },
     {
       "dept": "art",
       "url": "https://www.saatchiart.com/",
       "status": "WALL",
       "http": "403",
-      "probe": "2026-11-01"
+      "probe": "2026-11-04"
     },
     {
       "dept": "art",
       "url": "https://www.artnet.com/",
       "status": "WALL",
       "http": "403",
-      "probe": "2026-11-01"
+      "probe": "2026-11-04"
     },
     {
       "dept": "art",
       "url": "https://www.invaluable.com/",
       "status": "LIVE",
       "http": 200,
-      "probe": "2026-11-01"
+      "probe": "2026-11-04"
     },
     {
       "dept": "art",
       "url": "https://www.artsy.net/",
       "status": "WALL",
       "http": "403",
-      "probe": "2026-11-01"
+      "probe": "2026-11-04"
     }
   ]
 }

@@ -27,6 +27,33 @@ def money_cents(text):
 def clean(s):
     return re.sub(r"\s+", " ", s or "").strip()
 
+def _norm_title(s):
+    """Collapse whitespace, strip punctuation for matching."""
+    s = re.sub(r"[^a-z0-9]", "", "".join(c for c in (s or "").lower() if c.isalnum() or c in " '’"))
+    return re.sub(r"\s+", "", s).strip()
+
+def _extract_hit_images(html):
+    """Parse __NEXT_DATA__ from Sotheby's SSR HTML and return a dict
+    normalized(hit title) -> imageUrl for all Algolia hits."""
+    import json
+    m = re.search(r'<script[^>]*id="__NEXT_DATA__"[^>]*>(.*?)</script>', html, re.S)
+    if not m:
+        return {}
+    try:
+        data = json.loads(m.group(1))
+        hits = data["props"]["pageProps"]["serverState"]["initialResults"] \
+                       ["prod_product_items"]["results"][0]["hits"]
+    except (KeyError, IndexError, TypeError, json.JSONDecodeError):
+        return {}
+    lookup = {}
+    for h in hits:
+        title = h.get("title") or ""
+        url = h.get("imageUrl") or ""
+        if not title or not url:
+            continue
+        lookup[_norm_title(title)] = url
+    return lookup
+
 def main():
     con = db.connect("data/harvest.db")
     total = 0
@@ -37,6 +64,7 @@ def main():
             print(f"[{dept}] FAIL {e}")
             continue
         soup = BeautifulSoup(html, "lxml")
+        hit_images = _extract_hit_images(html)
         cards = soup.find_all("div", recursive=True)
         # find the tiniest article/card blocks that contain an h5 brand + price
         seen = set()
@@ -63,13 +91,15 @@ def main():
                 continue
             seen.add(key)
             cents = money_cents(p_price.get_text())
-            img_el = c.find("img")
-            sock = ""
-            if img_el is not None:
-                # real photo is in data-src (lazy-load); src is often a placeholder
-                sock = (img_el.get("data-src") or img_el.get("src") or "")
-                if sock.startswith("data:"):   # placeholder SVG — skip
-                    sock = ""
+            # Primary: imageUrl from __NEXT_DATA__ Algolia hits (works for ALL cards,
+            # including ones whose <img> is just a lazy-load SVG placeholder).
+            sock = hit_images.get(_norm_title(t), "")
+            if not sock:
+                img_el = c.find("img")
+                if img_el is not None:
+                    sock = (img_el.get("data-src") or img_el.get("src") or "")
+                    if sock.startswith("data:"):   # placeholder SVG — skip
+                        sock = ""
             rec = {
                 "dept": dept, "source": "www.sothebys.com",
                 "url": url + "#" + re.sub(r"\W+", "_", key)[:40],
