@@ -30,7 +30,6 @@ def maker_of(title):
     """Coarse make/reference key for rarity: leading proper-noun cluster."""
     t = re.sub(r"Lot \d+", "", title or "")
     t = re.sub(r"^(A |AN |THE |A |) ", "", t).strip()
-    head = re.match(r"([A-Z][A-Z'&.\- ]{2,40}?)(?=\s+[A-Z]{1}\d|  )", t)
     words = t.split(" ")
     key = " ".join(words[:3]).upper()
     return key
@@ -39,26 +38,44 @@ def main():
     con = connect()
     rows = con.execute("SELECT * FROM items").fetchall()
 
-    # --- reference-level aggregates for rarity & investment ---
-    freq = defaultdict(int)            # how often a make/reference appears
-    sums = defaultdict(lambda: [0, 0]) # [sum_ratio, count] hammer-vs-est
+    # reference-level aggregates per DEPARTMENT (so rarity is comparable within
+    # a dept's own market, not across unrelated depts)
+    dept_rows = defaultdict(list)
     for r in rows:
-        mk = maker_of(r["title"])
-        freq[mk] += 1
-        spec = json.loads(r["spec_json"] or "{}")
-        ratio = spec.get("hammer_to_est")
-        if ratio is not None:
-            sums[mk][0] += ratio
-            sums[mk][1] += 1
+        dept_rows[r["dept"]].append(r)
 
-    n_mk = len(freq)
-    # rarity scale: most common -> 0 (mass-produced), singleton -> 5 (unique)
-    # use inverse-frequency; cap so 2+ appearances read as available
+    # ---- per-dept rarity: rank-normalize reference frequency ----
+    # The rarest reference in a dept scores 5, the most common scores based on
+    # its share. A true inverse-frequency saturates (every singleton -> 5), so
+    # instead we rank references by frequency: spread 5->~2 across the dept.
+    rarity_by_key = {}
+    sums = defaultdict(lambda: [0, 0])   # [sum_ratio, count] per reference, across all depts
+    for dept, deptlist in dept_rows.items():
+        freq = defaultdict(int)
+        for r in deptlist:
+            mk = maker_of(r["title"])
+            freq[mk] += 1
+            spec = json.loads(r["spec_json"] or "{}")
+            ratio = spec.get("hammer_to_est")
+            if ratio is not None:
+                sums[mk][0] += ratio
+                sums[mk][1] += 1
+        if not freq:
+            continue
+        # unique reference keys, sorted by ascending frequency (rarest first)
+        ordered = sorted(freq.items(), key=lambda kv: kv[1])
+        n = len(ordered)
+        # rank-based: first (rarest) gets 5, last (most common) gets ~2
+        for i, (mk, c) in enumerate(ordered):
+            if n == 1:
+                rarity_by_key[mk] = 4.0
+            else:
+                frac = i / (n - 1)                 # 0 (rarest) .. 1 (common)
+                rarity_by_key[mk] = clamp(5.0 - 2.6 * frac, 2.0, 5.0)
+        # condition bonus handled in the item loop (not here)
+
     def rarity_score(mk):
-        c = freq[mk]
-        if c <= 0:
-            return 3.0
-        return clamp(5.0 * (1.0 / c) * (n_mk / (n_mk + 2)), 0.0, 5.0)
+        return rarity_by_key.get(mk, 3.0)
 
     def invest_score(mk):
         s, c = sums[mk]
