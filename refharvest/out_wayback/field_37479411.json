@@ -1,0 +1,135 @@
+{
+  "url": "https://www.gavingardiner.com/",
+  "title": "Gavin Gardiner",
+  "card_repeats": 8,
+  "anatomy": [
+    {
+      "tag": "table"
+    },
+    {
+      "tag": "tr"
+    },
+    {
+      "tag": "td"
+    },
+    {
+      "tag": "img"
+    },
+    {
+      "tag": "tr"
+    },
+    {
+      "tag": "td"
+    },
+    {
+      "tag": "div"
+    },
+    {
+      "tag": "td"
+    },
+    {
+      "tag": "img"
+    },
+    {
+      "tag": "td"
+    },
+    {
+      "tag": "td"
+    },
+    {
+      "tag": "img"
+    },
+    {
+      "tag": "tr"
+    },
+    {
+      "tag": "td"
+    },
+    {
+      "tag": "img"
+    },
+    {
+      "tag": "td"
+    },
+    {
+      "tag": "img"
+    },
+    {
+      "tag": "td"
+    },
+    {
+      "tag": "ul"
+    },
+    {
+      "tag": "li"
+    },
+    {
+      "tag": "a"
+    },
+    {
+      "tag": "img"
+    },
+    {
+      "tag": "li"
+    },
+    {
+      "tag": "a"
+    },
+    {
+      "tag": "img"
+    },
+    {
+      "tag": "ul"
+    },
+    {
+      "tag": "li"
+    },
+    {
+      "tag": "a",
+      "text": "About us"
+    },
+    {
+      "tag": "li"
+    },
+    {
+      "tag": "a",
+      "text": "Staff Profiles"
+    },
+    {
+      "tag": "li"
+    },
+    {
+      "tag": "a",
+      "text": "History"
+    },
+    {
+      "tag": "li"
+    },
+    {
+      "tag": "a",
+      "text": "Terms & Conditions"
+    },
+    {
+      "tag": "li"
+    },
+    {
+      "tag": "a"
+    },
+    {
+      "tag": "img"
+    },
+    {
+      "tag": "ul"
+    },
+    {
+      "tag": "li"
+    },
+    {
+      "tag": "a",
+      "text": "Forthcoming Auctions"
+    }
+  ],
+  "facets": [],
+  "facet_links": [],
+  "type_sizes": []
+}

@@ -1,0 +1,45 @@
+{
+  "url": "https://www.jamesedition.com/real_estate/all",
+  "title": "181,391 luxury real estate and homes for sale worldwide | JamesEdition",
+  "card_repeats": 63,
+  "anatomy": [
+    {
+      "tag": "img"
+    }
+  ],
+  "facets": [
+    "Price",
+    "Rooms",
+    "Home type",
+    "More",
+    "Filters",
+    "Save search",
+    "Clear all",
+    "Home Type",
+    "House",
+    "Villa",
+    "Apartment",
+    "Chalet",
+    "Land",
+    "Condo",
+    "Penthouse",
+    "Farm Ranch",
+    "Finca",
+    "Estate",
+    "Castle",
+    "Country House",
+    "Co Op",
+    "Townhouse",
+    "Private Island",
+    "Chateau",
+    "Yacht Slip Dockage",
+    "Living area",
+    "Year built",
+    "Sort by",
+    "Clear",
+    "Apply",
+    "Show results"
+  ],
+  "facet_links": [],
+  "type_sizes": []
+}

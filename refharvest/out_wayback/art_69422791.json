@@ -1,0 +1,67 @@
+{
+  "url": "https://ha.com/",
+  "title": "Heritage Auctions | World's Largest Collectibles Auctioneer",
+  "card_repeats": 4,
+  "anatomy": [
+    {
+      "tag": "img"
+    }
+  ],
+  "facets": [
+    "Filter Button",
+    "Clear Filters",
+    "Information storage and access",
+    "Apply"
+  ],
+  "facet_links": [],
+  "type_sizes": [
+    [
+      "12px",
+      23
+    ],
+    [
+      "1.5rem",
+      13
+    ],
+    [
+      "16px",
+      10
+    ],
+    [
+      "14px",
+      10
+    ],
+    [
+      "13px",
+      8
+    ],
+    [
+      "30px",
+      4
+    ],
+    [
+      "20px",
+      4
+    ],
+    [
+      "1rem",
+      4
+    ],
+    [
+      "10px",
+      3
+    ],
+    [
+      "15px",
+      3
+    ],
+    [
+      "18px",
+      2
+    ],
+    [
+      "50px",
+      2
+    ]
+  ]
+}

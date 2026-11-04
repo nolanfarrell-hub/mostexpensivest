@@ -1,0 +1,62 @@
+{
+  "url": "https://www.1stdibs.com/buy/art/?period=mid-century",
+  "title": "1stDibs: Antique and Modern Furniture, Jewelry, Fashion & Art",
+  "card_repeats": 83,
+  "anatomy": [
+    {
+      "tag": "img"
+    }
+  ],
+  "facets": [],
+  "facet_links": [],
+  "type_sizes": [
+    [
+      "1.5rem",
+      12
+    ],
+    [
+      "14px",
+      9
+    ],
+    [
+      "16px",
+      7
+    ],
+    [
+      "1rem",
+      5
+    ],
+    [
+      "12px",
+      3
+    ],
+    [
+      ".85rem",
+      3
+    ],
+    [
+      ".875rem",
+      2
+    ],
+    [
+      "11px",
+      2
+    ],
+    [
+      ".6875rem",
+      1
+    ],
+    [
+      "1.125rem",
+      1
+    ],
+    [
+      "1.25rem",
+      1
+    ],
+    [
+      "1.18rem",
+      1
+    ]
+  ]
+}

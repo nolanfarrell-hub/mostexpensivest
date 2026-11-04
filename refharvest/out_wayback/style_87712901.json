@@ -1,0 +1,57 @@
+{
+  "url": "https://www.1stdibs.com/fashion/",
+  "title": "Couture, Vintage and Designer Fashion at 1stdibs",
+  "card_repeats": 120,
+  "anatomy": [
+    {
+      "tag": "div"
+    },
+    {
+      "tag": "a"
+    },
+    {
+      "tag": "img"
+    },
+    {
+      "tag": "img"
+    },
+    {
+      "tag": "h2"
+    },
+    {
+      "tag": "a"
+    },
+    {
+      "tag": "span",
+      "text": "Rare Elsa Peretti For Halston Snake Belt"
+    },
+    {
+      "tag": "span"
+    },
+    {
+      "tag": "a",
+      "text": "View Price"
+    },
+    {
+      "tag": "h3"
+    },
+    {
+      "tag": "a"
+    },
+    {
+      "tag": "img"
+    },
+    {
+      "tag": "img"
+    }
+  ],
+  "facets": [
+    "Refine your search",
+    "Search",
+    "Display Measurements",
+    "Display Sold Items",
+    "Display Only This Week's Listings"
+  ],
+  "facet_links": [],
+  "type_sizes": []
+}

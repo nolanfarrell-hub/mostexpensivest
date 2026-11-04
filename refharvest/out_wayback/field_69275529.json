@@ -1,0 +1,32 @@
+{
+  "url": "https://www.gunbroker.com/",
+  "title": "GunBroker.com Firearms Auction / Gun Auction - Buy and Sell Guns, Air Guns, Archery, and Gun Accessories",
+  "card_repeats": 58,
+  "anatomy": [
+    {
+      "tag": "p"
+    },
+    {
+      "tag": "img"
+    },
+    {
+      "tag": "br"
+    },
+    {
+      "tag": "small"
+    },
+    {
+      "tag": "small"
+    },
+    {
+      "tag": "a"
+    },
+    {
+      "tag": "font",
+      "text": "The Web's Premiere Firearms Auction Site"
+    }
+  ],
+  "facets": [],
+  "facet_links": [],
+  "type_sizes": []
+}

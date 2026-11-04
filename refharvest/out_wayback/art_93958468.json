@@ -1,0 +1,154 @@
+{
+  "url": "https://www.sothebys.com/en/buy/handbags",
+  "title": "Handbags Fashion Sotheby's",
+  "card_repeats": 35,
+  "anatomy": [
+    {
+      "tag": "div"
+    },
+    {
+      "tag": "a"
+    },
+    {
+      "tag": "div"
+    },
+    {
+      "tag": "div"
+    },
+    {
+      "tag": "span"
+    },
+    {
+      "tag": "img"
+    },
+    {
+      "tag": "h5",
+      "text": "Herm\u00e8s"
+    },
+    {
+      "tag": "p",
+      "text": "Mushroom Togo Birkin 25 Gold Hardware, 2023"
+    },
+    {
+      "tag": "div"
+    },
+    {
+      "tag": "div"
+    },
+    {
+      "tag": "p",
+      "text": "30,800 USD"
+    },
+    {
+      "tag": "div"
+    },
+    {
+      "tag": "img"
+    },
+    {
+      "tag": "p",
+      "text": "Buy Now"
+    }
+  ],
+  "facets": [
+    "USD",
+    "Hide filters",
+    "Sort By: Relevance",
+    "Filters",
+    "Relevance",
+    "Price - low to high",
+    "Price - high to low",
+    "Newest",
+    "Way to Buy",
+    "Bid Now (17)",
+    "Buy Now (2144)",
+    "Private Sale (61)",
+    "Category",
+    "Handbags (2165)",
+    "Jewelry (40)",
+    "Product Type",
+    "Bracelet (10)",
+    "Brooch (4)",
+    "Earring (1)",
+    "Handbag (2167)",
+    "Brand",
+    "Bottega Veneta (6)",
+    "Boucheron (1)",
+    "Bulgari (1)",
+    "Cartier (1)",
+    "Chanel (668)",
+    "Handbag Type",
+    "Accessory (64)",
+    "Backpack (50)",
+    "Belt Bag (5)",
+    "Bowler (7)",
+    "Briefcase (4)",
+    "Price",
+    "From",
+    "To",
+    "Era",
+    "Antique (1)",
+    "Contemporary (2028)",
+    "Vintage (131)",
+    "Handbag Style",
+    "Handbag Size",
+    "Special Feature",
+    "Gender",
+    "Year",
+    "Materials",
+    "Color",
+    "Item Location",
+    "Available for International Shipping"
+  ],
+  "facet_links": [],
+  "type_sizes": [
+    [
+      "1rem",
+      34
+    ],
+    [
+      "0.875rem",
+      31
+    ],
+    [
+      "0.75rem",
+      30
+    ],
+    [
+      "1.5rem",
+      21
+    ],
+    [
+      "1.125rem",
+      15
+    ],
+    [
+      "4rem",
+      6
+    ],
+    [
+      "3rem",
+      6
+    ],
+    [
+      "2rem",
+      6
+    ],
+    [
+      "1.25rem",
+      6
+    ],
+    [
+      "16px",
+      5
+    ],
+    [
+      "14px",
+      4
+    ],
+    [
+      "2.5rem",
+      3
+    ]
+  ]
+}
