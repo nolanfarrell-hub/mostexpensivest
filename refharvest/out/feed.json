@@ -1,6 +1,6 @@
 {
- "generated": "2026-11-04T05:25:37.817012",
- "count": 548,
+ "generated": "2026-11-04T05:27:43.592841",
+ "count": 553,
  "departments": {
   "field": [
    {
@@ -13132,6 +13132,143 @@
      "active": false,
      "excerpt": "These four pieces of luggage were produced by Schedoni for use with a Ferrari 550 Maranello. The lot consists of two suitcases and two accessory bags constructed of black leather with beige leather interiors. Each piece features a debossed ",
      "category": []
+    }
+   }
+  ],
+  "sea": [
+   {
+    "dept": "sea",
+    "rank": 1,
+    "source": "fraseryachts.com",
+    "title": "ENERGY",
+    "ask": 185000000.0,
+    "currency": "EUR",
+    "condition": "In stock",
+    "scores": {
+     "value": 3.4,
+     "rarity": 5.0,
+     "investment": 3.0
+    },
+    "link": "https://www.fraseryachts.com/en/yacht-for-sale/energy-1/",
+    "link_state": "live",
+    "image": null,
+    "spec": {
+     "builder": "Amels",
+     "built": 2022,
+     "length_m": 77.8,
+     "beam_m": 14,
+     "draft_m": 3.85,
+     "max_speed_knt": null,
+     "cruise_speed_knt": null,
+     "mpn": "Y881_DrP_MC"
+    }
+   },
+   {
+    "dept": "sea",
+    "rank": 2,
+    "source": "fraseryachts.com",
+    "title": "PROJECT MASTER",
+    "ask": 99500000.0,
+    "currency": "EUR",
+    "condition": "In stock",
+    "scores": {
+     "value": 3.4,
+     "rarity": 4.3,
+     "investment": 3.0
+    },
+    "link": "https://www.fraseryachts.com/en/yacht-for-sale/project-master/",
+    "link_state": "live",
+    "image": null,
+    "spec": {
+     "builder": "Icon Yachts",
+     "built": 2027,
+     "length_m": 70,
+     "beam_m": 15,
+     "draft_m": 4.5,
+     "max_speed_knt": null,
+     "cruise_speed_knt": null,
+     "mpn": "Y235886"
+    }
+   },
+   {
+    "dept": "sea",
+    "rank": 3,
+    "source": "fraseryachts.com",
+    "title": "PLVS VLTRA",
+    "ask": 89900000.0,
+    "currency": "EUR",
+    "condition": "In stock",
+    "scores": {
+     "value": 3.4,
+     "rarity": 3.7,
+     "investment": 3.0
+    },
+    "link": "https://www.fraseryachts.com/en/yacht-for-sale/plvs-vltra/",
+    "link_state": "live",
+    "image": null,
+    "spec": {
+     "builder": "Amels",
+     "built": 2016,
+     "length_m": 74,
+     "beam_m": 11.94,
+     "draft_m": 3.8,
+     "max_speed_knt": null,
+     "cruise_speed_knt": null,
+     "mpn": "Y22_OV_MC"
+    }
+   },
+   {
+    "dept": "sea",
+    "rank": 4,
+    "source": "fraseryachts.com",
+    "title": "QUEEN MAVIA",
+    "ask": 34900000.0,
+    "currency": "EUR",
+    "condition": "In stock",
+    "scores": {
+     "value": 3.4,
+     "rarity": 3.0,
+     "investment": 3.0
+    },
+    "link": "https://www.fraseryachts.com/en/yacht-for-sale/queen-mavia/",
+    "link_state": "live",
+    "image": null,
+    "spec": {
+     "builder": "Oceanco",
+     "built": 2001,
+     "length_m": 62,
+     "beam_m": 10,
+     "draft_m": 3.8,
+     "max_speed_knt": null,
+     "cruise_speed_knt": null,
+     "mpn": "Y3928_FL"
+    }
+   },
+   {
+    "dept": "sea",
+    "rank": 5,
+    "source": "fraseryachts.com",
+    "title": "ADAMAS V",
+    "ask": 14500000.0,
+    "currency": "USD",
+    "condition": "In stock",
+    "scores": {
+     "value": 3.4,
+     "rarity": 2.4,
+     "investment": 3.0
+    },
+    "link": "https://www.fraseryachts.com/en/yacht-for-sale/adamas-v/",
+    "link_state": "live",
+    "image": null,
+    "spec": {
+     "builder": "Cantiere Navale Nicolini",
+     "built": 1987,
+     "length_m": 65.25,
+     "beam_m": 9.76,
+     "draft_m": 3.2,
+     "max_speed_knt": null,
+     "cruise_speed_knt": null,
+     "mpn": "Y3523_MC"
     }
    }
   ]

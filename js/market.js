@@ -39,11 +39,18 @@
     var spec = it.spec || {};
     var s = it.scores || {};
     var meta = [];
-    if (it.condition) meta.push(esc(it.condition));
+    var cond = it.condition;
+    // condition carries live state (No Reserve / Sold / In stock) — show it only
+    // when it's a genuine status, not generic noise
+    if (cond && cond !== 'Live') meta.push(esc(cond));
+    if (spec.year) meta.push('built ' + esc(spec.year));
+    if (spec.length_m != null) meta.push(esc(spec.length_m) + ' m');
+    if (spec.builder) meta.push(esc(spec.builder));
     if (spec.est_low != null && spec.est_high != null)
       meta.push('est ' + esc(spec.est_low) + '–' + esc(spec.est_high));
     if (spec.hammer_to_est != null)
       meta.push('hammer ' + (Number(spec.hammer_to_est) >= 1 ? '>' : '<') + ' est ×' + esc(spec.hammer_to_est));
+    if (spec.noreserve) meta.push('no reserve');
     var chips = scoreChip('value', s.value) + scoreChip('rarity', s.rarity) + scoreChip('invest', s.investment);
     var rank = it.rank ? '<div class="rnum">No. ' + esc(it.rank) + '</div>' : '';
     return '<a class="mcard" href="' + esc(it.link || '#') + '" target="_blank" rel="noopener">' +

@@ -32,10 +32,11 @@
 <section class="dhero"><img src="media/img/dep_sea.jpg" alt="Department III · Yachts"/><div class="cap"><div class="kicker"><span class="r"></span>Department III · Yachts</div><h1>The Sea</h1><div class="lede">Yachts, the longest lines, and the money it takes to float them.</div></div></section>
 <div class="dwrap">
   <div class="market dsec">
-    <div class="mh"><h2><span class="no">I.</span>Yachts on the Market — Live</h2><div class="count">the finest listed now · verified daily</div></div>
-    <div id="meMarket" class="mgrid"><div class="mload">reading the market…</div></div>
+    <div class="mh"><h2><span class="no">I.</span>Yachts on the Market — Live</h2><div class="count">live listings · ranked by the desk</div></div>
+    <div class="market-rail" id="seaRail"></div>
+    <div id="seaScored" class="mgrid"><div class="mload">reading the market…</div></div>
   </div>
-  <div class="attrib" style="margin-top:12px">Link destinations live-verified from the ME market engine; each opens the actual marketplace where these are listed for sale now.</div>
+  <div class="attrib" style="margin-top:12px">Ranked on value, rarity and investment from live sale records; each links to its marketplace.</div>
 </div>
 <div class="dwrap"><div class="dsec">
   <div class="feed-head"><h2><span class="no">II.</span>From the Desk</h2><div class="note">the stories that set the market</div></div>
@@ -84,8 +85,13 @@
 (function(){function esc(s){var d=document.createElement("div");d.textContent=s==null?"":String(s);return d.innerHTML;}
 fetch("media/sea_records.json",{cache:"no-store"}).then(function(r){return r.json();}).then(function(recs){var tb=document.getElementById("seaTable");recs.sort(function(a,b){return (b.feet||0)-(a.feet||0);});tb.innerHTML=recs.slice(0,10).map(function(rr){function m(v){return v!=null?Math.round(v).toLocaleString("en-US"):"";}var inner='<div class="rdesc">'+esc(rr.name)+'</div><div class="rbuilder">'+esc(rr.builder)+'</div><div class="rown">'+esc(rr.owner)+'</div><div class="rbuilt">'+esc(rr.built)+'</div><div class="rlength">'+m(rr.feet)+' ft</div>';return rr.src?'<a class="rrow" href="'+esc(rr.src)+'" target="_blank" rel="noopener">'+inner+'</a>':'<div class="rrow">'+inner+'</div>';}).join("");}).catch(function(){var tb=document.getElementById("seaTable");if(tb)tb.innerHTML='<div class="mload" style="padding:20px">The seas are momentarily misread.</div>';});})();
 </script>
-<script src="js/market-loader.js"></script>
-<script>(function(){__meMarketLoad('sea','meMarket',['media/img/dep_sea.jpg','media/img/sea.jpg','media/img/hero_azzam.jpg']);})();</script>
+<script src="js/market.js"></script>
+<script>
+ME.market({ feed:'refharvest/out/feed.json', dept:'sea',
+  grid:'#seaScored', rail:'#seaRail',
+  photos:['media/img/dep_sea.jpg','media/img/sea.jpg','media/img/hero_azzam.jpg'],
+  limit:5 });
+</script>
 
 </body>
 </html>
