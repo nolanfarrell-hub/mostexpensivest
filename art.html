@@ -30,11 +30,20 @@
   <div class="mh-r">Live at auction</div>
 </div></div>
 
+<div class="dwrap">
+  <div class="market dsec">
+    <div class="mh"><h2><span class="no">I.</span>Art on the Market — Live</h2><div class="count">live lots · ranked by the desk</div></div>
+    <div class="market-rail" id="artRail"></div>
+    <div id="artScored" class="mgrid"><div class="mload">reading the market…</div></div>
+  </div>
+  <div class="attrib" style="margin-top:12px">Ranked on value, rarity and investment from live auction lots; each links to its sale room.</div>
+</div>
+
 <div class="rot" id="artRot"></div>
 
 <div class="dwrap">
   <div class="works dsec">
-    <div class="wsh"><h2><span class="no">I.</span>Masterworks</h2><div class="note">three that changed everything</div></div>
+    <div class="wsh"><h2><span class="no">II.</span>Masterworks</h2><div class="note">three that changed everything</div></div>
     <div class="wgrid">
       <div class="wcard">
         <img class="wimg" src="media/img/art_wave.jpg" alt="Katsushika Hokusai, The Great Wave off Kanagawa"/>
@@ -60,7 +69,7 @@
 
 <div class="dwrap">
   <div class="dsec">
-    <div class="dsh"><h2><span class="no">II.</span>How the Market Thinks</h2><div class="note">collector notes</div></div>
+    <div class="dsh"><h2><span class="no">III.</span>How the Market Thinks</h2><div class="note">collector notes</div></div>
     <div class="dcards">
       <div class="dcard"><div class="k">I · The Self-Portrait</div><h3>The Self-Portrait, Again</h3><p>A man who had lost everything painted himself at his most unmoved — the market's favourite proof that the life does not touch the work.</p><div class="go">national collections only</div></div>
       <div class="dcard"><div class="k">II · The Canvas</div><h3>The Eight-Figure Canvas</h3><p>Now the records sit with blue-chip impressionism and the twentieth century's quietest names. The ceiling keeps moving; the works do not.</p><div class="go">world market</div></div>
@@ -74,7 +83,7 @@
 
 <div class="dwrap">
   <div class="records">
-    <div class="dsh"><h2><span class="no">III.</span>Records of the Market</h2><div class="note">the highest prices ever paid</div></div>
+    <div class="dsh"><h2><span class="no">IV.</span>Records of the Market</h2><div class="note">the highest prices ever paid</div></div>
     <div id="artTable" class="rtable"><div class="mload" style="padding:20px">reading the market…</div></div>
   </div>
   <div class="attrib" style="margin-top:12px">Sale records sourced from <a href="https://en.wikipedia.org/wiki/List_of_most_expensive_paintings" target="_blank" rel="noopener">Wikipedia: List of most expensive paintings</a>. Figures are the original sale price in USD; provenance is the longer story.</div>
@@ -141,18 +150,14 @@ function __fi(el){el.style.display='none';el.parentNode.style.background='linear
     var L=d&&d.lots;
     if(valid(L)){render(L,L.length?d.asof||null:null);} else {render(EMBED,null);}
   }).catch(function(){render(EMBED,null);});
-  fetch("media/art_records.json").then(function(r){return r.json();}).then(function(recs){
-    var tb=document.getElementById("artTable"); if(!tb)return;
-    recs.sort(function(a,b){return (b.price||0)-(a.price||0);});
-    tb.innerHTML=recs.slice(0,10).map(function(r){
-      return '<a class="rrow" href="https://en.wikipedia.org/wiki/List_of_most_expensive_paintings" target="_blank" rel="noopener">'+
-        '<div class="rdesc"><span class="rname">'+esc(r.name)+'</span></div>'+
-        '<div class="rartist">'+esc(r.artist)+'</div>'+
-        '<div class="ryear">'+esc(r.year)+'</div>'+
-        '<div class="rprice">'+money(r.price)+'</div></a>';
-    }).join("");
-  }).catch(function(){var tb=document.getElementById("artTable");if(tb)tb.innerHTML='<div class="mload" style="padding:20px">The records are momentarily unavailable.</div>';});
 })();
+</script>
+<script src="js/market.js"></script>
+<script>
+ME.market({ feed:'refharvest/out/feed.json', dept:'art',
+  grid:'#artScored', rail:'#artRail', records:'#artTable',
+  photos:['media/img/art_wave.jpg','media/img/art_pearl.jpg','media/img/art_sunflowers.jpg'],
+  limit:9 });
 </script>
 </body>
 </html>

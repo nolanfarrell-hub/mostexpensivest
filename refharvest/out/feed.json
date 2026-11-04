@@ -1,6 +1,6 @@
 {
- "generated": "2026-11-04T06:05:01.332112",
- "count": 660,
+ "generated": "2026-11-04T06:18:35.289652",
+ "count": 680,
  "departments": {
   "field": [
    {
@@ -15623,6 +15623,468 @@
      "max_speed_knt": null,
      "cruise_speed_knt": null,
      "mpn": "Y3523_MC"
+    }
+   }
+  ],
+  "art": [
+   {
+    "dept": "art",
+    "rank": 1,
+    "source": "invaluable.com",
+    "title": "Hans Heysen, (1877 - 1968), Still Life, oil on board, 39.5 x 33.5 frame 55 x 49cm",
+    "ask": 3856.0,
+    "currency": "USD",
+    "condition": null,
+    "scores": {
+     "value": 3.0,
+     "rarity": 5.0,
+     "investment": 3.0
+    },
+    "link": "https://www.invaluable.com/auction-lot/hans-heysen-1877-1968-still-life-oil-on-board-39--17-c-5256940d0d?objectID=207186800&algIndex=upcoming_lots_prod&queryID=e8d7b20d6cc20221fdf754397d223aac",
+    "link_state": "live",
+    "image": null,
+    "spec": {
+     "house": null,
+     "estimate": "18,000 AUD - 25,000 AUD 5,525 AUD",
+     "estimate_raw": "18,000 AUD - 25,000 AUD 5,525 AUD",
+     "bids": "28"
+    }
+   },
+   {
+    "dept": "art",
+    "rank": 2,
+    "source": "invaluable.com",
+    "title": "ALAN DOUGLAS BAKER, Australian 1914-1987, Still life with roses, oil on board, 50 x 39.5cm frame size 66 x 55cm",
+    "ask": 150.0,
+    "currency": "USD",
+    "condition": null,
+    "scores": {
+     "value": 3.0,
+     "rarity": 4.9,
+     "investment": 3.0
+    },
+    "link": "https://www.invaluable.com/auction-lot/alan-douglas-baker-australian-1914-1987-still-lif-50-c-4f2c32841e?objectID=207186834&algIndex=upcoming_lots_prod&queryID=e8d7b20d6cc20221fdf754397d223aac",
+    "link_state": "live",
+    "image": null,
+    "spec": {
+     "house": null,
+     "estimate": "1,000 AUD - 2,000 AUD 214.26 AUD",
+     "estimate_raw": "1,000 AUD - 2,000 AUD 214.26 AUD",
+     "bids": "15"
+    }
+   },
+   {
+    "dept": "art",
+    "rank": 3,
+    "source": "invaluable.com",
+    "title": "B (? ernard) Hall, The Grace Hall 1935, oil on canvas, 63 x 38 frame size 76 x 51cm",
+    "ask": 273.0,
+    "currency": "USD",
+    "condition": null,
+    "scores": {
+     "value": 3.0,
+     "rarity": 4.7,
+     "investment": 3.0
+    },
+    "link": "https://www.invaluable.com/auction-lot/b-ernard-hall-the-grace-hall-1935-oil-on-canvas-6-129-c-cbb1d6097b?objectID=207186913&algIndex=upcoming_lots_prod&queryID=e8d7b20d6cc20221fdf754397d223aac",
+    "link_state": "live",
+    "image": null,
+    "spec": {
+     "house": null,
+     "estimate": "120 AUD - 150 AUD 390 AUD",
+     "estimate_raw": "120 AUD - 150 AUD 390 AUD",
+     "bids": "15"
+    }
+   },
+   {
+    "dept": "art",
+    "rank": 4,
+    "source": "invaluable.com",
+    "title": "ARTIST UNKNOWN , Garden Scene, oil on canvas, 38 x 48.5 cm., frame: 58 x 69 cm.",
+    "ask": 409.0,
+    "currency": "USD",
+    "condition": null,
+    "scores": {
+     "value": 3.0,
+     "rarity": 4.6,
+     "investment": 3.0
+    },
+    "link": "https://www.invaluable.com/auction-lot/artist-unknown-garden-scene-oil-on-canvas-38-x-48-5011-c-b1066094b8?objectID=207241361&algIndex=upcoming_lots_prod&queryID=e8d7b20d6cc20221fdf754397d223aac",
+    "link_state": "live",
+    "image": null,
+    "spec": {
+     "house": null,
+     "estimate": "1,500 AUD - 2,500 AUD 585 AUD",
+     "estimate_raw": "1,500 AUD - 2,500 AUD 585 AUD",
+     "bids": "13"
+    }
+   },
+   {
+    "dept": "art",
+    "rank": 5,
+    "source": "invaluable.com",
+    "title": "NORMAN LINDSAY, Australia (1879 - 1969), Captured, watercolour, 37 x 35.5, frame: 64 x 58cm",
+    "ask": 7484.0,
+    "currency": "USD",
+    "condition": null,
+    "scores": {
+     "value": 3.0,
+     "rarity": 4.5,
+     "investment": 3.0
+    },
+    "link": "https://www.invaluable.com/auction-lot/norman-lindsay-australia-1879-1969-captured-water-3-c-837e619803?objectID=207134205&algIndex=upcoming_lots_prod&queryID=e8d7b20d6cc20221fdf754397d223aac",
+    "link_state": "live",
+    "image": null,
+    "spec": {
+     "house": null,
+     "estimate": "20,000 AUD - 30,000 AUD 10,725 AUD",
+     "estimate_raw": "20,000 AUD - 30,000 AUD 10,725 AUD",
+     "bids": "35"
+    }
+   },
+   {
+    "dept": "art",
+    "rank": 15,
+    "source": "invaluable.com",
+    "title": "Rare Fendi Zebra print mirror baguette",
+    "ask": null,
+    "currency": "USD",
+    "condition": null,
+    "scores": {
+     "value": 2.5,
+     "rarity": 4.3,
+     "investment": 3.0
+    },
+    "link": "https://www.invaluable.com/auction-lot/rare-fendi-zebra-print-mirror-baguette-2057-c-a8ede53bc3?objectID=206944634&algIndex=upcoming_lots_prod&queryID=e8d7b20d6cc20221fdf754397d223aac",
+    "link_state": "live",
+    "image": null,
+    "spec": {
+     "house": null,
+     "estimate": "$300 - $500 $1,664 Incl. $364 BP 12 bids",
+     "estimate_raw": "$300 - $500 $1,664 Incl. $364 BP 12 bids",
+     "bids": "12"
+    }
+   },
+   {
+    "dept": "art",
+    "rank": 6,
+    "source": "invaluable.com",
+    "title": "Suite of (4) Pink Bordallo Pinheiro Cabbage Dinner Plates 26.5 cm diameter (each)",
+    "ask": 89.0,
+    "currency": "USD",
+    "condition": null,
+    "scores": {
+     "value": 3.0,
+     "rarity": 4.2,
+     "investment": 3.0
+    },
+    "link": "https://www.invaluable.com/auction-lot/suite-of-4-pink-bordallo-pinheiro-cabbage-dinner--5022-c-62467b5af7?objectID=207241372&algIndex=upcoming_lots_prod&queryID=e8d7b20d6cc20221fdf754397d223aac",
+    "link_state": "live",
+    "image": null,
+    "spec": {
+     "house": null,
+     "estimate": "80 AUD - 120 AUD 126.76 AUD",
+     "estimate_raw": "80 AUD - 120 AUD 126.76 AUD",
+     "bids": "4"
+    }
+   },
+   {
+    "dept": "art",
+    "rank": 7,
+    "source": "invaluable.com",
+    "title": "Campari timber-framed advertising poster (161 x 111cm)",
+    "ask": 681.0,
+    "currency": "USD",
+    "condition": null,
+    "scores": {
+     "value": 3.0,
+     "rarity": 4.0,
+     "investment": 3.0
+    },
+    "link": "https://www.invaluable.com/auction-lot/campari-timber-framed-advertising-poster-161-x-11-1003-c-79d6dc1627?objectID=207240437&algIndex=upcoming_lots_prod&queryID=e8d7b20d6cc20221fdf754397d223aac",
+    "link_state": "live",
+    "image": null,
+    "spec": {
+     "house": null,
+     "estimate": "600 AUD - 800 AUD 975 AUD",
+     "estimate_raw": "600 AUD - 800 AUD 975 AUD",
+     "bids": "9"
+    }
+   },
+   {
+    "dept": "art",
+    "rank": 16,
+    "source": "invaluable.com",
+    "title": "Gustave Baumann, Processional (State III), 1930 / 1956",
+    "ask": null,
+    "currency": "USD",
+    "condition": null,
+    "scores": {
+     "value": 2.5,
+     "rarity": 3.9,
+     "investment": 3.0
+    },
+    "link": "https://www.invaluable.com/auction-lot/gustave-baumann-processional-state-iii-1930-1956-27-c-b14dfbc2d1?objectID=206896417&algIndex=upcoming_lots_prod&queryID=e8d7b20d6cc20221fdf754397d223aac",
+    "link_state": "live",
+    "image": null,
+    "spec": {
+     "house": null,
+     "estimate": "$15,000 - $25,000 $11,520 Incl. $2,520 BP 1 b",
+     "estimate_raw": "$15,000 - $25,000 $11,520 Incl. $2,520 BP 1 b",
+     "bids": null
+    }
+   },
+   {
+    "dept": "art",
+    "rank": 8,
+    "source": "invaluable.com",
+    "title": "Albert Sherman, 1882-1971, still life white roses, oil on board, 32 x 30cm frame size 43 x 42cm",
+    "ask": 295.0,
+    "currency": "USD",
+    "condition": null,
+    "scores": {
+     "value": 3.0,
+     "rarity": 3.8,
+     "investment": 3.0
+    },
+    "link": "https://www.invaluable.com/auction-lot/albert-sherman-1882-1971-still-life-white-roses-o-15-c-1987aefe4e?objectID=207186798&algIndex=upcoming_lots_prod&queryID=e8d7b20d6cc20221fdf754397d223aac",
+    "link_state": "live",
+    "image": null,
+    "spec": {
+     "house": null,
+     "estimate": "600 AUD - 800 AUD 422.50 AUD",
+     "estimate_raw": "600 AUD - 800 AUD 422.50 AUD",
+     "bids": "9"
+    }
+   },
+   {
+    "dept": "art",
+    "rank": 17,
+    "source": "invaluable.com",
+    "title": "ED MELL, (American, 1942-2024), Autumn Cottonwoods, 2000, oil on canvas, 22 x 22 in., frame: 27 3/8 x 27 3/8 in.",
+    "ask": null,
+    "currency": "USD",
+    "condition": null,
+    "scores": {
+     "value": 2.5,
+     "rarity": 3.6,
+     "investment": 3.0
+    },
+    "link": "https://www.invaluable.com/auction-lot/ed-mell-american-1942-2024-autumn-cottonwoods-200-29-c-85f7896a2a?objectID=206769192&algIndex=upcoming_lots_prod&queryID=e8d7b20d6cc20221fdf754397d223aac",
+    "link_state": "live",
+    "image": null,
+    "spec": {
+     "house": null,
+     "estimate": "$10,000 - $15,000 $34,875 Incl. $7,375 BP 16",
+     "estimate_raw": "$10,000 - $15,000 $34,875 Incl. $7,375 BP 16",
+     "bids": "16"
+    }
+   },
+   {
+    "dept": "art",
+    "rank": 18,
+    "source": "invaluable.com",
+    "title": "Ed Mell, View from Ward Terrace, 1997",
+    "ask": null,
+    "currency": "USD",
+    "condition": null,
+    "scores": {
+     "value": 2.5,
+     "rarity": 3.5,
+     "investment": 3.0
+    },
+    "link": "https://www.invaluable.com/auction-lot/ed-mell-view-from-ward-terrace-1997-360-c-7fe4b63766?objectID=206590662&algIndex=upcoming_lots_prod&queryID=e8d7b20d6cc20221fdf754397d223aac",
+    "link_state": "live",
+    "image": null,
+    "spec": {
+     "house": null,
+     "estimate": "$60,000 - $90,000 $46,625 Incl. $9,125 BP 3 b",
+     "estimate_raw": "$60,000 - $90,000 $46,625 Incl. $9,125 BP 3 b",
+     "bids": "3"
+    }
+   },
+   {
+    "dept": "art",
+    "rank": 9,
+    "source": "invaluable.com",
+    "title": "SIDNEY NOLAN, 1917-1992, Kelly, etching, 25x30cm (Frame size: 61x76cm)",
+    "ask": 590.0,
+    "currency": "USD",
+    "condition": null,
+    "scores": {
+     "value": 3.0,
+     "rarity": 3.4,
+     "investment": 3.0
+    },
+    "link": "https://www.invaluable.com/auction-lot/sidney-nolan-1917-1992-kelly-etching-25x30cm-fram-91-c-063dbc3c2a?objectID=207134287&algIndex=upcoming_lots_prod&queryID=e8d7b20d6cc20221fdf754397d223aac",
+    "link_state": "live",
+    "image": null,
+    "spec": {
+     "house": null,
+     "estimate": "800 AUD - 1,200 AUD 845 AUD",
+     "estimate_raw": "800 AUD - 1,200 AUD 845 AUD",
+     "bids": "24"
+    }
+   },
+   {
+    "dept": "art",
+    "rank": 19,
+    "source": "invaluable.com",
+    "title": "Ed Mell, Single Strike, ca. 2013",
+    "ask": null,
+    "currency": "USD",
+    "condition": null,
+    "scores": {
+     "value": 2.5,
+     "rarity": 3.2,
+     "investment": 3.0
+    },
+    "link": "https://www.invaluable.com/auction-lot/ed-mell-single-strike-ca-2013-36-c-a2a4d3263c?objectID=206897367&algIndex=upcoming_lots_prod&queryID=e8d7b20d6cc20221fdf754397d223aac",
+    "link_state": "live",
+    "image": null,
+    "spec": {
+     "house": null,
+     "estimate": "$2,000 - $3,000 $3,520 Incl. $770 BP 6 bids",
+     "estimate_raw": "$2,000 - $3,000 $3,520 Incl. $770 BP 6 bids",
+     "bids": "6"
+    }
+   },
+   {
+    "dept": "art",
+    "rank": 10,
+    "source": "invaluable.com",
+    "title": "Vintage floral still life oil painting, signed 1972 - Black timber frame. 88 x 58.5 x 3.5cm",
+    "ask": 150.0,
+    "currency": "USD",
+    "condition": null,
+    "scores": {
+     "value": 3.0,
+     "rarity": 3.1,
+     "investment": 3.0
+    },
+    "link": "https://www.invaluable.com/auction-lot/vintage-floral-still-life-oil-painting-signed-197-97-c-9e2b43f094?objectID=207157450&algIndex=upcoming_lots_prod&queryID=e8d7b20d6cc20221fdf754397d223aac",
+    "link_state": "live",
+    "image": null,
+    "spec": {
+     "house": null,
+     "estimate": "400 AUD - 600 AUD 214.26 AUD",
+     "estimate_raw": "400 AUD - 600 AUD 214.26 AUD",
+     "bids": "6"
+    }
+   },
+   {
+    "dept": "art",
+    "rank": 11,
+    "source": "invaluable.com",
+    "title": "FRENCH SCHOOL , Study of Cows, c1900, oil on panel, 21 x 15 cm., frame: 31 x 24.5 cm.",
+    "ask": 386.0,
+    "currency": "USD",
+    "condition": null,
+    "scores": {
+     "value": 3.0,
+     "rarity": 2.9,
+     "investment": 3.0
+    },
+    "link": "https://www.invaluable.com/auction-lot/french-school-study-of-cows-c1900-oil-on-panel-21-5012-c-27689d940d?objectID=207241363&algIndex=upcoming_lots_prod&queryID=e8d7b20d6cc20221fdf754397d223aac",
+    "link_state": "live",
+    "image": null,
+    "spec": {
+     "house": null,
+     "estimate": "300 AUD - 500 AUD 552.50 AUD",
+     "estimate_raw": "300 AUD - 500 AUD 552.50 AUD",
+     "bids": "11"
+    }
+   },
+   {
+    "dept": "art",
+    "rank": 12,
+    "source": "invaluable.com",
+    "title": "COLLEY WHISSON (AUSTRALIA) OIL ON BOARD, \"VIEW OF SYDNEY FROM NORTH HEAD \"OUTBACK\" AND DATED 1997, SIGNED LOWER LEFT, APPROX. 30CM X 25CM.",
+    "ask": 111.0,
+    "currency": "USD",
+    "condition": null,
+    "scores": {
+     "value": 3.0,
+     "rarity": 2.8,
+     "investment": 3.0
+    },
+    "link": "https://www.invaluable.com/auction-lot/colley-whisson-australia-oil-on-board-view-of-syd-243-c-ba42b87654?objectID=207212011&algIndex=upcoming_lots_prod&queryID=e8d7b20d6cc20221fdf754397d223aac",
+    "link_state": "live",
+    "image": null,
+    "spec": {
+     "house": null,
+     "estimate": "10 AUD - 40 AUD 158.60 AUD",
+     "estimate_raw": "10 AUD - 40 AUD 158.60 AUD",
+     "bids": "17"
+    }
+   },
+   {
+    "dept": "art",
+    "rank": 20,
+    "source": "invaluable.com",
+    "title": "Louisa McElwain, Summer Morning",
+    "ask": null,
+    "currency": "USD",
+    "condition": null,
+    "scores": {
+     "value": 2.5,
+     "rarity": 2.7,
+     "investment": 3.0
+    },
+    "link": "https://www.invaluable.com/auction-lot/louisa-mcelwain-summer-morning-338-c-4e31f961c7?objectID=206896699&algIndex=upcoming_lots_prod&queryID=e8d7b20d6cc20221fdf754397d223aac",
+    "link_state": "live",
+    "image": null,
+    "spec": {
+     "house": null,
+     "estimate": "$5,000 - $7,000 $5,440 Incl. $1,190 BP 7 bids",
+     "estimate_raw": "$5,000 - $7,000 $5,440 Incl. $1,190 BP 7 bids",
+     "bids": "7"
+    }
+   },
+   {
+    "dept": "art",
+    "rank": 13,
+    "source": "invaluable.com",
+    "title": "A vintage timber garage work bench with vice. 82 x 126 x 66 cm (Heavy)",
+    "ask": 141.0,
+    "currency": "USD",
+    "condition": null,
+    "scores": {
+     "value": 3.0,
+     "rarity": 2.5,
+     "investment": 3.0
+    },
+    "link": "https://www.invaluable.com/auction-lot/a-vintage-timber-garage-work-bench-with-vice-82-x-163-c-4f6b5930f0?objectID=207186947&algIndex=upcoming_lots_prod&queryID=e8d7b20d6cc20221fdf754397d223aac",
+    "link_state": "live",
+    "image": null,
+    "spec": {
+     "house": null,
+     "estimate": "200 AUD - 300 AUD 201.76 AUD",
+     "estimate_raw": "200 AUD - 300 AUD 201.76 AUD",
+     "bids": "9"
+    }
+   },
+   {
+    "dept": "art",
+    "rank": 14,
+    "source": "invaluable.com",
+    "title": "MARGARET OLLEY, Australia (1923 - 2011), By The Seine, c1968, watercolour, 25 x 34 cm., frame: 42.5 x 51 cm.",
+    "ask": 386.0,
+    "currency": "USD",
+    "condition": null,
+    "scores": {
+     "value": 3.0,
+     "rarity": 2.4,
+     "investment": 3.0
+    },
+    "link": "https://www.invaluable.com/auction-lot/margaret-olley-australia-1923-2011-by-the-seine-c-5015-c-c0d301cfdf?objectID=207241365&algIndex=upcoming_lots_prod&queryID=e8d7b20d6cc20221fdf754397d223aac",
+    "link_state": "live",
+    "image": null,
+    "spec": {
+     "house": null,
+     "estimate": "800 AUD - 1,200 AUD 552.50 AUD",
+     "estimate_raw": "800 AUD - 1,200 AUD 552.50 AUD",
+     "bids": "16"
     }
    }
   ]
