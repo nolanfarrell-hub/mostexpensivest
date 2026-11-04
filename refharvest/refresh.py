@@ -26,6 +26,7 @@ STEPS = [
     ("fraser_yachts.py",   "Fraser Yachts (sea)", False),
     ("realreal_items.py",  "The RealReal (style, via jina)", True),
     ("invaluable_art.py",  "Invaluable fine art (via jina)", True),
+    ("jamesedition_estates.py", "JamesEdition estates (via jina)", True),
     ("score.py",           "score value/rarity/investment", False),
     ("export_feed.py",     "export out/feed.json", False),
 ]

@@ -9,8 +9,8 @@
         "marketplace": "The Watch Box",
         "verified": "2026-11-01",
         "probe": "researcher",
-        "last_check": "2026-11-02",
-        "status": "DEAD"
+        "last_check": "2026-11-04",
+        "status": "LIVE"
       },
       {
         "name": "Pre-owned watches (US)",
@@ -18,7 +18,7 @@
         "marketplace": "WatchBox",
         "verified": "2026-11-01",
         "probe": "researcher",
-        "last_check": "2026-11-02",
+        "last_check": "2026-11-04",
         "status": "LIVE"
       },
       {
@@ -27,7 +27,7 @@
         "marketplace": "Watchfinder",
         "verified": "2026-11-01",
         "probe": "researcher",
-        "last_check": "2026-11-02",
+        "last_check": "2026-11-04",
         "status": "LIVE"
       },
       {
@@ -36,7 +36,7 @@
         "marketplace": "MostExpensiveWatches",
         "verified": "2026-11-01",
         "note": "live watch feed; per-item dealer buy pages via API",
-        "last_check": "2026-11-02",
+        "last_check": "2026-11-04",
         "status": "LIVE"
       },
       {
@@ -45,7 +45,7 @@
         "marketplace": "Chrono24",
         "verified": null,
         "note": "bot-walled from automation, loads for a real user; per-item listings not fetchable free",
-        "last_check": "2026-11-02",
+        "last_check": "2026-11-04",
         "status": "WALL"
       }
     ],
@@ -56,7 +56,7 @@
         "marketplace": "Cigars.co.uk",
         "verified": "2026-11-01",
         "probe": "researcher",
-        "last_check": "2026-11-02",
+        "last_check": "2026-11-04",
         "status": "LIVE"
       },
       {
@@ -64,7 +64,7 @@
         "url": "https://cubancigaronline.com/",
         "marketplace": "Cuban Cigar Online",
         "verified": "2026-11-01",
-        "last_check": "2026-11-02",
+        "last_check": "2026-11-04",
         "status": "LIVE"
       },
       {
@@ -72,7 +72,7 @@
         "url": "https://www.whiskyauctioneer.com/",
         "marketplace": "Whisky Auctioneer",
         "verified": "2026-11-01",
-        "last_check": "2026-11-02",
+        "last_check": "2026-11-04",
         "status": "WALL"
       },
       {
@@ -80,7 +80,7 @@
         "url": "https://www.cigarmonster.com/",
         "marketplace": "Cigar Monster",
         "verified": "2026-11-01",
-        "last_check": "2026-11-02",
+        "last_check": "2026-11-04",
         "status": "LIVE"
       }
     ],
@@ -90,7 +90,7 @@
         "url": "https://www.fraseryachts.com/en/buy-a-yacht/",
         "marketplace": "Fraser Yachts",
         "verified": "2026-11-01",
-        "last_check": "2026-11-02",
+        "last_check": "2026-11-04",
         "status": "LIVE"
       },
       {
@@ -98,7 +98,7 @@
         "url": "https://www.boatinternational.com/yacht-market-intelligence/brokerage-sales-news/most-expensive-yachts-for-sale",
         "marketplace": "BOAT International",
         "verified": "2026-11-01",
-        "last_check": "2026-11-02",
+        "last_check": "2026-11-04",
         "status": "LIVE"
       },
       {
@@ -106,7 +106,7 @@
         "url": "https://www.denisonyachtsales.com/",
         "marketplace": "Denison Yacht Sales",
         "verified": "2026-11-01",
-        "last_check": "2026-11-02",
+        "last_check": "2026-11-04",
         "status": "LIVE"
       },
       {
@@ -114,7 +114,7 @@
         "url": "https://www.northropandjohnson.com/",
         "marketplace": "Northrop & Johnson",
         "verified": "2026-11-01",
-        "last_check": "2026-11-02",
+        "last_check": "2026-11-04",
         "status": "LIVE"
       }
     ],
@@ -124,7 +124,7 @@
         "url": "https://bringatrailer.com/ferrari/",
         "marketplace": "Bring a Trailer",
         "verified": "2026-11-01",
-        "last_check": "2026-11-02",
+        "last_check": "2026-11-04",
         "status": "LIVE"
       },
       {
@@ -132,7 +132,7 @@
         "url": "https://www.classiccar.com/",
         "marketplace": "Classic Car",
         "verified": "2026-11-01",
-        "last_check": "2026-11-02",
+        "last_check": "2026-11-04",
         "status": "LIVE"
       },
       {
@@ -140,7 +140,7 @@
         "url": "https://www.dupontregistry.com/",
         "marketplace": "duPont Registry",
         "verified": "2026-11-01",
-        "last_check": "2026-11-02",
+        "last_check": "2026-11-04",
         "status": "LIVE"
       },
       {
@@ -148,7 +148,7 @@
         "url": "https://www.carandclassic.com/",
         "marketplace": "Car and Classic",
         "verified": "2026-11-01",
-        "last_check": "2026-11-02",
+        "last_check": "2026-11-04",
         "status": "WALL"
       }
     ],
@@ -159,7 +159,7 @@
         "marketplace": "Chestertons",
         "verified": "2026-11-01",
         "probe": "researcher",
-        "last_check": "2026-11-02",
+        "last_check": "2026-11-04",
         "status": "LIVE"
       },
       {
@@ -168,7 +168,7 @@
         "marketplace": "Compass",
         "verified": "2026-11-01",
         "probe": "researcher",
-        "last_check": "2026-11-02",
+        "last_check": "2026-11-04",
         "status": "LIVE"
       },
       {
@@ -176,7 +176,7 @@
         "url": "https://www.christiesrealestate.com/homes-for-sale/france/",
         "marketplace": "Christie's International Real Estate",
         "verified": "2026-11-01",
-        "last_check": "2026-11-02",
+        "last_check": "2026-11-04",
         "status": "LIVE"
       },
       {
@@ -184,7 +184,7 @@
         "url": "https://www.christiesrealestate.com/lifestyles/castles-palaces/",
         "marketplace": "Christie's International Real Estate",
         "verified": "2026-11-01",
-        "last_check": "2026-11-02",
+        "last_check": "2026-11-04",
         "status": "LIVE"
       },
       {
@@ -192,7 +192,7 @@
         "url": "https://www.christiesrealestate.com/",
         "marketplace": "Christie's International Real Estate",
         "verified": "2026-11-01",
-        "last_check": "2026-11-02",
+        "last_check": "2026-11-04",
         "status": "LIVE"
       }
     ],
@@ -202,7 +202,7 @@
         "url": "https://www.gunsinternational.com/guns-for-sale-online/shotguns.cfm",
         "marketplace": "Guns International",
         "verified": null,
-        "last_check": "2026-11-03",
+        "last_check": "2026-11-04",
         "status": "WALL"
       },
       {
@@ -210,7 +210,7 @@
         "url": "https://www.hollandandholland.com/",
         "marketplace": "Holland & Holland",
         "verified": null,
-        "last_check": "2026-11-03",
+        "last_check": "2026-11-04",
         "status": "WALL"
       },
       {
@@ -218,7 +218,7 @@
         "url": "https://www.purdey.com/",
         "marketplace": "James Purdey & Sons",
         "verified": "2026-11-03",
-        "last_check": "2026-11-03",
+        "last_check": "2026-11-04",
         "status": "LIVE"
       },
       {
@@ -226,7 +226,7 @@
         "url": "https://www.gunsinternational.com/guns-for-sale-online/shotguns/fabbri-shotguns.c729_p1_o6.cfm",
         "marketplace": "Guns International \u00b7 Fabbri",
         "verified": null,
-        "last_check": "2026-11-03",
+        "last_check": "2026-11-04",
         "status": "WALL"
       },
       {
@@ -234,7 +234,7 @@
         "url": "https://www.perazzi.it/en/",
         "marketplace": "Perazzi",
         "verified": "2026-11-03",
-        "last_check": "2026-11-03",
+        "last_check": "2026-11-04",
         "status": "LIVE"
       },
       {
@@ -242,7 +242,7 @@
         "url": "https://www.aya-fineguns.com/",
         "marketplace": "AYA (Aguirre y Aranzabal)",
         "verified": "2026-11-03",
-        "last_check": "2026-11-03",
+        "last_check": "2026-11-04",
         "status": "LIVE"
       },
       {
@@ -250,7 +250,7 @@
         "url": "https://www.grullaarmas.com/en/",
         "marketplace": "Grulla Armas",
         "verified": "2026-11-03",
-        "last_check": "2026-11-03",
+        "last_check": "2026-11-04",
         "status": "LIVE"
       },
       {
@@ -258,7 +258,7 @@
         "url": "https://williampowellsporting.co.uk/driven-grouse-shooting/",
         "marketplace": "William Powell Sporting",
         "verified": "2026-11-03",
-        "last_check": "2026-11-03",
+        "last_check": "2026-11-04",
         "status": "LIVE"
       },
       {
@@ -266,7 +266,7 @@
         "url": "https://www.orvis.com/wingshooting-schools",
         "marketplace": "Orvis Wingshooting Schools",
         "verified": "2026-11-03",
-        "last_check": "2026-11-03",
+        "last_check": "2026-11-04",
         "status": "LIVE"
       }
     ],
@@ -277,7 +277,7 @@
         "marketplace": "Graff",
         "verified": "2026-11-02",
         "probe": "researcher",
-        "last_check": "2026-11-02",
+        "last_check": "2026-11-04",
         "status": "DEAD"
       },
       {
@@ -286,7 +286,7 @@
         "marketplace": "Madison Avenue Couture",
         "verified": "2026-11-02",
         "probe": "researcher",
-        "last_check": "2026-11-02",
+        "last_check": "2026-11-04",
         "status": "LIVE"
       },
       {
@@ -294,7 +294,7 @@
         "url": "https://www.creedfragrance.com/",
         "marketplace": "Creed",
         "verified": "2026-11-02",
-        "last_check": "2026-11-02",
+        "last_check": "2026-11-04",
         "status": "LIVE"
       },
       {
@@ -302,7 +302,7 @@
         "url": "https://www.huntsmansavilerow.com/pages/bespoke-tailoring",
         "marketplace": "Huntsman Savile Row",
         "verified": "2026-11-02",
-        "last_check": "2026-11-02",
+        "last_check": "2026-11-04",
         "status": "LIVE"
       },
       {
@@ -310,7 +310,7 @@
         "url": "https://us.loropiana.com/en/c/man",
         "marketplace": "Loro Piana",
         "verified": "2026-11-02",
-        "last_check": "2026-11-02",
+        "last_check": "2026-11-04",
         "status": "WALL"
       },
       {
@@ -318,7 +318,7 @@
         "url": "https://kiton.com/collections/men",
         "marketplace": "Kiton",
         "verified": "2026-11-02",
-        "last_check": "2026-11-02",
+        "last_check": "2026-11-04",
         "status": "LIVE"
       },
       {
@@ -326,7 +326,7 @@
         "url": "https://www.cartier.com/en-us/jewelry/collections/love.html",
         "marketplace": "Cartier",
         "verified": null,
-        "last_check": "2026-11-03",
+        "last_check": "2026-11-04",
         "status": "WALL"
       },
       {
@@ -334,7 +334,7 @@
         "url": "https://www.thewatchbox.com/watches",
         "marketplace": "The Watch Box",
         "verified": "2026-11-03",
-        "last_check": "2026-11-03",
+        "last_check": "2026-11-04",
         "status": "LIVE"
       },
       {
@@ -342,7 +342,7 @@
         "url": "https://www.vestiairecollective.com/women/",
         "marketplace": "Vestiaire Collective",
         "verified": null,
-        "last_check": "2026-11-03",
+        "last_check": "2026-11-04",
         "status": "WALL"
       }
     ],
@@ -353,7 +353,7 @@
         "marketplace": "Invaluable",
         "verified": "2026-11-01",
         "probe": "researcher",
-        "last_check": "2026-11-02",
+        "last_check": "2026-11-04",
         "status": "LIVE"
       },
       {
@@ -361,7 +361,7 @@
         "url": "https://www.1stdibs.com/search/?q=Jackson%20Pollock",
         "marketplace": "1stDibs",
         "verified": "2026-11-01",
-        "last_check": "2026-11-02",
+        "last_check": "2026-11-04",
         "status": "LIVE"
       },
       {
@@ -369,7 +369,7 @@
         "url": "https://www.1stdibs.com/search/?q=Mark%20Rothko",
         "marketplace": "1stDibs",
         "verified": "2026-11-01",
-        "last_check": "2026-11-02",
+        "last_check": "2026-11-04",
         "status": "LIVE"
       },
       {
@@ -377,7 +377,7 @@
         "url": "https://www.1stdibs.com/search/?q=Joan%20Miro",
         "marketplace": "1stDibs",
         "verified": "2026-11-01",
-        "last_check": "2026-11-02",
+        "last_check": "2026-11-04",
         "status": "LIVE"
       },
       {
@@ -385,7 +385,7 @@
         "url": "https://www.1stdibs.com/search/?q=Alice%20Neel",
         "marketplace": "1stDibs",
         "verified": "2026-11-01",
-        "last_check": "2026-11-02",
+        "last_check": "2026-11-04",
         "status": "LIVE"
       },
       {
@@ -393,7 +393,7 @@
         "url": "https://www.1stdibs.com/buy/art/",
         "marketplace": "1stDibs",
         "verified": "2026-11-01",
-        "last_check": "2026-11-02",
+        "last_check": "2026-11-04",
         "status": "LIVE"
       }
     ]
@@ -410,7 +410,7 @@
           "https://www.boatinternational.com/yacht-market-intelligence/brokerage-sales-news/most-expensive-yachts-for-sale",
           "https://www.northropandjohnson.com/"
         ],
-        "last_check": "2026-11-02",
+        "last_check": "2026-11-04",
         "status": "LIVE"
       }
     ],
@@ -424,7 +424,7 @@
         "alt": [
           "https://www.dupontregistry.com/"
         ],
-        "last_check": "2026-11-02",
+        "last_check": "2026-11-04",
         "status": "LIVE"
       }
     ],
@@ -438,7 +438,7 @@
         "alt": [
           "https://www.compass.com/"
         ],
-        "last_check": "2026-11-02",
+        "last_check": "2026-11-04",
         "status": "LIVE"
       }
     ],
@@ -452,7 +452,7 @@
         "alt": [
           "https://www.invaluable.com/"
         ],
-        "last_check": "2026-11-02",
+        "last_check": "2026-11-04",
         "status": "LIVE"
       }
     ]
