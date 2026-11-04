@@ -71,6 +71,7 @@ def main():
                 "ask_cents": (int(bid) * 100) if bid else None,
                 "currency": o.get("currency") or "USD",
                 "condition": "No Reserve" if o.get("noreserve") else ("Sold" if o.get("sold_text") else "Live"),
+                "image_path": o.get("thumbnail_url"),
                 "spec": {
                     "year": o.get("year"), "noreserve": bool(o.get("noreserve")),
                     "sold": bool(o.get("sold_text")), "watchers": o.get("watchers"),

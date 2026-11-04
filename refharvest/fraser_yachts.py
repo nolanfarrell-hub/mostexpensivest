@@ -85,6 +85,7 @@ def main():
                     "mpn": o.get("mpn"),
                 },
                 "fallback_url": "https://www.fraseryachts.com/en/buy-a-yacht/",
+                "image_path": img,
                 "_image_hint": img,
             }
             db.upsert(con, rec)

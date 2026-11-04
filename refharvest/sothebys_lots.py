@@ -63,6 +63,13 @@ def main():
                 continue
             seen.add(key)
             cents = money_cents(p_price.get_text())
+            img_el = c.find("img")
+            sock = ""
+            if img_el is not None:
+                # real photo is in data-src (lazy-load); src is often a placeholder
+                sock = (img_el.get("data-src") or img_el.get("src") or "")
+                if sock.startswith("data:"):   # placeholder SVG — skip
+                    sock = ""
             rec = {
                 "dept": dept, "source": "www.sothebys.com",
                 "url": url + "#" + re.sub(r"\W+", "_", key)[:40],
@@ -71,6 +78,7 @@ def main():
                 "condition": None,
                 "spec": {"brand": brand, "label": t[:80]},
                 "fallback_url": "https://www.sothebys.com/en/buy/handbags",
+                "image_path": sock or None,
             }
             db.upsert(con, rec)
             n += 1

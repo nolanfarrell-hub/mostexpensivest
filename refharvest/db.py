@@ -40,20 +40,20 @@ def upsert(con, rec):
     if row:
         con.execute(
             "UPDATE items SET title=?, ask_cents=?, currency=?, condition=?,"
-            " spec_json=?, fallback_url=?, last_checked=? WHERE id=?",
+            " spec_json=?, fallback_url=?, image_path=?, last_checked=? WHERE id=?",
             (rec.get("title"), rec.get("ask_cents"), rec.get("currency"),
              rec.get("condition"), json.dumps(rec.get("spec") or {}),
-             rec.get("fallback_url"), now(), row["id"]))
+             rec.get("fallback_url"), rec.get("image_path"), now(), row["id"]))
         con.commit()
         return row["id"]
     cur = con.execute(
         "INSERT INTO items(dept,source,url,title,ask_cents,currency,condition,"
-        "spec_json,fallback_url,first_seen,last_checked)"
-        " VALUES(?,?,?,?,?,?,?,?,?,?,?)",
+        "spec_json,fallback_url,image_path,first_seen,last_checked)"
+        " VALUES(?,?,?,?,?,?,?,?,?,?,?,?)",
         (rec.get("dept"), rec.get("source"), rec["url"], rec.get("title"),
          rec.get("ask_cents"), rec.get("currency"), rec.get("condition"),
          json.dumps(rec.get("spec") or {}), rec.get("fallback_url"),
-         now(), now()))
+         rec.get("image_path"), now(), now()))
     con.commit()
     return cur.lastrowid
 

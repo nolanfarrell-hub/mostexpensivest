@@ -40,11 +40,26 @@ def main():
         blocks = re.findall(
             r"\[([^\]]+)\]\(([^)]*products[^)]*)\)\s*([^\n]+)\n(.*?)(?=\n\[[A-Z]|\n\Z)",
             md, re.S)
+        # collect all product-image URLs (the [![Image N](url)](link) pairs)
+        img_alt = []  # (alt, url) in document order
+        for m in re.finditer(r"!\[Image \d+:\s*([^\]]*)\]\(([^)]*)\)", md):
+            img_alt.append((m.group(1).strip(), m.group(2).strip()))
         n = 0
         for name, url, title, rest in blocks:
             name = clean(name); title = clean(title)
             if not title or not url:
                 continue
+            # match an image whose alt/filename shares a token with the product
+            # slug or title — real image only when confident
+            img_url = None
+            tl = title.lower()
+            for alt, iu in img_alt:
+                al = alt.lower()
+                # token overlap between image alt and product title
+                toks = [w for w in re.findall(r"[a-z0-9']{4,}", tl)]
+                if toks and any(t in al for t in toks):
+                    img_url = iu
+                    break
             # price = the last $ figure in the block (today's sale price)
             ask_fig = CURR.findall(rest)
             ask = None
@@ -64,10 +79,11 @@ def main():
                 "spec": {"brand": name, "size": size_m.group(1) if size_m else None,
                          "excerpt": rest[:200]},
                 "fallback_url": "https://www.therealreal.com/shop/women",
+                "image_path": img_url,
             }
             db.upsert(con, rec)
             n += 1
-        print(f"[{url}] +{n} items (dept {dept}) · ask-filled {sum(1 for _ in () )}")
+        print(f"[{url}] +{n} items (dept {dept})")
         total += n
     print(f"done, {total} RealReal items this run")
 

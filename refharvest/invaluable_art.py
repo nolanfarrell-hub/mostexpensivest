@@ -63,14 +63,16 @@ def main():
         if not ART_KW.search(card) or NOT_ART.search(card):
             continue
         # title: from image alt or first bracketed text with enough length
-        title_m = re.search(r"!\[Image \d*: ([^\]]{8,160})\]",
-                            card) or re.search(r"\* \[([^\]]{8,160})\]",
-                                               card)
+        title_m = re.search(r"!\[Image \d*: ([^\]]{8,160})\]\s*\(([^)]*)\)",
+                            card) or re.search(r"\* \[([^\]]{8,160})\]", card)
         url_m = re.search(r"https://www\.invaluable\.com/auction-lot/[^\s)\]]+",
                           card)
         if not title_m or not url_m:
             continue
         title = clean(title_m.group(1))
+        img_url = None
+        if title_m.lastindex and title_m.lastindex >= 2:
+            img_url = title_m.group(2)
         url = url_m.group(0)
         # house = a line like 'Lawsons' / 'Santa Fe Art Auction' before 'Est'
         house_m = re.search(r"\]\s*~*\s*([A-Z][A-Za-z0-9 &'.,-]{2,40})\.?\s+Est(?:\.)?:", card)
@@ -107,6 +109,7 @@ def main():
             "spec": {"house": house, "estimate": est, "estimate_raw": est,
                      "bids": bids.group(1) if bids else None},
             "fallback_url": ("https://www.invaluable.com/search/?q=painting"),
+            "image_path": img_url,
         }
         db.upsert(con, rec)
         lots.append(rec)

@@ -31,11 +31,11 @@
       '<i>' + esc(label) + '</i><b>' + v + '</b></span>';
   }
 
-  function makeCard(it, photo) {
-    var img = it.image && it.image.indexOf('/') !== -1 ? it.image : (photo || '');
+  function makeCard(it) {
+    var img = it.image && it.image.indexOf('http') === 0 ? it.image : '';
     var im = img
       ? '<div class="im"><img src="' + esc(img) + '" alt="" loading="lazy"/><span class="live">LIVE</span></div>'
-      : '<div class="im noph"><span class="live">LIVE</span></div>';
+      : '<div class="im noph"><span class="mono">ME</span><span class="live">LIVE</span></div>';
     var spec = it.spec || {};
     var s = it.scores || {};
     var meta = [];
@@ -120,10 +120,9 @@
     var grid = document.querySelector(cfg.grid);
     var list = items.slice(0, cfg.limit || 30);
     if (grid) {
-      grid.innerHTML = list.map(function (it, i) {
-        var ph = cfg.photos && cfg.photos.length ? cfg.photos[i % cfg.photos.length] : null;
-        return makeCard(it, ph);
-      }).join('') || '<div class="mload">The market is being updated.</div>';
+      // each card shows its OWN real image (it.image) when the source provides
+      // one; otherwise a clean branded placeholder — never a mismatched stock row
+      grid.innerHTML = list.map(makeCard).join('') || '<div class="mload">The market is being updated.</div>';
     }
     if (cfg.records) {
       var rEl = document.querySelector(cfg.records);
