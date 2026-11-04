@@ -1,5 +1,9 @@
 # Python virtualenv -- never commit to GitHub Pages repo
 .venv-me/
+refharvest/.venv/
+refharvest/data/
+refharvest/media/
 
+# NOTE: refharvest/out/feed.json is the site's live data source — committed on purpose.
 # OS cruft
 .DS_Store

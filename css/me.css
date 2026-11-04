@@ -321,3 +321,15 @@ footer{background:var(--ink);color:var(--cream);padding:60px 0 0;border-top:3px 
 .rail-chip.on{background:var(--ink);border-color:var(--ink);color:var(--cream)}
 .rail-chip .cnt{color:var(--faint);margin-left:4px}
 .rail-clear{font-size:9px;letter-spacing:1.5px;text-transform:uppercase;color:var(--bronze);cursor:pointer;border-bottom:1px solid var(--bronze);margin-left:auto}
+
+/* ===== shared market layer (js/market.js) — score chips + rank badge ===== */
+.mcard .rnum{font-family:var(--sans);font-size:8.5px;letter-spacing:2px;color:var(--faint);text-transform:uppercase;margin-bottom:7px}
+.mcard .chips{display:flex;gap:5px;margin-top:11px;flex-wrap:wrap}
+.mcard .schip{display:inline-flex;align-items:center;gap:5px;border:1px solid var(--line);background:var(--paper);padding:3px 7px;font-size:7.5px;letter-spacing:1px;text-transform:uppercase;color:var(--muted)}
+.mcard .schip i{font-style:normal;color:var(--faint)}
+.mcard .schip b{font-family:var(--sans);font-size:11px;color:var(--bronze)}
+.mcard .schip.hi b{color:#1f7a3d}
+.mcard .schip.lo b{color:#9a2f2f}
+.mcard .meta{font-size:8.5px;letter-spacing:1px;text-transform:uppercase;color:var(--faint);margin:8px 0 0;line-height:1.5}
+#artScored .mgrid, #fieldScored .mgrid, #estateScored .mgrid, #tableScored .mgrid, #styleScored .mgrid, #seaScored .mgrid, #roadScored .mgrid{margin-top:22px}
+.rrow .rprice span{display:block;font-size:8.5px;letter-spacing:1px;text-transform:uppercase;color:var(--faint);font-weight:400;font-family:var(--sans);margin-bottom:4px}

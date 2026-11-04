@@ -1,0 +1,273 @@
+{
+  "url": "https://www.jamesedition.com/real_estate/all",
+  "title": "806,814 luxury real estate and homes for sale worldwide | JamesEdition",
+  "card_repeats": 29,
+  "anatomy": [
+    {
+      "tag": "a",
+      "price": true
+    },
+    {
+      "tag": "div"
+    },
+    {
+      "tag": "div",
+      "text": "Video"
+    },
+    {
+      "tag": "div"
+    },
+    {
+      "tag": "use"
+    },
+    {
+      "tag": "div"
+    },
+    {
+      "tag": "div"
+    },
+    {
+      "tag": "div"
+    },
+    {
+      "tag": "div"
+    },
+    {
+      "tag": "use"
+    },
+    {
+      "tag": "div"
+    },
+    {
+      "tag": "span"
+    },
+    {
+      "tag": "span",
+      "text": "1"
+    },
+    {
+      "tag": "div"
+    },
+    {
+      "tag": "use"
+    },
+    {
+      "tag": "div"
+    },
+    {
+      "tag": "div",
+      "text": "View 33 photos"
+    },
+    {
+      "tag": "div"
+    },
+    {
+      "tag": "div"
+    },
+    {
+      "tag": "picture"
+    },
+    {
+      "tag": "source"
+    },
+    {
+      "tag": "source"
+    },
+    {
+      "tag": "source"
+    },
+    {
+      "tag": "img"
+    },
+    {
+      "tag": "div"
+    },
+    {
+      "tag": "div"
+    },
+    {
+      "tag": "div"
+    },
+    {
+      "tag": "div"
+    },
+    {
+      "tag": "div"
+    },
+    {
+      "tag": "div"
+    },
+    {
+      "tag": "div"
+    },
+    {
+      "tag": "div"
+    },
+    {
+      "tag": "div"
+    },
+    {
+      "tag": "div",
+      "price": true
+    },
+    {
+      "tag": "div",
+      "text": "$782,450",
+      "price": true
+    },
+    {
+      "tag": "div"
+    },
+    {
+      "tag": "span",
+      "text": "2 Beds"
+    },
+    {
+      "tag": "span",
+      "text": "2 Baths"
+    },
+    {
+      "tag": "span",
+      "text": "1507 sqft"
+    },
+    {
+      "tag": "div"
+    }
+  ],
+  "facets": [
+    "Save search",
+    "Filters",
+    "Type",
+    "Price",
+    "Beds",
+    "Amenities",
+    "New Builds",
+    "Yes",
+    "Later",
+    "Show more Show less",
+    "House",
+    "All types",
+    "Villa",
+    "Estate",
+    "Country House",
+    "Finca",
+    "Chalet",
+    "Townhouse",
+    "Bungalow",
+    "Apartment",
+    "Penthouse",
+    "Condo",
+    "Co Op",
+    "Land",
+    "Castle",
+    "Chateau",
+    "Farm Ranch",
+    "Private Island",
+    "Show new builds only",
+    "Hide \"Price on Request\" listings",
+    "Any",
+    "1+",
+    "2+",
+    "3+",
+    "4+",
+    "5+",
+    "Use exact match",
+    "Clear all",
+    "Panoramic / Scenic View",
+    "Mountain View",
+    "Water View",
+    "Ocean View",
+    "Sea View",
+    "Lake View",
+    "River View",
+    "Golf View",
+    "Garden",
+    "Pool",
+    "Terrace",
+    "Garage",
+    "Balcony",
+    "Outdoor Kitchen",
+    "Tennis Court",
+    "Vineyard / Winery",
+    "Private Beach",
+    "Helipad",
+    "Private Airport",
+    "Fireplace",
+    "Air Conditioning",
+    "Bar",
+    "Office",
+    "Elevator",
+    "Fitness Center / Gym",
+    "Open Kitchen",
+    "Jacuzzi",
+    "Sauna",
+    "Game Room",
+    "Wine Cellar",
+    "Cinema",
+    "Library",
+    "Indoor Pool",
+    "Steam Room",
+    "Privacy",
+    "Modern",
+    "Investment Property",
+    "Renovated",
+    "Waterfront",
+    "Gated Community",
+    "City View",
+    "Coastal",
+    "Duplex",
+    "Equestrian",
+    "Beachfront",
+    "Oceanfront",
+    "Lakefront",
+    "Seafront",
+    "Mansion",
+    "Hilltop",
+    "Riverfront",
+    "High Altitude",
+    "Ski-In / Ski-Out",
+    "Video tour",
+    "Virtual tour",
+    "Barnes International Realty",
+    "Better Homes and Gardens Real Estate",
+    "Century 21",
+    "Christie's International Real Estate",
+    "Coldwell Banker Global Luxury",
+    "Corcoran",
+    "Douglas Elliman",
+    "Engel & V\u00f6lkers",
+    "ERA Real Estate",
+    "Fine & Country",
+    "John Taylor",
+    "Keller Williams",
+    "Luxury Portfolio International",
+    "Savills",
+    "Sotheby's International Realty",
+    "Show 500+ homes",
+    "Clear",
+    "Done"
+  ],
+  "facet_links": [],
+  "type_sizes": [
+    [
+      ".875rem",
+      2
+    ],
+    [
+      "14px",
+      2
+    ],
+    [
+      "11px",
+      2
+    ],
+    [
+      ".6875rem",
+      1
+    ],
+    [
+      "12px",
+      1
+    ]
+  ]
+}

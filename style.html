@@ -32,10 +32,11 @@
 <section class="dhero"><img src="media/img/suit.jpg" alt="Department VII · Tailoring, Jewelry &amp; Leather"/><div class="cap"><div class="kicker"><span class="r"></span>Department VII · Tailoring, Jewelry &amp; Leather</div><h1>Style</h1><div class="lede">Tailoring, jewelry and the made-to-measure secret.</div></div></section>
 <div class="dwrap">
   <div class="market dsec">
-    <div class="mh"><h2><span class="no">I.</span>On the Market — Live</h2><div class="count">the finest listed now · verified daily</div></div>
-    <div id="meMarket" class="mgrid"><div class="mload">reading the market…</div></div>
+    <div class="mh"><h2><span class="no">I.</span>On the Market — Live</h2><div class="count">placed, priced &amp; ranked by the desk</div></div>
+    <div class="market-rail" id="styleRail"></div>
+    <div id="styleScored" class="mgrid"><div class="mload">reading the market…</div></div>
   </div>
-  <div class="attrib" style="margin-top:12px">Link destinations live-verified from the ME market engine; each opens the actual marketplace where these are listed for sale now.</div>
+  <div class="attrib" style="margin-top:12px">Ranked on value, rarity and investment from live sale records; each links to its marketplace.</div>
 </div>
 <div class="dwrap"><div class="dsec">
   <div class="feed-head"><h2><span class="no">II.</span>From the Desk</h2><div class="note">the stories that set the market</div></div>
@@ -78,8 +79,13 @@
 (function(){function esc(s){var d=document.createElement("div");d.textContent=s==null?"":String(s);return d.innerHTML;}function money(n){if(n==null||isNaN(n))return "on request";return "$"+Math.round(n).toLocaleString("en-US");}
 fetch("media/style_records.json",{cache:"no-store"}).then(function(r){return r.json();}).then(function(recs){var tb=document.getElementById("styleTable");if(!tb)return;recs.sort(function(a,b){return (b.price||0)-(a.price||0);});tb.innerHTML=recs.slice(0,8).map(function(r){return '<a class="rrow" href="'+esc(r.src)+'" target="_blank" rel="noopener"><div class="rdesc">'+esc(r.name)+'</div><div class="rtype">'+esc(r.type)+'</div><div class="rloc">'+esc(r.locale)+'</div><div class="rnote2">'+esc(r.note||'')+'</div><div class="rprice">'+money(r.price)+' · <span class="rgo">record ↗</span></div></a>';}).join("");}).catch(function(){var tb=document.getElementById("styleTable");if(tb)tb.innerHTML='<div class="mload" style="padding:20px">The ledger is momentarily unavailable.</div>';});})();
 </script>
-<script src="js/market-loader.js"></script>
-<script>(function(){__meMarketLoad('style','meMarket',['media/img/suit.jpg','media/img/dep_library.jpg','media/img/suit.jpg']);})();</script>
+<script src="js/market.js"></script>
+<script>
+ME.market({ feed:'refharvest/out/feed.json', dept:'style',
+  grid:'#styleScored', rail:'#styleRail', records:'#styleTable',
+  photos:['media/img/suit.jpg','media/img/dep_library.jpg','media/img/suit.jpg'],
+  limit:9 });
+</script>
 
 </body>
 </html>

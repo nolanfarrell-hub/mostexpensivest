@@ -1,0 +1,234 @@
+[
+ {
+  "dept": "art",
+  "register": "market",
+  "url": "https://www.1stdibs.com/buy/art/?period=mid-century",
+  "status": "wall",
+  "note": "use primed facet URL, root times out"
+ },
+ {
+  "dept": "style",
+  "register": "market",
+  "url": "https://www.1stdibs.com/fashion/",
+  "status": "wall"
+ },
+ {
+  "dept": "style",
+  "register": "market",
+  "url": "https://www.net-a-porter.com/en-us/shop/clothing",
+  "status": "wall",
+  "render": true
+ },
+ {
+  "dept": "style",
+  "register": "market",
+  "url": "https://www.therealreal.com/shop/women",
+  "status": "wall"
+ },
+ {
+  "dept": "time",
+  "register": "market",
+  "url": "https://www.watchfinder.com/rolex",
+  "status": "wall",
+  "render": true
+ },
+ {
+  "dept": "time",
+  "register": "market",
+  "url": "https://marketplace.watchcharts.com/",
+  "status": "wall",
+  "render": true
+ },
+ {
+  "dept": "road",
+  "register": "market",
+  "url": "https://collectingcars.com/for-sale",
+  "status": "wall",
+  "render": true
+ },
+ {
+  "dept": "field",
+  "register": "market",
+  "url": "https://www.holtsauctioneers.com/",
+  "status": "wall"
+ },
+ {
+  "dept": "field",
+  "register": "market",
+  "url": "https://www.gavingardiner.com/",
+  "status": "wall"
+ },
+ {
+  "dept": "field",
+  "register": "market",
+  "url": "https://www.bonhams.com/department/GUN/sporting-guns/",
+  "status": "wall",
+  "render": true
+ },
+ {
+  "dept": "field",
+  "register": "market",
+  "url": "https://www.gunbroker.com/",
+  "status": "wall",
+  "render": true
+ },
+ {
+  "dept": "table",
+  "register": "market",
+  "url": "https://www.bondroberts.com/",
+  "status": "wall",
+  "render": true
+ },
+ {
+  "dept": "table",
+  "register": "market",
+  "url": "https://www.masterofmalt.com/whiskies/",
+  "status": "wall"
+ },
+ {
+  "dept": "table",
+  "register": "market",
+  "url": "https://www.thewhiskyexchange.com/whisky/",
+  "status": "wall"
+ },
+ {
+  "dept": "table",
+  "register": "editorial",
+  "url": "https://www.decanter.com/wine-reviews/",
+  "status": "wall"
+ },
+ {
+  "dept": "art",
+  "register": "market",
+  "url": "https://www.artnet.com/auctions/",
+  "status": "wall",
+  "render": true
+ },
+ {
+  "dept": "art",
+  "register": "market",
+  "url": "https://ha.com/",
+  "status": "wall",
+  "render": true
+ },
+ {
+  "dept": "art",
+  "register": "editorial",
+  "url": "https://news.artnet.com/",
+  "status": "wall"
+ },
+ {
+  "dept": "art",
+  "register": "market",
+  "url": "https://www.sothebys.com/en/buy/handbags",
+  "status": "wall",
+  "render": true
+ },
+ {
+  "dept": "estates",
+  "register": "market",
+  "url": "https://www.jamesedition.com/real_estate/all",
+  "status": "wall",
+  "render": true
+ },
+ {
+  "dept": "estates",
+  "register": "market",
+  "url": "https://www.luxuryestate.com/",
+  "status": "wall"
+ },
+ {
+  "dept": "estates",
+  "register": "editorial",
+  "url": "https://www.mansionglobal.com/dubai",
+  "status": "bot"
+ },
+ {
+  "dept": "estates",
+  "register": "editorial",
+  "url": "https://www.mansionglobal.com/london",
+  "status": "bot"
+ },
+ {
+  "dept": "field",
+  "register": "market",
+  "url": "https://www.gunsinternational.com/",
+  "status": "404-recovery"
+ },
+ {
+  "dept": "art",
+  "register": "market",
+  "url": "https://www.invaluable.com/",
+  "status": "404-recovery"
+ },
+ {
+  "dept": "style",
+  "register": "market",
+  "url": "https://www.grailed.com/categories/outerwear",
+  "status": "done",
+  "skip": true
+ },
+ {
+  "dept": "style",
+  "register": "market",
+  "url": "https://www.fashionphile.com/shop/handbags",
+  "status": "done",
+  "skip": true
+ },
+ {
+  "dept": "art",
+  "register": "market",
+  "url": "https://www.liveauctioneers.com/c/art/",
+  "status": "done",
+  "skip": true
+ },
+ {
+  "dept": "estates",
+  "register": "market",
+  "url": "https://www.sothebysrealty.com/eng/sales/usa",
+  "status": "done",
+  "skip": true
+ },
+ {
+  "dept": "sea",
+  "register": "market",
+  "url": "https://www.yatco.com/yachts-for-sale/",
+  "status": "done",
+  "skip": true
+ },
+ {
+  "dept": "time",
+  "register": "market",
+  "url": "https://www.chrono24.com/watches/index.htm",
+  "status": "done",
+  "skip": true
+ },
+ {
+  "dept": "sea",
+  "register": "market",
+  "url": "https://www.yachtworld.com/boats-for-sale/",
+  "status": "done",
+  "skip": true
+ },
+ {
+  "dept": "art",
+  "register": "market",
+  "url": "https://www.artsy.net/collect",
+  "status": "done",
+  "skip": true
+ },
+ {
+  "dept": "style",
+  "register": "market",
+  "url": "https://us.vestiairecollective.com/women/",
+  "status": "done",
+  "skip": true
+ },
+ {
+  "dept": "road",
+  "register": "market",
+  "url": "https://bringatrailer.com/",
+  "status": "done",
+  "skip": true
+ }
+]

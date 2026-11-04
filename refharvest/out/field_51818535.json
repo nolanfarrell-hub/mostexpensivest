@@ -1,0 +1,59 @@
+{
+  "url": "https://www.holtsauctioneers.com/",
+  "title": "HOLTS Auctioneers",
+  "card_repeats": 21,
+  "anatomy": [
+    {
+      "tag": "div"
+    },
+    {
+      "tag": "a"
+    },
+    {
+      "tag": "img"
+    },
+    {
+      "tag": "div"
+    },
+    {
+      "tag": "h4"
+    },
+    {
+      "tag": "br"
+    }
+  ],
+  "facets": [
+    "LIVE AUCTIONONLINE CATALOGUE",
+    "SEALED BID AUCTION",
+    "THE SALEROOM LIVE ONLINE",
+    "INVALUABLE LIVE ONLINE",
+    "AUCTION ROOM WEBCAM",
+    "BORE MEASUREMENTS",
+    "PROVENANCE",
+    "DIGITAL CATALOGUE DOWNLOAD",
+    "FREE VALUATION DAYS",
+    "HOLTS MUZZLE LOADING SHOOT",
+    "HOLTS FRANCE",
+    "HOLTS SOUTH AFRICA",
+    "HOLTS DENMARK",
+    "HOLTS ITALY",
+    "HOLTS REPRESENTATIVES",
+    "FREE GUN VALUATION",
+    "HOW TO BID",
+    "SHIPPING",
+    "HOLTS MOVIE",
+    "VISITING HOLTS",
+    "IN THE GUNROOM"
+  ],
+  "facet_links": [],
+  "type_sizes": [
+    [
+      "16px",
+      2
+    ],
+    [
+      "15px",
+      1
+    ]
+  ]
+}

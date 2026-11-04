@@ -1,0 +1,54 @@
+{
+  "url": "https://www.bonhams.com/department/GUN/sporting-guns/",
+  "title": "Bonhams : Sporting Guns",
+  "card_repeats": 12,
+  "anatomy": [
+    {
+      "tag": "img"
+    },
+    {
+      "tag": "a"
+    },
+    {
+      "tag": "span",
+      "text": "\u00a335,000",
+      "price": true
+    }
+  ],
+  "facets": [],
+  "facet_links": [],
+  "type_sizes": [
+    [
+      "1.5rem",
+      12
+    ],
+    [
+      "1rem",
+      5
+    ],
+    [
+      ".85rem",
+      3
+    ],
+    [
+      "16px",
+      2
+    ],
+    [
+      "11px",
+      2
+    ],
+    [
+      "1.125rem",
+      1
+    ],
+    [
+      "1.25rem",
+      1
+    ],
+    [
+      "1.18rem",
+      1
+    ]
+  ]
+}

@@ -1,0 +1,133 @@
+{
+  "url": "https://www.luxuryestate.com/",
+  "title": "Luxury Homes and Prestigious Properties for Sale - LuxuryEstate.com",
+  "card_repeats": 20,
+  "anatomy": [
+    {
+      "tag": "article",
+      "price": true
+    },
+    {
+      "tag": "div"
+    },
+    {
+      "tag": "img"
+    },
+    {
+      "tag": "div",
+      "price": true
+    },
+    {
+      "tag": "div",
+      "price": true
+    },
+    {
+      "tag": "p",
+      "price": true
+    },
+    {
+      "tag": "span",
+      "text": "\u20ac"
+    },
+    {
+      "tag": "span",
+      "text": "80,000,000"
+    },
+    {
+      "tag": "p"
+    },
+    {
+      "tag": "a"
+    },
+    {
+      "tag": "span",
+      "text": "Detached House in La Muette, Auteuil, Porte Dauphine, Paris"
+    },
+    {
+      "tag": "div"
+    },
+    {
+      "tag": "div"
+    },
+    {
+      "tag": "img"
+    },
+    {
+      "tag": "span",
+      "text": "Paris Ouest Sotheby's International Realty"
+    },
+    {
+      "tag": "div"
+    },
+    {
+      "tag": "span"
+    },
+    {
+      "tag": "use"
+    },
+    {
+      "tag": "span"
+    },
+    {
+      "tag": "use"
+    },
+    {
+      "tag": "span"
+    },
+    {
+      "tag": "use"
+    }
+  ],
+  "facets": [],
+  "facet_links": [],
+  "type_sizes": [
+    [
+      "14px",
+      13
+    ],
+    [
+      "1.4rem",
+      11
+    ],
+    [
+      "16px",
+      8
+    ],
+    [
+      "24px",
+      8
+    ],
+    [
+      "20px",
+      7
+    ],
+    [
+      "1.6rem",
+      5
+    ],
+    [
+      "1.2rem",
+      5
+    ],
+    [
+      "32px",
+      5
+    ],
+    [
+      "40px",
+      5
+    ],
+    [
+      "48px",
+      3
+    ],
+    [
+      "12px",
+      3
+    ],
+    [
+      "2rem",
+      1
+    ]
+  ]
+}

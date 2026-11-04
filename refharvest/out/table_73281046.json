@@ -1,0 +1,185 @@
+{
+  "url": "https://www.bondroberts.com/",
+  "title": "Home | Bond Roberts",
+  "card_repeats": 10,
+  "anatomy": [
+    {
+      "tag": "div"
+    },
+    {
+      "tag": "div"
+    },
+    {
+      "tag": "a"
+    },
+    {
+      "tag": "img"
+    },
+    {
+      "tag": "div"
+    },
+    {
+      "tag": "a"
+    },
+    {
+      "tag": "h2",
+      "text": "Punch Punch 48 Habanos Specialist Exclusive 2023 8 cigars remaining"
+    },
+    {
+      "tag": "div"
+    },
+    {
+      "tag": "div"
+    },
+    {
+      "tag": "span",
+      "text": "timer"
+    },
+    {
+      "tag": "hr"
+    },
+    {
+      "tag": "div"
+    },
+    {
+      "tag": "h6"
+    },
+    {
+      "tag": "h6",
+      "text": "1 Day 18 Hrs Remaining"
+    },
+    {
+      "tag": "div",
+      "price": true
+    },
+    {
+      "tag": "div",
+      "price": true
+    },
+    {
+      "tag": "h6",
+      "text": "Current Bid:"
+    },
+    {
+      "tag": "p",
+      "price": true
+    },
+    {
+      "tag": "span",
+      "text": "$311 US",
+      "price": true
+    },
+    {
+      "tag": "div"
+    },
+    {
+      "tag": "h6",
+      "text": "No. of Bids:"
+    },
+    {
+      "tag": "p"
+    },
+    {
+      "tag": "span",
+      "text": "32 Bids"
+    },
+    {
+      "tag": "div"
+    },
+    {
+      "tag": "h6",
+      "text": "Seller:"
+    },
+    {
+      "tag": "p"
+    },
+    {
+      "tag": "span",
+      "text": "phonics"
+    },
+    {
+      "tag": "div"
+    },
+    {
+      "tag": "div"
+    },
+    {
+      "tag": "div"
+    },
+    {
+      "tag": "button"
+    },
+    {
+      "tag": "span",
+      "text": "Bid"
+    },
+    {
+      "tag": "span"
+    },
+    {
+      "tag": "div"
+    },
+    {
+      "tag": "button"
+    },
+    {
+      "tag": "span",
+      "text": "Buy Now"
+    },
+    {
+      "tag": "span"
+    }
+  ],
+  "facets": [],
+  "facet_links": [],
+  "type_sizes": [
+    [
+      "0.875rem",
+      5
+    ],
+    [
+      "0.8125rem",
+      3
+    ],
+    [
+      "0.9375rem",
+      3
+    ],
+    [
+      "1rem",
+      2
+    ],
+    [
+      "0.75rem",
+      2
+    ],
+    [
+      "18px",
+      1
+    ],
+    [
+      "20px",
+      1
+    ],
+    [
+      "22px",
+      1
+    ],
+    [
+      "6rem",
+      1
+    ],
+    [
+      "3.75rem",
+      1
+    ],
+    [
+      "3rem",
+      1
+    ],
+    [
+      "2.125rem",
+      1
+    ]
+  ]
+}

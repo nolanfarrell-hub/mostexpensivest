@@ -1,0 +1,41 @@
+{
+  "url": "https://www.artnet.com/auctions/",
+  "title": "Buy and Sell Contemporary and Modern Art | Artnet Auctions",
+  "card_repeats": 47,
+  "anatomy": [
+    {
+      "tag": "a"
+    },
+    {
+      "tag": "img"
+    }
+  ],
+  "facets": [],
+  "facet_links": [],
+  "type_sizes": [
+    [
+      "14px",
+      13
+    ],
+    [
+      "12px",
+      11
+    ],
+    [
+      "16px",
+      6
+    ],
+    [
+      "18px",
+      2
+    ],
+    [
+      "25px",
+      1
+    ],
+    [
+      "13px",
+      1
+    ]
+  ]
+}
