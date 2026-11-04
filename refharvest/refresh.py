@@ -25,6 +25,8 @@ STEPS = [
     ("bat_lots.py",        "Bring a Trailer (road)", False),
     ("fraser_yachts.py",   "Fraser Yachts (sea)", False),
     ("realreal_items.py",  "The RealReal (style, via jina)", True),
+    ("grailed_men.py",     "Grailed men's (style, via jina)", True),
+    ("vestiaire_men.py",   "Vestiaire men's (style, via jina)", True),
     ("invaluable_art.py",  "Invaluable fine art (via jina)", True),
     ("jamesedition_estates.py", "JamesEdition estates (via jina)", True),
     ("luxuryestate_estates.py", "LuxuryEstate estates (direct)", False),

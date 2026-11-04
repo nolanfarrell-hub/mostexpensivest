@@ -12,7 +12,10 @@ import re, sys, os
 sys.path.insert(0, "/Users/nolanfarrell/sites/mostexpensivest/refharvest")
 import db, fetch
 
-PAGES = {"https://www.therealreal.com/shop/women": "style"}
+PAGES = {
+    "https://www.therealreal.com/shop/women": "style",
+    "https://www.therealreal.com/shop/men": "style",
+}
 
 # URL pattern for product-images.therealreal.com (main product image)
 PROD_IMG = re.compile(r"https://product-images\.therealreal\.com/[A-Z0-9]+_1_enlarged\.jpg")
@@ -102,7 +105,7 @@ def main():
                 "condition": cond_m.group(1).strip() if cond_m else None,
                 "spec": {"brand": name, "size": size_m.group(1) if size_m else None,
                          "excerpt": rest[:200]},
-                "fallback_url": "https://www.therealreal.com/shop/women",
+                "fallback_url": url,
                 "image_path": img_url,
             }
             db.upsert(con, rec)

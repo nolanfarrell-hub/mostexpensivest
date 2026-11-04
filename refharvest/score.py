@@ -128,7 +128,28 @@ def main():
             q, kval, des = rr["s_quality"], rr["s_value"], rr["s_desirability"]
             scored.append((i, kval, q, des))
         scored.sort(key=lambda x: (-x[1], -x[2], -x[3]))
-        for rank, (i, *_ ) in enumerate(scored, 1):
+        rank_order = [i for i, *_ in scored]
+        # STYLE: the editorial intent is MEN'S-led with LADIES mixed in — never
+        # one gender monopolizing the visible grid. Interleave the departure-
+        # gender-agnostic score order so a genuine men+women mix shows at the top.
+        if d == "style":
+            def _gender(i):
+                u = (con.execute("SELECT url FROM items WHERE id=?", (i,))
+                     .fetchone()["url"] or "")
+                if "/men/" in u or "grailed.com" in u or "vestiairecollective.com" in u:
+                    return "m"
+                return "w"    # RealReal women + Sotheby's bags are ladies'
+            men = [i for i in rank_order if _gender(i) == "m"]
+            wom = [i for i in rank_order if _gender(i) == "w"]
+            mixed = []
+            mi = wi = 0
+            while mi < len(men) or wi < len(wom):
+                if mi < len(men):                 # men lead the interleave
+                    mixed.append(men[mi]); mi += 1
+                if wi < len(wom):
+                    mixed.append(wom[wi]); wi += 1
+            rank_order = mixed
+        for rank, i in enumerate(rank_order, 1):
             con.execute("UPDATE items SET rank=? WHERE id=?", (rank, i))
     con.commit()
 
